@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "packageId": "approved-rule-package-v1",
+  "version": 1,
+  "status": "approved",
+  "immutable": true,
+  "packageHash": "4983410ccca1967e8eabc9eea29528669e85b5dd92dd4bff57ba9dd1d0ec42db",
+  "approvedObligations": 12,
+  "sourceVersions": 1,
+  "scenarioGateStatus": "passed",
+  "scenarioBenchmarks": 13,
+  "scenarioPasses": 13,
+  "scenarioFailures": 0,
+  "diffStatus": "changed",
+  "rollbackSupported": true,
+  "previousPackageId": null
+}

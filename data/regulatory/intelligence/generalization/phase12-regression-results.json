@@ -1,0 +1,3367 @@
+[
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:shipping_b2b:fresh_basil:001",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:receiving_b2b:fresh_basil:002",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "first_land_based_receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [
+      "receiving"
+    ],
+    "applied_precedence_rules": [
+      "precedence-first-land-over-generic-receiving"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:first_land_seafood:fresh_basil:003",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "transformation"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:transformation_ftl:fresh_basil:004",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "suppress-direct-to-consumer-shipping"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Review low-signal CTE classification before execution."
+    ],
+    "scenario_id": "phase12:direct_consumer:fresh_basil:005",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "suppress-non-ftl-output"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm transformed output FTL scope before applying downstream FTL duties.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:non_ftl_transformation:fresh_basil:006",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "abstain-transporter-only"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm whether this row represents the covered shipper/receiver or only a transporter/carrier record."
+    ],
+    "scenario_id": "phase12:transporter_only:fresh_basil:007",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "suppress-internal-transfer"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm whether this internal transfer is a reportable shipping/receiving event."
+    ],
+    "scenario_id": "phase12:internal_transfer:fresh_basil:008",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [
+      "abstain-return-or-correction"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Review return/correction evidence before classifying the CTE."
+    ],
+    "scenario_id": "phase12:return_correction:fresh_basil:009",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "traceability_plan"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "traceability-plan-exclusive"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:traceability_plan:fresh_basil:010",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "harvesting"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:harvesting:fresh_basil:011",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "cooling"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "cooling"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:cooling:fresh_basil:012",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "initial_packing"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:initial_packing:fresh_basil:013",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "transformation"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "suppress-non-ftl-output",
+      "abstain-kill-step-or-exemption-uncertainty"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "transformation"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm transformed output FTL scope before applying downstream FTL duties.",
+      "Resolve exemption, kill-step, or food-scope uncertainty before confident CTE classification.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:kill_step_uncertainty:fresh_basil:014",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [
+      "abstain-kill-step-or-exemption-uncertainty"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve exemption, kill-step, or food-scope uncertainty before confident CTE classification.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:exemption_claim_shipping:fresh_basil:015",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve actor role before confident CTE classification."
+    ],
+    "scenario_id": "phase12:ambiguous_actor_receiving:fresh_basil:016",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:food_scope_review_shipping:fresh_basil:017",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:restaurant_receiving:fresh_basil:018",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:distribution_crossdock:fresh_basil:019",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:seafood_processor_shipping:fresh_basil:020",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:shipping_b2b:fresh_tuna:021",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:receiving_b2b:fresh_tuna:022",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "first_land_based_receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [
+      "receiving"
+    ],
+    "applied_precedence_rules": [
+      "precedence-first-land-over-generic-receiving"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:first_land_seafood:fresh_tuna:023",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "transformation"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:transformation_ftl:fresh_tuna:024",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "suppress-direct-to-consumer-shipping"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Review low-signal CTE classification before execution."
+    ],
+    "scenario_id": "phase12:direct_consumer:fresh_tuna:025",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "suppress-non-ftl-output"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm transformed output FTL scope before applying downstream FTL duties.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:non_ftl_transformation:fresh_tuna:026",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "abstain-transporter-only"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm whether this row represents the covered shipper/receiver or only a transporter/carrier record."
+    ],
+    "scenario_id": "phase12:transporter_only:fresh_tuna:027",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "suppress-internal-transfer"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm whether this internal transfer is a reportable shipping/receiving event."
+    ],
+    "scenario_id": "phase12:internal_transfer:fresh_tuna:028",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [
+      "abstain-return-or-correction"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Review return/correction evidence before classifying the CTE."
+    ],
+    "scenario_id": "phase12:return_correction:fresh_tuna:029",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "traceability_plan"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "traceability-plan-exclusive"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:traceability_plan:fresh_tuna:030",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "harvesting"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:harvesting:fresh_tuna:031",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "cooling"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "cooling"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:cooling:fresh_tuna:032",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "initial_packing"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:initial_packing:fresh_tuna:033",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "transformation"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "suppress-non-ftl-output",
+      "abstain-kill-step-or-exemption-uncertainty"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "transformation"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm transformed output FTL scope before applying downstream FTL duties.",
+      "Resolve exemption, kill-step, or food-scope uncertainty before confident CTE classification.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:kill_step_uncertainty:fresh_tuna:034",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [
+      "abstain-kill-step-or-exemption-uncertainty"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve exemption, kill-step, or food-scope uncertainty before confident CTE classification.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:exemption_claim_shipping:fresh_tuna:035",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve actor role before confident CTE classification."
+    ],
+    "scenario_id": "phase12:ambiguous_actor_receiving:fresh_tuna:036",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:food_scope_review_shipping:fresh_tuna:037",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:restaurant_receiving:fresh_tuna:038",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:distribution_crossdock:fresh_tuna:039",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:seafood_processor_shipping:fresh_tuna:040",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:shipping_b2b:soft_cheese:041",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:receiving_b2b:soft_cheese:042",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "first_land_based_receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [
+      "receiving"
+    ],
+    "applied_precedence_rules": [
+      "precedence-first-land-over-generic-receiving"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:first_land_seafood:soft_cheese:043",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "transformation"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:transformation_ftl:soft_cheese:044",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "suppress-direct-to-consumer-shipping"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Review low-signal CTE classification before execution."
+    ],
+    "scenario_id": "phase12:direct_consumer:soft_cheese:045",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "suppress-non-ftl-output"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm transformed output FTL scope before applying downstream FTL duties.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:non_ftl_transformation:soft_cheese:046",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "abstain-transporter-only"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm whether this row represents the covered shipper/receiver or only a transporter/carrier record."
+    ],
+    "scenario_id": "phase12:transporter_only:soft_cheese:047",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "suppress-internal-transfer"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm whether this internal transfer is a reportable shipping/receiving event."
+    ],
+    "scenario_id": "phase12:internal_transfer:soft_cheese:048",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [
+      "abstain-return-or-correction"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Review return/correction evidence before classifying the CTE."
+    ],
+    "scenario_id": "phase12:return_correction:soft_cheese:049",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "traceability_plan"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "traceability-plan-exclusive"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:traceability_plan:soft_cheese:050",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "harvesting"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:harvesting:soft_cheese:051",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "cooling"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "cooling"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:cooling:soft_cheese:052",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "initial_packing"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:initial_packing:soft_cheese:053",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "transformation"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "suppress-non-ftl-output",
+      "abstain-kill-step-or-exemption-uncertainty"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "transformation"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm transformed output FTL scope before applying downstream FTL duties.",
+      "Resolve exemption, kill-step, or food-scope uncertainty before confident CTE classification.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:kill_step_uncertainty:soft_cheese:054",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [
+      "abstain-kill-step-or-exemption-uncertainty"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve exemption, kill-step, or food-scope uncertainty before confident CTE classification.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:exemption_claim_shipping:soft_cheese:055",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve actor role before confident CTE classification."
+    ],
+    "scenario_id": "phase12:ambiguous_actor_receiving:soft_cheese:056",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:food_scope_review_shipping:soft_cheese:057",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:restaurant_receiving:soft_cheese:058",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:distribution_crossdock:soft_cheese:059",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:seafood_processor_shipping:soft_cheese:060",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:shipping_b2b:fresh_cucumber:061",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:receiving_b2b:fresh_cucumber:062",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "first_land_based_receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [
+      "receiving"
+    ],
+    "applied_precedence_rules": [
+      "precedence-first-land-over-generic-receiving"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:first_land_seafood:fresh_cucumber:063",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "transformation"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:transformation_ftl:fresh_cucumber:064",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "suppress-direct-to-consumer-shipping"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Review low-signal CTE classification before execution."
+    ],
+    "scenario_id": "phase12:direct_consumer:fresh_cucumber:065",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "suppress-non-ftl-output"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm transformed output FTL scope before applying downstream FTL duties.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:non_ftl_transformation:fresh_cucumber:066",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "abstain-transporter-only"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm whether this row represents the covered shipper/receiver or only a transporter/carrier record."
+    ],
+    "scenario_id": "phase12:transporter_only:fresh_cucumber:067",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "suppress-internal-transfer"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm whether this internal transfer is a reportable shipping/receiving event."
+    ],
+    "scenario_id": "phase12:internal_transfer:fresh_cucumber:068",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [
+      "abstain-return-or-correction"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Review return/correction evidence before classifying the CTE."
+    ],
+    "scenario_id": "phase12:return_correction:fresh_cucumber:069",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "traceability_plan"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "traceability-plan-exclusive"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:traceability_plan:fresh_cucumber:070",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "harvesting"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:harvesting:fresh_cucumber:071",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "cooling"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "cooling"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:cooling:fresh_cucumber:072",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "initial_packing"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:initial_packing:fresh_cucumber:073",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "transformation"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "suppress-non-ftl-output",
+      "abstain-kill-step-or-exemption-uncertainty"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "transformation"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm transformed output FTL scope before applying downstream FTL duties.",
+      "Resolve exemption, kill-step, or food-scope uncertainty before confident CTE classification.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:kill_step_uncertainty:fresh_cucumber:074",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [
+      "abstain-kill-step-or-exemption-uncertainty"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve exemption, kill-step, or food-scope uncertainty before confident CTE classification.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:exemption_claim_shipping:fresh_cucumber:075",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve actor role before confident CTE classification."
+    ],
+    "scenario_id": "phase12:ambiguous_actor_receiving:fresh_cucumber:076",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:food_scope_review_shipping:fresh_cucumber:077",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:restaurant_receiving:fresh_cucumber:078",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:distribution_crossdock:fresh_cucumber:079",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:seafood_processor_shipping:fresh_cucumber:080",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:shipping_b2b:fresh_sprouts:081",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:receiving_b2b:fresh_sprouts:082",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "first_land_based_receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [
+      "receiving"
+    ],
+    "applied_precedence_rules": [
+      "precedence-first-land-over-generic-receiving"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:first_land_seafood:fresh_sprouts:083",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "transformation"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:transformation_ftl:fresh_sprouts:084",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "suppress-direct-to-consumer-shipping"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Review low-signal CTE classification before execution."
+    ],
+    "scenario_id": "phase12:direct_consumer:fresh_sprouts:085",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "suppress-non-ftl-output"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm transformed output FTL scope before applying downstream FTL duties.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:non_ftl_transformation:fresh_sprouts:086",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "abstain-transporter-only"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm whether this row represents the covered shipper/receiver or only a transporter/carrier record."
+    ],
+    "scenario_id": "phase12:transporter_only:fresh_sprouts:087",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "applied_precedence_rules": [
+      "suppress-internal-transfer"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm whether this internal transfer is a reportable shipping/receiving event."
+    ],
+    "scenario_id": "phase12:internal_transfer:fresh_sprouts:088",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [
+      "abstain-return-or-correction"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Review return/correction evidence before classifying the CTE."
+    ],
+    "scenario_id": "phase12:return_correction:fresh_sprouts:089",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "traceability_plan"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "traceability-plan-exclusive"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:traceability_plan:fresh_sprouts:090",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "harvesting"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:harvesting:fresh_sprouts:091",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "cooling"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "cooling"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:cooling:fresh_sprouts:092",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "initial_packing"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:initial_packing:fresh_sprouts:093",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "transformation"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "applied_precedence_rules": [
+      "suppress-non-ftl-output",
+      "abstain-kill-step-or-exemption-uncertainty"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "transformation"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Confirm transformed output FTL scope before applying downstream FTL duties.",
+      "Resolve exemption, kill-step, or food-scope uncertainty before confident CTE classification.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:kill_step_uncertainty:fresh_sprouts:094",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_obligation_ids": [],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [
+      "abstain-kill-step-or-exemption-uncertainty"
+    ],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_obligation_ids": [],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve exemption, kill-step, or food-scope uncertainty before confident CTE classification.",
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:exemption_claim_shipping:fresh_sprouts:095",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve actor role before confident CTE classification."
+    ],
+    "scenario_id": "phase12:ambiguous_actor_receiving:fresh_sprouts:096",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [
+      "Resolve food/form scope before confident CTE classification."
+    ],
+    "scenario_id": "phase12:food_scope_review_shipping:fresh_sprouts:097",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:restaurant_receiving:fresh_sprouts:098",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:distribution_crossdock:fresh_sprouts:099",
+    "status": "pass"
+  },
+  {
+    "actor_role_review_correct": true,
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "actual_suppressed_ctes": [],
+    "applied_precedence_rules": [],
+    "citation_correct": true,
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_suppressed_ctes": [],
+    "food_scope_review_correct": true,
+    "reviewer_questions": [],
+    "scenario_id": "phase12:seafood_processor_shipping:fresh_sprouts:100",
+    "status": "pass"
+  }
+]

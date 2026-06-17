@@ -1,0 +1,732 @@
+[
+  {
+    "canonical_field": "Business identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-00_business_profile-r2-c1"
+    ],
+    "field_key": "business_id",
+    "rationale": "Column 'business_id' matched a known TraceReady/FSMA field alias for 'business_id'.",
+    "review_status": "needs_review",
+    "source_column": "business_id",
+    "source_sheet": "00_Business_Profile",
+    "suggestion_id": "phase10-map-0001",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Business type",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-00_business_profile-r2-c3"
+    ],
+    "field_key": "business_type",
+    "rationale": "Column 'business_type' matched a known TraceReady/FSMA field alias for 'business_type'.",
+    "review_status": "needs_review",
+    "source_column": "business_type",
+    "source_sheet": "00_Business_Profile",
+    "suggestion_id": "phase10-map-0002",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Company name",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-00_business_profile-r2-c2"
+    ],
+    "field_key": "company_name",
+    "rationale": "Column 'company_name' matched a known TraceReady/FSMA field alias for 'company_name'.",
+    "review_status": "needs_review",
+    "source_column": "company_name",
+    "source_sheet": "00_Business_Profile",
+    "suggestion_id": "phase10-map-0003",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Covered entity status",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-00_business_profile-r2-c5"
+    ],
+    "field_key": "covered_entity_status",
+    "rationale": "Column 'covered_entity_status' matched a known TraceReady/FSMA field alias for 'covered_entity_status'.",
+    "review_status": "needs_review",
+    "source_column": "covered_entity_status",
+    "source_sheet": "00_Business_Profile",
+    "suggestion_id": "phase10-map-0004",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Handles FTL foods",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-00_business_profile-r2-c4"
+    ],
+    "field_key": "handles_ftl_foods",
+    "rationale": "Column 'handles_ftl_foods' matched a known TraceReady/FSMA field alias for 'handles_ftl_foods'.",
+    "review_status": "needs_review",
+    "source_column": "handles_ftl_foods",
+    "source_sheet": "00_Business_Profile",
+    "suggestion_id": "phase10-map-0005",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Food Traceability List category",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-01_product_master-r2-c3"
+    ],
+    "field_key": "ftl_category",
+    "rationale": "Column 'ftl_food_category' matched a known TraceReady/FSMA field alias for 'ftl_category'.",
+    "review_status": "needs_review",
+    "source_column": "ftl_food_category",
+    "source_sheet": "01_Product_Master",
+    "suggestion_id": "phase10-map-0006",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Customer FTL scope flag",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-01_product_master-r2-c4",
+      "ev-fsma204_full_audit_sample-01_product_master-r3-c4"
+    ],
+    "field_key": "is_ftl_maybe",
+    "rationale": "Column 'is_ftl_maybe' matched a known TraceReady/FSMA field alias for 'is_ftl_maybe'.",
+    "review_status": "needs_review",
+    "source_column": "is_ftl_maybe",
+    "source_sheet": "01_Product_Master",
+    "suggestion_id": "phase10-map-0007",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Product identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-01_product_master-r2-c1",
+      "ev-fsma204_full_audit_sample-01_product_master-r3-c1"
+    ],
+    "field_key": "product_id",
+    "rationale": "Column 'product_id' matched a known TraceReady/FSMA field alias for 'product_id'.",
+    "review_status": "needs_review",
+    "source_column": "product_id",
+    "source_sheet": "01_Product_Master",
+    "suggestion_id": "phase10-map-0008",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Product name",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-01_product_master-r2-c2",
+      "ev-fsma204_full_audit_sample-01_product_master-r3-c2"
+    ],
+    "field_key": "product_name",
+    "rationale": "Column 'product_name' matched a known TraceReady/FSMA field alias for 'product_name'.",
+    "review_status": "needs_review",
+    "source_column": "product_name",
+    "source_sheet": "01_Product_Master",
+    "suggestion_id": "phase10-map-0009",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Location identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-02_location_master-r2-c1"
+    ],
+    "field_key": "location_id",
+    "rationale": "Column 'location_id' matched a known TraceReady/FSMA field alias for 'location_id'.",
+    "review_status": "needs_review",
+    "source_column": "location_id",
+    "source_sheet": "02_Location_Master",
+    "suggestion_id": "phase10-map-0010",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Location name",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-02_location_master-r2-c2"
+    ],
+    "field_key": "location_name",
+    "rationale": "Column 'location_name' matched a known TraceReady/FSMA field alias for 'location_name'.",
+    "review_status": "needs_review",
+    "source_column": "location_name",
+    "source_sheet": "02_Location_Master",
+    "suggestion_id": "phase10-map-0011",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Location type",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-02_location_master-r2-c3"
+    ],
+    "field_key": "location_type",
+    "rationale": "Column 'location_type' matched a known TraceReady/FSMA field alias for 'location_type'.",
+    "review_status": "needs_review",
+    "source_column": "location_type",
+    "source_sheet": "02_Location_Master",
+    "suggestion_id": "phase10-map-0012",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Counterparty identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-03_partner_master-r2-c1"
+    ],
+    "field_key": "partner_id",
+    "rationale": "Column 'partner_id' matched a known TraceReady/FSMA field alias for 'partner_id'.",
+    "review_status": "needs_review",
+    "source_column": "partner_id",
+    "source_sheet": "03_Partner_Master",
+    "suggestion_id": "phase10-map-0013",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Counterparty name",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-03_partner_master-r2-c2"
+    ],
+    "field_key": "partner_name",
+    "rationale": "Column 'partner_name' matched a known TraceReady/FSMA field alias for 'partner_name'.",
+    "review_status": "needs_review",
+    "source_column": "partner_name",
+    "source_sheet": "03_Partner_Master",
+    "suggestion_id": "phase10-map-0014",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Counterparty type",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-03_partner_master-r2-c3"
+    ],
+    "field_key": "partner_type",
+    "rationale": "Column 'partner_type' matched a known TraceReady/FSMA field alias for 'partner_type'.",
+    "review_status": "needs_review",
+    "source_column": "partner_type",
+    "source_sheet": "03_Partner_Master",
+    "suggestion_id": "phase10-map-0015",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Counterparty relationship",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-03_partner_master-r2-c4"
+    ],
+    "field_key": "partner_relationship",
+    "rationale": "Column 'relationship' matched a known TraceReady/FSMA field alias for 'partner_relationship'.",
+    "review_status": "needs_review",
+    "source_column": "relationship",
+    "source_sheet": "03_Partner_Master",
+    "suggestion_id": "phase10-map-0016",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Traceability plan answer",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c2"
+    ],
+    "field_key": "traceability_plan_answer",
+    "rationale": "Column 'answer' matched a known TraceReady/FSMA field alias for 'traceability_plan_answer'.",
+    "review_status": "needs_review",
+    "source_column": "answer",
+    "source_sheet": "04_Traceability_Plan",
+    "suggestion_id": "phase10-map-0017",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Source document identifier",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c3"
+    ],
+    "field_key": "source_document_id",
+    "rationale": "Column 'evidence_id' matched a known TraceReady/FSMA field alias for 'source_document_id'.",
+    "review_status": "needs_review",
+    "source_column": "evidence_id",
+    "source_sheet": "04_Traceability_Plan",
+    "suggestion_id": "phase10-map-0018",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Traceability plan item",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c1"
+    ],
+    "field_key": "traceability_plan_item",
+    "rationale": "Column 'plan_item' matched a known TraceReady/FSMA field alias for 'traceability_plan_item'.",
+    "review_status": "needs_review",
+    "source_column": "plan_item",
+    "source_sheet": "04_Traceability_Plan",
+    "suggestion_id": "phase10-map-0019",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Actor location identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4"
+    ],
+    "field_key": "actor_location_id",
+    "rationale": "Column 'actor_location_id' matched a known TraceReady/FSMA field alias for 'actor_location_id'.",
+    "review_status": "needs_review",
+    "source_column": "actor_location_id",
+    "source_sheet": "05_CTE_Events",
+    "suggestion_id": "phase10-map-0020",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Traceability event date/time",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3"
+    ],
+    "field_key": "event_datetime",
+    "rationale": "Column 'event_datetime' matched a known TraceReady/FSMA field alias for 'event_datetime'.",
+    "review_status": "needs_review",
+    "source_column": "event_datetime",
+    "source_sheet": "05_CTE_Events",
+    "suggestion_id": "phase10-map-0021",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Traceability event identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1"
+    ],
+    "field_key": "event_id",
+    "rationale": "Column 'event_id' matched a known TraceReady/FSMA field alias for 'event_id'.",
+    "review_status": "needs_review",
+    "source_column": "event_id",
+    "source_sheet": "05_CTE_Events",
+    "suggestion_id": "phase10-map-0022",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Claimed CTE/event type",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2"
+    ],
+    "field_key": "event_type",
+    "rationale": "Column 'event_type' matched a known TraceReady/FSMA field alias for 'event_type'.",
+    "review_status": "needs_review",
+    "source_column": "event_type",
+    "source_sheet": "05_CTE_Events",
+    "suggestion_id": "phase10-map-0023",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Source record number",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c6",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6"
+    ],
+    "field_key": "reference_record_no",
+    "rationale": "Column 'reference_record_no' matched a known TraceReady/FSMA field alias for 'reference_record_no'.",
+    "review_status": "needs_review",
+    "source_column": "reference_record_no",
+    "source_sheet": "05_CTE_Events",
+    "suggestion_id": "phase10-map-0024",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Source record type",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5"
+    ],
+    "field_key": "reference_record_type",
+    "rationale": "Column 'reference_record_type' matched a known TraceReady/FSMA field alias for 'reference_record_type'.",
+    "review_status": "needs_review",
+    "source_column": "reference_record_type",
+    "source_sheet": "05_CTE_Events",
+    "suggestion_id": "phase10-map-0025",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Traceability event identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2"
+    ],
+    "field_key": "event_id",
+    "rationale": "Column 'event_id' matched a known TraceReady/FSMA field alias for 'event_id'.",
+    "review_status": "needs_review",
+    "source_column": "event_id",
+    "source_sheet": "06_Event_Line_Items",
+    "suggestion_id": "phase10-map-0026",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Traceability event line identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1"
+    ],
+    "field_key": "event_line_id",
+    "rationale": "Column 'event_line_id' matched a known TraceReady/FSMA field alias for 'event_line_id'.",
+    "review_status": "needs_review",
+    "source_column": "event_line_id",
+    "source_sheet": "06_Event_Line_Items",
+    "suggestion_id": "phase10-map-0027",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Traceability lot code",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "field_key": "traceability_lot_code",
+    "rationale": "Column 'lot_or_tlc' matched a known TraceReady/FSMA field alias for 'traceability_lot_code'.",
+    "review_status": "needs_review",
+    "source_column": "lot_or_tlc",
+    "source_sheet": "06_Event_Line_Items",
+    "suggestion_id": "phase10-map-0028",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Output lot or traceability lot code",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "field_key": "output_lot_or_tlc",
+    "rationale": "Column 'output_lot_or_tlc' matched a known TraceReady/FSMA field alias for 'output_lot_or_tlc'.",
+    "review_status": "needs_review",
+    "source_column": "output_lot_or_tlc",
+    "source_sheet": "06_Event_Line_Items",
+    "suggestion_id": "phase10-map-0029",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Product identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3"
+    ],
+    "field_key": "product_id",
+    "rationale": "Column 'product_id' matched a known TraceReady/FSMA field alias for 'product_id'.",
+    "review_status": "needs_review",
+    "source_column": "product_id",
+    "source_sheet": "06_Event_Line_Items",
+    "suggestion_id": "phase10-map-0030",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Product name",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4"
+    ],
+    "field_key": "product_name",
+    "rationale": "Column 'product_name' matched a known TraceReady/FSMA field alias for 'product_name'.",
+    "review_status": "needs_review",
+    "source_column": "product_name",
+    "source_sheet": "06_Event_Line_Items",
+    "suggestion_id": "phase10-map-0031",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "KDE CTE type",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c4",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c4"
+    ],
+    "field_key": "cte_type",
+    "rationale": "Column 'cte_type' matched a known TraceReady/FSMA field alias for 'cte_type'.",
+    "review_status": "needs_review",
+    "source_column": "cte_type",
+    "source_sheet": "07_KDE_Values",
+    "suggestion_id": "phase10-map-0032",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Traceability event identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c2",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c2"
+    ],
+    "field_key": "event_id",
+    "rationale": "Column 'event_id' matched a known TraceReady/FSMA field alias for 'event_id'.",
+    "review_status": "needs_review",
+    "source_column": "event_id",
+    "source_sheet": "07_KDE_Values",
+    "suggestion_id": "phase10-map-0033",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Traceability event line identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c3",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c3"
+    ],
+    "field_key": "event_line_id",
+    "rationale": "Column 'event_line_id' matched a known TraceReady/FSMA field alias for 'event_line_id'.",
+    "review_status": "needs_review",
+    "source_column": "event_line_id",
+    "source_sheet": "07_KDE_Values",
+    "suggestion_id": "phase10-map-0034",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "KDE field key",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c6",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c6"
+    ],
+    "field_key": "kde_field_key",
+    "rationale": "Column 'field_key' matched a known TraceReady/FSMA field alias for 'kde_field_key'.",
+    "review_status": "needs_review",
+    "source_column": "field_key",
+    "source_sheet": "07_KDE_Values",
+    "suggestion_id": "phase10-map-0035",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "KDE identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c1",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c1"
+    ],
+    "field_key": "kde_id",
+    "rationale": "Column 'kde_id' matched a known TraceReady/FSMA field alias for 'kde_id'.",
+    "review_status": "needs_review",
+    "source_column": "kde_id",
+    "source_sheet": "07_KDE_Values",
+    "suggestion_id": "phase10-map-0036",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "KDE name",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c5",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c5"
+    ],
+    "field_key": "kde_name",
+    "rationale": "Column 'kde_name' matched a known TraceReady/FSMA field alias for 'kde_name'.",
+    "review_status": "needs_review",
+    "source_column": "kde_name",
+    "source_sheet": "07_KDE_Values",
+    "suggestion_id": "phase10-map-0037",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "KDE value",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c7",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c7"
+    ],
+    "field_key": "kde_value",
+    "rationale": "Column 'kde_value' matched a known TraceReady/FSMA field alias for 'kde_value'.",
+    "review_status": "needs_review",
+    "source_column": "kde_value",
+    "source_sheet": "07_KDE_Values",
+    "suggestion_id": "phase10-map-0038",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "TLC lineage identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c1"
+    ],
+    "field_key": "lineage_id",
+    "rationale": "Column 'lineage_id' matched a known TraceReady/FSMA field alias for 'lineage_id'.",
+    "review_status": "needs_review",
+    "source_column": "lineage_id",
+    "source_sheet": "08_TLC_Lineage",
+    "suggestion_id": "phase10-map-0039",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "TLC lineage status",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c5"
+    ],
+    "field_key": "lineage_status",
+    "rationale": "Column 'lineage_status' matched a known TraceReady/FSMA field alias for 'lineage_status'.",
+    "review_status": "needs_review",
+    "source_column": "lineage_status",
+    "source_sheet": "08_TLC_Lineage",
+    "suggestion_id": "phase10-map-0040",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "TLC lineage relationship type",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c2"
+    ],
+    "field_key": "relationship_type",
+    "rationale": "Column 'relationship_type' matched a known TraceReady/FSMA field alias for 'relationship_type'.",
+    "review_status": "needs_review",
+    "source_column": "relationship_type",
+    "source_sheet": "08_TLC_Lineage",
+    "suggestion_id": "phase10-map-0041",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Target lot or traceability lot code",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c4"
+    ],
+    "field_key": "target_lot_or_tlc",
+    "rationale": "Column 'target_lot_or_tlc' matched a known TraceReady/FSMA field alias for 'target_lot_or_tlc'.",
+    "review_status": "needs_review",
+    "source_column": "target_lot_or_tlc",
+    "source_sheet": "08_TLC_Lineage",
+    "suggestion_id": "phase10-map-0042",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Traceability event identifier",
+    "confidence": 0.98,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-09_source_documents-r2-c2"
+    ],
+    "field_key": "event_id",
+    "rationale": "Column 'event_id' matched a known TraceReady/FSMA field alias for 'event_id'.",
+    "review_status": "needs_review",
+    "source_column": "event_id",
+    "source_sheet": "09_Source_Documents",
+    "suggestion_id": "phase10-map-0043",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Source document identifier",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-09_source_documents-r2-c1"
+    ],
+    "field_key": "source_document_id",
+    "rationale": "Column 'evidence_id' matched a known TraceReady/FSMA field alias for 'source_document_id'.",
+    "review_status": "needs_review",
+    "source_column": "evidence_id",
+    "source_sheet": "09_Source_Documents",
+    "suggestion_id": "phase10-map-0044",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Source document status",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-09_source_documents-r2-c4"
+    ],
+    "field_key": "source_document_status",
+    "rationale": "Column 'evidence_status' matched a known TraceReady/FSMA field alias for 'source_document_status'.",
+    "review_status": "needs_review",
+    "source_column": "evidence_status",
+    "source_sheet": "09_Source_Documents",
+    "suggestion_id": "phase10-map-0045",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Source document type",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-09_source_documents-r2-c3"
+    ],
+    "field_key": "source_document_type",
+    "rationale": "Column 'evidence_type' matched a known TraceReady/FSMA field alias for 'source_document_type'.",
+    "review_status": "needs_review",
+    "source_column": "evidence_type",
+    "source_sheet": "09_Source_Documents",
+    "suggestion_id": "phase10-map-0046",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Exemption claim identifier",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c1"
+    ],
+    "field_key": "exemption_claim_id",
+    "rationale": "Column 'claim_id' matched a known TraceReady/FSMA field alias for 'exemption_claim_id'.",
+    "review_status": "needs_review",
+    "source_column": "claim_id",
+    "source_sheet": "10_Exemptions_Claims",
+    "suggestion_id": "phase10-map-0047",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Exemption claim type",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c2"
+    ],
+    "field_key": "exemption_claim_type",
+    "rationale": "Column 'claim_type' matched a known TraceReady/FSMA field alias for 'exemption_claim_type'.",
+    "review_status": "needs_review",
+    "source_column": "claim_type",
+    "source_sheet": "10_Exemptions_Claims",
+    "suggestion_id": "phase10-map-0048",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Exemption claimed by",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c3"
+    ],
+    "field_key": "exemption_claimed_by",
+    "rationale": "Column 'claimed_by' matched a known TraceReady/FSMA field alias for 'exemption_claimed_by'.",
+    "review_status": "needs_review",
+    "source_column": "claimed_by",
+    "source_sheet": "10_Exemptions_Claims",
+    "suggestion_id": "phase10-map-0049",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  },
+  {
+    "canonical_field": "Exemption evidence provided",
+    "confidence": 0.9,
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c4"
+    ],
+    "field_key": "exemption_evidence_provided",
+    "rationale": "Column 'evidence_provided' matched a known TraceReady/FSMA field alias for 'exemption_evidence_provided'.",
+    "review_status": "needs_review",
+    "source_column": "evidence_provided",
+    "source_sheet": "10_Exemptions_Claims",
+    "suggestion_id": "phase10-map-0050",
+    "suggestion_method": "ai_assisted_field_mapping_suggestion"
+  }
+]

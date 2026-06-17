@@ -1,0 +1,1095 @@
+[
+  {
+    "draft_id": "phase5_ai_assisted:obligations:FSMA204-OBL-002",
+    "collection": "obligations",
+    "record_id": "FSMA204-OBL-002",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1325-6"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "invalid",
+    "schema_valid": true,
+    "citation_valid": false,
+    "validation_errors": [
+      "AI draft has missing, partial, or invalid citations."
+    ],
+    "reviewer_blockers": [
+      "Citation coverage is invalid.",
+      "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1325-6",
+          "citation_anchor": "21 CFR 1.1325",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1325",
+          "page_number": null,
+          "support_text": "(a) Harvesting. (1) For each raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability List that you harvest, you must maintain records containing the following information: (i) The location description for the immediate subsequent recipient (other than a transporter) of the food; (ii) The commodity and, if applicable, variety of the food; (iii) The quantity and unit of measure of the food; (iv) The location description for the farm where the food was harvested; (v) For produce, the name of the field or other growing area from which the food was harvested...; (vi) For aquacultured food, the name of the container...; (vii) The date of harvesting; and (viii) The reference document type and reference document number."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1325-6"
+        ]
+      },
+      "obligation_id": "FSMA204-OBL-002",
+      "subject": "Harvester of raw agricultural commodity (not from fishing vessel) on the Food Traceability List",
+      "condition": "When harvesting a raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability List",
+      "action": "Maintain records containing specified harvesting information",
+      "object": "Records including: immediate subsequent recipient location, commodity and variety, quantity and unit of measure, farm location, field or growing area name (for produce) or container name (for aquacultured food), date of harvesting, and reference document type and number",
+      "required_output": "Harvesting CTE records linked to the traceability lot",
+      "deadline": null,
+      "exceptions": [
+        "Does not apply to raw agricultural commodities obtained from a fishing vessel"
+      ],
+      "applies_to_ctes": [
+        "harvesting"
+      ],
+      "applies_to_food_scope": "Raw agricultural commodities (not from fishing vessel) on the Food Traceability List",
+      "noncompliance_risk": "Missing or incomplete harvesting CTE records"
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:obligations:FSMA204-OBL-004",
+    "collection": "obligations",
+    "record_id": "FSMA204-OBL-004",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1325-6"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "invalid",
+    "schema_valid": true,
+    "citation_valid": false,
+    "validation_errors": [
+      "AI draft has missing, partial, or invalid citations."
+    ],
+    "reviewer_blockers": [
+      "Citation coverage is invalid.",
+      "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1325-6",
+          "citation_anchor": "21 CFR 1.1325",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1325",
+          "page_number": null,
+          "support_text": "(b) Cooling before initial packing. (1) For each raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability List that you cool before it is initially packed, you must maintain records containing the following information: (i) The location description for the immediate subsequent recipient (other than a transporter) of the food; (ii) The commodity and, if applicable, variety of the food; (iii) The quantity and unit of measure of the food; (iv) The location description for where you cooled the food; (v) The date of cooling; (vi) The location description for the farm where the food was harvested; and (vii) The reference document type and reference document number."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1325-6"
+        ]
+      },
+      "obligation_id": "FSMA204-OBL-004",
+      "subject": "Person who cools a raw agricultural commodity (not from fishing vessel) on the Food Traceability List before initial packing",
+      "condition": "When cooling a raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability List before it is initially packed",
+      "action": "Maintain records containing specified cooling information",
+      "object": "Records including: immediate subsequent recipient location, commodity and variety, quantity and unit of measure, location where food was cooled, date of cooling, farm location where food was harvested, and reference document type and number",
+      "required_output": "Cooling CTE records",
+      "deadline": null,
+      "exceptions": [
+        "Does not apply to raw agricultural commodities obtained from a fishing vessel"
+      ],
+      "applies_to_ctes": [
+        "cooling"
+      ],
+      "applies_to_food_scope": "Raw agricultural commodities (not from fishing vessel) on the Food Traceability List",
+      "noncompliance_risk": "Missing or incomplete cooling CTE records"
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:obligations:FSMA204-OBL-006",
+    "collection": "obligations",
+    "record_id": "FSMA204-OBL-006",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "invalid",
+    "schema_valid": true,
+    "citation_valid": false,
+    "validation_errors": [
+      "AI draft has missing, partial, or invalid citations."
+    ],
+    "reviewer_blockers": [
+      "Citation coverage is invalid.",
+      "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7",
+          "citation_anchor": "21 CFR 1.1330",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1330",
+          "page_number": null,
+          "support_text": "(a) Except as specified in paragraph (c) of this section, for each traceability lot of a raw agricultural commodity (other than a food obtained from a fishing vessel) on the Food Traceability List you initially pack, you must maintain records containing the following information and linking this information to the traceability lot..."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7"
+        ]
+      },
+      "obligation_id": "FSMA204-OBL-006",
+      "subject": "Initial packer of a raw agricultural commodity (not from fishing vessel) on the Food Traceability List",
+      "condition": "When initially packing a traceability lot of a raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability List received from a person to whom Subpart S applies",
+      "action": "Maintain records containing specified initial packing information and link this information to the traceability lot",
+      "object": "Records including: commodity and variety received, date received, quantity and unit of measure received, farm location, field or growing area name (for produce) or container name (for aquacultured food), harvester business name and phone number, date of harvesting, cooling location and date (if applicable), assigned traceability lot code, product description of packed food, quantity and unit of measure of packed food, location of initial packing (traceability lot code source), date of initial packing, and reference document type and number",
+      "required_output": "Initial packing CTE records linked to the traceability lot",
+      "deadline": null,
+      "exceptions": [
+        "If food is received from a person to whom Subpart S does not apply, see 21 CFR 1.1330(c) for alternative requirements"
+      ],
+      "applies_to_ctes": [
+        "initial_packing"
+      ],
+      "applies_to_food_scope": "Raw agricultural commodities (not from fishing vessel) on the Food Traceability List",
+      "noncompliance_risk": "Missing or incomplete initial packing CTE records or failure to link records to traceability lot"
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:obligations:FSMA204-OBL-007",
+    "collection": "obligations",
+    "record_id": "FSMA204-OBL-007",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "invalid",
+    "schema_valid": true,
+    "citation_valid": false,
+    "validation_errors": [
+      "AI draft has missing, partial, or invalid citations."
+    ],
+    "reviewer_blockers": [
+      "Citation coverage is invalid.",
+      "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7",
+          "citation_anchor": "21 CFR 1.1330",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1330",
+          "page_number": null,
+          "support_text": "(b) For each traceability lot of sprouts (except soil- or substrate-grown sprouts harvested without their roots) you initially pack, you must also maintain records containing the following information and linking this information to the traceability lot: (1) The location description for the grower of seeds for sprouting and the date of seed harvesting, if either is available; (2) The location description for the seed conditioner or processor, the associated seed lot code, and the date of conditioning or processing; (3) The location description for the seed packinghouse...; (4) The location description for the seed supplier...; (5) A description of the seeds...; (6) The date of receipt of the seeds by the sprouter; and (7) The reference document type and reference document number."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7"
+        ]
+      },
+      "obligation_id": "FSMA204-OBL-007",
+      "subject": "Initial packer of sprouts (except soil- or substrate-grown sprouts harvested without their roots) on the Food Traceability List",
+      "condition": "When initially packing a traceability lot of sprouts (except soil- or substrate-grown sprouts harvested without their roots)",
+      "action": "Additionally maintain records containing specified seed traceability information and link this information to the traceability lot",
+      "object": "Records including: grower location and seed harvest date (if available), seed conditioner/processor location, seed lot code, and conditioning/processing date; seed packinghouse location, packing date, and seed lot code; seed supplier location and seed lot codes; seed description including type, growing specifications, packaging type, and antimicrobial treatment (if applicable); date of seed receipt by sprouter; and reference document type and number",
+      "required_output": "Sprout seed traceability records linked to the traceability lot",
+      "deadline": null,
+      "exceptions": [
+        "Soil- or substrate-grown sprouts harvested without their roots are excluded"
+      ],
+      "applies_to_ctes": [
+        "initial_packing"
+      ],
+      "applies_to_food_scope": "Sprouts on the Food Traceability List (except soil- or substrate-grown sprouts harvested without their roots)",
+      "noncompliance_risk": "Missing or incomplete seed traceability records for sprouts"
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:obligations:FSMA204-OBL-008",
+    "collection": "obligations",
+    "record_id": "FSMA204-OBL-008",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "invalid",
+    "schema_valid": true,
+    "citation_valid": false,
+    "validation_errors": [
+      "AI draft has missing, partial, or invalid citations."
+    ],
+    "reviewer_blockers": [
+      "Citation coverage is invalid.",
+      "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7",
+          "citation_anchor": "21 CFR 1.1330",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1330",
+          "page_number": null,
+          "support_text": "(c) For each traceability lot of a raw agricultural commodity (other than a food obtained from a fishing vessel) on the Food Traceability List you initially pack that you receive from a person to whom this subpart does not apply, you must maintain records containing the following information and linking this information to the traceability lot..."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7"
+        ]
+      },
+      "obligation_id": "FSMA204-OBL-008",
+      "subject": "Initial packer of a raw agricultural commodity (not from fishing vessel) on the Food Traceability List received from a person to whom Subpart S does not apply",
+      "condition": "When initially packing a traceability lot of a raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability List received from a person to whom Subpart S does not apply",
+      "action": "Maintain records containing specified alternative initial packing information and link this information to the traceability lot",
+      "object": "Records including: commodity and variety received, date received, quantity and unit of measure received, location of person from whom food was received, assigned traceability lot code, product description of packed food, quantity and unit of measure of packed food, location of initial packing (traceability lot code source), date of initial packing, and reference document type and number",
+      "required_output": "Initial packing CTE records (alternative set) linked to the traceability lot",
+      "deadline": null,
+      "exceptions": [],
+      "applies_to_ctes": [
+        "initial_packing"
+      ],
+      "applies_to_food_scope": "Raw agricultural commodities (not from fishing vessel) on the Food Traceability List received from non-covered persons",
+      "noncompliance_risk": "Missing or incomplete initial packing CTE records when receiving from non-covered entities"
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:obligations:FSMA204-OBL-009",
+    "collection": "obligations",
+    "record_id": "FSMA204-OBL-009",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1335-8"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "invalid",
+    "schema_valid": true,
+    "citation_valid": false,
+    "validation_errors": [
+      "AI draft has missing, partial, or invalid citations."
+    ],
+    "reviewer_blockers": [
+      "Citation coverage is invalid.",
+      "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1335-8",
+          "citation_anchor": "21 CFR 1.1335",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1335",
+          "page_number": null,
+          "support_text": "For each traceability lot of a food obtained from a fishing vessel for which you are the first land-based receiver, you must maintain records containing the following information and linking this information to the traceability lot: (a) The traceability lot code you assigned; (b) The species and/or acceptable market name for unpackaged food, or the product description for packaged food; (c) The quantity and unit of measure of the food; (d) The harvest date range and locations...; (e) The location description for the first land-based receiver...; (f) The date the food was landed; and (g) The reference document type and reference document number."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1335-8"
+        ]
+      },
+      "obligation_id": "FSMA204-OBL-009",
+      "subject": "First land-based receiver of food obtained from a fishing vessel on the Food Traceability List",
+      "condition": "When acting as the first land-based receiver of a traceability lot of food obtained from a fishing vessel on the Food Traceability List",
+      "action": "Maintain records containing specified first land-based receiving information and link this information to the traceability lot",
+      "object": "Records including: assigned traceability lot code, species and/or acceptable market name (for unpackaged food) or product description (for packaged food), quantity and unit of measure, harvest date range and locations, location of first land-based receiver (traceability lot code source), date food was landed, and reference document type and number",
+      "required_output": "First land-based receiving CTE records linked to the traceability lot",
+      "deadline": null,
+      "exceptions": [],
+      "applies_to_ctes": [
+        "first_land_based_receiving"
+      ],
+      "applies_to_food_scope": "Food obtained from a fishing vessel on the Food Traceability List",
+      "noncompliance_risk": "Missing or incomplete first land-based receiving CTE records"
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:obligations:FSMA204-OBL-010",
+    "collection": "obligations",
+    "record_id": "FSMA204-OBL-010",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "invalid",
+    "schema_valid": true,
+    "citation_valid": false,
+    "validation_errors": [
+      "AI draft has missing, partial, or invalid citations."
+    ],
+    "reviewer_blockers": [
+      "Citation coverage is invalid.",
+      "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9",
+          "citation_anchor": "21 CFR 1.1340",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1340",
+          "page_number": null,
+          "support_text": "(a) For each traceability lot of a food on the Food Traceability List you ship, you must maintain records containing the following information and linking this information to the traceability lot: (1) The traceability lot code for the food; (2) The quantity and unit of measure of the food; (3) The product description for the food; (4) The location description for the immediate subsequent recipient (other than a transporter) of the food; (5) The location description for the location from which you shipped the food; (6) The date you shipped the food; (7) The location description for the traceability lot code source, or the traceability lot code source reference; and (8) The reference document type and reference document number."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9"
+        ]
+      },
+      "obligation_id": "FSMA204-OBL-010",
+      "subject": "Person who ships a food on the Food Traceability List",
+      "condition": "When shipping a traceability lot of a food on the Food Traceability List",
+      "action": "Maintain records containing specified shipping information and link this information to the traceability lot",
+      "object": "Records including: traceability lot code, quantity and unit of measure, product description, location of immediate subsequent recipient (other than transporter), location from which food was shipped, date of shipment, traceability lot code source location or source reference, and reference document type and number",
+      "required_output": "Shipping CTE records linked to the traceability lot",
+      "deadline": null,
+      "exceptions": [
+        "Does not apply to shipment of a food that occurs before the food is initially packed if the food is a raw agricultural commodity not obtained from a fishing vessel"
+      ],
+      "applies_to_ctes": [
+        "shipping"
+      ],
+      "applies_to_food_scope": "Foods on the Food Traceability List",
+      "noncompliance_risk": "Missing or incomplete shipping CTE records"
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:obligations:FSMA204-OBL-012",
+    "collection": "obligations",
+    "record_id": "FSMA204-OBL-012",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "invalid",
+    "schema_valid": true,
+    "citation_valid": false,
+    "validation_errors": [
+      "AI draft has missing, partial, or invalid citations."
+    ],
+    "reviewer_blockers": [
+      "Citation coverage is invalid.",
+      "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+          "citation_anchor": "21 CFR 1.1345",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1345",
+          "page_number": null,
+          "support_text": "(a) Except as specified in paragraphs (b) and (c) of this section, for each traceability lot of a food on the Food Traceability List you receive, you must maintain records containing the following information and linking this information to the traceability lot: (1) The traceability lot code for the food; (2) The quantity and unit of measure of the food; (3) The product description for the food; (4) The location description for the immediate previous source (other than a transporter) for the food; (5) The location description for where the food was received; (6) The date you received the food; (7) The location description for the traceability lot code source, or the traceability lot code source reference; and (8) The reference document type and reference document number."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10"
+        ]
+      },
+      "obligation_id": "FSMA204-OBL-012",
+      "subject": "Person who receives a food on the Food Traceability List from a covered entity",
+      "condition": "When receiving a traceability lot of a food on the Food Traceability List from a person to whom Subpart S applies",
+      "action": "Maintain records containing specified receiving information and link this information to the traceability lot",
+      "object": "Records including: traceability lot code, quantity and unit of measure, product description, location of immediate previous source (other than transporter), location where food was received, date of receipt, traceability lot code source location or source reference, and reference document type and number",
+      "required_output": "Receiving CTE records linked to the traceability lot",
+      "deadline": null,
+      "exceptions": [
+        "Does not apply to receipt of a food that occurs before the food is initially packed if the food is a raw agricultural commodity not obtained from a fishing vessel",
+        "Does not apply to receipt of a food by the first land-based receiver if the food is obtained from a fishing vessel",
+        "If food is received from a person to whom Subpart S does not apply, see 21 CFR 1.1345(b) for alternative requirements"
+      ],
+      "applies_to_ctes": [
+        "receiving"
+      ],
+      "applies_to_food_scope": "Foods on the Food Traceability List",
+      "noncompliance_risk": "Missing or incomplete receiving CTE records"
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:obligations:FSMA204-OBL-013",
+    "collection": "obligations",
+    "record_id": "FSMA204-OBL-013",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "invalid",
+    "schema_valid": true,
+    "citation_valid": false,
+    "validation_errors": [
+      "AI draft has missing, partial, or invalid citations."
+    ],
+    "reviewer_blockers": [
+      "Citation coverage is invalid.",
+      "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+          "citation_anchor": "21 CFR 1.1345",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1345",
+          "page_number": null,
+          "support_text": "(b) For each traceability lot of a food on the Food Traceability List you receive from a person to whom this subpart does not apply, you must maintain records containing the following information and linking this information to the traceability lot: (1) The traceability lot code for the food, which you must assign if one has not already been assigned (except that this paragraph does not apply if you are a retail food establishment or restaurant)..."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10"
+        ]
+      },
+      "obligation_id": "FSMA204-OBL-013",
+      "subject": "Person who receives a food on the Food Traceability List from a person to whom Subpart S does not apply",
+      "condition": "When receiving a traceability lot of a food on the Food Traceability List from a person to whom Subpart S does not apply",
+      "action": "Maintain records containing specified alternative receiving information and link this information to the traceability lot; assign a traceability lot code if one has not already been assigned (except for retail food establishments and restaurants)",
+      "object": "Records including: traceability lot code (assigned if not already assigned, except for retail food establishments and restaurants), quantity and unit of measure, product description, location of immediate previous source (other than transporter), location where food was received (traceability lot code source), date of receipt, and reference document type and number",
+      "required_output": "Receiving CTE records (alternative set) linked to the traceability lot",
+      "deadline": null,
+      "exceptions": [
+        "Retail food establishments and restaurants are not required to assign a traceability lot code under this paragraph",
+        "Does not apply to receipt of a food that occurs before the food is initially packed if the food is a raw agricultural commodity not obtained from a fishing vessel",
+        "Does not apply to receipt of a food by the first land-based receiver if the food is obtained from a fishing vessel"
+      ],
+      "applies_to_ctes": [
+        "receiving"
+      ],
+      "applies_to_food_scope": "Foods on the Food Traceability List received from non-covered persons",
+      "noncompliance_risk": "Missing or incomplete receiving CTE records or failure to assign traceability lot code when receiving from non-covered entities"
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:obligations:FSMA204-OBL-014",
+    "collection": "obligations",
+    "record_id": "FSMA204-OBL-014",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1350-11"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "invalid",
+    "schema_valid": true,
+    "citation_valid": false,
+    "validation_errors": [
+      "AI draft has missing, partial, or invalid citations."
+    ],
+    "reviewer_blockers": [
+      "Citation coverage is invalid.",
+      "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1350-11",
+          "citation_anchor": "21 CFR 1.1350",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1350",
+          "page_number": null,
+          "support_text": "(a) Except as specified in paragraphs (b) and (c) of this section, for each new traceability lot of food you produce through transformation, you must maintain records containing the following information and linking this information to the new traceability lot... (c) Paragraphs (a) and (b) of this section do not apply to retail food establishments and restaurants with respect to foods they do not ship (e.g., foods they sell or send directly to consumers)."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1350-11"
+        ]
+      },
+      "obligation_id": "FSMA204-OBL-014",
+      "subject": "Person who produces food through transformation involving a food on the Food Traceability List",
+      "condition": "When producing a new traceability lot of food through transformation",
+      "action": "Maintain records containing specified transformation information and link this information to the new traceability lot",
+      "object": "Records including: for FTL food used in transformation\u2014traceability lot code, product description, and quantity used from each lot; for food produced through transformation\u2014new traceability lot code, location where food was transformed (traceability lot code source), date transformation was completed, product description, quantity and unit of measure, and reference document type and number",
+      "required_output": "Transformation CTE records linked to the new traceability lot",
+      "deadline": null,
+      "exceptions": [
+        "If transforming a raw agricultural commodity (not from fishing vessel) on the FTL that was not initially packed prior to transformation, must maintain records per 21 CFR 1.1330(a) or (c) (and 1.1330(b) if sprouts)",
+        "Does not apply to retail food establishments and restaurants with respect to foods they do not ship (e.g., foods sold or sent directly to consumers)"
+      ],
+      "applies_to_ctes": [
+        "transformation"
+      ],
+      "applies_to_food_scope": "Foods on the Food Traceability List used in or produced through transformation",
+      "noncompliance_risk": "Missing or incomplete transformation CTE records or failure to link records to new traceability lot"
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:obligations:FSMA204-OBL-018",
+    "collection": "obligations",
+    "record_id": "FSMA204-OBL-018",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1455-31"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "invalid",
+    "schema_valid": true,
+    "citation_valid": false,
+    "validation_errors": [
+      "AI draft has missing, partial, or invalid citations."
+    ],
+    "reviewer_blockers": [
+      "Citation coverage is invalid.",
+      "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1455-31",
+          "citation_anchor": "21 CFR 1.1455",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1455",
+          "page_number": null,
+          "support_text": "(3) When necessary to help FDA prevent or mitigate a foodborne illness outbreak, or to assist in the implementation of a recall, or to otherwise address a threat to the public health...you must make available, within 24 hours (or within some reasonable time to which FDA has agreed) of a request made in-person or remotely (e.g., by phone) by an authorized FDA representative, the information you are required to maintain under this subpart, for the foods and date ranges or traceability lot codes specified in the request. (ii) Except as specified in paragraph (c)(3)(iii) and (iv) of this section, when the information requested by FDA under paragraph (c)(3) of this section is information you are required to maintain under \u00a7\u00a7 1.1325 through 1.1350, you must provide such information in an electronic sortable spreadsheet, along with any other information needed to understand the information in the spreadsheet."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "citation_coverage_failed: AI draft has missing, partial, or invalid citations."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1455-31"
+        ]
+      },
+      "obligation_id": "FSMA204-OBL-018",
+      "subject": "Covered person required to maintain records under Subpart S",
+      "condition": "When FDA requests information to help prevent or mitigate a foodborne illness outbreak, assist in a recall, or otherwise address a threat to public health (including when FDA has a reasonable belief that food presents a threat of serious adverse health consequences or death)",
+      "action": "Make available the required Subpart S information for the foods and date ranges or traceability lot codes specified in the FDA request, in an electronic sortable spreadsheet (with any information needed to understand the spreadsheet), unless an exception applies",
+      "object": "Information required to be maintained under Subpart S for specified foods and date ranges or traceability lot codes, provided in an electronic sortable spreadsheet with supporting explanatory information",
+      "required_output": "Electronic sortable spreadsheet with required traceability information and supporting explanatory information",
+      "deadline": "Within 24 hours of request (in-person or remote, e.g., by phone), or within some reasonable time to which FDA has agreed",
+      "exceptions": [
+        "Farms with average annual sales/market value of RACs no more than $250,000 (inflation-adjusted, 2020 baseline) may provide information in a form other than an electronic sortable spreadsheet",
+        "Retail food establishments or restaurants with average annual monetary value of food sold/provided no more than $1 million (inflation-adjusted, 2020 baseline) may provide information in a form other than an electronic sortable spreadsheet",
+        "Other persons (not farm, retail food establishment, or restaurant) with average annual sales/market value no more than $1 million (inflation-adjusted, 2020 baseline) may provide information in a form other than an electronic sortable spreadsheet",
+        "FDA will withdraw a request for an electronic sortable spreadsheet to accommodate a religious belief of the person asked to provide such a spreadsheet"
+      ],
+      "applies_to_ctes": [
+        "harvesting",
+        "cooling",
+        "initial_packing",
+        "first_land_based_receiving",
+        "shipping",
+        "receiving",
+        "transformation"
+      ],
+      "applies_to_food_scope": "Foods on the Food Traceability List",
+      "noncompliance_risk": "Failure to provide required information in electronic sortable spreadsheet format within 24 hours during a public health emergency or recall"
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:exemption_rules:EXR-001-small-produce-farm",
+    "collection": "exemption_rules",
+    "record_id": "EXR-001-small-produce-farm",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"
+    ],
+    "citation_count": 2,
+    "citation_coverage_status": "complete",
+    "schema_valid": true,
+    "citation_valid": true,
+    "validation_errors": [
+      "AI draft contains material fields that are not sufficiently supported by cited source text."
+    ],
+    "reviewer_blockers": [
+      "unsupported_claim: AI draft contains material fields that are not sufficiently supported by cited source text."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+          "citation_anchor": "21 CFR 1.1305",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1305(a)(1)(i)",
+          "page_number": null,
+          "support_text": "This subpart does not apply to farms or the farm activities of farm mixed-type facilities with respect to the produce they grow, when the farm is not a covered farm under part 112 of this chapter in accordance with \u00a7 112.4(a) of this chapter"
+        },
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+          "citation_anchor": "21 CFR 1.1305",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1305(a)(1)(ii)",
+          "page_number": null,
+          "support_text": "This subpart does not apply to produce farms when the average annual sum of the monetary value of their sales of produce and the market value of produce they manufacture, process, pack, or hold without sale ( e.g., held for a fee) during the previous 3-year period is no more than $25,000 (on a rolling basis), adjusted for inflation using 2020 as the baseline year for calculating the adjustment."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "unsupported_claim: AI draft contains material fields that are not sufficiently supported by cited source text."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"
+        ]
+      },
+      "exemption_rule_id": "EXR-001-small-produce-farm",
+      "exemption_type": "Small Producer Exemption - Produce Farms",
+      "eligibility_condition": "Farm or farm mixed-type facility is not a covered farm under part 112 in accordance with \u00a7 112.4(a), OR the average annual sum of monetary value of produce sales and market value of produce manufactured, processed, packed, or held without sale during the previous 3-year period is no more than $25,000 (on a rolling basis), adjusted for inflation using 2020 as the baseline year.",
+      "effect": "full",
+      "affected_requirements": [
+        "All subpart S traceability requirements"
+      ],
+      "documentation_needed": [
+        "Evidence of non-covered farm status under \u00a7 112.4(a) or 3-year rolling average produce sales/market value records demonstrating \u2264$25,000 threshold"
+      ],
+      "applies_to_entities": [
+        "Farms",
+        "Farm mixed-type facilities"
+      ],
+      "applies_to_foods": [
+        "Produce grown on the farm"
+      ],
+      "applies_to_ctes": [
+        "harvesting",
+        "cooling",
+        "initial_packing",
+        "shipping",
+        "receiving",
+        "transformation"
+      ],
+      "decision_questions": [
+        "Is the farm a covered farm under part 112 per \u00a7 112.4(a)?",
+        "What is the 3-year rolling average annual sum of produce sales and market value of produce held without sale?",
+        "Has the $25,000 threshold been adjusted for inflation from the 2020 baseline?"
+      ],
+      "reviewer_warning": null
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:exemption_rules:EXR-002-small-shell-egg-producer",
+    "collection": "exemption_rules",
+    "record_id": "EXR-002-small-shell-egg-producer",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "complete",
+    "schema_valid": true,
+    "citation_valid": true,
+    "validation_errors": [
+      "AI draft contains material fields that are not sufficiently supported by cited source text."
+    ],
+    "reviewer_blockers": [
+      "unsupported_claim: AI draft contains material fields that are not sufficiently supported by cited source text."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+          "citation_anchor": "21 CFR 1.1305",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1305(a)(2)",
+          "page_number": null,
+          "support_text": "This subpart does not apply to shell egg producers with fewer than 3,000 laying hens at a particular farm, with respect to the shell eggs they produce at that farm."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "unsupported_claim: AI draft contains material fields that are not sufficiently supported by cited source text."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"
+        ]
+      },
+      "exemption_rule_id": "EXR-002-small-shell-egg-producer",
+      "exemption_type": "Small Producer Exemption - Shell Egg Producers",
+      "eligibility_condition": "Shell egg producer has fewer than 3,000 laying hens at a particular farm.",
+      "effect": "full",
+      "affected_requirements": [
+        "All subpart S traceability requirements with respect to shell eggs produced at that farm"
+      ],
+      "documentation_needed": [
+        "Records or attestation of laying hen count at the specific farm"
+      ],
+      "applies_to_entities": [
+        "Shell egg producers"
+      ],
+      "applies_to_foods": [
+        "Shell eggs"
+      ],
+      "applies_to_ctes": [
+        "harvesting",
+        "cooling",
+        "initial_packing",
+        "shipping",
+        "receiving"
+      ],
+      "decision_questions": [
+        "How many laying hens are present at the specific farm in question?",
+        "Is the hen count evaluated per farm location or across all farm locations?"
+      ],
+      "reviewer_warning": null
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:exemption_rules:EXR-003-farm-direct-to-consumer",
+    "collection": "exemption_rules",
+    "record_id": "EXR-003-farm-direct-to-consumer",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "complete",
+    "schema_valid": true,
+    "citation_valid": true,
+    "validation_errors": [
+      "AI draft contains material fields that are not sufficiently supported by cited source text."
+    ],
+    "reviewer_blockers": [
+      "unsupported_claim: AI draft contains material fields that are not sufficiently supported by cited source text."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+          "citation_anchor": "21 CFR 1.1305",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1305(b)",
+          "page_number": null,
+          "support_text": "This subpart does not apply to a farm with respect to food produced on the farm (including food that is also packaged on the farm) that is sold or donated directly to a consumer by the owner, operator, or agent in charge of the farm."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "unsupported_claim: AI draft contains material fields that are not sufficiently supported by cited source text."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"
+        ]
+      },
+      "exemption_rule_id": "EXR-003-farm-direct-to-consumer",
+      "exemption_type": "Farm Direct-to-Consumer Exemption",
+      "eligibility_condition": "Food is produced on the farm (including food that is also packaged on the farm) and is sold or donated directly to a consumer by the owner, operator, or agent in charge of the farm.",
+      "effect": "full",
+      "affected_requirements": [
+        "All subpart S traceability requirements"
+      ],
+      "documentation_needed": [],
+      "applies_to_entities": [
+        "Farms (owner, operator, or agent in charge)"
+      ],
+      "applies_to_foods": [
+        "Food produced on the farm, including food packaged on the farm"
+      ],
+      "applies_to_ctes": [
+        "harvesting",
+        "cooling",
+        "initial_packing",
+        "shipping",
+        "receiving",
+        "transformation"
+      ],
+      "decision_questions": [
+        "Is the food produced on the same farm that is selling or donating it?",
+        "Is the sale or donation made directly to a consumer (not an intermediary)?",
+        "Is the transaction conducted by the owner, operator, or agent in charge of the farm?"
+      ],
+      "reviewer_warning": null
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:exemption_rules:EXR-005-usda-exclusive-jurisdiction",
+    "collection": "exemption_rules",
+    "record_id": "EXR-005-usda-exclusive-jurisdiction",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "complete",
+    "schema_valid": true,
+    "citation_valid": true,
+    "validation_errors": [
+      "AI draft contains material fields that are not sufficiently supported by cited source text."
+    ],
+    "reviewer_blockers": [
+      "unsupported_claim: AI draft contains material fields that are not sufficiently supported by cited source text."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+          "citation_anchor": "21 CFR 1.1305",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1305(g)",
+          "page_number": null,
+          "support_text": "This subpart does not apply to persons who manufacture, process, pack, or hold food on the Food Traceability List during or after the time when the food is within the exclusive jurisdiction of the USDA under the Federal Meat Inspection Act (21 U.S.C. 601 et seq. ), the Poultry Products Inspection Act (21 U.S.C. 451 et seq. ), or the Egg Products Inspection Act (21 U.S.C. 1031 et seq. )."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "unsupported_claim: AI draft contains material fields that are not sufficiently supported by cited source text."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"
+        ]
+      },
+      "exemption_rule_id": "EXR-005-usda-exclusive-jurisdiction",
+      "exemption_type": "USDA Exclusive Jurisdiction Exemption",
+      "eligibility_condition": "Person manufactures, processes, packs, or holds food on the Food Traceability List during or after the time when the food is within the exclusive jurisdiction of the USDA under the Federal Meat Inspection Act, the Poultry Products Inspection Act, or the Egg Products Inspection Act.",
+      "effect": "full",
+      "affected_requirements": [
+        "All subpart S traceability requirements"
+      ],
+      "documentation_needed": [
+        "Evidence that food is within USDA exclusive jurisdiction under applicable Act"
+      ],
+      "applies_to_entities": [
+        "Persons who manufacture, process, pack, or hold food under USDA exclusive jurisdiction"
+      ],
+      "applies_to_foods": [
+        "Foods on the Food Traceability List subject to USDA exclusive jurisdiction under FMIA, PPIA, or EPIA"
+      ],
+      "applies_to_ctes": [
+        "harvesting",
+        "cooling",
+        "initial_packing",
+        "first_land_based_receiving",
+        "shipping",
+        "receiving",
+        "transformation"
+      ],
+      "decision_questions": [
+        "Is the food within the exclusive jurisdiction of USDA under the FMIA, PPIA, or EPIA at the time of the activity?",
+        "Has USDA formally asserted exclusive jurisdiction over this food at this point in the supply chain?"
+      ],
+      "reviewer_warning": null
+    }
+  },
+  {
+    "draft_id": "phase5_ai_assisted:exemption_rules:EXR-006-small-retail-restaurant",
+    "collection": "exemption_rules",
+    "record_id": "EXR-006-small-retail-restaurant",
+    "source_phase": "phase5_ai_assisted",
+    "extraction_method": "ai_assisted",
+    "confidence": "unsupported",
+    "review_status": "rejected",
+    "source_chunk_ids": [
+      "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"
+    ],
+    "citation_count": 1,
+    "citation_coverage_status": "complete",
+    "schema_valid": true,
+    "citation_valid": true,
+    "validation_errors": [
+      "AI draft contains material fields that are not sufficiently supported by cited source text."
+    ],
+    "reviewer_blockers": [
+      "unsupported_claim: AI draft contains material fields that are not sufficiently supported by cited source text."
+    ],
+    "payload": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+          "citation_anchor": "21 CFR 1.1305",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1305(i)",
+          "page_number": null,
+          "support_text": "This subpart does not apply to retail food establishments and restaurants with an average annual monetary value of food sold or provided during the previous 3-year period of no more than $250,000 (on a rolling basis), adjusted for inflation using 2020 as the baseline year for calculating the adjustment."
+        }
+      ],
+      "metadata": {
+        "extraction_method": "ai_assisted",
+        "confidence": "unsupported",
+        "review_status": "rejected",
+        "reviewer_notes": [
+          "unsupported_claim: AI draft contains material fields that are not sufficiently supported by cited source text."
+        ],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"
+        ]
+      },
+      "exemption_rule_id": "EXR-006-small-retail-restaurant",
+      "exemption_type": "Small Retail Food Establishment and Restaurant Exemption",
+      "eligibility_condition": "Retail food establishment or restaurant has an average annual monetary value of food sold or provided during the previous 3-year period of no more than $250,000 (on a rolling basis), adjusted for inflation using 2020 as the baseline year for calculating the adjustment.",
+      "effect": "full",
+      "affected_requirements": [
+        "All subpart S traceability requirements"
+      ],
+      "documentation_needed": [
+        "3-year rolling average annual monetary value of food sold or provided records demonstrating \u2264$250,000 threshold"
+      ],
+      "applies_to_entities": [
+        "Retail food establishments",
+        "Restaurants"
+      ],
+      "applies_to_foods": [
+        "All foods on the Food Traceability List handled by qualifying entities"
+      ],
+      "applies_to_ctes": [
+        "receiving",
+        "shipping",
+        "transformation"
+      ],
+      "decision_questions": [
+        "What is the 3-year rolling average annual monetary value of food sold or provided by the establishment?",
+        "Has the $250,000 threshold been adjusted for inflation from the 2020 baseline?",
+        "Does the entity qualify as a retail food establishment or restaurant under the rule definitions?"
+      ],
+      "reviewer_warning": null
+    }
+  }
+]

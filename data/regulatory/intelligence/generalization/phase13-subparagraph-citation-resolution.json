@@ -1,0 +1,234 @@
+{
+  "generated_at": "2026-06-16T00:00:00Z",
+  "resolutions": [
+    {
+      "candidate_count": 5,
+      "citation_anchor": "21 CFR 1.1300",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1300"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1300",
+      "unresolved_targets": []
+    },
+    {
+      "candidate_count": 12,
+      "citation_anchor": "21 CFR 1.1315",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1315(a)"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1315",
+      "unresolved_targets": []
+    },
+    {
+      "candidate_count": 2,
+      "citation_anchor": "21 CFR 1.1320",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1320(a)"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1320",
+      "unresolved_targets": []
+    },
+    {
+      "candidate_count": 29,
+      "citation_anchor": "21 CFR 1.1325",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1325(a)",
+        "21 CFR 1.1325(b)"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1325",
+      "unresolved_targets": []
+    },
+    {
+      "candidate_count": 37,
+      "citation_anchor": "21 CFR 1.1330",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1330(a)"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1330",
+      "unresolved_targets": []
+    },
+    {
+      "candidate_count": 7,
+      "citation_anchor": "21 CFR 1.1335",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1335"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1335",
+      "unresolved_targets": []
+    },
+    {
+      "candidate_count": 14,
+      "citation_anchor": "21 CFR 1.1340",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1340(a)",
+        "21 CFR 1.1340(b)"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1340",
+      "unresolved_targets": []
+    },
+    {
+      "candidate_count": 20,
+      "citation_anchor": "21 CFR 1.1345",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1345(a)"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1345",
+      "unresolved_targets": []
+    },
+    {
+      "candidate_count": 21,
+      "citation_anchor": "21 CFR 1.1350",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1350(a)"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1350",
+      "unresolved_targets": []
+    },
+    {
+      "candidate_count": 39,
+      "citation_anchor": "21 CFR 1.1455",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1455(a)(1)",
+        "21 CFR 1.1455(a)(2)"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1455",
+      "unresolved_targets": []
+    },
+    {
+      "candidate_count": 39,
+      "citation_anchor": "21 CFR 1.1455",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1455(c)(1)"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1455",
+      "unresolved_targets": []
+    },
+    {
+      "candidate_count": 39,
+      "citation_anchor": "21 CFR 1.1455",
+      "method": "approved_target_artifact:approved-subparagraph-targets-v1",
+      "notes": [
+        "Subparagraph resolution is additive; section-level validation remains authoritative."
+      ],
+      "obligation_id": "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "resolution_status": "resolved",
+      "resolved_subparagraph_anchors": [
+        "21 CFR 1.1455(c)(3)(ii)"
+      ],
+      "section_level_remains_valid": true,
+      "section_level_status": "valid",
+      "section_ref": "21 CFR 1.1455",
+      "unresolved_targets": []
+    }
+  ],
+  "summary": {
+    "approvedTargetArtifact": "approved-subparagraph-targets-v1",
+    "approvedTargetArtifactVersion": 1,
+    "exampleResolvedAnchors": {
+      "FSMA204-OBL-DET-1300-SCOPE": [
+        "21 CFR 1.1300"
+      ],
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN": [
+        "21 CFR 1.1315(a)"
+      ],
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT": [
+        "21 CFR 1.1320(a)"
+      ]
+    },
+    "invalidSectionLevelCitations": 0,
+    "obligationCitations": 12,
+    "resolved": 12,
+    "sectionLevelCitationValidationWeakened": false,
+    "sectionOnly": 0,
+    "status": "pass",
+    "unresolved": 0
+  }
+}

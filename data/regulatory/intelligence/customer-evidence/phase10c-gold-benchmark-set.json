@@ -1,0 +1,3977 @@
+[
+  {
+    "benchmark_id": "phase10c:shipping_b2b:001",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for shipping_b2b.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "Regional distributor"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "Regional distributor",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-001",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-001"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Basil",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_basil",
+      "product_name": "Fresh Basil",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-001",
+      "suppressed_ctes": [],
+      "to_partner_id": "buyer-b"
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "shipping_b2b_001.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "Regional distributor",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-001",
+        "Product": "Fresh Basil"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:receiving_b2b:002",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for receiving_b2b.",
+    "document_type": "receiving_log",
+    "event": {
+      "action_terms": [
+        "receiving",
+        "receiving_log",
+        ""
+      ],
+      "actor_id": "actor:receiver",
+      "actor_role": {
+        "actor_name": "receiver",
+        "actor_type": "receiver",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "receiver"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-002",
+      "event_type_claim": "receiving",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-002"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Tuna",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_tuna",
+      "product_name": "Fresh Tuna",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-002",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "receiving_b2b_002.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "receiver",
+        "Destination": null,
+        "Document Type": "receiving_log",
+        "Event Type": "receiving",
+        "Lot #": "TLC-002",
+        "Product": "Fresh Tuna"
+      },
+      "sheetName": "receiving_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:first_land:003",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for first_land.",
+    "document_type": "seafood_landing_record",
+    "event": {
+      "action_terms": [
+        "receiving",
+        "seafood_landing_record",
+        ""
+      ],
+      "actor_id": "actor:first_land_based_receiver",
+      "actor_role": {
+        "actor_name": "first_land_based_receiver",
+        "actor_type": "first_land_based_receiver",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "first_land_based_receiver"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-003",
+      "event_type_claim": "receiving",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-003"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Cucumber",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_cucumber",
+      "product_name": "Fresh Cucumber",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-003",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "workbook_fixture": {
+      "fileName": "first_land_003.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "first_land_based_receiver",
+        "Destination": null,
+        "Document Type": "seafood_landing_record",
+        "Event Type": "receiving",
+        "Lot #": "TLC-003",
+        "Product": "Fresh Cucumber"
+      },
+      "sheetName": "seafood_landing_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:direct_consumer:004",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for direct_consumer.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "direct to consumer"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "direct to consumer",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-004",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-004"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Soft Cheese",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:soft_cheese",
+      "product_name": "Soft Cheese",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-004",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "direct_consumer_004.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "direct to consumer",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-004",
+        "Product": "Soft Cheese"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transformation_ftl:005",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transformation_ftl.",
+    "document_type": "transformation_batch_record",
+    "event": {
+      "action_terms": [
+        "transformation",
+        "transformation_batch_record",
+        ""
+      ],
+      "actor_id": "actor:processor",
+      "actor_role": {
+        "actor_name": "processor",
+        "actor_type": "processor",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "processor"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-005",
+      "event_type_claim": "transformation",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-005"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Sprouts",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": "OUT-005",
+      "product_id": "product:fresh_sprouts",
+      "product_name": "Fresh Sprouts",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": "SRC-001",
+      "source_row_key": "benchmark:phase10c-benchmark-event-005",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "transformation_ftl_005.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "processor",
+        "Destination": null,
+        "Document Type": "transformation_batch_record",
+        "Event Type": "transformation",
+        "Lot #": "TLC-005",
+        "Product": "Fresh Sprouts"
+      },
+      "sheetName": "transformation_batch_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transformation_non_ftl:006",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transformation_non_ftl.",
+    "document_type": "transformation_batch_record",
+    "event": {
+      "action_terms": [
+        "transformation",
+        "transformation_batch_record",
+        ""
+      ],
+      "actor_id": "actor:processor",
+      "actor_role": {
+        "actor_name": "processor",
+        "actor_type": "processor",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "processor"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-006",
+      "event_type_claim": "transformation",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-006"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "canned",
+          "shelf_stable"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": false,
+        "product_name": "Fresh Basil",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": true
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": "OUT-006",
+      "product_id": "product:fresh_basil",
+      "product_name": "Fresh Basil",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": "SRC-001",
+      "source_row_key": "benchmark:phase10c-benchmark-event-006",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "workbook_fixture": {
+      "fileName": "transformation_non_ftl_006.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "processor",
+        "Destination": null,
+        "Document Type": "transformation_batch_record",
+        "Event Type": "transformation",
+        "Lot #": "TLC-006",
+        "Product": "Fresh Basil"
+      },
+      "sheetName": "transformation_batch_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transporter_only:007",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transporter_only.",
+    "document_type": "bill_of_lading",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "bill_of_lading",
+        ""
+      ],
+      "actor_id": "actor:transporter",
+      "actor_role": {
+        "actor_name": "transporter",
+        "actor_type": "transporter",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "transporter"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-007",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-007"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Tuna",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_tuna",
+      "product_name": "Fresh Tuna",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-007",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "transporter_only_007.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "transporter",
+        "Destination": null,
+        "Document Type": "bill_of_lading",
+        "Event Type": "shipping",
+        "Lot #": "TLC-007",
+        "Product": "Fresh Tuna"
+      },
+      "sheetName": "bill_of_lading"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:internal_transfer:008",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for internal_transfer.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "internal transfer"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "internal transfer",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-008",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-008"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Cucumber",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_cucumber",
+      "product_name": "Fresh Cucumber",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-008",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "internal_transfer_008.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "internal transfer",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-008",
+        "Product": "Fresh Cucumber"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:return_correction:009",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for return_correction.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "customer return correction"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "customer return correction",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-009",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-009"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Soft Cheese",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:soft_cheese",
+      "product_name": "Soft Cheese",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-009",
+      "suppressed_ctes": [],
+      "to_partner_id": "buyer-b"
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "return_correction_009.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "customer return correction",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-009",
+        "Product": "Soft Cheese"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:traceability_plan:010",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for traceability_plan.",
+    "document_type": "traceability_plan",
+    "event": {
+      "action_terms": [
+        "traceability_plan",
+        "traceability_plan",
+        ""
+      ],
+      "actor_id": "actor:unknown",
+      "actor_role": {
+        "actor_name": "unknown",
+        "actor_type": "unknown",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "unknown"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-010",
+      "event_type_claim": "traceability_plan",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-010"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Sprouts",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_sprouts",
+      "product_name": "Fresh Sprouts",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-010",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "workbook_fixture": {
+      "fileName": "traceability_plan_010.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "unknown",
+        "Destination": null,
+        "Document Type": "traceability_plan",
+        "Event Type": "traceability_plan",
+        "Lot #": "TLC-010",
+        "Product": "Fresh Sprouts"
+      },
+      "sheetName": "traceability_plan"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:shipping_b2b:011",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for shipping_b2b.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "Regional distributor"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "Regional distributor",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-011",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-011"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Basil",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_basil",
+      "product_name": "Fresh Basil",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-011",
+      "suppressed_ctes": [],
+      "to_partner_id": "buyer-b"
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "shipping_b2b_011.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "Regional distributor",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-011",
+        "Product": "Fresh Basil"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:receiving_b2b:012",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for receiving_b2b.",
+    "document_type": "receiving_log",
+    "event": {
+      "action_terms": [
+        "receiving",
+        "receiving_log",
+        ""
+      ],
+      "actor_id": "actor:receiver",
+      "actor_role": {
+        "actor_name": "receiver",
+        "actor_type": "receiver",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "receiver"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-012",
+      "event_type_claim": "receiving",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-012"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Tuna",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_tuna",
+      "product_name": "Fresh Tuna",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-012",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "receiving_b2b_012.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "receiver",
+        "Destination": null,
+        "Document Type": "receiving_log",
+        "Event Type": "receiving",
+        "Lot #": "TLC-012",
+        "Product": "Fresh Tuna"
+      },
+      "sheetName": "receiving_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:first_land:013",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for first_land.",
+    "document_type": "seafood_landing_record",
+    "event": {
+      "action_terms": [
+        "receiving",
+        "seafood_landing_record",
+        ""
+      ],
+      "actor_id": "actor:first_land_based_receiver",
+      "actor_role": {
+        "actor_name": "first_land_based_receiver",
+        "actor_type": "first_land_based_receiver",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "first_land_based_receiver"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-013",
+      "event_type_claim": "receiving",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-013"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Cucumber",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_cucumber",
+      "product_name": "Fresh Cucumber",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-013",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "workbook_fixture": {
+      "fileName": "first_land_013.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "first_land_based_receiver",
+        "Destination": null,
+        "Document Type": "seafood_landing_record",
+        "Event Type": "receiving",
+        "Lot #": "TLC-013",
+        "Product": "Fresh Cucumber"
+      },
+      "sheetName": "seafood_landing_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:direct_consumer:014",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for direct_consumer.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "direct to consumer"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "direct to consumer",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-014",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-014"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Soft Cheese",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:soft_cheese",
+      "product_name": "Soft Cheese",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-014",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "direct_consumer_014.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "direct to consumer",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-014",
+        "Product": "Soft Cheese"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transformation_ftl:015",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transformation_ftl.",
+    "document_type": "transformation_batch_record",
+    "event": {
+      "action_terms": [
+        "transformation",
+        "transformation_batch_record",
+        ""
+      ],
+      "actor_id": "actor:processor",
+      "actor_role": {
+        "actor_name": "processor",
+        "actor_type": "processor",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "processor"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-015",
+      "event_type_claim": "transformation",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-015"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Sprouts",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": "OUT-015",
+      "product_id": "product:fresh_sprouts",
+      "product_name": "Fresh Sprouts",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": "SRC-001",
+      "source_row_key": "benchmark:phase10c-benchmark-event-015",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "transformation_ftl_015.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "processor",
+        "Destination": null,
+        "Document Type": "transformation_batch_record",
+        "Event Type": "transformation",
+        "Lot #": "TLC-015",
+        "Product": "Fresh Sprouts"
+      },
+      "sheetName": "transformation_batch_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transformation_non_ftl:016",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transformation_non_ftl.",
+    "document_type": "transformation_batch_record",
+    "event": {
+      "action_terms": [
+        "transformation",
+        "transformation_batch_record",
+        ""
+      ],
+      "actor_id": "actor:processor",
+      "actor_role": {
+        "actor_name": "processor",
+        "actor_type": "processor",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "processor"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-016",
+      "event_type_claim": "transformation",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-016"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "canned",
+          "shelf_stable"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": false,
+        "product_name": "Fresh Basil",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": true
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": "OUT-016",
+      "product_id": "product:fresh_basil",
+      "product_name": "Fresh Basil",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": "SRC-001",
+      "source_row_key": "benchmark:phase10c-benchmark-event-016",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "workbook_fixture": {
+      "fileName": "transformation_non_ftl_016.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "processor",
+        "Destination": null,
+        "Document Type": "transformation_batch_record",
+        "Event Type": "transformation",
+        "Lot #": "TLC-016",
+        "Product": "Fresh Basil"
+      },
+      "sheetName": "transformation_batch_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transporter_only:017",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transporter_only.",
+    "document_type": "bill_of_lading",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "bill_of_lading",
+        ""
+      ],
+      "actor_id": "actor:transporter",
+      "actor_role": {
+        "actor_name": "transporter",
+        "actor_type": "transporter",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "transporter"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-017",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-017"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Tuna",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_tuna",
+      "product_name": "Fresh Tuna",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-017",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "transporter_only_017.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "transporter",
+        "Destination": null,
+        "Document Type": "bill_of_lading",
+        "Event Type": "shipping",
+        "Lot #": "TLC-017",
+        "Product": "Fresh Tuna"
+      },
+      "sheetName": "bill_of_lading"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:internal_transfer:018",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for internal_transfer.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "internal transfer"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "internal transfer",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-018",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-018"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Cucumber",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_cucumber",
+      "product_name": "Fresh Cucumber",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-018",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "internal_transfer_018.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "internal transfer",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-018",
+        "Product": "Fresh Cucumber"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:return_correction:019",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for return_correction.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "customer return correction"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "customer return correction",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-019",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-019"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Soft Cheese",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:soft_cheese",
+      "product_name": "Soft Cheese",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-019",
+      "suppressed_ctes": [],
+      "to_partner_id": "buyer-b"
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "return_correction_019.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "customer return correction",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-019",
+        "Product": "Soft Cheese"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:traceability_plan:020",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for traceability_plan.",
+    "document_type": "traceability_plan",
+    "event": {
+      "action_terms": [
+        "traceability_plan",
+        "traceability_plan",
+        ""
+      ],
+      "actor_id": "actor:unknown",
+      "actor_role": {
+        "actor_name": "unknown",
+        "actor_type": "unknown",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "unknown"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-020",
+      "event_type_claim": "traceability_plan",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-020"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Sprouts",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_sprouts",
+      "product_name": "Fresh Sprouts",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-020",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "workbook_fixture": {
+      "fileName": "traceability_plan_020.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "unknown",
+        "Destination": null,
+        "Document Type": "traceability_plan",
+        "Event Type": "traceability_plan",
+        "Lot #": "TLC-020",
+        "Product": "Fresh Sprouts"
+      },
+      "sheetName": "traceability_plan"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:shipping_b2b:021",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for shipping_b2b.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "Regional distributor"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "Regional distributor",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-021",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-021"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Basil",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_basil",
+      "product_name": "Fresh Basil",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-021",
+      "suppressed_ctes": [],
+      "to_partner_id": "buyer-b"
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "shipping_b2b_021.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "Regional distributor",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-021",
+        "Product": "Fresh Basil"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:receiving_b2b:022",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for receiving_b2b.",
+    "document_type": "receiving_log",
+    "event": {
+      "action_terms": [
+        "receiving",
+        "receiving_log",
+        ""
+      ],
+      "actor_id": "actor:receiver",
+      "actor_role": {
+        "actor_name": "receiver",
+        "actor_type": "receiver",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "receiver"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-022",
+      "event_type_claim": "receiving",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-022"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Tuna",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_tuna",
+      "product_name": "Fresh Tuna",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-022",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "receiving_b2b_022.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "receiver",
+        "Destination": null,
+        "Document Type": "receiving_log",
+        "Event Type": "receiving",
+        "Lot #": "TLC-022",
+        "Product": "Fresh Tuna"
+      },
+      "sheetName": "receiving_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:first_land:023",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for first_land.",
+    "document_type": "seafood_landing_record",
+    "event": {
+      "action_terms": [
+        "receiving",
+        "seafood_landing_record",
+        ""
+      ],
+      "actor_id": "actor:first_land_based_receiver",
+      "actor_role": {
+        "actor_name": "first_land_based_receiver",
+        "actor_type": "first_land_based_receiver",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "first_land_based_receiver"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-023",
+      "event_type_claim": "receiving",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-023"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Cucumber",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_cucumber",
+      "product_name": "Fresh Cucumber",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-023",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "workbook_fixture": {
+      "fileName": "first_land_023.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "first_land_based_receiver",
+        "Destination": null,
+        "Document Type": "seafood_landing_record",
+        "Event Type": "receiving",
+        "Lot #": "TLC-023",
+        "Product": "Fresh Cucumber"
+      },
+      "sheetName": "seafood_landing_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:direct_consumer:024",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for direct_consumer.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "direct to consumer"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "direct to consumer",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-024",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-024"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Soft Cheese",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:soft_cheese",
+      "product_name": "Soft Cheese",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-024",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "direct_consumer_024.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "direct to consumer",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-024",
+        "Product": "Soft Cheese"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transformation_ftl:025",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transformation_ftl.",
+    "document_type": "transformation_batch_record",
+    "event": {
+      "action_terms": [
+        "transformation",
+        "transformation_batch_record",
+        ""
+      ],
+      "actor_id": "actor:processor",
+      "actor_role": {
+        "actor_name": "processor",
+        "actor_type": "processor",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "processor"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-025",
+      "event_type_claim": "transformation",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-025"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Sprouts",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": "OUT-025",
+      "product_id": "product:fresh_sprouts",
+      "product_name": "Fresh Sprouts",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": "SRC-001",
+      "source_row_key": "benchmark:phase10c-benchmark-event-025",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "transformation_ftl_025.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "processor",
+        "Destination": null,
+        "Document Type": "transformation_batch_record",
+        "Event Type": "transformation",
+        "Lot #": "TLC-025",
+        "Product": "Fresh Sprouts"
+      },
+      "sheetName": "transformation_batch_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transformation_non_ftl:026",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transformation_non_ftl.",
+    "document_type": "transformation_batch_record",
+    "event": {
+      "action_terms": [
+        "transformation",
+        "transformation_batch_record",
+        ""
+      ],
+      "actor_id": "actor:processor",
+      "actor_role": {
+        "actor_name": "processor",
+        "actor_type": "processor",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "processor"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-026",
+      "event_type_claim": "transformation",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-026"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "canned",
+          "shelf_stable"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": false,
+        "product_name": "Fresh Basil",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": true
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": "OUT-026",
+      "product_id": "product:fresh_basil",
+      "product_name": "Fresh Basil",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": "SRC-001",
+      "source_row_key": "benchmark:phase10c-benchmark-event-026",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "workbook_fixture": {
+      "fileName": "transformation_non_ftl_026.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "processor",
+        "Destination": null,
+        "Document Type": "transformation_batch_record",
+        "Event Type": "transformation",
+        "Lot #": "TLC-026",
+        "Product": "Fresh Basil"
+      },
+      "sheetName": "transformation_batch_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transporter_only:027",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transporter_only.",
+    "document_type": "bill_of_lading",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "bill_of_lading",
+        ""
+      ],
+      "actor_id": "actor:transporter",
+      "actor_role": {
+        "actor_name": "transporter",
+        "actor_type": "transporter",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "transporter"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-027",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-027"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Tuna",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_tuna",
+      "product_name": "Fresh Tuna",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-027",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "transporter_only_027.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "transporter",
+        "Destination": null,
+        "Document Type": "bill_of_lading",
+        "Event Type": "shipping",
+        "Lot #": "TLC-027",
+        "Product": "Fresh Tuna"
+      },
+      "sheetName": "bill_of_lading"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:internal_transfer:028",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for internal_transfer.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "internal transfer"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "internal transfer",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-028",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-028"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Cucumber",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_cucumber",
+      "product_name": "Fresh Cucumber",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-028",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "internal_transfer_028.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "internal transfer",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-028",
+        "Product": "Fresh Cucumber"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:return_correction:029",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for return_correction.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "customer return correction"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "customer return correction",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-029",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-029"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Soft Cheese",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:soft_cheese",
+      "product_name": "Soft Cheese",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-029",
+      "suppressed_ctes": [],
+      "to_partner_id": "buyer-b"
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "return_correction_029.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "customer return correction",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-029",
+        "Product": "Soft Cheese"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:traceability_plan:030",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for traceability_plan.",
+    "document_type": "traceability_plan",
+    "event": {
+      "action_terms": [
+        "traceability_plan",
+        "traceability_plan",
+        ""
+      ],
+      "actor_id": "actor:unknown",
+      "actor_role": {
+        "actor_name": "unknown",
+        "actor_type": "unknown",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "unknown"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-030",
+      "event_type_claim": "traceability_plan",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-030"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Sprouts",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_sprouts",
+      "product_name": "Fresh Sprouts",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-030",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "workbook_fixture": {
+      "fileName": "traceability_plan_030.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "unknown",
+        "Destination": null,
+        "Document Type": "traceability_plan",
+        "Event Type": "traceability_plan",
+        "Lot #": "TLC-030",
+        "Product": "Fresh Sprouts"
+      },
+      "sheetName": "traceability_plan"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:shipping_b2b:031",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for shipping_b2b.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "Regional distributor"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "Regional distributor",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-031",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-031"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Basil",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_basil",
+      "product_name": "Fresh Basil",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-031",
+      "suppressed_ctes": [],
+      "to_partner_id": "buyer-b"
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "shipping_b2b_031.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "Regional distributor",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-031",
+        "Product": "Fresh Basil"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:receiving_b2b:032",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for receiving_b2b.",
+    "document_type": "receiving_log",
+    "event": {
+      "action_terms": [
+        "receiving",
+        "receiving_log",
+        ""
+      ],
+      "actor_id": "actor:receiver",
+      "actor_role": {
+        "actor_name": "receiver",
+        "actor_type": "receiver",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "receiver"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-032",
+      "event_type_claim": "receiving",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-032"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Tuna",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_tuna",
+      "product_name": "Fresh Tuna",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-032",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "receiving_b2b_032.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "receiver",
+        "Destination": null,
+        "Document Type": "receiving_log",
+        "Event Type": "receiving",
+        "Lot #": "TLC-032",
+        "Product": "Fresh Tuna"
+      },
+      "sheetName": "receiving_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:first_land:033",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for first_land.",
+    "document_type": "seafood_landing_record",
+    "event": {
+      "action_terms": [
+        "receiving",
+        "seafood_landing_record",
+        ""
+      ],
+      "actor_id": "actor:first_land_based_receiver",
+      "actor_role": {
+        "actor_name": "first_land_based_receiver",
+        "actor_type": "first_land_based_receiver",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "first_land_based_receiver"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-033",
+      "event_type_claim": "receiving",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-033"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Cucumber",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_cucumber",
+      "product_name": "Fresh Cucumber",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-033",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "workbook_fixture": {
+      "fileName": "first_land_033.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "first_land_based_receiver",
+        "Destination": null,
+        "Document Type": "seafood_landing_record",
+        "Event Type": "receiving",
+        "Lot #": "TLC-033",
+        "Product": "Fresh Cucumber"
+      },
+      "sheetName": "seafood_landing_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:direct_consumer:034",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for direct_consumer.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "direct to consumer"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "direct to consumer",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-034",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-034"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Soft Cheese",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:soft_cheese",
+      "product_name": "Soft Cheese",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-034",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "direct_consumer_034.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "direct to consumer",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-034",
+        "Product": "Soft Cheese"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transformation_ftl:035",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transformation_ftl.",
+    "document_type": "transformation_batch_record",
+    "event": {
+      "action_terms": [
+        "transformation",
+        "transformation_batch_record",
+        ""
+      ],
+      "actor_id": "actor:processor",
+      "actor_role": {
+        "actor_name": "processor",
+        "actor_type": "processor",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "processor"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-035",
+      "event_type_claim": "transformation",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-035"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Sprouts",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": "OUT-035",
+      "product_id": "product:fresh_sprouts",
+      "product_name": "Fresh Sprouts",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": "SRC-001",
+      "source_row_key": "benchmark:phase10c-benchmark-event-035",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "transformation_ftl_035.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "processor",
+        "Destination": null,
+        "Document Type": "transformation_batch_record",
+        "Event Type": "transformation",
+        "Lot #": "TLC-035",
+        "Product": "Fresh Sprouts"
+      },
+      "sheetName": "transformation_batch_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transformation_non_ftl:036",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transformation_non_ftl.",
+    "document_type": "transformation_batch_record",
+    "event": {
+      "action_terms": [
+        "transformation",
+        "transformation_batch_record",
+        ""
+      ],
+      "actor_id": "actor:processor",
+      "actor_role": {
+        "actor_name": "processor",
+        "actor_type": "processor",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "processor"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-036",
+      "event_type_claim": "transformation",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-036"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "canned",
+          "shelf_stable"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": false,
+        "product_name": "Fresh Basil",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": true
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": "OUT-036",
+      "product_id": "product:fresh_basil",
+      "product_name": "Fresh Basil",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": "SRC-001",
+      "source_row_key": "benchmark:phase10c-benchmark-event-036",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "workbook_fixture": {
+      "fileName": "transformation_non_ftl_036.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "processor",
+        "Destination": null,
+        "Document Type": "transformation_batch_record",
+        "Event Type": "transformation",
+        "Lot #": "TLC-036",
+        "Product": "Fresh Basil"
+      },
+      "sheetName": "transformation_batch_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transporter_only:037",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transporter_only.",
+    "document_type": "bill_of_lading",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "bill_of_lading",
+        ""
+      ],
+      "actor_id": "actor:transporter",
+      "actor_role": {
+        "actor_name": "transporter",
+        "actor_type": "transporter",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "transporter"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-037",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-037"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Tuna",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_tuna",
+      "product_name": "Fresh Tuna",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-037",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "transporter_only_037.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "transporter",
+        "Destination": null,
+        "Document Type": "bill_of_lading",
+        "Event Type": "shipping",
+        "Lot #": "TLC-037",
+        "Product": "Fresh Tuna"
+      },
+      "sheetName": "bill_of_lading"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:internal_transfer:038",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for internal_transfer.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "internal transfer"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "internal transfer",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-038",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-038"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Cucumber",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_cucumber",
+      "product_name": "Fresh Cucumber",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-038",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "internal_transfer_038.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "internal transfer",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-038",
+        "Product": "Fresh Cucumber"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:return_correction:039",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for return_correction.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "customer return correction"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "customer return correction",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-039",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-039"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Soft Cheese",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:soft_cheese",
+      "product_name": "Soft Cheese",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-039",
+      "suppressed_ctes": [],
+      "to_partner_id": "buyer-b"
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "return_correction_039.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "customer return correction",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-039",
+        "Product": "Soft Cheese"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:traceability_plan:040",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for traceability_plan.",
+    "document_type": "traceability_plan",
+    "event": {
+      "action_terms": [
+        "traceability_plan",
+        "traceability_plan",
+        ""
+      ],
+      "actor_id": "actor:unknown",
+      "actor_role": {
+        "actor_name": "unknown",
+        "actor_type": "unknown",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "unknown"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-040",
+      "event_type_claim": "traceability_plan",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-040"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Sprouts",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_sprouts",
+      "product_name": "Fresh Sprouts",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-040",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "workbook_fixture": {
+      "fileName": "traceability_plan_040.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "unknown",
+        "Destination": null,
+        "Document Type": "traceability_plan",
+        "Event Type": "traceability_plan",
+        "Lot #": "TLC-040",
+        "Product": "Fresh Sprouts"
+      },
+      "sheetName": "traceability_plan"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:shipping_b2b:041",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for shipping_b2b.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "Regional distributor"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "Regional distributor",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-041",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-041"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Basil",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_basil",
+      "product_name": "Fresh Basil",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-041",
+      "suppressed_ctes": [],
+      "to_partner_id": "buyer-b"
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "shipping_b2b_041.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "Regional distributor",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-041",
+        "Product": "Fresh Basil"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:receiving_b2b:042",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for receiving_b2b.",
+    "document_type": "receiving_log",
+    "event": {
+      "action_terms": [
+        "receiving",
+        "receiving_log",
+        ""
+      ],
+      "actor_id": "actor:receiver",
+      "actor_role": {
+        "actor_name": "receiver",
+        "actor_type": "receiver",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "receiver"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-042",
+      "event_type_claim": "receiving",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-042"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Tuna",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_tuna",
+      "product_name": "Fresh Tuna",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-042",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "receiving_b2b_042.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "receiver",
+        "Destination": null,
+        "Document Type": "receiving_log",
+        "Event Type": "receiving",
+        "Lot #": "TLC-042",
+        "Product": "Fresh Tuna"
+      },
+      "sheetName": "receiving_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:first_land:043",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for first_land.",
+    "document_type": "seafood_landing_record",
+    "event": {
+      "action_terms": [
+        "receiving",
+        "seafood_landing_record",
+        ""
+      ],
+      "actor_id": "actor:first_land_based_receiver",
+      "actor_role": {
+        "actor_name": "first_land_based_receiver",
+        "actor_type": "first_land_based_receiver",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "first_land_based_receiver"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-043",
+      "event_type_claim": "receiving",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-043"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Cucumber",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_cucumber",
+      "product_name": "Fresh Cucumber",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-043",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "workbook_fixture": {
+      "fileName": "first_land_043.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "first_land_based_receiver",
+        "Destination": null,
+        "Document Type": "seafood_landing_record",
+        "Event Type": "receiving",
+        "Lot #": "TLC-043",
+        "Product": "Fresh Cucumber"
+      },
+      "sheetName": "seafood_landing_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:direct_consumer:044",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for direct_consumer.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "direct to consumer"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "direct to consumer",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-044",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-044"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Soft Cheese",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:soft_cheese",
+      "product_name": "Soft Cheese",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-044",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "direct_consumer_044.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "direct to consumer",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-044",
+        "Product": "Soft Cheese"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transformation_ftl:045",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transformation_ftl.",
+    "document_type": "transformation_batch_record",
+    "event": {
+      "action_terms": [
+        "transformation",
+        "transformation_batch_record",
+        ""
+      ],
+      "actor_id": "actor:processor",
+      "actor_role": {
+        "actor_name": "processor",
+        "actor_type": "processor",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "processor"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-045",
+      "event_type_claim": "transformation",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-045"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Sprouts",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": "OUT-045",
+      "product_id": "product:fresh_sprouts",
+      "product_name": "Fresh Sprouts",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": "SRC-001",
+      "source_row_key": "benchmark:phase10c-benchmark-event-045",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "transformation_ftl_045.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "processor",
+        "Destination": null,
+        "Document Type": "transformation_batch_record",
+        "Event Type": "transformation",
+        "Lot #": "TLC-045",
+        "Product": "Fresh Sprouts"
+      },
+      "sheetName": "transformation_batch_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transformation_non_ftl:046",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transformation_non_ftl.",
+    "document_type": "transformation_batch_record",
+    "event": {
+      "action_terms": [
+        "transformation",
+        "transformation_batch_record",
+        ""
+      ],
+      "actor_id": "actor:processor",
+      "actor_role": {
+        "actor_name": "processor",
+        "actor_type": "processor",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "processor"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-046",
+      "event_type_claim": "transformation",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-046"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "canned",
+          "shelf_stable"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": false,
+        "product_name": "Fresh Basil",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": true
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": "OUT-046",
+      "product_id": "product:fresh_basil",
+      "product_name": "Fresh Basil",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": "SRC-001",
+      "source_row_key": "benchmark:phase10c-benchmark-event-046",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "workbook_fixture": {
+      "fileName": "transformation_non_ftl_046.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "processor",
+        "Destination": null,
+        "Document Type": "transformation_batch_record",
+        "Event Type": "transformation",
+        "Lot #": "TLC-046",
+        "Product": "Fresh Basil"
+      },
+      "sheetName": "transformation_batch_record"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:transporter_only:047",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for transporter_only.",
+    "document_type": "bill_of_lading",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "bill_of_lading",
+        ""
+      ],
+      "actor_id": "actor:transporter",
+      "actor_role": {
+        "actor_name": "transporter",
+        "actor_type": "transporter",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "transporter"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-047",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-047"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Tuna",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_tuna",
+      "product_name": "Fresh Tuna",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-047",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "transporter_only_047.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "transporter",
+        "Destination": null,
+        "Document Type": "bill_of_lading",
+        "Event Type": "shipping",
+        "Lot #": "TLC-047",
+        "Product": "Fresh Tuna"
+      },
+      "sheetName": "bill_of_lading"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:internal_transfer:048",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for internal_transfer.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "internal transfer"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "internal transfer",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-048",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-048"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Cucumber",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_cucumber",
+      "product_name": "Fresh Cucumber",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-048",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "workbook_fixture": {
+      "fileName": "internal_transfer_048.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "internal transfer",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-048",
+        "Product": "Fresh Cucumber"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:return_correction:049",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for return_correction.",
+    "document_type": "shipping_log",
+    "event": {
+      "action_terms": [
+        "shipping",
+        "shipping_log",
+        "customer return correction"
+      ],
+      "actor_id": "actor:shipper",
+      "actor_role": {
+        "actor_name": "shipper",
+        "actor_type": "shipper",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "shipper"
+      },
+      "classified_ctes": [],
+      "destination_type": "customer return correction",
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-049",
+      "event_type_claim": "shipping",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-049"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Soft Cheese",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": "supplier-a",
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:soft_cheese",
+      "product_name": "Soft Cheese",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-049",
+      "suppressed_ctes": [],
+      "to_partner_id": "buyer-b"
+    },
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [],
+    "workbook_fixture": {
+      "fileName": "return_correction_049.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "shipper",
+        "Destination": "customer return correction",
+        "Document Type": "shipping_log",
+        "Event Type": "shipping",
+        "Lot #": "TLC-049",
+        "Product": "Soft Cheese"
+      },
+      "sheetName": "shipping_log"
+    }
+  },
+  {
+    "benchmark_id": "phase10c:traceability_plan:050",
+    "conflict_fields": [],
+    "description": "Gold-labeled customer-like workbook fixture for traceability_plan.",
+    "document_type": "traceability_plan",
+    "event": {
+      "action_terms": [
+        "traceability_plan",
+        "traceability_plan",
+        ""
+      ],
+      "actor_id": "actor:unknown",
+      "actor_role": {
+        "actor_name": "unknown",
+        "actor_type": "unknown",
+        "confidence": 0.9,
+        "reasons": [],
+        "role": "unknown"
+      },
+      "classified_ctes": [],
+      "destination_type": null,
+      "event_datetime": "2026-06-10",
+      "event_id": "phase10c-benchmark-event-050",
+      "event_type_claim": "traceability_plan",
+      "evidence_ids": [
+        "evidence:phase10c-benchmark-event-050"
+      ],
+      "food_form": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "benchmark",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Sprouts",
+        "reasons": [
+          "benchmark fixture"
+        ],
+        "review_required": false
+      },
+      "from_partner_id": null,
+      "lot_or_tlc": "TLC-BENCH",
+      "output_lot_or_tlc": null,
+      "product_id": "product:fresh_sprouts",
+      "product_name": "Fresh Sprouts",
+      "reviewer_questions": [],
+      "source_lot_or_tlc": null,
+      "source_row_key": "benchmark:phase10c-benchmark-event-050",
+      "suppressed_ctes": [],
+      "to_partner_id": null
+    },
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "workbook_fixture": {
+      "fileName": "traceability_plan_050.xlsx",
+      "headers": [
+        "Event Type",
+        "Document Type",
+        "Actor Role",
+        "Product",
+        "Lot #",
+        "Destination"
+      ],
+      "row": {
+        "Actor Role": "unknown",
+        "Destination": null,
+        "Document Type": "traceability_plan",
+        "Event Type": "traceability_plan",
+        "Lot #": "TLC-050",
+        "Product": "Fresh Sprouts"
+      },
+      "sheetName": "traceability_plan"
+    }
+  }
+]

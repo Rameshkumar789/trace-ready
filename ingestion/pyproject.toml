@@ -1,0 +1,39 @@
+[project]
+name = "traceready-ingestion"
+version = "0.1.0"
+description = "TraceReady regulatory source ingestion and AI draft generation worker"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115",
+  "httpx>=0.27",
+  "beautifulsoup4>=4.12",
+  "pydantic>=2.7",
+  "PyMuPDF>=1.24",
+  "pdfplumber>=0.11",
+  "openpyxl>=3.1",
+  "psycopg[binary]>=3.2",
+  "supabase>=2.6",
+  "anthropic>=0.72",
+  "uvicorn>=0.30"
+]
+
+[project.scripts]
+traceready-ingest = "traceready_ingestion.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["traceready_ingestion*"]
+exclude = ["api*", "scripts*", "tests*"]
+
+# Ship the bundled reviewable rule data (KDE contracts, exemption rules, plan components) so the
+# deterministic engine is self-contained on Vercel — it no longer depends on the repo-root data/
+# folder, which is not part of the deploy.
+[tool.setuptools.package-data]
+"traceready_ingestion.audit_engine" = ["bundled_rules/*.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

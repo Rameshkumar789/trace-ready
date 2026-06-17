@@ -1,0 +1,2967 @@
+[
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Location description for the immediate subsequent recipient (other than a transporter) of the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-2-2"
+      ]
+    },
+    "kde_id": "kde_harvesting_01_location_description_for_the_immediate_subsequent_recipient_other_than_a_transpo",
+    "cte_type": "harvesting",
+    "kde_name": "Location description for the immediate subsequent recipient (other than a transporter) of the food",
+    "field_key": "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+    "required_status": "required",
+    "applies_to": "harvesters of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Business name"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-2-2"
+      ]
+    },
+    "kde_id": "kde_harvesting_02_business_name",
+    "cte_type": "harvesting",
+    "kde_name": "Business name",
+    "field_key": "business_name",
+    "required_status": "required",
+    "applies_to": "harvesters of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Commodity and, if applicable, variety of the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-2-2"
+      ]
+    },
+    "kde_id": "kde_harvesting_03_commodity_and_if_applicable_variety_of_the_food",
+    "cte_type": "harvesting",
+    "kde_name": "Commodity and, if applicable, variety of the food",
+    "field_key": "commodity_and_if_applicable_variety_of_the_food",
+    "required_status": "conditional",
+    "applies_to": "harvesters of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": "Required when applicable to the event, product, or entity context.",
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Phone number"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-2-2"
+      ]
+    },
+    "kde_id": "kde_harvesting_04_phone_number",
+    "cte_type": "harvesting",
+    "kde_name": "Phone number",
+    "field_key": "phone_number",
+    "required_status": "required",
+    "applies_to": "harvesters of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "phone",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Quantity and unit of measure of the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-2-2"
+      ]
+    },
+    "kde_id": "kde_harvesting_05_quantity_and_unit_of_measure_of_the_food",
+    "cte_type": "harvesting",
+    "kde_name": "Quantity and unit of measure of the food",
+    "field_key": "quantity_and_unit_of_measure_of_the_food",
+    "required_status": "required",
+    "applies_to": "harvesters of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "number",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Harvesting KDEs (except the reference"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-2-2"
+      ]
+    },
+    "kde_id": "kde_harvesting_06_harvesting_kdes_except_the_reference",
+    "cte_type": "harvesting",
+    "kde_name": "Harvesting KDEs (except the reference",
+    "field_key": "harvesting_kdes_except_the_reference",
+    "required_status": "required",
+    "applies_to": "harvesters of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability HHaarrvveessttiinngg (before"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-2-2"
+      ]
+    },
+    "kde_id": "kde_harvesting_07_location_description_for_the_farm_where_the_food_was_harvested_document_type_and",
+    "cte_type": "harvesting",
+    "kde_name": "Location description for the farm where the food was harvested document type and reference document number)",
+    "field_key": "location_description_for_the_farm_where_the_food_was_harvested_document_type_and_reference_document",
+    "required_status": "required",
+    "applies_to": "harvesters of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "bill of lading",
+      "invoice",
+      "ASN",
+      "work order",
+      "production log"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability HHaarrvveessttiinngg (before"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-2-2"
+      ]
+    },
+    "kde_id": "kde_harvesting_08_for_produce_name_of_the_field_or_other_growing_area_from_which_the_food_was_harv",
+    "cte_type": "harvesting",
+    "kde_name": "For produce: - Name of the field or other growing area from which the food was harvested (must correspond to the name used by the grower), or - Other information identifying the harvest location at least as precisely as field or growing area name",
+    "field_key": "for_produce_name_of_the_field_or_other_growing_area_from_which_the_food_was_harvested_must_correspon",
+    "required_status": "required",
+    "applies_to": "harvesters of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability HHaarrvveessttiinngg (before"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-2-2"
+      ]
+    },
+    "kde_id": "kde_harvesting_09_for_aquacultured_food_name_of_the_container_e_g_pond_pool_tank_cage_from_which_t",
+    "cte_type": "harvesting",
+    "kde_name": "For aquacultured food: - Name of the container (e.g., pond, pool, tank, cage) from which the food was harvested (must correspond to the container name used by the aquaculture farmer), or - Other information identifying the harvest location at least as precisely as the container name",
+    "field_key": "for_aquacultured_food_name_of_the_container_e_g_pond_pool_tank_cage_from_which_the_food_was_harveste",
+    "required_status": "required",
+    "applies_to": "harvesters of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Date of harvesting"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-2-2"
+      ]
+    },
+    "kde_id": "kde_harvesting_10_date_of_harvesting",
+    "cte_type": "harvesting",
+    "kde_name": "Date of harvesting",
+    "field_key": "date_of_harvesting",
+    "required_status": "required",
+    "applies_to": "harvesters of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Reference document type and reference document number"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-2-2"
+      ]
+    },
+    "kde_id": "kde_harvesting_11_reference_document_type_and_reference_document_number",
+    "cte_type": "harvesting",
+    "kde_name": "Reference document type and reference document number",
+    "field_key": "reference_document_type_and_reference_document_number",
+    "required_status": "required",
+    "applies_to": "harvesters of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "bill of lading",
+      "invoice",
+      "ASN",
+      "work order",
+      "production log"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Location description for the immediate subsequent recipient (other than a transporter) of the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-3-3"
+      ]
+    },
+    "kde_id": "kde_cooling_01_location_description_for_the_immediate_subsequent_recipient_other_than_a_transpo",
+    "cte_type": "cooling",
+    "kde_name": "Location description for the immediate subsequent recipient (other than a transporter) of the food",
+    "field_key": "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+    "required_status": "required",
+    "applies_to": "persons cooling raw agricultural commodities on the FTL before initial packing",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Commodity and, if applicable, variety of the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-3-3"
+      ]
+    },
+    "kde_id": "kde_cooling_02_commodity_and_if_applicable_variety_of_the_food",
+    "cte_type": "cooling",
+    "kde_name": "Commodity and, if applicable, variety of the food",
+    "field_key": "commodity_and_if_applicable_variety_of_the_food",
+    "required_status": "conditional",
+    "applies_to": "persons cooling raw agricultural commodities on the FTL before initial packing",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": "Required when applicable to the event, product, or entity context.",
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Quantity and unit of measure of the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-3-3"
+      ]
+    },
+    "kde_id": "kde_cooling_03_quantity_and_unit_of_measure_of_the_food",
+    "cte_type": "cooling",
+    "kde_name": "Quantity and unit of measure of the food",
+    "field_key": "quantity_and_unit_of_measure_of_the_food",
+    "required_status": "required",
+    "applies_to": "persons cooling raw agricultural commodities on the FTL before initial packing",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "number",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Location description for where you cooled the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-3-3"
+      ]
+    },
+    "kde_id": "kde_cooling_04_location_description_for_where_you_cooled_the_food",
+    "cte_type": "cooling",
+    "kde_name": "Location description for where you cooled the food",
+    "field_key": "location_description_for_where_you_cooled_the_food",
+    "required_status": "required",
+    "applies_to": "persons cooling raw agricultural commodities on the FTL before initial packing",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Date of cooling"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-3-3"
+      ]
+    },
+    "kde_id": "kde_cooling_05_date_of_cooling",
+    "cte_type": "cooling",
+    "kde_name": "Date of cooling",
+    "field_key": "date_of_cooling",
+    "required_status": "required",
+    "applies_to": "persons cooling raw agricultural commodities on the FTL before initial packing",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Location description for the farm where the food was harvested"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-3-3"
+      ]
+    },
+    "kde_id": "kde_cooling_06_location_description_for_the_farm_where_the_food_was_harvested",
+    "cte_type": "cooling",
+    "kde_name": "Location description for the farm where the food was harvested",
+    "field_key": "location_description_for_the_farm_where_the_food_was_harvested",
+    "required_status": "required",
+    "applies_to": "persons cooling raw agricultural commodities on the FTL before initial packing",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Cooling KDEs (except the reference document type and reference document number)"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-3-3"
+      ]
+    },
+    "kde_id": "kde_cooling_08_cooling_kdes_except_the_reference_document_type_and_reference_document_number",
+    "cte_type": "cooling",
+    "kde_name": "Cooling KDEs (except the reference document type and reference document number)",
+    "field_key": "cooling_kdes_except_the_reference_document_type_and_reference_document_number",
+    "required_status": "required",
+    "applies_to": "persons cooling raw agricultural commodities on the FTL before initial packing",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "bill of lading",
+      "invoice",
+      "ASN",
+      "work order",
+      "production log"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Commodity and, if applicable, variety of the food received"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_01_commodity_and_if_applicable_variety_of_the_food_received",
+    "cte_type": "initial_packing",
+    "kde_name": "Commodity and, if applicable, variety of the food received",
+    "field_key": "commodity_and_if_applicable_variety_of_the_food_received",
+    "required_status": "conditional",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": "Required when applicable to the event, product, or entity context.",
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Business name and phone number for the harvester of the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_02_business_name_and_phone_number_for_the_harvester_of_the_food",
+    "cte_type": "initial_packing",
+    "kde_name": "Business name and phone number for the harvester of the food",
+    "field_key": "business_name_and_phone_number_for_the_harvester_of_the_food",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "phone",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Date you received the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_03_date_you_received_the_food",
+    "cte_type": "initial_packing",
+    "kde_name": "Date you received the food",
+    "field_key": "date_you_received_the_food",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Date of harvesting"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_04_date_of_harvesting",
+    "cte_type": "initial_packing",
+    "kde_name": "Date of harvesting",
+    "field_key": "date_of_harvesting",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Quantity and unit of measure of the food received"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_05_quantity_and_unit_of_measure_of_the_food_received",
+    "cte_type": "initial_packing",
+    "kde_name": "Quantity and unit of measure of the food received",
+    "field_key": "quantity_and_unit_of_measure_of_the_food_received",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "number",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Location description for where the food was cooled (if applicable)"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_06_location_description_for_where_the_food_was_cooled_if_applicable",
+    "cte_type": "initial_packing",
+    "kde_name": "Location description for where the food was cooled (if applicable)",
+    "field_key": "location_description_for_where_the_food_was_cooled_if_applicable",
+    "required_status": "conditional",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": "Required when applicable to the event, product, or entity context.",
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Location description for the farm where the food was harvested"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_07_location_description_for_the_farm_where_the_food_was_harvested",
+    "cte_type": "initial_packing",
+    "kde_name": "Location description for the farm where the food was harvested",
+    "field_key": "location_description_for_the_farm_where_the_food_was_harvested",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Date of cooling (if applicable)"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_08_date_of_cooling_if_applicable",
+    "cte_type": "initial_packing",
+    "kde_name": "Date of cooling (if applicable)",
+    "field_key": "date_of_cooling_if_applicable",
+    "required_status": "conditional",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": "Required when applicable to the event, product, or entity context.",
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "For produce:"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_09_for_produce",
+    "cte_type": "initial_packing",
+    "kde_name": "For produce:",
+    "field_key": "for_produce",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_10_traceability_lot_code_you_assigned_name_of_the_field_or_other_growing_area_from",
+    "cte_type": "initial_packing",
+    "kde_name": "Traceability lot code you assigned - Name of the field or other growing area from which the food was harvested",
+    "field_key": "traceability_lot_code_you_assigned_name_of_the_field_or_other_growing_area_from_which_the_food_was_h",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "TLC registry",
+      "lot record",
+      "case label",
+      "ASN"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_11_product_description_of_the_packed_food_must_correspond_to_the_name_used_by_the_g",
+    "cte_type": "initial_packing",
+    "kde_name": "Product description of the packed food (must correspond to the name used by the grower), or",
+    "field_key": "product_description_of_the_packed_food_must_correspond_to_the_name_used_by_the_grower_or",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_12_quantity_and_unit_of_measure_of_the_packed_food_other_information_identifying_th",
+    "cte_type": "initial_packing",
+    "kde_name": "Quantity and unit of measure of the packed food - Other information identifying the harvest location at least as precisely as field",
+    "field_key": "quantity_and_unit_of_measure_of_the_packed_food_other_information_identifying_the_harvest_location_a",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "number",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_13_location_description_for_where_you_initially_packed_the_food_i_e_traceability_lo",
+    "cte_type": "initial_packing",
+    "kde_name": "Location description for where you initially packed the food (i.e., traceability lot or growing area name code source), and (if applicable), the traceability lot code source reference",
+    "field_key": "location_description_for_where_you_initially_packed_the_food_i_e_traceability_lot_or_growing_area_na",
+    "required_status": "conditional",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": "Required when applicable to the event, product, or entity context.",
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "For aquacultured food:"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_14_for_aquacultured_food",
+    "cte_type": "initial_packing",
+    "kde_name": "For aquacultured food:",
+    "field_key": "for_aquacultured_food",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_15_date_of_initial_packing_name_of_the_container_e_g_pond_pool_tank_cage_from_which",
+    "cte_type": "initial_packing",
+    "kde_name": "Date of initial packing - Name of the container (e.g., pond, pool, tank, cage) from which the food was",
+    "field_key": "date_of_initial_packing_name_of_the_container_e_g_pond_pool_tank_cage_from_which_the_food_was",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-4-4"
+      ]
+    },
+    "kde_id": "kde_initial_packing_16_reference_document_type_and_reference_document_number_harvested_must_correspond",
+    "cte_type": "initial_packing",
+    "kde_name": "Reference document type and reference document number harvested (must correspond to the container name used by the aquaculture farmer), or - Other information identifying the harvest location at least as precisely as the container name",
+    "field_key": "reference_document_type_and_reference_document_number_harvested_must_correspond_to_the_container_nam",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "bill of lading",
+      "invoice",
+      "ASN",
+      "work order",
+      "production log"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-5-5",
+        "citation_anchor": "page-5",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-5",
+        "page_number": 5,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-5-5"
+      ]
+    },
+    "kde_id": "kde_initial_packing_01_location_description_for_the_grower_of_seeds_for_sprouting_and_date_of_seed_harv",
+    "cte_type": "initial_packing",
+    "kde_name": "Location description for the grower of seeds for sprouting and date of seed harvesting, if either is available",
+    "field_key": "location_description_for_the_grower_of_seeds_for_sprouting_and_date_of_seed_harvesting_if_either_is",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-5-5",
+        "citation_anchor": "page-5",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-5",
+        "page_number": 5,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-5-5"
+      ]
+    },
+    "kde_id": "kde_initial_packing_02_location_description_for_the_seed_conditioner_or_processor_associated_seed_lot_c",
+    "cte_type": "initial_packing",
+    "kde_name": "Location description for the seed conditioner or processor, associated seed lot code, and date of conditioning or processing",
+    "field_key": "location_description_for_the_seed_conditioner_or_processor_associated_seed_lot_code_and_date_of_cond",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-5-5",
+        "citation_anchor": "page-5",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-5",
+        "page_number": 5,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-5-5"
+      ]
+    },
+    "kde_id": "kde_initial_packing_03_location_description_for_the_seed_packinghouse_including_any_repackers_date_of_p",
+    "cte_type": "initial_packing",
+    "kde_name": "Location description for the seed packinghouse (including any repackers), date of packing (and repacking, if applicable), and any associated seed lot code assigned by the seed packinghouse",
+    "field_key": "location_description_for_the_seed_packinghouse_including_any_repackers_date_of_packing_and_repacking",
+    "required_status": "conditional",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": "Required when applicable to the event, product, or entity context.",
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-5-5",
+        "citation_anchor": "page-5",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-5",
+        "page_number": 5,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-5-5"
+      ]
+    },
+    "kde_id": "kde_initial_packing_04_location_description_for_the_seed_supplier_any_seed_lot_code_assigned_by_the_see",
+    "cte_type": "initial_packing",
+    "kde_name": "Location description for the seed supplier, any seed lot code assigned by the seed supplier (including master lot and sub-lot codes), and any new seed lot code assigned by the sprouter",
+    "field_key": "location_description_for_the_seed_supplier_any_seed_lot_code_assigned_by_the_seed_supplier_including",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-5-5",
+        "citation_anchor": "page-5",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-5",
+        "page_number": 5,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-5-5"
+      ]
+    },
+    "kde_id": "kde_initial_packing_05_description_of_the_seeds_including_seed_type_or_taxonomic_name_growing_specifica",
+    "cte_type": "initial_packing",
+    "kde_name": "Description of the seeds, including seed type or taxonomic name, growing specifications, type of packaging, and (if applicable) antimicrobial treatment",
+    "field_key": "description_of_the_seeds_including_seed_type_or_taxonomic_name_growing_specifications_type_of_packag",
+    "required_status": "conditional",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": "Required when applicable to the event, product, or entity context.",
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-5-5",
+        "citation_anchor": "page-5",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-5",
+        "page_number": 5,
+        "support_text": "Date of receipt of the seeds by the sprouter"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-5-5"
+      ]
+    },
+    "kde_id": "kde_initial_packing_06_date_of_receipt_of_the_seeds_by_the_sprouter",
+    "cte_type": "initial_packing",
+    "kde_name": "Date of receipt of the seeds by the sprouter",
+    "field_key": "date_of_receipt_of_the_seeds_by_the_sprouter",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-5-5",
+        "citation_anchor": "page-5",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-5",
+        "page_number": 5,
+        "support_text": "Reference document type and reference document number"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-5-5"
+      ]
+    },
+    "kde_id": "kde_initial_packing_07_reference_document_type_and_reference_document_number",
+    "cte_type": "initial_packing",
+    "kde_name": "Reference document type and reference document number",
+    "field_key": "reference_document_type_and_reference_document_number",
+    "required_status": "required",
+    "applies_to": "initial packers of raw agricultural commodities on the FTL",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "bill of lading",
+      "invoice",
+      "ASN",
+      "work order",
+      "production log"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-7-7",
+        "citation_anchor": "page-7",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-7",
+        "page_number": 7,
+        "support_text": "Traceability lot code you assigned"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-7-7"
+      ]
+    },
+    "kde_id": "kde_first_land_based_receiving_01_traceability_lot_code_you_assigned",
+    "cte_type": "first_land_based_receiving",
+    "kde_name": "Traceability lot code you assigned",
+    "field_key": "traceability_lot_code_you_assigned",
+    "required_status": "required",
+    "applies_to": "first land-based receivers of food obtained from fishing vessels",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "TLC registry",
+      "lot record",
+      "case label",
+      "ASN"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-7-7",
+        "citation_anchor": "page-7",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-7",
+        "page_number": 7,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-7-7"
+      ]
+    },
+    "kde_id": "kde_first_land_based_receiving_02_species_and_or_acceptable_market_name_for_unpackaged_food_or_the_product_descrip",
+    "cte_type": "first_land_based_receiving",
+    "kde_name": "Species and/or acceptable market name for unpackaged food, or the product description for packaged food",
+    "field_key": "species_and_or_acceptable_market_name_for_unpackaged_food_or_the_product_description_for_packaged_fo",
+    "required_status": "required",
+    "applies_to": "first land-based receivers of food obtained from fishing vessels",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-7-7",
+        "citation_anchor": "page-7",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-7",
+        "page_number": 7,
+        "support_text": "Quantity and unit of measure of the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-7-7"
+      ]
+    },
+    "kde_id": "kde_first_land_based_receiving_03_quantity_and_unit_of_measure_of_the_food",
+    "cte_type": "first_land_based_receiving",
+    "kde_name": "Quantity and unit of measure of the food",
+    "field_key": "quantity_and_unit_of_measure_of_the_food",
+    "required_status": "required",
+    "applies_to": "first land-based receivers of food obtained from fishing vessels",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "number",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-7-7",
+        "citation_anchor": "page-7",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-7",
+        "page_number": 7,
+        "support_text": "Harvest date range and locations for the trip during which the food was caught"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-7-7"
+      ]
+    },
+    "kde_id": "kde_first_land_based_receiving_04_harvest_date_range_and_locations_for_the_trip_during_which_the_food_was_caught",
+    "cte_type": "first_land_based_receiving",
+    "kde_name": "Harvest date range and locations for the trip during which the food was caught",
+    "field_key": "harvest_date_range_and_locations_for_the_trip_during_which_the_food_was_caught",
+    "required_status": "required",
+    "applies_to": "first land-based receivers of food obtained from fishing vessels",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-7-7",
+        "citation_anchor": "page-7",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-7",
+        "page_number": 7,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-7-7"
+      ]
+    },
+    "kde_id": "kde_first_land_based_receiving_05_location_description_for_the_first_land_based_receiver_i_e_traceability_lot_code",
+    "cte_type": "first_land_based_receiving",
+    "kde_name": "Location description for the first land-based receiver (i.e., traceability lot code source), and (if applicable) traceability lot code source reference",
+    "field_key": "location_description_for_the_first_land_based_receiver_i_e_traceability_lot_code_source_and_if_appli",
+    "required_status": "conditional",
+    "applies_to": "first land-based receivers of food obtained from fishing vessels",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": "Required when applicable to the event, product, or entity context.",
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-7-7",
+        "citation_anchor": "page-7",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-7",
+        "page_number": 7,
+        "support_text": "Date the food was landed"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-7-7"
+      ]
+    },
+    "kde_id": "kde_first_land_based_receiving_06_date_the_food_was_landed",
+    "cte_type": "first_land_based_receiving",
+    "kde_name": "Date the food was landed",
+    "field_key": "date_the_food_was_landed",
+    "required_status": "required",
+    "applies_to": "first land-based receivers of food obtained from fishing vessels",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-7-7",
+        "citation_anchor": "page-7",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-7",
+        "page_number": 7,
+        "support_text": "Reference document type and reference document number"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-7-7"
+      ]
+    },
+    "kde_id": "kde_first_land_based_receiving_07_reference_document_type_and_reference_document_number",
+    "cte_type": "first_land_based_receiving",
+    "kde_name": "Reference document type and reference document number",
+    "field_key": "reference_document_type_and_reference_document_number",
+    "required_status": "required",
+    "applies_to": "first land-based receivers of food obtained from fishing vessels",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "bill of lading",
+      "invoice",
+      "ASN",
+      "work order",
+      "production log"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-8-8",
+        "citation_anchor": "page-8",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-8",
+        "page_number": 8,
+        "support_text": "Traceability lot code for the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-8-8"
+      ]
+    },
+    "kde_id": "kde_shipping_01_traceability_lot_code_for_the_food",
+    "cte_type": "shipping",
+    "kde_name": "Traceability lot code for the food",
+    "field_key": "traceability_lot_code_for_the_food",
+    "required_status": "required",
+    "applies_to": "shippers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "TLC registry",
+      "lot record",
+      "case label",
+      "ASN"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-8-8",
+        "citation_anchor": "page-8",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-8",
+        "page_number": 8,
+        "support_text": "Quantity and unit of measure of the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-8-8"
+      ]
+    },
+    "kde_id": "kde_shipping_02_quantity_and_unit_of_measure_of_the_food",
+    "cte_type": "shipping",
+    "kde_name": "Quantity and unit of measure of the food",
+    "field_key": "quantity_and_unit_of_measure_of_the_food",
+    "required_status": "required",
+    "applies_to": "shippers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "number",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-8-8",
+        "citation_anchor": "page-8",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-8",
+        "page_number": 8,
+        "support_text": "Product description for the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-8-8"
+      ]
+    },
+    "kde_id": "kde_shipping_03_product_description_for_the_food",
+    "cte_type": "shipping",
+    "kde_name": "Product description for the food",
+    "field_key": "product_description_for_the_food",
+    "required_status": "required",
+    "applies_to": "shippers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-8-8",
+        "citation_anchor": "page-8",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-8",
+        "page_number": 8,
+        "support_text": "Location description for the immediate subsequent recipient (other than a transporter) of the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-8-8"
+      ]
+    },
+    "kde_id": "kde_shipping_04_location_description_for_the_immediate_subsequent_recipient_other_than_a_transpo",
+    "cte_type": "shipping",
+    "kde_name": "Location description for the immediate subsequent recipient (other than a transporter) of the food",
+    "field_key": "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+    "required_status": "required",
+    "applies_to": "shippers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-8-8",
+        "citation_anchor": "page-8",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-8",
+        "page_number": 8,
+        "support_text": "Location description for the location from which you shipped the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-8-8"
+      ]
+    },
+    "kde_id": "kde_shipping_05_location_description_for_the_location_from_which_you_shipped_the_food",
+    "cte_type": "shipping",
+    "kde_name": "Location description for the location from which you shipped the food",
+    "field_key": "location_description_for_the_location_from_which_you_shipped_the_food",
+    "required_status": "required",
+    "applies_to": "shippers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-8-8",
+        "citation_anchor": "page-8",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-8",
+        "page_number": 8,
+        "support_text": "Date you shipped the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-8-8"
+      ]
+    },
+    "kde_id": "kde_shipping_06_date_you_shipped_the_food",
+    "cte_type": "shipping",
+    "kde_name": "Date you shipped the food",
+    "field_key": "date_you_shipped_the_food",
+    "required_status": "required",
+    "applies_to": "shippers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-8-8",
+        "citation_anchor": "page-8",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-8",
+        "page_number": 8,
+        "support_text": "Location description for the traceability lot code source or the traceability lot code source reference"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-8-8"
+      ]
+    },
+    "kde_id": "kde_shipping_07_location_description_for_the_traceability_lot_code_source_or_the_traceability_lo",
+    "cte_type": "shipping",
+    "kde_name": "Location description for the traceability lot code source or the traceability lot code source reference",
+    "field_key": "location_description_for_the_traceability_lot_code_source_or_the_traceability_lot_code_source_refere",
+    "required_status": "required",
+    "applies_to": "shippers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-8-8",
+        "citation_anchor": "page-8",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-8",
+        "page_number": 8,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-8-8"
+      ]
+    },
+    "kde_id": "kde_shipping_08_reference_document_type_and_reference_document_number_maintain_only_this_section",
+    "cte_type": "shipping",
+    "kde_name": "Reference document type and reference document number (maintain only) *This section does not apply to the shipment of a food that occurs before the food is initially packed (if the food is a raw agricultural commodity not obtained from a fishing vessel)",
+    "field_key": "reference_document_type_and_reference_document_number_maintain_only_this_section_does_not_apply_to_t",
+    "required_status": "required",
+    "applies_to": "shippers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "bill of lading",
+      "invoice",
+      "ASN",
+      "work order",
+      "production log"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Traceability lot code for the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_01_traceability_lot_code_for_the_food",
+    "cte_type": "receiving",
+    "kde_name": "Traceability lot code for the food",
+    "field_key": "traceability_lot_code_for_the_food",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "TLC registry",
+      "lot record",
+      "case label",
+      "ASN"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Quantity and unit of measure of the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_02_quantity_and_unit_of_measure_of_the_food",
+    "cte_type": "receiving",
+    "kde_name": "Quantity and unit of measure of the food",
+    "field_key": "quantity_and_unit_of_measure_of_the_food",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "number",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Traceability lot code for the food, which you must assign if one has not already been assigned"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_03_traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already",
+    "cte_type": "receiving",
+    "kde_name": "Traceability lot code for the food, which you must assign if one has not already been assigned",
+    "field_key": "traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already_been_assigned",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "TLC registry",
+      "lot record",
+      "case label",
+      "ASN"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Product description for the food (does not apply to RFEs or restaurants)"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_04_product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+    "cte_type": "receiving",
+    "kde_name": "Product description for the food (does not apply to RFEs or restaurants)",
+    "field_key": "product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Location description for the immediate previous source"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_05_location_description_for_the_immediate_previous_source",
+    "cte_type": "receiving",
+    "kde_name": "Location description for the immediate previous source",
+    "field_key": "location_description_for_the_immediate_previous_source",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_06_quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+    "cte_type": "receiving",
+    "kde_name": "Quantity and unit of measure of the food (other than a transporter) for the food",
+    "field_key": "quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "number",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Product description for the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_07_product_description_for_the_food",
+    "cte_type": "receiving",
+    "kde_name": "Product description for the food",
+    "field_key": "product_description_for_the_food",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Location description for where the food was received"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_08_location_description_for_where_the_food_was_received",
+    "cte_type": "receiving",
+    "kde_name": "Location description for where the food was received",
+    "field_key": "location_description_for_where_the_food_was_received",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Location description for the immediate previous source (other than a transporter) for the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_09_location_description_for_the_immediate_previous_source_other_than_a_transporter",
+    "cte_type": "receiving",
+    "kde_name": "Location description for the immediate previous source (other than a transporter) for the food",
+    "field_key": "location_description_for_the_immediate_previous_source_other_than_a_transporter_for_the_food",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Date you received the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_10_date_you_received_the_food",
+    "cte_type": "receiving",
+    "kde_name": "Date you received the food",
+    "field_key": "date_you_received_the_food",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Location description for where the food was received (i.e, traceability lot code source) and (if"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_11_location_description_for_where_the_food_was_received_i_e_traceability_lot_code_s",
+    "cte_type": "receiving",
+    "kde_name": "Location description for where the food was received (i.e, traceability lot code source) and (if",
+    "field_key": "location_description_for_where_the_food_was_received_i_e_traceability_lot_code_source_and_if",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_12_location_description_for_the_traceability_lot_code_source_or_applicable_traceabi",
+    "cte_type": "receiving",
+    "kde_name": "Location description for the traceability lot code source or applicable) traceability lot code source reference the traceability lot code source reference",
+    "field_key": "location_description_for_the_traceability_lot_code_source_or_applicable_traceability_lot_code_source",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Reference document type and reference document number"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_13_reference_document_type_and_reference_document_number",
+    "cte_type": "receiving",
+    "kde_name": "Reference document type and reference document number",
+    "field_key": "reference_document_type_and_reference_document_number",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "bill of lading",
+      "invoice",
+      "ASN",
+      "work order",
+      "production log"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-9-9",
+        "citation_anchor": "page-9",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-9",
+        "page_number": 9,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-9-9"
+      ]
+    },
+    "kde_id": "kde_receiving_14_reference_document_type_and_reference_document_number_this_section_does_not_appl",
+    "cte_type": "receiving",
+    "kde_name": "Reference document type and reference document number *This section does not apply to receipt of a food that occurs before the food is initially packed (if the food is a raw agricultural commodity not obtained from a fishing vessel) or to the receipt of a food by the first land-based receiver (if the food is obtained from a fishing vessel)",
+    "field_key": "reference_document_type_and_reference_document_number_this_section_does_not_apply_to_receipt_of_a_fo",
+    "required_status": "required",
+    "applies_to": "receivers of FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "bill of lading",
+      "invoice",
+      "ASN",
+      "work order",
+      "production log"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-10-10",
+        "citation_anchor": "page-10",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-10",
+        "page_number": 10,
+        "support_text": "New traceability lot code for the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-10-10"
+      ]
+    },
+    "kde_id": "kde_transformation_01_new_traceability_lot_code_for_the_food",
+    "cte_type": "transformation",
+    "kde_name": "New traceability lot code for the food",
+    "field_key": "new_traceability_lot_code_for_the_food",
+    "required_status": "required",
+    "applies_to": "persons transforming FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "TLC registry",
+      "lot record",
+      "case label",
+      "ASN"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-10-10",
+        "citation_anchor": "page-10",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-10",
+        "page_number": 10,
+        "support_text": "Traceability lot code for the food"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-10-10"
+      ]
+    },
+    "kde_id": "kde_transformation_02_traceability_lot_code_for_the_food",
+    "cte_type": "transformation",
+    "kde_name": "Traceability lot code for the food",
+    "field_key": "traceability_lot_code_for_the_food",
+    "required_status": "required",
+    "applies_to": "persons transforming FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "TLC registry",
+      "lot record",
+      "case label",
+      "ASN"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-10-10",
+        "citation_anchor": "page-10",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-10",
+        "page_number": 10,
+        "support_text": "Location description for where you transformed the food (i.e., the traceability lot code source), and (if applicable)"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-10-10"
+      ]
+    },
+    "kde_id": "kde_transformation_03_location_description_for_where_you_transformed_the_food_i_e_the_traceability_lot",
+    "cte_type": "transformation",
+    "kde_name": "Location description for where you transformed the food (i.e., the traceability lot code source), and (if applicable)",
+    "field_key": "location_description_for_where_you_transformed_the_food_i_e_the_traceability_lot_code_source_and_if",
+    "required_status": "conditional",
+    "applies_to": "persons transforming FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": "Required when applicable to the event, product, or entity context.",
+    "evidence_examples": [
+      "business name",
+      "street address",
+      "geographic coordinates"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-10-10",
+        "citation_anchor": "page-10",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-10",
+        "page_number": 10,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-10-10"
+      ]
+    },
+    "kde_id": "kde_transformation_04_product_description_for_the_food_to_the_traceability_lot_code_source_reference_w",
+    "cte_type": "transformation",
+    "kde_name": "Product description for the food to the traceability lot code source reference which the traceability lot code applies",
+    "field_key": "product_description_for_the_food_to_the_traceability_lot_code_source_reference_which_the_traceabilit",
+    "required_status": "required",
+    "applies_to": "persons transforming FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "TLC registry",
+      "lot record",
+      "case label",
+      "ASN"
+    ],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-10-10",
+        "citation_anchor": "page-10",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-10",
+        "page_number": 10,
+        "support_text": "Date transformation was completed"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-10-10"
+      ]
+    },
+    "kde_id": "kde_transformation_05_date_transformation_was_completed",
+    "cte_type": "transformation",
+    "kde_name": "Date transformation was completed",
+    "field_key": "date_transformation_was_completed",
+    "required_status": "required",
+    "applies_to": "persons transforming FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "date",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-10-10",
+        "citation_anchor": "page-10",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-10",
+        "page_number": 10,
+        "support_text": "For each traceability lot used, the"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-10-10"
+      ]
+    },
+    "kde_id": "kde_transformation_06_for_each_traceability_lot_used_the",
+    "cte_type": "transformation",
+    "kde_name": "For each traceability lot used, the",
+    "field_key": "for_each_traceability_lot_used_the",
+    "required_status": "required",
+    "applies_to": "persons transforming FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-10-10",
+        "citation_anchor": "page-10",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-10",
+        "page_number": 10,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-10-10"
+      ]
+    },
+    "kde_id": "kde_transformation_07_product_description_for_the_food_quantity_and_unit_of_measure_of_the",
+    "cte_type": "transformation",
+    "kde_name": "Product description for the food quantity and unit of measure of the",
+    "field_key": "product_description_for_the_food_quantity_and_unit_of_measure_of_the",
+    "required_status": "required",
+    "applies_to": "persons transforming FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "number",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-10-10",
+        "citation_anchor": "page-10",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-10",
+        "page_number": 10,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-10-10"
+      ]
+    },
+    "kde_id": "kde_transformation_08_quantity_and_unit_of_measure_of_the_food_food_used_from_that_lot",
+    "cte_type": "transformation",
+    "kde_name": "Quantity and unit of measure of the food food used from that lot",
+    "field_key": "quantity_and_unit_of_measure_of_the_food_food_used_from_that_lot",
+    "required_status": "required",
+    "applies_to": "persons transforming FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "number",
+    "conditional_logic": null,
+    "evidence_examples": [],
+    "severity_if_missing": "review_required"
+  },
+  {
+    "citations": [
+      {
+        "source_id": "fda-cte-kde-pdf",
+        "chunk_id": "fda-cte-kde-pdf-page-10-10",
+        "citation_anchor": "page-10",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/media/163132/download?attachment",
+        "section_ref": "page-10",
+        "page_number": 10,
+        "support_text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Pa"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "fda-cte-kde-pdf-page-10-10"
+      ]
+    },
+    "kde_id": "kde_transformation_09_reference_document_type_and_reference_document_number_for_racs_other_than_a_food",
+    "cte_type": "transformation",
+    "kde_name": "Reference document type and reference document number For RACs (other than a food obtained from a fishing vessel) that were not initially packed prior to your transformation of the food, you must maintain records containing the information specified in \u00a7 1.1330(a) or (c). For sprouts that were not initially packed prior to your transformation of the food, you must maintain records containing the information specified in \u00a7 1.1330(a) or (c), and also \u00a7 1.1330(b). *This section does not apply to retail food establishments and restaurants with respect to foods they do not ship (e.g., foods they sell or send directly to consumers)",
+    "field_key": "reference_document_type_and_reference_document_number_for_racs_other_than_a_food_obtained_from_a_fis",
+    "required_status": "required",
+    "applies_to": "persons transforming FTL foods",
+    "provider_role": null,
+    "recipient_role": null,
+    "data_type": "text",
+    "conditional_logic": null,
+    "evidence_examples": [
+      "bill of lading",
+      "invoice",
+      "ASN",
+      "work order",
+      "production log"
+    ],
+    "severity_if_missing": "review_required"
+  }
+]

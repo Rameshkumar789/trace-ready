@@ -1,0 +1,927 @@
+{
+  "approved_mappings": [
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "business_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0001",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-00_business_profile-r2-c1"
+      ],
+      "example_values": [
+        "BIZ-1"
+      ],
+      "mapping_id": "phase10b-approved-0001",
+      "source_column_pattern": "business_id",
+      "source_sheet_pattern": "00_Business_Profile"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "business_type",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0002",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-00_business_profile-r2-c3"
+      ],
+      "example_values": [
+        "distributor"
+      ],
+      "mapping_id": "phase10b-approved-0002",
+      "source_column_pattern": "business_type",
+      "source_sheet_pattern": "00_Business_Profile"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "company_name",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0003",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-00_business_profile-r2-c2"
+      ],
+      "example_values": [
+        "Bay Area Produce Co"
+      ],
+      "mapping_id": "phase10b-approved-0003",
+      "source_column_pattern": "company_name",
+      "source_sheet_pattern": "00_Business_Profile"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "covered_entity_status",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0004",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-00_business_profile-r2-c5"
+      ],
+      "example_values": [
+        "not_determined"
+      ],
+      "mapping_id": "phase10b-approved-0004",
+      "source_column_pattern": "covered_entity_status",
+      "source_sheet_pattern": "00_Business_Profile"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "handles_ftl_foods",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0005",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-00_business_profile-r2-c4"
+      ],
+      "example_values": [
+        "yes"
+      ],
+      "mapping_id": "phase10b-approved-0005",
+      "source_column_pattern": "handles_ftl_foods",
+      "source_sheet_pattern": "00_Business_Profile"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "ftl_category",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0006",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c3"
+      ],
+      "example_values": [
+        "Herbs fresh"
+      ],
+      "mapping_id": "phase10b-approved-0006",
+      "source_column_pattern": "ftl_food_category",
+      "source_sheet_pattern": "01_Product_Master"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "is_ftl_maybe",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0007",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c4",
+        "ev-fsma204_full_audit_sample-01_product_master-r3-c4"
+      ],
+      "example_values": [
+        "yes",
+        "unknown"
+      ],
+      "mapping_id": "phase10b-approved-0007",
+      "source_column_pattern": "is_ftl_maybe",
+      "source_sheet_pattern": "01_Product_Master"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "product_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0008",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c1",
+        "ev-fsma204_full_audit_sample-01_product_master-r3-c1"
+      ],
+      "example_values": [
+        "PROD-1",
+        "PROD-2"
+      ],
+      "mapping_id": "phase10b-approved-0008",
+      "source_column_pattern": "product_id",
+      "source_sheet_pattern": "01_Product_Master"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "product_name",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0009",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c2",
+        "ev-fsma204_full_audit_sample-01_product_master-r3-c2"
+      ],
+      "example_values": [
+        "Fresh Basil",
+        "Mixed Fresh Item"
+      ],
+      "mapping_id": "phase10b-approved-0009",
+      "source_column_pattern": "product_name",
+      "source_sheet_pattern": "01_Product_Master"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "location_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0010",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-02_location_master-r2-c1"
+      ],
+      "example_values": [
+        "LOC-1"
+      ],
+      "mapping_id": "phase10b-approved-0010",
+      "source_column_pattern": "location_id",
+      "source_sheet_pattern": "02_Location_Master"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "location_name",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0011",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-02_location_master-r2-c2"
+      ],
+      "example_values": [
+        "San Jose Warehouse"
+      ],
+      "mapping_id": "phase10b-approved-0011",
+      "source_column_pattern": "location_name",
+      "source_sheet_pattern": "02_Location_Master"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "location_type",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0012",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-02_location_master-r2-c3"
+      ],
+      "example_values": [
+        "warehouse"
+      ],
+      "mapping_id": "phase10b-approved-0012",
+      "source_column_pattern": "location_type",
+      "source_sheet_pattern": "02_Location_Master"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "partner_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0013",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-03_partner_master-r2-c1"
+      ],
+      "example_values": [
+        "SUPPLIER-1"
+      ],
+      "mapping_id": "phase10b-approved-0013",
+      "source_column_pattern": "partner_id",
+      "source_sheet_pattern": "03_Partner_Master"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "partner_name",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0014",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-03_partner_master-r2-c2"
+      ],
+      "example_values": [
+        "Supplier A"
+      ],
+      "mapping_id": "phase10b-approved-0014",
+      "source_column_pattern": "partner_name",
+      "source_sheet_pattern": "03_Partner_Master"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "partner_type",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0015",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-03_partner_master-r2-c3"
+      ],
+      "example_values": [
+        "external"
+      ],
+      "mapping_id": "phase10b-approved-0015",
+      "source_column_pattern": "partner_type",
+      "source_sheet_pattern": "03_Partner_Master"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "partner_relationship",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0016",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-03_partner_master-r2-c4"
+      ],
+      "example_values": [
+        "supplier"
+      ],
+      "mapping_id": "phase10b-approved-0016",
+      "source_column_pattern": "relationship",
+      "source_sheet_pattern": "03_Partner_Master"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "traceability_plan_answer",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0017",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c2"
+      ],
+      "example_values": [
+        "Exports from WMS and invoices"
+      ],
+      "mapping_id": "phase10b-approved-0017",
+      "source_column_pattern": "answer",
+      "source_sheet_pattern": "04_Traceability_Plan"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "source_document_id",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0018",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c3"
+      ],
+      "example_values": [
+        "EV-PLAN-1"
+      ],
+      "mapping_id": "phase10b-approved-0018",
+      "source_column_pattern": "evidence_id",
+      "source_sheet_pattern": "04_Traceability_Plan"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "traceability_plan_item",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0019",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c1"
+      ],
+      "example_values": [
+        "record_maintenance_procedure"
+      ],
+      "mapping_id": "phase10b-approved-0019",
+      "source_column_pattern": "plan_item",
+      "source_sheet_pattern": "04_Traceability_Plan"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "actor_location_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0020",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c4",
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c4"
+      ],
+      "example_values": [
+        "LOC-1"
+      ],
+      "mapping_id": "phase10b-approved-0020",
+      "source_column_pattern": "actor_location_id",
+      "source_sheet_pattern": "05_CTE_Events"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "event_datetime",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0021",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c3",
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c3"
+      ],
+      "example_values": [
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12"
+      ],
+      "mapping_id": "phase10b-approved-0021",
+      "source_column_pattern": "event_datetime",
+      "source_sheet_pattern": "05_CTE_Events"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "event_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0022",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c1",
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c1"
+      ],
+      "example_values": [
+        "REC-1",
+        "TRANS-1",
+        "SHIP-1"
+      ],
+      "mapping_id": "phase10b-approved-0022",
+      "source_column_pattern": "event_id",
+      "source_sheet_pattern": "05_CTE_Events"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "event_type",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0023",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c2",
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c2"
+      ],
+      "example_values": [
+        "receiving",
+        "transformation",
+        "shipping"
+      ],
+      "mapping_id": "phase10b-approved-0023",
+      "source_column_pattern": "event_type",
+      "source_sheet_pattern": "05_CTE_Events"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "reference_record_no",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0024",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c6",
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c6"
+      ],
+      "example_values": [
+        "INV-1",
+        "BATCH-1",
+        "BOL-1"
+      ],
+      "mapping_id": "phase10b-approved-0024",
+      "source_column_pattern": "reference_record_no",
+      "source_sheet_pattern": "05_CTE_Events"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "reference_record_type",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0025",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c5",
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c5"
+      ],
+      "example_values": [
+        "invoice",
+        "batch_log",
+        "bol"
+      ],
+      "mapping_id": "phase10b-approved-0025",
+      "source_column_pattern": "reference_record_type",
+      "source_sheet_pattern": "05_CTE_Events"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "event_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0026",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-06_event_line_items-r2-c2",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2"
+      ],
+      "example_values": [
+        "REC-1",
+        "TRANS-1",
+        "SHIP-1"
+      ],
+      "mapping_id": "phase10b-approved-0026",
+      "source_column_pattern": "event_id",
+      "source_sheet_pattern": "06_Event_Line_Items"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "event_line_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0027",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-06_event_line_items-r2-c1",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1"
+      ],
+      "example_values": [
+        "LINE-1",
+        "LINE-2",
+        "LINE-3"
+      ],
+      "mapping_id": "phase10b-approved-0027",
+      "source_column_pattern": "event_line_id",
+      "source_sheet_pattern": "06_Event_Line_Items"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "traceability_lot_code",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0028",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+      ],
+      "example_values": [
+        "TLC-PESTO-1"
+      ],
+      "mapping_id": "phase10b-approved-0028",
+      "source_column_pattern": "lot_or_tlc",
+      "source_sheet_pattern": "06_Event_Line_Items"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "output_lot_or_tlc",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0029",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+      ],
+      "example_values": [
+        "TLC-PESTO-1"
+      ],
+      "mapping_id": "phase10b-approved-0029",
+      "source_column_pattern": "output_lot_or_tlc",
+      "source_sheet_pattern": "06_Event_Line_Items"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "product_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0030",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-06_event_line_items-r2-c3",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3"
+      ],
+      "example_values": [
+        "PROD-1"
+      ],
+      "mapping_id": "phase10b-approved-0030",
+      "source_column_pattern": "product_id",
+      "source_sheet_pattern": "06_Event_Line_Items"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "product_name",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0031",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-06_event_line_items-r2-c4",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4"
+      ],
+      "example_values": [
+        "Fresh Basil",
+        "Basil Pesto"
+      ],
+      "mapping_id": "phase10b-approved-0031",
+      "source_column_pattern": "product_name",
+      "source_sheet_pattern": "06_Event_Line_Items"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "cte_type",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0032",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-07_kde_values-r2-c4",
+        "ev-fsma204_full_audit_sample-07_kde_values-r3-c4"
+      ],
+      "example_values": [
+        "receiving",
+        "shipping"
+      ],
+      "mapping_id": "phase10b-approved-0032",
+      "source_column_pattern": "cte_type",
+      "source_sheet_pattern": "07_KDE_Values"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "event_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0033",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-07_kde_values-r2-c2",
+        "ev-fsma204_full_audit_sample-07_kde_values-r3-c2"
+      ],
+      "example_values": [
+        "REC-1",
+        "SHIP-1"
+      ],
+      "mapping_id": "phase10b-approved-0033",
+      "source_column_pattern": "event_id",
+      "source_sheet_pattern": "07_KDE_Values"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "event_line_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0034",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-07_kde_values-r2-c3",
+        "ev-fsma204_full_audit_sample-07_kde_values-r3-c3"
+      ],
+      "example_values": [
+        "LINE-1",
+        "LINE-3"
+      ],
+      "mapping_id": "phase10b-approved-0034",
+      "source_column_pattern": "event_line_id",
+      "source_sheet_pattern": "07_KDE_Values"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "kde_field_key",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0035",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-07_kde_values-r2-c6",
+        "ev-fsma204_full_audit_sample-07_kde_values-r3-c6"
+      ],
+      "example_values": [
+        "received_date",
+        "reference_document_number"
+      ],
+      "mapping_id": "phase10b-approved-0035",
+      "source_column_pattern": "field_key",
+      "source_sheet_pattern": "07_KDE_Values"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "kde_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0036",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-07_kde_values-r2-c1",
+        "ev-fsma204_full_audit_sample-07_kde_values-r3-c1"
+      ],
+      "example_values": [
+        "KDE-1",
+        "KDE-2"
+      ],
+      "mapping_id": "phase10b-approved-0036",
+      "source_column_pattern": "kde_id",
+      "source_sheet_pattern": "07_KDE_Values"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "kde_name",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0037",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-07_kde_values-r2-c5",
+        "ev-fsma204_full_audit_sample-07_kde_values-r3-c5"
+      ],
+      "example_values": [
+        "Received date",
+        "Reference document number"
+      ],
+      "mapping_id": "phase10b-approved-0037",
+      "source_column_pattern": "kde_name",
+      "source_sheet_pattern": "07_KDE_Values"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "kde_value",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0038",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-07_kde_values-r2-c7",
+        "ev-fsma204_full_audit_sample-07_kde_values-r3-c7"
+      ],
+      "example_values": [
+        "2026-06-10",
+        "BOL-1"
+      ],
+      "mapping_id": "phase10b-approved-0038",
+      "source_column_pattern": "kde_value",
+      "source_sheet_pattern": "07_KDE_Values"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "lineage_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0039",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c1"
+      ],
+      "example_values": [
+        "LIN-1"
+      ],
+      "mapping_id": "phase10b-approved-0039",
+      "source_column_pattern": "lineage_id",
+      "source_sheet_pattern": "08_TLC_Lineage"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "lineage_status",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0040",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c5"
+      ],
+      "example_values": [
+        "gap"
+      ],
+      "mapping_id": "phase10b-approved-0040",
+      "source_column_pattern": "lineage_status",
+      "source_sheet_pattern": "08_TLC_Lineage"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "relationship_type",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0041",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c2"
+      ],
+      "example_values": [
+        "received_to_transformed"
+      ],
+      "mapping_id": "phase10b-approved-0041",
+      "source_column_pattern": "relationship_type",
+      "source_sheet_pattern": "08_TLC_Lineage"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "target_lot_or_tlc",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0042",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c4"
+      ],
+      "example_values": [
+        "TLC-PESTO-1"
+      ],
+      "mapping_id": "phase10b-approved-0042",
+      "source_column_pattern": "target_lot_or_tlc",
+      "source_sheet_pattern": "08_TLC_Lineage"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "event_id",
+      "confidence_floor": 0.98,
+      "draft_id": "phase10b-draft-0043",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-09_source_documents-r2-c2"
+      ],
+      "example_values": [
+        "REC-1"
+      ],
+      "mapping_id": "phase10b-approved-0043",
+      "source_column_pattern": "event_id",
+      "source_sheet_pattern": "09_Source_Documents"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "source_document_id",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0044",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-09_source_documents-r2-c1"
+      ],
+      "example_values": [
+        "EV-1"
+      ],
+      "mapping_id": "phase10b-approved-0044",
+      "source_column_pattern": "evidence_id",
+      "source_sheet_pattern": "09_Source_Documents"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "source_document_status",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0045",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-09_source_documents-r2-c4"
+      ],
+      "example_values": [
+        "available"
+      ],
+      "mapping_id": "phase10b-approved-0045",
+      "source_column_pattern": "evidence_status",
+      "source_sheet_pattern": "09_Source_Documents"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "source_document_type",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0046",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-09_source_documents-r2-c3"
+      ],
+      "example_values": [
+        "invoice"
+      ],
+      "mapping_id": "phase10b-approved-0046",
+      "source_column_pattern": "evidence_type",
+      "source_sheet_pattern": "09_Source_Documents"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "exemption_claim_id",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0047",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c1"
+      ],
+      "example_values": [
+        "CLAIM-1"
+      ],
+      "mapping_id": "phase10b-approved-0047",
+      "source_column_pattern": "claim_id",
+      "source_sheet_pattern": "10_Exemptions_Claims"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "exemption_claim_type",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0048",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c2"
+      ],
+      "example_values": [
+        "small_producer"
+      ],
+      "mapping_id": "phase10b-approved-0048",
+      "source_column_pattern": "claim_type",
+      "source_sheet_pattern": "10_Exemptions_Claims"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "exemption_claimed_by",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0049",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c3"
+      ],
+      "example_values": [
+        "Supplier A"
+      ],
+      "mapping_id": "phase10b-approved-0049",
+      "source_column_pattern": "claimed_by",
+      "source_sheet_pattern": "10_Exemptions_Claims"
+    },
+    {
+      "approval_reason": "Approved from Phase 10B bootstrap review; only approved mappings are executable.",
+      "approved_at": "2026-06-16T00:00:00Z",
+      "approved_by": "trace-ready-founder-admin-bootstrap",
+      "canonical_field": "exemption_evidence_provided",
+      "confidence_floor": 0.9,
+      "draft_id": "phase10b-draft-0050",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c4"
+      ],
+      "example_values": [
+        "no"
+      ],
+      "mapping_id": "phase10b-approved-0050",
+      "source_column_pattern": "evidence_provided",
+      "source_sheet_pattern": "10_Exemptions_Claims"
+    }
+  ],
+  "customer_id": "pilot_customer",
+  "draft_mapping_ids": [],
+  "file_patterns": [
+    "*.xlsx"
+  ],
+  "generated_at": "2026-06-16T00:00:00Z",
+  "global_alias_fallback": true,
+  "profile_hash": "539e40a2da19ba14927e1971da4ea72fb282d7c293b461599561710760313032",
+  "profile_id": "mapping-profile-pilot_customer-sample_workbook-v1",
+  "rejected_mapping_ids": [],
+  "rollback": {
+    "previous_profile_id": null,
+    "profile_hash": "539e40a2da19ba14927e1971da4ea72fb282d7c293b461599561710760313032",
+    "rollback_supported": true
+  },
+  "source_system": "sample_workbook",
+  "status": "approved",
+  "version": 1
+}

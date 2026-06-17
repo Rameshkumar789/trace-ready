@@ -1,0 +1,127 @@
+{
+  "runs": [
+    {
+      "runId": "phase5-anthropic-20260616T091539Z",
+      "reportFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T091539Z/phase5-anthropic-extraction-report.json",
+      "collections": {
+        "obligations": {
+          "acceptedRecords": 9,
+          "rejectedRecords": 11,
+          "conflictRecords": 0,
+          "issueCount": 11,
+          "stopReason": "end_turn",
+          "inputArtifacts": {
+            "systemPromptFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T091539Z/input/obligations/system-prompt.md",
+            "userPromptFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T091539Z/input/obligations/user-prompt.md",
+            "sourceChunkIdsFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T091539Z/input/obligations/source-chunk-ids.json"
+          },
+          "outputArtifacts": {
+            "rawResponseTextFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T091539Z/output/obligations/raw-response.txt",
+            "parsedJsonFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T091539Z/output/obligations/parsed-json.json"
+          },
+          "validationFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T091539Z/validated/obligations-validation.json",
+          "cacheControl": {
+            "type": "ephemeral",
+            "ttl": "1h"
+          },
+          "usage": {
+            "cache_creation": {
+              "ephemeral_1h_input_tokens": 7903,
+              "ephemeral_5m_input_tokens": 0
+            },
+            "cache_creation_input_tokens": 7903,
+            "cache_read_input_tokens": 0,
+            "inference_geo": "global",
+            "input_tokens": 3,
+            "output_tokens": 13827,
+            "output_tokens_details": null,
+            "server_tool_use": null,
+            "service_tier": "standard"
+          }
+        }
+      }
+    },
+    {
+      "runId": "phase5-anthropic-20260616T092748Z",
+      "reportFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/phase5-anthropic-extraction-report.json",
+      "collections": {
+        "exemption_rules": {
+          "acceptedRecords": 3,
+          "rejectedRecords": 5,
+          "conflictRecords": 0,
+          "issueCount": 5,
+          "stopReason": "end_turn",
+          "inputArtifacts": {
+            "systemPromptFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/exemption_rules/system-prompt.md",
+            "userPromptFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/exemption_rules/user-prompt.md",
+            "sourceChunkIdsFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/exemption_rules/source-chunk-ids.json"
+          },
+          "outputArtifacts": {
+            "rawResponseTextFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/output/exemption_rules/raw-response.txt",
+            "parsedJsonFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/output/exemption_rules/parsed-json.json"
+          },
+          "validationFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/validated/exemption_rules-validation.json",
+          "cacheControl": {
+            "type": "ephemeral",
+            "ttl": "1h"
+          },
+          "usage": {
+            "cache_creation": {
+              "ephemeral_1h_input_tokens": 5632,
+              "ephemeral_5m_input_tokens": 0
+            },
+            "cache_creation_input_tokens": 5632,
+            "cache_read_input_tokens": 0,
+            "inference_geo": "global",
+            "input_tokens": 3,
+            "output_tokens": 6573,
+            "output_tokens_details": null,
+            "server_tool_use": null,
+            "service_tier": "standard"
+          }
+        },
+        "tlc_rules": {
+          "acceptedRecords": 8,
+          "rejectedRecords": 0,
+          "conflictRecords": 0,
+          "issueCount": 0,
+          "stopReason": "end_turn",
+          "inputArtifacts": {
+            "systemPromptFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/tlc_rules/system-prompt.md",
+            "userPromptFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/tlc_rules/user-prompt.md",
+            "sourceChunkIdsFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/tlc_rules/source-chunk-ids.json"
+          },
+          "outputArtifacts": {
+            "rawResponseTextFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/output/tlc_rules/raw-response.txt",
+            "parsedJsonFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/output/tlc_rules/parsed-json.json"
+          },
+          "validationFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/validated/tlc_rules-validation.json",
+          "cacheControl": {
+            "type": "ephemeral",
+            "ttl": "1h"
+          },
+          "usage": {
+            "cache_creation": {
+              "ephemeral_1h_input_tokens": 6944,
+              "ephemeral_5m_input_tokens": 0
+            },
+            "cache_creation_input_tokens": 6944,
+            "cache_read_input_tokens": 0,
+            "inference_geo": "global",
+            "input_tokens": 3,
+            "output_tokens": 6385,
+            "output_tokens_details": null,
+            "server_tool_use": null,
+            "service_tier": "standard"
+          }
+        }
+      }
+    }
+  ],
+  "totals": {
+    "acceptedRecords": 20,
+    "rejectedRecords": 16,
+    "conflictRecords": 0,
+    "issueCount": 16
+  }
+}

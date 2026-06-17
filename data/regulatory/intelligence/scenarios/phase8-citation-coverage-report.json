@@ -1,0 +1,471 @@
+{
+  "summary": {
+    "records": 13,
+    "complete": 13,
+    "partial": 0,
+    "missing": 0,
+    "invalid": 0,
+    "citations": 22,
+    "validCitations": 22,
+    "invalidCitations": 0,
+    "missingSupportTextCitations": 0
+  },
+  "by_collection": {
+    "scenario_regression_benchmarks": {
+      "complete": 13
+    }
+  },
+  "records": [
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:fda_scenario:cucumber",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "scenario-produce-cucumbers-slides",
+          "chunk_id": "scenario-produce-cucumbers-slides-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Supply Chain Example: Cucumbers The Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List (FTL) to",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": false,
+          "normalized_match": true,
+          "status": "valid_normalized",
+          "message": "Citation support_text appears in the cited chunk after whitespace normalization."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:fda_scenario:tuna",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "chunk_id": "scenario-seafood-tuna-slides-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Supply Chain Example: Wild-Caught Tuna The Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List (",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": false,
+          "normalized_match": true,
+          "status": "valid_normalized",
+          "message": "Citation support_text appears in the cited chunk after whitespace normalization."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:fda_scenario:cheese",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "scenario-cheese-slides",
+          "chunk_id": "scenario-cheese-slides-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Supply Chain Example: Soft Cheese The Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List (FTL)",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": false,
+          "normalized_match": true,
+          "status": "valid_normalized",
+          "message": "Citation support_text appears in the cited chunk after whitespace normalization."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:fda_scenario:deli_salad_ftl_ingredients",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "scenario-deli-salad-slides",
+          "chunk_id": "scenario-deli-salad-slides-page-3-3",
+          "citation_anchor": "page-3",
+          "support_text": "Supply Chain Example: Deli salad using FTL ingredients and non-FTL ingredients In this scenario, a deli salad is made with fresh-cut celery and fresh-cut onions",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": false,
+          "normalized_match": true,
+          "status": "valid_normalized",
+          "message": "Citation support_text appears in the cited chunk after whitespace normalization."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:fda_scenario:deli_salad_canned_tuna",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "scenario-deli-salad-slides",
+          "chunk_id": "scenario-deli-salad-slides-page-4-4",
+          "citation_anchor": "page-4",
+          "support_text": "Supply Chain Example: Tuna salad using canned tuna In this scenario, a deli salad is made with canned tuna and non-FTL ingredients. The seafood processor cans t",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": false,
+          "normalized_match": true,
+          "status": "valid_normalized",
+          "message": "Citation support_text appears in the cited chunk after whitespace normalization."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:fda_scenario:sprouts",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "scenario-sprouts-slides",
+          "chunk_id": "scenario-sprouts-slides-page-3-3",
+          "citation_anchor": "page-3",
+          "support_text": "Example: Sprouts Supply Chain In this scenario, fresh sprouts are being packed by the sprout grower for sale at retail. Key Data Elements (KDEs) are required fo",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": false,
+          "normalized_match": true,
+          "status": "valid_normalized",
+          "message": "Citation support_text appears in the cited chunk after whitespace normalization."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:traceability_plan:farm",
+      "citation_count": 3,
+      "valid_citation_count": 3,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "traceability-plan-farms",
+          "chunk_id": "traceability-plan-farms-page-1-1",
+          "citation_anchor": "page-1",
+          "support_text": "Traceability Plan Example\nfor Farms (\u00a7 1.1315)\nThe purpose of this document is to help farms establish a traceability plan as required in \u00a7 1.1315 of the\nFood Traceability Rule.\nThis example incorporates the information that is required by FDA\u2019s Food Traceability Rule and is one\nexample of how a traceability plan can be established. There is no specific format required for the\ntraceability plan, but the information in the traceability plan must meet the requirements as described in \u00a7\n1.1315 of the Food Traceability Rule and reflect the current practices specific to the covered entity. Please\nnote that for purposes of illustration, we have provided two examples of what a farm map could look like;\nhowever, the rule only requires one farm map (if applicable).\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the final rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records;\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 The farm map must show the location and name of each field (or other growing area) in which\nyou grow a food on the Food Traceability List, including geographic coordinates and any other\ninformation needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects your\ncurrent practices and to ensure that you are in compliance with the requirements of the rule. You must\nretain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov November 2023",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        },
+        {
+          "source_id": "traceability-plan-farms",
+          "chunk_id": "traceability-plan-farms-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Traceability Plan Example for Farms (continued)\nProcedures to Maintain the Records\nDigital records of all required KDEs are captured and stored in our commercial software solution. Records\nare maintained for two years.\nHard copies of Bills of Lading are provided to subsequent recipients containing all KDEs except TLC/\nTLC Source Reference, which is barcoded on product case labels. Some companies also receive digital\nadvanced shipment notices containing all required KDEs.\nProcedures to Identify FTL Foods\nAll products packed at this facility are on the FTL.\nAssigning Traceability Lot Codes\nUnique products/pack sizes are assigned a 14-digit case GS1 GTIN. Internal lot codes are assigned\nusing date (MMDDYY) and packing line (\u201cAAA\u201d \u2013 \u201cZZZ\u201d). Together the case GTIN and Internal Lot code\nrepresent our traceability lot code.\nPoint of Contact\nSarah Tree, Traceability Manager, 123-456-7899\nFarm Map\nSee Appendix.\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in a\nfolder on SharePoint for at least two years after it is updated.\nwww.fda.gov 2 November 2023",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        },
+        {
+          "source_id": "traceability-plan-farms",
+          "chunk_id": "traceability-plan-farms-page-3-3",
+          "citation_anchor": "page-3",
+          "support_text": "Traceability Plan Example for Farms (continued)\nAppendix:\nA. Example #1\nFarm Name Field Name Field Geographic Coordinates\nLizzie\u2019s Lettuce Field A-08 26.35145, -81.45909\nLizzie\u2019s Lettuce Field B-09 26.35008, -81.45906\nLizzie\u2019s Lettuce Field C-02 26.34812, -81.45893\nLizzie\u2019s Lettuce Field D-03 26.34647, -81.45913\nB. Example #2\nwww.fda.gov 3 November 2023\n\nFarm Name | Field Name | Field Geographic Coordinates\nLizzie\u2019s Lettuce | Field A-08 | 26.35145, -81.45909\nLizzie\u2019s Lettuce | Field B-09 | 26.35008, -81.45906\nLizzie\u2019s Lettuce | Field C-02 | 26.34812, -81.45893\nLizzie\u2019s Lettuce | Field D-03 | 26.34647, -81.45913\n |  |",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:traceability_plan:restaurant",
+      "citation_count": 2,
+      "valid_citation_count": 2,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "traceability-plan-restaurants",
+          "chunk_id": "traceability-plan-restaurants-page-1-1",
+          "citation_anchor": "page-1",
+          "support_text": "Traceability Plan Example\nfor Restaurants (\u00a7 1.1315)\nThe purpose of this document is to help restaurants establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example incorporates the information that is required by FDA\u2019s Food Traceability Rule and is one\nexample of how a traceability plan can be established. There is no specific format required for the\ntraceability plan, but the information in the traceability plan must meet the requirements as described in\n\u00a7 1.1315 of the Food Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the final rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records;\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 The farm map must show the location and name of each field (or other growing area) in which\nyou grow a food on the Food Traceability List, including geographic coordinates and any other\ninformation needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects your\ncurrent practices and to ensure that you are in compliance with the requirements of the rule. You must\nretain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov November 2023",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        },
+        {
+          "source_id": "traceability-plan-restaurants",
+          "chunk_id": "traceability-plan-restaurants-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Traceability Plan Example for Restaurants (continued)\nProcedures to Maintain the Records\nHard copies of Invoices and Bills of Lading are scanned and stored in an electronic filing system located\non our local computer system. Digital advance shipment notices that have been received are also\nmaintained in an electronic filing system located on our local computer system. Records are maintained\nfor two years.\nProcedures to Identify FTL Foods\nAll suppliers to Sammy\u2019s Sandwich Shoppe are obligated by contract to identify FTL Foods on the records\nprovided when shipments are received (either paper copies provided at receiving or electronically sent\nahead of shipment receipt).\nAssigning Traceability Lot Codes\nWe do not assign TLCs.\nPoint of Contact\nSteve McGee, Manager, 456-789-1233\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety program, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in a\nfolder on our local computer system for at least two years after it is updated.\nwww.fda.gov 2 November 2023",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:traceability_plan:sprouter",
+      "citation_count": 3,
+      "valid_citation_count": 3,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "traceability-plan-sprouters",
+          "chunk_id": "traceability-plan-sprouters-page-1-1",
+          "citation_anchor": "page-1",
+          "support_text": "Traceability Plan Example\n- Sprouter (\u00a7 1.1315)\nThe purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example includes the information that is required by the Food Traceability Rule and is one example\nof how a traceability plan can be established. There is no specific format required for the traceability plan,\nbut the information in the traceability plan must meet the requirements as described in \u00a7 1.1315 of the\nFood Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records.\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 Except for aquaculture farms, the farm map must show the location and name of each\nfield (or other growing area) in which you grow a food on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each field or\ngrowing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects\nyour current practices and to ensure that you are in compliance with the requirements of the Food\nTraceability Rule. You must retain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov September 2024",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        },
+        {
+          "source_id": "traceability-plan-sprouters",
+          "chunk_id": "traceability-plan-sprouters-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Traceability Plan Example for Sprouter (continued)\nProcedures to Maintain the Records\nDigital records of all required KDEs are captured and stored in an excel document on the Traceability\nManager\u2019s laptop. Records are maintained for two years.\nHard copies of Bills of Lading are provided to subsequent recipients containing all required KDEs. Some\ncompanies also receive digital advanced shipment notices containing all required KDEs.\nProcedures to Identify FTL Foods\nAll products packed at this operation are on the FTL.\nAssigning Traceability Lot Codes\nLot codes are assigned using sprout type (\u201cAL\u201d or \u201cMB\u201d), harvest date (MMDDYY) and growing location\n(\u201cRD1-12\u201d or \u201cMBB1-10\u201d). For example, a lot of alfalfa sprouts harvested on Aug. 19, 2024, from rotary\ndrum 1 would have the TLC \u201cAL081924RD1.\u201d\nPoint of Contact\nJen Clover, Traceability Manager, 123-456-7899\nFarm Map\nSee Appendix.\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in\na folder on the Traceability Manager\u2019s laptop for at least two years after it is updated folder on our local\ncomputer system for at least two years after it is updated.\nwww.fda.gov 2 September 2024",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        },
+        {
+          "source_id": "traceability-plan-sprouters",
+          "chunk_id": "traceability-plan-sprouters-page-3-3",
+          "citation_anchor": "page-3",
+          "support_text": "Traceability Plan Example for Sprouter (continued)\nAppendix:\nGrowing Green\n123 Alfalfa lane\nMinneapolis, MN 55401\nGPS coordinates: 39.289661, -76.580203\nwww.fda.gov 3 September 2024",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:traceability_plan:food_processor",
+      "citation_count": 2,
+      "valid_citation_count": 2,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "traceability-plan-food-processors",
+          "chunk_id": "traceability-plan-food-processors-page-1-1",
+          "citation_anchor": "page-1",
+          "support_text": "Traceability Plan Example for\nFood Processor (\u00a7 1.1315)\nThe purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example includes the information that is required by the Food Traceability Rule and is one example\nof how a traceability plan can be established. There is no specific format required for the traceability plan,\nbut the information in the traceability plan must meet the requirements as described in \u00a7 1.1315 of the\nFood Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records.\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 Except for aquaculture farms, the farm map must show the location and name of each field (or\nother growing area) in which you grow a food on the Food Traceability List, including geographic\ncoordinates and any other information needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects\nyour current practices and to ensure that you are in compliance with the requirements of the Food\nTraceability Rule. You must retain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov March 2025",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        },
+        {
+          "source_id": "traceability-plan-food-processors",
+          "chunk_id": "traceability-plan-food-processors-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Traceability Plan Example for Food Processor (continued)\nProcedures to Maintain the Records\nHypothetical Solution is the software solution we utilize to send and receive EDI messages containing\nshipping and receiving KDEs with our supply chain partners. We receive Advanced Shipping Notices\n(ASNs) from our suppliers (via Hypothetical Solution) for each shipment with FTL foods. These ASNs\ncontain our required receiving KDEs, except for receipt date, which is automatically recorded by the\nsystem when the incoming shipment is marked as received at the loading dock. We also use Hypothetical\nSolution to send ASNs to our customers for FTL foods that we ship. These ASNs contain the required\nshipping KDEs, which the system maintains as well as sends. Hypothetical Solution stores all transactions\nfor more than 2 years in accordance with other company recordkeeping policies. Hypothetical Solution is\na 3rd-party, cloud-based software solution that stores, receives, and sends EDI transactions digitally.\nWhen we receive an ASN of an inbound shipment, the anticipated shipment is created in Pretend Tool,\nour central software tool for ordering and production. Receiving inbound shipments, work orders for\nproducing foods, and picking outbound shipments are all recorded in Pretend Tool as digital records.\nThese records also contain all of the required Transformation KDEs. The software is installed in servers\nthat are located on site at RS Foods. Records are kept for more than 2 years in accordance with company\nrecordkeeping policies.\nProcedures to Identify FTL Foods\nEvery food that RS Foods receives, produces, and ships is given a SKU in Pretend Tool. Without a SKU\nnumber, an inventory transaction cannot be recorded for a food in Pretend Tool. Each SKU has attributes\ndescribing which food it represents inside Pretend Tool. One of these attributes is a checkbox/flag that\nsays whether the food represented by the SKU is on the FTL or not. Foods that are on the FTL or that\ncontain FTL ingredients (in the same form in which they appear on the FTL, e.g., \u201cfresh\u201d) are flagged with\nthis checkbox. When a new product is added to our inventory, we associate it with a SKU in Pretend\nTool and evaluate whether to flag it as on the FTL. We review the total list of SKUs in Pretend Tool on a\nquarterly basis.\nAssigning Traceability Lot Codes\nTraceability lot codes are assigned for foods we produce using a combination of the production date, two-\ndigit facility number, and SKU: MM/DD/YYYY/facility number/SKU. For example, 03152026056AA13426\nwould be a production run of SKU AA13426 on March 15, 2026 in facility 56. Facility 56 is the number\ngiven to the Minneapolis location of RS Foods.\nIf an FTL food is received without a lot number (e.g., from an exempt supplier), we assign a\nTLC using a combination of the receive date, the Bill of Lading number and SKU. For example:\n0315202651378230B61342 is a product with a SKU of BB61342 received on March 15, 2026 with BOL\n#51378230.\nPoint of Contact\nJackie Taylor, QA manager, 222-453-8877\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in a\nfolder in the Pretend Tool for at least two years after it is updated.\nwww.fda.gov 2 March 2025",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:traceability_plan:distribution_center",
+      "citation_count": 2,
+      "valid_citation_count": 2,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "traceability-plan-distribution-centers",
+          "chunk_id": "traceability-plan-distribution-centers-page-1-1",
+          "citation_anchor": "page-1",
+          "support_text": "Traceability Plan Example for\nDistribution Center (\u00a7 1.1315)\nThe purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example includes the information that is required by the Food Traceability Rule and is one example\nof how a traceability plan can be established. There is no specific format required for the traceability plan,\nbut the information in the traceability plan must meet the requirements as described in \u00a7 1.1315 of the\nFood Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records.\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 Except for aquaculture farms, the farm map must show the location and name of each field (or\nother growing area) in which you grow a food on the Food Traceability List, including geographic\ncoordinates and any other information needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects\nyour current practices and to ensure that you are in compliance with the requirements of the Food\nTraceability Rule. You must retain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov March 2025",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        },
+        {
+          "source_id": "traceability-plan-distribution-centers",
+          "chunk_id": "traceability-plan-distribution-centers-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Traceability Plan Example for Distribution Center (continued)\nProcedures to Maintain the Records\nWhen shipments are inbound to Dee-Cee Distribution Center, shippers are required to transmit an ASN to\nthe Dee-Cee EDI gateway or email the College Park logistics department email address with the inbound\nshipment details. When an inbound shipment includes foods on the FTL, this transmission or email needs\nto include the Shipping KDEs that the supplier is required to send, including the Traceability Lot Code of\nthe foods.\nPending arrivals are created in Dee-Cee\u2019s Warehouse Management System (WMS) with the details of the\nexpected shipment. Then, when the truck is unloaded at College Park, the unloading staff can record a\nWarehouse Receipt transaction in the WMS which records the KDEs required for a Receiving CTE. The\nWarehouse Receipt transaction can update which products, quantities, and Traceability Lot Codes are\nrecorded in the WMS if what is actually unloaded differs from the ASN.\nWhen outbound shipments are assembled by pickers, the products and their associated TLCs are\nrecorded in a Warehouse Pick transaction in the WMS. After the doors are closed on the truck, the loading\nstaff confirms the Warehouse Pick transaction which either triggers an ASN in the Dee-Cee EDI gateway (if\nthe recipient is setup with EDI) or notification to the logistics department to email the shipping KDEs to the\nrecipient.\nThe Dee-Cee EDI gateway and WMS are cloud-hosted software solutions that store records digitally such\nthat the records are accessible by personnel at the College Park distribution center. When the logistics\ndepartment receives documents via email for inbound shipments, the documents are saved as PDFs in\nthe Dee-Cee document management system (DMS), where they are associated with the WMS Warehouse\nReceipt transaction #. If documents (e.g., Bills of Lading) are hand-delivered by a driver, the unloading\nstaff will pass them along to the logistics department to scan the documents and store in the DMS. The\nDMS is also a cloud-hosted service that stores the files digitally in a way that is accessible by personnel at\nthe College Park location.\nProcedures to Identify FTL Foods\nMany products packed at this operation are on the FTL. Because suppliers and current inventory needs\nchange often, our Traceability Manager reviews all new products and compares them to the FDA\u2019s Food\nTraceability List before they are added to our Product Lists. When FTL foods are identified (including foods\nthat contain FTL ingredients), they are flagged in our warehouse management system as FTL foods.\nAssigning Traceability Lot Codes\nMost FTL products received already have assigned Traceability Lot Codes. The only situation in which our\nfirm assigns TLCs is when we receive FTL foods from exempt entities. In that situation, we assign a TLC\nthat consists of the supplier\u2019s name/number in our WMS, the purchase order number, SKU, and the date\nof receipt of the food.\nPoint of Contact\nMarie Clover, Inventory Control Specialist, 123-456-7899\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is maintained\nin our Document Management System at least two years after it is updated.\nwww.fda.gov 2 March 2025",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:traceability_plan:seafood_processing",
+      "citation_count": 2,
+      "valid_citation_count": 2,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "traceability-plan-seafood-processing",
+          "chunk_id": "traceability-plan-seafood-processing-page-1-1",
+          "citation_anchor": "page-1",
+          "support_text": "Traceability Plan Example for\nSeafood Processing Facility (\u00a7 1.1315)\nThe purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example includes the information that is required by the Food Traceability Rule and is one example\nof how a traceability plan can be established. There is no specific format required for the traceability plan,\nbut the information in the traceability plan must meet the requirements as described in \u00a7 1.1315 of the\nFood Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records.\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 Except for aquaculture farms, the farm map must show the location and name of each field (or\nother growing area) in which you grow a food on the Food Traceability List, including geographic\ncoordinates and any other information needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects\nyour current practices and to ensure that you are in compliance with the requirements of the Food\nTraceability Rule. You must retain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov March 2025",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        },
+        {
+          "source_id": "traceability-plan-seafood-processing",
+          "chunk_id": "traceability-plan-seafood-processing-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Traceability Plan Example for Seafood Processing Facility (continued)\nProcedures to Maintain the Records\nDigital records of all required KDEs are captured and stored in our electronic inventory control system.\nRecords are maintained for two years.\nElectronic copies of Bills of Lading are provided to subsequent recipients containing all required KDEs.\nProcedures to Identify FTL Foods\nAll products we carry are on the FTL.\nAssigning Traceability Lot Codes\nTraceability lot codes are assigned using a combination of the manufacturing facility, production date, the\nproduction line/shift and the type of product. See lot code decoder below.\nPoint of Contact\nAarush Das, Supply Chain Manager, 222-754-8989\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in a\nfolder on the Traceability Manager\u2019s laptop for at least two years after it is updated.\nwww.fda.gov 2 March 2025",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_regression_benchmarks",
+      "record_id": "phase8:traceability_plan:aquaculture",
+      "citation_count": 2,
+      "valid_citation_count": 2,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "traceability-plan-aquaculture",
+          "chunk_id": "traceability-plan-aquaculture-page-1-1",
+          "citation_anchor": "page-1",
+          "support_text": "Traceability Plan Example for\nAquaculture Farm (\u00a7 1.1315)\nThe purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example includes the information that is required by the Food Traceability Rule and is one example\nof how a traceability plan can be established. There is no specific format required for the traceability plan,\nbut the information in the traceability plan must meet the requirements as described in \u00a7 1.1315 of the\nFood Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records.\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 Except for aquaculture farms, the farm map must show the location and name of each field (or\nother growing area) in which you grow a food on the Food Traceability List, including geographic\ncoordinates and any other information needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects\nyour current practices and to ensure that you are in compliance with the requirements of the Food\nTraceability Rule. You must retain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov March 2025",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        },
+        {
+          "source_id": "traceability-plan-aquaculture",
+          "chunk_id": "traceability-plan-aquaculture-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Traceability Plan Example for Aquaculture Farm (continued)\nProcedures to Maintain the Records\nPaper records containing all required KDEs are maintained in file folders in the main office located at 1608\nAquapond Road, Leland, MS 38756. Records are maintained for two years.\nHard copies of invoices for when fish are sent for processing are provided to subsequent recipients and\ncontain all required KDEs.\nProcedures to Identify FTL Foods\nAll products on this farm are on the FTL.\nAssigning Traceability Lot Codes\nWe are not required to assign traceability lot codes to the fish for the purposes of the Food Traceability\nRule.\nPoint of Contact\nTina Jones, Farm Manager, 222-754-8989\nFarm Map\nSee Appendix.\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in a\nfolder on the Traceability Manager\u2019s laptop for at least two years after it is updated.\nAppendix:\nSwimmy\u2019s FishFarm\n1608 Aquapond Road\nLeland, MS 38756\nGPS coordinates: 33.343806, -91.149742\nwww.fda.gov 2 March 2025",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    }
+  ]
+}

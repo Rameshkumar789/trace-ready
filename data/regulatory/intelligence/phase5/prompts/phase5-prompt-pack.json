@@ -1,0 +1,950 @@
+{
+  "prompts": [
+    {
+      "prompt_id": "phase5_obligation_extraction_v1",
+      "collection": "obligations",
+      "title": "AI-Assisted Obligation Extraction",
+      "purpose": "Extract obligation drafts from authoritative FSMA 204 source chunks without approving compliance logic.",
+      "system_instructions": "You are a regulatory extraction assistant for TraceReady.\nYou draft structured records only; you do not decide legal compliance.\nThe rules engine and human reviewer are the authority.\n- Return only JSON matching the Obligation schema.\n- Use only the supplied source chunks. Do not use outside knowledge.\n- Return at most 10 records.\n- Every draft obligation must include at least one citation with support_text copied exactly from a supplied chunk.\n- support_text must be one exact contiguous substring; do not combine clauses, paraphrase, or rewrite punctuation.\n- If one claim needs multiple source spans, create multiple citation objects.\n- If the source text is ambiguous, set confidence to low and review_status to needs_review.\n- Do not mark any record approved.",
+      "user_template": "# AI-Assisted Obligation Extraction\n\nExtract obligation drafts from authoritative FSMA 204 source chunks without approving compliance logic.\n\n## Extraction focus\n\n- covered subject\n- triggering condition\n- required action\n- required object or records\n- deadline or timing requirement when explicit\n- exceptions or cross-references when explicit\n\n## Required JSON schema\n\n{{OUTPUT_SCHEMA_JSON}}\n\n## Source chunks\n\n{{SOURCE_CHUNKS_JSON}}\n\nReturn a JSON array of records. No Markdown. No commentary.",
+      "output_schema": {
+        "$defs": {
+          "CitationRef": {
+            "additionalProperties": false,
+            "properties": {
+              "source_id": {
+                "minLength": 1,
+                "title": "Source Id",
+                "type": "string"
+              },
+              "chunk_id": {
+                "minLength": 1,
+                "title": "Chunk Id",
+                "type": "string"
+              },
+              "citation_anchor": {
+                "minLength": 1,
+                "title": "Citation Anchor",
+                "type": "string"
+              },
+              "authority_rank": {
+                "minLength": 1,
+                "title": "Authority Rank",
+                "type": "string"
+              },
+              "source_url": {
+                "minLength": 1,
+                "title": "Source Url",
+                "type": "string"
+              },
+              "section_ref": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Section Ref"
+              },
+              "page_number": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Page Number"
+              },
+              "support_text": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Support Text"
+              }
+            },
+            "required": [
+              "source_id",
+              "chunk_id",
+              "citation_anchor",
+              "authority_rank",
+              "source_url"
+            ],
+            "title": "CitationRef",
+            "type": "object"
+          },
+          "ConfidenceLevel": {
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "unsupported",
+              "conflict"
+            ],
+            "title": "ConfidenceLevel",
+            "type": "string"
+          },
+          "CteType": {
+            "enum": [
+              "harvesting",
+              "cooling",
+              "initial_packing",
+              "first_land_based_receiving",
+              "shipping",
+              "receiving",
+              "transformation",
+              "traceability_plan",
+              "other"
+            ],
+            "title": "CteType",
+            "type": "string"
+          },
+          "DraftMetadata": {
+            "additionalProperties": false,
+            "properties": {
+              "extraction_method": {
+                "$ref": "#/$defs/ExtractionMethod"
+              },
+              "confidence": {
+                "$ref": "#/$defs/ConfidenceLevel"
+              },
+              "review_status": {
+                "$ref": "#/$defs/ReviewStatus",
+                "default": "draft"
+              },
+              "reviewer_notes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Reviewer Notes",
+                "type": "array"
+              },
+              "source_chunk_ids": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Source Chunk Ids",
+                "type": "array"
+              }
+            },
+            "required": [
+              "extraction_method",
+              "confidence"
+            ],
+            "title": "DraftMetadata",
+            "type": "object"
+          },
+          "ExtractionMethod": {
+            "enum": [
+              "deterministic",
+              "ai_assisted",
+              "human_authored",
+              "imported_template"
+            ],
+            "title": "ExtractionMethod",
+            "type": "string"
+          },
+          "ReviewStatus": {
+            "enum": [
+              "draft",
+              "needs_review",
+              "approved",
+              "rejected",
+              "superseded",
+              "conflict_detected"
+            ],
+            "title": "ReviewStatus",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "citations": {
+            "items": {
+              "$ref": "#/$defs/CitationRef"
+            },
+            "minItems": 1,
+            "title": "Citations",
+            "type": "array"
+          },
+          "metadata": {
+            "$ref": "#/$defs/DraftMetadata"
+          },
+          "obligation_id": {
+            "minLength": 1,
+            "title": "Obligation Id",
+            "type": "string"
+          },
+          "subject": {
+            "minLength": 1,
+            "title": "Subject",
+            "type": "string"
+          },
+          "condition": {
+            "minLength": 1,
+            "title": "Condition",
+            "type": "string"
+          },
+          "action": {
+            "minLength": 1,
+            "title": "Action",
+            "type": "string"
+          },
+          "object": {
+            "minLength": 1,
+            "title": "Object",
+            "type": "string"
+          },
+          "required_output": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Required Output"
+          },
+          "deadline": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Deadline"
+          },
+          "exceptions": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Exceptions",
+            "type": "array"
+          },
+          "applies_to_ctes": {
+            "items": {
+              "$ref": "#/$defs/CteType"
+            },
+            "title": "Applies To Ctes",
+            "type": "array"
+          },
+          "applies_to_food_scope": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Applies To Food Scope"
+          },
+          "noncompliance_risk": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Noncompliance Risk"
+          }
+        },
+        "required": [
+          "citations",
+          "metadata",
+          "obligation_id",
+          "subject",
+          "condition",
+          "action",
+          "object"
+        ],
+        "title": "Obligation",
+        "type": "object"
+      },
+      "guardrails": [
+        "Return only JSON matching the Obligation schema.",
+        "Use only the supplied source chunks. Do not use outside knowledge.",
+        "Return at most 10 records.",
+        "Every draft obligation must include at least one citation with support_text copied exactly from a supplied chunk.",
+        "support_text must be one exact contiguous substring; do not combine clauses, paraphrase, or rewrite punctuation.",
+        "If one claim needs multiple source spans, create multiple citation objects.",
+        "If the source text is ambiguous, set confidence to low and review_status to needs_review.",
+        "Do not mark any record approved."
+      ],
+      "promptFile": "../data/regulatory/intelligence/phase5/prompts/phase5_obligation_extraction_v1.md",
+      "sourceChunkIds": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1300-1",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1325-6",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1335-8",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1350-11",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1455-31"
+      ]
+    },
+    {
+      "prompt_id": "phase5_exemption_extraction_v1",
+      "collection": "exemption_rules",
+      "title": "AI-Assisted Exemption Extraction",
+      "purpose": "Extract exemption-rule drafts with eligibility conditions, effect, documentation needs, and decision questions.",
+      "system_instructions": "You are a regulatory extraction assistant for TraceReady.\nYou draft structured records only; you do not decide legal compliance.\nThe rules engine and human reviewer are the authority.\n- Return only JSON matching the ExemptionRule schema.\n- Use only the supplied source chunks. Do not infer exemption eligibility from general FSMA knowledge.\n- Return at most 8 records.\n- Every exemption condition/effect must cite exact support_text from a supplied chunk.\n- support_text must be one exact contiguous substring; do not combine clauses, paraphrase, or rewrite punctuation.\n- If one claim needs multiple source spans, create multiple citation objects.\n- If the effect is not explicit, use unknown and add a reviewer warning.\n- Do not mark any record approved.",
+      "user_template": "# AI-Assisted Exemption Extraction\n\nExtract exemption-rule drafts with eligibility conditions, effect, documentation needs, and decision questions.\n\n## Extraction focus\n\n- exemption type\n- eligibility condition\n- full, partial, modified, or unknown effect\n- requirements affected\n- documentation needed\n- entity, food, and CTE applicability\n\n## Required JSON schema\n\n{{OUTPUT_SCHEMA_JSON}}\n\n## Source chunks\n\n{{SOURCE_CHUNKS_JSON}}\n\nReturn a JSON array of records. No Markdown. No commentary.",
+      "output_schema": {
+        "$defs": {
+          "CitationRef": {
+            "additionalProperties": false,
+            "properties": {
+              "source_id": {
+                "minLength": 1,
+                "title": "Source Id",
+                "type": "string"
+              },
+              "chunk_id": {
+                "minLength": 1,
+                "title": "Chunk Id",
+                "type": "string"
+              },
+              "citation_anchor": {
+                "minLength": 1,
+                "title": "Citation Anchor",
+                "type": "string"
+              },
+              "authority_rank": {
+                "minLength": 1,
+                "title": "Authority Rank",
+                "type": "string"
+              },
+              "source_url": {
+                "minLength": 1,
+                "title": "Source Url",
+                "type": "string"
+              },
+              "section_ref": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Section Ref"
+              },
+              "page_number": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Page Number"
+              },
+              "support_text": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Support Text"
+              }
+            },
+            "required": [
+              "source_id",
+              "chunk_id",
+              "citation_anchor",
+              "authority_rank",
+              "source_url"
+            ],
+            "title": "CitationRef",
+            "type": "object"
+          },
+          "ConfidenceLevel": {
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "unsupported",
+              "conflict"
+            ],
+            "title": "ConfidenceLevel",
+            "type": "string"
+          },
+          "CteType": {
+            "enum": [
+              "harvesting",
+              "cooling",
+              "initial_packing",
+              "first_land_based_receiving",
+              "shipping",
+              "receiving",
+              "transformation",
+              "traceability_plan",
+              "other"
+            ],
+            "title": "CteType",
+            "type": "string"
+          },
+          "DraftMetadata": {
+            "additionalProperties": false,
+            "properties": {
+              "extraction_method": {
+                "$ref": "#/$defs/ExtractionMethod"
+              },
+              "confidence": {
+                "$ref": "#/$defs/ConfidenceLevel"
+              },
+              "review_status": {
+                "$ref": "#/$defs/ReviewStatus",
+                "default": "draft"
+              },
+              "reviewer_notes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Reviewer Notes",
+                "type": "array"
+              },
+              "source_chunk_ids": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Source Chunk Ids",
+                "type": "array"
+              }
+            },
+            "required": [
+              "extraction_method",
+              "confidence"
+            ],
+            "title": "DraftMetadata",
+            "type": "object"
+          },
+          "ExemptionEffect": {
+            "enum": [
+              "full",
+              "partial",
+              "modified_requirements",
+              "not_exempt",
+              "unknown"
+            ],
+            "title": "ExemptionEffect",
+            "type": "string"
+          },
+          "ExtractionMethod": {
+            "enum": [
+              "deterministic",
+              "ai_assisted",
+              "human_authored",
+              "imported_template"
+            ],
+            "title": "ExtractionMethod",
+            "type": "string"
+          },
+          "ReviewStatus": {
+            "enum": [
+              "draft",
+              "needs_review",
+              "approved",
+              "rejected",
+              "superseded",
+              "conflict_detected"
+            ],
+            "title": "ReviewStatus",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "citations": {
+            "items": {
+              "$ref": "#/$defs/CitationRef"
+            },
+            "minItems": 1,
+            "title": "Citations",
+            "type": "array"
+          },
+          "metadata": {
+            "$ref": "#/$defs/DraftMetadata"
+          },
+          "exemption_rule_id": {
+            "minLength": 1,
+            "title": "Exemption Rule Id",
+            "type": "string"
+          },
+          "exemption_type": {
+            "minLength": 1,
+            "title": "Exemption Type",
+            "type": "string"
+          },
+          "eligibility_condition": {
+            "minLength": 1,
+            "title": "Eligibility Condition",
+            "type": "string"
+          },
+          "effect": {
+            "$ref": "#/$defs/ExemptionEffect"
+          },
+          "affected_requirements": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Affected Requirements",
+            "type": "array"
+          },
+          "documentation_needed": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Documentation Needed",
+            "type": "array"
+          },
+          "applies_to_entities": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Applies To Entities",
+            "type": "array"
+          },
+          "applies_to_foods": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Applies To Foods",
+            "type": "array"
+          },
+          "applies_to_ctes": {
+            "items": {
+              "$ref": "#/$defs/CteType"
+            },
+            "title": "Applies To Ctes",
+            "type": "array"
+          },
+          "decision_questions": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Decision Questions",
+            "type": "array"
+          },
+          "reviewer_warning": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Reviewer Warning"
+          }
+        },
+        "required": [
+          "citations",
+          "metadata",
+          "exemption_rule_id",
+          "exemption_type",
+          "eligibility_condition",
+          "effect"
+        ],
+        "title": "ExemptionRule",
+        "type": "object"
+      },
+      "guardrails": [
+        "Return only JSON matching the ExemptionRule schema.",
+        "Use only the supplied source chunks. Do not infer exemption eligibility from general FSMA knowledge.",
+        "Return at most 8 records.",
+        "Every exemption condition/effect must cite exact support_text from a supplied chunk.",
+        "support_text must be one exact contiguous substring; do not combine clauses, paraphrase, or rewrite punctuation.",
+        "If one claim needs multiple source spans, create multiple citation objects.",
+        "If the effect is not explicit, use unknown and add a reviewer warning.",
+        "Do not mark any record approved."
+      ],
+      "promptFile": "../data/regulatory/intelligence/phase5/prompts/phase5_exemption_extraction_v1.md",
+      "sourceChunkIds": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"
+      ]
+    },
+    {
+      "prompt_id": "phase5_tlc_rule_extraction_v1",
+      "collection": "tlc_rules",
+      "title": "AI-Assisted TLC Rule Extraction",
+      "purpose": "Extract traceability-lot-code rule drafts for assignment, preservation, source reference, transformation handling, uniqueness, and linkage.",
+      "system_instructions": "You are a regulatory extraction assistant for TraceReady.\nYou draft structured records only; you do not decide legal compliance.\nThe rules engine and human reviewer are the authority.\n- Return only JSON matching the TlcRule schema.\n- Use only supplied source chunks. Do not invent TLC behavior.\n- Return at most 8 records.\n- Each rule text field must be supported by cited source text.\n- support_text must be one exact contiguous substring; do not combine clauses, paraphrase, or rewrite punctuation.\n- If one rule needs multiple source spans, create multiple citation objects.\n- If a rule depends on CTE, food scope, or exemption context, keep required_status conditional and add unresolved_questions.\n- Do not mark any record approved.",
+      "user_template": "# AI-Assisted TLC Rule Extraction\n\nExtract traceability-lot-code rule drafts for assignment, preservation, source reference, transformation handling, uniqueness, and linkage.\n\n## Extraction focus\n\n- TLC assignment trigger\n- TLC preservation through shipping/receiving\n- TLC source and source-reference handling\n- transformation input-to-output TLC linkage\n- uniqueness or lot identity requirements\n\n## Required JSON schema\n\n{{OUTPUT_SCHEMA_JSON}}\n\n## Source chunks\n\n{{SOURCE_CHUNKS_JSON}}\n\nReturn a JSON array of records. No Markdown. No commentary.",
+      "output_schema": {
+        "$defs": {
+          "CitationRef": {
+            "additionalProperties": false,
+            "properties": {
+              "source_id": {
+                "minLength": 1,
+                "title": "Source Id",
+                "type": "string"
+              },
+              "chunk_id": {
+                "minLength": 1,
+                "title": "Chunk Id",
+                "type": "string"
+              },
+              "citation_anchor": {
+                "minLength": 1,
+                "title": "Citation Anchor",
+                "type": "string"
+              },
+              "authority_rank": {
+                "minLength": 1,
+                "title": "Authority Rank",
+                "type": "string"
+              },
+              "source_url": {
+                "minLength": 1,
+                "title": "Source Url",
+                "type": "string"
+              },
+              "section_ref": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Section Ref"
+              },
+              "page_number": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Page Number"
+              },
+              "support_text": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Support Text"
+              }
+            },
+            "required": [
+              "source_id",
+              "chunk_id",
+              "citation_anchor",
+              "authority_rank",
+              "source_url"
+            ],
+            "title": "CitationRef",
+            "type": "object"
+          },
+          "ConfidenceLevel": {
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "unsupported",
+              "conflict"
+            ],
+            "title": "ConfidenceLevel",
+            "type": "string"
+          },
+          "CteType": {
+            "enum": [
+              "harvesting",
+              "cooling",
+              "initial_packing",
+              "first_land_based_receiving",
+              "shipping",
+              "receiving",
+              "transformation",
+              "traceability_plan",
+              "other"
+            ],
+            "title": "CteType",
+            "type": "string"
+          },
+          "DraftMetadata": {
+            "additionalProperties": false,
+            "properties": {
+              "extraction_method": {
+                "$ref": "#/$defs/ExtractionMethod"
+              },
+              "confidence": {
+                "$ref": "#/$defs/ConfidenceLevel"
+              },
+              "review_status": {
+                "$ref": "#/$defs/ReviewStatus",
+                "default": "draft"
+              },
+              "reviewer_notes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Reviewer Notes",
+                "type": "array"
+              },
+              "source_chunk_ids": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Source Chunk Ids",
+                "type": "array"
+              }
+            },
+            "required": [
+              "extraction_method",
+              "confidence"
+            ],
+            "title": "DraftMetadata",
+            "type": "object"
+          },
+          "ExtractionMethod": {
+            "enum": [
+              "deterministic",
+              "ai_assisted",
+              "human_authored",
+              "imported_template"
+            ],
+            "title": "ExtractionMethod",
+            "type": "string"
+          },
+          "RequirementStatus": {
+            "enum": [
+              "required",
+              "conditional",
+              "optional",
+              "not_applicable",
+              "unknown"
+            ],
+            "title": "RequirementStatus",
+            "type": "string"
+          },
+          "ReviewStatus": {
+            "enum": [
+              "draft",
+              "needs_review",
+              "approved",
+              "rejected",
+              "superseded",
+              "conflict_detected"
+            ],
+            "title": "ReviewStatus",
+            "type": "string"
+          },
+          "TlcRuleKind": {
+            "enum": [
+              "assignment",
+              "preservation",
+              "source_reference",
+              "transformation_handling",
+              "uniqueness",
+              "linkage",
+              "other"
+            ],
+            "title": "TlcRuleKind",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "citations": {
+            "items": {
+              "$ref": "#/$defs/CitationRef"
+            },
+            "minItems": 1,
+            "title": "Citations",
+            "type": "array"
+          },
+          "metadata": {
+            "$ref": "#/$defs/DraftMetadata"
+          },
+          "tlc_rule_id": {
+            "minLength": 1,
+            "title": "Tlc Rule Id",
+            "type": "string"
+          },
+          "rule_kind": {
+            "$ref": "#/$defs/TlcRuleKind"
+          },
+          "applies_to_ctes": {
+            "items": {
+              "$ref": "#/$defs/CteType"
+            },
+            "minItems": 1,
+            "title": "Applies To Ctes",
+            "type": "array"
+          },
+          "applies_to_food_scope": {
+            "minLength": 1,
+            "title": "Applies To Food Scope",
+            "type": "string"
+          },
+          "assignment_rule": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Assignment Rule"
+          },
+          "preservation_rule": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Preservation Rule"
+          },
+          "source_reference_rule": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Source Reference Rule"
+          },
+          "transformation_handling": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Transformation Handling"
+          },
+          "uniqueness_rule": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Uniqueness Rule"
+          },
+          "lineage_rule": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Lineage Rule"
+          },
+          "required_status": {
+            "$ref": "#/$defs/RequirementStatus",
+            "default": "conditional"
+          },
+          "evidence_examples": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Evidence Examples",
+            "type": "array"
+          },
+          "unresolved_questions": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Unresolved Questions",
+            "type": "array"
+          }
+        },
+        "required": [
+          "citations",
+          "metadata",
+          "tlc_rule_id",
+          "rule_kind",
+          "applies_to_ctes",
+          "applies_to_food_scope"
+        ],
+        "title": "TlcRule",
+        "type": "object"
+      },
+      "guardrails": [
+        "Return only JSON matching the TlcRule schema.",
+        "Use only supplied source chunks. Do not invent TLC behavior.",
+        "Return at most 8 records.",
+        "Each rule text field must be supported by cited source text.",
+        "support_text must be one exact contiguous substring; do not combine clauses, paraphrase, or rewrite punctuation.",
+        "If one rule needs multiple source spans, create multiple citation objects.",
+        "If a rule depends on CTE, food scope, or exemption context, keep required_status conditional and add unresolved_questions.",
+        "Do not mark any record approved."
+      ],
+      "promptFile": "../data/regulatory/intelligence/phase5/prompts/phase5_tlc_rule_extraction_v1.md",
+      "sourceChunkIds": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1335-8",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1350-11",
+        "fda-traceability-lot-code-document-1",
+        "fda-traceability-lot-code-regulated-product-s-15",
+        "fda-traceability-lot-code-traceability-lot-code-2",
+        "fda-traceability-lot-code-what-are-some-examples-of-traceability-lot-codes-4"
+      ]
+    }
+  ]
+}

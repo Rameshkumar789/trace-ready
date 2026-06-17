@@ -1,0 +1,79 @@
+{
+  "summary": {
+    "sources": 71,
+    "chunks": 1440,
+    "sourceIssues": 0,
+    "chunkIssues": 0,
+    "errors": 0,
+    "warnings": 0,
+    "blockingIssues": 0,
+    "needsRemediation": 0,
+    "acceptedNonblocking": 0,
+    "droppedChunks": 10
+  },
+  "sourceIssues": [],
+  "chunkIssues": [],
+  "triage": [],
+  "droppedChunks": [
+    {
+      "source_id": "fda-faq-food-traceability-rule",
+      "chunk_id": "fda-faq-food-traceability-rule-regulated-product-s-4",
+      "reason": "known_boilerplate_or_page_metadata",
+      "text_preview": "Food & Beverages"
+    },
+    {
+      "source_id": "fda-food-traceability-list",
+      "chunk_id": "fda-food-traceability-list-regulated-product-s-7",
+      "reason": "known_boilerplate_or_page_metadata",
+      "text_preview": "Food & Beverages"
+    },
+    {
+      "source_id": "fda-fsma204-final-rule-page",
+      "chunk_id": "fda-fsma204-final-rule-page-4-21",
+      "reason": "known_boilerplate_or_page_metadata",
+      "text_preview": "Visit the webpage to learn more."
+    },
+    {
+      "source_id": "fda-fsma204-final-rule-page",
+      "chunk_id": "fda-fsma204-final-rule-page-4-24",
+      "reason": "known_boilerplate_or_page_metadata",
+      "text_preview": "| | |"
+    },
+    {
+      "source_id": "fda-qa-guidance-2026",
+      "chunk_id": "fda-qa-guidance-2026-information-for-2",
+      "reason": "known_boilerplate_or_page_metadata",
+      "text_preview": "GUIDANCE DOCUMENT"
+    },
+    {
+      "source_id": "fda-risk-ranking-model-web-app",
+      "chunk_id": "fda-risk-ranking-model-web-app-document-1",
+      "reason": "known_boilerplate_or_page_metadata",
+      "text_preview": "Modal Header Some text in the modal."
+    },
+    {
+      "source_id": "fda-small-entity-guide-2023",
+      "chunk_id": "fda-small-entity-guide-2023-information-for-2",
+      "reason": "known_boilerplate_or_page_metadata",
+      "text_preview": "SMALL ENTITY COMPLIANCE GUIDE"
+    },
+    {
+      "source_id": "fda-small-entity-guide-2023",
+      "chunk_id": "fda-small-entity-guide-2023-small-entity-compliance-guide-requirements-for-additional-traceability-records-for-certain-foods-what-you-need-to-know-about-the-fda-regulation-3",
+      "reason": "known_boilerplate_or_page_metadata",
+      "text_preview": "May 2023"
+    },
+    {
+      "source_id": "fda-small-entity-guide-2023",
+      "chunk_id": "fda-small-entity-guide-2023-regulated-product-s-6",
+      "reason": "known_boilerplate_or_page_metadata",
+      "text_preview": "Food & Beverages"
+    },
+    {
+      "source_id": "fda-whats-new-fsma",
+      "chunk_id": "fda-whats-new-fsma-regulated-product-s-3",
+      "reason": "known_boilerplate_or_page_metadata",
+      "text_preview": "Food & Beverages"
+    }
+  ]
+}

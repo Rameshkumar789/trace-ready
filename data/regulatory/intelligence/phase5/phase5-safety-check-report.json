@@ -1,0 +1,212 @@
+{
+  "summary": {
+    "collectionsChecked": 2,
+    "acceptedRecords": 1,
+    "rejectedRecords": 1,
+    "conflictRecords": 2,
+    "issueCount": 3
+  },
+  "results": {
+    "obligations": {
+      "collection": "obligations",
+      "accepted_records": [
+        {
+          "citations": [
+            {
+              "source_id": "ecfr-21-cfr-1-subpart-s",
+              "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5",
+              "citation_anchor": "21 CFR 1.1320",
+              "authority_rank": "codified_rule",
+              "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+              "section_ref": "21 CFR 1.1320",
+              "page_number": null,
+              "support_text": "You must assign a traceability lot code"
+            }
+          ],
+          "metadata": {
+            "extraction_method": "ai_assisted",
+            "confidence": "medium",
+            "review_status": "draft",
+            "reviewer_notes": [],
+            "source_chunk_ids": [
+              "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5"
+            ]
+          },
+          "obligation_id": "ai_obligation_supported_assign_tlc",
+          "subject": "You",
+          "condition": "when you do any of the following",
+          "action": "assign a traceability lot code",
+          "object": "traceability lot code",
+          "required_output": "traceability lot code",
+          "deadline": null,
+          "exceptions": [],
+          "applies_to_ctes": [
+            "initial_packing",
+            "first_land_based_receiving",
+            "transformation"
+          ],
+          "applies_to_food_scope": "foods on the Food Traceability List",
+          "noncompliance_risk": "missing lot identity in downstream traceability records"
+        }
+      ],
+      "rejected_records": [
+        {
+          "citations": [
+            {
+              "source_id": "ecfr-21-cfr-1-subpart-s",
+              "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5",
+              "citation_anchor": "21 CFR 1.1320",
+              "authority_rank": "codified_rule",
+              "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+              "section_ref": "21 CFR 1.1320",
+              "page_number": null,
+              "support_text": "You must assign a traceability lot code"
+            }
+          ],
+          "metadata": {
+            "extraction_method": "ai_assisted",
+            "confidence": "unsupported",
+            "review_status": "rejected",
+            "reviewer_notes": [
+              "unsupported_claim: AI draft contains material fields that are not sufficiently supported by cited source text."
+            ],
+            "source_chunk_ids": [
+              "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5"
+            ]
+          },
+          "obligation_id": "ai_obligation_unsupported_blockchain_satellite",
+          "subject": "You",
+          "condition": "when you do any of the following",
+          "action": "launch a blockchain satellite",
+          "object": "traceability lot code",
+          "required_output": "traceability lot code",
+          "deadline": null,
+          "exceptions": [],
+          "applies_to_ctes": [
+            "initial_packing"
+          ],
+          "applies_to_food_scope": "foods on the Food Traceability List",
+          "noncompliance_risk": "unsupported invented claim"
+        }
+      ],
+      "conflict_records": [],
+      "issues": [
+        {
+          "record_id": "ai_obligation_unsupported_blockchain_satellite",
+          "collection": "obligations",
+          "severity": "error",
+          "code": "unsupported_claim",
+          "message": "AI draft contains material fields that are not sufficiently supported by cited source text.",
+          "fields": [
+            "action"
+          ]
+        }
+      ]
+    },
+    "tlc_rules": {
+      "collection": "tlc_rules",
+      "accepted_records": [],
+      "rejected_records": [],
+      "conflict_records": [
+        {
+          "citations": [
+            {
+              "source_id": "ecfr-21-cfr-1-subpart-s",
+              "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5",
+              "citation_anchor": "21 CFR 1.1320",
+              "authority_rank": "codified_rule",
+              "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+              "section_ref": "21 CFR 1.1320",
+              "page_number": null,
+              "support_text": "Initially pack a raw agricultural commodity"
+            }
+          ],
+          "metadata": {
+            "extraction_method": "ai_assisted",
+            "confidence": "conflict",
+            "review_status": "conflict_detected",
+            "reviewer_notes": [
+              "conflict_detected: Conflicting draft records share semantic key 'assignment|foods on the food traceability list|initial_packing' but disagree on material rule content."
+            ],
+            "source_chunk_ids": [
+              "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5"
+            ]
+          },
+          "tlc_rule_id": "ai_tlc_conflict_a",
+          "rule_kind": "assignment",
+          "applies_to_ctes": [
+            "initial_packing"
+          ],
+          "applies_to_food_scope": "foods on the Food Traceability List",
+          "assignment_rule": "Initially pack a raw agricultural commodity",
+          "preservation_rule": null,
+          "source_reference_rule": null,
+          "transformation_handling": null,
+          "uniqueness_rule": null,
+          "lineage_rule": null,
+          "required_status": "conditional",
+          "evidence_examples": [],
+          "unresolved_questions": []
+        },
+        {
+          "citations": [
+            {
+              "source_id": "ecfr-21-cfr-1-subpart-s",
+              "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5",
+              "citation_anchor": "21 CFR 1.1320",
+              "authority_rank": "codified_rule",
+              "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+              "section_ref": "21 CFR 1.1320",
+              "page_number": null,
+              "support_text": "Initially pack a raw agricultural commodity"
+            }
+          ],
+          "metadata": {
+            "extraction_method": "ai_assisted",
+            "confidence": "conflict",
+            "review_status": "conflict_detected",
+            "reviewer_notes": [
+              "conflict_detected: Conflicting draft records share semantic key 'assignment|foods on the food traceability list|initial_packing' but disagree on material rule content."
+            ],
+            "source_chunk_ids": [
+              "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5"
+            ]
+          },
+          "tlc_rule_id": "ai_tlc_conflict_b",
+          "rule_kind": "assignment",
+          "applies_to_ctes": [
+            "initial_packing"
+          ],
+          "applies_to_food_scope": "foods on the Food Traceability List",
+          "assignment_rule": "perform the first land-based receiving of a food",
+          "preservation_rule": null,
+          "source_reference_rule": null,
+          "transformation_handling": null,
+          "uniqueness_rule": null,
+          "lineage_rule": null,
+          "required_status": "conditional",
+          "evidence_examples": [],
+          "unresolved_questions": []
+        }
+      ],
+      "issues": [
+        {
+          "record_id": "ai_tlc_conflict_a",
+          "collection": "tlc_rules",
+          "severity": "error",
+          "code": "conflict_detected",
+          "message": "Conflicting draft records share semantic key 'assignment|foods on the food traceability list|initial_packing' but disagree on material rule content.",
+          "fields": []
+        },
+        {
+          "record_id": "ai_tlc_conflict_b",
+          "collection": "tlc_rules",
+          "severity": "error",
+          "code": "conflict_detected",
+          "message": "Conflicting draft records share semantic key 'assignment|foods on the food traceability list|initial_packing' but disagree on material rule content.",
+          "fields": []
+        }
+      ]
+    }
+  }
+}

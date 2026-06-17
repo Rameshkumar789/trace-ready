@@ -1,0 +1,23 @@
+[
+  {
+    "confidence": 0.68,
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "question": "Confirm destination: customer evidence does not clearly identify consumer versus business recipient.",
+    "question_id": "phase10-question-0001",
+    "reason": "abstention_or_low_confidence_fact",
+    "status": "needs_review"
+  }
+]

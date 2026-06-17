@@ -1,0 +1,13 @@
+{
+  "baselineWeb500ExactMatchRate": 1.0,
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "phase": "13-release-gates",
+  "resolvedCitationCount": 12,
+  "sectionLevelCitationValidationWeakened": false,
+  "subparagraphResolutionStatus": "pass",
+  "twoStageAbstentionRate": 0.08,
+  "twoStageAutoApprovedPrecision": 1.0,
+  "twoStageReviewRoutedCount": 30,
+  "twoStageStatus": "pass",
+  "unresolvedCitationCount": 0
+}

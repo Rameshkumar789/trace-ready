@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "importantLimitations": [
+    "This is not FDA benchmark data.",
+    "This is not real customer workbook data.",
+    "This is a small public-internet smoke test using source-backed, manually gold-labeled snippets.",
+    "No OpenAI, Anthropic, or other live model output was used."
+  ],
+  "metrics": {
+    "error_counts": {
+      "missed_cte": 1,
+      "over_triggered_cte": 1
+    },
+    "exact_match_rate": 0.875,
+    "fail_count": 2,
+    "false_negative_rate": 0.0667,
+    "false_positive_rate": 0.0667,
+    "pass_count": 14,
+    "precision": 0.9333,
+    "precision_by_cte": {
+      "receiving": 1.0,
+      "shipping": 0.875,
+      "transformation": 1.0
+    },
+    "recall": 0.9333,
+    "recall_by_cte": {
+      "receiving": 1.0,
+      "shipping": 1.0,
+      "transformation": 0.8333
+    },
+    "scenario_count": 16
+  },
+  "phase": "12-web-unseen-smoke-eval",
+  "scenarioCount": 16,
+  "sourceCount": 7,
+  "sourceUrls": [
+    "https://arxiv.org/abs/1810.09843",
+    "https://arxiv.org/abs/2210.09140",
+    "https://arxiv.org/abs/2304.09601",
+    "https://en.wikipedia.org/wiki/Open_Food_Facts",
+    "https://en.wikipedia.org/wiki/Produce_traceability",
+    "https://en.wikipedia.org/wiki/Traceability",
+    "https://ref.gs1.org/standards/epcis/"
+  ]
+}

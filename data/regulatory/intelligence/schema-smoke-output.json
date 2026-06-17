@@ -1,0 +1,3235 @@
+{
+  "samples": {
+    "defined_terms": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3",
+          "citation_anchor": "21 CFR 1.1310",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1310",
+          "page_number": null,
+          "support_text": "Critical tracking event"
+        }
+      ],
+      "metadata": {
+        "extraction_method": "human_authored",
+        "confidence": "medium",
+        "review_status": "draft",
+        "reviewer_notes": [],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3"
+        ]
+      },
+      "term_id": "defined_term_critical_tracking_event",
+      "term": "Critical tracking event",
+      "normalized_key": "critical_tracking_event",
+      "definition": "An event in the supply chain involving a food on the Food Traceability List for which records are required.",
+      "scope": "FSMA 204 / 21 CFR Part 1 Subpart S",
+      "source_authority": "codified_rule",
+      "related_terms": [
+        "key_data_element",
+        "traceability_lot_code"
+      ]
+    },
+    "obligations": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3",
+          "citation_anchor": "21 CFR 1.1310",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1310",
+          "page_number": null,
+          "support_text": "Critical tracking event"
+        }
+      ],
+      "metadata": {
+        "extraction_method": "human_authored",
+        "confidence": "medium",
+        "review_status": "draft",
+        "reviewer_notes": [],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3"
+        ]
+      },
+      "obligation_id": "obligation_maintain_traceability_records_for_ctes",
+      "subject": "Persons who manufacture, process, pack, or hold foods on the Food Traceability List",
+      "condition": "A covered critical tracking event is performed and no exemption applies.",
+      "action": "maintain and provide required traceability records",
+      "object": "key data elements for the applicable critical tracking event",
+      "required_output": "records sufficient to support traceability and FDA-requested sortable export",
+      "deadline": "As required by applicable Subpart S recordkeeping and FDA request provisions",
+      "exceptions": [],
+      "applies_to_ctes": [
+        "harvesting",
+        "shipping",
+        "receiving"
+      ],
+      "applies_to_food_scope": "Food Traceability List foods",
+      "noncompliance_risk": "missing audit evidence or incomplete FDA response package"
+    },
+    "ftl_food_items": {
+      "citations": [
+        {
+          "source_id": "fda-food-traceability-list",
+          "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+          "citation_anchor": "21 CFR 1.1305",
+          "authority_rank": "support",
+          "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+          "section_ref": "21 CFR 1.1305",
+          "page_number": null,
+          "support_text": "Food Traceability List Description"
+        }
+      ],
+      "metadata": {
+        "extraction_method": "human_authored",
+        "confidence": "low",
+        "review_status": "draft",
+        "reviewer_notes": [],
+        "source_chunk_ids": [
+          "fda-food-traceability-list-21-cfr-1-1305-3"
+        ]
+      },
+      "ftl_item_id": "ftl_food_item_leafy_greens",
+      "category": "Produce - RAC",
+      "commodity": "Leafy greens",
+      "description": "Leafy greens listed on the FDA Food Traceability List.",
+      "included_examples": [
+        "lettuces",
+        "leafy greens"
+      ],
+      "excluded_examples": [],
+      "form_notes": [
+        "Requires exact FDA row extraction in deterministic parser before approval."
+      ],
+      "risk_ranking_refs": [
+        {
+          "source_id": "fda-ftl-risk-ranking-results-table-1a",
+          "commodity_risk_score": 430,
+          "hazard_pairs": [],
+          "notes": null
+        }
+      ],
+      "raw_list_text": "Food Traceability List Description ... Leafy Greens ..."
+    },
+    "cte_definitions": {
+      "citations": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "chunk_id": "fda-cte-kde-pdf-page-2-2",
+          "citation_anchor": "page-2",
+          "authority_rank": "support",
+          "source_url": "https://www.fda.gov/media/163132/download?attachment",
+          "section_ref": "page-2",
+          "page_number": 2,
+          "support_text": "Harvesting KDEs"
+        }
+      ],
+      "metadata": {
+        "extraction_method": "human_authored",
+        "confidence": "low",
+        "review_status": "draft",
+        "reviewer_notes": [],
+        "source_chunk_ids": [
+          "fda-cte-kde-pdf-page-2-2"
+        ]
+      },
+      "cte_id": "cte_harvesting",
+      "cte_type": "harvesting",
+      "display_name": "Harvesting",
+      "definition": "Harvesting is a critical tracking event for certain raw agricultural commodities.",
+      "trigger_conditions": [
+        "A raw agricultural commodity on the FTL is harvested."
+      ],
+      "actor_roles": [
+        "harvester",
+        "farm"
+      ],
+      "input_event_relationship": null,
+      "output_event_relationship": "Provides KDEs to the initial packer when applicable.",
+      "excluded_conditions": []
+    },
+    "kde_requirements": {
+      "citations": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "chunk_id": "fda-cte-kde-pdf-page-2-2",
+          "citation_anchor": "page-2",
+          "authority_rank": "support",
+          "source_url": "https://www.fda.gov/media/163132/download?attachment",
+          "section_ref": "page-2",
+          "page_number": 2,
+          "support_text": "Harvesting KDEs"
+        }
+      ],
+      "metadata": {
+        "extraction_method": "human_authored",
+        "confidence": "medium",
+        "review_status": "draft",
+        "reviewer_notes": [],
+        "source_chunk_ids": [
+          "fda-cte-kde-pdf-page-2-2"
+        ]
+      },
+      "kde_id": "kde_harvesting_location_description",
+      "cte_type": "harvesting",
+      "kde_name": "Location description for the immediate subsequent recipient",
+      "field_key": "immediate_subsequent_recipient_location_description",
+      "required_status": "required",
+      "applies_to": "Harvesting KDEs for applicable raw agricultural commodities.",
+      "provider_role": "harvester",
+      "recipient_role": "initial packer",
+      "data_type": "text",
+      "conditional_logic": null,
+      "evidence_examples": [
+        "harvest record",
+        "grower record",
+        "supplier-provided KDE file"
+      ],
+      "severity_if_missing": "high"
+    },
+    "tlc_rules": {
+      "citations": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "chunk_id": "fda-traceability-lot-code-traceability-lot-code-2",
+          "citation_anchor": "Traceability Lot Code",
+          "authority_rank": "support",
+          "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "section_ref": "Traceability Lot Code",
+          "page_number": null,
+          "support_text": "traceability lot code (TLC) is an integral component"
+        }
+      ],
+      "metadata": {
+        "extraction_method": "human_authored",
+        "confidence": "low",
+        "review_status": "draft",
+        "reviewer_notes": [],
+        "source_chunk_ids": [
+          "fda-traceability-lot-code-traceability-lot-code-2"
+        ]
+      },
+      "tlc_rule_id": "tlc_rule_assignment_and_preservation_for_ftl_lots",
+      "rule_kind": "assignment",
+      "applies_to_ctes": [
+        "initial_packing",
+        "first_land_based_receiving",
+        "transformation"
+      ],
+      "applies_to_food_scope": "Food Traceability List foods when a traceability lot code must be assigned or preserved.",
+      "assignment_rule": "Covered records must support identifying the traceability lot code assigned to the food when the rule requires one.",
+      "preservation_rule": "Downstream records should preserve the traceability lot code or source reference needed to link the lot through the supply chain.",
+      "source_reference_rule": "If the TLC source is not directly available, source-reference fields must support traceback to the TLC source.",
+      "transformation_handling": "Transformation events may require linking input TLCs to a new output traceability lot code.",
+      "uniqueness_rule": "The TLC should be usable as an identifier for the relevant traceability lot in the operator's records.",
+      "lineage_rule": "The TLC must support linking event records across the applicable chain of custody.",
+      "required_status": "conditional",
+      "evidence_examples": [
+        "lot registry",
+        "receiving record",
+        "transformation record",
+        "supplier ASN"
+      ],
+      "unresolved_questions": [
+        "Exact executable applies-when logic must come from deterministic extraction and reviewer approval."
+      ]
+    },
+    "exemption_rules": {
+      "citations": [
+        {
+          "source_id": "fda-produce-farms-exemptions",
+          "chunk_id": "fda-produce-farms-exemptions-exemptions-relevant-to-produce-farms-under-the-produce-safety-rule-and-the-food-traceability-rule-2",
+          "citation_anchor": "Exemptions Relevant to Produce Farms Under the Produce Safety Rule and the Food Traceability Rule",
+          "authority_rank": "support",
+          "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/exemptions-relevant-produce-farms-under-produce-safety-rule-and-food-traceability-rule",
+          "section_ref": "Exemptions Relevant to Produce Farms Under the Produce Safety Rule and the Food Traceability Rule",
+          "page_number": null,
+          "support_text": "exemptions relevant to produce farms"
+        }
+      ],
+      "metadata": {
+        "extraction_method": "human_authored",
+        "confidence": "low",
+        "review_status": "draft",
+        "reviewer_notes": [],
+        "source_chunk_ids": [
+          "fda-produce-farms-exemptions-exemptions-relevant-to-produce-farms-under-the-produce-safety-rule-and-the-food-traceability-rule-2"
+        ]
+      },
+      "exemption_rule_id": "exemption_rule_produce_farm_relevant_exemptions",
+      "exemption_type": "Produce farm exemption or partial exemption candidate",
+      "eligibility_condition": "A produce farm claims an exemption relevant to the Produce Safety Rule or Food Traceability Rule.",
+      "effect": "unknown",
+      "affected_requirements": [
+        "FSMA 204 applicability",
+        "recordkeeping duties"
+      ],
+      "documentation_needed": [
+        "business/entity facts",
+        "food/product facts",
+        "supporting exemption documentation"
+      ],
+      "applies_to_entities": [
+        "produce farms"
+      ],
+      "applies_to_foods": [
+        "produce"
+      ],
+      "applies_to_ctes": [
+        "harvesting",
+        "cooling",
+        "initial_packing"
+      ],
+      "decision_questions": [
+        "Which exemption is claimed?",
+        "Does the entity meet the eligibility conditions?",
+        "Is the exemption full, partial, or only modifying requirements?"
+      ],
+      "reviewer_warning": "Do not treat exemption status as approved until reviewed against exact CFR text and entity facts."
+    },
+    "traceability_plan_requirements": {
+      "citations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1315-4",
+          "citation_anchor": "21 CFR 1.1315",
+          "authority_rank": "codified_rule",
+          "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+          "section_ref": "21 CFR 1.1315",
+          "page_number": null,
+          "support_text": "traceability plan"
+        }
+      ],
+      "metadata": {
+        "extraction_method": "human_authored",
+        "confidence": "medium",
+        "review_status": "draft",
+        "reviewer_notes": [],
+        "source_chunk_ids": [
+          "ecfr-21-cfr-1-subpart-s-21-cfr-1-1315-4"
+        ]
+      },
+      "traceability_plan_requirement_id": "traceability_plan_requirement_plan_must_exist",
+      "plan_component": "Traceability plan",
+      "required_detail": "Covered entities must maintain traceability plan information sufficient to explain how required traceability records are maintained.",
+      "applies_to": "Entities covered by 21 CFR Part 1 Subpart S unless an exemption applies.",
+      "required_status": "required",
+      "evidence_examples": [
+        "traceability plan document",
+        "SOP",
+        "location and recordkeeping map"
+      ],
+      "update_trigger": "Update when recordkeeping procedures, products, locations, systems, or responsible parties change.",
+      "owner_role": "food safety, quality, compliance, or operations owner"
+    },
+    "sortable_export_fields": {
+      "citations": [
+        {
+          "source_id": "fda-sortable-spreadsheet-xlsx",
+          "chunk_id": "fda-sortable-spreadsheet-xlsx-introduction-1",
+          "citation_anchor": "Introduction",
+          "authority_rank": "template",
+          "source_url": "https://www.fda.gov/media/179617/download?attachment",
+          "section_ref": "Introduction",
+          "page_number": null,
+          "support_text": "sortable spreadsheet template"
+        }
+      ],
+      "metadata": {
+        "extraction_method": "human_authored",
+        "confidence": "low",
+        "review_status": "draft",
+        "reviewer_notes": [],
+        "source_chunk_ids": [
+          "fda-sortable-spreadsheet-xlsx-introduction-1"
+        ]
+      },
+      "sortable_export_field_id": "sortable_export_field_traceability_lot_code",
+      "workbook_tab": "Receiving",
+      "field_name": "Traceability Lot Code",
+      "field_key": "traceability_lot_code",
+      "data_type": "text",
+      "required_status": "conditional",
+      "source_mapping": "Map from receiving event line item, supplier ASN, EDI 856, label, or lot registry.",
+      "applies_to_ctes": [
+        "receiving"
+      ],
+      "accepted_examples": [
+        "ABC123",
+        "supplier-assigned lot code"
+      ],
+      "validation_notes": [
+        "Required status depends on CTE, food scope, and applicable exemption or source-reference pathway."
+      ]
+    },
+    "scenario_benchmarks": {
+      "citations": [
+        {
+          "source_id": "scenario-produce-cucumbers-slides",
+          "chunk_id": "scenario-produce-cucumbers-slides-page-10-10",
+          "citation_anchor": "page-10",
+          "authority_rank": "scenario",
+          "source_url": "https://www.fda.gov/media/163054/download?attachment",
+          "section_ref": "page-10",
+          "page_number": 10,
+          "support_text": "Supply Chain Example: Cucumbers"
+        }
+      ],
+      "metadata": {
+        "extraction_method": "human_authored",
+        "confidence": "low",
+        "review_status": "draft",
+        "reviewer_notes": [],
+        "source_chunk_ids": [
+          "scenario-produce-cucumbers-slides-page-10-10"
+        ]
+      },
+      "scenario_benchmark_id": "scenario_benchmark_cucumbers_initial_pack_to_receiving",
+      "scenario_name": "FDA cucumber supply chain example",
+      "scenario_source": "FDA supply chain example slides",
+      "food_scope": "Cucumbers on the Food Traceability List",
+      "actors": [
+        {
+          "actor_id": "actor_farm",
+          "actor_name": "Cucumber farm",
+          "role": "harvester",
+          "location_description": "farm/growing area"
+        },
+        {
+          "actor_id": "actor_receiver",
+          "actor_name": "Receiving customer",
+          "role": "receiver",
+          "location_description": "receiving location"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "event_harvest",
+          "cte_type": "harvesting",
+          "actor_id": "actor_farm",
+          "event_description": "Cucumbers are harvested and associated KDEs are expected for applicable records.",
+          "expected_kde_field_keys": [
+            "commodity",
+            "quantity",
+            "harvest_date"
+          ],
+          "expected_tlc_behavior": "TLC behavior must be validated by exact scenario extraction."
+        },
+        {
+          "event_id": "event_receiving",
+          "cte_type": "receiving",
+          "actor_id": "actor_receiver",
+          "event_description": "Customer receives cucumbers and must have receiving evidence for applicable KDEs.",
+          "expected_kde_field_keys": [
+            "traceability_lot_code",
+            "quantity",
+            "received_date"
+          ],
+          "expected_tlc_behavior": "Receiving record should support lot-level linkage."
+        }
+      ],
+      "expectations": [
+        {
+          "expectation_id": "expectation_receiving_export_ready",
+          "event_id": "event_receiving",
+          "expected_finding": "needs_review",
+          "expected_behavior": "Scenario parser should produce expected receiving KDEs and flag unresolved assumptions for reviewer approval.",
+          "required_evidence": [
+            "scenario slide text",
+            "event relationship"
+          ],
+          "expected_export_behavior": "Sortable export expectation must be derived from approved KDE and export-field records."
+        }
+      ],
+      "open_questions": [
+        "Exact actors and CTE sequence must be extracted from the complete scenario document in Phase 4."
+      ]
+    }
+  },
+  "jsonSchemas": {
+    "defined_terms": {
+      "$defs": {
+        "CitationRef": {
+          "additionalProperties": false,
+          "properties": {
+            "source_id": {
+              "minLength": 1,
+              "title": "Source Id",
+              "type": "string"
+            },
+            "chunk_id": {
+              "minLength": 1,
+              "title": "Chunk Id",
+              "type": "string"
+            },
+            "citation_anchor": {
+              "minLength": 1,
+              "title": "Citation Anchor",
+              "type": "string"
+            },
+            "authority_rank": {
+              "minLength": 1,
+              "title": "Authority Rank",
+              "type": "string"
+            },
+            "source_url": {
+              "minLength": 1,
+              "title": "Source Url",
+              "type": "string"
+            },
+            "section_ref": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Section Ref"
+            },
+            "page_number": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Page Number"
+            },
+            "support_text": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Support Text"
+            }
+          },
+          "required": [
+            "source_id",
+            "chunk_id",
+            "citation_anchor",
+            "authority_rank",
+            "source_url"
+          ],
+          "title": "CitationRef",
+          "type": "object"
+        },
+        "ConfidenceLevel": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unsupported",
+            "conflict"
+          ],
+          "title": "ConfidenceLevel",
+          "type": "string"
+        },
+        "DraftMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "extraction_method": {
+              "$ref": "#/$defs/ExtractionMethod"
+            },
+            "confidence": {
+              "$ref": "#/$defs/ConfidenceLevel"
+            },
+            "review_status": {
+              "$ref": "#/$defs/ReviewStatus",
+              "default": "draft"
+            },
+            "reviewer_notes": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Reviewer Notes",
+              "type": "array"
+            },
+            "source_chunk_ids": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Source Chunk Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "extraction_method",
+            "confidence"
+          ],
+          "title": "DraftMetadata",
+          "type": "object"
+        },
+        "ExtractionMethod": {
+          "enum": [
+            "deterministic",
+            "ai_assisted",
+            "human_authored",
+            "imported_template"
+          ],
+          "title": "ExtractionMethod",
+          "type": "string"
+        },
+        "ReviewStatus": {
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected",
+            "superseded",
+            "conflict_detected"
+          ],
+          "title": "ReviewStatus",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/CitationRef"
+          },
+          "minItems": 1,
+          "title": "Citations",
+          "type": "array"
+        },
+        "metadata": {
+          "$ref": "#/$defs/DraftMetadata"
+        },
+        "term_id": {
+          "minLength": 1,
+          "title": "Term Id",
+          "type": "string"
+        },
+        "term": {
+          "minLength": 1,
+          "title": "Term",
+          "type": "string"
+        },
+        "normalized_key": {
+          "minLength": 1,
+          "title": "Normalized Key",
+          "type": "string"
+        },
+        "definition": {
+          "minLength": 1,
+          "title": "Definition",
+          "type": "string"
+        },
+        "scope": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Scope"
+        },
+        "source_authority": {
+          "minLength": 1,
+          "title": "Source Authority",
+          "type": "string"
+        },
+        "related_terms": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Related Terms",
+          "type": "array"
+        }
+      },
+      "required": [
+        "citations",
+        "metadata",
+        "term_id",
+        "term",
+        "normalized_key",
+        "definition",
+        "source_authority"
+      ],
+      "title": "DefinedTerm",
+      "type": "object"
+    },
+    "obligations": {
+      "$defs": {
+        "CitationRef": {
+          "additionalProperties": false,
+          "properties": {
+            "source_id": {
+              "minLength": 1,
+              "title": "Source Id",
+              "type": "string"
+            },
+            "chunk_id": {
+              "minLength": 1,
+              "title": "Chunk Id",
+              "type": "string"
+            },
+            "citation_anchor": {
+              "minLength": 1,
+              "title": "Citation Anchor",
+              "type": "string"
+            },
+            "authority_rank": {
+              "minLength": 1,
+              "title": "Authority Rank",
+              "type": "string"
+            },
+            "source_url": {
+              "minLength": 1,
+              "title": "Source Url",
+              "type": "string"
+            },
+            "section_ref": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Section Ref"
+            },
+            "page_number": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Page Number"
+            },
+            "support_text": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Support Text"
+            }
+          },
+          "required": [
+            "source_id",
+            "chunk_id",
+            "citation_anchor",
+            "authority_rank",
+            "source_url"
+          ],
+          "title": "CitationRef",
+          "type": "object"
+        },
+        "ConfidenceLevel": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unsupported",
+            "conflict"
+          ],
+          "title": "ConfidenceLevel",
+          "type": "string"
+        },
+        "CteType": {
+          "enum": [
+            "harvesting",
+            "cooling",
+            "initial_packing",
+            "first_land_based_receiving",
+            "shipping",
+            "receiving",
+            "transformation",
+            "traceability_plan",
+            "other"
+          ],
+          "title": "CteType",
+          "type": "string"
+        },
+        "DraftMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "extraction_method": {
+              "$ref": "#/$defs/ExtractionMethod"
+            },
+            "confidence": {
+              "$ref": "#/$defs/ConfidenceLevel"
+            },
+            "review_status": {
+              "$ref": "#/$defs/ReviewStatus",
+              "default": "draft"
+            },
+            "reviewer_notes": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Reviewer Notes",
+              "type": "array"
+            },
+            "source_chunk_ids": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Source Chunk Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "extraction_method",
+            "confidence"
+          ],
+          "title": "DraftMetadata",
+          "type": "object"
+        },
+        "ExtractionMethod": {
+          "enum": [
+            "deterministic",
+            "ai_assisted",
+            "human_authored",
+            "imported_template"
+          ],
+          "title": "ExtractionMethod",
+          "type": "string"
+        },
+        "ReviewStatus": {
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected",
+            "superseded",
+            "conflict_detected"
+          ],
+          "title": "ReviewStatus",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/CitationRef"
+          },
+          "minItems": 1,
+          "title": "Citations",
+          "type": "array"
+        },
+        "metadata": {
+          "$ref": "#/$defs/DraftMetadata"
+        },
+        "obligation_id": {
+          "minLength": 1,
+          "title": "Obligation Id",
+          "type": "string"
+        },
+        "subject": {
+          "minLength": 1,
+          "title": "Subject",
+          "type": "string"
+        },
+        "condition": {
+          "minLength": 1,
+          "title": "Condition",
+          "type": "string"
+        },
+        "action": {
+          "minLength": 1,
+          "title": "Action",
+          "type": "string"
+        },
+        "object": {
+          "minLength": 1,
+          "title": "Object",
+          "type": "string"
+        },
+        "required_output": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Required Output"
+        },
+        "deadline": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Deadline"
+        },
+        "exceptions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Exceptions",
+          "type": "array"
+        },
+        "applies_to_ctes": {
+          "items": {
+            "$ref": "#/$defs/CteType"
+          },
+          "title": "Applies To Ctes",
+          "type": "array"
+        },
+        "applies_to_food_scope": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Applies To Food Scope"
+        },
+        "noncompliance_risk": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Noncompliance Risk"
+        }
+      },
+      "required": [
+        "citations",
+        "metadata",
+        "obligation_id",
+        "subject",
+        "condition",
+        "action",
+        "object"
+      ],
+      "title": "Obligation",
+      "type": "object"
+    },
+    "ftl_food_items": {
+      "$defs": {
+        "CitationRef": {
+          "additionalProperties": false,
+          "properties": {
+            "source_id": {
+              "minLength": 1,
+              "title": "Source Id",
+              "type": "string"
+            },
+            "chunk_id": {
+              "minLength": 1,
+              "title": "Chunk Id",
+              "type": "string"
+            },
+            "citation_anchor": {
+              "minLength": 1,
+              "title": "Citation Anchor",
+              "type": "string"
+            },
+            "authority_rank": {
+              "minLength": 1,
+              "title": "Authority Rank",
+              "type": "string"
+            },
+            "source_url": {
+              "minLength": 1,
+              "title": "Source Url",
+              "type": "string"
+            },
+            "section_ref": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Section Ref"
+            },
+            "page_number": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Page Number"
+            },
+            "support_text": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Support Text"
+            }
+          },
+          "required": [
+            "source_id",
+            "chunk_id",
+            "citation_anchor",
+            "authority_rank",
+            "source_url"
+          ],
+          "title": "CitationRef",
+          "type": "object"
+        },
+        "ConfidenceLevel": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unsupported",
+            "conflict"
+          ],
+          "title": "ConfidenceLevel",
+          "type": "string"
+        },
+        "DraftMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "extraction_method": {
+              "$ref": "#/$defs/ExtractionMethod"
+            },
+            "confidence": {
+              "$ref": "#/$defs/ConfidenceLevel"
+            },
+            "review_status": {
+              "$ref": "#/$defs/ReviewStatus",
+              "default": "draft"
+            },
+            "reviewer_notes": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Reviewer Notes",
+              "type": "array"
+            },
+            "source_chunk_ids": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Source Chunk Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "extraction_method",
+            "confidence"
+          ],
+          "title": "DraftMetadata",
+          "type": "object"
+        },
+        "ExtractionMethod": {
+          "enum": [
+            "deterministic",
+            "ai_assisted",
+            "human_authored",
+            "imported_template"
+          ],
+          "title": "ExtractionMethod",
+          "type": "string"
+        },
+        "ReviewStatus": {
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected",
+            "superseded",
+            "conflict_detected"
+          ],
+          "title": "ReviewStatus",
+          "type": "string"
+        },
+        "RiskRankingRef": {
+          "additionalProperties": false,
+          "properties": {
+            "source_id": {
+              "minLength": 1,
+              "title": "Source Id",
+              "type": "string"
+            },
+            "commodity_risk_score": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Commodity Risk Score"
+            },
+            "hazard_pairs": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Hazard Pairs",
+              "type": "array"
+            },
+            "notes": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Notes"
+            }
+          },
+          "required": [
+            "source_id"
+          ],
+          "title": "RiskRankingRef",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/CitationRef"
+          },
+          "minItems": 1,
+          "title": "Citations",
+          "type": "array"
+        },
+        "metadata": {
+          "$ref": "#/$defs/DraftMetadata"
+        },
+        "ftl_item_id": {
+          "minLength": 1,
+          "title": "Ftl Item Id",
+          "type": "string"
+        },
+        "category": {
+          "minLength": 1,
+          "title": "Category",
+          "type": "string"
+        },
+        "commodity": {
+          "minLength": 1,
+          "title": "Commodity",
+          "type": "string"
+        },
+        "description": {
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        },
+        "included_examples": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Included Examples",
+          "type": "array"
+        },
+        "excluded_examples": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Excluded Examples",
+          "type": "array"
+        },
+        "form_notes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Form Notes",
+          "type": "array"
+        },
+        "risk_ranking_refs": {
+          "items": {
+            "$ref": "#/$defs/RiskRankingRef"
+          },
+          "title": "Risk Ranking Refs",
+          "type": "array"
+        },
+        "raw_list_text": {
+          "minLength": 1,
+          "title": "Raw List Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "citations",
+        "metadata",
+        "ftl_item_id",
+        "category",
+        "commodity",
+        "description",
+        "raw_list_text"
+      ],
+      "title": "FtlFoodItem",
+      "type": "object"
+    },
+    "cte_definitions": {
+      "$defs": {
+        "CitationRef": {
+          "additionalProperties": false,
+          "properties": {
+            "source_id": {
+              "minLength": 1,
+              "title": "Source Id",
+              "type": "string"
+            },
+            "chunk_id": {
+              "minLength": 1,
+              "title": "Chunk Id",
+              "type": "string"
+            },
+            "citation_anchor": {
+              "minLength": 1,
+              "title": "Citation Anchor",
+              "type": "string"
+            },
+            "authority_rank": {
+              "minLength": 1,
+              "title": "Authority Rank",
+              "type": "string"
+            },
+            "source_url": {
+              "minLength": 1,
+              "title": "Source Url",
+              "type": "string"
+            },
+            "section_ref": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Section Ref"
+            },
+            "page_number": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Page Number"
+            },
+            "support_text": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Support Text"
+            }
+          },
+          "required": [
+            "source_id",
+            "chunk_id",
+            "citation_anchor",
+            "authority_rank",
+            "source_url"
+          ],
+          "title": "CitationRef",
+          "type": "object"
+        },
+        "ConfidenceLevel": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unsupported",
+            "conflict"
+          ],
+          "title": "ConfidenceLevel",
+          "type": "string"
+        },
+        "CteType": {
+          "enum": [
+            "harvesting",
+            "cooling",
+            "initial_packing",
+            "first_land_based_receiving",
+            "shipping",
+            "receiving",
+            "transformation",
+            "traceability_plan",
+            "other"
+          ],
+          "title": "CteType",
+          "type": "string"
+        },
+        "DraftMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "extraction_method": {
+              "$ref": "#/$defs/ExtractionMethod"
+            },
+            "confidence": {
+              "$ref": "#/$defs/ConfidenceLevel"
+            },
+            "review_status": {
+              "$ref": "#/$defs/ReviewStatus",
+              "default": "draft"
+            },
+            "reviewer_notes": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Reviewer Notes",
+              "type": "array"
+            },
+            "source_chunk_ids": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Source Chunk Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "extraction_method",
+            "confidence"
+          ],
+          "title": "DraftMetadata",
+          "type": "object"
+        },
+        "ExtractionMethod": {
+          "enum": [
+            "deterministic",
+            "ai_assisted",
+            "human_authored",
+            "imported_template"
+          ],
+          "title": "ExtractionMethod",
+          "type": "string"
+        },
+        "ReviewStatus": {
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected",
+            "superseded",
+            "conflict_detected"
+          ],
+          "title": "ReviewStatus",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/CitationRef"
+          },
+          "minItems": 1,
+          "title": "Citations",
+          "type": "array"
+        },
+        "metadata": {
+          "$ref": "#/$defs/DraftMetadata"
+        },
+        "cte_id": {
+          "minLength": 1,
+          "title": "Cte Id",
+          "type": "string"
+        },
+        "cte_type": {
+          "$ref": "#/$defs/CteType"
+        },
+        "display_name": {
+          "minLength": 1,
+          "title": "Display Name",
+          "type": "string"
+        },
+        "definition": {
+          "minLength": 1,
+          "title": "Definition",
+          "type": "string"
+        },
+        "trigger_conditions": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Trigger Conditions",
+          "type": "array"
+        },
+        "actor_roles": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Actor Roles",
+          "type": "array"
+        },
+        "input_event_relationship": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Input Event Relationship"
+        },
+        "output_event_relationship": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Output Event Relationship"
+        },
+        "excluded_conditions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Excluded Conditions",
+          "type": "array"
+        }
+      },
+      "required": [
+        "citations",
+        "metadata",
+        "cte_id",
+        "cte_type",
+        "display_name",
+        "definition",
+        "trigger_conditions"
+      ],
+      "title": "CteDefinition",
+      "type": "object"
+    },
+    "kde_requirements": {
+      "$defs": {
+        "CitationRef": {
+          "additionalProperties": false,
+          "properties": {
+            "source_id": {
+              "minLength": 1,
+              "title": "Source Id",
+              "type": "string"
+            },
+            "chunk_id": {
+              "minLength": 1,
+              "title": "Chunk Id",
+              "type": "string"
+            },
+            "citation_anchor": {
+              "minLength": 1,
+              "title": "Citation Anchor",
+              "type": "string"
+            },
+            "authority_rank": {
+              "minLength": 1,
+              "title": "Authority Rank",
+              "type": "string"
+            },
+            "source_url": {
+              "minLength": 1,
+              "title": "Source Url",
+              "type": "string"
+            },
+            "section_ref": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Section Ref"
+            },
+            "page_number": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Page Number"
+            },
+            "support_text": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Support Text"
+            }
+          },
+          "required": [
+            "source_id",
+            "chunk_id",
+            "citation_anchor",
+            "authority_rank",
+            "source_url"
+          ],
+          "title": "CitationRef",
+          "type": "object"
+        },
+        "ConfidenceLevel": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unsupported",
+            "conflict"
+          ],
+          "title": "ConfidenceLevel",
+          "type": "string"
+        },
+        "CteType": {
+          "enum": [
+            "harvesting",
+            "cooling",
+            "initial_packing",
+            "first_land_based_receiving",
+            "shipping",
+            "receiving",
+            "transformation",
+            "traceability_plan",
+            "other"
+          ],
+          "title": "CteType",
+          "type": "string"
+        },
+        "DraftMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "extraction_method": {
+              "$ref": "#/$defs/ExtractionMethod"
+            },
+            "confidence": {
+              "$ref": "#/$defs/ConfidenceLevel"
+            },
+            "review_status": {
+              "$ref": "#/$defs/ReviewStatus",
+              "default": "draft"
+            },
+            "reviewer_notes": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Reviewer Notes",
+              "type": "array"
+            },
+            "source_chunk_ids": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Source Chunk Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "extraction_method",
+            "confidence"
+          ],
+          "title": "DraftMetadata",
+          "type": "object"
+        },
+        "ExtractionMethod": {
+          "enum": [
+            "deterministic",
+            "ai_assisted",
+            "human_authored",
+            "imported_template"
+          ],
+          "title": "ExtractionMethod",
+          "type": "string"
+        },
+        "RequirementStatus": {
+          "enum": [
+            "required",
+            "conditional",
+            "optional",
+            "not_applicable",
+            "unknown"
+          ],
+          "title": "RequirementStatus",
+          "type": "string"
+        },
+        "ReviewStatus": {
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected",
+            "superseded",
+            "conflict_detected"
+          ],
+          "title": "ReviewStatus",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/CitationRef"
+          },
+          "minItems": 1,
+          "title": "Citations",
+          "type": "array"
+        },
+        "metadata": {
+          "$ref": "#/$defs/DraftMetadata"
+        },
+        "kde_id": {
+          "minLength": 1,
+          "title": "Kde Id",
+          "type": "string"
+        },
+        "cte_type": {
+          "$ref": "#/$defs/CteType"
+        },
+        "kde_name": {
+          "minLength": 1,
+          "title": "Kde Name",
+          "type": "string"
+        },
+        "field_key": {
+          "minLength": 1,
+          "title": "Field Key",
+          "type": "string"
+        },
+        "required_status": {
+          "$ref": "#/$defs/RequirementStatus"
+        },
+        "applies_to": {
+          "minLength": 1,
+          "title": "Applies To",
+          "type": "string"
+        },
+        "provider_role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Provider Role"
+        },
+        "recipient_role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Recipient Role"
+        },
+        "data_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Data Type"
+        },
+        "conditional_logic": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Conditional Logic"
+        },
+        "evidence_examples": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Examples",
+          "type": "array"
+        },
+        "severity_if_missing": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Severity If Missing"
+        }
+      },
+      "required": [
+        "citations",
+        "metadata",
+        "kde_id",
+        "cte_type",
+        "kde_name",
+        "field_key",
+        "required_status",
+        "applies_to"
+      ],
+      "title": "KdeRequirement",
+      "type": "object"
+    },
+    "tlc_rules": {
+      "$defs": {
+        "CitationRef": {
+          "additionalProperties": false,
+          "properties": {
+            "source_id": {
+              "minLength": 1,
+              "title": "Source Id",
+              "type": "string"
+            },
+            "chunk_id": {
+              "minLength": 1,
+              "title": "Chunk Id",
+              "type": "string"
+            },
+            "citation_anchor": {
+              "minLength": 1,
+              "title": "Citation Anchor",
+              "type": "string"
+            },
+            "authority_rank": {
+              "minLength": 1,
+              "title": "Authority Rank",
+              "type": "string"
+            },
+            "source_url": {
+              "minLength": 1,
+              "title": "Source Url",
+              "type": "string"
+            },
+            "section_ref": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Section Ref"
+            },
+            "page_number": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Page Number"
+            },
+            "support_text": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Support Text"
+            }
+          },
+          "required": [
+            "source_id",
+            "chunk_id",
+            "citation_anchor",
+            "authority_rank",
+            "source_url"
+          ],
+          "title": "CitationRef",
+          "type": "object"
+        },
+        "ConfidenceLevel": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unsupported",
+            "conflict"
+          ],
+          "title": "ConfidenceLevel",
+          "type": "string"
+        },
+        "CteType": {
+          "enum": [
+            "harvesting",
+            "cooling",
+            "initial_packing",
+            "first_land_based_receiving",
+            "shipping",
+            "receiving",
+            "transformation",
+            "traceability_plan",
+            "other"
+          ],
+          "title": "CteType",
+          "type": "string"
+        },
+        "DraftMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "extraction_method": {
+              "$ref": "#/$defs/ExtractionMethod"
+            },
+            "confidence": {
+              "$ref": "#/$defs/ConfidenceLevel"
+            },
+            "review_status": {
+              "$ref": "#/$defs/ReviewStatus",
+              "default": "draft"
+            },
+            "reviewer_notes": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Reviewer Notes",
+              "type": "array"
+            },
+            "source_chunk_ids": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Source Chunk Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "extraction_method",
+            "confidence"
+          ],
+          "title": "DraftMetadata",
+          "type": "object"
+        },
+        "ExtractionMethod": {
+          "enum": [
+            "deterministic",
+            "ai_assisted",
+            "human_authored",
+            "imported_template"
+          ],
+          "title": "ExtractionMethod",
+          "type": "string"
+        },
+        "RequirementStatus": {
+          "enum": [
+            "required",
+            "conditional",
+            "optional",
+            "not_applicable",
+            "unknown"
+          ],
+          "title": "RequirementStatus",
+          "type": "string"
+        },
+        "ReviewStatus": {
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected",
+            "superseded",
+            "conflict_detected"
+          ],
+          "title": "ReviewStatus",
+          "type": "string"
+        },
+        "TlcRuleKind": {
+          "enum": [
+            "assignment",
+            "preservation",
+            "source_reference",
+            "transformation_handling",
+            "uniqueness",
+            "linkage",
+            "other"
+          ],
+          "title": "TlcRuleKind",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/CitationRef"
+          },
+          "minItems": 1,
+          "title": "Citations",
+          "type": "array"
+        },
+        "metadata": {
+          "$ref": "#/$defs/DraftMetadata"
+        },
+        "tlc_rule_id": {
+          "minLength": 1,
+          "title": "Tlc Rule Id",
+          "type": "string"
+        },
+        "rule_kind": {
+          "$ref": "#/$defs/TlcRuleKind"
+        },
+        "applies_to_ctes": {
+          "items": {
+            "$ref": "#/$defs/CteType"
+          },
+          "minItems": 1,
+          "title": "Applies To Ctes",
+          "type": "array"
+        },
+        "applies_to_food_scope": {
+          "minLength": 1,
+          "title": "Applies To Food Scope",
+          "type": "string"
+        },
+        "assignment_rule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Assignment Rule"
+        },
+        "preservation_rule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Preservation Rule"
+        },
+        "source_reference_rule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Reference Rule"
+        },
+        "transformation_handling": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Transformation Handling"
+        },
+        "uniqueness_rule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Uniqueness Rule"
+        },
+        "lineage_rule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Lineage Rule"
+        },
+        "required_status": {
+          "$ref": "#/$defs/RequirementStatus",
+          "default": "conditional"
+        },
+        "evidence_examples": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Examples",
+          "type": "array"
+        },
+        "unresolved_questions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Unresolved Questions",
+          "type": "array"
+        }
+      },
+      "required": [
+        "citations",
+        "metadata",
+        "tlc_rule_id",
+        "rule_kind",
+        "applies_to_ctes",
+        "applies_to_food_scope"
+      ],
+      "title": "TlcRule",
+      "type": "object"
+    },
+    "exemption_rules": {
+      "$defs": {
+        "CitationRef": {
+          "additionalProperties": false,
+          "properties": {
+            "source_id": {
+              "minLength": 1,
+              "title": "Source Id",
+              "type": "string"
+            },
+            "chunk_id": {
+              "minLength": 1,
+              "title": "Chunk Id",
+              "type": "string"
+            },
+            "citation_anchor": {
+              "minLength": 1,
+              "title": "Citation Anchor",
+              "type": "string"
+            },
+            "authority_rank": {
+              "minLength": 1,
+              "title": "Authority Rank",
+              "type": "string"
+            },
+            "source_url": {
+              "minLength": 1,
+              "title": "Source Url",
+              "type": "string"
+            },
+            "section_ref": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Section Ref"
+            },
+            "page_number": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Page Number"
+            },
+            "support_text": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Support Text"
+            }
+          },
+          "required": [
+            "source_id",
+            "chunk_id",
+            "citation_anchor",
+            "authority_rank",
+            "source_url"
+          ],
+          "title": "CitationRef",
+          "type": "object"
+        },
+        "ConfidenceLevel": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unsupported",
+            "conflict"
+          ],
+          "title": "ConfidenceLevel",
+          "type": "string"
+        },
+        "CteType": {
+          "enum": [
+            "harvesting",
+            "cooling",
+            "initial_packing",
+            "first_land_based_receiving",
+            "shipping",
+            "receiving",
+            "transformation",
+            "traceability_plan",
+            "other"
+          ],
+          "title": "CteType",
+          "type": "string"
+        },
+        "DraftMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "extraction_method": {
+              "$ref": "#/$defs/ExtractionMethod"
+            },
+            "confidence": {
+              "$ref": "#/$defs/ConfidenceLevel"
+            },
+            "review_status": {
+              "$ref": "#/$defs/ReviewStatus",
+              "default": "draft"
+            },
+            "reviewer_notes": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Reviewer Notes",
+              "type": "array"
+            },
+            "source_chunk_ids": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Source Chunk Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "extraction_method",
+            "confidence"
+          ],
+          "title": "DraftMetadata",
+          "type": "object"
+        },
+        "ExemptionEffect": {
+          "enum": [
+            "full",
+            "partial",
+            "modified_requirements",
+            "not_exempt",
+            "unknown"
+          ],
+          "title": "ExemptionEffect",
+          "type": "string"
+        },
+        "ExtractionMethod": {
+          "enum": [
+            "deterministic",
+            "ai_assisted",
+            "human_authored",
+            "imported_template"
+          ],
+          "title": "ExtractionMethod",
+          "type": "string"
+        },
+        "ReviewStatus": {
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected",
+            "superseded",
+            "conflict_detected"
+          ],
+          "title": "ReviewStatus",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/CitationRef"
+          },
+          "minItems": 1,
+          "title": "Citations",
+          "type": "array"
+        },
+        "metadata": {
+          "$ref": "#/$defs/DraftMetadata"
+        },
+        "exemption_rule_id": {
+          "minLength": 1,
+          "title": "Exemption Rule Id",
+          "type": "string"
+        },
+        "exemption_type": {
+          "minLength": 1,
+          "title": "Exemption Type",
+          "type": "string"
+        },
+        "eligibility_condition": {
+          "minLength": 1,
+          "title": "Eligibility Condition",
+          "type": "string"
+        },
+        "effect": {
+          "$ref": "#/$defs/ExemptionEffect"
+        },
+        "affected_requirements": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Affected Requirements",
+          "type": "array"
+        },
+        "documentation_needed": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Documentation Needed",
+          "type": "array"
+        },
+        "applies_to_entities": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Applies To Entities",
+          "type": "array"
+        },
+        "applies_to_foods": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Applies To Foods",
+          "type": "array"
+        },
+        "applies_to_ctes": {
+          "items": {
+            "$ref": "#/$defs/CteType"
+          },
+          "title": "Applies To Ctes",
+          "type": "array"
+        },
+        "decision_questions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Decision Questions",
+          "type": "array"
+        },
+        "reviewer_warning": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reviewer Warning"
+        }
+      },
+      "required": [
+        "citations",
+        "metadata",
+        "exemption_rule_id",
+        "exemption_type",
+        "eligibility_condition",
+        "effect"
+      ],
+      "title": "ExemptionRule",
+      "type": "object"
+    },
+    "traceability_plan_requirements": {
+      "$defs": {
+        "CitationRef": {
+          "additionalProperties": false,
+          "properties": {
+            "source_id": {
+              "minLength": 1,
+              "title": "Source Id",
+              "type": "string"
+            },
+            "chunk_id": {
+              "minLength": 1,
+              "title": "Chunk Id",
+              "type": "string"
+            },
+            "citation_anchor": {
+              "minLength": 1,
+              "title": "Citation Anchor",
+              "type": "string"
+            },
+            "authority_rank": {
+              "minLength": 1,
+              "title": "Authority Rank",
+              "type": "string"
+            },
+            "source_url": {
+              "minLength": 1,
+              "title": "Source Url",
+              "type": "string"
+            },
+            "section_ref": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Section Ref"
+            },
+            "page_number": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Page Number"
+            },
+            "support_text": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Support Text"
+            }
+          },
+          "required": [
+            "source_id",
+            "chunk_id",
+            "citation_anchor",
+            "authority_rank",
+            "source_url"
+          ],
+          "title": "CitationRef",
+          "type": "object"
+        },
+        "ConfidenceLevel": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unsupported",
+            "conflict"
+          ],
+          "title": "ConfidenceLevel",
+          "type": "string"
+        },
+        "DraftMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "extraction_method": {
+              "$ref": "#/$defs/ExtractionMethod"
+            },
+            "confidence": {
+              "$ref": "#/$defs/ConfidenceLevel"
+            },
+            "review_status": {
+              "$ref": "#/$defs/ReviewStatus",
+              "default": "draft"
+            },
+            "reviewer_notes": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Reviewer Notes",
+              "type": "array"
+            },
+            "source_chunk_ids": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Source Chunk Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "extraction_method",
+            "confidence"
+          ],
+          "title": "DraftMetadata",
+          "type": "object"
+        },
+        "ExtractionMethod": {
+          "enum": [
+            "deterministic",
+            "ai_assisted",
+            "human_authored",
+            "imported_template"
+          ],
+          "title": "ExtractionMethod",
+          "type": "string"
+        },
+        "RequirementStatus": {
+          "enum": [
+            "required",
+            "conditional",
+            "optional",
+            "not_applicable",
+            "unknown"
+          ],
+          "title": "RequirementStatus",
+          "type": "string"
+        },
+        "ReviewStatus": {
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected",
+            "superseded",
+            "conflict_detected"
+          ],
+          "title": "ReviewStatus",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/CitationRef"
+          },
+          "minItems": 1,
+          "title": "Citations",
+          "type": "array"
+        },
+        "metadata": {
+          "$ref": "#/$defs/DraftMetadata"
+        },
+        "traceability_plan_requirement_id": {
+          "minLength": 1,
+          "title": "Traceability Plan Requirement Id",
+          "type": "string"
+        },
+        "plan_component": {
+          "minLength": 1,
+          "title": "Plan Component",
+          "type": "string"
+        },
+        "required_detail": {
+          "minLength": 1,
+          "title": "Required Detail",
+          "type": "string"
+        },
+        "applies_to": {
+          "minLength": 1,
+          "title": "Applies To",
+          "type": "string"
+        },
+        "required_status": {
+          "$ref": "#/$defs/RequirementStatus",
+          "default": "required"
+        },
+        "evidence_examples": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Examples",
+          "type": "array"
+        },
+        "update_trigger": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Update Trigger"
+        },
+        "owner_role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Owner Role"
+        }
+      },
+      "required": [
+        "citations",
+        "metadata",
+        "traceability_plan_requirement_id",
+        "plan_component",
+        "required_detail",
+        "applies_to"
+      ],
+      "title": "TraceabilityPlanRequirement",
+      "type": "object"
+    },
+    "sortable_export_fields": {
+      "$defs": {
+        "CitationRef": {
+          "additionalProperties": false,
+          "properties": {
+            "source_id": {
+              "minLength": 1,
+              "title": "Source Id",
+              "type": "string"
+            },
+            "chunk_id": {
+              "minLength": 1,
+              "title": "Chunk Id",
+              "type": "string"
+            },
+            "citation_anchor": {
+              "minLength": 1,
+              "title": "Citation Anchor",
+              "type": "string"
+            },
+            "authority_rank": {
+              "minLength": 1,
+              "title": "Authority Rank",
+              "type": "string"
+            },
+            "source_url": {
+              "minLength": 1,
+              "title": "Source Url",
+              "type": "string"
+            },
+            "section_ref": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Section Ref"
+            },
+            "page_number": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Page Number"
+            },
+            "support_text": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Support Text"
+            }
+          },
+          "required": [
+            "source_id",
+            "chunk_id",
+            "citation_anchor",
+            "authority_rank",
+            "source_url"
+          ],
+          "title": "CitationRef",
+          "type": "object"
+        },
+        "ConfidenceLevel": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unsupported",
+            "conflict"
+          ],
+          "title": "ConfidenceLevel",
+          "type": "string"
+        },
+        "CteType": {
+          "enum": [
+            "harvesting",
+            "cooling",
+            "initial_packing",
+            "first_land_based_receiving",
+            "shipping",
+            "receiving",
+            "transformation",
+            "traceability_plan",
+            "other"
+          ],
+          "title": "CteType",
+          "type": "string"
+        },
+        "DraftMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "extraction_method": {
+              "$ref": "#/$defs/ExtractionMethod"
+            },
+            "confidence": {
+              "$ref": "#/$defs/ConfidenceLevel"
+            },
+            "review_status": {
+              "$ref": "#/$defs/ReviewStatus",
+              "default": "draft"
+            },
+            "reviewer_notes": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Reviewer Notes",
+              "type": "array"
+            },
+            "source_chunk_ids": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Source Chunk Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "extraction_method",
+            "confidence"
+          ],
+          "title": "DraftMetadata",
+          "type": "object"
+        },
+        "ExtractionMethod": {
+          "enum": [
+            "deterministic",
+            "ai_assisted",
+            "human_authored",
+            "imported_template"
+          ],
+          "title": "ExtractionMethod",
+          "type": "string"
+        },
+        "RequirementStatus": {
+          "enum": [
+            "required",
+            "conditional",
+            "optional",
+            "not_applicable",
+            "unknown"
+          ],
+          "title": "RequirementStatus",
+          "type": "string"
+        },
+        "ReviewStatus": {
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected",
+            "superseded",
+            "conflict_detected"
+          ],
+          "title": "ReviewStatus",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/CitationRef"
+          },
+          "minItems": 1,
+          "title": "Citations",
+          "type": "array"
+        },
+        "metadata": {
+          "$ref": "#/$defs/DraftMetadata"
+        },
+        "sortable_export_field_id": {
+          "minLength": 1,
+          "title": "Sortable Export Field Id",
+          "type": "string"
+        },
+        "workbook_tab": {
+          "minLength": 1,
+          "title": "Workbook Tab",
+          "type": "string"
+        },
+        "field_name": {
+          "minLength": 1,
+          "title": "Field Name",
+          "type": "string"
+        },
+        "field_key": {
+          "minLength": 1,
+          "title": "Field Key",
+          "type": "string"
+        },
+        "data_type": {
+          "minLength": 1,
+          "title": "Data Type",
+          "type": "string"
+        },
+        "required_status": {
+          "$ref": "#/$defs/RequirementStatus"
+        },
+        "source_mapping": {
+          "minLength": 1,
+          "title": "Source Mapping",
+          "type": "string"
+        },
+        "applies_to_ctes": {
+          "items": {
+            "$ref": "#/$defs/CteType"
+          },
+          "title": "Applies To Ctes",
+          "type": "array"
+        },
+        "accepted_examples": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Accepted Examples",
+          "type": "array"
+        },
+        "validation_notes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Validation Notes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "citations",
+        "metadata",
+        "sortable_export_field_id",
+        "workbook_tab",
+        "field_name",
+        "field_key",
+        "data_type",
+        "required_status",
+        "source_mapping"
+      ],
+      "title": "SortableExportField",
+      "type": "object"
+    },
+    "scenario_benchmarks": {
+      "$defs": {
+        "CitationRef": {
+          "additionalProperties": false,
+          "properties": {
+            "source_id": {
+              "minLength": 1,
+              "title": "Source Id",
+              "type": "string"
+            },
+            "chunk_id": {
+              "minLength": 1,
+              "title": "Chunk Id",
+              "type": "string"
+            },
+            "citation_anchor": {
+              "minLength": 1,
+              "title": "Citation Anchor",
+              "type": "string"
+            },
+            "authority_rank": {
+              "minLength": 1,
+              "title": "Authority Rank",
+              "type": "string"
+            },
+            "source_url": {
+              "minLength": 1,
+              "title": "Source Url",
+              "type": "string"
+            },
+            "section_ref": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Section Ref"
+            },
+            "page_number": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Page Number"
+            },
+            "support_text": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Support Text"
+            }
+          },
+          "required": [
+            "source_id",
+            "chunk_id",
+            "citation_anchor",
+            "authority_rank",
+            "source_url"
+          ],
+          "title": "CitationRef",
+          "type": "object"
+        },
+        "ConfidenceLevel": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "unsupported",
+            "conflict"
+          ],
+          "title": "ConfidenceLevel",
+          "type": "string"
+        },
+        "CteType": {
+          "enum": [
+            "harvesting",
+            "cooling",
+            "initial_packing",
+            "first_land_based_receiving",
+            "shipping",
+            "receiving",
+            "transformation",
+            "traceability_plan",
+            "other"
+          ],
+          "title": "CteType",
+          "type": "string"
+        },
+        "DraftMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "extraction_method": {
+              "$ref": "#/$defs/ExtractionMethod"
+            },
+            "confidence": {
+              "$ref": "#/$defs/ConfidenceLevel"
+            },
+            "review_status": {
+              "$ref": "#/$defs/ReviewStatus",
+              "default": "draft"
+            },
+            "reviewer_notes": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Reviewer Notes",
+              "type": "array"
+            },
+            "source_chunk_ids": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Source Chunk Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "extraction_method",
+            "confidence"
+          ],
+          "title": "DraftMetadata",
+          "type": "object"
+        },
+        "ExtractionMethod": {
+          "enum": [
+            "deterministic",
+            "ai_assisted",
+            "human_authored",
+            "imported_template"
+          ],
+          "title": "ExtractionMethod",
+          "type": "string"
+        },
+        "ReviewStatus": {
+          "enum": [
+            "draft",
+            "needs_review",
+            "approved",
+            "rejected",
+            "superseded",
+            "conflict_detected"
+          ],
+          "title": "ReviewStatus",
+          "type": "string"
+        },
+        "ScenarioActor": {
+          "additionalProperties": false,
+          "properties": {
+            "actor_id": {
+              "minLength": 1,
+              "title": "Actor Id",
+              "type": "string"
+            },
+            "actor_name": {
+              "minLength": 1,
+              "title": "Actor Name",
+              "type": "string"
+            },
+            "role": {
+              "minLength": 1,
+              "title": "Role",
+              "type": "string"
+            },
+            "location_description": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Location Description"
+            }
+          },
+          "required": [
+            "actor_id",
+            "actor_name",
+            "role"
+          ],
+          "title": "ScenarioActor",
+          "type": "object"
+        },
+        "ScenarioEvent": {
+          "additionalProperties": false,
+          "properties": {
+            "event_id": {
+              "minLength": 1,
+              "title": "Event Id",
+              "type": "string"
+            },
+            "cte_type": {
+              "$ref": "#/$defs/CteType"
+            },
+            "actor_id": {
+              "minLength": 1,
+              "title": "Actor Id",
+              "type": "string"
+            },
+            "event_description": {
+              "minLength": 1,
+              "title": "Event Description",
+              "type": "string"
+            },
+            "expected_kde_field_keys": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Expected Kde Field Keys",
+              "type": "array"
+            },
+            "expected_tlc_behavior": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Expected Tlc Behavior"
+            }
+          },
+          "required": [
+            "event_id",
+            "cte_type",
+            "actor_id",
+            "event_description"
+          ],
+          "title": "ScenarioEvent",
+          "type": "object"
+        },
+        "ScenarioExpectation": {
+          "additionalProperties": false,
+          "properties": {
+            "expectation_id": {
+              "minLength": 1,
+              "title": "Expectation Id",
+              "type": "string"
+            },
+            "event_id": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Event Id"
+            },
+            "expected_finding": {
+              "$ref": "#/$defs/ScenarioExpectedFinding"
+            },
+            "expected_behavior": {
+              "minLength": 1,
+              "title": "Expected Behavior",
+              "type": "string"
+            },
+            "required_evidence": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Required Evidence",
+              "type": "array"
+            },
+            "expected_export_behavior": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Expected Export Behavior"
+            }
+          },
+          "required": [
+            "expectation_id",
+            "expected_finding",
+            "expected_behavior"
+          ],
+          "title": "ScenarioExpectation",
+          "type": "object"
+        },
+        "ScenarioExpectedFinding": {
+          "enum": [
+            "pass",
+            "gap",
+            "needs_review",
+            "not_applicable"
+          ],
+          "title": "ScenarioExpectedFinding",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/CitationRef"
+          },
+          "minItems": 1,
+          "title": "Citations",
+          "type": "array"
+        },
+        "metadata": {
+          "$ref": "#/$defs/DraftMetadata"
+        },
+        "scenario_benchmark_id": {
+          "minLength": 1,
+          "title": "Scenario Benchmark Id",
+          "type": "string"
+        },
+        "scenario_name": {
+          "minLength": 1,
+          "title": "Scenario Name",
+          "type": "string"
+        },
+        "scenario_source": {
+          "minLength": 1,
+          "title": "Scenario Source",
+          "type": "string"
+        },
+        "food_scope": {
+          "minLength": 1,
+          "title": "Food Scope",
+          "type": "string"
+        },
+        "actors": {
+          "items": {
+            "$ref": "#/$defs/ScenarioActor"
+          },
+          "minItems": 1,
+          "title": "Actors",
+          "type": "array"
+        },
+        "events": {
+          "items": {
+            "$ref": "#/$defs/ScenarioEvent"
+          },
+          "minItems": 1,
+          "title": "Events",
+          "type": "array"
+        },
+        "expectations": {
+          "items": {
+            "$ref": "#/$defs/ScenarioExpectation"
+          },
+          "minItems": 1,
+          "title": "Expectations",
+          "type": "array"
+        },
+        "open_questions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Open Questions",
+          "type": "array"
+        }
+      },
+      "required": [
+        "citations",
+        "metadata",
+        "scenario_benchmark_id",
+        "scenario_name",
+        "scenario_source",
+        "food_scope",
+        "actors",
+        "events",
+        "expectations"
+      ],
+      "title": "ScenarioBenchmark",
+      "type": "object"
+    }
+  }
+}

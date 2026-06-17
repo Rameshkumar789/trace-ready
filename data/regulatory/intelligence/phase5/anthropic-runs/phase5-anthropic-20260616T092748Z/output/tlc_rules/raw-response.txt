@@ -1,0 +1,331 @@
+[
+  {
+    "tlc_rule_id": "TLC-ASSIGN-001",
+    "rule_kind": "assignment",
+    "applies_to_ctes": ["initial_packing", "first_land_based_receiving", "transformation"],
+    "applies_to_food_scope": "Foods on the Food Traceability List (FTL)",
+    "assignment_rule": "A traceability lot code must be assigned when: (1) initially packing a raw agricultural commodity other than a food obtained from a fishing vessel; (2) performing the first land-based receiving of a food obtained from a fishing vessel; or (3) transforming a food. No new TLC shall be established for other activities such as shipping.",
+    "required_status": "required",
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5",
+        "citation_anchor": "21 CFR 1.1320",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1320",
+        "support_text": "You must assign a traceability lot code when you do any of the following: Initially pack a raw agricultural commodity other than a food obtained from a fishing vessel; perform the first land-based receiving of a food obtained from a fishing vessel; or transform a food."
+      },
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5",
+        "citation_anchor": "21 CFR 1.1320",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1320",
+        "support_text": "you must not establish a new traceability lot code when you conduct other activities ( e.g., shipping) for a food on the Food Traceability List."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5"]
+    },
+    "evidence_examples": [],
+    "unresolved_questions": []
+  },
+  {
+    "tlc_rule_id": "TLC-ASSIGN-002",
+    "rule_kind": "assignment",
+    "applies_to_ctes": ["receiving"],
+    "applies_to_food_scope": "Foods on the Food Traceability List received from a person to whom the subpart does not apply",
+    "assignment_rule": "When receiving an FTL food from a person to whom the subpart does not apply, the receiver must assign a TLC if one has not already been assigned, except that this requirement does not apply to retail food establishments or restaurants.",
+    "required_status": "conditional",
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+        "citation_anchor": "21 CFR 1.1345",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1345",
+        "support_text": "The traceability lot code for the food, which you must assign if one has not already been assigned (except that this paragraph does not apply if you are a retail food establishment or restaurant)"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10"]
+    },
+    "evidence_examples": [],
+    "unresolved_questions": [
+      "Does the receiving entity's exemption status as a retail food establishment or restaurant affect this obligation? Reviewer should confirm entity type before applying rule.",
+      "Does the food scope (FTL vs. non-FTL) need to be confirmed at point of receipt?"
+    ]
+  },
+  {
+    "tlc_rule_id": "TLC-PRESERVE-001",
+    "rule_kind": "preservation",
+    "applies_to_ctes": ["shipping", "receiving"],
+    "applies_to_food_scope": "Foods on the Food Traceability List",
+    "preservation_rule": "The existing traceability lot code must be preserved and carried through shipping and receiving events. No new TLC may be established solely because of a shipping or receiving activity. The shipper must provide the TLC to the immediate subsequent recipient.",
+    "required_status": "required",
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5",
+        "citation_anchor": "21 CFR 1.1320",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1320",
+        "support_text": "you must not establish a new traceability lot code when you conduct other activities ( e.g., shipping) for a food on the Food Traceability List."
+      },
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9",
+        "citation_anchor": "21 CFR 1.1340",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1340",
+        "support_text": "You must provide (in electronic, paper, or other written form) the information in paragraphs (a)(1) through (7) of this section to the immediate subsequent recipient (other than a transporter) of each traceability lot that you ship."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9"
+      ]
+    },
+    "evidence_examples": [],
+    "unresolved_questions": []
+  },
+  {
+    "tlc_rule_id": "TLC-SRCREF-001",
+    "rule_kind": "source_reference",
+    "applies_to_ctes": ["shipping", "receiving", "initial_packing", "first_land_based_receiving", "transformation"],
+    "applies_to_food_scope": "Foods on the Food Traceability List",
+    "source_reference_rule": "For each traceability lot, records must include the location description for the traceability lot code source (i.e., the physical location where the TLC was assigned), and, if applicable, the traceability lot code source reference. This applies at shipping, receiving, initial packing, first land-based receiving, and transformation CTEs.",
+    "required_status": "required",
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9",
+        "citation_anchor": "21 CFR 1.1340",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1340",
+        "support_text": "The location description for the traceability lot code source, or the traceability lot code source reference"
+      },
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+        "citation_anchor": "21 CFR 1.1345",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1345",
+        "support_text": "The location description for the traceability lot code source, or the traceability lot code source reference"
+      },
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7",
+        "citation_anchor": "21 CFR 1.1330",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1330",
+        "support_text": "The location description for where you initially packed the food ( i.e., the traceability lot code source), and (if applicable) the traceability lot code source reference"
+      },
+      {
+        "source_id": "fda-traceability-lot-code",
+        "chunk_id": "fda-traceability-lot-code-traceability-lot-code-2",
+        "citation_anchor": "Traceability Lot Code",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+        "section_ref": "Traceability Lot Code",
+        "support_text": "It links to the other KDEs required, including the TLC Source, which provides the physical location where the traceability lot code for an FTL food was assigned."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7",
+        "fda-traceability-lot-code-traceability-lot-code-2"
+      ]
+    },
+    "evidence_examples": [],
+    "unresolved_questions": [
+      "When is a TLC source reference required vs. optional? The regulation states 'if applicable' — reviewer should clarify the conditions under which a source reference is required."
+    ]
+  },
+  {
+    "tlc_rule_id": "TLC-TRANSFORM-001",
+    "rule_kind": "transformation_handling",
+    "applies_to_ctes": ["transformation"],
+    "applies_to_food_scope": "Foods on the Food Traceability List produced through transformation",
+    "transformation_handling": "When a food is produced through transformation, a new traceability lot code must be assigned to the output lot. Records must link the new TLC to: (1) the TLC(s) of each FTL input food used, including product description and quantity used from each input lot; (2) the new TLC for the output food; (3) the location where transformation occurred (TLC source) and, if applicable, the TLC source reference; (4) the date transformation was completed; (5) the product description and quantity of the output food; and (6) the reference document type and number.",
+    "lineage_rule": "Each new traceability lot produced through transformation must be linked to the traceability lot codes of all FTL foods used as inputs in that transformation event.",
+    "required_status": "conditional",
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1350-11",
+        "citation_anchor": "21 CFR 1.1350",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1350",
+        "support_text": "for each new traceability lot of food you produce through transformation, you must maintain records containing the following information and linking this information to the new traceability lot"
+      },
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1350-11",
+        "citation_anchor": "21 CFR 1.1350",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1350",
+        "support_text": "Paragraphs (a) and (b) of this section do not apply to retail food establishments and restaurants with respect to foods they do not ship ( e.g., foods they sell or send directly to consumers)."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1350-11"]
+    },
+    "evidence_examples": [],
+    "unresolved_questions": [
+      "Does the entity qualify as a retail food establishment or restaurant that does not ship? If so, transformation TLC requirements under 1.1350(a) and (b) do not apply.",
+      "If the raw agricultural commodity input was not initially packed prior to transformation, the entity must also maintain initial packing records per 1.1330(a) or (c) — reviewer should confirm whether this scenario applies."
+    ]
+  },
+  {
+    "tlc_rule_id": "TLC-LINKAGE-001",
+    "rule_kind": "linkage",
+    "applies_to_ctes": ["shipping", "receiving"],
+    "applies_to_food_scope": "Foods on the Food Traceability List",
+    "lineage_rule": "At shipping, the shipper must provide the TLC, product description, quantity, location of immediate subsequent recipient, shipping location, shipping date, and TLC source or TLC source reference to the immediate subsequent recipient in electronic, paper, or other written form. At receiving, the receiver must maintain records linking the TLC to the immediate previous source, receiving location, receipt date, and TLC source or TLC source reference.",
+    "required_status": "required",
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9",
+        "citation_anchor": "21 CFR 1.1340",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1340",
+        "support_text": "You must provide (in electronic, paper, or other written form) the information in paragraphs (a)(1) through (7) of this section to the immediate subsequent recipient (other than a transporter) of each traceability lot that you ship."
+      },
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+        "citation_anchor": "21 CFR 1.1345",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1345",
+        "support_text": "for each traceability lot of a food on the Food Traceability List you receive, you must maintain records containing the following information and linking this information to the traceability lot"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9",
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10"
+      ]
+    },
+    "evidence_examples": [],
+    "unresolved_questions": [
+      "Does the shipping exemption for pre-initial-packing RACs (1.1340(c)) or the receiving exemption for pre-initial-packing RACs and first land-based receivers (1.1345(c)) apply to this entity? Reviewer should confirm."
+    ]
+  },
+  {
+    "tlc_rule_id": "TLC-UNIQUE-001",
+    "rule_kind": "uniqueness",
+    "applies_to_ctes": ["initial_packing", "first_land_based_receiving", "transformation"],
+    "applies_to_food_scope": "Foods on the Food Traceability List",
+    "uniqueness_rule": "A traceability lot code must meet the regulatory definition of 'traceability lot code.' Industry best practices support using a combination of a globally unique product identifier, firm-assigned internal lot code, and standard date code to uniquely identify a lot. Examples include Julian date, lot code, batch code, or other production code, provided the combination meets the regulatory definition.",
+    "required_status": "required",
+    "citations": [
+      {
+        "source_id": "fda-traceability-lot-code",
+        "chunk_id": "fda-traceability-lot-code-what-are-some-examples-of-traceability-lot-codes-4",
+        "citation_anchor": "What are some examples of traceability lot codes?",
+        "authority_rank": "support",
+        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+        "section_ref": "What are some examples of traceability lot codes?",
+        "support_text": "Several food industry-supported traceability initiatives offer best practices and standards for uniquely identifying a lot of food using a combination of a globally unique product identifier, firm-assigned internal lot code, and standard date code. Other examples include a Julian date, a lot code, batch code or other production code. This information, taken together, could be used as a traceability lot code, provided it meets the definition of \u201ctraceability lot code\u201d in the final rule."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [
+        "The uniqueness requirement is implied by the regulatory definition of 'traceability lot code' referenced in the FDA guidance but the definition text itself is not present in the supplied source chunks. Reviewer should confirm against the full regulatory definition at 21 CFR 1.1310."
+      ],
+      "source_chunk_ids": ["fda-traceability-lot-code-what-are-some-examples-of-traceability-lot-codes-4"]
+    },
+    "evidence_examples": [
+      "Julian date combined with internal lot code",
+      "Batch code combined with globally unique product identifier",
+      "GS1 GTIN + lot number combination"
+    ],
+    "unresolved_questions": [
+      "The full regulatory definition of 'traceability lot code' from 21 CFR 1.1310 is not present in the supplied source chunks. Reviewer must confirm the exact uniqueness standard required by the definition.",
+      "Does the entity's existing lot coding system meet the regulatory definition? This requires entity-specific review."
+    ]
+  },
+  {
+    "tlc_rule_id": "TLC-SRCREF-002",
+    "rule_kind": "source_reference",
+    "applies_to_ctes": ["first_land_based_receiving"],
+    "applies_to_food_scope": "Food obtained from a fishing vessel for which the entity is the first land-based receiver",
+    "source_reference_rule": "For each traceability lot of food obtained from a fishing vessel, the first land-based receiver must record the location description for the first land-based receiver as the TLC source, and, if applicable, the TLC source reference. Records must also include harvest date range and locations identified under NMFS Ocean Geographic Code, FAO Major Fishing Area list, or any other widely recognized geographical location standard.",
+    "required_status": "required",
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1335-8",
+        "citation_anchor": "21 CFR 1.1335",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1335",
+        "support_text": "The location description for the first land-based receiver ( i.e., the traceability lot code source), and (if applicable) the traceability lot code source reference"
+      },
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1335-8",
+        "citation_anchor": "21 CFR 1.1335",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1335",
+        "support_text": "The harvest date range and locations (as identified under the National Marine Fisheries Service Ocean Geographic Code, the United Nations Food and Agriculture Organization Major Fishing Area list, or any other widely recognized geographical location standard) for the trip during which the food was caught"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1335-8"]
+    },
+    "evidence_examples": [],
+    "unresolved_questions": [
+      "When is the TLC source reference 'applicable' for first land-based receivers? Reviewer should clarify the conditions triggering the source reference requirement."
+    ]
+  }
+]

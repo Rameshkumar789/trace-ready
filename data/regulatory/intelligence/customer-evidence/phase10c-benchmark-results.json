@@ -1,0 +1,892 @@
+[
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:shipping_b2b:001",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:receiving_b2b:002",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "first_land_based_receiving"
+    ],
+    "actual_suppressed_ctes": [
+      "receiving"
+    ],
+    "benchmark_id": "phase10c:first_land:003",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:direct_consumer:004",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "transformation"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:transformation_ftl:005",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "benchmark_id": "phase10c:transformation_non_ftl:006",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:transporter_only:007",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:internal_transfer:008",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:return_correction:009",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "traceability_plan"
+    ],
+    "actual_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "benchmark_id": "phase10c:traceability_plan:010",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:shipping_b2b:011",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:receiving_b2b:012",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "first_land_based_receiving"
+    ],
+    "actual_suppressed_ctes": [
+      "receiving"
+    ],
+    "benchmark_id": "phase10c:first_land:013",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:direct_consumer:014",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "transformation"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:transformation_ftl:015",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "benchmark_id": "phase10c:transformation_non_ftl:016",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:transporter_only:017",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:internal_transfer:018",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:return_correction:019",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "traceability_plan"
+    ],
+    "actual_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "benchmark_id": "phase10c:traceability_plan:020",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:shipping_b2b:021",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:receiving_b2b:022",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "first_land_based_receiving"
+    ],
+    "actual_suppressed_ctes": [
+      "receiving"
+    ],
+    "benchmark_id": "phase10c:first_land:023",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:direct_consumer:024",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "transformation"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:transformation_ftl:025",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "benchmark_id": "phase10c:transformation_non_ftl:026",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:transporter_only:027",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:internal_transfer:028",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:return_correction:029",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "traceability_plan"
+    ],
+    "actual_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "benchmark_id": "phase10c:traceability_plan:030",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:shipping_b2b:031",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:receiving_b2b:032",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "first_land_based_receiving"
+    ],
+    "actual_suppressed_ctes": [
+      "receiving"
+    ],
+    "benchmark_id": "phase10c:first_land:033",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:direct_consumer:034",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "transformation"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:transformation_ftl:035",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "benchmark_id": "phase10c:transformation_non_ftl:036",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:transporter_only:037",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:internal_transfer:038",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:return_correction:039",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "traceability_plan"
+    ],
+    "actual_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "benchmark_id": "phase10c:traceability_plan:040",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "shipping"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:shipping_b2b:041",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "receiving"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:receiving_b2b:042",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "first_land_based_receiving"
+    ],
+    "actual_suppressed_ctes": [
+      "receiving"
+    ],
+    "benchmark_id": "phase10c:first_land:043",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:direct_consumer:044",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "transformation"
+    ],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:transformation_ftl:045",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "transformation"
+    ],
+    "benchmark_id": "phase10c:transformation_non_ftl:046",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:transporter_only:047",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [
+      "shipping"
+    ],
+    "benchmark_id": "phase10c:internal_transfer:048",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [
+      "shipping"
+    ],
+    "actual_ctes": [],
+    "actual_suppressed_ctes": [],
+    "benchmark_id": "phase10c:return_correction:049",
+    "error_categories": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "expected_suppressed_ctes": [],
+    "status": "pass"
+  },
+  {
+    "actual_abstentions": [],
+    "actual_ctes": [
+      "traceability_plan"
+    ],
+    "actual_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "benchmark_id": "phase10c:traceability_plan:050",
+    "error_categories": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "status": "pass"
+  }
+]

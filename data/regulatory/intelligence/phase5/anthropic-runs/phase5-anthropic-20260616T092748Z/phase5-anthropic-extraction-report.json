@@ -1,0 +1,100 @@
+{
+  "runId": "phase5-anthropic-20260616T092748Z",
+  "startedAt": "2026-06-16T09:27:49.173445+00:00",
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-6",
+  "modelRoles": {
+    "draftExtraction": "claude-sonnet-4-6",
+    "conflictReasoning": "claude-opus-4-8",
+    "citationSpanValidation": "deterministic_string_matching_no_ai"
+  },
+  "maxTokens": 20000,
+  "temperature": 0.0,
+  "promptCache": {
+    "enabled": true,
+    "cacheControl": {
+      "type": "ephemeral",
+      "ttl": "1h"
+    },
+    "note": "Prompt caching is applied to Anthropic system and user content blocks. Citation span validation remains deterministic and does not use AI."
+  },
+  "collections": {
+    "exemption_rules": {
+      "promptId": "phase5_exemption_extraction_v1",
+      "sourceChunkCount": 1,
+      "inputArtifacts": {
+        "systemPromptFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/exemption_rules/system-prompt.md",
+        "userPromptFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/exemption_rules/user-prompt.md",
+        "sourceChunkIdsFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/exemption_rules/source-chunk-ids.json"
+      },
+      "outputArtifacts": {
+        "rawResponseTextFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/output/exemption_rules/raw-response.txt",
+        "parsedJsonFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/output/exemption_rules/parsed-json.json"
+      },
+      "rawResponseFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/raw/exemption_rules-raw-response.json",
+      "validationFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/validated/exemption_rules-validation.json",
+      "acceptedRecords": 3,
+      "rejectedRecords": 5,
+      "conflictRecords": 0,
+      "issueCount": 5,
+      "usage": {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 5632,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 5632,
+        "cache_read_input_tokens": 0,
+        "inference_geo": "global",
+        "input_tokens": 3,
+        "output_tokens": 6573,
+        "output_tokens_details": null,
+        "server_tool_use": null,
+        "service_tier": "standard"
+      },
+      "stopReason": "end_turn",
+      "cacheControl": {
+        "type": "ephemeral",
+        "ttl": "1h"
+      }
+    },
+    "tlc_rules": {
+      "promptId": "phase5_tlc_rule_extraction_v1",
+      "sourceChunkCount": 10,
+      "inputArtifacts": {
+        "systemPromptFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/tlc_rules/system-prompt.md",
+        "userPromptFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/tlc_rules/user-prompt.md",
+        "sourceChunkIdsFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/input/tlc_rules/source-chunk-ids.json"
+      },
+      "outputArtifacts": {
+        "rawResponseTextFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/output/tlc_rules/raw-response.txt",
+        "parsedJsonFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/output/tlc_rules/parsed-json.json"
+      },
+      "rawResponseFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/raw/tlc_rules-raw-response.json",
+      "validationFile": "../data/regulatory/intelligence/phase5/anthropic-runs/phase5-anthropic-20260616T092748Z/validated/tlc_rules-validation.json",
+      "acceptedRecords": 8,
+      "rejectedRecords": 0,
+      "conflictRecords": 0,
+      "issueCount": 0,
+      "usage": {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 6944,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 6944,
+        "cache_read_input_tokens": 0,
+        "inference_geo": "global",
+        "input_tokens": 3,
+        "output_tokens": 6385,
+        "output_tokens_details": null,
+        "server_tool_use": null,
+        "service_tier": "standard"
+      },
+      "stopReason": "end_turn",
+      "cacheControl": {
+        "type": "ephemeral",
+        "ttl": "1h"
+      }
+    }
+  },
+  "completedAt": "2026-06-16T09:30:25.631340+00:00"
+}

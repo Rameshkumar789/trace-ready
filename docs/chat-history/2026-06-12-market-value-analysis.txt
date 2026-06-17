@@ -1,0 +1,153 @@
+The market value depends on which version of the product you mean. The audit alone is a good wedge, but the real market value comes from converting the audit into remediation, supplier follow-up, and ongoing traceability operations.
+
+1. Narrow market: Digital FSMA 204 Gap Audit
+
+This is the first product Jim validated.
+
+What it sells
+
+“Upload your item master, suppliers, sample receiving/shipping/transformation records, and documents. We tell you where your FSMA 204 gaps are.”
+
+Likely pricing
+
+Based on Jim’s comparison to onsite audits, a digital version could likely be priced around:
+
+Small operator:        $500–$1,500 per audit
+Mid-sized site:        $1,500–$3,500 per audit
+Larger/multi-site:     $5,000–$15,000 per engagement
+
+SGS already sells FSMA 204 audit services that evaluate traceability systems for KDE and CTE accuracy, completeness, timeliness, gap identification, and recordkeeping validation, which proves this is a real service category. A lower-cost digital pre-audit would sit below or before that kind of traditional audit.  
+
+Rough U.S. revenue potential
+
+There are about 91,225 registered domestic food companies in the U.S. and 128,886 registered foreign food companies as of March 2024, according to food facility registration statistics cited by CIRS. Not all are FSMA 204-relevant, and not all will buy audits.  
+
+If only a small slice buys a digital audit:
+
+5,000 audits × $1,000 average = $5M
+20,000 audits × $1,000 average = $20M
+50,000 audits × $1,000 average = $50M
+
+So the audit-only product is probably a $10M–$50M annual revenue opportunity in the U.S. if executed well, with additional international upside.
+
+That is a strong business, but probably not huge enough by itself for venture scale.
+
+⸻
+
+2. Bigger market: FSMA 204 Remediation + Exception Workflow
+
+This is where the idea becomes more valuable.
+
+After the audit, companies will need help fixing:
+
+covered product classification
+supplier KDE requests
+missing lot codes
+traceability lot-code lineage
+transformation linkage
+receiving/shipping KDE gaps
+customer data-sharing readiness
+ERP/WMS/EDI gaps
+
+Pricing
+
+Once you move from audit to ongoing remediation:
+
+Small operator:        $500–$2,000/month
+Mid-market distributor: $2,000–$8,000/month
+Multi-site operator:   $10,000–$30,000/month
+
+This is the recurring revenue layer.
+
+Market size
+
+A market-research estimate from Future Market Insights sizes the FSMA 204 traceability data integration software market at about $1.2B in 2026, growing to $3.7B by 2036. Treat this as directional, but it shows that the broader FSMA 204 data/software market is measured in billions, not millions.  
+
+Another research source estimates the broader FSMA 204 traceability platforms market at $2.8B in 2025, projected to reach $8.1B by 2034, though that includes broader platforms and should also be treated directionally.  
+
+Your audit/remediation layer could realistically aim for a narrow slice of that market.
+
+If Trace Ready captures even:
+
+0.5% of a $1.2B market = $6M ARR
+1% of a $1.2B market   = $12M ARR
+3% of a $1.2B market   = $36M ARR
+5% of a $1.2B market   = $60M ARR
+
+That is the more realistic venture path.
+
+⸻
+
+3. Largest market: Food Traceability Operations Platform
+
+The long-term company is not only FSMA 204 audits.
+
+It becomes:
+
+AI compliance operations for food traceability.
+
+This includes:
+
+digital FSMA 204 audits
+supplier readiness scoring
+KDE exception tracking
+ERP/WMS/EDI integration
+recall readiness
+mock recall workflows
+audit evidence
+customer-specific traceability requirements
+supplier follow-up automation
+
+The broader global food traceability market is much larger. Global Market Insights estimates the food traceability market was $13B in 2024 and could reach $45B by 2034. IMARC estimates the global food traceability market was $23.3B in 2025 and could reach $44.6B by 2034. Different research firms define the market differently, so use these as broad directional signals, not exact truth.  
+
+If Trace Ready becomes the pre-audit + remediation + exception operations layer, it does not need to own the whole market. A very small percentage can still become meaningful.
+
+⸻
+
+My estimate
+
+Audit-only business
+
+Potential annual revenue: $10M–$50M
+Company type: strong niche business / services-enabled software
+Venture scale: weak to medium unless it expands
+
+Audit + remediation workflow
+
+Potential ARR: $30M–$100M+
+Company type: vertical SaaS / AI-enabled compliance operations
+Venture scale: possible
+
+Full traceability operations platform
+
+Potential ARR: $100M–$300M+
+Company type: venture-scale vertical AI company
+Venture scale: yes, if it becomes the ongoing exception layer
+
+⸻
+
+Best way to explain market value to investors
+
+Do not say:
+
+“The food traceability market is $45B.”
+
+That sounds too broad.
+
+Say:
+
+FSMA 204 is creating a multi-billion-dollar traceability data integration market. But before companies buy or implement full platforms, they need to know whether their existing products, suppliers, lot-code workflows, transformations, and data-sharing processes are actually compliant. Trace Ready starts with a low-cost digital gap audit, then converts those findings into recurring remediation and exception-management workflows.
+
+That is much more credible.
+
+⸻
+
+Final answer
+
+The first product, the digital FSMA 204 gap audit, is probably a $10M–$50M market on its own.
+
+The real market value is the follow-on workflow: remediation, supplier follow-up, exception tracking, and system integration. That can become a $100M+ ARR opportunity if it becomes the operating layer companies use after the audit.
+
+So the business should be framed as:
+
+Audit is the wedge. Remediation is the business. Traceability operations is the platform.

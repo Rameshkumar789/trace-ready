@@ -1,0 +1,40 @@
+{
+  "acceptanceCoverage": {
+    "RI-100_map_customer_ctes_to_approved_obligations": true,
+    "RI-101_kde_completeness_checks": true,
+    "RI-102_tlc_lineage_checks": true,
+    "RI-103_traceability_plan_checks": true,
+    "RI-104_exemption_scope_uncertainty_checks": true,
+    "RI-105_records_fda_request_readiness": true,
+    "RI-106_sortable_export_readiness": true,
+    "RI-107_audit_findings": true,
+    "RI-108_exception_queue": true,
+    "RI-109_fda_style_export_package": true
+  },
+  "approvedRuleOnly": true,
+  "auditFindings": 17,
+  "exceptionQueueItems": 17,
+  "exportPackageStatus": "blocked",
+  "findingStatusCounts": {
+    "gap": 17
+  },
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "kdeChecks": 38,
+  "kdeStatusCounts": {
+    "missing": 5,
+    "present": 33
+  },
+  "obligationMappings": 25,
+  "phase": 11,
+  "recordsReadinessChecks": 3,
+  "rulePackageId": "approved-rule-package-v1",
+  "rulePackageVersion": 1,
+  "scopeExemptionChecks": 0,
+  "sortableExportChecks": 3,
+  "tlcChecks": 7,
+  "tlcStatusCounts": {
+    "gap": 5,
+    "linked": 2
+  },
+  "traceabilityPlanChecks": 6
+}

@@ -1,0 +1,256 @@
+[
+  {
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3",
+        "citation_anchor": "21 CFR 1.1310",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1310",
+        "page_number": null,
+        "support_text": "Harvesting applies"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3"
+      ]
+    },
+    "cte_id": "cte_harvesting",
+    "cte_type": "harvesting",
+    "display_name": "Harvesting",
+    "definition": "to farms and farm mixed-type facilities and means activities that are traditionally performed on farms for the purpose of removing raw agricultural commodities from the place they were grown or raised and preparing them for use as food. Harvesting is limited to activities performed on raw agricultural commodities, or on processed foods created by drying/dehydrating a raw agricultural commodity without additional manufacturing/processing, on a farm. Harvesting does not include activities that transform a raw agricultural commodity into a processed food as defined in section 201(gg) of the Federal Food, Drug, and Cosmetic Act. Examples of harvesting include cutting (or otherwise separating) the edible portion of the raw agricultural commodity from the crop plant and removing or trimming part of the raw agricultural commodity ( e.g., foliage, husks, roots, or stems). Examples of harvesting also include cooling, field coring, filtering, gathering, hulling, shelling, sifting, threshing, trimming of outer leaves of, and washing raw agricultural commodities grown on a farm. Holding means storage of food and also includes activities performed incidental to storage of a food ( e.g., activities performed for the safe or effective storage of that food, such as fumigating food during storage, and drying/dehydrating raw agricultural commodities when the drying/dehydrating does not create a distinct commodity (such as drying/dehydrating hay or alfalfa)). Holding also includes activities performed as a practical necessity for the distribution of that food (such as blending of the same raw agricultural commodity and breaking down pallets), but does not include activities that transform a raw agricultural commodity into a processed food as defined in section 201(gg) of the Federal Food, Drug, and Cosmetic Act. Holding facilities could include warehouses, cold storage facilities, storage silos, grain elevators, and liquid storage tanks.",
+    "trigger_conditions": [
+      "to farms and farm mixed-type facilities and means activities that are traditionally performed on farms for the purpose of removing raw agricultural commodities from the place they were grown or raised and preparing them for use as food."
+    ],
+    "actor_roles": [
+      "harvester",
+      "farm"
+    ],
+    "input_event_relationship": null,
+    "output_event_relationship": null,
+    "excluded_conditions": []
+  },
+  {
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3",
+        "citation_anchor": "21 CFR 1.1310",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1310",
+        "page_number": null,
+        "support_text": "Cooling means"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3"
+      ]
+    },
+    "cte_id": "cte_cooling",
+    "cte_type": "cooling",
+    "display_name": "Cooling",
+    "definition": "active temperature reduction of a raw agricultural commodity using hydrocooling, icing (except icing of seafood), forced air cooling, vacuum cooling, or a similar process.",
+    "trigger_conditions": [
+      "active temperature reduction of a raw agricultural commodity using hydrocooling, icing (except icing of seafood), forced air cooling, vacuum cooling, or a similar process."
+    ],
+    "actor_roles": [
+      "cooler"
+    ],
+    "input_event_relationship": null,
+    "output_event_relationship": null,
+    "excluded_conditions": []
+  },
+  {
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3",
+        "citation_anchor": "21 CFR 1.1310",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1310",
+        "page_number": null,
+        "support_text": "Initial packing means"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3"
+      ]
+    },
+    "cte_id": "cte_initial_packing",
+    "cte_type": "initial_packing",
+    "display_name": "Initial packing",
+    "definition": "packing a raw agricultural commodity (other than a food obtained from a fishing vessel) for the first time.",
+    "trigger_conditions": [
+      "packing a raw agricultural commodity (other than a food obtained from a fishing vessel) for the first time."
+    ],
+    "actor_roles": [
+      "initial packer"
+    ],
+    "input_event_relationship": null,
+    "output_event_relationship": "May establish or assign the traceability lot code for downstream records.",
+    "excluded_conditions": []
+  },
+  {
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3",
+        "citation_anchor": "21 CFR 1.1310",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1310",
+        "page_number": null,
+        "support_text": "First land-based receiver means"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3"
+      ]
+    },
+    "cte_id": "cte_first_land_based_receiving",
+    "cte_type": "first_land_based_receiving",
+    "display_name": "First land-based receiver",
+    "definition": "the person taking possession of a food for the first time on land directly from a fishing vessel.",
+    "trigger_conditions": [
+      "the person taking possession of a food for the first time on land directly from a fishing vessel."
+    ],
+    "actor_roles": [
+      "first land-based receiver"
+    ],
+    "input_event_relationship": null,
+    "output_event_relationship": "May establish or assign the traceability lot code for downstream records.",
+    "excluded_conditions": []
+  },
+  {
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3",
+        "citation_anchor": "21 CFR 1.1310",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1310",
+        "page_number": null,
+        "support_text": "Shipping means"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3"
+      ]
+    },
+    "cte_id": "cte_shipping",
+    "cte_type": "shipping",
+    "display_name": "Shipping",
+    "definition": "an event in a food's supply chain in which a food is arranged for transport ( e.g., by truck or ship) from one location to another location. Shipping does not include the sale or shipment of a food directly to a consumer or the donation of surplus food. Shipping includes sending an intracompany shipment of food from one location at a particular street address of a firm to another location at a different street address of the firm.",
+    "trigger_conditions": [
+      "an event in a food's supply chain in which a food is arranged for transport ( e.g., by truck or ship) from one location to another location."
+    ],
+    "actor_roles": [
+      "shipper"
+    ],
+    "input_event_relationship": null,
+    "output_event_relationship": "Passes linked KDE/TLC information to the immediate subsequent recipient.",
+    "excluded_conditions": []
+  },
+  {
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3",
+        "citation_anchor": "21 CFR 1.1310",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1310",
+        "page_number": null,
+        "support_text": "Transformation means"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3"
+      ]
+    },
+    "cte_id": "cte_transformation",
+    "cte_type": "transformation",
+    "display_name": "Transformation",
+    "definition": "an event in a food's supply chain that involves manufacturing/processing a food or changing a food ( e.g., by commingling, repacking, or relabeling) or its packaging or packing, when the output is a food on the Food Traceability List. Transformation does not include the initial packing of a food or activities preceding that event ( e.g., harvesting, cooling).",
+    "trigger_conditions": [
+      "an event in a food's supply chain that involves manufacturing/processing a food or changing a food ( e.g., by commingling, repacking, or relabeling) or its packaging or packing, when the output is a food on the Food Traceability List."
+    ],
+    "actor_roles": [
+      "transformer",
+      "processor"
+    ],
+    "input_event_relationship": "Consumes or receives an inbound traceability lot or source event.",
+    "output_event_relationship": "May establish or assign the traceability lot code for downstream records.",
+    "excluded_conditions": []
+  },
+  {
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+        "citation_anchor": "21 CFR 1.1345",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1345",
+        "page_number": null,
+        "support_text": "For each traceability lot of a food on the Food Traceability List you receive"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "medium",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10"
+      ]
+    },
+    "cte_id": "cte_receiving",
+    "cte_type": "receiving",
+    "display_name": "Receiving",
+    "definition": "Receiving is treated as a critical tracking event when a person receives a food on the Food Traceability List and must keep the required receiving records.",
+    "trigger_conditions": [
+      "Person receives a food on the Food Traceability List."
+    ],
+    "actor_roles": [
+      "receiver"
+    ],
+    "input_event_relationship": "Inbound traceability lot from immediate previous source.",
+    "output_event_relationship": "Receiving records link inbound food to source, TLC, and reference documents.",
+    "excluded_conditions": []
+  }
+]

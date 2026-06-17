@@ -1,0 +1,215 @@
+[
+  {
+    "confidence": 0.42,
+    "detected_signals": [],
+    "document_type": "unknown",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-00_business_profile-r2-c1",
+      "ev-fsma204_full_audit_sample-00_business_profile-r2-c2",
+      "ev-fsma204_full_audit_sample-00_business_profile-r2-c3",
+      "ev-fsma204_full_audit_sample-00_business_profile-r2-c4",
+      "ev-fsma204_full_audit_sample-00_business_profile-r2-c5"
+    ],
+    "evidence_kind": "spreadsheet_sheet",
+    "profile_id": "phase10a-doc-0001",
+    "source_name": "00_Business_Profile",
+    "supported_parser": "generic_spreadsheet_parser_v1"
+  },
+  {
+    "confidence": 0.42,
+    "detected_signals": [],
+    "document_type": "unknown",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-01_product_master-r2-c1",
+      "ev-fsma204_full_audit_sample-01_product_master-r2-c2",
+      "ev-fsma204_full_audit_sample-01_product_master-r2-c3",
+      "ev-fsma204_full_audit_sample-01_product_master-r2-c4",
+      "ev-fsma204_full_audit_sample-01_product_master-r3-c1",
+      "ev-fsma204_full_audit_sample-01_product_master-r3-c2",
+      "ev-fsma204_full_audit_sample-01_product_master-r3-c4"
+    ],
+    "evidence_kind": "spreadsheet_sheet",
+    "profile_id": "phase10a-doc-0002",
+    "source_name": "01_Product_Master",
+    "supported_parser": "generic_spreadsheet_parser_v1"
+  },
+  {
+    "confidence": 0.42,
+    "detected_signals": [],
+    "document_type": "unknown",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-02_location_master-r2-c1",
+      "ev-fsma204_full_audit_sample-02_location_master-r2-c2",
+      "ev-fsma204_full_audit_sample-02_location_master-r2-c3"
+    ],
+    "evidence_kind": "spreadsheet_sheet",
+    "profile_id": "phase10a-doc-0003",
+    "source_name": "02_Location_Master",
+    "supported_parser": "generic_spreadsheet_parser_v1"
+  },
+  {
+    "confidence": 0.42,
+    "detected_signals": [],
+    "document_type": "unknown",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-03_partner_master-r2-c1",
+      "ev-fsma204_full_audit_sample-03_partner_master-r2-c2",
+      "ev-fsma204_full_audit_sample-03_partner_master-r2-c3",
+      "ev-fsma204_full_audit_sample-03_partner_master-r2-c4"
+    ],
+    "evidence_kind": "spreadsheet_sheet",
+    "profile_id": "phase10a-doc-0004",
+    "source_name": "03_Partner_Master",
+    "supported_parser": "generic_spreadsheet_parser_v1"
+  },
+  {
+    "confidence": 0.88,
+    "detected_signals": [
+      "invoice"
+    ],
+    "document_type": "invoice",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c1",
+      "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c2",
+      "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c3"
+    ],
+    "evidence_kind": "spreadsheet_sheet",
+    "profile_id": "phase10a-doc-0005",
+    "source_name": "04_Traceability_Plan",
+    "supported_parser": "invoice_parser_v1"
+  },
+  {
+    "confidence": 0.88,
+    "detected_signals": [
+      "invoice",
+      "inv-"
+    ],
+    "document_type": "invoice",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c6",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6"
+    ],
+    "evidence_kind": "spreadsheet_sheet",
+    "profile_id": "phase10a-doc-0006",
+    "source_name": "05_CTE_Events",
+    "supported_parser": "invoice_parser_v1"
+  },
+  {
+    "confidence": 0.42,
+    "detected_signals": [],
+    "document_type": "unknown",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "evidence_kind": "spreadsheet_sheet",
+    "profile_id": "phase10a-doc-0007",
+    "source_name": "06_Event_Line_Items",
+    "supported_parser": "generic_spreadsheet_parser_v1"
+  },
+  {
+    "confidence": 0.88,
+    "detected_signals": [
+      "receiving",
+      "received"
+    ],
+    "document_type": "receiving_log",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c1",
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c2",
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c3",
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c4",
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c5",
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c6",
+      "ev-fsma204_full_audit_sample-07_kde_values-r2-c7",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c1",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c2",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c3",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c4",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c5",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c6",
+      "ev-fsma204_full_audit_sample-07_kde_values-r3-c7"
+    ],
+    "evidence_kind": "spreadsheet_sheet",
+    "profile_id": "phase10a-doc-0008",
+    "source_name": "07_KDE_Values",
+    "supported_parser": "receiving_log_parser_v1"
+  },
+  {
+    "confidence": 0.88,
+    "detected_signals": [
+      "received"
+    ],
+    "document_type": "receiving_log",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c1",
+      "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c2",
+      "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c4",
+      "ev-fsma204_full_audit_sample-08_tlc_lineage-r2-c5"
+    ],
+    "evidence_kind": "spreadsheet_sheet",
+    "profile_id": "phase10a-doc-0009",
+    "source_name": "08_TLC_Lineage",
+    "supported_parser": "receiving_log_parser_v1"
+  },
+  {
+    "confidence": 0.88,
+    "detected_signals": [
+      "invoice"
+    ],
+    "document_type": "invoice",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-09_source_documents-r2-c1",
+      "ev-fsma204_full_audit_sample-09_source_documents-r2-c2",
+      "ev-fsma204_full_audit_sample-09_source_documents-r2-c3",
+      "ev-fsma204_full_audit_sample-09_source_documents-r2-c4"
+    ],
+    "evidence_kind": "spreadsheet_sheet",
+    "profile_id": "phase10a-doc-0010",
+    "source_name": "09_Source_Documents",
+    "supported_parser": "invoice_parser_v1"
+  },
+  {
+    "confidence": 0.42,
+    "detected_signals": [],
+    "document_type": "unknown",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c1",
+      "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c2",
+      "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c3",
+      "ev-fsma204_full_audit_sample-10_exemptions_claims-r2-c4"
+    ],
+    "evidence_kind": "spreadsheet_sheet",
+    "profile_id": "phase10a-doc-0011",
+    "source_name": "10_Exemptions_Claims",
+    "supported_parser": "generic_spreadsheet_parser_v1"
+  }
+]

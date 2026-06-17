@@ -1,0 +1,44 @@
+[
+  {
+    "source_basis": "The paper describes inbound logistics with supplier delivery notes and batch codes, production linking input/output batch codes, outbound logistics, transporter roles, and transportation/transformation blocks.",
+    "source_key": "biotrak",
+    "source_name": "BioTrak food-chain logistics paper",
+    "source_url": "https://arxiv.org/abs/2304.09601"
+  },
+  {
+    "source_basis": "EPCIS defines visibility event data, shipping business-step examples, and TransformationEvent input/output semantics.",
+    "source_key": "gs1_epcis",
+    "source_name": "GS1 EPCIS Standard",
+    "source_url": "https://ref.gs1.org/standards/epcis/"
+  },
+  {
+    "source_basis": "The article describes crowdsourced product metadata including product name, quantity, packaging, brand, category, processing locations, countries, retailers, and GTIN barcode identifiers.",
+    "source_key": "open_food_facts",
+    "source_name": "Open Food Facts article",
+    "source_url": "https://en.wikipedia.org/wiki/Open_Food_Facts"
+  },
+  {
+    "source_basis": "The article describes tracking produce from origin to retail and records across field/orchard, packing, processing, transit, and storage.",
+    "source_key": "produce_traceability",
+    "source_name": "Produce traceability article",
+    "source_url": "https://en.wikipedia.org/wiki/Produce_traceability"
+  },
+  {
+    "source_basis": "The paper describes product manufactured, loaded/unloaded into/from trucks, transformed, pallet shipping, batch-level product lots, and IoT transport monitoring.",
+    "source_key": "smartproduct",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "source_url": "https://arxiv.org/abs/2210.09140"
+  },
+  {
+    "source_basis": "The paper models manufacturing recipes where ingredient batch tokens are consumed and a new token is produced, preserving transformation provenance.",
+    "source_key": "token_recipes",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "source_url": "https://arxiv.org/abs/1810.09843"
+  },
+  {
+    "source_basis": "The article describes food-processing traceability as recording movement and production-process steps, using unique identifiers through suppliers and future sales.",
+    "source_key": "traceability",
+    "source_name": "Traceability article",
+    "source_url": "https://en.wikipedia.org/wiki/Traceability"
+  }
+]

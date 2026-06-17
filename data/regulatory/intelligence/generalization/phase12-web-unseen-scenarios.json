@@ -1,0 +1,177 @@
+[
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "observed_text": "EPCIS object event: bizStep shipping for trade items moving through a dock.",
+    "scenario_id": "web-gs1-001",
+    "source_basis": "GS1 EPCIS shows shipping as a business step value.",
+    "source_name": "GS1 EPCIS",
+    "source_url": "https://ref.gs1.org/standards/epcis/"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "observed_text": "EPCIS object event: bizStep receiving for trade items entering a distribution center.",
+    "scenario_id": "web-gs1-002",
+    "source_basis": "GS1 EPCIS lists receiving as a business step value.",
+    "source_name": "GS1 EPCIS",
+    "source_url": "https://ref.gs1.org/standards/epcis/"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "observed_text": "Product is shipped through shipping dock S2 from distribution center DC88.",
+    "scenario_id": "web-gs1-003",
+    "source_basis": "GS1 EPCIS describes product shipped via a shipping dock.",
+    "source_name": "GS1 EPCIS",
+    "source_url": "https://ref.gs1.org/standards/epcis/"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "observed_text": "TransformationEvent consumes input lots and produces output lots.",
+    "scenario_id": "web-gs1-004",
+    "source_basis": "GS1 EPCIS defines TransformationEvent as inputs consumed and outputs produced.",
+    "source_name": "GS1 EPCIS",
+    "source_url": "https://ref.gs1.org/standards/epcis/"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "observed_text": "Product manufactured in Location A and registered as a traceability event.",
+    "scenario_id": "web-smartproduct-001",
+    "source_basis": "SmartProduct describes product manufactured, loaded, unloaded, and transformed records.",
+    "source_name": "SmartProduct",
+    "source_url": "https://arxiv.org/abs/2210.09140"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "observed_text": "ProductA is loaded to TruckA and transported to the next location.",
+    "scenario_id": "web-smartproduct-002",
+    "source_basis": "SmartProduct describes product loaded to a truck and transported.",
+    "source_name": "SmartProduct",
+    "source_url": "https://arxiv.org/abs/2210.09140"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "observed_text": "EPCIS event records pallet shipping with ambient temperature and GPS context.",
+    "scenario_id": "web-smartproduct-003",
+    "source_basis": "SmartProduct describes pallet shipping EPCIS events.",
+    "source_name": "SmartProduct",
+    "source_url": "https://arxiv.org/abs/2210.09140"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "observed_text": "Bulk oil is transformed into bottled oil with input and output product identifiers.",
+    "scenario_id": "web-smartproduct-004",
+    "source_basis": "SmartProduct describes bulk oil transformed into bottled oil.",
+    "source_name": "SmartProduct",
+    "source_url": "https://arxiv.org/abs/2210.09140"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "observed_text": "Inbound logistics: raw materials acquired from supplier, stored in warehouse, delivery note has batch codes.",
+    "scenario_id": "web-biotrak-001",
+    "source_basis": "BioTrak models inbound logistics with supplier delivery note and batch codes.",
+    "source_name": "BioTrak",
+    "source_url": "https://arxiv.org/abs/2304.09601"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "observed_text": "Production transforms raw material batch codes into output product batch code.",
+    "scenario_id": "web-biotrak-002",
+    "source_basis": "BioTrak models production linking input batch codes to output product batch code.",
+    "source_name": "BioTrak",
+    "source_url": "https://arxiv.org/abs/2304.09601"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "observed_text": "Outbound logistics moves finished product to external consumer with delivery note and outgoing batch codes.",
+    "scenario_id": "web-biotrak-003",
+    "source_basis": "BioTrak models outbound logistics and delivery note with outgoing product batch codes.",
+    "source_name": "BioTrak",
+    "source_url": "https://arxiv.org/abs/2304.09601"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "observed_text": "Transporter registers a transportation event for a food product but not shipper or receiver evidence.",
+    "scenario_id": "web-biotrak-004",
+    "source_basis": "BioTrak transporter role registers transportation event only.",
+    "source_name": "BioTrak",
+    "source_url": "https://arxiv.org/abs/2304.09601"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "observed_text": "Recipe applied: ingredient batch tokens are consumed and new finished-product token is produced.",
+    "scenario_id": "web-token-recipes-001",
+    "source_basis": "Token Recipes says ingredients are consumed and a new token is produced.",
+    "source_name": "Token Recipes",
+    "source_url": "https://arxiv.org/abs/1810.09843"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "observed_text": "Crowdsourced product page with barcode, ingredients, packaging, country, and retailer metadata.",
+    "scenario_id": "web-openfoodfacts-001",
+    "source_basis": "Open Food Facts stores product metadata, ingredients, packaging, countries, and retailers.",
+    "source_name": "Open Food Facts",
+    "source_url": "https://en.wikipedia.org/wiki/Open_Food_Facts"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "observed_text": "Produce item tracked from point of origin through distribution to retail location.",
+    "scenario_id": "web-produce-traceability-001",
+    "source_basis": "Produce traceability describes tracking produce from origin to retail.",
+    "source_name": "Produce traceability",
+    "source_url": "https://en.wikipedia.org/wiki/Produce_traceability"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "observed_text": "Food processing record links supplier, production process, movement, and future sales.",
+    "scenario_id": "web-traceability-001",
+    "source_basis": "Traceability article describes recording movement and production-process steps in food processing.",
+    "source_name": "Traceability",
+    "source_url": "https://en.wikipedia.org/wiki/Traceability"
+  }
+]

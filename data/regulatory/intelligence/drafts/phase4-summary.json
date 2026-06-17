@@ -1,0 +1,13 @@
+{
+  "outputDir": "../data/regulatory/intelligence/drafts",
+  "combinedFile": "../data/regulatory/intelligence/drafts/phase4-drafts.json",
+  "counts": {
+    "ftl_food_items": 20,
+    "sortable_export_fields": 370,
+    "cte_definitions": 7,
+    "kde_requirements": 79,
+    "defined_terms": 26,
+    "traceability_plan_requirements": 6,
+    "scenario_benchmarks": 6
+  }
+}

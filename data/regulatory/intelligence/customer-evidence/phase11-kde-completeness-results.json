@@ -1,0 +1,738 @@
+[
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0001",
+    "cte": "receiving",
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [],
+    "expected_reason": "Traceability lot code for the food",
+    "field_key": "traceability_lot_code",
+    "observed_values": [],
+    "status": "missing"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0002",
+    "cte": "receiving",
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c4"
+    ],
+    "expected_reason": "Product description for the food",
+    "field_key": "product_name",
+    "observed_values": [
+      "Fresh Basil"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0003",
+    "cte": "receiving",
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c4"
+    ],
+    "expected_reason": "Date you received the food",
+    "field_key": "event_datetime",
+    "observed_values": [
+      "2026-06-10"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0004",
+    "cte": "receiving",
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c5"
+    ],
+    "expected_reason": "Reference document type",
+    "field_key": "reference_record_type",
+    "observed_values": [
+      "invoice"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0005",
+    "cte": "receiving",
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c6"
+    ],
+    "expected_reason": "Reference document number",
+    "field_key": "reference_record_no",
+    "observed_values": [
+      "INV-1"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+    "check_id": "phase11-kde-0006",
+    "cte": "receiving",
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [],
+    "expected_reason": "Traceability lot code for the food",
+    "field_key": "traceability_lot_code",
+    "observed_values": [],
+    "status": "missing"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+    "check_id": "phase11-kde-0007",
+    "cte": "receiving",
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c4"
+    ],
+    "expected_reason": "Product description for the food",
+    "field_key": "product_name",
+    "observed_values": [
+      "Fresh Basil"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+    "check_id": "phase11-kde-0008",
+    "cte": "receiving",
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c4"
+    ],
+    "expected_reason": "Date you received the food",
+    "field_key": "event_datetime",
+    "observed_values": [
+      "2026-06-10"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+    "check_id": "phase11-kde-0009",
+    "cte": "receiving",
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c5"
+    ],
+    "expected_reason": "Reference document type",
+    "field_key": "reference_record_type",
+    "observed_values": [
+      "invoice"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+    "check_id": "phase11-kde-0010",
+    "cte": "receiving",
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c6"
+    ],
+    "expected_reason": "Reference document number",
+    "field_key": "reference_record_no",
+    "observed_values": [
+      "INV-1"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0011",
+    "cte": "shipping",
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "expected_reason": "Traceability lot code for the food",
+    "field_key": "traceability_lot_code",
+    "observed_values": [
+      "TLC-PESTO-1"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0012",
+    "cte": "shipping",
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "expected_reason": "Product description for the food",
+    "field_key": "product_name",
+    "observed_values": [
+      "Basil Pesto"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0013",
+    "cte": "shipping",
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "expected_reason": "Date you shipped the food",
+    "field_key": "event_datetime",
+    "observed_values": [
+      "2026-06-12"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0014",
+    "cte": "shipping",
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5"
+    ],
+    "expected_reason": "Reference document type",
+    "field_key": "reference_record_type",
+    "observed_values": [
+      "bol"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0015",
+    "cte": "shipping",
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6"
+    ],
+    "expected_reason": "Reference document number",
+    "field_key": "reference_record_no",
+    "observed_values": [
+      "BOL-1"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+    "check_id": "phase11-kde-0016",
+    "cte": "shipping",
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "expected_reason": "Traceability lot code for the food",
+    "field_key": "traceability_lot_code",
+    "observed_values": [
+      "TLC-PESTO-1"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+    "check_id": "phase11-kde-0017",
+    "cte": "shipping",
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "expected_reason": "Product description for the food",
+    "field_key": "product_name",
+    "observed_values": [
+      "Basil Pesto"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+    "check_id": "phase11-kde-0018",
+    "cte": "shipping",
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "expected_reason": "Date you shipped the food",
+    "field_key": "event_datetime",
+    "observed_values": [
+      "2026-06-12"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+    "check_id": "phase11-kde-0019",
+    "cte": "shipping",
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5"
+    ],
+    "expected_reason": "Reference document type",
+    "field_key": "reference_record_type",
+    "observed_values": [
+      "bol"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+    "check_id": "phase11-kde-0020",
+    "cte": "shipping",
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6"
+    ],
+    "expected_reason": "Reference document number",
+    "field_key": "reference_record_no",
+    "observed_values": [
+      "BOL-1"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0021",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "expected_reason": "New traceability lot code for transformed food",
+    "field_key": "output_lot_or_tlc",
+    "observed_values": [
+      "TLC-PESTO-1"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0022",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [],
+    "expected_reason": "Traceability lot code for incoming food",
+    "field_key": "source_lot_or_tlc",
+    "observed_values": [],
+    "status": "missing"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0023",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "expected_reason": "Product description for transformed food",
+    "field_key": "product_name",
+    "observed_values": [
+      "Basil Pesto"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0024",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "expected_reason": "Transformation completion date",
+    "field_key": "event_datetime",
+    "observed_values": [
+      "2026-06-11"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0025",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5"
+    ],
+    "expected_reason": "Reference document type",
+    "field_key": "reference_record_type",
+    "observed_values": [
+      "batch_log"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-kde-0026",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6"
+    ],
+    "expected_reason": "Reference document number",
+    "field_key": "reference_record_no",
+    "observed_values": [
+      "BATCH-1"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+    "check_id": "phase11-kde-0027",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "expected_reason": "New traceability lot code for transformed food",
+    "field_key": "output_lot_or_tlc",
+    "observed_values": [
+      "TLC-PESTO-1"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+    "check_id": "phase11-kde-0028",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [],
+    "expected_reason": "Traceability lot code for incoming food",
+    "field_key": "source_lot_or_tlc",
+    "observed_values": [],
+    "status": "missing"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+    "check_id": "phase11-kde-0029",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "expected_reason": "Product description for transformed food",
+    "field_key": "product_name",
+    "observed_values": [
+      "Basil Pesto"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+    "check_id": "phase11-kde-0030",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "expected_reason": "Transformation completion date",
+    "field_key": "event_datetime",
+    "observed_values": [
+      "2026-06-11"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+    "check_id": "phase11-kde-0031",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5"
+    ],
+    "expected_reason": "Reference document type",
+    "field_key": "reference_record_type",
+    "observed_values": [
+      "batch_log"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+    "check_id": "phase11-kde-0032",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6"
+    ],
+    "expected_reason": "Reference document number",
+    "field_key": "reference_record_no",
+    "observed_values": [
+      "BATCH-1"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+    "check_id": "phase11-kde-0033",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "expected_reason": "New traceability lot code for transformed food",
+    "field_key": "output_lot_or_tlc",
+    "observed_values": [
+      "TLC-PESTO-1"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+    "check_id": "phase11-kde-0034",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [],
+    "expected_reason": "Traceability lot code for incoming food",
+    "field_key": "source_lot_or_tlc",
+    "observed_values": [],
+    "status": "missing"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+    "check_id": "phase11-kde-0035",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "expected_reason": "Product description for transformed food",
+    "field_key": "product_name",
+    "observed_values": [
+      "Basil Pesto"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+    "check_id": "phase11-kde-0036",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "expected_reason": "Transformation completion date",
+    "field_key": "event_datetime",
+    "observed_values": [
+      "2026-06-11"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+    "check_id": "phase11-kde-0037",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5"
+    ],
+    "expected_reason": "Reference document type",
+    "field_key": "reference_record_type",
+    "observed_values": [
+      "batch_log"
+    ],
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+    "check_id": "phase11-kde-0038",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6"
+    ],
+    "expected_reason": "Reference document number",
+    "field_key": "reference_record_no",
+    "observed_values": [
+      "BATCH-1"
+    ],
+    "status": "present"
+  }
+]

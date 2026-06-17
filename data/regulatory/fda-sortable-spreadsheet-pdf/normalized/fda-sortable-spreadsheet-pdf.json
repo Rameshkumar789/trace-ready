@@ -1,0 +1,1365 @@
+{
+  "sourceId": "fda-sortable-spreadsheet-pdf",
+  "url": "https://www.fda.gov/media/179616/download?attachment",
+  "rawArtifact": "../data/regulatory/fda-sortable-spreadsheet-pdf/raw/fda-sortable-spreadsheet-pdf.pdf",
+  "rawTextHash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 50,
+  "chunks": [
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-1-1",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 1",
+      "section": "page-1",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Introduction\nIntroduction\nThis electronic sortable spreadsheet template can be used to fulfill data submission requests for FDA in accordance with the Food Traceability Rule as outlined in 21 CFR Part 1 Subpart S. This template is\npresented for illustrative purposes. You are not required to use this specific electronic sortable spreadsheet template to comply with the rule.\nEach tab represents a critical tracking event (CTE) and contains all of the corresponding key data elements (KDEs) for that CTE. Within each tab, each column header represents a required KDE and has a\nhyperlink to the corresponding provision for your reference. You can also refer to 21 CFR 1.1310 for any definitions related to the rule. For convenience, the definitions are listed on an accompanying tab with\nhyperlinks to the corresponding provisions. The template includes a tab for each CTE listed in the Food Traceability Rule, but you do not have to complete every tab when fulfilling a data request for FDA. The\nrelevant tab(s) should be completed based on the CTE(s) you perform related to the data request provided by FDA.\nSome of the KDEs within the rule contain multiple pieces of data. Within this template, all of these KDEs have been separated into multiple columns. For example, the location description KDE spans multiple\ncolumns to individually capture all of the information required under that KDE. Refer to 21 CFR 1.1310 for the definitions for location description and product description, which detail the multiple pieces of data\nfor each.\n1 of 50\n\nIntroduction\nThis electronic sortable spreadsheet template can be used to fulfill data submission requests for FDA in accordance with the Food Traceability Rule as outlined in 21 CFR Part 1 Subpart S. This template is\npresented for illustrative purposes. You are not required to use this specific electronic sortable spreadsheet template to comply with the rule.\nEach tab represents a critical tracking event (CTE) and contains all of the corresponding key data elements (KDEs) for that CTE. Within each tab, each column header represents a required KDE and has a\nhyperlink to the corresponding provision for your reference. You can also refer to 21 CFR 1.1310 for any definitions related to the rule. For convenience, the definitions are listed on an accompanying tab with\nhyperlinks to the corresponding provisions. The template includes a tab for each CTE listed in the Food Traceability Rule, but you do not have to complete every tab when fulfilling a data request for FDA. The\nrelevant tab(s) should be completed based on the CTE(s) you perform related to the data request provided by FDA.\nSome of the KDEs within the rule contain multiple pieces of data. Within this template, all of these KDEs have been separated into multiple columns. For example, the location description KDE spans multiple\ncolumns to individually capture all of the information required under that KDE. Refer to 21 CFR 1.1310 for the definitions for location description and product description, which detail the multiple pieces of data\nfor each.",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Introduction Introduction This electronic sortable spreadsheet template can be used to f...",
+      "citation": "page-1",
+      "text_hash": "sha256:1742b24b931b02799a04a376deb133ba9afb2dc1540e30fa2fe094aed0dff8f9",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-1",
+          "section": "page-1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-2-2",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 2",
+      "section": "page-2",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Definitions\nFood Traceability Rule Term Definition\nCommingled raw agricultural commodity means any commodity that is combined or mixed after harvesting but before processing, except that the term \u201ccommingled raw agricultural commodity\u201d does not include types of fruits and vegetables that are raw agricultural commodities to which the standards for the growing, harvesting,\npacking, and holding of produce for human consumption in part 112 of this chapter apply. For the purpose of this definition, a commodity is \u201ccombined or mixed\u201d only when the combination or mixing involves food from different farms under different company management; except that for food\nobtained from a fishing vessel, a commodity is \u201ccombined or mixed\u201d only when the combination or mixing involves food from different landing vessels and occurs after the vessels have landed. Also, for the purpose of this definition, the term \u201cprocessing\u201d means operations that alter the general\nstate of the commodity, such as canning, cooking, freezing, dehydration, milling, grinding, pasteurization, or homogenization.\nCooling means active temperature reduction of a raw agricultural commodity using hydrocooling, icing (except icing of seafood), forced air cooling, vacuum cooling, or a similar process.\nCritical tracking event means an event in the supply chain of a food involving the harvesting, cooling (before initial packing), initial packing of a raw agricultural commodity other than a food obtained from a fishing vessel, first land\u2010based receiving of a food obtained from a fishing vessel, shipping, receiving, or\ntransformation of the food.\nFarm means farm as defined in \u00a7 1.328. For producers of shell eggs, \u201cfarm\u201d means all poultry houses and grounds immediately surrounding the poultry houses covered under a single biosecurity program, as set forth in \u00a7 118.3 of this chapter.\nFirst land\u2010based receiver means the person taking possession of a food for the first time on land directly from a fishing vessel.\nFishing vessel means any vessel, boat, ship, or other craft which is used for, equipped to be used for, or of a type which is normally used for fishing or aiding or assisting one or more vessels at sea in the performance of any activity relating to fishing, including, but not limited to, preparation, supply, storage,\nrefrigeration, transportation, or processing, as set forth in the Magnuson\u2010Stevens Fishery Conservation and Management Act (16 U.S.C. 1802(18)).\nFood Traceability List means the list of foods for which additional traceability records are required to be maintained, as designated in accordance with section 204(d)(2) of the FDA Food Safety Modernization Act. The term \u201cFood Traceability List\u201d includes both the foods specifically listed and foods that contain listed\nfoods as ingredients, provided that the listed food that is used as an ingredient remains in the same form (e.g., fresh) in which it appears on the list.\nHarvesting applies to farms and farm mixed\u2010type facilities and means activities that are traditionally performed on farms for the purpose of removing raw agricultural commodities from the place they were grown or raised and preparing them for use as food. Harvesting is limited to activities performed on\nraw agricultural commodities, or on processed foods created by drying/dehydrating a raw agricultural commodity without additional manufacturing/processing, on a farm. Harvesting does not include activities that transform a raw agricultural commodity into a processed food as defined in\nsection 201(gg) of the Federal Food, Drug, and Cosmetic Act. Examples of harvesting include cutting (or otherwise separating) the edible portion of the raw agricultural commodity from the crop plant and removing or trimming part of the raw agricultural commodity (e.g., foliage, husks, roots, or\nstems). Examples of harvesting also include cooling, field coring, filtering, gathering, hulling, shelling, sifting, threshing, trimming of outer leaves of, and washing raw agricultural commodities grown on a farm.\nHolding means storage of food and also includes activities performed incidental to storage of a food (e.g., activities performed for the safe or effective storage of that food, such as fumigating food during storage, and drying/dehydrating raw agricultural commodities when the drying/dehydrating does\nnot create a distinct commodity (such as drying/dehydrating hay or alfalfa)). Holding also includes activities performed as a practical necessity for the distribution of that food (such as blending of the same raw agricultural commodity and breaking down pallets), but does not include activities\nthat transform a raw agricultural commodity into a processed food as defined in section 201(gg) of the Federal Food, Drug, and Cosmetic Act. Holding facilities could include warehouses, cold storage facilities, storage silos, grain elevators, and liquid storage tanks.\nInitial packing means packing a raw agricultural commodity (other than a food obtained from a fishing vessel) for the first time.\nKey data element means information associated with a critical tracking event for which a record must be maintained and/or provided in accordance with this subpart.\nKill step means lethality processing that significantly minimizes pathogens in a food.\nLocation description means key contact information for the location where a food is handled, specifically the business name, phone number, physical location address (or geographic coordinates), and city, State, and zip code for domestic locations and comparable information for foreign locations, including country.\nManufacturing/processing means making food from one or more ingredients, or synthesizing, preparing, treating, modifying, or manipulating food, including food crops or ingredients. Examples of manufacturing/processing activities include: Baking, boiling, bottling, canning, cooking, cooling, cutting, distilling,\ndrying/dehydrating raw agricultural commodities to create a distinct commodity (such as drying/dehydrating grapes to produce raisins), evaporating, eviscerating, extracting juice, formulating, freezing, grinding, homogenizing, irradiating, labeling, milling, mixing, packaging (including modified\natmosphere packaging), pasteurizing, peeling, rendering, treating to manipulate ripening, trimming, washing, or waxing. For farms and farm mixed\u2010type facilities, manufacturing/processing does not include activities that are part of harvesting, packing, or holding.\nMixed\u2010type facility means an establishment that engages in both activities that are exempt from registration under section 415 of the Federal Food, Drug, and Cosmetic Act and activities that require the establishment to be registered. An example of such a facility is a \u201cfarm mixed\u2010type facility,\u201d which is an\nestablishment that is a farm, but also conducts activities outside the farm definition that require the establishment to be registered.\nNonprofit food establishment means a charitable entity that prepares or serves food directly to the consumer or otherwise provides food or meals for consumption by humans or animals in the United States. The term includes central food banks, soup kitchens, and nonprofit food delivery services. To be considered a\nnonprofit food establishment, the establishment must meet the terms of section 501(c)(3) of the U.S. Internal Revenue Code (26 U.S.C. 501(c)(3)).\nPacking means placing food into a container other than packaging the food and also includes re\u2010packing and activities performed incidental to packing or re\u2010packing a food (e.g., activities performed for the safe or effective packing or re\u2010packing of that food (such as sorting, culling, grading, and weighing\nor conveying incidental to packing or re\u2010packing)), but does not include activities that transform a raw agricultural commodity into a processed food as defined in section 201(gg) of the Federal Food, Drug, and Cosmetic Act.\n2 of 50\n\nFood Traceability Rule Term | Definition\nCommingled raw agricultural commodity | means any commodity that is combined or mixed after harvesting but before processing, except that the term \u201ccommingled raw agricultural commodity\u201d does not include types of fruits and vegetables that are raw agricultural commodities to which the standards for the growing, harvesting,\npacking, and holding of produce for human consumption in part 112 of this chapter apply. For the purpose of this definition, a commodity is \u201ccombined or mixed\u201d only when the combination or mixing involves food from different farms under different company management; except that for food\nobtained from a fishing vessel, a commodity is \u201ccombined or mixed\u201d only when the combination or mixing involves food from different landing vessels and occurs after the vessels have landed. Also, for the purpose of this definition, the term \u201cprocessing\u201d means operations that alter the general\nstate of the commodity, such as canning, cooking, freezing, dehydration, milling, grinding, pasteurization, or homogenization.\nCooling | means active temperature reduction of a raw agricultural commodity using hydrocooling, icing (except icing of seafood), forced air cooling, vacuum cooling, or a similar process.\nCritical tracking event | means an event in the supply chain of a food involving the harvesting, cooling (before initial packing), initial packing of a raw agricultural commodity other than a food obtained from a fishing vessel, first land\u2010based receiving of a food obtained from a fishing vessel, shipping, receiving, or\ntransformation of the food.\nFarm | means farm as defined in \u00a7 1.328. For producers of shell eggs, \u201cfarm\u201d means all poultry houses and grounds immediately surrounding the poultry houses covered under a single biosecurity program, as set forth in \u00a7 118.3 of this chapter.\nFirst land\u2010based receiver | means the person taking possession of a food for the first time on land directly from a fishing vessel.\nFishing vessel | means any vessel, boat, ship, or other craft which is used for, equipped to be used for, or of a type which is normally used for fishing or aiding or assisting one or more vessels at sea in the performance of any activity relating to fishing, including, but not limited to, preparation, supply, storage,\nrefrigeration, transportation, or processing, as set forth in the Magnuson\u2010Stevens Fishery Conservation and Management Act (16 U.S.C. 1802(18)).\nFood Traceability List | means the list of foods for which additional traceability records are required to be maintained, as designated in accordance with section 204(d)(2) of the FDA Food Safety Modernization Act. The term \u201cFood Traceability List\u201d includes both the foods specifically listed and foods that contain listed\nfoods as ingredients, provided that the listed food that is used as an ingredient remains in the same form (e.g., fresh) in which it appears on the list.\nHarvesting | applies to farms and farm mixed\u2010type facilities and means activities that are traditionally performed on farms for the purpose of removing raw agricultural commodities from the place they were grown or raised and preparing them for use as food. Harvesting is limited to activities performed on\nraw agricultural commodities, or on processed foods created by drying/dehydrating a raw agricultural commodity without additional manufacturing/processing, on a farm. Harvesting does not include activities that transform a raw agricultural commodity into a processed food as defined in\nsection 201(gg) of the Federal Food, Drug, and Cosmetic Act. Examples of harvesting include cutting (or otherwise separating) the edible portion of the raw agricultural commodity from the crop plant and removing or trimming part of the raw agricultural commodity (e.g., foliage, husks, roots, or\nstems). Examples of harvesting also include cooling, field coring, filtering, gathering, hulling, shelling, sifting, threshing, trimming of outer leaves of, and washing raw agricultural commodities grown on a farm.\nHolding | means storage of food and also includes activities performed incidental to storage of a food (e.g., activities performed for the safe or effective storage of that food, such as fumigating food during storage, and drying/dehydrating raw agricultural commodities when the drying/dehydrating does\nnot create a distinct commodity (such as drying/dehydrating hay or alfalfa)). Holding also includes activities performed as a practical necessity for the distribution of that food (such as blending of the same raw agricultural commodity and breaking down pallets), but does not include activities\nthat transform a raw agricultural commodity into a processed food as defined in section 201(gg) of the Federal Food, Drug, and Cosmetic Act. Holding facilities could include warehouses, cold storage facilities, storage silos, grain elevators, and liquid storage tanks.\nInitial packing | means packing a raw agricultural commodity (other than a food obtained from a fishing vessel) for the first time.\nKey data element | means information associated with a critical tracking event for which a record must be maintained and/or provided in accordance with this subpart.\nKill step | means lethality processing that significantly minimizes pathogens in a food.\nLocation description | means key contact information for the location where a food is handled, specifically the business name, phone number, physical location address (or geographic coordinates), and city, State, and zip code for domestic locations and comparable information for foreign locations, including country.\nManufacturing/processing | means making food from one or more ingredients, or synthesizing, preparing, treating, modifying, or manipulating food, including food crops or ingredients. Examples of manufacturing/processing activities include: Baking, boiling, bottling, canning, cooking, cooling, cutting, distilling,\ndrying/dehydrating raw agricultural commodities to create a distinct commodity (such as drying/dehydrating grapes to produce raisins), evaporating, eviscerating, extracting juice, formulating, freezing, grinding, homogenizing, irradiating, labeling, milling, mixing, packaging (including modified\natmosphere packaging), pasteurizing, peeling, rendering, treating to manipulate ripening, trimming, washing, or waxing. For farms and farm mixed\u2010type facilities, manufacturing/processing does not include activities that are part of harvesting, packing, or holding.\nMixed\u2010type facility | means an establishment that engages in both activities that are exempt from registration under section 415 of the Federal Food, Drug, and Cosmetic Act and activities that require the establishment to be registered. An example of such a facility is a \u201cfarm mixed\u2010type facility,\u201d which is an\nestablishment that is a farm, but also conducts activities outside the farm definition that require the establishment to be registered.\nNonprofit food establishment | means a charitable entity that prepares or serves food directly to the consumer or otherwise provides food or meals for consumption by humans or animals in the United States. The term includes central food banks, soup kitchens, and nonprofit food delivery services. To be considered a\nnonprofit food establishment, the establishment must meet the terms of section 501(c)(3) of the U.S. Internal Revenue Code (26 U.S.C. 501(c)(3)).\nPacking | means placing food into a container other than packaging the food and also includes re\u2010packing and activities performed incidental to packing or re\u2010packing a food (e.g., activities performed for the safe or effective packing or re\u2010packing of that food (such as sorting, culling, grading, and weighing\nor conveying incidental to packing or re\u2010packing)), but does not include activities that transform a raw agricultural commodity into a processed food as defined in section 201(gg) of the Federal Food, Drug, and Cosmetic Act.",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Definitions Food Traceability Rule Term Definition Commingled raw agricultural commodity...",
+      "citation": "page-2",
+      "text_hash": "sha256:2f603876f191a6b61a8d04b7ec20c21d28483b7e949c31e69f7f760d720f2dec",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-2",
+          "section": "page-2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-3-3",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 3",
+      "section": "page-3",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Definitions\nFood Traceability Rule Term Definition\nPerson includes an individual, partnership, corporation, and association.\nPoint of contact means an individual having familiarity with an entity's procedures for traceability, including their name and/or job title, and their phone number.\nProduce means produce as defined in \u00a7 112.3 of this chapter.\nProduct description means a description of a food product and includes the product name (including, if applicable, the brand name, commodity, and variety), packaging size, and packaging style. For seafood, the product name may include the species and/or acceptable market name.\nRaw agricultural commodity means \u201craw agricultural commodity\u201d as defined in section 201(r) of the Federal Food, Drug, and Cosmetic Act.\nReceiving means an event in a food's supply chain in which a food is received by someone other than a consumer after being transported (e.g., by truck or ship) from another location. Receiving includes receipt of an intracompany shipment of food from one location at a particular street address of a firm\nto another location at a different street address of the firm.\nReference document means a business transaction document, record, or message, in electronic or paper form, that may contain some or all of the key data elements for a critical tracking event in the supply chain of a food. A reference document may be established by you or obtained from another person. Reference\ndocument types may include, but are not limited to, bills of lading, purchase orders, advance shipping notices, work orders, invoices, database records, batch logs, production logs, field tags, catch certificates, and receipts.\nReference document number means the identification number assigned to a specific reference document.\nRestaurant means a facility that prepares and sells food directly to consumers for immediate consumption. \u201cRestaurant\u201d does not include facilities that provide food to interstate conveyances, central kitchens, and other similar facilities that do not prepare and serve food directly to consumers.\n(1) Entities in which food is provided to humans, such as cafeterias, lunchrooms, cafes, bistros, fast food establishments, food stands, saloons, taverns, bars, lounges, catering facilities, hospital kitchens, day care kitchens, and nursing home kitchens are restaurants; and\n(2) Pet shelters, kennels, and veterinary facilities in which food is provided to animals are restaurants.\nRetail food establishment means an establishment that sells food products directly to consumers as its primary function. The term \u201cretail food establishment\u201d includes facilities that manufacture, process, pack, or hold food if the establishment's primary function is to sell from that establishment food, including food that\nit manufactures, processes, packs, or holds, directly to consumers. A retail food establishment's primary function is to sell food directly to consumers if the annual monetary value of sales of food products directly to consumers exceeds the annual monetary value of sales of food products to all\nother buyers. The term \u201cconsumers\u201d does not include businesses. A \u201cretail food establishment\u201d includes grocery stores, convenience stores, and vending machine locations. A \u201cretail food establishment\u201d also includes certain farm\u2010operated businesses selling food directly to consumers as their\nprimary function.\n(1) Sale of food directly to consumers from an establishment located on a farm includes sales by that establishment directly to consumers:\n(i) At a roadside stand (a stand situated on the side of or near a road or thoroughfare at which a farmer sells food from his or her farm directly to consumers) or farmers' market (a location where one or more local farmers assemble to sell food from their farms directly to consumers);\n(ii) Through a community supported agriculture program. Community supported agriculture (CSA) program means a program under which a farmer or group of farmers grows food for a group of shareholders (or subscribers) who pledge to buy a portion of the farmer's crop(s) for that season. This\nincludes CSA programs in which a group of farmers consolidate their crops at a central location for distribution to shareholders or subscribers; and\n(iii) At other such direct\u2010to\u2010consumer sales platforms, including door\u2010to\u2010door sales; mail, catalog and internet order, including online farmers' markets and online grocery delivery; religious or other organization bazaars; and State and local fairs.\n(2) Sale of food directly to consumers by a farm\u2010operated business includes the sale of food by that farm\u2010operated business directly to consumers:\n(i) At a roadside stand (a stand situated on the side of or near a road or thoroughfare at which a farmer sells food from his or her farm directly to consumers) or farmers' market (a location where one or more local farmers assemble to sell food from their farms directly to consumers);\n(ii) Through a community supported agriculture program. Community supported agriculture (CSA) program means a program under which a farmer or group of farmers grows food for a group of shareholders (or subscribers) who pledge to buy a portion of the farmer's crop(s) for that season. This\nincludes CSA programs in which a group of farmers consolidate their crops at a central location for distribution to shareholders or subscribers; and\n(iii) At other such direct\u2010to\u2010consumer sales platforms, including door\u2010to\u2010door sales; mail, catalog and internet order, including online farmers' markets and online grocery delivery; religious or other organization bazaars; and State and local fairs.\n(3) For the purposes of this definition, \u201cfarm\u2010operated business\u201d means a business that is managed by one or more farms and conducts manufacturing/processing not on the farm(s).\n3 of 50\n\nFood Traceability Rule Term | Definition\nPerson | includes an individual, partnership, corporation, and association.\nPoint of contact | means an individual having familiarity with an entity's procedures for traceability, including their name and/or job title, and their phone number.\nProduce | means produce as defined in \u00a7 112.3 of this chapter.\nProduct description | means a description of a food product and includes the product name (including, if applicable, the brand name, commodity, and variety), packaging size, and packaging style. For seafood, the product name may include the species and/or acceptable market name.\nRaw agricultural commodity | means \u201craw agricultural commodity\u201d as defined in section 201(r) of the Federal Food, Drug, and Cosmetic Act.\nReceiving | means an event in a food's supply chain in which a food is received by someone other than a consumer after being transported (e.g., by truck or ship) from another location. Receiving includes receipt of an intracompany shipment of food from one location at a particular street address of a firm\nto another location at a different street address of the firm.\nReference document | means a business transaction document, record, or message, in electronic or paper form, that may contain some or all of the key data elements for a critical tracking event in the supply chain of a food. A reference document may be established by you or obtained from another person. Reference\ndocument types may include, but are not limited to, bills of lading, purchase orders, advance shipping notices, work orders, invoices, database records, batch logs, production logs, field tags, catch certificates, and receipts.\nReference document number | means the identification number assigned to a specific reference document.\nRestaurant | means a facility that prepares and sells food directly to consumers for immediate consumption. \u201cRestaurant\u201d does not include facilities that provide food to interstate conveyances, central kitchens, and other similar facilities that do not prepare and serve food directly to consumers.\n(1) Entities in which food is provided to humans, such as cafeterias, lunchrooms, cafes, bistros, fast food establishments, food stands, saloons, taverns, bars, lounges, catering facilities, hospital kitchens, day care kitchens, and nursing home kitchens are restaurants; and\n(2) Pet shelters, kennels, and veterinary facilities in which food is provided to animals are restaurants.\nRetail food establishment | means an establishment that sells food products directly to consumers as its primary function. The term \u201cretail food establishment\u201d includes facilities that manufacture, process, pack, or hold food if the establishment's primary function is to sell from that establishment food, including food that\nit manufactures, processes, packs, or holds, directly to consumers. A retail food establishment's primary function is to sell food directly to consumers if the annual monetary value of sales of food products directly to consumers exceeds the annual monetary value of sales of food products to all\nother buyers. The term \u201cconsumers\u201d does not include businesses. A \u201cretail food establishment\u201d includes grocery stores, convenience stores, and vending machine locations. A \u201cretail food establishment\u201d also includes certain farm\u2010operated businesses selling food directly to consumers as their\nprimary function.\n(1) Sale of food directly to consumers from an establishment located on a farm includes sales by that establishment directly to consumers:\n(i) At a roadside stand (a stand situated on the side of or near a road or thoroughfare at which a farmer sells food from his or her farm directly to consumers) or farmers' market (a location where one or more local farmers assemble to sell food from their farms directly to consumers);\n(ii) Through a community supported agriculture program. Community supported agriculture (CSA) program means a program under which a farmer or group of farmers grows food for a group of shareholders (or subscribers) who pledge to buy a portion of the farmer's crop(s) for that season. This\nincludes CSA programs in which a group of farmers consolidate their crops at a central location for distribution to shareholders or subscribers; and\n(iii) At other such direct\u2010to\u2010consumer sales platforms, including door\u2010to\u2010door sales; mail, catalog and internet order, including online farmers' markets and online grocery delivery; religious or other organization bazaars; and State and local fairs.\n(2) Sale of food directly to consumers by a farm\u2010operated business includes the sale of food by that farm\u2010operated business directly to consumers:\n(i) At a roadside stand (a stand situated on the side of or near a road or thoroughfare at which a farmer sells food from his or her farm directly to consumers) or farmers' market (a location where one or more local farmers assemble to sell food from their farms directly to consumers);\n(ii) Through a community supported agriculture program. Community supported agriculture (CSA) program means a program under which a farmer or group of farmers grows food for a group of shareholders (or subscribers) who pledge to buy a portion of the farmer's crop(s) for that season. This\nincludes CSA programs in which a group of farmers consolidate their crops at a central location for distribution to shareholders or subscribers; and\n(iii) At other such direct\u2010to\u2010consumer sales platforms, including door\u2010to\u2010door sales; mail, catalog and internet order, including online farmers' markets and online grocery delivery; religious or other organization bazaars; and State and local fairs.\n(3) For the purposes of this definition, \u201cfarm\u2010operated business\u201d means a business that is managed by one or more farms and conducts manufacturing/processing not on the farm(s).",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Definitions Food Traceability Rule Term Definition Person includes an individual, partne...",
+      "citation": "page-3",
+      "text_hash": "sha256:e08ac69c3046bee8395187fa17a091893ef7fe24475a0d59209935e49329663a",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-3",
+          "section": "page-3",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-4-4",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 4",
+      "section": "page-4",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Definitions\nFood Traceability Rule Term Definition\nShipping means an event in a food's supply chain in which a food is arranged for transport (e.g., by truck or ship) from one location to another location. Shipping does not include the sale or shipment of a food directly to a consumer or the donation of surplus food. Shipping includes sending an\nintracompany shipment of food from one location at a particular street address of a firm to another location at a different street address of the firm.\nTraceability lot means a batch or lot of food that has been initially packed (for raw agricultural commodities other than food obtained from a fishing vessel), received by the first land\u2010based receiver (for food obtained from a fishing vessel), or transformed.\nTraceability lot code means a descriptor, often alphanumeric, used to uniquely identify a traceability lot within the records of the traceability lot code source.\nTraceability lot code source means the place where a food was assigned a traceability lot code.\nTraceability lot code source reference means an alternative method for providing FDA with access to the location description for the traceability lot code source as required under this subpart. Examples of a traceability lot code source reference include, but are not limited to, the FDA Food Facility Registration Number for the\ntraceability lot code source or a web address that provides FDA with the location description for the traceability lot code source.\nTransformation means an event in a food's supply chain that involves manufacturing/processing a food or changing a food (e.g., by commingling, repacking, or relabeling) or its packaging or packing, when the output is a food on the Food Traceability List. Transformation does not include the initial packing of a\nfood or activities preceding that event (e.g., harvesting, cooling).\nTransporter means a person who has possession, custody, or control of an article of food for the sole purpose of transporting the food, whether by road, rail, water, or air.\nYou means a person subject to this subpart under \u00a7 1.1300.\n4 of 50\n\nFood Traceability Rule Term | Definition\nShipping | means an event in a food's supply chain in which a food is arranged for transport (e.g., by truck or ship) from one location to another location. Shipping does not include the sale or shipment of a food directly to a consumer or the donation of surplus food. Shipping includes sending an\nintracompany shipment of food from one location at a particular street address of a firm to another location at a different street address of the firm.\nTraceability lot | means a batch or lot of food that has been initially packed (for raw agricultural commodities other than food obtained from a fishing vessel), received by the first land\u2010based receiver (for food obtained from a fishing vessel), or transformed.\nTraceability lot code | means a descriptor, often alphanumeric, used to uniquely identify a traceability lot within the records of the traceability lot code source.\nTraceability lot code source | means the place where a food was assigned a traceability lot code.\nTraceability lot code source reference | means an alternative method for providing FDA with access to the location description for the traceability lot code source as required under this subpart. Examples of a traceability lot code source reference include, but are not limited to, the FDA Food Facility Registration Number for the\ntraceability lot code source or a web address that provides FDA with the location description for the traceability lot code source.\nTransformation | means an event in a food's supply chain that involves manufacturing/processing a food or changing a food (e.g., by commingling, repacking, or relabeling) or its packaging or packing, when the output is a food on the Food Traceability List. Transformation does not include the initial packing of a\nfood or activities preceding that event (e.g., harvesting, cooling).\nTransporter | means a person who has possession, custody, or control of an article of food for the sole purpose of transporting the food, whether by road, rail, water, or air.\nYou | means a person subject to this subpart under \u00a7 1.1300.",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Definitions Food Traceability Rule Term Definition Shipping means an event in a food's s...",
+      "citation": "page-4",
+      "text_hash": "sha256:218e12f79108503d05ab0bfbc9efb3cc9cedc86146fdc93ac0f8162a63340f43",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-4",
+          "section": "page-4",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 4,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-5-5",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 5",
+      "section": "page-5",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Harvesting\nLocation Description for the Immediate Subsequent Location Description for the Immediate Subsequent\nLocation Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010\nRecipient (other than a transporter) \u2010 Location Description for the Immediate Subsequent Location Description for the Immediate Subsequent Location Description for the Immediate Subsequent Location Description for the Immediate Subsequent\nBusiness Name Street Address or Geographic Coordinates\nPhone Number Recipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010\nCity State or Region ZIP or Postal Code Country\n(Name of the Company Operating the Location Receiving (Street Address or Geographic Coordinates of the Actual\n(Phone Number to Call the Location Receiving the Food)\nthe Food) Location Where the Food is Received)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n5 of 50\n\nLocation Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nBusiness Name\n(Name of the Company Operating the Location Receiving\nthe Food) | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nPhone Number\n(Phone Number to Call the Location Receiving the Food) | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates of the Actual\nLocation Where the Food is Received) | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nCity | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nState or Region | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nZIP or Postal Code | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nCountry\n\n |  |  |  |  | \n |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Harvesting Location Description for the Immediate Subsequent Location Description for th...",
+      "citation": "page-5",
+      "text_hash": "sha256:377c2799253e8be3022d5499a397262835d177d23bb2502c6584bdeebe76ad34",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-5",
+          "section": "page-5",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 5,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-6-6",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 6",
+      "section": "page-6",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Harvesting\nLocation Description for the Farm where the Food was Location Description for the Farm where the Food was Location Description for the Farm where the Food was\nHarvested \u2010 Harvested \u2010 Harvested \u2010\nCommodity Variety (if applicable) Quantity Unit of Measure\nBusiness Name Phone Number Street Address or Geographic Coordinates\n(e.g., Melon, Lettuce, aquaculture Shrimp) (e.g., Small White Honeydew, Romaine, Whiteleg Shrimp) (e.g., 75, 200) (e.g., bins, pounds)\n(Name of the Company Operating the Farm where the food (Phone Number to Call the Farm where the food was (Street Address or Geographic Coordinates for the Farm\nwas harvested) harvested) where the Food was Harvested)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n6 of 50\n\nCommodity\n(e.g., Melon, Lettuce, aquaculture Shrimp) | Variety (if applicable)\n(e.g., Small White Honeydew, Romaine, Whiteleg Shrimp) | Quantity\n(e.g., 75, 200) | Unit of Measure\n(e.g., bins, pounds) | Location Description for the Farm where the Food was\nHarvested \u2010\nBusiness Name\n(Name of the Company Operating the Farm where the food | Location Description for the Farm where the Food was\nHarvested \u2010\nPhone Number\n(Phone Number to Call the Farm where the food was\nharvested) | Location Description for the Farm where the Food was\nHarvested \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates for the Farm\nwhere the Food was Harvested)\n |  |  |  | was harvested) |  | \n\n |  |  |  |  | \n |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Harvesting Location Description for the Farm where the Food was Location Description for...",
+      "citation": "page-6",
+      "text_hash": "sha256:3506e64b3792baf7ae33459e13c37c1044ff187585ff74f68675d75676c44b7c",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-6",
+          "section": "page-6",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 6,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-7-7",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 7",
+      "section": "page-7",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Harvesting\nFor aquacultured food, the name of the container (e.g.,\nLocation Description for the Farm where the Food was Location Description for the Farm where the Food was Location Description for the Farm where the Food was Location Description for the Farm where the Food was For produce, the name of the field or other growing area\npond, pool, tank, cage) from which the food was harvested Harvest Date\nHarvested \u2010 Harvested \u2010 Harvested \u2010 Harvested \u2010 from which the food was harvested (which must correspond\n(which must correspond to the container name used by the (mm/dd/yyyy)\nCity State or Region ZIP or Postal Code Country to the name used by the grower)\naquaculture farmer)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n7 of 50\n\nLocation Description for the Farm where the Food was\nHarvested \u2010\nCity | Location Description for the Farm where the Food was\nHarvested \u2010\nState or Region | Location Description for the Farm where the Food was\nHarvested \u2010\nZIP or Postal Code | Location Description for the Farm where the Food was\nHarvested \u2010\nCountry | For produce, the name of the field or other growing area\nfrom which the food was harvested (which must correspond | For aquacultured food, the name of the container (e.g.,\npond, pool, tank, cage) from which the food was harvested | Harvest Date\n(mm/dd/yyyy)\n |  |  |  |  | (which must correspond to the container name used by the | \n |  |  |  | to the name used by the grower) |  | \n |  |  |  |  | aquaculture farmer) | \n\n |  |  |  |  | \n |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Harvesting For aquacultured food, the name of the container (e.g., Location Description ...",
+      "citation": "page-7",
+      "text_hash": "sha256:7d59754d8795e23a8e4ad67b192aaebcb90c95cd94703ba2aefb1259a6830ad0",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-7",
+          "section": "page-7",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-8-8",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 8",
+      "section": "page-8",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Harvesting\nReference Document Type2 Reference Document Number2\nReference Document Type Reference Document Number\n(Additional reference document type related to this food's (Corresponding number of the additional reference\n(e.g., Harvest log, invoice, sales receipt) (e.g., Entries 395\u2010 402, INV 750A, No. 23\u2010 10284)\nharvest \u2010 if needed) document \u2010 if needed)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n8 of 50\n\nReference Document Type\n(e.g., Harvest log, invoice, sales receipt) | Reference Document Number\n(e.g., Entries 395\u2010 402, INV 750A, No. 23\u2010 10284) | Reference Document Type2\n(Additional reference document type related to this food's\nharvest \u2010 if needed) | Reference Document Number2\n(Corresponding number of the additional reference\ndocument \u2010 if needed)\n\n |  |  | \n |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Harvesting Reference Document Type2 Reference Document Number2 Reference Document Type R...",
+      "citation": "page-8",
+      "text_hash": "sha256:6e269121f398fda05fd81fc6239aad94ab7f7ec872f57086bf7aba92c702afc6",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-8",
+          "section": "page-8",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 8,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-9-9",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 9",
+      "section": "page-9",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Cooling\nLocation Description for the Immediate Subsequent Location Description for the Immediate Subsequent\nLocation Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010\nRecipient (other than a transporter) \u2010 Location Description for the Immediate Subsequent Location Description for the Immediate Subsequent Location Description for the Immediate Subsequent Location Description for the Immediate Subsequent Commodity\nBusiness Name Street Address or Geographic Coordinates\nPhone Number Recipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010\nCity State or Region ZIP or Postal Code Country (e.g., Melon, Lettuce, aquaculture Shrimp)\n(Name of the Company Operating the Location Receiving the (Street Address or Geographic Coordinates of the Actual\n(Phone Number to Call the Location Receiving the Food)\nFood) Location Where the Food is Received)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n9 of 50\n\nLocation Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nBusiness Name\n(Name of the Company Operating the Location Receiving the | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nPhone Number\n(Phone Number to Call the Location Receiving the Food) | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates of the Actual\nLocation Where the Food is Received) | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nCity | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nState or Region | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nZIP or Postal Code | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nCountry | Commodity\n(e.g., Melon, Lettuce, aquaculture Shrimp)\nFood) |  |  |  |  |  |  | \n\n |  |  |  |  |  | \n |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Cooling Location Description for the Immediate Subsequent Location Description for the I...",
+      "citation": "page-9",
+      "text_hash": "sha256:5b2e4e71d3ad098c6070432f6c889d309d34b94ab9d58b997d233abcd3b62001",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-9",
+          "section": "page-9",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 9,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-10-10",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 10",
+      "section": "page-10",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Cooling\nLocation Description for where the Food was Cooled \u2010 Location Description for where the Food was Cooled \u2010\nLocation Description for where the Food was Cooled \u2010\nVariety (if applicable) Quantity Unit of Measure Business Name Street Address or Geographic Coordinates\nPhone Number Location Description for where the Food was Cooled \u2010 Location Description for where the Food was Cooled \u2010\nCity State or Region\n(e.g., Small White Honeydew, Romaine, Whiteleg Shrimp) (e.g., 75, 200) (e.g., bins, pounds) (Name of the Company Operating the Location that cooled (Street Address or Geographic Coordinates of the Actual\n(Phone Number to Call the Location that cooled the food)\nthe food) Location where the Food was Cooled)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n10 of 50\n\nVariety (if applicable)\n(e.g., Small White Honeydew, Romaine, Whiteleg Shrimp) | Quantity\n(e.g., 75, 200) | Unit of Measure\n(e.g., bins, pounds) | Location Description for where the Food was Cooled \u2010\nBusiness Name\n(Name of the Company Operating the Location that cooled\nthe food) | Location Description for where the Food was Cooled \u2010\nPhone Number\n(Phone Number to Call the Location that cooled the food) | Location Description for where the Food was Cooled \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates of the Actual\nLocation where the Food was Cooled) | Location Description for where the Food was Cooled \u2010\nCity | Location Description for where the Food was Cooled \u2010\nState or Region\n\n |  |  |  |  |  | \n |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Cooling Location Description for where the Food was Cooled \u2010 Location Description for wh...",
+      "citation": "page-10",
+      "text_hash": "sha256:3a139a41b184965625258caf400c138dfe4ac38d5dff3d6cbe9e88b58ae81f6c",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-10",
+          "section": "page-10",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 10,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-11-11",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 11",
+      "section": "page-11",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Cooling\nLocation Description for the Farm where the Food was Location Description for the Farm where the Food was Location Description for the Farm where the Food was\nHarvested \u2010 Harvested \u2010 Harvested \u2010\nLocation Description for the Farm where the Food was Location Description for the Farm where the Food was\nLocation Description for where the Food was Cooled \u2010 Location Description for where the Food was Cooled \u2010 Cooling Date Business Name Phone Number Street Address or Geographic Coordinates\nHarvested \u2010 Harvested \u2010\nZIP or Postal Code Country (mm/dd/yyyy)\nCity State or Region\n(Name of the Company Operating the Farm where the food (Phone Number to Call the Farm where the food was (Street Address or Geographic Coordinates for the Farm\nwas harvested) harvested) where the Food was Harvested)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n11 of 50\n\nLocation Description for where the Food was Cooled \u2010\nZIP or Postal Code | Location Description for where the Food was Cooled \u2010\nCountry | Cooling Date\n(mm/dd/yyyy) | Location Description for the Farm where the Food was\nHarvested \u2010\nBusiness Name\n(Name of the Company Operating the Farm where the food\nwas harvested) | Location Description for the Farm where the Food was\nHarvested \u2010\nPhone Number\n(Phone Number to Call the Farm where the food was\nharvested) | Location Description for the Farm where the Food was\nHarvested \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates for the Farm\nwhere the Food was Harvested) | Location Description for the Farm where the Food was\nHarvested \u2010\nCity | Location Description for the Farm where the Food was\nHarvested \u2010\nState or Region\n\n |  |  |  |  |  | \n |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Cooling Location Description for the Farm where the Food was Location Description for th...",
+      "citation": "page-11",
+      "text_hash": "sha256:a39a44d2a4a817e0558c111985ca54ac95653e5f279c24866a97bd9d234c6ed1",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-11",
+          "section": "page-11",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 11,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-12-12",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 12",
+      "section": "page-12",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Cooling\nReference Document Type2 Reference Document Number2\nLocation Description for the Farm where the Food was Location Description for the Farm where the Food was Reference Document Type Reference Document Number\nHarvested \u2010 Harvested \u2010\n(Additional reference document type related to the cooling (Corresponding number of the additional reference\nZIP or Postal Code Country (e.g., Production log, Work Order) (e.g., Entries 395\u2010 402, WO\u2010 719\u2010 2043)\nof this food \u2010 if needed) document \u2010 if needed)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n12 of 50\n\nLocation Description for the Farm where the Food was\nHarvested \u2010\nZIP or Postal Code | Location Description for the Farm where the Food was\nHarvested \u2010\nCountry | Reference Document Type\n(e.g., Production log, Work Order) | Reference Document Number\n(e.g., Entries 395\u2010 402, WO\u2010 719\u2010 2043) | Reference Document Type2\n(Additional reference document type related to the cooling\nof this food \u2010 if needed) | Reference Document Number2\n(Corresponding number of the additional reference\ndocument \u2010 if needed)\n\n |  |  |  | \n |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Cooling Reference Document Type2 Reference Document Number2 Location Description for the...",
+      "citation": "page-12",
+      "text_hash": "sha256:745dc2266fa917de7fe7d030b8f74c0ef096d08ca19842214f44c88406719c60",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-12",
+          "section": "page-12",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 12,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-13-13",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 13",
+      "section": "page-13",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing\nLocation Description for the Farm where the Food was Location Description for the Farm where the Food was Location Description for the Farm where the Food was\n(e.g., C M om elo m n o , d L i e t t y t u o c f e th , a e q f u o a o c d u r lt e u c r e e iv S e h d r imp) (e.g., Sm V a a ll r i W et h y i ( t i e f H ap o p n l e ic y a d b e l w e) , o R f o t m he a i f n o e o , d W re h c it e e i l v e e g d S hrimp) (m Re m ce / i d v d e / D yy a y te y ) Quantity (e o .g f . t , h 7 e 5 f , o 2 o 0 d 0 ) r eceived Unit of M ( e e a .g s . u , r b e i n o s f , t p h o e u f n o d o s d ) received (Name of the Compan B y u H O s a p in r e v e r e s a s s t t i N n e g d a m t \u2010 h e e Farm where the food (Phone Number to P C h a H o l a l n r t e v h e e N s F u te a m d rm b \u2010 e w r here the food was (Street S A tr d e d e r t e A ss d o d r r e G s e s o H o g r a r r a G v p e e h o s i t g c e r C a d o p \u2010 o h r ic d i C n o a o te rd s i f n o a r t e th s e Farm Location Description f H o a r r t v C h e i e t s y t F e a d r m \u2010 where the Food was Location Description S t f H a o t a r e r t v o h e r e s R t F e e a d g r m i \u2010 o n w here the Food was Location Descriptio ZI n P f H o o a r r r P t v h o e e s s t t F a e a l d r C m \u2010 o d w e h ere the Food was Location Description f H o a C r r o t v h u e e n s t t F e r a y d r m \u2010 where the Food was\nwas harvested) harvested) where the Food was Harvested)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n13 of 50\n\nCommodity of the food received\n(e.g., Melon, Lettuce, aquaculture Shrimp) | Variety (if applicable) of the food received | Receive Date\n(mm/dd/yyyy) | Quantity of the food received\n(e.g., 75, 200) | Unit of Measure of the food received\n(e.g., bins, pounds) | Location Description for the Farm where the Food was\nHarvested \u2010\nBusiness Name | Location Description for the Farm where the Food was\nHarvested \u2010\nPhone Number\n(Phone Number to Call the Farm where the food was\nharvested) | Location Description for the Farm where the Food was\nHarvested \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates for the Farm\nwhere the Food was Harvested) | Location Description for the Farm where the Food was\nHarvested \u2010\nCity | Location Description for the Farm where the Food was\nHarvested \u2010\nState or Region | Location Description for the Farm where the Food was\nHarvested \u2010\nZIP or Postal Code | Location Description for the Farm where the Food was\nHarvested \u2010\nCountry\n | (e.g., Small White Honeydew, Romaine, Whiteleg Shrimp) |  |  |  | (Name of the Company Operating the Farm where the food\nwas harvested) |  |  |  |  |  | \n\n |  |  |  |  |  |  |  |  |  | \n |  |  |  |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing Location Description for the Farm where the Food was Location Descriptio...",
+      "citation": "page-13",
+      "text_hash": "sha256:d7aa70771a30d386b3bd417bcb8d5aac2c2da615e283e4554d8048f46184cdc4",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-13",
+          "section": "page-13",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 13,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-14-14",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 14",
+      "section": "page-14",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing\nFor P f r r o o c d m o u r c r w e e h s , p i t c h o h e n t d N h e t a o m F t o e h o e o d f n w t a h m a e s e F H i u e a s l r d e v d e o s b r t y e O d t t h h ( e e w r g h G r i o c r h w o w m er i u n ) s g t Area p (w o F n h o d i r c , A h p q m o u o u a l s c , t u t a c lt n o u k r r r , e e c d s a p a f g o o q e o n u ) d d a fr , c t o u t o h m l t t e u h w N r e e h a c i f m o c a h n r e m t t o a h e i f e n r t ) e F h r o e n o C a d o m w n e t a a u s i n s H e e a d r r ( v b e e y . s g t t . h e , e d Harvester Business Name Harvester Phone Number H (m ar m ve / s d t d in / g y y D y a y t ) e (N L a o m ca e t i o o f n t h D e e s C c o r m ip p ti a o n n B y f u a o O p s t r i p h p n w e e l e i r c h s f a a o s e t b o r i N n l e d e a g ) ) t m h t \u2010 h e e e F L o o o c d a t w io a n s C th o a o t l e c d o o (i l f e d (P Lo h c o a n t e io N n u D m e b sc e r r i p to ti o C n a P l f l h a o t p o r h p n e w l e i L h c N o a e c u b r a e m le t t i ) b o h \u2010 e n e r t F h o a o t d c w oo a l s e C d o t o h l e e d fo o (i d f ) ( L S o t c r a e t e i t o S A n t d r L D e o d e e c r s t e a c s t A r i s i o d p o n d t r i r o w e G n s h e s e f o a o o r g p e r r r p a w G t l p h i e h c h e a o e i b g F r c e o r l C e a o t o ) p h d o \u2010 h e r w i c d F a i o C n s o o a C d o t o e r w o d s l a i o e n s f d a C t t ) h e o e s o l A e c d t u ( a if l Location Description f a o p r p w l C i h c i a t e y b r e le t ) h \u2010 e Food was Cooled (if Location Description S f t a o a p t r p e w l o i h c r a e R b re e le g t ) i h o \u2010 e n Food was Cooled (if Location Descriptio Z n IP f a o o p r r p w P li o h ca s e t b r a e l l e t C ) h o \u2010 e d F e o od was Cooled (if Location Description f a o p r C p w o li u h ca n e b t r r e l y e t ) h \u2010 e Food was Cooled (if\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n14 of 50\n\nFor Produce, the Name of the Field or Other Growing Area\nfrom which the Food was Harvested (which must | For Aquacultured food, the Name of the Container (e.g.,\npond, pool, tank, cage) from which the Food was Harvested | Harvester Business Name | Harvester Phone Number | Harvesting Date | Location Description for where the Food was Cooled (if\napplicable) \u2010\nBusiness Name | Location Description for where the Food was Cooled (if\napplicable) \u2010\nPhone Number | Location Description for where the Food was Cooled (if\napplicable) \u2010\nStreet Address or Geographic Coordinates | Location Description for where the Food was Cooled (if\napplicable) \u2010 | Location Description for where the Food was Cooled (if\napplicable) \u2010 | Location Description for where the Food was Cooled (if\napplicable) \u2010 | Location Description for where the Food was Cooled (if\napplicable) \u2010\n\n |  |  |  |  |  |  |  |  |  | \n |  |  |  |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing For P f r r o o c d m o u r c r w e e h s , p i t c h o h e n t d N h e ...",
+      "citation": "page-14",
+      "text_hash": "sha256:61cfee8dbb6baadef2c710fd5d9f8e71e4e1564a7b8b0c74d4db23e8abf58a35",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-14",
+          "section": "page-14",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 14,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-15-15",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 15",
+      "section": "page-15",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing\nCooling Date (if applicable) Traceability Lot Code Product Description of the Packed Food \u2010 Produc B t r D a e n s d c r N ip a t m io e n ( o if f a t p h p e l P ic a a c b k l e e d ) Food \u2010 Product C D om es m cr o ip d t i i t o y n ( i o f f a t p h p e l i P ca a b ck le e ) d Food \u2010 Product D V e a sc ri r e ip ty ti o (i n f a o p f p t l h ic e a P b a le c ) k ed Food \u2010 Product Desc P ri a p c t k io a n g i o n f g t S h i e ze P acked Food \u2010 Product Desc P r a ip c t k i a o g n i n o g f t S h ty e l e P acked Food \u2010 Quantity of Packed Food Unit of Measure of Packed Food Location D ( e i. s e c . r , i p th ti e o n Tr f a o B c r e u w a s b i h n i e l e i r t s e y s y L N o o a t u m C I e n o i d ti e a S ll o y u P r a c c e k ) e \u2010 d the Food Location D ( e i. s e c . r , i p th ti e o n Tr f a o P c r e h w a o b h n i e e li r t N e y u y L m o o t u b C e In o r i d ti e a S ll o y u P r a c c e k ) e \u2010 d the Food\n(mm/dd/yyyy) (The Traceability Lot Code you assigned to this packed food) Product Name (Marketed Brand of this food product) (e.g., Melon, Lettuce, aquaculture Shrimp) (e.g., Small White Honeydew, Romaine, Whiteleg Shrimp) (Packaging Configuratio M n e O a R su C r o e u ) nt OR Weight + Unit of (e.g., Cartons, Trays, Cases, Clamshell, etc.) (e.g., 6, 25, 100, 200) (e.g., cases, reusable plastic containers, tanks, pounds) (Name of the Co I m ni p ti a a n ll y y O P p ac e k ra e t d i n t g h e t h F e o o Lo d c ) ation where you (Phone Number to P C a a c ll k t e h d e t L h o e c F a o ti o o d n ) where you Initially\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n15 of 50\n\nCooling Date (if applicable)\n(mm/dd/yyyy) | Traceability Lot Code\n(The Traceability Lot Code you assigned to this packed food) | Product Description of the Packed Food \u2010\nProduct Name | Product Description of the Packed Food \u2010\nBrand Name (if applicable)\n(Marketed Brand of this food product) | Product Description of the Packed Food \u2010\nCommodity (if applicable)\n(e.g., Melon, Lettuce, aquaculture Shrimp) | Product Description of the Packed Food \u2010\nVariety (if applicable)\n(e.g., Small White Honeydew, Romaine, Whiteleg Shrimp) | Product Description of the Packed Food \u2010\nPackaging Size\n(Packaging Configuration OR Count OR Weight + Unit of | Product Description of the Packed Food \u2010\nPackaging Style\n(e.g., Cartons, Trays, Cases, Clamshell, etc.) | Quantity of Packed Food\n(e.g., 6, 25, 100, 200) | Unit of Measure of Packed Food\n(e.g., cases, reusable plastic containers, tanks, pounds) | Location Description for where you Initially Packed the Food\n(i.e., the Traceability Lot Code Source) \u2010 | Location Description for where you Initially Packed the Food\n(i.e., the Traceability Lot Code Source) \u2010\n |  |  |  |  |  |  |  |  |  | Business Name\n(Name of the Company Operating the Location where you | Phone Number\n(Phone Number to Call the Location where you Initially\n\n |  |  |  |  |  |  |  |  |  | \n |  |  |  |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing Cooling Date (if applicable) Traceability Lot Code Product Description o...",
+      "citation": "page-15",
+      "text_hash": "sha256:95845c7995a6a05ab7a511eb3ad7ffafe6dbaa5b032f6cd3b555e1d0b9a916fa",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-15",
+          "section": "page-15",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 15,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-16-16",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 16",
+      "section": "page-16",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing\nLo ( c S a t t r i e o e n L t o D S A c t ( e a d i r . s t e d e i c e o . r r , t e n i p t s A h w t s d i e o o h d n T r e r r r e G f a e o s e c s r y e o o o w a g r u b r h a G i I e l p n i e r t h i e y o t i i g c y a L r o o l C a l t u y o p C o P h In o r a ic d i d c t i k C e i n a e o a S l d l o t o y e r t u P d s h r a i e c o n c e f a F k ) t t o e h \u2010 e o d e s d t A ) h c e t u Fo a o l d Location D ( e i. s e c . r , i p th ti e o n Tr f a o c r e w ab h i e l C i r t i e y ty y L o o t u C In o i d t e ia S ll o y u P r a c c e k ) e \u2010 d the Food Location D ( e i. s e c . r , i p th ti e o n Tr f a o S c r t e a w a t b h e i e l o i r t r e y R y L e o o g t u i o C In n o i d t e ia S ll o y u P r a c c e k ) e \u2010 d the Food Location D ( e i. s e c . r , i p th ti e o n Tr Z f a o I c P r e w o a r b h i P e li o r t e s y t y L a o o l t u C C o In o d i d e t e ia S ll o y u P r a c c e k ) e \u2010 d the Food Location D ( e i. s e c . r , i p th ti e o n Tr f a o c r e w ab C h i o e li u r t e y n t y L r o o y t u C In o i d t e ia S ll o y u P r a c c e k ) e \u2010 d the Food (S D h e s a T s u r c r p e a r p a i c p l b e y t l a i e o c b h n r il e a i w t f in y e h , r L e e w o r n t e h c C i e t c h o h ( e d e F e . T g D r S . A a , o U c u c e R a r a c n L b e , u i F l R i s D t e e y A f t e L o F r o e F a t R n c C N c c o e e ) d s ( t e s i o f t w a p h p a a e p s s L s l a o i c a s c a s l a o b ig t n l i n e o g e ) n t d h ) e Ini ( t m ia m l P / a d c d k / in y g y y D y a ) te (e.g. R , e P f r e o r d e u n c c t e i o D n o l c o u g m , W en o t r T k y O p r e d er) (e.g., R P e ro fe d r u e c n t c io e n D L o o c g u 1 m 2 e 3 n , t W N O u \u2010 m 71 b 9 e \u2010 r 2 043) (Additional re p f a e R c r e k e f i n n e c g r e e o n d f c o t e c h u D is m o f c o e u n o m t d t e \u2010 y n i p f t e n T e r y e e p l d e a e 2 te d d ) to the initial (Correspon R d e i f n e g d r e o n n c u c u m e m b D e e o n r c t o u \u2010 f m i f t e h n n e e t e a N d d u e d d m it ) i b o e n r a 2 l reference\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n16 of 50\n\nLocation Description for where you Initially Packed the Food\n(i.e., the Traceability Lot Code Source) \u2010\nStreet Address or Geographic Coordinates | Location Description for where you Initially Packed the Food\n(i.e., the Traceability Lot Code Source) \u2010 | Location Description for where you Initially Packed the Food\n(i.e., the Traceability Lot Code Source) \u2010 | Location Description for where you Initially Packed the Food\n(i.e., the Traceability Lot Code Source) \u2010 | Location Description for where you Initially Packed the Food\n(i.e., the Traceability Lot Code Source) \u2010 | Traceability Lot Code Source Reference (if applicable)\n(Shareable reference (e.g., URL, FDA FFRN) to pass along the | Initial Packing Da te | Reference Document Type | Reference Document Number | Reference Document Type2 | Reference Document Number2\n\n |  |  |  |  |  |  |  |  | \n |  |  |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing Lo ( c S a t t r i e o e n L t o D S A c t ( e a d i r . s t e d e i c e...",
+      "citation": "page-16",
+      "text_hash": "sha256:75a43c60c1213887ba91605525e9b038db1a0fb1c05f92c4d0fb12043c0fb2dd",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-16",
+          "section": "page-16",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 16,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-17-17",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 17",
+      "section": "page-17",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing Sprouts\nL ( o N c a a m tio e n o D f e th sc e r C ip o t m i t o h p n e a f s n B o e ( y u r i e f s t O d a h in s p v e e a e f o G s i r l s a r a r t o N s b i p w n l a e r g m e ) o r t \u2010 u e h o t e i f n L S g o e ) c e a d t s i o fo n r t S h p a r t o g u r t e i w ng ( L P o h c o a n ti e o n N u D m es b c e r r ip t t o io C n a f ll P o ( t h i r h f s o t e a p h n v r e L e o a o G u i N c la t r a u i o b n t m i w l g o e b ) e n ) e r \u2010 t r o h f a S t e g e re d w s f t o h r e S s p e r e o d u s t i f n o g r Lo (S c t a r t e io e n t L S o A D t c d r e a e d s t e r i c o e t r i n s A p s d t t o h i d o r a r n t e G f s G e o s ( o r r i e o f g t w r a r h a G v e t p a e h G h i o l e i a r g c o S b r C w e l a e o e p e ) o d h r \u2010 r s i o d c f f i o C n S r o a e o S t e e p r d d s r s o i o n u f f a o t t t r i h n e S e s g p ) A ro ct u u t a in l g Location Description fo ( r if t a h v e C a G i i l t a r y o b w le e ) r \u2010 of Seeds for Sprouting Location Description f S o ( t r i a f t t a h e v e a o G i r l a r R o b e w l g e i e ) o r \u2010 n o f Seeds for Sprouting Location Description Z f I o P ( r i f o t a r h v P e a o G i s la r t o a b w l l e C e ) o r \u2010 d o e f Seeds for Sprouting Location Description fo ( r if t a C h v o e a u G i n la r t o b r w y le e ) r \u2010 of Seeds for Sprouting Seed Harv ( e m st m in / g d D d/ a y te y y ( y if ) available) Loca ( t N io a n m d e e o s c f c o r t n i h p d e t i t i C o io o n n m f e o B p d r a u o t n s h r i y n e p O e r s s o e p s c e e N e d r s a a c s t m o e in d n e g d t t i h t h e i e o s n L e e o e r c d a o s t r ) i o p n ro t c h e a s t s or \u2010 Lo ( c P a h t o io n n e d N e u s m cr b ip e t r i o t n o p r f C o o P a c r l h e l t o s t h s h n e e e e d s L N e t o e u h c d m e a c t s b i o e o e n e n r d d t i s h t ) i a o t n c e o r n o d r i p ti r o o n c e e d s s o o r r \u2010 Lo (S ca tr L t e i o o e c n t a S A t d i t e d o re s d n c e r t r e t h i p s A a s t d t i o o d C r n r o G e n f s o e d s r o i o t g t i h r r o a e G n p e e s h e d o i e c g o d r C r a c o P p o o r h n o r i d c d c i e i C n t s i o a o s o t e n e r d e d s r t i o n h o f a e r t t p h S e e r e s o e A c d e c s t s ) u so al r \u2010 Location description for the C s i e t e y d conditioner or processor \u2010 Location description fo S r t a t t h e e o s r e e R d e g c i o o n n d itioner or processor \u2010 Location description Z fo IP r o th r e P s o e s e ta d l c C o o n d d e i tioner or processor \u2010\nEnter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here\n17 of 50\n\nLocation Description for the Grower of Seeds for Sprouting\n(if available) \u2010\nBusiness Name | Location Description for the Grower of Seeds for Sprouting\n(if available) \u2010\nPhone Number | Location Description for the Grower of Seeds for Sprouting\n(if available) \u2010\nStreet Address or Geographic Coordinates | Location Description for the Grower of Seeds for Sprouting\n(if available) \u2010 | Location Description for the Grower of Seeds for Sprouting\n(if available) \u2010 | Location Description for the Grower of Seeds for Sprouting\n(if available) \u2010 | Location Description for the Grower of Seeds for Sprouting\n(if available) \u2010 | Seed Harvesting Date (if available) | Location description for the seed conditioner or processor \u2010\nBusiness Name | Location description for the seed conditioner or processor \u2010\nPhone Number | Location description for the seed conditioner or processor \u2010\nStreet Address or Geographic Coordinates | Location description for the seed conditioner or processor \u2010 | Location description for the seed conditioner or processor \u2010 | Location description for the seed conditioner or processor \u2010\n\n |  |  |  |  |  |  |  |  |  |  |  | \n |  |  |  |  |  |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing Sprouts L ( o N c a a m tio e n o D f e th sc e r C ip o t m i t o h p n...",
+      "citation": "page-17",
+      "text_hash": "sha256:4f2c8453281d373a2b58a3b75b7b0f5c50bef5e40343eff99f2049639268ff1a",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-17",
+          "section": "page-17",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 17,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-18-18",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 18",
+      "section": "page-18",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing Sprouts\nLocation description for th C e o s u e n e t d ry c onditioner or processor \u2010 Seed Lot Code Associated with Conditioning or Processing Condition (m in m g o /d r d P / r y o y c y e y s ) s ing Date (Nam L e o c o a f t t i h o e n C d o e m sc p ri a p n t B i y o u O n si p n fo e e r r s a s t t h N i e n a g s m e th e e d e S p e a e ck d i n P g a h ck o i u n s g e h \u2010 o use) L ( o P c h a o ti n o e n N d u e m sc b ri e p r t P i t o h o n o C n f a o e l r l N t t h h u e e m S s b e e e e e r d d P p a a c c k k i i n n g g h h o o u u s s e e ) \u2010 (Str L e o e c t S a A t t r i d o e d e n r t d e A e s d s s c d o r r r i e p G s t s P e io a o o n c g r k r f G i o a n e p r g o h t h h g i o c r e a u C s p s o e e h o e ) i r c d d C p in o a a o c t k r e d in s i n g o a h f t o t e h u s e s e S \u2010 e ed Location description fo C r i t t y h e seed packinghouse \u2010 Location descript S i t o a n t e fo o r r t R h e e g s i e o e n d packinghouse \u2010 Location descrip Z t IP io o n r f P o o r s t t h a e l s C e o e d d e packinghouse \u2010 Location description C f o o u r n th tr e y s eed packinghouse \u2010 Se ( e m d m P / a d ck d i / n y g y y D y a ) t e Assigned b S y e t e h d e L S o e t e C d o P d a e c kinghouse ( L N o a c m at e io o n f d th es e c C ri o p m tio p n B a a u n f p o s y F i p r n O a l t e i c p h c s i a e e l s i b r t N s a y l e e t ) a e i ) m n d \u2010 g e r t e h p e a S ck e i e n d g R fa e c p i a li c ty k i ( n if g Lo (P c h a o ti n o e n N d u es m cr b i e p r t i t o o n P C h a f a p o o l p n r l l e t t i h h c N a e e u b s S m l e e e e e ) b d d \u2010 e r r R e e p p a a c c k k in in g g f F a a ci c l i i l t i y ty ( ) i f\nEnter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here\n18 of 50\n\nLocation description for the seed conditioner or processor \u2010 | Seed Lot Code Associated with Conditioning or Processing | Conditioning or Processing Date | Location description for the seed packinghouse \u2010\nBusiness Name | Location description for the seed packinghouse \u2010\nPhone Number | Location description for the seed packinghouse \u2010\nStreet Address or Geographic Coordinates | Location description for the seed packinghouse \u2010 | Location description for the seed packinghouse \u2010 | Location description for the seed packinghouse \u2010 | Location description for the seed packinghouse \u2010 | Seed Packing Date | Seed Lot Code | Location description for the seed repacking facility (if\napplicable) \u2010\nBusiness Name | Location description for the seed repacking facility (if\napplicable) \u2010\nPhone Number\n\n |  |  |  |  |  |  |  |  |  |  |  | \n |  |  |  |  |  |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing Sprouts Location description for th C e o s u e n e t d ry c onditioner ...",
+      "citation": "page-18",
+      "text_hash": "sha256:cf5d8ad05f452e75fdfc921eb7b6cc284e6e0749aeede7ea3c3a07cd9878051d",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-18",
+          "section": "page-18",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 18,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-19-19",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 19",
+      "section": "page-19",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing Sprouts\n( L S o tr c e a e t t i S o A t n r d e d d e e r t s e A c s r d s i d p o r t r i e R o G s e n s e p a o o f a p o g r c p r r k G a l t i i n e h p c o g a e h g b i F s c r l a e e a C c e ) p o i d l \u2010 h i o t i r r y c e d ) C p in o a a c o k t r e i d n s i g n o a f f a t t e c h s il e it S y e ( e if d Location description a f p o p r l t C i h c i a e ty b s l e e e ) d \u2010 repacking facility (if Location descriptio S n t a f a p o t p r e l t o i h c r a e R b s e l e e g e ) i d o \u2010 n re packing facility (if Location descripti Z o I n P a f o p o r p r P l t i h o ca e st b s a l e l e e C ) d o \u2010 d re e p acking facility (if Location description a f p o C p r o l t i u h ca n e b t s r l e y e e ) d \u2010 repacking facility (if Seed Repa ( c m ki m ng / d D d a / t y e y ( y if y a ) pplicable) Assigned by t S h e e e R d e L p o a t c C k o e d r e (i f applicable) (Nam L e o c o a f t t io h n e C d o e m sc p r B i a p u n t s i y i o n O n e s p f s o e r N r a t a h t m i e n e g s e t e h d e s s u ee p d p l s ie u r p \u2010 p lier) L ( o P c h a o ti n o e n N d u e m sc b r P i e p h r t o i t o n o n e C N f a o u l r l m t t h h b e e e s r s e e e e d d s s u u p p p p l l i i e e r r ) \u2010 (Stree L t S o t A c r d e a d e ti r t o e A n s d s d d o e r r s e c G s r s i e p o o t g r s io u r G a n p e p p f o h o l g i i r e c r r t a C ) h p o e h o i s r c e d C e in d o a o s t r u e d p s in p o a l f i t e t e r h s \u2010 e seed Location description C i f t o y r the seed supplier \u2010 Location descr S i t p a t t io e n o r fo R r e t g h i e o n s eed supplier \u2010 Location des Z cr IP ip o ti r o P n o f s o t r a l t h C e o d se e e d supplier \u2010 Location descripti C o o n u f n o t r r y th e seed supplier \u2010\nEnter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here\n19 of 50\n\nLocation description for the seed repacking facility (if\napplicable) \u2010\nStreet Address or Geographic Coordinates | Location description for the seed repacking facility (if\napplicable) \u2010 | Location description for the seed repacking facility (if\napplicable) \u2010 | Location description for the seed repacking facility (if\napplicable) \u2010 | Location description for the seed repacking facility (if\napplicable) \u2010 | Seed Repacking Date (if applicable) | Seed Lot Code | Location description for the seed supplier \u2010\nBusiness Name | Location description for the seed supplier \u2010\nPhone Number | Location description for the seed supplier \u2010\nStreet Address or Geographic Coordinates | Location description for the seed supplier \u2010 | Location description for the seed supplier \u2010 | Location description for the seed supplier \u2010 | Location description for the seed supplier \u2010\n\n |  |  |  |  |  |  |  |  |  |  |  | \n |  |  |  |  |  |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing Sprouts ( L S o tr c e a e t t i S o A t n r d e d d e e r t s e A c s r...",
+      "citation": "page-19",
+      "text_hash": "sha256:b11c7a58b8a5b84101d223d1e46380898c346d56ac861dc5c4748160dac5e73d",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-19",
+          "section": "page-19",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 19,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-20-20",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 20",
+      "section": "page-20",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing Sprouts\nDescription of the seeds \u2010\nSeed Lot Code Assigned by the Seed Supplier \u2010 Seed Lot Code Assigned by the Seed Supplier \u2010 Seed Lot Code Assigned by the Sprouter \u2010 D Ty e p sc e r o ip r t T io a n x o o n f o th m e i c s e n e a d m s e \u2010 Growing Specifications Descript P io a n ck o a f g t in h g e seeds \u2010 Antimic D r e o s b c i r a i l p T ti r o e n a t o m f e th n e t ( s i e f e a d p s p \u2010 li cable) Receive Date of Seeds by Sprouter Reference Document Type Reference Document Number Reference Document Type2 Reference Document Number2\nMaster Seed Lot Sub\u2010 Lot Code New Seed Lot (e.g., Chickpea sprouts or Vigna radiata ) gu ( id e. a g n ., c e in , U ac S c D o A rd c a e n r c ti e f i w ca i t t i h o n G , A s P e e s d ta p n u d r a i r t d y s o a r n g d e / r o m r i n FD at A io n (e.g., 50 lb poly bag, 25 lb multi\u2010 wall paper bag) (Name of treatment method) (mm/dd/yyyy) (e.g., Production log, Work Order, Receipt of Goods) (e.g., Entries 395 \u2010402, WO \u2010719 \u20102043, 24 \u20101103 \u201048) (Additional re p fe a r c e k n in ce g d o o f c s u p m ro e u n ts t \u2010 t y if p n e e r e e d la e t d e ) d to the initial (Corresponding d o n c u u m m b e e n r t o \u2010 f i t f h n e e a e d d d e i d t ) io nal reference\nrate, organic or conventional)\nEnter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here Enter your KDES Here\n20 of 50\n\nSeed Lot Code Assigned by the Seed Supplier \u2010\nMaster Seed Lot | Seed Lot Code Assigned by the Seed Supplier \u2010\nSub\u2010 Lot Code | Seed Lot Code Assigned by the Sprouter \u2010\nNew Seed Lot | Description of the seeds \u2010\nType or Taxonomic name\n(e.g., Chickpea sprouts or Vigna radiata ) | Description of the seeds \u2010\nGrowing Specifications\n(e.g., in accordance with GAP standards and/or FDA\nguidance, USDA certification, seed purity or germination\nrate, organic or conventional) | Description of the seeds \u2010\nPackaging\n(e.g., 50 lb poly bag, 25 lb multi\u2010 wall paper bag) | Description of the seeds \u2010\nAntimicrobial Treatment (if applicable)\n(Name of treatment method) | Receive Date of Seeds by Sprouter\n(mm/dd/yyyy) | Reference Document Type\n(e.g., Production log, Work Order, Receipt of Goods) | Reference Document Number\n(e.g., Entries 395 \u2010402, WO \u2010719 \u20102043, 24 \u20101103 \u201048) | Reference Document Type2\n(Additional reference document type related to the initial | Reference Document Number2\n(Corresponding number of the additional reference\ndocument \u2010 if needed)\n |  |  |  |  |  |  |  |  |  | packing of sprouts \u2010 if needed) | \n\n |  |  |  |  |  |  |  |  |  | \n |  |  |  |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing Sprouts Description of the seeds \u2010 Seed Lot Code Assigned by the Seed Su...",
+      "citation": "page-20",
+      "text_hash": "sha256:64c4387321397cf54b602535d0603add94fa40c655eaf22e97fb9296c88e0d51",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-20",
+          "section": "page-20",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 20,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-21-21",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 21",
+      "section": "page-21",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing from Exempt\nLocation Description for the Person from whom you Location Description for the Person from whom you Location Description for the Person from whom you\nReceived the Food \u2010 Received the Food \u2010 Received the Food \u2010\nCommodity of the food received Variety (if applicable) of the food received Quantity of the food received Unit of Measure of the food received Location Description for the Person from whom you\nReceive Date Business Name Phone Number Street Address or Geographic Coordinates\nReceived the Food \u2010\n(mm/dd/yyyy)\n(e.g., Melon, Lettuce, aquaculture Shrimp) (e.g., Small White Honeydew, Romaine, Whiteleg Shrimp) (e.g., 75, 200) (e.g., bins, pounds) City\n(Name of the Company Operating the Location that the (Phone Number to Call the Location that the Food arrived (Street Address or Geographic Coordinates of the Actual\nFood arrived from) from) Location from which the food was sent)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n21 of 50\n\nCommodity of the food received\n(e.g., Melon, Lettuce, aquaculture Shrimp) | Variety (if applicable) of the food received\n(e.g., Small White Honeydew, Romaine, Whiteleg Shrimp) | Receive Date\n(mm/dd/yyyy) | Quantity of the food received\n(e.g., 75, 200) | Unit of Measure of the food received\n(e.g., bins, pounds) | Location Description for the Person from whom you\nReceived the Food \u2010\nBusiness Name\n(Name of the Company Operating the Location that the\nFood arrived from) | Location Description for the Person from whom you\nReceived the Food \u2010\nPhone Number | Location Description for the Person from whom you\nReceived the Food \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates of the Actual\nLocation from which the food was sent) | Location Description for the Person from whom you\nReceived the Food \u2010\nCity\n |  |  |  |  |  | (Phone Number to Call the Location that the Food arrived\nfrom) |  | \n\n |  |  |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing from Exempt Location Description for the Person from whom you Location D...",
+      "citation": "page-21",
+      "text_hash": "sha256:742afab885fbfba6f656e5c79013d57e3581cef0669b81bb0e22e23efe92fb07",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-21",
+          "section": "page-21",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 21,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-22-22",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 22",
+      "section": "page-22",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing from Exempt\nTraceability Lot Code Product Description of the Packed Food \u2010\nProduct Description of the Packed Food \u2010 Product Description of the Packed Food \u2010 Product Description of the Packed Food \u2010\nLocation Description for the Person from whom you Location Description for the Person from whom you Location Description for the Person from whom you (you assigned) Packaging Size\nProduct Description of the Packed Food \u2010 Brand Name (if applicable) Commodity (if applicable) Variety (if applicable)\nReceived the Food \u2010 Received the Food \u2010 Received the Food \u2010\nProduct Name\nState or Region ZIP or Postal Code Country (The Traceability Lot Code you assigned to this packed (Packaging Configuration OR Count OR Weight + Unit of\n(Marketed Brand of this food product) (e.g., Melon, Lettuce, Shrimp) (e.g., Small White Honeydew, Romaine, Whiteleg Shrimp)\nfood) Measure)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n22 of 50\n\nLocation Description for the Person from whom you\nReceived the Food \u2010\nState or Region | Location Description for the Person from whom you\nReceived the Food \u2010\nZIP or Postal Code | Location Description for the Person from whom you\nReceived the Food \u2010\nCountry | Traceability Lot Code\n(you assigned)\n(The Traceability Lot Code you assigned to this packed\nfood) | Product Description of the Packed Food \u2010\nProduct Name | Product Description of the Packed Food \u2010\nBrand Name (if applicable)\n(Marketed Brand of this food product) | Product Description of the Packed Food \u2010\nCommodity (if applicable)\n(e.g., Melon, Lettuce, Shrimp) | Product Description of the Packed Food \u2010\nVariety (if applicable)\n(e.g., Small White Honeydew, Romaine, Whiteleg Shrimp) | Product Description of the Packed Food \u2010\nPackaging Size\n(Packaging Configuration OR Count OR Weight + Unit of\nMeasure)\n\n |  |  |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing from Exempt Traceability Lot Code Product Description of the Packed Food...",
+      "citation": "page-22",
+      "text_hash": "sha256:656876ac8d1282a978990c5b371cc6df635442ccb5c9ab9d8e18a9cb624d880e",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-22",
+          "section": "page-22",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 22,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-23-23",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 23",
+      "section": "page-23",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing from Exempt\nLocation Description for where you Initially Packed the Location Description for where you Initially Packed the Location Description for where you Initially Packed the\nProduct Description of the Packed Food \u2010 Food (i.e., the Traceability Lot Code Source) \u2010 Food (i.e., the Traceability Lot Code Source) \u2010 Food (i.e., the Traceability Lot Code Source) \u2010\nQuantity of the Packed Food Unit of Measure of the Packed Food Location Description for where you Initially Packed the Location Description for where you Initially Packed the Location Description for where you Initially Packed the\nPackaging Style Business Name Phone Number Street Address or Geographic Coordinates\nFood (i.e., the Traceability Lot Code Source) \u2010 Food (i.e., the Traceability Lot Code Source) \u2010 Food (i.e., the Traceability Lot Code Source) \u2010\n(e.g., 6, 25, 100, 200) (e.g., cases, reusable plastic containers, tanks, pounds) City State or Region ZIP or Postal Code\n(e.g., Cartons, Trays, Cases, Clamshell, etc.) (Name of the Company Operating the Location where the (Phone Number to Call the Location where the Traceability (Street Address or Geographic Coordinates of the Actual\nTraceability Lot Code was assigned) Lot Code was assigned) Location where you Initially Packed the Food)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n23 of 50\n\nProduct Description of the Packed Food \u2010\nPackaging Style\n(e.g., Cartons, Trays, Cases, Clamshell, etc.) | Quantity of the Packed Food\n(e.g., 6, 25, 100, 200) | Unit of Measure of the Packed Food\n(e.g., cases, reusable plastic containers, tanks, pounds) | Location Description for where you Initially Packed the\nFood (i.e., the Traceability Lot Code Source) \u2010\nBusiness Name\n(Name of the Company Operating the Location where the\nTraceability Lot Code was assigned) | Location Description for where you Initially Packed the\nFood (i.e., the Traceability Lot Code Source) \u2010\nPhone Number\n(Phone Number to Call the Location where the Traceability | Location Description for where you Initially Packed the\nFood (i.e., the Traceability Lot Code Source) \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates of the Actual\nLocation where you Initially Packed the Food) | Location Description for where you Initially Packed the\nFood (i.e., the Traceability Lot Code Source) \u2010\nCity | Location Description for where you Initially Packed the\nFood (i.e., the Traceability Lot Code Source) \u2010\nState or Region | Location Description for where you Initially Packed the\nFood (i.e., the Traceability Lot Code Source) \u2010\nZIP or Postal Code\n |  |  |  | Lot Code was assigned) |  |  |  | \n\n |  |  |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing from Exempt Location Description for where you Initially Packed the Loca...",
+      "citation": "page-23",
+      "text_hash": "sha256:675fceb1ef7b8710ed501a37f9d01100b72b9f57d1b26a18807cabc73d5a35ad",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-23",
+          "section": "page-23",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 23,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-24-24",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 24",
+      "section": "page-24",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing from Exempt\nTraceability Lot Code Source Reference (if applicable)\nReference Document Type2 Reference Document Number2\nLocation Description for where you Initially Packed the Reference Document Type Reference Document Number\nInitial Packing Date\nFood (i.e., the Traceability Lot Code Source) \u2010 (Shareable reference (e.g., URL, FDA FFRN) to pass along\n(mm/dd/yyyy) (Additional reference document type related to the initial (Corresponding number of the additional reference\nCountry the supply chain, which FDA can use to access the Location (e.g., Production log, Work Order) (e.g., Entries 395\u2010 402, WO\u2010 719\u2010 2043)\npacking of this food \u2010 if needed) document \u2010 if needed)\nDescription where the Traceability Lot Code was assigned)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n24 of 50\n\nLocation Description for where you Initially Packed the\nFood (i.e., the Traceability Lot Code Source) \u2010\nCountry | Traceability Lot Code Source Reference (if applicable)\n(Shareable reference (e.g., URL, FDA FFRN) to pass along | Initial Packing Date\n(mm/dd/yyyy) | Reference Document Type\n(e.g., Production log, Work Order) | Reference Document Number\n(e.g., Entries 395\u2010 402, WO\u2010 719\u2010 2043) | Reference Document Type2 | Reference Document Number2\n(Corresponding number of the additional reference\ndocument \u2010 if needed)\n | the supply chain, which FDA can use to access the Location\nDescription where the Traceability Lot Code was assigned) |  |  |  | (Additional reference document type related to the initial\npacking of this food \u2010 if needed) | \n\n |  |  |  |  | \n |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Initial Packing from Exempt Traceability Lot Code Source Reference (if applicable) Refer...",
+      "citation": "page-24",
+      "text_hash": "sha256:88cc7ee9e685a88d7ef87db7133b59ba75c77d6b4ee90adf30a0a92e368a7a44",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-24",
+          "section": "page-24",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 24,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-25-25",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 25",
+      "section": "page-25",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template First Land\u2010Based Receiving\nTraceability Lot Code Product Description, If the Food is Packaged \u2010 Product Description, If the Food is Packaged \u2010\nSpecies and/or Acceptable Market Name, If the Food is Product Description, If the Food is Packaged \u2010 Product Description, If the Food is Packaged \u2010\n(you assigned) Variety (if applicable) Packaging Size\nUnpackaged Product Description, If the Food is Packaged \u2010 Brand Name (if applicable) Commodity (if applicable)\nProduct Name\n(The Traceability Lot Code you assigned to the food obtained (e.g., Atlantic Cod, Albacore, American Lobster, Red (Packaging Configuration OR Count OR Weight + Unit of\n(e.g., Gadhus morhua , Tuna, Homarus americanus , Snapper) (Marketed Brand of this food product) (e.g., Cod, Tuna, Lobster, Snapper)\nfrom a fishing vessel) Snapper) Measure)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n25 of 50\n\nTraceability Lot Code\n(you assigned)\n(The Traceability Lot Code you assigned to the food obtained | Species and/or Acceptable Market Name, If the Food is\nUnpackaged\n(e.g., Gadhus morhua , Tuna, Homarus americanus , Snapper) | Product Description, If the Food is Packaged \u2010\nProduct Name | Product Description, If the Food is Packaged \u2010\nBrand Name (if applicable)\n(Marketed Brand of this food product) | Product Description, If the Food is Packaged \u2010\nCommodity (if applicable)\n(e.g., Cod, Tuna, Lobster, Snapper) | Product Description, If the Food is Packaged \u2010\nVariety (if applicable)\n(e.g., Atlantic Cod, Albacore, American Lobster, Red\nSnapper) | Product Description, If the Food is Packaged \u2010\nPackaging Size\n(Packaging Configuration OR Count OR Weight + Unit of\nMeasure)\nfrom a fishing vessel) |  |  |  |  |  | \n |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template First Land\u2010Based Receiving Traceability Lot Code Product Description, If the Food is Pac...",
+      "citation": "page-25",
+      "text_hash": "sha256:6fe0a618dda5a4fe98409f7bebc745165ff3ca170b427fcbb57327441851b995",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-25",
+          "section": "page-25",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 25,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-26-26",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 26",
+      "section": "page-26",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template First Land\u2010Based Receiving\nLocation Description for the First Land\u2010 Based Receiver (i.e.,\nProduct Description, If the Food is Packaged \u2010 Harvest Date Start Harvest Date End Harvest Locations For the Trip\nQuantity Unit of Measure the Traceability Lot Code Source) \u2010\nPackaging Style (mm/dd/yyyy) (mm/dd/yyyy)\nBusiness Name\n(e.g., NMFS Ocean Geographic code, FAO code, other\n(e.g., 300) (e.g., kg)\n(e.g., Cartons, Trays, Cases, Clamshell, etc.) (Earliest date of fishing for this trip) (Final date of fishing for this trip) recognizeable geo reference)\n(Business Name of the First Land\u2010 Based Receiver)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n26 of 50\n\nProduct Description, If the Food is Packaged \u2010\nPackaging Style\n(e.g., Cartons, Trays, Cases, Clamshell, etc.) | Quantity\n(e.g., 300) | Unit of Measure\n(e.g., kg) | Harvest Date Start\n(mm/dd/yyyy)\n(Earliest date of fishing for this trip) | Harvest Date End\n(mm/dd/yyyy)\n(Final date of fishing for this trip) | Harvest Locations For the Trip\n(e.g., NMFS Ocean Geographic code, FAO code, other\nrecognizeable geo reference) | Location Description for the First Land\u2010 Based Receiver (i.e.,\nthe Traceability Lot Code Source) \u2010\nBusiness Name\n(Business Name of the First Land\u2010 Based Receiver)",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template First Land\u2010Based Receiving Location Description for the First Land\u2010 Based Receiver (i.e....",
+      "citation": "page-26",
+      "text_hash": "sha256:e686f64bc0965814ae1a3069ca1baa4e015f80a35e1191307531f4b770c9c16f",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-26",
+          "section": "page-26",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 26,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-27-27",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 27",
+      "section": "page-27",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template First Land\u2010Based Receiving\nLocation Description for the First Land\u2010 Based Receiver (i.e.,\nLocation Description for the First Land\u2010 Based Receiver (i.e., Traceability Lot Code Source Reference (if applicable)\nthe Traceability Lot Code Source) \u2010\nthe Traceability Lot Code Source) \u2010 Location Description for the First Land\u2010 Based Receiver (i.e., Location Description for the First Land\u2010 Based Receiver (i.e., Location Description for the First Land\u2010 Based Receiver (i.e., Location Description for the First Land\u2010 based Receiver (i.e.,\nStreet Address or Geographic Coordinates\nPhone Number the Traceability Lot Code Source) \u2010 the Traceability Lot Code Source) \u2010 the Traceability Lot Code Source) \u2010 the Traceability Lot Code Source) \u2010 (Shareable reference (e.g., URL, FDA FFRN) to pass along the\nCity State or Region ZIP or Postal Code Country supply chain, which FDA can use to access the Location\n(Street Address or Geographic Coordinates for the Actual\n(Phone Number to Call the First Land\u2010 Based Receiver) Description where the Traceability Lot Code was assigned)\nLocation where the Food is Received)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n27 of 50\n\nLocation Description for the First Land\u2010 Based Receiver (i.e.,\nthe Traceability Lot Code Source) \u2010\nPhone Number\n(Phone Number to Call the First Land\u2010 Based Receiver) | Location Description for the First Land\u2010 Based Receiver (i.e.,\nthe Traceability Lot Code Source) \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates for the Actual\nLocation where the Food is Received) | Location Description for the First Land\u2010 Based Receiver (i.e.,\nthe Traceability Lot Code Source) \u2010\nCity | Location Description for the First Land\u2010 Based Receiver (i.e.,\nthe Traceability Lot Code Source) \u2010\nState or Region | Location Description for the First Land\u2010 Based Receiver (i.e.,\nthe Traceability Lot Code Source) \u2010\nZIP or Postal Code | Location Description for the First Land\u2010 based Receiver (i.e.,\nthe Traceability Lot Code Source) \u2010\nCountry | Traceability Lot Code Source Reference (if applicable)\n(Shareable reference (e.g., URL, FDA FFRN) to pass along the\n |  |  |  |  |  | supply chain, which FDA can use to access the Location\nDescription where the Traceability Lot Code was assigned)",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template First Land\u2010Based Receiving Location Description for the First Land\u2010 Based Receiver (i.e....",
+      "citation": "page-27",
+      "text_hash": "sha256:e18fc754a053c52d13e7e34e132a2a2d28fa982cb837a7de59e166e55027476b",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-27",
+          "section": "page-27",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 27,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-28-28",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 28",
+      "section": "page-28",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template First Land\u2010Based Receiving\nReference Document Type2 Reference Document Number2\nReference Document Type Reference Document Number\nLanding Date\n(mm/dd/yyyy) (Additional reference document type related to the first land\u2010 (Corresponding number of the additional reference\n(e.g., Weight ticket, Receipt of Goods, Dealers Report) (e.g., Ref #538\u2010 050, 24\u2010 1103\u2010 48, 20240125668)\nbased receiving of this food \u2010 if needed) document \u2010 if needed)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n28 of 50\n\nLanding Date\n(mm/dd/yyyy) | Reference Document Type\n(e.g., Weight ticket, Receipt of Goods, Dealers Report) | Reference Document Number\n(e.g., Ref #538\u2010 050, 24\u2010 1103\u2010 48, 20240125668) | Reference Document Type2\n(Additional reference document type related to the first land\u2010 | Reference Document Number2\n(Corresponding number of the additional reference\ndocument \u2010 if needed)\n |  |  | based receiving of this food \u2010 if needed) |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template First Land\u2010Based Receiving Reference Document Type2 Reference Document Number2 Reference...",
+      "citation": "page-28",
+      "text_hash": "sha256:f20fac6cc3c59e7a09d9ad7f6d1338150b41b0094a5aa95109dba42fce5616ab",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-28",
+          "section": "page-28",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 28,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-29-29",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 29",
+      "section": "page-29",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Shipping\nTraceability Lot Code Product Description \u2010 Product Description \u2010\nProduct Description \u2010 Product Description \u2010 Product Description \u2010\nQuantity Unit of Measure Variety (if applicable) Packaging Size\nProduct Description \u2010 Brand Name (if applicable) Commodity (if applicable) Packaging Style\n(The Traceability Lot Code assigned to the food by the\nProduct Name\nInitial Packer / First Land\u2010 Based Receiver / person who (e.g., 6, 25, 100, 200) (e.g., cases, reusable plastic containers, tanks, pounds) (e.g., Small White Honeydew, Romaine, Albacore, Queso (Packaging Configuration OR Count OR Weight + Unit of\n(Marketed Brand of this food product) (e.g., Melon, Lettuce, Tuna, Soft Cheese) (e.g., Cartons, Trays, Cases, Clamshell, etc.)\nTransformed the Food) Fresco) Measure)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n29 of 50\n\nTraceability Lot Code\n(The Traceability Lot Code assigned to the food by the\nInitial Packer / First Land\u2010 Based Receiver / person who\nTransformed the Food) | Quantity\n(e.g., 6, 25, 100, 200) | Unit of Measure\n(e.g., cases, reusable plastic containers, tanks, pounds) | Product Description \u2010\nProduct Name | Product Description \u2010\nBrand Name (if applicable)\n(Marketed Brand of this food product) | Product Description \u2010\nCommodity (if applicable)\n(e.g., Melon, Lettuce, Tuna, Soft Cheese) | Product Description \u2010\nVariety (if applicable)\n(e.g., Small White Honeydew, Romaine, Albacore, Queso\nFresco) | Product Description \u2010\nPackaging Size\n(Packaging Configuration OR Count OR Weight + Unit of\nMeasure) | Product Description \u2010\nPackaging Style\n(e.g., Cartons, Trays, Cases, Clamshell, etc.)\n\n |  |  |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Shipping Traceability Lot Code Product Description \u2010 Product Description \u2010 Product Descr...",
+      "citation": "page-29",
+      "text_hash": "sha256:2c53138f58c0d5c2f7fb4f482dbd2a79a8849cf82f8cd853460d6e899382771c",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-29",
+          "section": "page-29",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 29,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-30-30",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 30",
+      "section": "page-30",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Shipping\nLocation Description for the Immediate Subsequent Location Description for the Immediate Subsequent Location Description for the Location from which you Location Description for the Location from which you\nLocation Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010 Shipped the Food \u2010 Shipped the Food \u2010\nRecipient (other than a transporter) \u2010 Location Description for the Immediate Subsequent Location Description for the Immediate Subsequent Location Description for the Immediate Subsequent Location Description for the Immediate Subsequent\nBusiness Name Street Address or Geographic Coordinates Business Name Phone Number\nPhone Number Recipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010 Recipient (other than a transporter) \u2010\nCity State or Region ZIP or Postal Code Country\n(Name of the Company Operating the Location Receiving (Street Address or Geographic Coordinates of the Actual (Name of the Company Operating the Location the Food (Phone Number to Call the Location the Food Shipped\n(Phone Number to Call the Location Receiving the Food)\nthe Food) Location Where the Food is to be Received) Shipped from) from)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n30 of 50\n\nLocation Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nBusiness Name\n(Name of the Company Operating the Location Receiving | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nPhone Number\n(Phone Number to Call the Location Receiving the Food) | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates of the Actual | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nCity | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nState or Region | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nZIP or Postal Code | Location Description for the Immediate Subsequent\nRecipient (other than a transporter) \u2010\nCountry | Location Description for the Location from which you\nShipped the Food \u2010\nBusiness Name\n(Name of the Company Operating the Location the Food | Location Description for the Location from which you\nShipped the Food \u2010\nPhone Number\n(Phone Number to Call the Location the Food Shipped\n\n |  |  |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Shipping Location Description for the Immediate Subsequent Location Description for the ...",
+      "citation": "page-30",
+      "text_hash": "sha256:52305a007d823b79153b020d55a8f33a65f425e9753834cd314799ec51a24f5f",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-30",
+          "section": "page-30",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 30,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-31-31",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 31",
+      "section": "page-31",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Shipping\nLocation Description for the Location from which you\nLocation Description for the Traceability Lot Code Source \u2010\nShipped the Food \u2010 Location Description for the Traceability Lot Code Source \u2010 Location Description for the Traceability Lot Code Source \u2010\nLocation Description for the Location from which you Location Description for the Location from which you Location Description for the Location from which you Location Description for the Location from which you Street Address or Geographic Coordinates\nStreet Address or Geographic Coordinates Shipping Date Business Name Phone Number\nShipped the Food \u2010 Shipped the Food \u2010 Shipped the Food \u2010 Shipped the Food \u2010\n(mm/dd/yyyy)\nCity State or Region ZIP or Postal Code Country (Street Address or Geographic Coordinates of the\n(Street Address or Geographic Coordinates of the Actual (Business Name of the Traceability Lot Code Source) (Phone Number to Call the Traceability Lot Code Source)\nTraceability Lot Code Source)\nLocation from which the food was sent)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n31 of 50\n\nLocation Description for the Location from which you\nShipped the Food \u2010\nStreet Address or Geographic Coordinates | Location Description for the Location from which you\nShipped the Food \u2010 | Location Description for the Location from which you\nShipped the Food \u2010 | Location Description for the Location from which you\nShipped the Food \u2010 | Location Description for the Location from which you\nShipped the Food \u2010 | Shipping Date | Location Description for the Traceability Lot Code Source \u2010\nBusiness Name | Location Description for the Traceability Lot Code Source \u2010\nPhone Number | Location Description for the Traceability Lot Code Source \u2010\nStreet Address or Geographic Coordinates\n\n |  |  |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Shipping Location Description for the Location from which you Location Description for t...",
+      "citation": "page-31",
+      "text_hash": "sha256:3c6a66073e6a5d3d1b63067fdd8df53946c7c041078e4219832396dad9d64610",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-31",
+          "section": "page-31",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 31,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-32-32",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 32",
+      "section": "page-32",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Shipping\nTraceability Lot Code Source Reference (may be provided instead\nof the location description for the TLC Source) Reference Document Type2 Reference Document Number2\nReference Document Type Reference Document Number\nLocation Description for the Traceability Lot Code Source \u2010 Location Description for the Traceability Lot Code Source \u2010 Location Description for the Traceability Lot Code Source \u2010 Location Description for the Traceability Lot Code Source \u2010\nCity State/Region ZIP/Postal Code Country (Shareable reference (e.g., URL, FDA FFRN) to pass along the (Additional reference document type related to the (Corresponding number of the additional reference\n(e.g., Advance Shipping Notice, Bill of Lading (BOL), Invoice) (e.g., ASN 10212025, BOL 042520 XYZ, Invoice 750A)\nsupply chain, which FDA can use to access the Location shipping of this food \u2010 if needed) document \u2010 if needed)\nDescription where the Traceability Lot Code was assigned)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n32 of 50\n\n |  |  |  | Traceability Lot Code Source Reference (may be provided instead | Reference Document Type\n(e.g., Advance Shipping Notice, Bill of Lading (BOL), Invoice) | Reference Document Number\n(e.g., ASN 10212025, BOL 042520 XYZ, Invoice 750A) | Reference Document Type2\n(Additional reference document type related to the\nshipping of this food \u2010 if needed) | Reference Document Number2\n(Corresponding number of the additional reference\ndocument \u2010 if needed)\n |  |  |  | of the location description for the TLC Source)\n(Shareable reference (e.g., URL, FDA FFRN) to pass along the\nsupply chain, which FDA can use to access the Location\nDescription where the Traceability Lot Code was assigned) |  |  |  | \nLocation Description for the Traceability Lot Code Source \u2010\nCity | Location Description for the Traceability Lot Code Source \u2010\nState/Region | Location Description for the Traceability Lot Code Source \u2010\nZIP/Postal Code | Location Description for the Traceability Lot Code Source \u2010\nCountry |  |  |  |  | \n |  |  |  |  |  |  |  | \n\n |  |  |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Shipping Traceability Lot Code Source Reference (may be provided instead of the location...",
+      "citation": "page-32",
+      "text_hash": "sha256:761e6f5ed23f89526cf3eb5111543ab470d43308afde569c2f5a8ef2b32ec489",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-32",
+          "section": "page-32",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 32,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-33-33",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 33",
+      "section": "page-33",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving\nTraceability Lot Code Product Description \u2010 Product Description \u2010\nProduct Description \u2010 Product Description \u2010 Product Description \u2010\nQuantity Unit of Measure Variety (if applicable) Packaging Size\nProduct Description \u2010 Brand Name (if applicable) Commodity (if applicable) Packaging Style\n(The Traceability Lot Code assigned to the food by the\nProduct Name\nInitial Packer / First Land\u2010 Based Receiver / person who (e.g., 6, 25, 100, 200) (e.g., cases, reusable plastic containers, tanks, pounds) (e.g., Small White Honeydew, Romaine, Albacore, Queso (Packaging Configuration OR Count OR Weight + Unit of\n(Marketed Brand of this food product) (e.g., Melon, Lettuce, Tuna, Soft Cheese) (e.g., Cartons, Trays, Cases, Clamshell, etc.)\nTransformed the Food) Fresco) Measure)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n33 of 50\n\nTraceability Lot Code\n(The Traceability Lot Code assigned to the food by the\nInitial Packer / First Land\u2010 Based Receiver / person who\nTransformed the Food) | Quantity\n(e.g., 6, 25, 100, 200) | Unit of Measure\n(e.g., cases, reusable plastic containers, tanks, pounds) | Product Description \u2010\nProduct Name | Product Description \u2010\nBrand Name (if applicable)\n(Marketed Brand of this food product) | Product Description \u2010\nCommodity (if applicable)\n(e.g., Melon, Lettuce, Tuna, Soft Cheese) | Product Description \u2010\nVariety (if applicable)\n(e.g., Small White Honeydew, Romaine, Albacore, Queso\nFresco) | Product Description \u2010\nPackaging Size\n(Packaging Configuration OR Count OR Weight + Unit of\nMeasure) | Product Description \u2010\nPackaging Style\n(e.g., Cartons, Trays, Cases, Clamshell, etc.)\n\n |  |  |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving Traceability Lot Code Product Description \u2010 Product Description \u2010 Product Desc...",
+      "citation": "page-33",
+      "text_hash": "sha256:c43823d2e7280a6cac5958a80446007fac6d534a5799c9d89412e9b47c15c1d4",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-33",
+          "section": "page-33",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 33,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-34-34",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 34",
+      "section": "page-34",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving\nLocation Description for the Immediate Previous Source Location Description for the Immediate Previous Source Location Description for the Immediate Previous Source\nLocation Description for where the Food was Received \u2010 Location Description for where the Food was Received \u2010\n(other than a transporter) \u2010 (other than a transporter) \u2010 (other than a transporter) \u2010\nLocation Description for the Immediate Previous Source Location Description for the Immediate Previous Source Location Description for the Immediate Previous Source Location Description for the Immediate Previous Source Business Name Phone Number\nBusiness Name Phone Number Street Address or Geographic Coordinates\n(other than a transporter) \u2010 (other than a transporter) \u2010 (other than a transporter) \u2010 (other than a transporter) \u2010\nCity State or Region ZIP or Postal Code Country (Name of the Company Operating the Location that (Phone Number to Call the Location that Received the\n(Name of the Company Operating the Location that the (Phone Number to Call the Location that the Food Arrived (Street Address or Geographic Coordinates of the Actual\nReceived the Food) Food)\nFood Arrived from) from) Location from which the food was sent)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n34 of 50\n\nLocation Description for the Immediate Previous Source\n(other than a transporter) \u2010\nBusiness Name\n(Name of the Company Operating the Location that the | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nPhone Number\n(Phone Number to Call the Location that the Food Arrived | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates of the Actual | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nCity | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nState or Region | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nZIP or Postal Code | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nCountry | Location Description for where the Food was Received \u2010\nBusiness Name\n(Name of the Company Operating the Location that\nReceived the Food) | Location Description for where the Food was Received \u2010\nPhone Number\n(Phone Number to Call the Location that Received the\nFood)\n\n |  |  |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving Location Description for the Immediate Previous Source Location Description fo...",
+      "citation": "page-34",
+      "text_hash": "sha256:4c7347687184f47d5e201a38f18da31778e75cd169f8d9f0f8d25911160ad490",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-34",
+          "section": "page-34",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 34,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-35-35",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 35",
+      "section": "page-35",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving\nLocation Description for where the Food was Received \u2010 Location Description for the Traceability Lot Code Source \u2010\nLocation Description for the Traceability Lot Code Source \u2010 Location Description for the Traceability Lot Code Source \u2010\nStreet Address or Geographic Coordinates Street Address or Geographic Coordinates\nLocation Description for where the Food was Received \u2010 Location Description for where the Food was Received \u2010 Location Description for where the Food was Received \u2010 Location Description for where the Food was Received \u2010 Date you Received the Food Business Name Phone Number\nCity State or Region ZIP or Postal Code Country (mm/dd/yyyy)\n(Street Address or Geographic Coordinates of the Actual (Street Address or Geographic Coordinates of the\n(Business Name of the Traceability Lot Code Source) (Phone Number to Call the Traceability Lot Code Source)\nLocation Where the Food was Received) Traceability Lot Code Source)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n35 of 50\n\nLocation Description for where the Food was Received \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates of the Actual\nLocation Where the Food was Received) | Location Description for where the Food was Received \u2010\nCity | Location Description for where the Food was Received \u2010\nState or Region | Location Description for where the Food was Received \u2010\nZIP or Postal Code | Location Description for where the Food was Received \u2010\nCountry | Date you Received the Food\n(mm/dd/yyyy) | Location Description for the Traceability Lot Code Source \u2010 Location Description for the Traceability Lot Code Source \u2010\nBusiness Name Phone Number\n(Business Name of the Traceability Lot Code Source) (Phone Number to Call the Traceability Lot Code Source) | Location Description for the Traceability Lot Code Source \u2010\nStreet Address or Geographic Coordinates\n |  |  |  |  |  |  | (Street Address or Geographic Coordinates of the\nTraceability Lot Code Source)\n\n |  |  |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving Location Description for where the Food was Received \u2010 Location Description fo...",
+      "citation": "page-35",
+      "text_hash": "sha256:fcebd766fc66d14098502a525c987d9d562bed5fccd659310571f45bd9ddae67",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-35",
+          "section": "page-35",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 35,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-36-36",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 36",
+      "section": "page-36",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving\nTraceability Lot Code Source Reference (may be provided instead\nof the location description for the TLC Source) Reference Document Type Reference Document Type2 Reference Document Number2\nReference Document Number\nLocation Description for the Traceability Lot Code Source \u2010 Location Description for the Traceability Lot Code Source \u2010 Location Description for the Traceability Lot Code Source \u2010 Location Description for the Traceability Lot Code Source \u2010\nCity State/Region ZIP/Postal Code Country (Shareable reference (e.g., URL, FDA FFRN) to pass along the (e.g., Receipt of Goods, Advance Shipping Notice, Bill of (Additional reference document type related to the (Corresponding number of the additional reference\n(e.g., 24\u2010 1103\u2010 48, ASN 10212025, BOL 042520 XYZ)\nsupply chain, which FDA can use to access the Location Lading (BOL)) receiving of this food \u2010 if needed) document \u2010 if needed)\nDescription where the Traceability Lot Code was assigned)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n36 of 50\n\n |  |  |  | Traceability Lot Code Source Reference (may be provided instead | Reference Document Type\n(e.g., Receipt of Goods, Advance Shipping Notice, Bill of\nLading (BOL)) | Reference Document Number\n(e.g., 24\u2010 1103\u2010 48, ASN 10212025, BOL 042520 XYZ) | Reference Document Type2\n(Additional reference document type related to the\nreceiving of this food \u2010 if needed) | Reference Document Number2\n(Corresponding number of the additional reference\ndocument \u2010 if needed)\n |  |  |  | of the location description for the TLC Source)\n(Shareable reference (e.g., URL, FDA FFRN) to pass along the\nsupply chain, which FDA can use to access the Location\nDescription where the Traceability Lot Code was assigned) |  |  |  | \nLocation Description for the Traceability Lot Code Source \u2010\nCity | Location Description for the Traceability Lot Code Source \u2010\nState/Region | Location Description for the Traceability Lot Code Source \u2010\nZIP/Postal Code | Location Description for the Traceability Lot Code Source \u2010\nCountry |  |  |  |  | \n\n |  |  |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving Traceability Lot Code Source Reference (may be provided instead of the locatio...",
+      "citation": "page-36",
+      "text_hash": "sha256:a11f2331d8a3e0ecad7f01375734747609262f9e4db47eeb629def09be524587",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-36",
+          "section": "page-36",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 36,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-37-37",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 37",
+      "section": "page-37",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving From Exempt\nTraceability Lot Code (which you must assign if one has not already\nProduct Description \u2010\nbeen assigned) Unit of Measure Product Description \u2010 Product Description \u2010\nQuantity Variety (if applicable)\n(does not apply if you are a Retail Food Establishment or Restaurant) Product Description \u2010 Brand Name (if applicable) Commodity (if applicable)\n(e.g., 6 cases, 25 reusable plastic containers, 100 tanks, 200 Product Name\n(e.g., 6, 25, 100, 200) (e.g., Small White Honeydew, Romaine, Albacore, Queso\n(The Traceability Lot Code you assigned to the food received from an pounds) (Marketed Brand of this food product) (e.g., Melon, Lettuce, Tuna, Soft Cheese)\nFresco)\nexempt entity)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n37 of 50\n\nTraceability Lot Code (which you must assign if one has not already\nbeen assigned)\n(does not apply if you are a Retail Food Establishment or Restaurant)\n(The Traceability Lot Code you assigned to the food received from an\nexempt entity) | Quantity\n(e.g., 6, 25, 100, 200) | Unit of Measure\n(e.g., 6 cases, 25 reusable plastic containers, 100 tanks, 200 | Product Description \u2010\nProduct Name | Product Description \u2010\nBrand Name (if applicable)\n(Marketed Brand of this food product) | Product Description \u2010\nCommodity (if applicable)\n(e.g., Melon, Lettuce, Tuna, Soft Cheese) | Product Description \u2010\nVariety (if applicable)\n(e.g., Small White Honeydew, Romaine, Albacore, Queso\nFresco)\n |  | pounds) |  |  |  | \n\n |  |  |  |  | \n |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving From Exempt Traceability Lot Code (which you must assign if one has not alread...",
+      "citation": "page-37",
+      "text_hash": "sha256:755485bdfa791b436999c55e9f7e8647157465d0fb379234b0b985b8c03b292f",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-37",
+          "section": "page-37",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 37,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-38-38",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 38",
+      "section": "page-38",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving From Exempt\nLocation Description for the Immediate Previous Source Location Description for the Immediate Previous Source Location Description for the Immediate Previous Source\nProduct Description \u2010\nProduct Description \u2010 (other than a transporter) \u2010 (other than a transporter) \u2010 (other than a transporter) \u2010\nPackaging Size Location Description for the Immediate Previous Source Location Description for the Immediate Previous Source Location Description for the Immediate Previous Source\nPackaging Style Business Name Phone Number Street Address or Geographic Coordinates\n(other than a transporter) \u2010 (other than a transporter) \u2010 (other than a transporter) \u2010\n(Packaging Configuration OR Count OR Weight + Unit of City State or Region ZIP or Postal Code\n(e.g., Cartons, Trays, Cases, Clamshell, etc.) (Name of the Company Operating the Location that the (Phone Number to Call the Location that the Food Arrived (Street Address or Geographic Coordinates of the Actual\nMeasure)\nFood Arrived from) from) Location from which the food was sent)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n38 of 50\n\nProduct Description \u2010\nPackaging Size\n(Packaging Configuration OR Count OR Weight + Unit of\nMeasure) | Product Description \u2010\nPackaging Style\n(e.g., Cartons, Trays, Cases, Clamshell, etc.) | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nBusiness Name\n(Name of the Company Operating the Location that the\nFood Arrived from) | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nPhone Number\n(Phone Number to Call the Location that the Food Arrived\nfrom) | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates of the Actual\nLocation from which the food was sent) | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nCity | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nState or Region | Location Description for the Immediate Previous Source\n(other than a transporter) \u2010\nZIP or Postal Code\n\n |  |  |  |  |  | \n |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving From Exempt Location Description for the Immediate Previous Source Location De...",
+      "citation": "page-38",
+      "text_hash": "sha256:98bcb898414f3035470f3629d824491c74dce02949ee054f359bba524587d190",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-38",
+          "section": "page-38",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 38,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-39-39",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 39",
+      "section": "page-39",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving From Exempt\nLocation Description for where the Food was Received (i.e., the Location Description for where the Food was Received (i.e., the Location Description for where the Food was Received (i.e.,\nTraceability Lot Code Source) \u2010 Traceability Lot Code Source) \u2010 the Traceability Lot Code Source) \u2010\nLocation Description for the Immediate Previous Source Location Description for where the Food was Received (i.e., Location Description for where the Food was Received (i.e., Location Description for where the Food was Received (i.e.,\nBusiness Name Phone Number Street Address or Geographic Coordinates\n(other than a transporter) \u2010 the Traceability Lot Code Source) \u2010 the Traceability Lot Code Source) \u2010 the Traceability Lot Code Source) \u2010\nCountry City State/Region ZIP/Postal Code\n(Name of the Company Operating the Location that Received the Food (Phone Number to Call the Location that Received the Food and where (Street Address or Geographic Coordinates of the Actual\nand where the Traceability Lot Code was assigned) the Traceability Lot Code was assigned) Location Where the Food was Received)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n39 of 50\n\nLocation Description for the Immediate Previous Source\n(other than a transporter) \u2010\nCountry | Location Description for where the Food was Received (i.e., the\nTraceability Lot Code Source) \u2010\nBusiness Name\n(Name of the Company Operating the Location that Received the Food | Location Description for where the Food was Received (i.e., the\nTraceability Lot Code Source) \u2010\nPhone Number\n(Phone Number to Call the Location that Received the Food and where | Location Description for where the Food was Received (i.e., | Location Description for where the Food was Received (i.e., | Location Description for where the Food was Received (i.e., | Location Description for where the Food was Received (i.e.,\n |  |  | the Traceability Lot Code Source) \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates of the Actual\nLocation Where the Food was Received) |  |  | \n |  |  |  | the Traceability Lot Code Source) \u2010\nCity | the Traceability Lot Code Source) \u2010\nState/Region | the Traceability Lot Code Source) \u2010\nZIP/Postal Code\n | and where the Traceability Lot Code was assigned) | the Traceability Lot Code was assigned) |  |  |  | \n\n |  |  |  |  | \n |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving From Exempt Location Description for where the Food was Received (i.e., the Lo...",
+      "citation": "page-39",
+      "text_hash": "sha256:b8c6de474d01619eb3d49abce83f2d7c9c8dbf6568307cf7c9167c6b1fb603d5",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-39",
+          "section": "page-39",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 39,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-40-40",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 40",
+      "section": "page-40",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving From Exempt\nTraceability Lot Code Source Reference (if applicable)\nReference Document Type Reference Document Type2 Reference Document Number2\nLocation Description for where the Food was Received (i.e., Reference Document Number\nReceive Date\nthe Traceability Lot Code Source) \u2010 (Shareable reference (e.g., URL, FDA FFRN) to pass along\n(mm/dd/yyyy) (e.g., Receipt of Goods, Advance Shipping Notice, Bill of (Additional reference document type related to the (Corresponding number of the additional reference\nCountry the supply chain, which FDA can use to access the Location (e.g., 24\u2010 1103\u2010 48, ASN 10212025, BOL 042520 XYZ)\nLading (BOL)) receiving of this food \u2010 if needed) document \u2010 if needed)\nDescription where the Traceability Lot Code was assigned)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n40 of 50\n\nLocation Description for where the Food was Received (i.e., | Traceability Lot Code Source Reference (if applicable)\n(Shareable reference (e.g., URL, FDA FFRN) to pass along\nthe supply chain, which FDA can use to access the Location | Receive Date\n(mm/dd/yyyy) | Reference Document Type\n(e.g., Receipt of Goods, Advance Shipping Notice, Bill of\nLading (BOL)) | Reference Document Number\n(e.g., 24\u2010 1103\u2010 48, ASN 10212025, BOL 042520 XYZ) | Reference Document Type2\n(Additional reference document type related to the\nreceiving of this food \u2010 if needed) | Reference Document Number2\n(Corresponding number of the additional reference\ndocument \u2010 if needed)\nthe Traceability Lot Code Source) \u2010\nCountry |  |  |  |  |  | \n | Description where the Traceability Lot Code was assigned) |  |  |  |  | \n\n |  |  |  |  | \n |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Receiving From Exempt Traceability Lot Code Source Reference (if applicable) Reference D...",
+      "citation": "page-40",
+      "text_hash": "sha256:9c2832dd93df684b8e2df6208f7ce694d6ffcaa51ef622a0f23a1cad6fcfff8c",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-40",
+          "section": "page-40",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 40,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-41-41",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 41",
+      "section": "page-41",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Transformation\nTraceability Lot Code for the FTL Food used in Product Description for the Incoming FTL Food used in Product Description for the Incoming FTL Food used in Product Description for the Incoming FTL Food used in Product Description for the Incoming FTL Food used in Transformation Product Description for the Incoming FTL Food used in\nTransformation (if applicable) Product Description for the Incoming FTL Food used in Transformation (if applicable) \u2010 Transformation (if applicable) \u2010 Transformation (if applicable) \u2010 (if applicable) \u2010 Transformation (if applicable) \u2010\nTransformation (if applicable) \u2010 Brand Name (if applicable) Commodity (if applicable) Variety (if applicable) Packaging Size Packaging Style\n(The Traceability Lot Code of the incoming food used in this Product Name\ntransformation) (Marketed Brand for the incoming food used in transformation) (e.g., Lettuce, Tuna) (e.g., Romaine, Albacore) (Packaging Configuration OR Count OR Weight + Unit of Measure) (e.g., Cartons, Trays, Cases, Clamshell, etc.)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n41 of 50\n\nTraceability Lot Code for the FTL Food used in\nTransformation (if applicable)\n(The Traceability Lot Code of the incoming food used in this | Product Description for the Incoming FTL Food used in\nTransformation (if applicable) \u2010\nProduct Name | Product Description for the Incoming FTL Food used in\nTransformation (if applicable) \u2010\nBrand Name (if applicable)\n(Marketed Brand for the incoming food used in transformation) | Product Description for the Incoming FTL Food used in\nTransformation (if applicable) \u2010\nCommodity (if applicable)\n(e.g., Lettuce, Tuna) | Product Description for the Incoming FTL Food used in\nTransformation (if applicable) \u2010\nVariety (if applicable)\n(e.g., Romaine, Albacore) | Product Description for the Incoming FTL Food used in Transformation | Product Description for the Incoming FTL Food used in\nTransformation (if applicable) \u2010\nPackaging Style\n(e.g., Cartons, Trays, Cases, Clamshell, etc.)\n |  |  |  |  | (if applicable) \u2010\nPackaging Size\n(Packaging Configuration OR Count OR Weight + Unit of Measure) | \ntransformation) |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Transformation Traceability Lot Code for the FTL Food used in Product Description for th...",
+      "citation": "page-41",
+      "text_hash": "sha256:c96afbb7015340f0c2ab78f2fd993b70fb6250db4ff677b77e1599d9d9a9dbae",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-41",
+          "section": "page-41",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 41,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-42-42",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 42",
+      "section": "page-42",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Transformation\nLocation Description for where you Transformed the Food Location Description for where you Transformed the Food Location Description for where you Transformed the Food\nQuantity of the food from this traceability lot that was used Unit of measure for the food from this traceability lot that (i.e., the Traceability Lot Code Source) \u2010 (i.e., the Traceability Lot Code Source) \u2010 (i.e., the Traceability Lot Code Source) \u2010\nLocation Description for where you Transformed the Food Location Description for where you Transformed the Food\nin the transformation (if applicable) was used in the transformation (if applicable) New Traceability Lot Code you assigned to the Food Business Name Phone Number Street Address or Geographic Coordinates\n(i.e., the Traceability Lot Code Source) \u2010 (i.e., the Traceability Lot Code Source) \u2010\nProduced Through Transformation\nCity State/Region\n(e.g., 6, 25, 100, 200) (e.g., cases, reusable plastic containers, tanks, pounds) (Name of the Company Operating the Location where the (Phone Number to Call the Location where the Traceability (Street Address or Geographic Coordinates of the Actual\nTraceability Lot Code was assigned) Lot Code was assigned) Location where the Food was Transformed)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n42 of 50\n\nQuantity of the food from this traceability lot that was used | Unit of measure for the food from this traceability lot that\nwas used in the transformation (if applicable)\n(e.g., cases, reusable plastic containers, tanks, pounds) | New Traceability Lot Code you assigned to the Food\nProduced Through Transformation | Location Description for where you Transformed the Food\n(i.e., the Traceability Lot Code Source) \u2010\nBusiness Name\n(Name of the Company Operating the Location where the\nTraceability Lot Code was assigned) | Location Description for where you Transformed the Food\n(i.e., the Traceability Lot Code Source) \u2010\nPhone Number\n(Phone Number to Call the Location where the Traceability | Location Description for where you Transformed the Food\n(i.e., the Traceability Lot Code Source) \u2010\nStreet Address or Geographic Coordinates\n(Street Address or Geographic Coordinates of the Actual\nLocation where the Food was Transformed) | Location Description for where you Transformed the Food\n(i.e., the Traceability Lot Code Source) \u2010\nCity | Location Description for where you Transformed the Food\n(i.e., the Traceability Lot Code Source) \u2010\nState/Region\nin the transformation (if applicable)\n(e.g., 6, 25, 100, 200) |  |  |  |  |  |  | \n |  |  |  | Lot Code was assigned) |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Transformation Location Description for where you Transformed the Food Location Descript...",
+      "citation": "page-42",
+      "text_hash": "sha256:24daf3504a354788f2fcd0916ac9d442cde83131dd8f7336820d2ca463bcd9f5",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-42",
+          "section": "page-42",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 42,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-43-43",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 43",
+      "section": "page-43",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Transformation\nProduct Description for the Food Produced through\nTraceability Lot Code Source Reference (if applicable) Product Description for the Food Produced through Product Description for the Food Produced through\nTransformation \u2010\nLocation Description for where you Transformed the Food Location Description for where you Transformed the Food Product Description for the Food Produced through Transformation \u2010 Transformation \u2010\nTransformation Completion Date Brand Name (if applicable)\n(i.e., the Traceability Lot Code Source) \u2010 (i.e., the Traceability Lot Code Source) \u2010 (Shareable reference (e.g., URL, FDA FFRN) to pass along Transformation \u2010 Commodity (if applicable) Variety (if applicable)\n(mm/dd/yyyy)\nZIP/Postal Code Country the supply chain, which FDA can use to access the Location Product Name\n(Marketed Brand of a food produced through this\nDescription where the Traceability Lot Code was assigned) (e.g., Sliced Apples, Bagged Salad, Tuna Salad, Soft Cheese) (e.g., Red Delicious, Queso Fresco)\ntransformation)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n43 of 50\n\nLocation Description for where you Transformed the Food\n(i.e., the Traceability Lot Code Source) \u2010\nZIP/Postal Code | Location Description for where you Transformed the Food\n(i.e., the Traceability Lot Code Source) \u2010\nCountry | Traceability Lot Code Source Reference (if applicable)\n(Shareable reference (e.g., URL, FDA FFRN) to pass along\nthe supply chain, which FDA can use to access the Location | Transformation Completion Date\n(mm/dd/yyyy) | Product Description for the Food Produced through\nTransformation \u2010\nProduct Name | Product Description for the Food Produced through\nTransformation \u2010\nBrand Name (if applicable)\n(Marketed Brand of a food produced through this\ntransformation) | Product Description for the Food Produced through\nTransformation \u2010\nCommodity (if applicable)\n(e.g., Sliced Apples, Bagged Salad, Tuna Salad, Soft Cheese) | Product Description for the Food Produced through\nTransformation \u2010\nVariety (if applicable)\n(e.g., Red Delicious, Queso Fresco)\n |  | Description where the Traceability Lot Code was assigned) |  |  |  |  | \n |  |  |  |  |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Transformation Product Description for the Food Produced through Traceability Lot Code S...",
+      "citation": "page-43",
+      "text_hash": "sha256:6a3b4cd690d05fd6846f9a06045a01d7d4ca89d39edd5e9464adbd993689994a",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-43",
+          "section": "page-43",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 43,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-44-44",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 44",
+      "section": "page-44",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Transformation\nProduct Description for the Food Produced through\nProduct Description for the Food Produced through\nTransformation \u2010 Unit of Measure for the Food Produced through Reference Document Number Reference Document Type2 Reference Document Number2\nTransformation \u2010 Quantity of the Food Produced through Transformation Reference Document Type\nPackaging Size Transformation\nPackaging Style\n(e.g., WO\u2010 719\u2010 2043, Batch Log 01202021, Production Log (Additional reference document type related to the (Corresponding number of the additional reference\n(e.g., 6, 25, 100, 200) (e.g., Work Order, Batch Log, Production Log)\n(Packaging Configuration OR Count OR Weight + Unit of (e.g., cases, reusable plastic containers, tanks, pounds) 123) transformation of this food \u2010 if needed) document \u2010 if needed)\n(e.g., Cartons, Trays, Cases, Clamshell, etc.)\nMeasure)\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n44 of 50\n\nProduct Description for the Food Produced through\nTransformation \u2010\nPackaging Size\n(Packaging Configuration OR Count OR Weight + Unit of\nMeasure) | Product Description for the Food Produced through\nTransformation \u2010\nPackaging Style\n(e.g., Cartons, Trays, Cases, Clamshell, etc.) | Quantity of the Food Produced through Transformation\n(e.g., 6, 25, 100, 200) | Unit of Measure for the Food Produced through\nTransformation\n(e.g., cases, reusable plastic containers, tanks, pounds) | Reference Document Type\n(e.g., Work Order, Batch Log, Production Log) | Reference Document Number\n(e.g., WO\u2010 719\u2010 2043, Batch Log 01202021, Production Log\n123) | Reference Document Type2\n(Additional reference document type related to the\ntransformation of this food \u2010 if needed) | Reference Document Number2\n(Corresponding number of the additional reference\ndocument \u2010 if needed)",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Transformation Product Description for the Food Produced through Product Description for...",
+      "citation": "page-44",
+      "text_hash": "sha256:46ff2a4d99f4ab91fd23a490381d2dad79d2df06585c4ebe104e27c0ef95e749",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-44",
+          "section": "page-44",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 44,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-45-45",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 45",
+      "section": "page-45",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Farm Purchase by RFE or Rest.\nAddress of the Farm that was the source of the Food \u2010Street Address of the Farm that was the source of the Food \u2010\nName of the Food Directly Purchased from Farm Name of the Farm that was the source of the Food\nAddress or Geographic Coordinates City\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n45 of 50\n\nName of the Food Directly Purchased from Farm | Name of the Farm that was the source of the Food | Address of the Farm that was the source of the Food \u2010Street\nAddress or Geographic Coordinates | Address of the Farm that was the source of the Food \u2010\nCity\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here |  |  | Enter your KDEs Here\n |  |  | \n |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Farm Purchase by RFE or Rest. Address of the Farm that was the source of the Food \u2010Stree...",
+      "citation": "page-45",
+      "text_hash": "sha256:df1f39392c3a6bfb717861e9d95067477d4d1d9788e04e6ccc513ca10d7fbc38",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-45",
+          "section": "page-45",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 45,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-46-46",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 46",
+      "section": "page-46",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Farm Purchase by RFE or Rest.\nAddress of the Farm that was the source of the Food \u2010 Address of the Farm that was the source of the Food \u2010 Address of the Farm that was the source of the Food \u2010\nState/Region Zip/Postal Code Country\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n46 of 50\n\nAddress of the Farm that was the source of the Food \u2010\nState/Region | Address of the Farm that was the source of the Food \u2010\nZip/Postal Code | Address of the Farm that was the source of the Food \u2010\nCountry\n | Enter your KDEs Here | Enter your KDEs Here\n |  | \n |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Farm Purchase by RFE or Rest. Address of the Farm that was the source of the Food \u2010 Addr...",
+      "citation": "page-46",
+      "text_hash": "sha256:55eba0cd81aee11c81417fb4d2ffbc46f57392ced1c9ee254c7fb0c0b271a79c",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-46",
+          "section": "page-46",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 46,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-47-47",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 47",
+      "section": "page-47",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Ad\u2010hoc RFE or Rest. Purchase\nDate of Purchase Address of the Place of Purchase \u2010\nName of the Product Purchased Name of the Place of Purchase\n(mm/dd/yyyy) Street Address or Geographic Coordinates\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n47 of 50\n\nName of the Product Purchased | Date of Purchase\n(mm/dd/yyyy) | Name of the Place of Purchase | Address of the Place of Purchase \u2010\nStreet Address or Geographic Coordinates\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here |  |  | \n |  |  | \n |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Ad\u2010hoc RFE or Rest. Purchase Date of Purchase Address of the Place of Purchase \u2010 Name of...",
+      "citation": "page-47",
+      "text_hash": "sha256:59c299d6da5854fdcacab27b0762f15ac38b0f5ab481432f46dee5a6ee896993",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-47",
+          "section": "page-47",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 47,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-48-48",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 48",
+      "section": "page-48",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Ad\u2010hoc RFE or Rest. Purchase\nAddress of the Place of Purchase \u2010 Address of the Place of Purchase \u2010 Address of the Place of Purchase \u2010 Address of the Place of Purchase \u2010\nCity State/Region Zip/Postal Code Country\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n48 of 50\n\nAddress of the Place of Purchase \u2010\nCity | Address of the Place of Purchase \u2010\nState/Region | Address of the Place of Purchase \u2010\nZip/Postal Code | Address of the Place of Purchase \u2010\nCountry\n | Enter your KDEs Here | Enter your KDEs Here | Enter your KDEs Here\n |  |  | \n |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Ad\u2010hoc RFE or Rest. Purchase Address of the Place of Purchase \u2010 Address of the Place of ...",
+      "citation": "page-48",
+      "text_hash": "sha256:55da35eb433ec5a5537e8ba774ad293da4f3dfc0fbb53b35f978f513e84b6ef9",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-48",
+          "section": "page-48",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 48,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-49-49",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 49",
+      "section": "page-49",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Farm to School or Institution\nName of the Food Obtained from a Farm through a Farm to Address of the Farm that was the source of the Food \u2010 Address of the Farm that was the source of the Food \u2010\nName of the Farm that was the source of the Food\nSchool or Farm to Institution Program Street Address or Geographic Coordinates City\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n49 of 50\n\nName of the Food Obtained from a Farm through a Farm to\nSchool or Farm to Institution Program | Name of the Farm that was the source of the Food | Address of the Farm that was the source of the Food \u2010\nStreet Address or Geographic Coordinates | Address of the Farm that was the source of the Food \u2010\nCity\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here |  |  | Enter your KDEs Here\n |  |  | \n |  |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Farm to School or Institution Name of the Food Obtained from a Farm through a Farm to Ad...",
+      "citation": "page-49",
+      "text_hash": "sha256:51df94c98069d92ca0fd373962b2ac1487785e7c887b1f174774768038ec2d6a",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-49",
+          "section": "page-49",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 49,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-sortable-spreadsheet-pdf-page-50-50",
+      "source_id": "fda-sortable-spreadsheet-pdf",
+      "section_label": "PDF page 50",
+      "section": "page-50",
+      "text": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Farm to School or Institution\nAddress of the Farm that was the source of the Food \u2010 Address of the Farm that was the source of the Food \u2010 Address of the Farm that was the source of the Food \u2010\nState/Region Zip/Postal Code Country\nEnter your KDEs Here Enter your KDEs Here Enter your KDEs Here\n50 of 50\n\nAddress of the Farm that was the source of the Food \u2010\nState/Region | Address of the Farm that was the source of the Food \u2010\nZip/Postal Code | Address of the Farm that was the source of the Food \u2010\nCountry\n | Enter your KDEs Here | Enter your KDEs Here\n |  | \n |  |",
+      "summary": "FDA FSMA Food Traceability Rule: downloadable, electronic, sortable spreadsheet template Farm to School or Institution Address of the Farm that was the source of the Food \u2010 Addr...",
+      "citation": "page-50",
+      "text_hash": "sha256:9b4b2151c57b9e2d11f7df51b901c9a52416c4d5d34ce0758d03d088976d9a7a",
+      "anchors": [
+        {
+          "source_id": "fda-sortable-spreadsheet-pdf",
+          "citation": "page-50",
+          "section": "page-50",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 50,
+          "url": "https://www.fda.gov/media/179616/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:50.887465+00:00",
+          "source_hash": "632ed553b9f2f0a2705c59e94189fd63de45a9481478bea06390285f4f5212a4"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

@@ -1,0 +1,921 @@
+[
+  {
+    "benchmark_id": "phase8:fda_scenario:cucumber",
+    "benchmark_type": "fda_supply_chain_scenario",
+    "scenario_name": "FDA cucumber supply chain example",
+    "scenario_source_id": "scenario-produce-cucumbers-slides",
+    "source_scenario_id": "scenario_scenario_produce_cucumbers_slides_page_2",
+    "food_scope": "Fresh cucumbers on the Food Traceability List",
+    "citations": [
+      {
+        "source_id": "scenario-produce-cucumbers-slides",
+        "chunk_id": "scenario-produce-cucumbers-slides-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/163054/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Supply Chain Example: Cucumbers The Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List (FTL) to"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_harvesting",
+        "cte_type": "harvesting",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the harvesting CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "business_name",
+          "commodity_and_if_applicable_variety_of_the_food",
+          "phone_number",
+          "quantity_and_unit_of_measure_of_the_food",
+          "harvesting_kdes_except_the_reference",
+          "location_description_for_the_farm_where_the_food_was_harvested_document_type_and_reference_document",
+          "for_produce_name_of_the_field_or_other_growing_area_from_which_the_food_was_harvested_must_correspon",
+          "for_aquacultured_food_name_of_the_container_e_g_pond_pool_tank_cage_from_which_the_food_was_harveste",
+          "date_of_harvesting",
+          "reference_document_type_and_reference_document_number"
+        ],
+        "expected_tlc_behavior": "Harvesting or cooling KDEs must remain available for linkage to the initial packed traceability lot."
+      },
+      {
+        "event_id": "event_2_initial_packing",
+        "cte_type": "initial_packing",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the initial packing CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+          "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+        ],
+        "expected_kde_field_keys": [
+          "commodity_and_if_applicable_variety_of_the_food_received",
+          "business_name_and_phone_number_for_the_harvester_of_the_food",
+          "date_you_received_the_food",
+          "date_of_harvesting",
+          "quantity_and_unit_of_measure_of_the_food_received",
+          "location_description_for_where_the_food_was_cooled_if_applicable",
+          "location_description_for_the_farm_where_the_food_was_harvested",
+          "date_of_cooling_if_applicable",
+          "for_produce",
+          "traceability_lot_code_you_assigned_name_of_the_field_or_other_growing_area_from_which_the_food_was_h",
+          "product_description_of_the_packed_food_must_correspond_to_the_name_used_by_the_grower_or",
+          "quantity_and_unit_of_measure_of_the_packed_food_other_information_identifying_the_harvest_location_a",
+          "location_description_for_where_you_initially_packed_the_food_i_e_traceability_lot_or_growing_area_na",
+          "for_aquacultured_food",
+          "date_of_initial_packing_name_of_the_container_e_g_pond_pool_tank_cage_from_which_the_food_was",
+          "reference_document_type_and_reference_document_number_harvested_must_correspond_to_the_container_nam",
+          "location_description_for_the_grower_of_seeds_for_sprouting_and_date_of_seed_harvesting_if_either_is",
+          "location_description_for_the_seed_conditioner_or_processor_associated_seed_lot_code_and_date_of_cond",
+          "location_description_for_the_seed_packinghouse_including_any_repackers_date_of_packing_and_repacking",
+          "location_description_for_the_seed_supplier_any_seed_lot_code_assigned_by_the_seed_supplier_including",
+          "description_of_the_seeds_including_seed_type_or_taxonomic_name_growing_specifications_type_of_packag",
+          "date_of_receipt_of_the_seeds_by_the_sprouter",
+          "reference_document_type_and_reference_document_number"
+        ],
+        "expected_tlc_behavior": "This CTE must assign the traceability lot code and link KDEs to the assigned lot."
+      },
+      {
+        "event_id": "event_3_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "product_description_for_the_food",
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "location_description_for_the_location_from_which_you_shipped_the_food",
+          "date_you_shipped_the_food",
+          "location_description_for_the_traceability_lot_code_source_or_the_traceability_lot_code_source_refere",
+          "reference_document_type_and_reference_document_number_maintain_only_this_section_does_not_apply_to_t"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      },
+      {
+        "event_id": "event_4_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already_been_assigned",
+          "product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+          "location_description_for_the_immediate_previous_source",
+          "quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+          "product_description_for_the_food",
+          "location_description_for_where_the_food_was_received",
+          "location_description_for_the_immediate_previous_source_other_than_a_transporter_for_the_food",
+          "date_you_received_the_food",
+          "location_description_for_where_the_food_was_received_i_e_traceability_lot_code_source_and_if",
+          "location_description_for_the_traceability_lot_code_source_or_applicable_traceability_lot_code_source",
+          "reference_document_type_and_reference_document_number",
+          "reference_document_type_and_reference_document_number_this_section_does_not_apply_to_receipt_of_a_fo"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      }
+    ],
+    "expected_ctes": [
+      "harvesting",
+      "initial_packing",
+      "shipping",
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+    ],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Fresh cucumbers are treated as FTL produce; harvesting, initial packing, shipping, and receiving duties must be executable.",
+    "reviewer_notes": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable."
+    ],
+    "regression_status": "regression_ready"
+  },
+  {
+    "benchmark_id": "phase8:fda_scenario:tuna",
+    "benchmark_type": "fda_supply_chain_scenario",
+    "scenario_name": "FDA wild-caught tuna supply chain example",
+    "scenario_source_id": "scenario-seafood-tuna-slides",
+    "source_scenario_id": "scenario_scenario_seafood_tuna_slides_page_2",
+    "food_scope": "Wild-caught tuna / finfish on the Food Traceability List",
+    "citations": [
+      {
+        "source_id": "scenario-seafood-tuna-slides",
+        "chunk_id": "scenario-seafood-tuna-slides-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/163055/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Supply Chain Example: Wild-Caught Tuna The Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List ("
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_first_land_based_receiving",
+        "cte_type": "first_land_based_receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the first land based receiving CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+          "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_you_assigned",
+          "species_and_or_acceptable_market_name_for_unpackaged_food_or_the_product_description_for_packaged_fo",
+          "quantity_and_unit_of_measure_of_the_food",
+          "harvest_date_range_and_locations_for_the_trip_during_which_the_food_was_caught",
+          "location_description_for_the_first_land_based_receiver_i_e_traceability_lot_code_source_and_if_appli",
+          "date_the_food_was_landed",
+          "reference_document_type_and_reference_document_number"
+        ],
+        "expected_tlc_behavior": "This CTE must assign the traceability lot code and link KDEs to the assigned lot."
+      },
+      {
+        "event_id": "event_2_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "product_description_for_the_food",
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "location_description_for_the_location_from_which_you_shipped_the_food",
+          "date_you_shipped_the_food",
+          "location_description_for_the_traceability_lot_code_source_or_the_traceability_lot_code_source_refere",
+          "reference_document_type_and_reference_document_number_maintain_only_this_section_does_not_apply_to_t"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      },
+      {
+        "event_id": "event_3_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already_been_assigned",
+          "product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+          "location_description_for_the_immediate_previous_source",
+          "quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+          "product_description_for_the_food",
+          "location_description_for_where_the_food_was_received",
+          "location_description_for_the_immediate_previous_source_other_than_a_transporter_for_the_food",
+          "date_you_received_the_food",
+          "location_description_for_where_the_food_was_received_i_e_traceability_lot_code_source_and_if",
+          "location_description_for_the_traceability_lot_code_source_or_applicable_traceability_lot_code_source",
+          "reference_document_type_and_reference_document_number",
+          "reference_document_type_and_reference_document_number_this_section_does_not_apply_to_receipt_of_a_fo"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      }
+    ],
+    "expected_ctes": [
+      "first_land_based_receiving",
+      "shipping",
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+    ],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Wild-caught tuna must include first land-based receiving before downstream shipping and receiving checks.",
+    "reviewer_notes": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable.",
+      "Regression contract requires first land-based receiving for seafood obtained from a fishing vessel."
+    ],
+    "regression_status": "regression_ready"
+  },
+  {
+    "benchmark_id": "phase8:fda_scenario:cheese",
+    "benchmark_type": "fda_supply_chain_scenario",
+    "scenario_name": "FDA soft cheese supply chain example",
+    "scenario_source_id": "scenario-cheese-slides",
+    "source_scenario_id": "scenario_scenario_cheese_slides_page_2",
+    "food_scope": "Soft cheese on the Food Traceability List",
+    "citations": [
+      {
+        "source_id": "scenario-cheese-slides",
+        "chunk_id": "scenario-cheese-slides-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/163056/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Supply Chain Example: Soft Cheese The Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List (FTL)"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_transformation",
+        "cte_type": "transformation",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the transformation CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+          "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+        ],
+        "expected_kde_field_keys": [
+          "new_traceability_lot_code_for_the_food",
+          "traceability_lot_code_for_the_food",
+          "location_description_for_where_you_transformed_the_food_i_e_the_traceability_lot_code_source_and_if",
+          "product_description_for_the_food_to_the_traceability_lot_code_source_reference_which_the_traceabilit",
+          "date_transformation_was_completed",
+          "for_each_traceability_lot_used_the",
+          "product_description_for_the_food_quantity_and_unit_of_measure_of_the",
+          "quantity_and_unit_of_measure_of_the_food_food_used_from_that_lot",
+          "reference_document_type_and_reference_document_number_for_racs_other_than_a_food_obtained_from_a_fis"
+        ],
+        "expected_tlc_behavior": "Transformation must assign a new traceability lot code for output food and preserve input lot lineage."
+      },
+      {
+        "event_id": "event_2_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "product_description_for_the_food",
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "location_description_for_the_location_from_which_you_shipped_the_food",
+          "date_you_shipped_the_food",
+          "location_description_for_the_traceability_lot_code_source_or_the_traceability_lot_code_source_refere",
+          "reference_document_type_and_reference_document_number_maintain_only_this_section_does_not_apply_to_t"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      },
+      {
+        "event_id": "event_3_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already_been_assigned",
+          "product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+          "location_description_for_the_immediate_previous_source",
+          "quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+          "product_description_for_the_food",
+          "location_description_for_where_the_food_was_received",
+          "location_description_for_the_immediate_previous_source_other_than_a_transporter_for_the_food",
+          "date_you_received_the_food",
+          "location_description_for_where_the_food_was_received_i_e_traceability_lot_code_source_and_if",
+          "location_description_for_the_traceability_lot_code_source_or_applicable_traceability_lot_code_source",
+          "reference_document_type_and_reference_document_number",
+          "reference_document_type_and_reference_document_number_this_section_does_not_apply_to_receipt_of_a_fo"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      }
+    ],
+    "expected_ctes": [
+      "transformation",
+      "shipping",
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+    ],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Soft cheese scope must trigger transformation, shipping, and receiving checks for FTL food.",
+    "reviewer_notes": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable."
+    ],
+    "regression_status": "regression_ready"
+  },
+  {
+    "benchmark_id": "phase8:fda_scenario:deli_salad_ftl_ingredients",
+    "benchmark_type": "fda_supply_chain_scenario",
+    "scenario_name": "FDA deli salad with FTL and non-FTL ingredients example",
+    "scenario_source_id": "scenario-deli-salad-slides",
+    "source_scenario_id": "scenario_scenario_deli_salad_slides_page_3",
+    "food_scope": "Ready-to-eat deli salad with FTL ingredients",
+    "citations": [
+      {
+        "source_id": "scenario-deli-salad-slides",
+        "chunk_id": "scenario-deli-salad-slides-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/173215/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Supply Chain Example: Deli salad using FTL ingredients and non-FTL ingredients In this scenario, a deli salad is made with fresh-cut celery and fresh-cut onions"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already_been_assigned",
+          "product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+          "location_description_for_the_immediate_previous_source",
+          "quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+          "product_description_for_the_food",
+          "location_description_for_where_the_food_was_received",
+          "location_description_for_the_immediate_previous_source_other_than_a_transporter_for_the_food",
+          "date_you_received_the_food",
+          "location_description_for_where_the_food_was_received_i_e_traceability_lot_code_source_and_if",
+          "location_description_for_the_traceability_lot_code_source_or_applicable_traceability_lot_code_source",
+          "reference_document_type_and_reference_document_number",
+          "reference_document_type_and_reference_document_number_this_section_does_not_apply_to_receipt_of_a_fo"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      },
+      {
+        "event_id": "event_2_transformation",
+        "cte_type": "transformation",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the transformation CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+          "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+        ],
+        "expected_kde_field_keys": [
+          "new_traceability_lot_code_for_the_food",
+          "traceability_lot_code_for_the_food",
+          "location_description_for_where_you_transformed_the_food_i_e_the_traceability_lot_code_source_and_if",
+          "product_description_for_the_food_to_the_traceability_lot_code_source_reference_which_the_traceabilit",
+          "date_transformation_was_completed",
+          "for_each_traceability_lot_used_the",
+          "product_description_for_the_food_quantity_and_unit_of_measure_of_the",
+          "quantity_and_unit_of_measure_of_the_food_food_used_from_that_lot",
+          "reference_document_type_and_reference_document_number_for_racs_other_than_a_food_obtained_from_a_fis"
+        ],
+        "expected_tlc_behavior": "Transformation must assign a new traceability lot code for output food and preserve input lot lineage."
+      },
+      {
+        "event_id": "event_3_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "product_description_for_the_food",
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "location_description_for_the_location_from_which_you_shipped_the_food",
+          "date_you_shipped_the_food",
+          "location_description_for_the_traceability_lot_code_source_or_the_traceability_lot_code_source_refere",
+          "reference_document_type_and_reference_document_number_maintain_only_this_section_does_not_apply_to_t"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      }
+    ],
+    "expected_ctes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+    ],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Ready-to-eat deli salad with FTL ingredients must preserve inbound FTL receiving and output transformation/shipping expectations.",
+    "reviewer_notes": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable."
+    ],
+    "regression_status": "regression_ready"
+  },
+  {
+    "benchmark_id": "phase8:fda_scenario:deli_salad_canned_tuna",
+    "benchmark_type": "fda_supply_chain_scenario",
+    "scenario_name": "FDA tuna salad using canned tuna example",
+    "scenario_source_id": "scenario-deli-salad-slides",
+    "source_scenario_id": "scenario_scenario_deli_salad_slides_page_4",
+    "food_scope": "Ready-to-eat deli salad using canned tuna",
+    "citations": [
+      {
+        "source_id": "scenario-deli-salad-slides",
+        "chunk_id": "scenario-deli-salad-slides-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/173215/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Supply Chain Example: Tuna salad using canned tuna In this scenario, a deli salad is made with canned tuna and non-FTL ingredients. The seafood processor cans t"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already_been_assigned",
+          "product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+          "location_description_for_the_immediate_previous_source",
+          "quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+          "product_description_for_the_food",
+          "location_description_for_where_the_food_was_received",
+          "location_description_for_the_immediate_previous_source_other_than_a_transporter_for_the_food",
+          "date_you_received_the_food",
+          "location_description_for_where_the_food_was_received_i_e_traceability_lot_code_source_and_if",
+          "location_description_for_the_traceability_lot_code_source_or_applicable_traceability_lot_code_source",
+          "reference_document_type_and_reference_document_number",
+          "reference_document_type_and_reference_document_number_this_section_does_not_apply_to_receipt_of_a_fo"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      },
+      {
+        "event_id": "event_2_transformation",
+        "cte_type": "transformation",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the transformation CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+          "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+        ],
+        "expected_kde_field_keys": [
+          "new_traceability_lot_code_for_the_food",
+          "traceability_lot_code_for_the_food",
+          "location_description_for_where_you_transformed_the_food_i_e_the_traceability_lot_code_source_and_if",
+          "product_description_for_the_food_to_the_traceability_lot_code_source_reference_which_the_traceabilit",
+          "date_transformation_was_completed",
+          "for_each_traceability_lot_used_the",
+          "product_description_for_the_food_quantity_and_unit_of_measure_of_the",
+          "quantity_and_unit_of_measure_of_the_food_food_used_from_that_lot",
+          "reference_document_type_and_reference_document_number_for_racs_other_than_a_food_obtained_from_a_fis"
+        ],
+        "expected_tlc_behavior": "Transformation must assign a new traceability lot code for output food and preserve input lot lineage."
+      },
+      {
+        "event_id": "event_3_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "product_description_for_the_food",
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "location_description_for_the_location_from_which_you_shipped_the_food",
+          "date_you_shipped_the_food",
+          "location_description_for_the_traceability_lot_code_source_or_the_traceability_lot_code_source_refere",
+          "reference_document_type_and_reference_document_number_maintain_only_this_section_does_not_apply_to_t"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      }
+    ],
+    "expected_ctes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+    ],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Canned tuna is treated as a non-FTL input in the FDA example, while finished deli salad still triggers transformation and shipping expectations.",
+    "reviewer_notes": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable.",
+      "Regression contract explicitly checks the FDA canned-tuna form-change behavior."
+    ],
+    "regression_status": "regression_ready"
+  },
+  {
+    "benchmark_id": "phase8:fda_scenario:sprouts",
+    "benchmark_type": "fda_supply_chain_scenario",
+    "scenario_name": "FDA sprouts supply chain example",
+    "scenario_source_id": "scenario-sprouts-slides",
+    "source_scenario_id": "scenario_scenario_sprouts_slides_page_3",
+    "food_scope": "Fresh sprouts on the Food Traceability List",
+    "citations": [
+      {
+        "source_id": "scenario-sprouts-slides",
+        "chunk_id": "scenario-sprouts-slides-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/177855/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Example: Sprouts Supply Chain In this scenario, fresh sprouts are being packed by the sprout grower for sale at retail. Key Data Elements (KDEs) are required fo"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_initial_packing",
+        "cte_type": "initial_packing",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the initial packing CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+          "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+        ],
+        "expected_kde_field_keys": [
+          "commodity_and_if_applicable_variety_of_the_food_received",
+          "business_name_and_phone_number_for_the_harvester_of_the_food",
+          "date_you_received_the_food",
+          "date_of_harvesting",
+          "quantity_and_unit_of_measure_of_the_food_received",
+          "location_description_for_where_the_food_was_cooled_if_applicable",
+          "location_description_for_the_farm_where_the_food_was_harvested",
+          "date_of_cooling_if_applicable",
+          "for_produce",
+          "traceability_lot_code_you_assigned_name_of_the_field_or_other_growing_area_from_which_the_food_was_h",
+          "product_description_of_the_packed_food_must_correspond_to_the_name_used_by_the_grower_or",
+          "quantity_and_unit_of_measure_of_the_packed_food_other_information_identifying_the_harvest_location_a",
+          "location_description_for_where_you_initially_packed_the_food_i_e_traceability_lot_or_growing_area_na",
+          "for_aquacultured_food",
+          "date_of_initial_packing_name_of_the_container_e_g_pond_pool_tank_cage_from_which_the_food_was",
+          "reference_document_type_and_reference_document_number_harvested_must_correspond_to_the_container_nam",
+          "location_description_for_the_grower_of_seeds_for_sprouting_and_date_of_seed_harvesting_if_either_is",
+          "location_description_for_the_seed_conditioner_or_processor_associated_seed_lot_code_and_date_of_cond",
+          "location_description_for_the_seed_packinghouse_including_any_repackers_date_of_packing_and_repacking",
+          "location_description_for_the_seed_supplier_any_seed_lot_code_assigned_by_the_seed_supplier_including",
+          "description_of_the_seeds_including_seed_type_or_taxonomic_name_growing_specifications_type_of_packag",
+          "date_of_receipt_of_the_seeds_by_the_sprouter",
+          "reference_document_type_and_reference_document_number"
+        ],
+        "expected_tlc_behavior": "This CTE must assign the traceability lot code and link KDEs to the assigned lot."
+      },
+      {
+        "event_id": "event_2_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "product_description_for_the_food",
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "location_description_for_the_location_from_which_you_shipped_the_food",
+          "date_you_shipped_the_food",
+          "location_description_for_the_traceability_lot_code_source_or_the_traceability_lot_code_source_refere",
+          "reference_document_type_and_reference_document_number_maintain_only_this_section_does_not_apply_to_t"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      },
+      {
+        "event_id": "event_3_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already_been_assigned",
+          "product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+          "location_description_for_the_immediate_previous_source",
+          "quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+          "product_description_for_the_food",
+          "location_description_for_where_the_food_was_received",
+          "location_description_for_the_immediate_previous_source_other_than_a_transporter_for_the_food",
+          "date_you_received_the_food",
+          "location_description_for_where_the_food_was_received_i_e_traceability_lot_code_source_and_if",
+          "location_description_for_the_traceability_lot_code_source_or_applicable_traceability_lot_code_source",
+          "reference_document_type_and_reference_document_number",
+          "reference_document_type_and_reference_document_number_this_section_does_not_apply_to_receipt_of_a_fo"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      }
+    ],
+    "expected_ctes": [
+      "initial_packing",
+      "shipping",
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+    ],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Fresh sprouts are FTL food; seed inputs are out of FTL scope but sprout initial-packing, shipping, and receiving checks remain required.",
+    "reviewer_notes": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable.",
+      "Regression contract checks that seed suppliers are not treated as covered FTL actors for the sprouts example."
+    ],
+    "regression_status": "regression_ready"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "_comment": "FSMA 204 traceability-plan components a covered entity must document (21 CFR 1.1315). Reviewable data, not code: when the plan requirements change, these cards are re-approved and the engine follows with no code edit. 'match_terms' are the lower-cased substrings used to locate the component row in the customer's 04_Traceability_Plan sheet; 'farm_only' components are not applicable to non-farm operations.",
+  "version": 1,
+  "citation_section": "21 CFR 1.1315",
+  "components": [
+    {"component": "record_maintenance_procedures", "match_terms": ["record_maintenance_procedure"], "label": "Record maintenance procedures", "farm_only": false},
+    {"component": "ftl_food_identification", "match_terms": ["ftl_identification_procedure"], "label": "FTL food identification procedure", "farm_only": false},
+    {"component": "tlc_assignment_procedure", "match_terms": ["tlc_assignment_procedure"], "label": "Traceability lot code assignment procedure", "farm_only": false},
+    {"component": "point_of_contact", "match_terms": ["point_of_contact"], "label": "Plan point of contact", "farm_only": false},
+    {"component": "farm_map", "match_terms": ["farm_map_available"], "label": "Farm map of growing areas", "farm_only": true},
+    {"component": "plan_update_and_retention", "match_terms": ["plan_update", "retention", "previous plan"], "label": "Plan update and retention", "farm_only": false}
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "sourceId": "fda-cte-kde-pdf",
+  "url": "https://www.fda.gov/media/163132/download?attachment",
+  "rawArtifact": "../data/regulatory/fda-cte-kde-pdf/raw/fda-cte-kde-pdf.pdf",
+  "rawTextHash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 11,
+  "chunks": [
+    {
+      "chunk_id": "fda-cte-kde-pdf-page-1-1",
+      "source_id": "fda-cte-kde-pdf",
+      "section_label": "PDF page 1",
+      "section": "page-1",
+      "text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nThe Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on\nthe Food Traceability List (FTL) to maintain and provide to their supply chain partners specific\ninformation (key data elements or KDEs) for certain critical tracking events (CTEs) in the food\u2019s\nsupply chain. This framework forms the foundation for effective and efficient tracing and clearly\ncommunicates the information that FDA needs to perform such tracing.\nThe information that firms must keep and send forward under the rule varies depending on the type\nof supply chain activities they perform with respect to an FTL food, from harvesting or production\nof the food through processing, distribution, and receipt at retail or other point of service. Central\nto the proposed requirements is the assignment, recording, and sharing of traceability lot codes for\nFTL foods, as well as linking these lot codes to other information identifying the foods as they move\nthrough the supply chain.\nGraphics on the subsequent pages provide readers with a list of KDEs required for each CTE\nperformed.\nwww.fda.gov 1\n\nFood Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nThe Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on\nthe Food Traceability List (FTL) to maintain and provide to their supply chain partners specific\ninformation (key data elements or KDEs) for certain critical tracking events (CTEs) in the food\u2019s\nsupply chain. This framework forms the foundation for effective and efficient tracing and clearly\ncommunicates the information that FDA needs to perform such tracing.\nThe information that firms must keep and send forward under the rule varies depending on the type\nof supply chain activities they perform with respect to an FTL food, from harvesting or production\nof the food through processing, distribution, and receipt at retail or other point of service. Central\nto the proposed requirements is the assignment, recording, and sharing of traceability lot codes for\nFTL foods, as well as linking these lot codes to other information identifying the foods as they move\nthrough the supply chain.\nGraphics on the subsequent pages provide readers with a list of KDEs required for each CTE\nperformed.\nwww.fda.gov 1",
+      "summary": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Packing Shipping Re...",
+      "citation": "page-1",
+      "text_hash": "sha256:aa4080fc38e6bc222fa4fe930fd2bd975aaaab2097d715337d205e7c84d73d73",
+      "anchors": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "citation": "page-1",
+          "section": "page-1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/media/163132/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:40.703020+00:00",
+          "source_hash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-cte-kde-pdf-page-2-2",
+      "source_id": "fda-cte-kde-pdf",
+      "section_label": "PDF page 2",
+      "section": "page-2",
+      "text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHHaarrvveessttiinngg (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nHarvesting KDEs (Raw agricultural commodities (RACs) not obtained from a fishing vessel) Provide to the Initial Packer\n\u2022 Location description for the immediate subsequent recipient (other than a transporter) of the food \u2022 Business name\n\u2022 Commodity and, if applicable, variety of the food \u2022 Phone number\n\u2022 Quantity and unit of measure of the food \u2022 Harvesting KDEs (except the reference\n\u2022 Location description for the farm where the food was harvested document type and reference document\nnumber)\n\u2022 For produce:\n- Name of the field or other growing area from which the food was harvested (must correspond to\nthe name used by the grower), or\n- Other information identifying the harvest location at least as precisely as field or growing area\nname\n\u2022 For aquacultured food:\n- Name of the container (e.g., pond, pool, tank, cage) from which the food was harvested (must\ncorrespond to the container name used by the aquaculture farmer), or\n- Other information identifying the harvest location at least as precisely as the container name\n\u2022 Date of harvesting\n\u2022 Reference document type and reference document number\nwww.fda.gov 2\n\nFood Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHHaarrvveessttiinngg (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nHarvesting KDEs (Raw agricultural commodities (RACs) not obtained from a fishing vessel) Provide to the Initial Packer\n\u2022 Location description for the immediate subsequent recipient (other than a transporter) of the food \u2022 Business name\n\u2022 Commodity and, if applicable, variety of the food \u2022 Phone number\n\u2022 Quantity and unit of measure of the food \u2022 Harvesting KDEs (except the reference\n\u2022 Location description for the farm where the food was harvested document type and reference document\nnumber)\n\u2022 For produce:\n- Name of the field or other growing area from which the food was harvested (must correspond to\nthe name used by the grower), or\n- Other information identifying the harvest location at least as precisely as field or growing area\nname\n\u2022 For aquacultured food:\n- Name of the container (e.g., pond, pool, tank, cage) from which the food was harvested (must\ncorrespond to the container name used by the aquaculture farmer), or\n- Other information identifying the harvest location at least as precisely as the container name\n\u2022 Date of harvesting\n\u2022 Reference document type and reference document number\nwww.fda.gov 2",
+      "summary": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability HHaarrvveessttiinngg (before Initial Packing S...",
+      "citation": "page-2",
+      "text_hash": "sha256:76410a45265969598a0d3f61f23f0aeed3be8ee6dccd8779a7c6a18780b80559",
+      "anchors": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "citation": "page-2",
+          "section": "page-2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/media/163132/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:40.703020+00:00",
+          "source_hash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-cte-kde-pdf-page-3-3",
+      "source_id": "fda-cte-kde-pdf",
+      "section_label": "PDF page 3",
+      "section": "page-3",
+      "text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCCoooolliinngg Initial\nFirst Land-Based Traceability\nHarvesting ((bbeeffoorree IInniittiiaall Packing Shipping Receiving Transformation\nReceiver Plan\nPPaacckkiinngg)) (RAC)\nCooling KDEs (RACs not obtained from a fishing vessel)\n\u2022 Location description for the immediate subsequent recipient (other than a transporter) of the food\n\u2022 Commodity and, if applicable, variety of the food\n\u2022 Quantity and unit of measure of the food\n\u2022 Location description for where you cooled the food\n\u2022 Date of cooling\n\u2022 Location description for the farm where the food was harvested\n\u2022 Reference document type and reference document number\nProvide to the Initial Packer\n\u2022 Cooling KDEs (except the reference document type and reference document number)\nwww.fda.gov 3\n\nFood Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCCoooolliinngg Initial\nFirst Land-Based Traceability\nHarvesting ((bbeeffoorree IInniittiiaall Packing Shipping Receiving Transformation\nReceiver Plan\nPPaacckkiinngg)) (RAC)\nCooling KDEs (RACs not obtained from a fishing vessel)\n\u2022 Location description for the immediate subsequent recipient (other than a transporter) of the food\n\u2022 Commodity and, if applicable, variety of the food\n\u2022 Quantity and unit of measure of the food\n\u2022 Location description for where you cooled the food\n\u2022 Date of cooling\n\u2022 Location description for the farm where the food was harvested\n\u2022 Reference document type and reference document number\nProvide to the Initial Packer\n\u2022 Cooling KDEs (except the reference document type and reference document number)\nwww.fda.gov 3",
+      "summary": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) CCoooolliinngg Initial First Land-Based Traceability Harvesting ((bbeeffoorree IInniittiiaal...",
+      "citation": "page-3",
+      "text_hash": "sha256:95723e7f73fd3de861ece0ee6c7fbf9742793e6ae24063e8dd7575c0a98e6615",
+      "anchors": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "citation": "page-3",
+          "section": "page-3",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.fda.gov/media/163132/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:40.703020+00:00",
+          "source_hash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-cte-kde-pdf-page-4-4",
+      "source_id": "fda-cte-kde-pdf",
+      "section_label": "PDF page 4",
+      "section": "page-4",
+      "text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nInitial Packing KDEs of RACs (other than a food obtained from a fishing vessel)\nKDEs must be linked to the traceability lot you assign for the food that you pack\n\u2022 Commodity and, if applicable, variety of the food received \u2022 Business name and phone number for the harvester of the food\n\u2022 Date you received the food \u2022 Date of harvesting\n\u2022 Quantity and unit of measure of the food received \u2022 Location description for where the food was cooled (if applicable)\n\u2022 Location description for the farm where the food was harvested \u2022 Date of cooling (if applicable)\n\u2022 For produce: \u2022 Traceability lot code you assigned\n- Name of the field or other growing area from which the food was harvested \u2022 Product description of the packed food\n(must correspond to the name used by the grower), or \u2022 Quantity and unit of measure of the packed food\n- Other information identifying the harvest location at least as precisely as field \u2022 Location description for where you initially packed the food (i.e., traceability lot\nor growing area name code source), and (if applicable), the traceability lot code source reference\n\u2022 For aquacultured food: \u2022 Date of initial packing\n- Name of the container (e.g., pond, pool, tank, cage) from which the food was \u2022 Reference document type and reference document number\nharvested (must correspond to the container name used by the aquaculture\nfarmer), or\n- Other information identifying the harvest location at least as precisely as the\ncontainer name\nwww.fda.gov 4\n\nFood Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nInitial Packing KDEs of RACs (other than a food obtained from a fishing vessel)\nKDEs must be linked to the traceability lot you assign for the food that you pack\n\u2022 Commodity and, if applicable, variety of the food received \u2022 Business name and phone number for the harvester of the food\n\u2022 Date you received the food \u2022 Date of harvesting\n\u2022 Quantity and unit of measure of the food received \u2022 Location description for where the food was cooled (if applicable)\n\u2022 Location description for the farm where the food was harvested \u2022 Date of cooling (if applicable)\n\u2022 For produce: \u2022 Traceability lot code you assigned\n- Name of the field or other growing area from which the food was harvested \u2022 Product description of the packed food\n(must correspond to the name used by the grower), or \u2022 Quantity and unit of measure of the packed food\n- Other information identifying the harvest location at least as precisely as field \u2022 Location description for where you initially packed the food (i.e., traceability lot\nor growing area name code source), and (if applicable), the traceability lot code source reference\n\u2022 For aquacultured food: \u2022 Date of initial packing\n- Name of the container (e.g., pond, pool, tank, cage) from which the food was \u2022 Reference document type and reference document number\nharvested (must correspond to the container name used by the aquaculture\nfarmer), or\n- Other information identifying the harvest location at least as precisely as the\ncontainer name\nwww.fda.gov 4",
+      "summary": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Packing Shipping Re...",
+      "citation": "page-4",
+      "text_hash": "sha256:2efe57a2dcfe2144e0ae8d47284b4cee1c9b00c6bd3112427d110bf32b498c41",
+      "anchors": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "citation": "page-4",
+          "section": "page-4",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 4,
+          "url": "https://www.fda.gov/media/163132/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:40.703020+00:00",
+          "source_hash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-cte-kde-pdf-page-5-5",
+      "source_id": "fda-cte-kde-pdf",
+      "section_label": "PDF page 5",
+      "section": "page-5",
+      "text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nInitial Packing KDEs (Sprouts)\nKDEs must be linked to the traceability lot for the food\nAll KDEs on previous slide AND:\n\u2022 Location description for the grower of seeds for sprouting and date of seed harvesting, if either is\navailable\n\u2022 Location description for the seed conditioner or processor, associated seed lot code, and date of\nconditioning or processing\n\u2022 Location description for the seed packinghouse (including any repackers), date of packing (and\nrepacking, if applicable), and any associated seed lot code assigned by the seed packinghouse\n\u2022 Location description for the seed supplier, any seed lot code assigned by the seed supplier\n(including master lot and sub-lot codes), and any new seed lot code assigned by the sprouter\n\u2022 Description of the seeds, including seed type or taxonomic name, growing specifications, type of\npackaging, and (if applicable) antimicrobial treatment\n\u2022 Date of receipt of the seeds by the sprouter\n\u2022 Reference document type and reference document number\nwww.fda.gov 5\n\nFood Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nInitial Packing KDEs (Sprouts)\nKDEs must be linked to the traceability lot for the food\nAll KDEs on previous slide AND:\n\u2022 Location description for the grower of seeds for sprouting and date of seed harvesting, if either is\navailable\n\u2022 Location description for the seed conditioner or processor, associated seed lot code, and date of\nconditioning or processing\n\u2022 Location description for the seed packinghouse (including any repackers), date of packing (and\nrepacking, if applicable), and any associated seed lot code assigned by the seed packinghouse\n\u2022 Location description for the seed supplier, any seed lot code assigned by the seed supplier\n(including master lot and sub-lot codes), and any new seed lot code assigned by the sprouter\n\u2022 Description of the seeds, including seed type or taxonomic name, growing specifications, type of\npackaging, and (if applicable) antimicrobial treatment\n\u2022 Date of receipt of the seeds by the sprouter\n\u2022 Reference document type and reference document number\nwww.fda.gov 5",
+      "summary": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Packing Shipping Re...",
+      "citation": "page-5",
+      "text_hash": "sha256:199b3144198e7d04c721c464b68af1648379bb5bff11a99e135bd2db0f3c24cc",
+      "anchors": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "citation": "page-5",
+          "section": "page-5",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 5,
+          "url": "https://www.fda.gov/media/163132/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:40.703020+00:00",
+          "source_hash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-cte-kde-pdf-page-6-6",
+      "source_id": "fda-cte-kde-pdf",
+      "section_label": "PDF page 6",
+      "section": "page-6",
+      "text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nInitial Packing KDEs of RACs (other than a food obtained from a fishing vessel)\nFor food you receive from a person who is exempt from the rule\nKDEs must be linked to the traceability lot for the food\n\u2022 Commodity and, if applicable, variety of the food received\n\u2022 Date you received the food\n\u2022 Quantity and unit of measure of the food received\n\u2022 Location description for the person from whom you received the food\n\u2022 Traceability lot code you assigned\n\u2022 Product description of the packed food\n\u2022 Quantity and unit of measure of the packed food\n\u2022 Location description for where you initially packed the food (i.e., the traceability lot code source),\nand (if applicable) the traceability lot code source reference\n\u2022 Date of initial packing\n\u2022 Reference document type and reference document number\nwww.fda.gov 6\n\nFood Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nInitial Packing KDEs of RACs (other than a food obtained from a fishing vessel)\nFor food you receive from a person who is exempt from the rule\nKDEs must be linked to the traceability lot for the food\n\u2022 Commodity and, if applicable, variety of the food received\n\u2022 Date you received the food\n\u2022 Quantity and unit of measure of the food received\n\u2022 Location description for the person from whom you received the food\n\u2022 Traceability lot code you assigned\n\u2022 Product description of the packed food\n\u2022 Quantity and unit of measure of the packed food\n\u2022 Location description for where you initially packed the food (i.e., the traceability lot code source),\nand (if applicable) the traceability lot code source reference\n\u2022 Date of initial packing\n\u2022 Reference document type and reference document number\nwww.fda.gov 6",
+      "summary": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Packing Shipping Re...",
+      "citation": "page-6",
+      "text_hash": "sha256:32a3f68e5ac3e03de1e58dcf674008d296a96de8bc3fa18b4aa0ec9a9a5a18b9",
+      "anchors": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "citation": "page-6",
+          "section": "page-6",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 6,
+          "url": "https://www.fda.gov/media/163132/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:40.703020+00:00",
+          "source_hash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-cte-kde-pdf-page-7-7",
+      "source_id": "fda-cte-kde-pdf",
+      "section_label": "PDF page 7",
+      "section": "page-7",
+      "text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nFirst Land-Based Receiver KDEs (food obtained from a fishing vessel)\nKDEs must be linked to the traceability lot for the food\n\u2022 Traceability lot code you assigned\n\u2022 Species and/or acceptable market name for unpackaged food, or the product description for\npackaged food\n\u2022 Quantity and unit of measure of the food\n\u2022 Harvest date range and locations for the trip during which the food was caught\n\u2022 Location description for the first land-based receiver (i.e., traceability lot code source), and (if\napplicable) traceability lot code source reference\n\u2022 Date the food was landed\n\u2022 Reference document type and reference document number\nwww.fda.gov 7\n\nFood Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nFirst Land-Based Receiver KDEs (food obtained from a fishing vessel)\nKDEs must be linked to the traceability lot for the food\n\u2022 Traceability lot code you assigned\n\u2022 Species and/or acceptable market name for unpackaged food, or the product description for\npackaged food\n\u2022 Quantity and unit of measure of the food\n\u2022 Harvest date range and locations for the trip during which the food was caught\n\u2022 Location description for the first land-based receiver (i.e., traceability lot code source), and (if\napplicable) traceability lot code source reference\n\u2022 Date the food was landed\n\u2022 Reference document type and reference document number\nwww.fda.gov 7",
+      "summary": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Packing Shipping Re...",
+      "citation": "page-7",
+      "text_hash": "sha256:09731936ede97a1e4837275e486e556f9dd0a35f2b2f2eacc8e99d33e1909afb",
+      "anchors": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "citation": "page-7",
+          "section": "page-7",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.fda.gov/media/163132/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:40.703020+00:00",
+          "source_hash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-cte-kde-pdf-page-8-8",
+      "source_id": "fda-cte-kde-pdf",
+      "section_label": "PDF page 8",
+      "section": "page-8",
+      "text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nShipping KDEs (maintain and provide)\nKDEs must be linked to the traceability lot for the food\n\u2022 Traceability lot code for the food\n\u2022 Quantity and unit of measure of the food\n\u2022 Product description for the food\n\u2022 Location description for the immediate subsequent recipient (other than a transporter) of the food\n\u2022 Location description for the location from which you shipped the food\n\u2022 Date you shipped the food\n\u2022 Location description for the traceability lot code source or the traceability lot code source reference\n\u2022 Reference document type and reference document number (maintain only)\n*This section does not apply to the shipment of a food that occurs before the food is initially\npacked (if the food is a raw agricultural commodity not obtained from a fishing vessel).\nwww.fda.gov 8\n\nFood Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nShipping KDEs (maintain and provide)\nKDEs must be linked to the traceability lot for the food\n\u2022 Traceability lot code for the food\n\u2022 Quantity and unit of measure of the food\n\u2022 Product description for the food\n\u2022 Location description for the immediate subsequent recipient (other than a transporter) of the food\n\u2022 Location description for the location from which you shipped the food\n\u2022 Date you shipped the food\n\u2022 Location description for the traceability lot code source or the traceability lot code source reference\n\u2022 Reference document type and reference document number (maintain only)\n*This section does not apply to the shipment of a food that occurs before the food is initially\npacked (if the food is a raw agricultural commodity not obtained from a fishing vessel).\nwww.fda.gov 8",
+      "summary": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Packing Shipping Re...",
+      "citation": "page-8",
+      "text_hash": "sha256:5bf00e5edc20abe7cf75567a69171b17e47d1d658385a3c2da8675e682928658",
+      "anchors": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "citation": "page-8",
+          "section": "page-8",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 8,
+          "url": "https://www.fda.gov/media/163132/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:40.703020+00:00",
+          "source_hash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-cte-kde-pdf-page-9-9",
+      "source_id": "fda-cte-kde-pdf",
+      "section_label": "PDF page 9",
+      "section": "page-9",
+      "text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nReceiving KDEs Receiving KDEs\nKDEs must be linked to the traceability lot for the food For food you receive from a person who is exempt from the rule\nKDEs must be linked to the traceability lot for the food\n\u2022 Traceability lot code for the food\n\u2022 Quantity and unit of measure of the food \u2022 Traceability lot code for the food, which you must assign if one has not already been assigned\n\u2022 Product description for the food (does not apply to RFEs or restaurants)\n\u2022 Location description for the immediate previous source \u2022 Quantity and unit of measure of the food\n(other than a transporter) for the food \u2022 Product description for the food\n\u2022 Location description for where the food was received \u2022 Location description for the immediate previous source (other than a transporter) for the food\n\u2022 Date you received the food \u2022 Location description for where the food was received (i.e, traceability lot code source) and (if\n\u2022 Location description for the traceability lot code source or applicable) traceability lot code source reference\nthe traceability lot code source reference \u2022 Date you received the food\n\u2022 Reference document type and reference document number \u2022 Reference document type and reference document number\n*This section does not apply to receipt of a food that occurs before the food is initially packed (if the food is a raw agricultural commodity not obtained from a\nfishing vessel) or to the receipt of a food by the first land-based receiver (if the food is obtained from a fishing vessel).\nwww.fda.gov 9\n\nFood Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nReceiving KDEs Receiving KDEs\nKDEs must be linked to the traceability lot for the food For food you receive from a person who is exempt from the rule\nKDEs must be linked to the traceability lot for the food\n\u2022 Traceability lot code for the food\n\u2022 Quantity and unit of measure of the food \u2022 Traceability lot code for the food, which you must assign if one has not already been assigned\n\u2022 Product description for the food (does not apply to RFEs or restaurants)\n\u2022 Location description for the immediate previous source \u2022 Quantity and unit of measure of the food\n(other than a transporter) for the food \u2022 Product description for the food\n\u2022 Location description for where the food was received \u2022 Location description for the immediate previous source (other than a transporter) for the food\n\u2022 Date you received the food \u2022 Location description for where the food was received (i.e, traceability lot code source) and (if\n\u2022 Location description for the traceability lot code source or applicable) traceability lot code source reference\nthe traceability lot code source reference \u2022 Date you received the food\n\u2022 Reference document type and reference document number \u2022 Reference document type and reference document number\n*This section does not apply to receipt of a food that occurs before the food is initially packed (if the food is a raw agricultural commodity not obtained from a\nfishing vessel) or to the receipt of a food by the first land-based receiver (if the food is obtained from a fishing vessel).\nwww.fda.gov 9",
+      "summary": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Packing Shipping Re...",
+      "citation": "page-9",
+      "text_hash": "sha256:13b0cf9bb28863e5e38e7d9cf81ec5106875701fdb72503fc16aa81c4d032674",
+      "anchors": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "citation": "page-9",
+          "section": "page-9",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 9,
+          "url": "https://www.fda.gov/media/163132/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:40.703020+00:00",
+          "source_hash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-cte-kde-pdf-page-10-10",
+      "source_id": "fda-cte-kde-pdf",
+      "section_label": "PDF page 10",
+      "section": "page-10",
+      "text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nTransformation KDEs Transformation KDEs\nFTL food(s) used as ingredient(s) New food produced\nKDEs must be linked to the new KDEs must be linked to the new traceability lot for the food\ntraceability lot for the food\n\u2022 New traceability lot code for the food\n\u2022 Traceability lot code for the food \u2022 Location description for where you transformed the food (i.e., the traceability lot code source), and (if applicable)\n\u2022 Product description for the food to the traceability lot code source reference\nwhich the traceability lot code applies \u2022 Date transformation was completed\n\u2022 For each traceability lot used, the \u2022 Product description for the food\nquantity and unit of measure of the\n\u2022 Quantity and unit of measure of the food\nfood used from that lot\n\u2022 Reference document type and reference document number\nFor RACs (other than a food obtained from a fishing vessel) that were not initially packed prior to your transformation of\nthe food, you must maintain records containing the information specified in \u00a7 1.1330(a) or (c).\nFor sprouts that were not initially packed prior to your transformation of the food, you must maintain records containing\nthe information specified in \u00a7 1.1330(a) or (c), and also \u00a7 1.1330(b).\n*This section does not apply to retail food establishments and restaurants with respect to foods they do not ship\n(e.g., foods they sell or send directly to consumers).\nwww.fda.gov 10\n\nFood Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based Traceability\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver Plan\nPacking) (RAC)\nTransformation KDEs Transformation KDEs\nFTL food(s) used as ingredient(s) New food produced\nKDEs must be linked to the new KDEs must be linked to the new traceability lot for the food\ntraceability lot for the food\n\u2022 New traceability lot code for the food\n\u2022 Traceability lot code for the food \u2022 Location description for where you transformed the food (i.e., the traceability lot code source), and (if applicable)\n\u2022 Product description for the food to the traceability lot code source reference\nwhich the traceability lot code applies \u2022 Date transformation was completed\n\u2022 For each traceability lot used, the \u2022 Product description for the food\nquantity and unit of measure of the\n\u2022 Quantity and unit of measure of the food\nfood used from that lot\n\u2022 Reference document type and reference document number\nFor RACs (other than a food obtained from a fishing vessel) that were not initially packed prior to your transformation of\nthe food, you must maintain records containing the information specified in \u00a7 1.1330(a) or (c).\nFor sprouts that were not initially packed prior to your transformation of the food, you must maintain records containing\nthe information specified in \u00a7 1.1330(a) or (c), and also \u00a7 1.1330(b).\n*This section does not apply to retail food establishments and restaurants with respect to foods they do not ship\n(e.g., foods they sell or send directly to consumers).\nwww.fda.gov 10",
+      "summary": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based Traceability Harvesting (before Initial Packing Shipping Re...",
+      "citation": "page-10",
+      "text_hash": "sha256:e64ef5de7b9380415f49ecdf1c5b14fb1808a69861ebdf22ca6412facceeb1af",
+      "anchors": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "citation": "page-10",
+          "section": "page-10",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 10,
+          "url": "https://www.fda.gov/media/163132/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:40.703020+00:00",
+          "source_hash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-cte-kde-pdf-page-11-11",
+      "source_id": "fda-cte-kde-pdf",
+      "section_label": "PDF page 11",
+      "section": "page-11",
+      "text": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based TTrraacceeaabbiilliittyy\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver PPllaann\nPacking) (RAC)\nTraceability Plan\nRequired for all persons covered by the rule\n\u2022 Description of the procedures you use to maintain the required records, including the format and\nlocation of the records\n\u2022 Description of the procedures you use to identify foods on the FTL that you manufacture, process,\npack or hold\n\u2022 Description of how you assign traceability lot codes to foods on the FTL, if applicable\n\u2022 Statement identifying a point of contact for questions regarding your traceability plan and records\n\u2022 If you grow or raise a food on the FTL (other than eggs), a farm map showing the areas in which\nyou grow or raise such foods\n- The farm map must show the location and name of each field (or other growing area) in which\nyou grow a food on the FTL, including geographic coordinates and any other information\nneeded to identify the location of each field or growing area\n- For aquaculture farms, the farm map must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the FTL, including the geographic\ncoordinates and any other information needed to identify the location of each container\n\u2022 You must update your traceability plan as needed to ensure that the information reflects your\ncurrent practices and to ensure you are in compliance with the rule\n\u2022 You must retain your previous traceability plan for 2 years after you update the plan\nwww.fda.gov 11\n\nFood Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs)\nCooling Initial\nFirst Land-Based TTrraacceeaabbiilliittyy\nHarvesting (before Initial Packing Shipping Receiving Transformation\nReceiver PPllaann\nPacking) (RAC)\nTraceability Plan\nRequired for all persons covered by the rule\n\u2022 Description of the procedures you use to maintain the required records, including the format and\nlocation of the records\n\u2022 Description of the procedures you use to identify foods on the FTL that you manufacture, process,\npack or hold\n\u2022 Description of how you assign traceability lot codes to foods on the FTL, if applicable\n\u2022 Statement identifying a point of contact for questions regarding your traceability plan and records\n\u2022 If you grow or raise a food on the FTL (other than eggs), a farm map showing the areas in which\nyou grow or raise such foods\n- The farm map must show the location and name of each field (or other growing area) in which\nyou grow a food on the FTL, including geographic coordinates and any other information\nneeded to identify the location of each field or growing area\n- For aquaculture farms, the farm map must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the FTL, including the geographic\ncoordinates and any other information needed to identify the location of each container\n\u2022 You must update your traceability plan as needed to ensure that the information reflects your\ncurrent practices and to ensure you are in compliance with the rule\n\u2022 You must retain your previous traceability plan for 2 years after you update the plan\nwww.fda.gov 11",
+      "summary": "Food Traceability Rule: Critical Tracking Events (CTEs) and Key Data Elements (KDEs) Cooling Initial First Land-Based TTrraacceeaabbiilliittyy Harvesting (before Initial Packing...",
+      "citation": "page-11",
+      "text_hash": "sha256:a2e9bd62b6318c16b6b1438975434e980a5690547fe43c1bf7a857d1df54f48d",
+      "anchors": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "citation": "page-11",
+          "section": "page-11",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 11,
+          "url": "https://www.fda.gov/media/163132/download?attachment",
+          "retrieved_at": "2026-06-16T05:48:40.703020+00:00",
+          "source_hash": "c3935b2018842bd801186cbc16af9928257578219b42cda511f51921708a5f74"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

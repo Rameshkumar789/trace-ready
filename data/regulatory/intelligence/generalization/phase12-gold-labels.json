@@ -1,0 +1,3522 @@
+[
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:shipping_b2b:fresh_basil:001"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:receiving_b2b:fresh_basil:002"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "first_land_based_receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "negative_cte_expectations": [
+      "receiving"
+    ],
+    "scenario_id": "phase12:first_land_seafood:fresh_basil:003"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:transformation_ftl:fresh_basil:004"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:direct_consumer:fresh_basil:005"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "canned",
+        "shelf_stable"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": false,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "transformation"
+    ],
+    "scenario_id": "phase12:non_ftl_transformation:fresh_basil:006"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "transporter",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:transporter_only:fresh_basil:007"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:internal_transfer:fresh_basil:008"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:return_correction:fresh_basil:009"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "unknown",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "cooling",
+      "first_land_based_receiving",
+      "harvesting",
+      "initial_packing",
+      "receiving",
+      "shipping",
+      "transformation"
+    ],
+    "scenario_id": "phase12:traceability_plan:fresh_basil:010"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "harvester",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:harvesting:fresh_basil:011"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "cooler",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "cooling"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:cooling:fresh_basil:012"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "initial_packer",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:initial_packing:fresh_basil:013"
+  },
+  {
+    "expected_abstentions": [
+      "transformation"
+    ],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "canned",
+        "shelf_stable"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": false,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "transformation"
+    ],
+    "scenario_id": "phase12:kill_step_uncertainty:fresh_basil:014"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.52,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture",
+        "phase12 exemption_claim_shipping"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:exemption_claim_shipping:fresh_basil:015"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "unknown",
+    "expected_actor_role_review": true,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:ambiguous_actor_receiving:fresh_basil:016"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.52,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture",
+        "phase12 food_scope_review_shipping"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:food_scope_review_shipping:fresh_basil:017"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:restaurant_receiving:fresh_basil:018"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:distribution_crossdock:fresh_basil:019"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Basil",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:seafood_processor_shipping:fresh_basil:020"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:shipping_b2b:fresh_tuna:021"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:receiving_b2b:fresh_tuna:022"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "first_land_based_receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "negative_cte_expectations": [
+      "receiving"
+    ],
+    "scenario_id": "phase12:first_land_seafood:fresh_tuna:023"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:transformation_ftl:fresh_tuna:024"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:direct_consumer:fresh_tuna:025"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "canned",
+        "shelf_stable"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": false,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "transformation"
+    ],
+    "scenario_id": "phase12:non_ftl_transformation:fresh_tuna:026"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "transporter",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:transporter_only:fresh_tuna:027"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:internal_transfer:fresh_tuna:028"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:return_correction:fresh_tuna:029"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "unknown",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "cooling",
+      "first_land_based_receiving",
+      "harvesting",
+      "initial_packing",
+      "receiving",
+      "shipping",
+      "transformation"
+    ],
+    "scenario_id": "phase12:traceability_plan:fresh_tuna:030"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "harvester",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:harvesting:fresh_tuna:031"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "cooler",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "cooling"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:cooling:fresh_tuna:032"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "initial_packer",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:initial_packing:fresh_tuna:033"
+  },
+  {
+    "expected_abstentions": [
+      "transformation"
+    ],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "canned",
+        "shelf_stable"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": false,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "transformation"
+    ],
+    "scenario_id": "phase12:kill_step_uncertainty:fresh_tuna:034"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.52,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture",
+        "phase12 exemption_claim_shipping"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:exemption_claim_shipping:fresh_tuna:035"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "unknown",
+    "expected_actor_role_review": true,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:ambiguous_actor_receiving:fresh_tuna:036"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.52,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture",
+        "phase12 food_scope_review_shipping"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:food_scope_review_shipping:fresh_tuna:037"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:restaurant_receiving:fresh_tuna:038"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:distribution_crossdock:fresh_tuna:039"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Tuna",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Tuna",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:seafood_processor_shipping:fresh_tuna:040"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:shipping_b2b:soft_cheese:041"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:receiving_b2b:soft_cheese:042"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "first_land_based_receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "negative_cte_expectations": [
+      "receiving"
+    ],
+    "scenario_id": "phase12:first_land_seafood:soft_cheese:043"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:transformation_ftl:soft_cheese:044"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:direct_consumer:soft_cheese:045"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "canned",
+        "shelf_stable"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": false,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "transformation"
+    ],
+    "scenario_id": "phase12:non_ftl_transformation:soft_cheese:046"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "transporter",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:transporter_only:soft_cheese:047"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:internal_transfer:soft_cheese:048"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:return_correction:soft_cheese:049"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "unknown",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "cooling",
+      "first_land_based_receiving",
+      "harvesting",
+      "initial_packing",
+      "receiving",
+      "shipping",
+      "transformation"
+    ],
+    "scenario_id": "phase12:traceability_plan:soft_cheese:050"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "harvester",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:harvesting:soft_cheese:051"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "cooler",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "cooling"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:cooling:soft_cheese:052"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "initial_packer",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:initial_packing:soft_cheese:053"
+  },
+  {
+    "expected_abstentions": [
+      "transformation"
+    ],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "canned",
+        "shelf_stable"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": false,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "transformation"
+    ],
+    "scenario_id": "phase12:kill_step_uncertainty:soft_cheese:054"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.52,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture",
+        "phase12 exemption_claim_shipping"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:exemption_claim_shipping:soft_cheese:055"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "unknown",
+    "expected_actor_role_review": true,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:ambiguous_actor_receiving:soft_cheese:056"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.52,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture",
+        "phase12 food_scope_review_shipping"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:food_scope_review_shipping:soft_cheese:057"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:restaurant_receiving:soft_cheese:058"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:distribution_crossdock:soft_cheese:059"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Soft Cheese",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Soft Cheese",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:seafood_processor_shipping:soft_cheese:060"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:shipping_b2b:fresh_cucumber:061"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:receiving_b2b:fresh_cucumber:062"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "first_land_based_receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "negative_cte_expectations": [
+      "receiving"
+    ],
+    "scenario_id": "phase12:first_land_seafood:fresh_cucumber:063"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:transformation_ftl:fresh_cucumber:064"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:direct_consumer:fresh_cucumber:065"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "canned",
+        "shelf_stable"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": false,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "transformation"
+    ],
+    "scenario_id": "phase12:non_ftl_transformation:fresh_cucumber:066"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "transporter",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:transporter_only:fresh_cucumber:067"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:internal_transfer:fresh_cucumber:068"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:return_correction:fresh_cucumber:069"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "unknown",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "cooling",
+      "first_land_based_receiving",
+      "harvesting",
+      "initial_packing",
+      "receiving",
+      "shipping",
+      "transformation"
+    ],
+    "scenario_id": "phase12:traceability_plan:fresh_cucumber:070"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "harvester",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:harvesting:fresh_cucumber:071"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "cooler",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "cooling"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:cooling:fresh_cucumber:072"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "initial_packer",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:initial_packing:fresh_cucumber:073"
+  },
+  {
+    "expected_abstentions": [
+      "transformation"
+    ],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "canned",
+        "shelf_stable"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": false,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "transformation"
+    ],
+    "scenario_id": "phase12:kill_step_uncertainty:fresh_cucumber:074"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.52,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture",
+        "phase12 exemption_claim_shipping"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:exemption_claim_shipping:fresh_cucumber:075"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "unknown",
+    "expected_actor_role_review": true,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:ambiguous_actor_receiving:fresh_cucumber:076"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.52,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture",
+        "phase12 food_scope_review_shipping"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:food_scope_review_shipping:fresh_cucumber:077"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:restaurant_receiving:fresh_cucumber:078"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:distribution_crossdock:fresh_cucumber:079"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Cucumber",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Cucumber",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:seafood_processor_shipping:fresh_cucumber:080"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:shipping_b2b:fresh_sprouts:081"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:receiving_b2b:fresh_sprouts:082"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "first_land_based_receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "first_land_based_receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [
+      "receiving"
+    ],
+    "negative_cte_expectations": [
+      "receiving"
+    ],
+    "scenario_id": "phase12:first_land_seafood:fresh_sprouts:083"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "transformation"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:transformation_ftl:fresh_sprouts:084"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:direct_consumer:fresh_sprouts:085"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "canned",
+        "shelf_stable"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": false,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "transformation"
+    ],
+    "scenario_id": "phase12:non_ftl_transformation:fresh_sprouts:086"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "transporter",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:transporter_only:fresh_sprouts:087"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [
+      "shipping"
+    ],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:internal_transfer:fresh_sprouts:088"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:return_correction:fresh_sprouts:089"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "unknown",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "traceability_plan"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "first_land_based_receiving",
+      "shipping",
+      "receiving",
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "cooling",
+      "first_land_based_receiving",
+      "harvesting",
+      "initial_packing",
+      "receiving",
+      "shipping",
+      "transformation"
+    ],
+    "scenario_id": "phase12:traceability_plan:fresh_sprouts:090"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "harvester",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:harvesting:fresh_sprouts:091"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "cooler",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "cooling"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:cooling:fresh_sprouts:092"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "initial_packer",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:initial_packing:fresh_sprouts:093"
+  },
+  {
+    "expected_abstentions": [
+      "transformation"
+    ],
+    "expected_actor_role": "processor",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "canned",
+        "shelf_stable"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": false,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [
+      "transformation"
+    ],
+    "negative_cte_expectations": [
+      "transformation"
+    ],
+    "scenario_id": "phase12:kill_step_uncertainty:fresh_sprouts:094"
+  },
+  {
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [],
+    "expected_food_form": {
+      "confidence": 0.52,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture",
+        "phase12 exemption_claim_shipping"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [
+      "shipping"
+    ],
+    "scenario_id": "phase12:exemption_claim_shipping:fresh_sprouts:095"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "unknown",
+    "expected_actor_role_review": true,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:ambiguous_actor_receiving:fresh_sprouts:096"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.52,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture",
+        "phase12 food_scope_review_shipping"
+      ],
+      "review_required": true
+    },
+    "expected_food_scope_review": true,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:food_scope_review_shipping:fresh_sprouts:097"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "receiver",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:restaurant_receiving:fresh_sprouts:098"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:distribution_crossdock:fresh_sprouts:099"
+  },
+  {
+    "expected_abstentions": [],
+    "expected_actor_role": "shipper",
+    "expected_actor_role_review": false,
+    "expected_citation_required": true,
+    "expected_ctes": [
+      "shipping"
+    ],
+    "expected_food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": "benchmark",
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Sprouts",
+      "reasons": [
+        "benchmark fixture"
+      ],
+      "review_required": false
+    },
+    "expected_food_scope_review": false,
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_product_name": "Fresh Sprouts",
+    "expected_suppressed_ctes": [],
+    "negative_cte_expectations": [],
+    "scenario_id": "phase12:seafood_processor_shipping:fresh_sprouts:100"
+  }
+]

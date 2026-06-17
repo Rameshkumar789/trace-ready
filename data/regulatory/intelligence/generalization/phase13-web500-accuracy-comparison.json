@@ -1,0 +1,141 @@
+{
+  "baseline": {
+    "error_counts": {
+      "missed_cte": 58,
+      "missing_abstention": 10,
+      "over_triggered_cte": 77
+    },
+    "exact_match_rate": 0.716,
+    "fail_count": 142,
+    "false_negative_rate": 0.1611,
+    "false_positive_rate": 0.2115,
+    "pass_count": 358,
+    "precision": 0.7885,
+    "precision_by_cte": {
+      "harvesting": 1.0,
+      "initial_packing": 1.0,
+      "receiving": 1.0,
+      "shipping": 0.7059,
+      "transformation": 0.7669
+    },
+    "recall": 0.8389,
+    "recall_by_cte": {
+      "harvesting": 1.0,
+      "initial_packing": 1.0,
+      "receiving": 0.8571,
+      "shipping": 0.9231,
+      "transformation": 0.7286
+    },
+    "record_count": 500
+  },
+  "baselineMetricsSource": "original phase12-web500 run before Phase 13 deterministic parser changes",
+  "changesTested": [
+    "shipping hard negatives and weak-document movement suppression",
+    "transformation synonym expansion with lineage/manufacturing context",
+    "transporter/internal/correction/return abstention expansion",
+    "targeted receiving/shipping recall restoration for public logistics phrases"
+  ],
+  "dataset": "phase12-web500-public-source-derived-fixed-challenge-set",
+  "delta": {
+    "exact_match_rate": 0.284,
+    "fail_count": -142,
+    "false_negative_rate": -0.1611,
+    "false_positive_rate": -0.2115,
+    "pass_count": 142,
+    "precision": 0.2115,
+    "recall": 0.1611
+  },
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "importantLimitations": [
+    "This comparison is against the same 500-row source-derived challenge set used to diagnose failures, so it measures regression closure rather than fresh holdout generalization.",
+    "The post-change 100% result should not be treated as production accuracy on arbitrary customer data.",
+    "Next gate must run a fresh held-out web/customer-like challenge set and report auto-approved precision separately from review-routed coverage."
+  ],
+  "nextRecommendedGate": {
+    "minimumAcceptance": {
+      "auto_approved_precision": ">=0.95",
+      "exact_match_rate": ">=0.85",
+      "no_known_false_positive_regression": "required",
+      "recall": ">=0.90 or review-routed with explicit abstention reason"
+    },
+    "name": "fresh_holdout_web500_or_customer_like_eval"
+  },
+  "phase": "13-parser-accuracy-improvement",
+  "postChangeMetricsSource": "data/regulatory/intelligence/generalization/phase12-web500-metrics.json",
+  "post_change": {
+    "by_source": {
+      "BioTrak food-chain logistics paper": {
+        "count": 100,
+        "fail": 0,
+        "pass": 100
+      },
+      "GS1 EPCIS Standard": {
+        "count": 70,
+        "fail": 0,
+        "pass": 70
+      },
+      "Open Food Facts article": {
+        "count": 50,
+        "fail": 0,
+        "pass": 50
+      },
+      "Produce traceability article": {
+        "count": 70,
+        "fail": 0,
+        "pass": 70
+      },
+      "SmartProduct EPCIS/IoT paper": {
+        "count": 90,
+        "fail": 0,
+        "pass": 90
+      },
+      "Token Recipes manufacturing traceability paper": {
+        "count": 60,
+        "fail": 0,
+        "pass": 60
+      },
+      "Traceability article": {
+        "count": 60,
+        "fail": 0,
+        "pass": 60
+      }
+    },
+    "error_counts": {},
+    "exact_match_rate": 1.0,
+    "fail_count": 0,
+    "false_negative_by_cte": {
+      "harvesting": 0,
+      "initial_packing": 0,
+      "receiving": 0,
+      "shipping": 0,
+      "transformation": 0
+    },
+    "false_negative_rate": 0.0,
+    "false_positive_by_cte": {
+      "harvesting": 0,
+      "initial_packing": 0,
+      "receiving": 0,
+      "shipping": 0,
+      "transformation": 0
+    },
+    "false_positive_rate": 0.0,
+    "pass_count": 500,
+    "precision": 1.0,
+    "precision_by_cte": {
+      "harvesting": 1.0,
+      "initial_packing": 1.0,
+      "receiving": 1.0,
+      "shipping": 1.0,
+      "transformation": 1.0
+    },
+    "recall": 1.0,
+    "recall_by_cte": {
+      "harvesting": 1.0,
+      "initial_packing": 1.0,
+      "receiving": 1.0,
+      "shipping": 1.0,
+      "transformation": 1.0
+    },
+    "record_count": 500
+  }
+}

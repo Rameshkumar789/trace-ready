@@ -1,0 +1,445 @@
+{
+  "sourceId": "fda-tabletop-exercises-report",
+  "url": "https://www.fda.gov/media/192993/download?attachment",
+  "rawArtifact": "../data/regulatory/fda-tabletop-exercises-report/raw/fda-tabletop-exercises-report.pdf",
+  "rawTextHash": "c111704bd7643ea5c39c13be5cd32584dfe73ed4dea8bcfb29ea184905f62fd0",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 10,
+  "chunks": [
+    {
+      "chunk_id": "fda-tabletop-exercises-report-page-1-1",
+      "source_id": "fda-tabletop-exercises-report",
+      "section_label": "PDF page 1",
+      "section": "page-1",
+      "text": "FDA Traceability Readiness Tabletop\nExercises Final Report",
+      "summary": "FDA Traceability Readiness Tabletop Exercises Final Report",
+      "citation": "page-1",
+      "text_hash": "sha256:acdf4b5572a9c084270dcf8c60721eca897c945e8adbd4791672bd663630b198",
+      "anchors": [
+        {
+          "source_id": "fda-tabletop-exercises-report",
+          "citation": "page-1",
+          "section": "page-1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/media/192993/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:15.760238+00:00",
+          "source_hash": "c111704bd7643ea5c39c13be5cd32584dfe73ed4dea8bcfb29ea184905f62fd0"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-tabletop-exercises-report-page-2-2",
+      "source_id": "fda-tabletop-exercises-report",
+      "section_label": "PDF page 2",
+      "section": "page-2",
+      "text": "Executive Summary:\nThe U.S. Food and Drug Administration (FDA) Food Traceability Rule (FTR)\u2014established\nunder Section 204 of the FDA Food Safety Modernization Act (FSMA)\u2014requires covered\nentities that manufacture, process, pack, or hold foods on the FDA Food Traceability List\n(FTL) to maintain additional records that allow FDA to more rapidly and accurately trace food\nthrough the supply chain.\nTo help the food industry prepare for this requirement and to fulfill a Congressional directive\nunder the Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and\nVeterans Affairs, and Extensions Act, 2026 (P.L. 119-37), FDA conducted a series of Traceability\nReadiness Tabletop Exercises (hereafter referred to as \u201cexercises\u201d) between March 9 and April 1,\n2026. This report summarizes the findings and is publicly posted in accordance with that\ndirective.\nFifteen companies voluntarily participated across six supply chain scenarios, spanning producers,\nprocessors, distributors, retail food establishments, and restaurants. Exercises centered on a\nrequest from FDA asking firms to provide traceability records in an electronic sortable\nspreadsheet within 24 hours, along with a Traceability Plan (if available). Participants\nwere instructed that they could invite technology partners to support their efforts in these\nexercises. FDA analyzed submissions by assessing Key Data Element (KDE) availability for\neach Critical Tracking Event (CTE) the firms performed.\nThe exercises revealed meaningful progress toward meeting FTR requirements alongside\nsignificant gaps in information retention and sharing. For example:\n\u2022 While response times were rapid, collaboration further accelerated end-to-end supply\nchain visibility.\n\u2022 Supply chain alignment mattered more than technology.\n\u2022 Traceability Lot Code (TLC) and TLC source availability is encouraging.\n\u2022 Firms showed uneven readiness for sharing TLC and TLC source information together.\n\u2022 Initial packers should pay close attention to where a TLC is assigned.\n\u2022 Data quality and completeness require attention across all CTEs a firm performs.\n\u2022 Traceability Plans help test readiness.\n\u2022 Inconsistent buyer requirements create significant challenges.\nFDA intends to use the findings of these exercises to help inform its ongoing outreach,\neducation, and technical assistance efforts, including through public meetings and listening\nsessions, as the industry moves towards compliance. These findings offer meaningful and\nactionable insight for companies of all sizes as they assess and build their own traceability\nreadiness initiatives\u2014both within their organizations and in coordination with their supply chain\npartners.\n1",
+      "summary": "Executive Summary: The U.S. Food and Drug Administration (FDA) Food Traceability Rule (FTR)\u2014established under Section 204 of the FDA Food Safety Modernization Act (FSMA)\u2014require...",
+      "citation": "page-2",
+      "text_hash": "sha256:82abb9f80fa7dbb8628fca9789544b0841186f4cd2cf67520e9acb3514481148",
+      "anchors": [
+        {
+          "source_id": "fda-tabletop-exercises-report",
+          "citation": "page-2",
+          "section": "page-2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/media/192993/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:15.760238+00:00",
+          "source_hash": "c111704bd7643ea5c39c13be5cd32584dfe73ed4dea8bcfb29ea184905f62fd0"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-tabletop-exercises-report-page-3-3",
+      "source_id": "fda-tabletop-exercises-report",
+      "section_label": "PDF page 3",
+      "section": "page-3",
+      "text": "Contents\nExecutive Summary: ........................................................................................................ 1\nBackground .................................................................................................................... 3\nMethods ......................................................................................................................... 4\nIndustry Segments: .......................................................................................................... 5\nKey Takeaways: .............................................................................................................. 5\nLimitations: .................................................................................................................... 8\nConclusions: ................................................................................................................... 9\n2",
+      "summary": "Contents Executive Summary: ........................................................................................................ 1 Background ..................................",
+      "citation": "page-3",
+      "text_hash": "sha256:5930924a3f093d8245ccce5ff41e0cf0c80072f93d4784497e6ba2b92d9bcdc8",
+      "anchors": [
+        {
+          "source_id": "fda-tabletop-exercises-report",
+          "citation": "page-3",
+          "section": "page-3",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.fda.gov/media/192993/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:15.760238+00:00",
+          "source_hash": "c111704bd7643ea5c39c13be5cd32584dfe73ed4dea8bcfb29ea184905f62fd0"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-tabletop-exercises-report-page-4-4",
+      "source_id": "fda-tabletop-exercises-report",
+      "section_label": "PDF page 4",
+      "section": "page-4",
+      "text": "Background\nThe FDA Food Traceability Rule (FTR)\u2014established under Section 204 of the FDA Food Safety\nModernization Act (FSMA)\u2014requires covered entities that manufacture, process, pack, or hold\ncertain foods on the Food Traceability List (FTL) to maintain additional records that allow FDA\nto more rapidly and accurately trace food through the supply chain. Foods on the FTL include\nfresh leafy greens, soft or semi-soft cheeses, shell eggs, fresh-cut produce, certain fresh produce\nitems, deli salads, nut butters, and certain seafood items. The FTR also requires covered entities\nto maintain a Traceability Plan, which, among other things, describes the firm\u2019s procedures for\nmaintenance of FTR records, identification of FTL foods handled, and assignment of\nTraceability Lot Codes (TLC) (if applicable). The final rule covers domestic as well as foreign\nentities producing food for U.S. consumption along the entire food supply chain. The rule will\npromote faster identification and rapid removal of potentially contaminated food from the\nmarket, resulting in fewer foodborne illnesses and deaths.\nAt the core of the FTR is a requirement that persons subject to the rule maintain records\ncontaining Key Data Elements (KDEs)1 associated with specific Critical Tracking Events\n(CTEs)2 and provide that information to FDA within 24 hours in an electronic sortable\nspreadsheet, when required.\nThe TLC is an integral component of the rule\u2019s KDE requirements. It links to the other KDEs\nrequired, including the TLC source, which provides the physical location where the TLC for an\nFTL food was assigned. Unless the relevant entity is exempt from the rule, the TLC is assigned\nwhen the food is initially packed (for raw agricultural commodities not obtained from a fishing\nvessel), received by the first land-based receiver (for food obtained from a fishing vessel), or\ntransformed. Once a TLC is assigned, it must stay the same as the food moves through the\nsupply chain, unless transformation occurs.\nThe original compliance date for the FTR was January 20, 2026. FDA proposed to extend the\ncompliance date by 30 months to July 20, 2028, to afford covered entities additional time to\nensure coordination across the supply chain in order to fully implement the final rule\u2019s\nrequirements. Subsequently, the Continuing Appropriations, Agriculture, Legislative Branch,\nMilitary Construction and Veterans Affairs, and Extensions Act of 2026 directed FDA not to\nenforce the FTR prior to that same date. FDA intends to comply with this Congressional\ndirective.\n1 Key data element means information associated with a critical tracking event for which a record must be\nmaintained and/or provided in accordance with the FTR. - 21 CFR 1.1310 \u201cKey data element\u201d\n2 Critical tracking event means an event in the supply chain of a food involving the harvesting, cooling (before\ninitial packing), initial packing of a raw agricultural commodity other than a food obtained from a fishing vessel,\nfirst land-based receiving of a food obtained from a fishing vessel, shipping, receiving, or transformation of the\nfood. - 21 CFR 1.1310 \u201cCritical tracking event\u201d\n3",
+      "summary": "Background The FDA Food Traceability Rule (FTR)\u2014established under Section 204 of the FDA Food Safety Modernization Act (FSMA)\u2014requires covered entities that manufacture, process...",
+      "citation": "page-4",
+      "text_hash": "sha256:c7bda74bdd142fa321d59ee40daf7e98a46740fb82c0c60afc858223228c5954",
+      "anchors": [
+        {
+          "source_id": "fda-tabletop-exercises-report",
+          "citation": "page-4",
+          "section": "page-4",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 4,
+          "url": "https://www.fda.gov/media/192993/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:15.760238+00:00",
+          "source_hash": "c111704bd7643ea5c39c13be5cd32584dfe73ed4dea8bcfb29ea184905f62fd0"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-tabletop-exercises-report-page-5-5",
+      "source_id": "fda-tabletop-exercises-report",
+      "section_label": "PDF page 5",
+      "section": "page-5",
+      "text": "For more information on the FTR, please visit: https://www.fda.gov/food/food-safety-\nmodernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-\nfoods.\nMethods\nThe Traceability Readiness Tabletop Exercises were designed to simulate an FTR records request\nfrom FDA. The exercises tested whether participants could locate and provide traceability\nrecords associated with the handling of a specific product during a short, defined date range in an\nelectronic sortable spreadsheet within 24 hours. Participants were also asked to submit a\nTraceability Plan, if available. Although mock outbreak scenarios were not utilized during these\nexercises, the traceability data requested reflected a simplified version of data FDA may request\nduring an outbreak or recall event, as FDA only asked for data that is required under the FTR.\nFDA reviewed submissions to assess KDE availability for each CTE performed, whether the firm\nprovided their traceability data within 24 hours, and whether a Traceability Plan was available.\nRetail food establishment and restaurant participants were recruited to participate in these\nexercises through the Partnership for Food Traceability (PFT) and affiliated trade associations\nrepresenting grocers, restaurants, and convenience store distributors. Participation was entirely\nvoluntary, and PFT played no role in conducting the exercises. Once retail food establishments\nand restaurants agreed to participate, they were asked to invite their suppliers to join the\nexercises. These suppliers were predominantly not part of PFT. FDA held pre-exercise calls with\nall initial participants to explain the purpose and expectations, and firms were encouraged to\nconsult technology vendors, data standards organizations, and/or other traceability experts for\nsupport with completing the exercise.\nExercises were conducted between March 9 and April 1, 2026, across six distinct supply chains\ninvolving soft ripened/semi-soft cheese, wild-caught finfish, whole head leafy greens, fresh-cut\nleafy greens, and nut butter. Participants included a national retail chain, a medium-sized\nregional retail chain, two national restaurant chains, a small-sized regional restaurant chain, and a\nsmall-sized convenience store chain, along with their associated distributors, producers, and\nprocessors.\nEach exercise began with FDA sending a data request by email to a retail food establishment or\nrestaurant, the logical starting point for the exercise since outbreak investigations typically begin\nat a retail food establishment or restaurant. If a firm could not provide the required KDEs,\nincluding the TLC and TLC source, FDA issued a follow-up data request to that firm's immediate\nsupplier. This process continued upstream through the supply chain until FDA was able to\nreceive information from the original TLC source, at which point the exercise concluded. After\nthe exercises were concluded, FDA held debrief conversations with each supply chain participant\nto better understand their experience during the exercises and how they used technology to\nsupport their efforts.\n4",
+      "summary": "For more information on the FTR, please visit: https://www.fda.gov/food/food-safety- modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-...",
+      "citation": "page-5",
+      "text_hash": "sha256:7cb3c57d112e2edbb551a2ad375cc975badc27168d4dcfe2c6f8536173333b8d",
+      "anchors": [
+        {
+          "source_id": "fda-tabletop-exercises-report",
+          "citation": "page-5",
+          "section": "page-5",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 5,
+          "url": "https://www.fda.gov/media/192993/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:15.760238+00:00",
+          "source_hash": "c111704bd7643ea5c39c13be5cd32584dfe73ed4dea8bcfb29ea184905f62fd0"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-tabletop-exercises-report-page-6-6",
+      "source_id": "fda-tabletop-exercises-report",
+      "section_label": "PDF page 6",
+      "section": "page-6",
+      "text": "While efforts were made to include businesses of varying sizes across different supply chain\nsectors and commodities, the findings should not be generalized to the industry as a whole. They\nare, however, intended to offer practical insights to help companies and their supply chain\npartners assess and strengthen their own traceability readiness.\nIndustry Segments:\nThe Traceability Readiness Tabletop Exercises engaged a cross-section of the food\nindustry intended to encompass the full supply chain. Participants included:\n\u2022 Retail food establishments \u2013 grocery stores and other retail food establishments (e.g.,\nconvenience stores) that sell food directly to consumers. Generally, this supply chain\nentity is not required to assign a new TLC to FTL foods they handle.\n\u2022 Restaurants \u2014 food service establishments that serve food to the public. Generally, this\nsupply chain entity is not required to assign a new TLC to FTL foods they handle.\n\u2022 Distributors \u2014 companies that transport and distribute food from producers and/or\nprocessors to retail food establishments, restaurants, or other buyers. Generally, this\nsupply chain entity is not required to assign a new TLC to FTL foods they handle.\n\u2022 Processors \u2014 facilities that transform commodities into a new item that is on the\nFTL (e.g., processing raw finfish into packaged fillets or whole iceberg lettuce into\nshredded iceberg lettuce) and assign a new TLC.\n\u2022 Producers \u2014 farms responsible for initially packing raw agricultural commodities and\nassigning the initial TLC.\nKey Takeaways:\n\u2022 While response times were rapid, collaboration further accelerated end-to-end\nsupply chain visibility: Most firms responded with traceability data within the 24-hour\nwindow, an encouraging sign of overall readiness. Notably, in at least two instances, retail\nfood establishments and restaurants voluntarily coordinated with their suppliers to submit\nthe entire supply chain's data for the given scenarios within that initial 24-hour period.\nWhile the FTR only requires retail food establishments and restaurants to provide to FDA\ntheir own Receiving KDEs (and not a full pedigree), this kind of proactive collaboration\ndramatically reduced the time needed to identify the TLC source and receive information\nfrom the TLC source, compressing what might have taken 48 to 96 hours, or longer,\nacross multiple data requests, into a single day and a single request.\n\u2022 Supply chain alignment mattered more than technology: Participants used a wide\nrange of tools\u2014from traditional business records (e.g., invoices, purchase orders, bills of\n5",
+      "summary": "While efforts were made to include businesses of varying sizes across different supply chain sectors and commodities, the findings should not be generalized to the industry as a...",
+      "citation": "page-6",
+      "text_hash": "sha256:9f97080f4a2dc80d44edb8fc87aca3bb1b48cf0f4ee3b82b86169d11a38b84b5",
+      "anchors": [
+        {
+          "source_id": "fda-tabletop-exercises-report",
+          "citation": "page-6",
+          "section": "page-6",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 6,
+          "url": "https://www.fda.gov/media/192993/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:15.760238+00:00",
+          "source_hash": "c111704bd7643ea5c39c13be5cd32584dfe73ed4dea8bcfb29ea184905f62fd0"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-tabletop-exercises-report-page-7-7",
+      "source_id": "fda-tabletop-exercises-report",
+      "section_label": "PDF page 7",
+      "section": "page-7",
+      "text": "lading, and advanced shipment notices) to Warehouse Management Systems, Enterprise\nResource Planning, RFID tags, and GS1 barcodes. Larger firms tended to use more\nadvanced data carriers (like RFID or 2-D barcodes), but the technology itself was less\ndeterminative of success than whether supply chain partners had agreed on what data to\ncollect, maintain, and share\u2014and how. Even smaller and mid-sized firms had access to\nmost of the required data through traditional business records. For information not\nalready captured in existing records (predominately, the TLC and TLC source),\nparticipants discussed how it will be important for trading partners to communicate how\ndata will be transmitted, whether by barcode, paper record, email, or another method.\nTwo scenarios in this exercise demonstrated this concept clearly: when supply chain\npartners had coordinated and set shared expectations upfront (prior to the start of the\nexercise), KDE availability was notably stronger than when firms simply waited on their\nsuppliers for information that may or may not be available to them and ultimately left\nspreadsheet fields blank when information did not arrive. This points to a broader lesson\nthat applies not just to individual supply chain trading partners, but across every supply\nchain impacted by this rule\u2014readiness will depend less on any particular technology and\nmore on trading partners aligning on how necessary information flows down the supply\nchain and how to obtain information you are expecting from your trading partners if that\ndata does not currently arrive in traditional business records or other current operational\npractices.\n\u2022 TLC and TLC source availability is encouraging: Although the TLC and TLC source\nproved to be the most challenging KDEs to capture across exercises, the overall readiness\nframework is encouraging. The TLC was available or inconsistently present in 80% of\nparticipants\u2019 records, and the TLC source appeared in 73% of participants\u2019 records.\nHowever, only 40% of participants\u2019 records captured the properly assigned TLC across\neach CTE they performed and 27% of participants\u2019 records captured the complete TLC\nsource for each CTE they performed. Missing or inconsistent TLC and TLC source data\nmade it more difficult to trace products from the retail food establishment or restaurant\nback to the supplier, but when they were fully available, the traceback process led to\nmore efficient and accurate identification of products and locations. Inconsistent KDE\navailability was documented if data was available in some aspects of their data\nsubmission, but absent or incorrect in other portions of their data submission. These\nstatistics indicate that most firms participating in these exercises have already begun\nlaying the groundwork for traceability readiness. Still, refinement and greater\ncoordination is needed to reduce missing or inconsistent capture of TLC and TLC\nsources.\n\u2022 Firms showed uneven readiness for sharing TLC and TLC source information\ntogether: Across some exercises, TLC and TLC source information did not always move\ntogether. Some firms demonstrated an ability to capture and/or share a TLC but struggled\n6",
+      "summary": "lading, and advanced shipment notices) to Warehouse Management Systems, Enterprise Resource Planning, RFID tags, and GS1 barcodes. Larger firms tended to use more advanced data ...",
+      "citation": "page-7",
+      "text_hash": "sha256:18ab3e8b48667109f11efd8ff16beb239fcfa37cb1f88039fbc4bc63df5a45a1",
+      "anchors": [
+        {
+          "source_id": "fda-tabletop-exercises-report",
+          "citation": "page-7",
+          "section": "page-7",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.fda.gov/media/192993/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:15.760238+00:00",
+          "source_hash": "c111704bd7643ea5c39c13be5cd32584dfe73ed4dea8bcfb29ea184905f62fd0"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-tabletop-exercises-report-page-8-8",
+      "source_id": "fda-tabletop-exercises-report",
+      "section_label": "PDF page 8",
+      "section": "page-8",
+      "text": "to accurately document where that TLC was originally assigned. Others showed the\nreverse\u2014reliable location documentation for where the TLC was assigned (the TLC\nsource) but without an actual TLC. These patterns make clear that lack of a TLC and TLC\nsource, while closely related pieces of information, represent two separate readiness gaps.\nFirms should assess their ability to capture every KDE required at each CTE, rather than\nassume that capability to maintain one KDE guarantees readiness to maintain the others.\n\u2022 Initial packers should pay close attention to where a TLC is assigned: Under the\nFTR, for foods that undergo the \u201cinitial packing\u201d CTE (such as fresh produce), a TLC is\nassigned at the point of initial packing. In some exercises, firms indicated in their\nTraceability Plan that produce was field packed (correctly identifying the farm as the\nphysical location where the TLC was assigned) but then listed a cooling facility as the\nTLC source in their submitted spreadsheet. Initial packers should ensure that their\nsubmitted records are consistent with their operational practices such that the location\ndescription for the TLC source accurately reflects the physical location where the food\nwas packed.\n\u2022 Data quality and completeness require attention across all CTEs a firm performs:\nSome firms submitted comprehensive records for certain CTEs but were missing data for\nothers they were also responsible for \u2013 for example, providing shipping information but\nfailing to include initial packing, or omitting input and output quantities where required.\nFirms should carefully review every CTE they perform and ensure the corresponding data\nis captured and documented completely. It is possible that some firms did capture this\ndata but simply did not include it in their submitted electronic sortable spreadsheet. In\nthat case, the fix is straightforward. If the data is not captured at all, firms should work\nwith their internal teams and supply chain partners to close those gaps before the\ncompliance date.\n\u2022 Traceability Plans help test readiness: Only a small number of participants submitted a\ndraft Traceability Plan. Some firms had not yet begun drafting one, often citing a\npreference to wait until they had finalized technology vendor selections. Others cited\nhaving a plan, but they didn\u2019t share it with FDA for this exercise. For those that did\nprovide a plan, it proved very useful in helping FDA interpret their data accurately and\nefficiently. Developing a Traceability Plan prior to the compliance date could help firms\ntest their readiness and assess any gaps.\n\u2022 Inconsistent buyer requirements create significant challenges: Several distributors\nand suppliers flagged that while the rule requirements on their own may be achievable,\ninconsistent buyer requirements complicate implementation. Because these buyer\nrequirements can vary by company and often go well beyond FTR requirements\n(including specific formatting for advance shipping notices, and, in some cases,\nmandatory case-by-case scanning for outbound shipping events at the distributor level),\n7",
+      "summary": "to accurately document where that TLC was originally assigned. Others showed the reverse\u2014reliable location documentation for where the TLC was assigned (the TLC source) but with...",
+      "citation": "page-8",
+      "text_hash": "sha256:69a49bc8055296601c3f3db878c0f7cf23c9018ec1e979384332b43999c24545",
+      "anchors": [
+        {
+          "source_id": "fda-tabletop-exercises-report",
+          "citation": "page-8",
+          "section": "page-8",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 8,
+          "url": "https://www.fda.gov/media/192993/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:15.760238+00:00",
+          "source_hash": "c111704bd7643ea5c39c13be5cd32584dfe73ed4dea8bcfb29ea184905f62fd0"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-tabletop-exercises-report-page-9-9",
+      "source_id": "fda-tabletop-exercises-report",
+      "section_label": "PDF page 9",
+      "section": "page-9",
+      "text": "suppliers often must build custom solutions for each customer relationship. Greater\nstandardization and harmonization between buyers and suppliers could meaningfully\nreduce these challenges.\nLimitations:\nThe findings of these exercises should be interpreted with the following limitations in mind:\n\u2022 Not based on an outbreak scenario: Data requests were not tied to mock foodborne\nillness outbreaks. As a result, some refinements to the request (i.e., timeframes, specific\nproducts, and date ranges) were necessary in some instances to generate usable data. The\nexercises also did not account for product shelf life or typical turnaround times, though\nthe dates used were representative of real shipping and receiving windows.\n\u2022 Simplified request process: The data request process used in these exercises was\nsimplified and did not fully mirror the process FDA would use during actual outbreak\ninvestigations or other for-cause situations, which would involve complex coordination\nbetween multiple FDA offices, other federal agencies, and state and local authorities.\n\u2022 Small sample size: Due to timing and resource constraints, the number of participating\nfirms was small and not representative of the broader food industry. Efforts were made to\ninclude companies of all sizes, but the findings regarding company size, role in the\nsupply chain, and commodities traced is not generalizable to the industry as a whole.\n\u2022 Compliance is not yet required: As of this report\u2019s publication date, firms are not yet\nrequired to comply with the FTR. \u201cTraceability Readiness\u201d is therefore variable and\ncompany dependent.\n\u2022 Not every Traceability Readiness Tabletop Exercise scenario could be completed:\nSeveral exercise scenarios ended without identifying a TLC source. In one instance, a\ndistributor agreed to participate but ultimately did not submit data in response to FDA's\nrequest, and they stopped responding to FDA\u2019s follow-up emails. In another instance, a\nparticipating retail food establishment could not obtain supplier agreement to participate\nin the exercise, although a TLC source was preliminarily identified in the retail food\nestablishment\u2019s records. Finally, in a third exercise, a supply chain with several layers of\ndistribution left the participating firm unable to definitively identify the immediate\nprevious supplier for the shipment(s) of interest, which resulted in FDA not being able to\nissue any further assignments.\n8\n\n\u2022 Not based on an outbreak scenario: Data requests were not tied to mock foodborne\nillness outbreaks. As a result, some refinements to the request (i.e., timeframes, specific\nproducts, and date ranges) were necessary in some instances to generate usable data. The\nexercises also did not account for product shelf life or typical turnaround times, though\nthe dates used were representative of real shipping and receiving windows.\n\u2022 Simplified request process: The data request process used in these exercises was\nsimplified and did not fully mirror the process FDA would use during actual outbreak\ninvestigations or other for-cause situations, which would involve complex coordination\nbetween multiple FDA offices, other federal agencies, and state and local authorities.\n\u2022 Small sample size: Due to timing and resource constraints, the number of participating\nfirms was small and not representative of the broader food industry. Efforts were made to\ninclude companies of all sizes, but the findings regarding company size, role in the\nsupply chain, and commodities traced is not generalizable to the industry as a whole.\n\u2022 Compliance is not yet required: As of this report\u2019s publication date, firms are not yet\nrequired to comply with the FTR. \u201cTraceability Readiness\u201d is therefore variable and\ncompany dependent.",
+      "summary": "suppliers often must build custom solutions for each customer relationship. Greater standardization and harmonization between buyers and suppliers could meaningfully reduce thes...",
+      "citation": "page-9",
+      "text_hash": "sha256:f9ae428dce91df14dacd52a71db6516a2443e54aea1f353161ed2a5eee469415",
+      "anchors": [
+        {
+          "source_id": "fda-tabletop-exercises-report",
+          "citation": "page-9",
+          "section": "page-9",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 9,
+          "url": "https://www.fda.gov/media/192993/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:15.760238+00:00",
+          "source_hash": "c111704bd7643ea5c39c13be5cd32584dfe73ed4dea8bcfb29ea184905f62fd0"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-tabletop-exercises-report-page-10-10",
+      "source_id": "fda-tabletop-exercises-report",
+      "section_label": "PDF page 10",
+      "section": "page-10",
+      "text": "Conclusions:\nThe Traceability Readiness Tabletop Exercises were designed to assess whether food businesses\ncould locate, compile, and deliver traceability records to FDA within 24 hours, simulating the\nkind of data request that would occur during an actual foodborne illness investigation.\nMost firms met the 24-hour response window, and supply chains where trading partners\ncommunicated and collaborated proactively moved significantly faster than those that did not.\nWhile participants showed progress on capturing the TLC and TLC source, more refinement is\nneeded to ensure these data elements are consistently captured across the supply chain.\nTraceability Plans serve as essential roadmaps for both firms and FDA in describing how\nrequired records are kept. Data quality issues, including misidentified TLCs and TLC sources,\nand other incomplete KDEs, further highlight gaps in industry readiness.\nOverall, the findings of these exercises make clear that traceability readiness is improving, but\nsignificant work remains among trading partners and the broader supply chain to enhance\ncoordination and harmonization. FDA intends to use the findings of these exercises to help\ninform its ongoing outreach, education, and technical assistance efforts, including participation\nin public meetings, listening sessions, and presentations, as the industry moves towards\ncompliance. FDA encourages all covered firms to treat these findings as an opportunity to assess\ntheir own traceability readiness and take action to ensure they are coming into compliance with\nthe rule.\n9\n\ninform its ongoing outreach, education, and technical assistance efforts, including participation\nin public meetings, listening sessions, and presentations, as the industry moves towards\ncompliance. FDA encourages all covered firms to treat these findings as an opportunity to assess\ntheir own traceability readiness and take action to ensure they are coming into compliance with\nthe rule.",
+      "summary": "Conclusions: The Traceability Readiness Tabletop Exercises were designed to assess whether food businesses could locate, compile, and deliver traceability records to FDA within ...",
+      "citation": "page-10",
+      "text_hash": "sha256:b94d52b28d8768d41fb995fab12e709b5f677a7e116eaa73e31685d779f49bb0",
+      "anchors": [
+        {
+          "source_id": "fda-tabletop-exercises-report",
+          "citation": "page-10",
+          "section": "page-10",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 10,
+          "url": "https://www.fda.gov/media/192993/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:15.760238+00:00",
+          "source_hash": "c111704bd7643ea5c39c13be5cd32584dfe73ed4dea8bcfb29ea184905f62fd0"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

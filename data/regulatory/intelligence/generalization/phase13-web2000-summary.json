@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "importantLimitations": [
+    "This is public internet data, not confidential customer transaction export data.",
+    "Open Food Facts rows are real public product metadata records and are gold-labeled as non-CTE rows because they are product facts, not event evidence.",
+    "GS1 EPCIS rows are public standard/example visibility-event records and are gold-labeled from event type, business step, and error-declaration context.",
+    "The dataset is intentionally fresh versus the earlier web500 workbook, but it is not a substitute for customer-specific spreadsheet/parser acceptance tests.",
+    "No OpenAI, Anthropic, or other live model output was used in this run."
+  ],
+  "metrics": {
+    "by_family": {
+      "gs1_epcis_visibility_event": {
+        "count": 187,
+        "fail": 0,
+        "pass": 187,
+        "pass_rate": 1.0
+      },
+      "open_food_facts_product_metadata": {
+        "count": 1813,
+        "fail": 0,
+        "pass": 1813,
+        "pass_rate": 1.0
+      }
+    },
+    "by_source": {
+      "GS1 EPCIS public examples": {
+        "count": 187,
+        "fail": 0,
+        "pass": 187,
+        "pass_rate": 1.0
+      },
+      "Open Food Facts static bulk TSV": {
+        "count": 1813,
+        "fail": 0,
+        "pass": 1813,
+        "pass_rate": 1.0
+      }
+    },
+    "error_counts": {},
+    "exact_match_rate": 1.0,
+    "fail_count": 0,
+    "false_negative_by_cte": {
+      "initial_packing": 0,
+      "receiving": 0,
+      "shipping": 0,
+      "transformation": 0
+    },
+    "false_negative_rate": 0.0,
+    "false_positive_by_cte": {
+      "initial_packing": 0,
+      "receiving": 0,
+      "shipping": 0,
+      "transformation": 0
+    },
+    "false_positive_rate": 0.0,
+    "pass_count": 2000,
+    "precision": 1.0,
+    "precision_by_cte": {
+      "initial_packing": 1.0,
+      "receiving": 1.0,
+      "shipping": 1.0,
+      "transformation": 1.0
+    },
+    "recall": 1.0,
+    "recall_by_cte": {
+      "initial_packing": 1.0,
+      "receiving": 1.0,
+      "shipping": 1.0,
+      "transformation": 1.0
+    },
+    "record_count": 2000,
+    "support_by_cte": {
+      "initial_packing": 3,
+      "receiving": 39,
+      "shipping": 15,
+      "transformation": 11
+    }
+  },
+  "phase": "13-web2000-fresh-public-internet-holdout",
+  "recordCount": 2000,
+  "sourceComposition": {
+    "GS1 EPCIS public examples": {
+      "count": 187,
+      "fail": 0,
+      "pass": 187,
+      "pass_rate": 1.0
+    },
+    "Open Food Facts static bulk TSV": {
+      "count": 1813,
+      "fail": 0,
+      "pass": 1813,
+      "pass_rate": 1.0
+    }
+  },
+  "sourceCount": 2
+}

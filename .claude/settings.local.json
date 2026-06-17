@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/ramesh/Documents/Codex/2026-06-07/https-www-ycombinator-com-companies-here/**)"
+    ]
+  }
+}

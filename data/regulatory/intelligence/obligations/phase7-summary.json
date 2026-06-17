@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "obligationDrafts": 21,
+  "inventoryRecords": 21,
+  "approvedObligations": 12,
+  "approvedPackageId": "phase7-approved-obligation-set-v1",
+  "approvedPackageVersion": 1,
+  "cteCoverage": [
+    "cooling",
+    "first_land_based_receiving",
+    "harvesting",
+    "initial_packing",
+    "other",
+    "receiving",
+    "shipping",
+    "traceability_plan",
+    "transformation"
+  ],
+  "linkCoverage": {
+    "with_exemption_links": 13,
+    "with_kde_links": 17,
+    "with_sortable_export_links": 19,
+    "with_tlc_links": 14,
+    "with_traceability_plan_links": 6
+  },
+  "confidenceCounts": {
+    "high": 21
+  },
+  "citationCoverage": {
+    "records": 21,
+    "complete": 21,
+    "partial": 0,
+    "missing": 0,
+    "invalid": 0,
+    "citations": 21,
+    "validCitations": 21,
+    "invalidCitations": 0,
+    "missingSupportTextCitations": 0
+  },
+  "coverageAreas": [
+    "scope",
+    "traceability_plan",
+    "tlc_assignment",
+    "cte_kde_duties",
+    "records_maintenance",
+    "fda_request_timing",
+    "sortable_export"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "purpose": "Unseen web-derived challenge set for evaluating generalization; not an approved regulatory source package.",
+  "challengeCount": 8,
+  "statusCounts": {
+    "gap": 3,
+    "pass": 5
+  },
+  "passRate": 0.625,
+  "gapCount": 3,
+  "challengeIds": [
+    "unseen_web:romaine_salad_kit",
+    "unseen_web:fresh_mango_salsa",
+    "unseen_web:tomato_paste_shelf_stable",
+    "unseen_web:refrigerated_smoked_salmon",
+    "unseen_web:dockside_mahi_mahi",
+    "unseen_web:restaurant_fresh_papaya_romaine",
+    "unseen_web:refrigerated_peanut_butter",
+    "unseen_web:fresh_basil_repack"
+  ],
+  "knownLimits": [
+    "Challenge scenarios are web-derived and synthetic; they are not reviewer-approved legal interpretations.",
+    "The current inference layer is deterministic and keyword-based, so failures identify rule-engine gaps rather than model-statistical performance.",
+    "Form-change and finished-product scope logic must be strengthened before relying on unseen customer scenarios."
+  ]
+}

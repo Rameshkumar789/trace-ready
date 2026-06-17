@@ -1,0 +1,45 @@
+{
+  "from_package_id": null,
+  "to_package_id": "approved-rule-package-v1",
+  "from_version": null,
+  "to_version": 1,
+  "status": "changed",
+  "added_records": {
+    "obligations": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ]
+  },
+  "removed_records": {
+    "obligations": []
+  },
+  "changed_records": {
+    "obligations": []
+  },
+  "unchanged_records": {
+    "obligations": []
+  },
+  "source_version_changes": {
+    "added": [
+      "ecfr-21-cfr-1-subpart-s"
+    ],
+    "removed": [],
+    "changed": [],
+    "unchanged": []
+  },
+  "scenario_gate_change": {
+    "from": null,
+    "to": "passed"
+  },
+  "rollback_safe": true
+}

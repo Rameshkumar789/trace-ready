@@ -1,0 +1,1281 @@
+{
+  "sourceId": "fda-qa-guidance-2026-pdf",
+  "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+  "rawArtifact": "../data/regulatory/fda-qa-guidance-2026-pdf/raw/fda-qa-guidance-2026-pdf.pdf",
+  "rawTextHash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 46,
+  "chunks": [
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-document-1",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Document",
+      "section": "document",
+      "text": "Questions and Answers About\nRequirements for Additional Traceability\nRecords for Certain Foods: Guidance for\nIndustry\nDraft Guidance\nThis guidance is being distributed for comment purposes only.\nAlthough you can comment on any guidance at any time (see 21 CFR 10.115(g)(5)), to\nensure that FDA considers your comment on this draft guidance before we begin work on the\nfinal version of the guidance, submit either electronic or written comments on the draft\nguidance within 90 days of publication in the Federal Register of the notice announcing the\navailability of the draft guidance. Submit electronic comments to\nhttps://www.regulations.gov. Submit written comments to the Dockets Management Staff\n(HFA-305), Food and Drug Administration, 5630 Fishers Lane, rm. 1061, Rockville, MD\n20852. All comments should be identified with the docket number FDA-2025-D-2837 listed\nin the notice of availability that publishes in the Federal Register.\nFor questions regarding this draft document contact the Human Foods Program at 240-402-\n1200.\nU.S. Department of Health and Human Services\nFood and Drug Administration\nHuman Foods Program\nFebruary 2026\nContains Nonbinding Recommendations\nDraft-Not for Implementation",
+      "summary": "Questions and Answers About Requirements for Additional Traceability Records for Certain Foods: Guidance for Industry Draft Guidance This guidance is being distributed for comme...",
+      "citation": "document",
+      "text_hash": "sha256:0343707384bf5ae68103ef148a778b7ebfdf111eeccc3f20e761a406b12a1ddf",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "document",
+          "section": "document",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-table-of-contents-2",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Table of Contents",
+      "section": "Table of Contents",
+      "text": "Table of Contents\nI. Introduction\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026...3\nII. Background\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..4\nIII. Questions and Answers\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.5\nA. Farms\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026...5\nB. Fishing Vessels\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u20266\nC. Raw Molluscan Shellfish\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.7\nD. Retail Food Establishments and Restaurants \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..8\nE. Commingling \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u202613\nF. Initial Packing of a Food on the Food Traceability List\u2026\u2026\u2026\u2026\u2026\u2026\u202617\nG. Transformation of a Food on the Food Traceability List\u2026\u2026\u2026\u2026\u2026\u2026...20\nH. Traceability Plan\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.23\nI. Recordkeeping\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u202624\nJ. Food Traceability List\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u202630\n2\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nQuestions and Answers About\nRequirements for Additional Traceability\nRecords for Certain Foods: Guidance for\nIndustry1\nThis draft guidance, when finalized, will represent the current thinking of the Food and Drug\nAdministration (FDA or we) on this topic. It does not establish any rights for any person and is\nnot binding on FDA or the public. You can use an alternative approach if it satisfies the\nrequirements of the applicable statutes and regulations. To discuss an alternative approach,\ncontact the FDA staff responsible for this guidance at the phone number listed on the title page.",
+      "summary": "Table of Contents I. Introduction\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026...3 II. Background\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..4 III. Questions and Answers\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.5 A. Farms\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.....",
+      "citation": "Table of Contents",
+      "text_hash": "sha256:0bdbcb2931e767eb0475f9b68950c5bdaf64e99814f9997c060d3c5ddf1da91e",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Table of Contents",
+          "section": "Table of Contents",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-i-3",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "I. Introduction",
+      "section": "I",
+      "text": "I. Introduction\nOn November 21, 2022, the Food and Drug Administration (FDA, the Agency, or we) issued a\nfinal rule, Requirements for Additional Traceability Records for Certain Foods (87 FR 70910)\n(Food Traceability Rule), which established additional recordkeeping requirements for persons\nwho manufacture, process, pack or hold foods the Agency has designated for inclusion on the\nFood Traceability List (FTL). The final rule promulgated 21 CFR Part 1, Subpart S (21 CFR\n1.1300-1.1465), which requires such entities to maintain records containing information on\ncritical tracking events (CTEs) in the supply chain for these designated foods, such as initial\npacking, shipping, receiving, and transforming these foods. The requirements established in the\nfinal rule will help the Agency rapidly and effectively identify recipients of these foods to\nprevent or mitigate foodborne illness outbreaks and address credible threats of serious adverse\nhealth consequences or death. The regulation was issued in accordance with the FDA Food\nSafety Modernization Act (FSMA). This guidance answers questions to facilitate industry\u2019s\nunderstanding of the final rule.\nIn general, FDA\u2019s guidance documents do not establish legally enforceable responsibilities.\nInstead, guidances describe the Agency\u2019s current thinking on a topic and should be viewed only\nas recommendations, unless specific regulatory or statutory requirements are cited. The use of\nthe word should in Agency guidances means that something is suggested or recommended, but\nnot required.\n1 This draft guidance has been prepared by the U.S. Food and Drug Administration, Human Food Program\u2019s Office of\nSurveillance Strategy and Risk Prioritization and Office of Coordinated Outbreak Response, Evaluation, and Emergency\nPreparedness at the U.S. Food and Drug Administration.\n3\nContains Nonbinding Recommendations\nDraft-Not for Implementation",
+      "summary": "I. Introduction On November 21, 2022, the Food and Drug Administration (FDA, the Agency, or we) issued a final rule, Requirements for Additional Traceability Records for Certain...",
+      "citation": "I",
+      "text_hash": "sha256:0bc269ce1515435078137810892d72ea60478faef13b12adb889672f98e5e4e2",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "I",
+          "section": "I",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-table-1-4",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Table 1 - Acronyms",
+      "section": "Table 1",
+      "text": "Table 1 - Acronyms\nReference Acronym\nCommunity Supported Agriculture CSA\nCritical Tracking Event CTE\nFirst Land-based Receiver FLBR\nFDA Food Safety Modernization Act FSMA\nFood Traceability List FTL\nHazard Analysis Critical Control Point HACCP\nKey Data Element KDE\nNational Shellfish Sanitation Program NSSP\nRaw Agricultural Commodity RAC\nRetail Food Establishment RFE\nTraceability Lot Code TLC",
+      "summary": "Table 1 - Acronyms Reference Acronym Community Supported Agriculture CSA Critical Tracking Event CTE First Land-based Receiver FLBR FDA Food Safety Modernization Act FSMA Food T...",
+      "citation": "Table 1",
+      "text_hash": "sha256:0ea14c25f5a681a0af85d8bc84cc34856e71ef54b626efdb8436dbd7f5931782",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Table 1",
+          "section": "Table 1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 4,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-ii-5",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "II. Background",
+      "section": "II",
+      "text": "II. Background\nFDA promulgated the Food Traceability Rule under section 204(d)(1) of FSMA, which directed\nthe Agency to establish recordkeeping requirements, in addition to the requirements under\nsection 414 of the Federal Food, Drug, and Cosmetic Act (FD&C Act) (21 U.S.C. 350c) and\nFDA regulations in 21 CFR part 1, subpart J, for persons who manufacture, process, pack, or\nhold foods that FDA designates under section 204(d)(2) of FSMA as high-risk foods. FDA\nidentifies such designated foods on the FTL. The new requirements established by the final rule\nwill allow for faster identification and rapid removal of potentially contaminated food from the\nmarket, resulting in fewer foodborne illnesses and deaths.\nAt the core of this rule is a requirement that persons subject to the rule who manufacture,\nprocess, pack, or hold foods on the FTL maintain records containing key data elements\n(KDEs) associated with specific CTEs. The rule also requires covered entities to maintain a\ntraceability plan, which describes a firm\u2019s traceability procedures and how they identify the FTL\nfoods that they handle. Covered entities must maintain records required by the rule for 2 years,\nprovide records requested by FDA within 24 hours of a request (or within some reasonable time\nto which FDA has agreed), and provide records in an electronic sortable spreadsheet when\nnecessary to help FDA prevent or mitigate a foodborne illness outbreak, assist in the\nimplementation of a recall, or otherwise address a threat to the public health.\nThe final rule covers domestic firms as well as foreign firms producing food on the FTL for U.S.\nconsumption, along the entire food supply chain. FDA has proposed extending the compliance\ndate for all persons subject to the recordkeeping requirements to July 20, 2028.\nThis guidance includes questions and answers to assist industry with understanding the scope of\nthe Food Traceability Rule and meeting the requirements that relate to the questions addressed in\nthis guidance.\n4\nReference | Acronym\nCommunity Supported Agriculture | CSA\nCritical Tracking Event | CTE\nFirst Land-based Receiver | FLBR\nFDA Food Safety Modernization Act | FSMA\nFood Traceability List | FTL\nHazard Analysis Critical Control Point | HACCP\nKey Data Element | KDE\nNational Shellfish Sanitation Program | NSSP\nRaw Agricultural Commodity | RAC\nRetail Food Establishment | RFE\nTraceability Lot Code | TLC\nFDA promulgated the Food Traceability Rule under section 204(d)(1) of FSMA, which directed\nthe Agency to establish recordkeeping requirements, in addition to the requirements under\nsection 414 of the Federal Food, Drug, and Cosmetic Act (FD&C Act) (21 U.S.C. 350c) and\nFDA regulations in 21 CFR part 1, subpart J, for persons who manufacture, process, pack, or\nhold foods that FDA designates under section 204(d)(2) of FSMA as high-risk foods. FDA\nidentifies such designated foods on the FTL. The new requirements established by the final rule\nwill allow for faster identification and rapid removal of potentially contaminated food from the\nmarket, resulting in fewer foodborne illnesses and deaths.\nAt the core of this rule is a requirement that persons subject to the rule who manufacture,\nprocess, pack, or hold foods on the FTL maintain records containing key data elements\n(KDEs) associated with specific CTEs. The rule also requires covered entities to maintain a\ntraceability plan, which describes a firm\u2019s traceability procedures and how they identify the FTL\nfoods that they handle. Covered entities must maintain records required by the rule for 2 years,\nprovide records requested by FDA within 24 hours of a request (or within some reasonable time\nto which FDA has agreed), and provide records in an electronic sortable spreadsheet when\nnecessary to help FDA prevent or mitigate a foodborne illness outbreak, assist in the\nimplementation of a recall, or otherwise address a threat to the public health.\nThe final rule covers domestic firms as well as foreign firms producing food on the FTL for U.S.\nconsumption, along the entire food supply chain. FDA has proposed extending the compliance\ndate for all persons subject to the recordkeeping requirements to July 20, 2028.\nThis guidance includes questions and answers to assist industry with understanding the scope of\nthe Food Traceability Rule and meeting the requirements that relate to the questions addressed in\nthis guidance.\nContains Nonbinding Recommendations\nDraft-Not for Implementation",
+      "summary": "II. Background FDA promulgated the Food Traceability Rule under section 204(d)(1) of FSMA, which directed the Agency to establish recordkeeping requirements, in addition to the ...",
+      "citation": "II",
+      "text_hash": "sha256:55ae322a159f258f52b58a91b9f5a096c867f5db4cabca48eddae42f7ae57217",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "II",
+          "section": "II",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 4,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-1-6",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 1: Does the value of all of the products produced and sold by a farm count towards the",
+      "section": "Question 1",
+      "text": "Question 1: Does the value of all of the products produced and sold by a farm count towards the\n$25,000 threshold for exemption from the rule? What about produce that is not on the FTL?\nWhat about non-produce items such as cheese?\nResponse 1: Section 1.1305(a)(1)(ii) states that the Food Traceability Rule does not apply to\nproduce farms when the average annual sum of the monetary value of their sales of produce and\nthe market value of produce they manufacture, process, pack, or hold without sale (e.g., held for\na fee) during the previous 3-year period is no more than $25,000 (on a rolling basis), adjusted for\ninflation using 2020 as the baseline year for calculating the adjustment. This exemption relates to\nthe value of all of the produce sold, regardless of whether the produce is on or off the FTL.\nHowever, it does not relate to the value of non-produce items.\nThe following examples illustrate the application of this exemption. For the purpose of providing\nclear and simple examples, we assume that a farm\u2019s sales are the same in every year, and we are\nnot adjusting the $25,000 threshold for inflation.2\nScenario 1: Farm selling both produce on the FTL and produce not on the FTL\nAs a first example, a farm sells $20,000 of tomatoes (a produce item on the FTL) and $20,000 of\nsummer squash (a produce item not on the FTL) annually. Since the total value of the produce\n($40,000) is over the $25,000 threshold, the farm does not qualify for the exemption under",
+      "summary": "Question 1: Does the value of all of the products produced and sold by a farm count towards the $25,000 threshold for exemption from the rule? What about produce that is not on ...",
+      "citation": "Question 1",
+      "text_hash": "sha256:62417d9ef41b9b01c82a388da0f48c09f0df607f818f6bb02d1132b152c86e73",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 1",
+          "section": "Question 1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 5,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1305-7",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "\u00a7 1.1305(a)(1)(ii).",
+      "section": "\u00a71.1305",
+      "text": "\u00a7 1.1305(a)(1)(ii).\nScenario 2: Farm selling both produce on the FTL and non-produce food on the FTL\nAs a second example, a farm sells $20,000 of tomatoes (a produce item on the FTL) and $20,000\nof soft cheese (a non-produce item on the FTL). The exemption in \u00a7 1.1305(a)(1)(ii) is only for\n\u201cproduce farms.\u201d In this situation, therefore, it is only the produce part of the farm\u2019s operations\nthat is eligible for this exemption; but it is also only the produce sales that need to be considered\nin computing eligibility for the exemption. Because the produce sales are less than $25,000, the\nproduce operation \u2013 which in this case is a tomato operation \u2013 is exempt from the requirements\nof the Food Traceability Rule. Because cheese is not produce, the cheese operation is not\nconsidered part of the produce operation, and therefore the cheese operation is not eligible for the\nexemption in \u00a7 1.1305(a)(1)(ii). (But note that other exemptions might apply. For example, if the\nfarm operates a store that sells the cheese, that store could be exempt from the requirements of\nthe rule under \u00a7 1.1305(i), which provides an exemption for certain small retail food\nestablishments (RFEs).)\n2 To see inflation adjusted amounts, please see: FSMA Inflation Adjusted Cut Offs | FDA\n(https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-inflation-adjusted-cut-offs).\n5\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nNote that any farm that is not covered by the Produce Safety Rule as a function of 21 CFR\n112.4(a) is also exempt from the Food Traceability Rule (with respect to the produce they grow)\nas set forth in \u00a7 1.1305(a)(1)(i). Under \u00a7 112.4(a), the Produce Safety Rule does not cover a farm\nor farm mixed-type facility with an average annual monetary value of produce (as \u201cproduce\u201d is\ndefined in \u00a7 112.3) sold during the previous 3-year period of $25,000 or less (on a rolling basis),\nadjusted for inflation using 2011 as the baseline year for calculating the adjustment. We\nrecognize that there is a lot of overlap between the farms that the Food Traceability Rule\nexempts under \u00a7 1.1305(a)(1)(i), and the farms that the Food Traceability Rule exempts under",
+      "summary": "\u00a7 1.1305(a)(1)(ii). Scenario 2: Farm selling both produce on the FTL and non-produce food on the FTL As a second example, a farm sells $20,000 of tomatoes (a produce item on the...",
+      "citation": "\u00a71.1305",
+      "text_hash": "sha256:0960e80f41d6e2f723ebae6c8ab88ef03aaecef5163ab417c45d84cf0912c358",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1305",
+          "section": "\u00a71.1305",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 5,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1305-8",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "\u00a7 1.1305(a)(1)(ii), which is the provision discussed earlier in this response. If a farm fits into",
+      "section": "\u00a71.1305",
+      "text": "\u00a7 1.1305(a)(1)(ii), which is the provision discussed earlier in this response. If a farm fits into\neither or both of these exemptions, it is exempt from the Food Traceability Rule. FDA provided\nthe exemption in \u00a7 1.1305(a)(1)(i) so that farms that have already determined that they are not\ncovered by the Produce Safety Rule as a function of 21 CFR 112.4(a) would not need to do any\nadditional analysis to figure out their status under the Food Traceability Rule.",
+      "summary": "\u00a7 1.1305(a)(1)(ii), which is the provision discussed earlier in this response. If a farm fits into either or both of these exemptions, it is exempt from the Food Traceability Ru...",
+      "citation": "\u00a71.1305",
+      "text_hash": "sha256:f3ce346af6d35721cd73d3cba9ec8d0f7e6585ff7ae412b58a57c964b35c454b",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1305",
+          "section": "\u00a71.1305",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 6,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-2-9",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 2: In the context of a farm to school or farm to institution program, is the farm itself",
+      "section": "Question 2",
+      "text": "Question 2: In the context of a farm to school or farm to institution program, is the farm itself\nexempt?\nResponse 2: Section 1.1305(l) provides a partial exemption to \u201can institution operating a child\nnutrition program authorized under the Richard B. Russell National School Lunch Act or Section\n4 of the Child Nutrition Act of 1966, or any other entity conducting a farm to school or farm to\ninstitution program, with respect to a food that is produced on a farm (including food produced\nand packaged on the farm) and sold or donated to the school or institution.\u201d Per \u00a7 1.1305(l)(2),\nthe school food authority or relevant food procurement entity must maintain a record for 180\ndays documenting the name and address of the farm that was the source of the food.\nWe consider the farm that is producing the food for such a program to be one of the entities\n\u201cconducting\u201d the farm to school or farm to institution program. Therefore, the participating farm\nwould be exempt from the rule with respect to the food that is produced on the farm and sold or\ndonated to the school or institution.",
+      "summary": "Question 2: In the context of a farm to school or farm to institution program, is the farm itself exempt? Response 2: Section 1.1305(l) provides a partial exemption to \u201can insti...",
+      "citation": "Question 2",
+      "text_hash": "sha256:ddc42cb82309caf6457df916648d4fa5295bcf9007311a183e3dcb257ef5cf0f",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 2",
+          "section": "Question 2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 6,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1305-10",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 3: The partial exemption in \u00a7 1.1305(m) applies not only to the owner, operator, or",
+      "section": "\u00a71.1305",
+      "text": "Question 3: The partial exemption in \u00a7 1.1305(m) applies not only to the owner, operator, or\nagent in charge of a fishing vessel, but also to anyone who manufactures, processes, packs, or\nholds the food that was obtained from the fishing vessel, until such time as the food is sold by the\nowner, operator, or agent in charge of the fishing vessel. How does this work in practice? For\nexample, if Kiet owns a fishing vessel that catches tuna and brings it to shore, after which Kiet\narranges for the tuna to be transported to a processing facility that he operates, where the whole\ntuna is transformed into packaged tuna filets and then sold to a distribution center, what records,\nif any, need to be kept?\nResponse 3: In this situation, the partial exemption applies to both the fishing vessel and the\nprocessing facility, but not to the distribution center. Thus, neither Kiet nor anyone else\nassociated with receiving the tuna on shore would be required to maintain the first land-based\nreceiver (FLBR) records under \u00a7 1.1335. Furthermore, the processing facility Kiet operates\nwould not be required to maintain any subpart S records relating to the tuna (such as receiving\n6\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nrecords, transformation records, or shipping records), because at the time when the tuna is being\nheld by the processing facility, Kiet \u2013 the owner of the fishing vessel \u2013 has not yet sold the tuna.\nThe distribution center in this example is not covered by the partial exemption in \u00a7 1.1305(m),\nbecause it receives the tuna filets after they are sold by Kiet. The distribution center would be\nrequired to maintain receiving records under \u00a7 1.1345(b), which sets forth the required records\nwhen an entity receives an FTL food from an entity that is exempt from the rule. Any subsequent\nevents would be covered by the rule. For example, if the distribution center ships the tuna filets\nto a grocery store, the distribution center would maintain and send the required shipping records\nunder \u00a7 1.1340 and the grocery store would maintain the required receiving records under",
+      "summary": "Question 3: The partial exemption in \u00a7 1.1305(m) applies not only to the owner, operator, or agent in charge of a fishing vessel, but also to anyone who manufactures, processes,...",
+      "citation": "\u00a71.1305",
+      "text_hash": "sha256:80b9ee33a224c506e0eb379c3a647c8fee3daa49ef58599c3272e29dbb49bdd4",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1305",
+          "section": "\u00a71.1305",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 6,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1345-11",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "\u00a7 1.1345(a).",
+      "section": "\u00a71.1345",
+      "text": "\u00a7 1.1345(a).\nNote that \u00a7 1.1305(m) is only a partial exemption. As described above, \u00a7 1.1305(m) provides an\nexemption from the subpart S requirement to maintain records relating to specific CTEs, such as\nfirst land-based receiving, receiving, transformation, and shipping. However, under \u00a7\n1.1305(m)(2), if either Kiet\u2019s fishing vessel or Kiet\u2019s processing facility is required to register\nwith FDA under section 415 of the FD&C Act, then that entity would be required to maintain\n\u201cone-up, one-back\u201d records in accordance with 21 CFR 1.337 and 1.345. Section 415 of the\nFD&C Act establishes FDA\u2019s Food Facility Registration program.3",
+      "summary": "\u00a7 1.1345(a). Note that \u00a7 1.1305(m) is only a partial exemption. As described above, \u00a7 1.1305(m) provides an exemption from the subpart S requirement to maintain records relating...",
+      "citation": "\u00a71.1345",
+      "text_hash": "sha256:758484e1cb746e9621eef0abdc097f6f6764747aa68ebc80a532082556ab11b9",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1345",
+          "section": "\u00a71.1345",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-4-12",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 4: If the FLBR commingles fish (or other seafood) from multiple different fishing",
+      "section": "Question 4",
+      "text": "Question 4: If the FLBR commingles fish (or other seafood) from multiple different fishing\nvessels that land at different times, do they need to maintain the FLBR KDEs from each vessel or\ncan they utilize the exemption for commingled raw agricultural commodities (RACs)?\nResponse 4: In this situation, the FLBR may rely on the partial exemption for commingled\nRACs in \u00a7 1.1305(h), provided that the definition of commingling in \u00a7 1.1310 has been met. We\nrecognize that commingling does not happen instantaneously and that commingling might\ninvolve seafood from vessels that landed at different times.",
+      "summary": "Question 4: If the FLBR commingles fish (or other seafood) from multiple different fishing vessels that land at different times, do they need to maintain the FLBR KDEs from each...",
+      "citation": "Question 4",
+      "text_hash": "sha256:ef7f661ff6eb4ce05d1333ce595831621ff2638f68b18748ea07733b88c28569",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 4",
+          "section": "Question 4",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-5-13",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 5: When a raw molluscan shellfish product is exempt from the Food Traceability Rule,",
+      "section": "Question 5",
+      "text": "Question 5: When a raw molluscan shellfish product is exempt from the Food Traceability Rule,\ncould it lose its exemption as it moves through the supply chain? If so, what records need to be\nkept?\nResponse 5: Section 1.1305(f) only provides an exemption for raw bivalve molluscan shellfish\nthat are covered by the requirements of the National Shellfish Sanitation Program (NSSP);\nsubject to the requirements of part 123, subpart C, and \u00a7 1240.60; or covered by a final\nequivalence determination by FDA (available at: https://www.fda.gov/food/international-\ncooperation-food-safety/equivalence-and-food-\nsafety#:~:text=The%20FDA's%20final%20equivalence%20determination,are%20equivalent%20\nto%20comparable%20U.S). Raw molluscan shellfish that are covered by one of these three\nprograms are exempt from the rule because similarly rigorous traceability records are already\nrequired by these programs.\n3 For more on the requirement to maintain \u201cone-up, one-back\u201d records, see Response 29.\n7\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nIn some cases, such products remain exempt throughout their entire supply chain because they\nremain in their raw state and they remain covered by NSSP, or subject to the requirements of\nsubpart C and \u00a7 1240.60, or covered by a final equivalence determination. However, there are\nsome situations where the raw molluscan shellfish are transformed into a food that is no longer\ncovered by the exemption. When this is the case, it is possible that the food will remain exempt\nbecause of a different exemption; but in some situations the food will no longer be exempt. The\nfollowing examples illustrate three possible scenarios:\nScenario 1: Raw oysters served on the halfshell\nOysters on the halfshell that are received raw by restaurants remain subject to the \u00a7 1.1305(f)\nexemption throughout their entire supply chain. Most such oysters are subject to \u00a7 1.1305(f)\nbecause they are covered by NSSP and they are subject to the requirements of subpart C and \u00a7\n1240.60. In other cases, the oysters are subject to \u00a7 1.1305(f) because they are imported from a\ncountry whose oysters are covered by a final equivalence determination.\nScenario 2: Canned clams\nA manufacturer\u2019s receipt of raw clams is subject to the requirements of subpart C and \u00a7 1240.60,\nwhich means that the exemption in \u00a7 1.1305(f) would apply to that receiving event, and the\nmanufacturer would therefore not need to keep any receiving records under the Food\nTraceability Rule. Once the manufacturer cooks and cans the clams, they are no longer raw, and\nthe exemption in \u00a7 1.1305(f) therefore no longer applies. However, at this point the manufacturer\ncan take advantage of the kill step exemption in \u00a7 1.1305(d)(3). In order to take advantage of that\nprovision, the manufacturer would need to keep a record of the application of the kill step, as\ndescribed in \u00a7 1.1305(d)(3)(ii). The manufacturer would then be exempt from keeping\ntransformation and shipping records as a result of the kill step exemption; and as described\nabove, the manufacturer would also be exempt from keeping receiving records because of the\nexemption relating to raw molluscan shellfish. Therefore, the only record that the manufacturer\nwould need to keep in this scenario would be a record of the application of the kill step, which\nthey are probably already required to maintain under another regulation. (See Response 28, 87\nFR 70910 at 70926.)\nScenario 3: Raw breaded oysters\nA manufacturer\u2019s receipt of raw oysters is subject to the requirements of subpart C and",
+      "summary": "Question 5: When a raw molluscan shellfish product is exempt from the Food Traceability Rule, could it lose its exemption as it moves through the supply chain? If so, what recor...",
+      "citation": "Question 5",
+      "text_hash": "sha256:ff5b25ffdf18cae36ef7f5bc9a16f33e334cff4b8b845f9c74fbad99992ccb0e",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 5",
+          "section": "Question 5",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1240-60-14",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "\u00a7 1240.60, which means that the exemption in \u00a7 1.1305(f) would apply to that receiving event,",
+      "section": "\u00a71240.60",
+      "text": "\u00a7 1240.60, which means that the exemption in \u00a7 1.1305(f) would apply to that receiving event,\nand the manufacturer would therefore not need to keep any receiving records under the Food\nTraceability Rule. But when the processor applies breading to the raw oysters, the exempt\nproduct (raw oysters) is transformed into a non-exempt product (raw breaded oysters, which are\nnot subject to the requirements of subpart C and \u00a7 1240.60). As discussed in Question 21,\ntransformation records under \u00a7 1.1350(a)(2) would therefore be required. Shipping records for\nthe outgoing raw breaded oysters would also be required. This ensures traceability for this\nprocessed product through the remainder of the supply chain.\n8\nContains Nonbinding Recommendations\nDraft-Not for Implementation",
+      "summary": "\u00a7 1240.60, which means that the exemption in \u00a7 1.1305(f) would apply to that receiving event, and the manufacturer would therefore not need to keep any receiving records under t...",
+      "citation": "\u00a71240.60",
+      "text_hash": "sha256:731403cacdcd5242d8ace5d847d8bc6c6c8367f934d2670dd10c969cd3b7a9ae",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71240.60",
+          "section": "\u00a71240.60",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 8,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-6-15",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 6: How does the Food Traceability Rule apply to restaurants and RFEs that routinely",
+      "section": "Question 6",
+      "text": "Question 6: How does the Food Traceability Rule apply to restaurants and RFEs that routinely\npurchase FTL foods from RFEs such as wholesale membership clubs, but who do so through the\nmeans utilized by consumers?\nResponse 6: Section 1.1305(k) provides RFEs and restaurants with a partial exemption for\npurchases made from other RFEs or restaurants that occur \u201con an ad hoc basis outside of the\nbuyer\u2019s usual purchasing practice (e.g., not pursuant to a contractual agreement to purchase food\nfrom the seller).\u201d The preamble to the final rule explained:\n\u201cThis partial exemption in \u00a7 1.1305(k) does not exempt RFEs and restaurants from the subpart S\nrequirements when an RFE or restaurant purchases food from another RFE or restaurant as part\nof the buyer\u2019s usual purchasing practice, as opposed to on an ad hoc basis. For an ad hoc\npurchase of the sort that would be eligible for this partial exemption, the purchase is generally\nmade through the means utilized by consumers (e.g., through a check-out line), under\ncircumstances where the selling RFE or restaurant might assume that the purchaser is a\nconsumer. When a contractual relationship exists in which one RFE or restaurant serves as a\nregular commercial supplier for another RFE or restaurant, such purchases would be outside the\nscope of the partial exemption in \u00a7 1.1305(k).\u201d (See Response 222, 87 FR 70910 at 70976.)\nIn order to qualify for this exemption, it is not necessary for such a purchase to be a one-off\noccurrence, or even a rare occurrence. We recognize that some RFEs or restaurants might often\nmake purchases that fit the above description of an ad hoc purchase, in that they are made\nthrough the means utilized by consumers, as opposed to being made pursuant to a contractual\nrelationship. Such purchases are eligible for the partial exemption in \u00a7 1.1305(k). As stated in\nResponse 222 of the preamble to the final rule, it might not be feasible for a full set of KDEs to\nbe kept and passed along under these circumstances. If the sale happens under circumstances\nwhere it may seem like the purchaser is a consumer (e.g., through the check-out line), the\nexchange of KDEs would be hindered both by the need to serve the other people waiting in line,\nand by the fact that the individual making the sale (the cashier) is unlikely to be in possession of\nall of the KDEs. This is not simply a result of the cashier\u2019s job duties; it is also a result of the fact\nthat the FTL food has already been taken out of inventory and placed on the shelf for purchase\nby consumers, which is likely to make it difficult to identify certain KDEs, such as the\ntraceability lot code (TLC), for the specific item.\nIn situations like these where the partial exemption in \u00a7 1.1305(k) applies, the RFE (or\nrestaurant) that made the sale is fully exempt, while the RFE or restaurant that made the purchase\nmust only maintain a record documenting the name of the product purchased, the date of\npurchase, and the name and address of the place of purchase. In many cases, the required KDEs\nfor the ad hoc purchase can be documented by a sales receipt. Additionally, the Food\nTraceability Rule allows a third party to establish and maintain the required records on behalf of\na covered entity, though the covered entity remains responsible for ensuring that such records\ncan be retrieved and provided onsite within 24 hours of request for official review (\u00a7 1.1455(b)).\nAn entity such as a wholesale membership club may be able to provide the required purchase\ninformation (i.e., the name of the product purchased, the date of purchase, and the name and\n9\nContains Nonbinding Recommendations\nDraft-Not for Implementation\naddress of the place of purchase) for its members upon request, even when the purchase was not\nmade pursuant to a contractual relationship. If this is the case, the RFE or restaurant that made\nthe ad hoc purchase could consider the wholesale membership club to be the holder of the\nrecords that are required under the partial exemption, as long as the purchasing RFE or restaurant\ncan provide the required records to FDA upon request within 24 hours.",
+      "summary": "Question 6: How does the Food Traceability Rule apply to restaurants and RFEs that routinely purchase FTL foods from RFEs such as wholesale membership clubs, but who do so throu...",
+      "citation": "Question 6",
+      "text_hash": "sha256:e71d013ec5fbdc750fc5a0320b65f70c965a2b536cf0c0f61631ea633837a17c",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 6",
+          "section": "Question 6",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 9,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-7-16",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 7: When a parent company operates multiple locations of an RFE or restaurant, if one",
+      "section": "Question 7",
+      "text": "Question 7: When a parent company operates multiple locations of an RFE or restaurant, if one\nlocation runs out of an FTL food and therefore sends an employee to another location that is\noperated by the same parent company, where they arrange to take the food from the shelf or from\nthe kitchen and bring it to the location that has run out of the item, does the partial exemption in",
+      "summary": "Question 7: When a parent company operates multiple locations of an RFE or restaurant, if one location runs out of an FTL food and therefore sends an employee to another locatio...",
+      "citation": "Question 7",
+      "text_hash": "sha256:65f57f451a68e18a8d391193c4a58af750ca81e12431e4813a290288f9e1b112",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 7",
+          "section": "Question 7",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 10,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1305-17",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "\u00a7 1.1305(k) apply?",
+      "section": "\u00a71.1305",
+      "text": "\u00a7 1.1305(k) apply?\nResponse 7: The definition of \u201cshipping\u201d includes sending an intracompany shipment of food\nfrom one location at a particular street address of a firm to another location at a different street\naddress of the firm. It is therefore a shipping event when food moves from one location of a\ncompany to another location of the same company, including when it moves between retail or\nrestaurant outlets that are part of the same \u201cchain\u201d of outlets. In some situations an intracompany\nshipment between retail or restaurant locations will be eligible for the partial exemption for ad\nhoc purchases in \u00a7 1.1305(k), while in other situations it will not be. The following scenarios\ndemonstrate the distinction.\nScenario 1: Two locations with a general practice of sharing inventory\nWhen two retail or restaurant locations that are part of the same company have a general practice\nof sharing inventory \u2013 for example, if one location essentially acts as a distributor for the other\nlocation \u2013 then the movement of FTL food from one location to the other would constitute\nregular (not ad hoc) shipments. The exemption in \u00a7 1.1305(k) would therefore not apply, and\nshipping KDEs would need to be maintained and sent for the movement of the FTL food from\none retail or restaurant location to the other.\nScenario 2: Ad hoc movement of FTL food\nWhen there is no general practice of sharing inventory between the two locations, the movement\nof an FTL food between two retail or restaurant locations that are part of the same company can\nconstitute an ad hoc event for the purpose of the exemption in \u00a7 1.1305(k). The situation\ndescribed in the question, in which one location runs out of an FTL food and therefore sends an\nemployee to another location that is operated by the same parent company, where they arrange to\ntake the food from the shelf or from the kitchen and bring it to the location that has run out of the\nitem, could be an example of an ad hoc event. We would consider factors such as whether the\ntransaction is outside of the receiving entity\u2019s usual practice, and whether the entity selling or\nproviding the FTL food had already placed the food on the shelf for purchase by consumers (in\nthe case of an RFE) or moved it to the area where it could be utilized by the kitchen (in the case\nof a restaurant), similar to the situations described in Response 222 of the preamble to the final\nrule (see 87 FR 70910 at 70976) and above in Response 6. Such actions indicate that the entity\nproviding the food was intending to sell the food directly to consumers, which in turn suggests\n10\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nthat sending the food to another retail or restaurant location was unplanned and ad hoc. We\nrecognize that, as discussed in Response 6, once a food item is on the shelf (or in the kitchen\narea) it can become difficult to identify certain KDEs, such as the TLC, for the specific item.\nThe employee from the receiving outlet does not necessarily need to go through the check-out\nline in order for the transaction to be considered ad hoc. While it is possible that a transaction\nbetween two outlets that are part of the same \u201cchain\u201d might be made through the means utilized\nby consumers, such a transaction could still be considered ad hoc even if it occurs in a different\nmanner, e.g., through an impromptu discussion between employees of the two different outlets\nowned by the same parent company.",
+      "summary": "\u00a7 1.1305(k) apply? Response 7: The definition of \u201cshipping\u201d includes sending an intracompany shipment of food from one location at a particular street address of a firm to anoth...",
+      "citation": "\u00a71.1305",
+      "text_hash": "sha256:08adf014fbd78413860786a70abbb8aff7183b9ee8ad72842fdd33244ca8d01b",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1305",
+          "section": "\u00a71.1305",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 10,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-8-18",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 8: If an RFE or restaurant arranges with a third party to purchase FTL foods on their",
+      "section": "Question 8",
+      "text": "Question 8: If an RFE or restaurant arranges with a third party to purchase FTL foods on their\nbehalf from another RFE or restaurant, what KDEs are required?\nResponse 8: Section 1.1305(k) provides RFEs and restaurants with a partial exemption for\npurchases that occur on an ad hoc basis outside of the buyer\u2019s usual purchasing practice (e.g., not\npursuant to a contractual agreement to purchase food from the seller). This exemption is\napplicable regardless of whether the purchase is made by an employee of the purchasing entity,\nor by a third party that the purchasing entity engages to make an ad hoc purchase on their behalf\nfrom another RFE or restaurant. The purchasing RFE or restaurant would be required to maintain\nmodified records as outlined in \u00a7 1.1305(k)(2) and as described in Question 6.\nFor situations where an RFE or restaurant purchases an FTL food from another RFE or\nrestaurant pursuant to a contractual agreement, such purchases would be outside the scope of the\npartial exemption in \u00a7 1.1305(k). In that situation, both entities are required to maintain the\nappropriate shipping and receiving records outlined in the rule (see \u00a7\u00a7 1.1340 and 1.1345) . This\nis true regardless of whether the purchase is made by an employee of the purchasing entity, or by\na third party that the purchasing entity engages.",
+      "summary": "Question 8: If an RFE or restaurant arranges with a third party to purchase FTL foods on their behalf from another RFE or restaurant, what KDEs are required? Response 8: Section...",
+      "citation": "Question 8",
+      "text_hash": "sha256:0056e906a8ceb25c79aff23490ad8740b969ac729b6885e59c6792b0164e287b",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 8",
+          "section": "Question 8",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 11,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1340-19",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 9: How do the Food Traceability Rule requirements under \u00a7 1.1340 for shipping of",
+      "section": "\u00a71.1340",
+      "text": "Question 9: How do the Food Traceability Rule requirements under \u00a7 1.1340 for shipping of\nFTL foods apply to purchases made by consumers from RFEs or restaurants using third-party\nplatforms, such as third-party online ordering websites and delivery applications?\nResponse 9: As defined in \u00a7 1.1310, shipping is an event in a food\u2019s supply chain in which a\nfood is arranged for transport (e.g., by truck or ship) from one location to another location. The\ndefinition further states that shipping does not include the sale or shipment of a food directly to a\nconsumer.\nTherefore, if an RFE or restaurant sends a food directly to the consumer, this would not be\nconsidered a shipping event, and shipping KDEs would therefore not need to be maintained. This\nis true even if the sale was arranged using a third-party platform, for example, if the consumer\npurchased the food by going to a website that is operated by a third party (not by the RFE or\nrestaurant).\n11\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nIn some situations, in addition to operating a website that allows consumers to purchase foods\nfrom various RFEs or restaurants, a third party might also arrange for transport of the food. As\nlong as the food is being transported directly from the RFE or restaurant to the consumer \u2013 which\nis generally the case with these types of services \u2013 this would not be a shipping event.\nHowever, if the food is not sent directly to the consumer from the RFE or restaurant and is\ninstead sent to another business entity prior to being shipped to the consumer, then this would\nmeet the definition of shipping and therefore require the maintenance of shipping KDEs.",
+      "summary": "Question 9: How do the Food Traceability Rule requirements under \u00a7 1.1340 for shipping of FTL foods apply to purchases made by consumers from RFEs or restaurants using third-par...",
+      "citation": "\u00a71.1340",
+      "text_hash": "sha256:d1eadfd2fc7f1065ad7a5fd4f8ae18a15cde248df62404b74158a55e82566382",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1340",
+          "section": "\u00a71.1340",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 11,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-10-20",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 10: Is an FTL food purchased from a farmers\u2019 market stall subject to the same",
+      "section": "Question 10",
+      "text": "Question 10: Is an FTL food purchased from a farmers\u2019 market stall subject to the same\nexemptions as an FTL food purchased from a store located on the farm?\nResponse 10: Yes, if the farmers\u2019 market stall is operated by the farm that produced the food,\nand the food is therefore sold by the owner, operator, or agent in charge of the farm that\nproduced the food.\nThere are two exemptions that relate to sales of food by the farm that produced the food. Both of\nthese exemptions apply not only to stores that are located on farms, but also to other RFEs\noperated by the farm, as follows:\n1. Section 1.1305(b) relates to food produced on a farm that is sold or donated directly to a\nconsumer by the owner, operator, or agent in charge of the farm. In this situation, the\nfarm is exempt from the requirements of the rule. (And since consumers are never subject\nto the rule, the entire transaction is exempt.) We clarified in the preamble to the final rule\nthat this exemption applies to all direct-to-consumer sales by farms, including applicable\nsales at farmers\u2019 markets, roadside stands, over the internet, and through community-\nsupported agriculture (CSA) programs. (See 87 FR 70910 at 70959.)\n2. Section 1.1305(j) applies to RFEs and restaurants with respect to food that is produced on\na farm and both sold and shipped directly to the RFE or restaurant by the owner, operator,\nor agent in charge of that farm. In this situation, the RFE or restaurant receives a partial\nexemption, and only must maintain \u2013 for 180 days \u2013 a record documenting the name and\naddress of the farm that was the source of the food. (Note that the farm does not receive\nan exemption (unless otherwise exempted) and must therefore maintain and send the\nusual shipping KDEs.) All sales that are made directly from the farm to the RFE or\nrestaurant are eligible for this exemption, including sales from farmers\u2019 markets, roadside\nstands, over the internet, and through CSA programs. This approach is in keeping with\nour approach to \u00a7 1.1305(b).\nHowever, in both of these exemptions the food has to be produced by the farm that is making the\nsale. In some situations a farmers\u2019 market stall (or another RFE that is operated by a farm) might\nsell food that was produced by another farm. In that situation, we would not consider the food to\nbe sold by the farm that produced the food. (See Response 174, 87 FR 70910 at 70959.) Thus,\nneither the exemption in \u00a7 1.1305(b) nor the exemption in \u00a7 1.1305(j) would apply.\nAs an example, if Nai-Nai\u2019s Farm operates a farmers\u2019 market stall where they sell both food that\nthey produced on their own farm and food that was produced at the neighboring Zayde\u2019s Farm,\n12\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nthen the exemptions in \u00a7\u00a7 1.1305(b) and 1.1305(j) would only be available for the food that was\nproduced on Nai-Nai\u2019s Farm.\nDepending on the circumstances, other exemptions might apply to the food that was produced on\nZayde\u2019s Farm. For example, if an employee of an RFE or restaurant goes to the farmers\u2019 market\nstall that is operated by Nai-Nai\u2019s Farm and makes an ad hoc purchase of an FTL food that was\nproduced on Zayde\u2019s Farm, the partial exemption for ad hoc sales in \u00a7 1.1305(k) would apply.\nIt is also important to note that the farmers\u2019 market stall itself might qualify for an exemption as\na small retailer under \u00a7 1.1305(i), in which case the entire stall would be exempt regardless of\nwhere the food was produced.",
+      "summary": "Question 10: Is an FTL food purchased from a farmers\u2019 market stall subject to the same exemptions as an FTL food purchased from a store located on the farm? Response 10: Yes, if...",
+      "citation": "Question 10",
+      "text_hash": "sha256:eccd568da07b57e18ec5cd419cd9a527debf86e2b2cca93c28f2541004542011",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 10",
+          "section": "Question 10",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 12,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-11-21",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 11: How do I determine if a food is being sold by the owner, operator or agent in",
+      "section": "Question 11",
+      "text": "Question 11: How do I determine if a food is being sold by the owner, operator or agent in\ncharge of a farm?\nResponse 11: As discussed in QA10, there are two exemptions that relate to sales by the owner,\noperator, or agent in charge of the farm that produced the food (see \u00a7 1.1305(b) and (j)). In\ndetermining whether an FTL food is being sold by the owner, operator, or agent in charge of the\nfarm that produced that food, we look to whether or not the farm that produced the food is\noperating the RFE where the food is sold. As discussed in Response 10, this could be any retail\nlocation or platform that performs direct-to-consumer sales by the farm, such as a store located\non the farm, a farmers\u2019 market stall, a roadside stand, an internet website, or a community-\nsupported agriculture program. If the farm that produced the food is operating the RFE where the\nfood is sold, then we consider the food to be sold by the owner, operator, or agent in charge of\nthe farm that produced the food.\nWe recognize that the individual who performs the specific sales transaction might be a\ntemporary employee or someone who otherwise does not have a leadership position within the\nfarm. For example, a farmers\u2019 market stall might be staffed by an employee who does not have a\nleadership position, but who nonetheless has the authority to sell the food produced by the farm.\nAs long as the stall is being operated by the farm that produced the food, then we consider the\nsale to have been made by the owner, operator, or agent in charge of that farm.",
+      "summary": "Question 11: How do I determine if a food is being sold by the owner, operator or agent in charge of a farm? Response 11: As discussed in QA10, there are two exemptions that rel...",
+      "citation": "Question 11",
+      "text_hash": "sha256:e3de323ed5830438400dbf8abc36c224621e803f51e73135cc79cb49c070f497",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 11",
+          "section": "Question 11",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 13,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-12-22",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 12: Do practices such as freezing, heading, or eviscerating of seafood constitute",
+      "section": "Question 12",
+      "text": "Question 12: Do practices such as freezing, heading, or eviscerating of seafood constitute\n\u201cprocessing\u201d for the purpose of determining eligibility for the partial exemption for commingled\nRACs in \u00a7 1.1305(h)?\n13\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nResponse 12: The definition of \u201ccommingled raw agricultural commodity\u201d4 in \u00a7 1.1310 is\nlimited to any commodity that is combined or mixed after harvesting but before processing. The\npartial exemption for commingled RACs in \u00a7 1.1305(h) is therefore only available if the\ncommingling occurs before the product is processed. As stated in \u00a7 1.1310 (which derives from\nSection 204(d)(6)(D)(ii) of FSMA), for the purposes of the commingled RAC definition, the\nterm \u201cprocessing\u201d means operations that alter the general state of the commodity, such as\ncanning, cooking, freezing, dehydration, milling, grinding, pasteurization, or homogenization.\nAlthough freezing is listed as something that can alter the general state of a commodity, we do\nnot think that all freezing events should be considered processing for the purpose of the\ncommingled RAC definition and exemption. In the context of seafood, practices such as freezing\nare often important to maintain product safety and quality during transport on board a fishing\nvessel. When seafood is frozen (or headed and/or eviscerated, as discussed below) with the sole\nintent of preparing it for holding on board a harvest vessel, we do not think it is appropriate to\nconsider this \u201cprocessing\u201d for the purpose of the commingled RAC definition and exemption.\nThus, for example, fish that is harvested by one fishing vessel, and frozen (or headed or\neviscerated) while at sea to prepare it for holding on board that vessel, can still be eligible for the\nexemption if it is subsequently commingled with fish from another vessel after the vessels have\nlanded. However, when activities such as heading, eviscerating, or freezing are done in other\ncontexts, such as in a seafood processing facility or aquaculture farm, they would constitute\n\u201cprocessing\u201d for the purposes of this exemption.\nThis approach is consistent with FDA\u2019s seafood hazard analysis critical control point (HACCP)\nregulations. Under \u00a7 123.3(k)(1), with respect to fish or fishery products, processing includes\nheading, eviscerating, and freezing. However, under \u00a7 123.3(k)(2)(ii), the seafood HACCP\nregulations \u2013 which in general apply to entities that process fish or fishery products \u2013 do not\napply to practices such as heading, eviscerating, or freezing intended solely to prepare a fish for\nholding on board a harvest vessel. In the preamble to the final rule that promulgated the HACCP\nregulations, we explained our concern that, in the absence of such an exemption, harvest vessels\nthat are presently heading or gutting fish would stop the practice to avoid being subject to the\nHACCP requirements. Because we did not want an inadvertent consequence of the HACCP\nregulations to be a reduction in product quality, and because we had tentatively concluded that\nsafety hazards introduced by these operations are generally minimal, FDA decided that the\nHACCP regulations should not apply to practices such as heading, eviscerating, or freezing that\nare intended solely to prepare a fish for holding on board a harvest vessel (see 60 FR 65096,\n65115 (Dec. 18, 1995)). Similar considerations apply here: We do not want an inadvertent\n4 Commingled raw agricultural commodity, as defined in \u00a7 1.1310, means any commodity that is combined or\nmixed after harvesting but before processing, except that the term \u201ccommingled raw agricultural commodity\u201d does\nnot include types of fruits and vegetables that are raw agricultural commodities to which the standards for the\ngrowing, harvesting, packing, and holding of produce for human consumption in 21 CFR Part 112 apply. For the\npurpose of this definition, a commodity is \u201ccombined or mixed\u201d only when the combination or mixing involves food\nfrom different farms under different company management; except that for food obtained from a fishing vessel, a\ncommodity is \u201ccombined or mixed\u201d only when the combination or mixing involves food from different landing\nvessels and occurs after the vessels have landed. Also, for the purpose of this definition, the term \u201cprocessing\u201d\nmeans operations that alter the general state of the commodity, such as canning, cooking, freezing, dehydration,\nmilling, grinding, pasteurization, or homogenization.\n14\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nconsequence of the Food Traceability Rule to be a reduction in product quality, and we continue\nto believe that these activities are distinguishable from other types of processing.\nFurthermore, in the context of the Food Traceability Rule, the exemption for commingled RACs\nis only available when the combining or mixing of the commodity involves food from different\nfarms under different company management, or \u2013 for food obtained from a fishing vessel \u2013 when\nit involves food from different landing vessels and occurs after the vessels have landed. Freezing\nis routinely used on board a harvest vessel to preserve the quality of the seafood before it is\nlanded. Quickly heading and eviscerating seafood products can also be important for product\nsafety and quality, which is why these activities are also often performed almost immediately\nafter harvesting, before the vessel has landed. Thus, if any type of freezing, heading, or\neviscerating of a seafood product were considered to be a form of processing, the commingled\nRAC exemption would almost never be available to seafood products obtained from fishing\nvessels. Congress explicitly stated that most produce is ineligible for the commingled RAC\nexemption (see Section 204(d)(6)(D)(ii)(II) of FSMA), which leads us to conclude that Congress\nintended the exemption to be available to non-produce commodities such as seafood, under\nappropriate circumstances.",
+      "summary": "Question 12: Do practices such as freezing, heading, or eviscerating of seafood constitute \u201cprocessing\u201d for the purpose of determining eligibility for the partial exemption for ...",
+      "citation": "Question 12",
+      "text_hash": "sha256:d1b4e01a711eee377d376d0fce284230141146e39a0c910c5931181baa4daeea",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 12",
+          "section": "Question 12",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 13,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1305-23",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 13: Does the partial exemption for commingled RACs (\u00a7 1.1305(h)) continue to apply",
+      "section": "\u00a71.1305",
+      "text": "Question 13: Does the partial exemption for commingled RACs (\u00a7 1.1305(h)) continue to apply\nif the food is no longer a RAC?\nResponse 13: No. This exemption is only applicable to RACs. Section 1.1310 states that \u201craw\nagricultural commodity\u201d means \u201craw agricultural commodity\u201d as defined in section 201(r) of the\nFD&C Act. That definition states, in relevant part, that the term \u201craw agricultural commodity\u201d\nmeans any food in its raw or natural state. Products that do not meet the definition of RACs are\nnot eligible for the exemption for commingled RACs.\nWe expect that there will be situations where a product is eligible for the exemption for\ncommingled RACs, but as it moves through the supply chain it loses its eligibility because it\nceases to be a RAC. For example, if shrimp are harvested from two different farms under\ndifferent company management, and the shrimp from the two farms are combined or mixed after\nthey are harvested but before they are processed (as that term is used in the definition of\n\u201ccommingled raw agricultural commodity\u201d), the commingled whole raw shrimp would be\neligible for the exemption for commingled RACs. However, if at a later time the commingled\nshrimp are peeled and deveined, they would no longer be a RAC. They would therefore no\nlonger be eligible for the exemption for commingled RACs. See Question 21 for a discussion of\nwhat records are required in this situation.",
+      "summary": "Question 13: Does the partial exemption for commingled RACs (\u00a7 1.1305(h)) continue to apply if the food is no longer a RAC? Response 13: No. This exemption is only applicable to...",
+      "citation": "\u00a71.1305",
+      "text_hash": "sha256:fbd2e6dc876108ded99afc39ad4fc7feae924e0aeb4e4a6b598b942c04722244",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1305",
+          "section": "\u00a71.1305",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 15,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1305-24",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 14: Does the partial exemption for commingled RACs in \u00a7 1.1305(h) apply when",
+      "section": "\u00a71.1305",
+      "text": "Question 14: Does the partial exemption for commingled RACs in \u00a7 1.1305(h) apply when\ndifferent species of fish (or other seafood) are commingled together?\nResponse 14: Under \u00a7 1.1310, commingled RAC means, in part, any \u201ccommodity\u201d that is\ncombined or mixed after harvesting but before processing. This definition assumes that the\ncommingled product is treated as a single commodity, i.e., as a single article of commerce. For\nexample, pollock from two different fishing vessels might be commingled before being shipped\nto a processing facility. In this situation, the commingled pollock is treated as a single\n15\nContains Nonbinding Recommendations\nDraft-Not for Implementation\ncommodity (e.g., whole raw pollock). We anticipate that in the vast majority of situations\ncommingling will only occur among the same species, because a commingled RAC moves\nthrough the supply chain as a single article of commerce.\nIf different species of fish are stored or shipped together, but not treated as a single commodity,\nthen no commingling has occurred. For example, if an FLBR purchases pollock from one fishing\nvessel and salmon from another fishing vessel and sells them as part of a single shipment to a\nseafood processing facility where the pollock will be processed into packaged pollock filets and\nthe salmon will be processed into packaged salmon fillets, no commingling has occurred. In this\nsituation, the pollock and the salmon have not been combined or mixed as a single commodity;\ninstead, they are kept separate and treated as distinct commodities. While they are sold as part of\na single shipment, they are presumably listed as separate items within that shipment.\nThere might be a small number of circumstances where commingling of different species could\noccur. For example, an FLBR might buy a variety of small fish from different fishing vessels,\ncombine the different species of fish from the different vessels, and ship them as a single\ncommodity \u2013 for example \u201craw sardine/anchovy mix.\u201d The receiving facility could be a fish\npaste processor who is willing to purchase a mix of small fish as a single commodity to\nmanufacture into fish paste. This type of commingling could be eligible for the commingled\nRAC exemption, assuming all of the elements of the exemption are met.",
+      "summary": "Question 14: Does the partial exemption for commingled RACs in \u00a7 1.1305(h) apply when different species of fish (or other seafood) are commingled together? Response 14: Under \u00a7 ...",
+      "citation": "\u00a71.1305",
+      "text_hash": "sha256:f023cbd1e20f58619d4f1ebe73bb2069fbf43a535e701d567b11e84834622efb",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1305",
+          "section": "\u00a71.1305",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 15,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1305-25",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 15: If a commingled RAC that is partially exempt under \u00a7 1.1305(h) receives a kill",
+      "section": "\u00a71.1305",
+      "text": "Question 15: If a commingled RAC that is partially exempt under \u00a7 1.1305(h) receives a kill\nstep, how does the partial exemption for commingled RACs intersect with the exemptions related\nto products that receive a kill step? What records must be kept?\nResponse 15: When multiple exemptions apply to a given situation, an entity has the flexibility\nto utilize any of the applicable exemptions, as long as the entity complies with any obligations\nthat might accompany the exemption (if it is only a partial exemption). A combination of\nexemptions can also be used, for example if the food is initially eligible for a given exemption\nbut subsequently stops being eligible for that exemption.\nIn the situation presented here, if the relevant members of the supply chain are aware in advance\nthat the food will receive a kill step, they can enter into written agreements under \u00a7 1.1305(d)(6)\nand thereby be exempt from the other requirements of the rule. The entity that applies the kill\nstep would need to keep a record of their application of the kill step under \u00a7 1.1305(d)(3)(ii).\nAssuming no such written agreements are in place, the incoming commingled RAC that arrives\nat the facility that is going to apply the kill step is potentially eligible for two different partial\nexemptions \u2013 \u00a7 1.1305(h), because it is a commingled RAC, and \u00a7 1.1305(d)(3), because it is a\nfood that the processor subjects to a kill step. The key principle to apply is that the processor can\nchoose to take either of the applicable exemptions (or some combination thereof), as long as they\ncomply with any obligations that might accompany the exemption, and as long as they recognize\nthat some exemptions are only available at certain points in time. Notably here, the commingled\nRAC exemption no longer applies once a food is processed, as discussed in Question 13. Taking\nall of this into account, either of the following two scenarios would be acceptable:\n16\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nIf the processor chooses to avail themself of the commingled RAC exemption, and if the\nprocessor is required to register under section 415 of the FD&C Act (which is very likely to be\nthe case), then the processor\u2019s only obligation regarding the receipt of the incoming commingled\nRAC is to maintain records identifying the immediate previous source of the commingled RAC\nin accordance with \u00a7 1.337. This obligation stems from \u00a7 1.1305(h)(3). Once processing begins,\nthe food is no longer a RAC (as discussed in Question 13), so the commingled RAC exemption\nno longer applies. At this point the processor can begin to avail themself of the kill step\nexemption, by keeping a record of the kill step as set forth in \u00a7 1.1305(d)(3)(ii). After the kill\nstep has been applied, there are no further obligations relating to the food.\nAs a second option, the processor could choose only to avail themself of the kill step exemption\nin \u00a7 1.1305(d)(3). If they choose this option, they will be required to keep receiving records as\ndescribed in \u00a7 1.1345. (Unless they have entered into a written agreement concerning their\napplication of the kill step, as discussed above and in \u00a7 1.1305(d)(3)(i).) They would also need to\nkeep a record of their application of the kill step, per \u00a7 1.1305(d)(3)(ii). After the kill step has\nbeen applied, there are no further obligations relating to the food.\nAlso note that a firm is never required to take an exemption just because it is available to them.\nA firm might decide that keeping full records for all of its FTL foods is easier than keeping track\nof exemptions. Thus, in this situation, a full set of receiving records under \u00a7 1.1345 is always an\nacceptable way to handle the receipt of the incoming commingled RAC. Similarly, a full set of\ntransformation records under \u00a7 1.1350 can be maintained instead of a record of the kill step. And\nit is always permissible to maintain shipping records for the food that has received the kill step,\neven though there is no obligation to do so.",
+      "summary": "Question 15: If a commingled RAC that is partially exempt under \u00a7 1.1305(h) receives a kill step, how does the partial exemption for commingled RACs intersect with the exemption...",
+      "citation": "\u00a71.1305",
+      "text_hash": "sha256:1b1c70500e59a7102a67394f17df58b79cf0649c8c7fc5c7c94990fd137e0841",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1305",
+          "section": "\u00a71.1305",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 16,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-16-26",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 16: Are there situations where a RAC on the FTL is sent to a different location without",
+      "section": "Question 16",
+      "text": "Question 16: Are there situations where a RAC on the FTL is sent to a different location without\nbeing \u201cinitially packed\u201d? For example, if a harvester packs up an FTL food so that it can be\ntransported to a packinghouse at a different location, is the harvester or the packinghouse the\ninitial packer?\nResponse 16: Section 1.1310 defines \u201cinitial packing\u201d to mean \u201cpacking a raw agricultural\ncommodity (other than a food obtained from a fishing vessel) for the first time.\u201d \u201cPacking\u201d is\ndefined in relevant part to mean \u201cplacing food into a container other than packaging the food.\u201d In\nthe preamble to the final rule, we noted that, in general, packing means putting a product into a\ncontainer that is distributed in commerce (e.g., packing clamshell containers into a cardboard box\nfor shipment), and does not include placing a product into a temporary container to move it, such\nas from a field to a packinghouse (see 87 FR 70910 at 70990).\nWhen a RAC is sent to a different location from the farm where it was harvested, the entity who\nsends the RAC to the new location is generally doing so by putting the product into some sort of\ncontainer and distributing it into commerce. Thus, under the preamble\u2019s explanation, this entity\nwould appear to be the initial packer. We continue to believe that this entity is presumed to be\nthe initial packer. However, we recognize that many supply chains include a packinghouse, and\nthat RACs are often not considered to be \u201cpacked\u201d until they reach the packinghouse. This can\n17\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nbe the case even if the packinghouse is in a different location than the place where the food was\nharvested, and/or is under different ownership.\nWe encourage supply chain entities to communicate with each other to identify the initial packer.\nIn situations where the first entity is sending the food to a packinghouse, and the first entity is\naware that the packinghouse considers itself to be the initial packer, FDA will generally not\nsubstitute our own judgement for the judgement of the supply chain members in determining\nwhich entity should be considered the initial packer for the purposes of food traceability. If the\npackinghouse is considered the initial packer, it would need to keep the required initial packer\nKDEs in accordance with \u00a7 1.1330, and the harvester and (if applicable) cooler would need to\nprovide the packinghouse with the harvesting and cooling information that is required to be\nprovided to the initial packer under \u00a7 1.1325(a)(2) and (b)(2), either directly or through the\nsupply chain.\nWe note that some types of RACs never get packed as securely as others. For example,\nwatermelons generally do not get packed as securely as shell eggs. However, for the rule to\nfunction as intended, it is important that every RAC (except those obtained from a fishing vessel)\nhave an initial packer who designates traceability lots and assigns TLCs. For a product such as\nwatermelons, the same analysis applies as above. The first person who sends the watermelons to\na different location from the farm where they were harvested should consider themselves to be\nthe initial packer unless they are aware that the place where they are sending the watermelons is\na place (such as a packinghouse) that considers itself to be the initial packer and will keep the\nrequired initial packing KDEs. This is the case even if the watermelons are being contained\nloosely in a manner that would not, for other types of produce, be considered \u201cpacked.\u201d If such\nloose packing is of the type that is used to transport watermelons throughout the supply chain,\nand if the next entity in the supply chain does not consider itself to be the initial packer, then the\nentity who first sends the watermelons to a different location from the farm where they were\nharvested should consider themself to be the initial packer.",
+      "summary": "Question 16: Are there situations where a RAC on the FTL is sent to a different location without being \u201cinitially packed\u201d? For example, if a harvester packs up an FTL food so th...",
+      "citation": "Question 16",
+      "text_hash": "sha256:4e3162f5aa1122cd489deb3525f0c62efb4ffb88b0f2db8ad41267170492b3bc",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 16",
+          "section": "Question 16",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 17,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-17-27",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 17: When initial packing happens in a field, how should the location description for",
+      "section": "Question 17",
+      "text": "Question 17: When initial packing happens in a field, how should the location description for\nthe traceability lot code (TLC) source be recorded? Does it need to be the geographic coordinates\nfor the specific field where the packing took place?\nResponse 17: Under \u00a7 1.1320, you must assign a TLC when you perform the initial packing of a\nRAC on the FTL (other than a food obtained from a fishing vessel). As defined in \u00a7 1.1310, the\nTLC source is the place where a food was assigned a TLC. Under \u00a7 1.1330(a)(14), the initial\npacker of the food must maintain records that contain the location description for where they\ninitially packed the food (i.e., the TLC source). Location description is defined in \u00a7 1.1310 to\nmean key contact information for the location where a food is handled, specifically the business\nname, phone number, physical location address (or geographic coordinates), and city, State, and\nzip code for domestic locations and comparable information for foreign locations, including\ncountry. Thus, the location description for the TLC source must capture this key contact\ninformation for the place where a food was assigned a TLC.\n\u201cThe place where a food was assigned a TLC\u201d does not need to be specific enough to identify the\nexact physical location (e.g., a specific field) where the TLC was assigned. The definition of\n18\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nlocation description includes as one element the \u201cphysical location address (or geographic\ncoordinates).\u201d Either of these can be used when recording the location description for the TLC\nsource. Thus, when a food is initially packed in the field of a farm, the street address of the farm\ncan be used as the physical location address. If the farm does not have a street address,\ngeographic coordinates can be used instead. However, these coordinates do not need to refer to\nthe precise field where a given traceability lot was initially packed. The farm can select one set\nof geographic coordinates (for example, to reflect the main entrance of the farm) to use as part of\nits location description.\nNote that specific information about the fields and other growing areas where FTL foods are\ngrown and harvested is required in other parts of the Food Traceability Rule (see\n\u00a7\u00a7 1.1315(a)(5)(i), 1.1325(a)(1)(v), and 1.1330(a)(5)). This information, in conjunction with\nother required information such as the street address of the TLC source (or geographic\ncoordinates for the main entrance of the TLC source), will enable FDA to locate the potential\nsource of a foodborne illness outbreak and help protect public health.",
+      "summary": "Question 17: When initial packing happens in a field, how should the location description for the traceability lot code (TLC) source be recorded? Does it need to be the geograph...",
+      "citation": "Question 17",
+      "text_hash": "sha256:548cad5e95ff81758ab5e698b5f2e0089cbe1d3c6a6bd6f243d9cd3bebf3ec2c",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 17",
+          "section": "Question 17",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 18,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-18-28",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 18: I am an entity that receives unpacked produce from very small farms, e.g.,",
+      "section": "Question 18",
+      "text": "Question 18: I am an entity that receives unpacked produce from very small farms, e.g.,\nbackyard farmers, and then distributes it to other entities. I do not have information about the\nbackyard farmers because my immediate supplier is a consolidator who buys the produce from\nthe various backyard farmers, transports it all together (still unpacked) in his vehicle, and brings\nit to my facility and sells it to me. The consolidator does not have a business address because his\noperation only entails the use of his vehicle, and does not involve a brick and mortar location.\nWhat KDEs do I need to keep in this situation?\nResponse 18: Because the produce has not yet been packed, you do not need to keep receiving\nKDEs (see \u00a7 1.1345(c)). It is likely that under the Food Traceability Rule, you are the initial\npacker in this scenario because the food has not yet been packed, and you are presumably\npacking it sufficiently such that it can go to the next point in the supply chain. Even if you are\nonly placing the food in temporary containers to be transported to a processor, you are most\nlikely the initial packer as described in Question 17.\nSection 1.1330(c) describes the KDEs that are required if you are initially packing a RAC (other\nthan a food obtained from a fishing vessel) that you received from a person to whom the rule\ndoes not apply. In this situation, the consolidator is not subject to any of the requirements of the\nrule. He is handling food that has not been initially packed, so he does not need to maintain\nshipping or receiving KDEs; and he is not performing any other CTEs described in the rule. He\nis therefore a person to whom the rule does not apply. Yet he is the person from whom you\nreceived the food. He is not simply a transporter, because he is the person from whom you\nbought the food; you do not have a business relationship with the farmers. Therefore, you have\nreceived the food from a person to whom the rule does not apply, which means that if you are\ninitially packing the food, you must keep the KDEs described in \u00a7 1.1330(c).\nThe KDEs in \u00a7 1.1330(c) do not include information about the location where the food was\nharvested, because we recognize that if you receive the food from a person to whom the rule\ndoes not apply, you may not know this information. The information required under \u00a7 1.1330(c)\nis all information that you should be able to obtain in this situation. Regarding the business\n19\nContains Nonbinding Recommendations\nDraft-Not for Implementation\naddress of the consolidator, \u00a7 1.1330(c)(4) requires you to maintain a record of the location\ndescription for the person from whom you received the food. \u201cLocation description\u201d is defined in",
+      "summary": "Question 18: I am an entity that receives unpacked produce from very small farms, e.g., backyard farmers, and then distributes it to other entities. I do not have information ab...",
+      "citation": "Question 18",
+      "text_hash": "sha256:2fb9e8399aac70afd147c564b783888fd49ca065eae51a4b27d3f7cc3d781039",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 18",
+          "section": "Question 18",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 19,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1310-29",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "\u00a7 1.1310 as key contact information for the location where a food is handled, specifically the",
+      "section": "\u00a71.1310",
+      "text": "\u00a7 1.1310 as key contact information for the location where a food is handled, specifically the\nbusiness name, phone number, physical location address (or geographic coordinates), and city,\nState, and zip code for domestic locations and comparable information for foreign locations,\nincluding country. Thus, in this situation, you would be required to maintain a record of the\nbusiness name, phone number, and physical location address of the consolidator from whom you\nreceived the food. If the consolidator is self-employed and is not associated with a business\nname, then your records under \u00a7 1.1330(c)(4) could use his personal name (e.g., Juan Ramirez)\nas the \u201cbusiness name.\u201d Similarly, if the consolidator only handles food in his vehicle, and\ncarries out his business operations from his home, then his home phone number (or cell phone\nnumber) could serve as the \u201cphone number\u201d for the purposes of the location description, and his\nhome address could serve as the \u201cphysical location address\u201d for the purposes of the location\ndescription.\nNote that this response only applies in a situation where you do not have a business relationship\nwith the farmers. If you had an arrangement with the farmers for them to sell or otherwise\nprovide you with the produce, then each farmer would be \u201cthe person from whom you received\nthe food\u201d under \u00a7 1.1330(c)(4) for the food you received from that farmer. (This assumes that the\nfarms would be exempt due to their size. If they were not exempt, and if you had business\nrelationships under which they supplied you with produce, then you would be required to keep\nthe information set forth in \u00a7 1.1330(a), which includes the location description for the farm\nwhere the food was harvested.) In this situation \u2013 if you had a business relationship with the\nfarmers under which they supplied you with produce \u2013 the person who brought you the produce\nfrom the farm would be a transporter. He would therefore be exempt from the rule under",
+      "summary": "\u00a7 1.1310 as key contact information for the location where a food is handled, specifically the business name, phone number, physical location address (or geographic coordinates)...",
+      "citation": "\u00a71.1310",
+      "text_hash": "sha256:5bc0c4dc0514a0d49ccc793c21d14154d29b97d9c14e6548cbb9217cb91f13eb",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1310",
+          "section": "\u00a71.1310",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 20,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1305-30",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "\u00a71.1305(n), and you would not be required to keep any KDEs relating to him.",
+      "section": "\u00a71.1305",
+      "text": "\u00a71.1305(n), and you would not be required to keep any KDEs relating to him.\nWhile situations may arise (as in this scenario involving receipt of produce from a consolidator\nof unpacked produce from backyard farmers) where the Food Traceability Rule does not require\nthe initial packer to maintain records relating to the farm where the food was harvested, it is\nimportant to note that you might be required to know certain information about that farm under\nother FDA regulations. For example, you might be required to know the identity of your foreign\nsupplier (21 CFR 1.500) or supplier (21 CFR 117.3) for the purposes of conducting verification\nactivities required under the regulations on Foreign Supplier Verification Programs for Food\nImporters (21 CFR Part 1, Subpart L) or Current Good Manufacturing Practice, Hazard Analysis,\nand Risk-Based Preventive Controls for Human Food (21 CFR Part 117, Subpart G).",
+      "summary": "\u00a71.1305(n), and you would not be required to keep any KDEs relating to him. While situations may arise (as in this scenario involving receipt of produce from a consolidator of u...",
+      "citation": "\u00a71.1305",
+      "text_hash": "sha256:f4197be2ca85c6266b2b5c42a0560f132dfbd86537eb653a3fa7eba178486231",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1305",
+          "section": "\u00a71.1305",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 20,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-19-31",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 19: If I break a pallet, do I need to maintain the transformation KDEs?",
+      "section": "Question 19",
+      "text": "Question 19: If I break a pallet, do I need to maintain the transformation KDEs?\nResponse 19: Breaking a pallet \u2013 i.e., taking apart a pallet of food products so that individual\nboxes, containers, or cases can be sent to different places -- is not, in and of itself, a\ntransformation event. The Food Traceability Rule defines transformation to mean an event in a\nfood\u2019s supply chain that involves manufacturing/processing a food or changing a food (e.g., by\n20\nContains Nonbinding Recommendations\nDraft-Not for Implementation\ncommingling, repacking, or relabeling) or its packaging or packing, when the output is a food on\nthe FTL. Breaking a pallet sometimes happens as part of a transformation event, in which case\nthe transformation KDEs in \u00a7 1.1350 must be maintained. But if the breaking of the pallet is not\npart of a transformation event, then transformation KDEs do not need to be maintained.\nAs an example, a pallet of tomatoes might be broken so that the tomatoes can be sorted and\nrepacked based on ripeness. Because repacking is a transformation event, the KDEs in \u00a7 1.1350\nwould need to be maintained in this situation. The repacker would become the TLC source, and\nin most situations a new TLC would be assigned. (As discussed in Response 436 in the preamble\nto the final rule, the repacker could decide to keep the same TLC if the tomatoes are repacked\nwithin the same traceability lot (repacking \u201clike into like\u201d) (see 87 FR 70910 at 71035).)\nIn contrast, if a distribution center breaks a pallet to remove one case (or breaks a case to remove\nan item, such as a jar of peanut butter) \u2013 for example, because they only need one case to fulfill a\ncustomer\u2019s order \u2013 this does not constitute transformation. The contents of the pallet are not\nbeing repacked or otherwise transformed. In this situation, the transformation KDEs would not\nneed to be maintained, the TLC would not change, and the distribution center would not become\nthe TLC source.",
+      "summary": "Question 19: If I break a pallet, do I need to maintain the transformation KDEs? Response 19: Breaking a pallet \u2013 i.e., taking apart a pallet of food products so that individual...",
+      "citation": "Question 19",
+      "text_hash": "sha256:7bdf0a718839ae86b5379d40b32f9aa4bfc5ab7191f54497d1153fdd16fcbf06",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 19",
+          "section": "Question 19",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 20,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-20-32",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 20: Is culling produce considered a transformation event under the Food Traceability",
+      "section": "Question 20",
+      "text": "Question 20: Is culling produce considered a transformation event under the Food Traceability\nRule?\nResponse 20: Repacking of an FTL food is considered a transformation event under the Food\nTraceability Rule, based on the definition of transformation in \u00a7 1.1310. If culling produce (i.e.,\nremoving undesirable items of produce) occurs as a part of the repacking process, the KDEs for\ntransformation would apply. In a situation where the culling process occurs outside of repacking\nan FTL food, this would not be considered a transformation event if the entity is not performing\nany other transformation activity. For example, if the quantity of a traceability lot of FTL food is\nchanged because food is removed due to poor quality, but the original lot is not repacked or\notherwise transformed, the quantity change would not be documented as a transformation event;\nit would be documented in the shipping and receiving KDEs. Specifically, the entity that\nperforms the culling would keep a record of the quantity and unit of measure of the food in the\nlot they received under \u00a7 1.1345(a)(2), and they would keep a record of the quantity and unit of\nmeasure of the food in the lot they shipped under \u00a7 1.1340(a)(2). There may be a difference in\nquantity between these two records, reflecting the fact that some of the product was culled.",
+      "summary": "Question 20: Is culling produce considered a transformation event under the Food Traceability Rule? Response 20: Repacking of an FTL food is considered a transformation event un...",
+      "citation": "Question 20",
+      "text_hash": "sha256:1c19a8139608addc5f6adea541f3c684c098739b52d1eb2a3be2c944b0fc055d",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 20",
+          "section": "Question 20",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 21,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-21-33",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 21: How does the Food Traceability Rule apply to FTL foods that undergo continuous",
+      "section": "Question 21",
+      "text": "Question 21: How does the Food Traceability Rule apply to FTL foods that undergo continuous\nprocessing?\nResponse 21: When applying the Food Traceability Rule to continuous processing operations,\nyou need to consider whether there are any FTL foods at the beginning of the processing event,\nand whether there are any FTL foods at the end of the processing event. You do not need to keep\nrecords for any FTL foods that are produced during an intermediate step in the processing event\nbut that are then further processed into the final food.\n21\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nThis is illustrated by an example from Response 434 in the preamble to the final rule (87 FR\n70910 at 71034), where we explained that if a food that is not on the FTL (e.g., nuts) is\nprocessed into an intermediate food that is on the FTL (e.g., nut butter) and is very soon\nthereafter fully processed at the same location into a finished food containing an FTL food that\nhas not been subjected to a kill step (e.g., a confection with nut butter), we would consider this to\nbe one processing event. The food produced through transformation would be the confection,\nwhich would be on the FTL because it contains nut butter. The incoming ingredients would\ninclude nuts, which are not on the FTL. Nut butter would not be considered an incoming\ningredient because the manufacturing of the nut butter was incidental to the overall process of\nmanufacturing the confection. Records under \u00a7 1.1350(a)(1) would therefore not be required\n(assuming none of the other incoming ingredients are on the FTL), and the only records of the\ntransformation event would be those required under \u00a7 1.1350(a)(2). Response 434 also explains\nthat if the nut butter is instead manufactured as a stand-alone product, and only later used as an\ningredient in a confection, this would not be a continuous processing operation, and additional\nrecords would need to be maintained regarding the nut butter. The response discusses how to\ndistinguish between continuous processing operations and operations that involve two separate\nmanufacturing events.\nThe same approach \u2013 of considering the food at the start of the processing event and the food at\nthe end of the processing event, but not keeping records for any intermediate foods that might\nbriefly exist during the processing event \u2013 can be applied to other examples of continuous\nprocessing operations, as illustrated by the following:\nScenario 1: FTL food processed into an intermediate FLT food and then processed into a non-\nFLT food\nIf an FTL food (e.g., whole fresh papayas) is processed into an intermediate food that is on the\nFTL (e.g., fresh-cut papaya) and is very soon thereafter (as part of a continuous processing\noperation) fully processed at the same location into a finished food that is not on the FTL (e.g.,\nfrozen papaya chunks), we would consider this to be one processing event. You would need to\nmaintain receiving KDEs for the FTL food (whole fresh papayas) you receive, but you would not\nneed to maintain any additional KDEs. Transformation KDEs are not required because the\ndefinition of transformation in \u00a7 1.1310 states in part that transformation is an event whose\noutput is a food on the FTL. Here you are conducting a single processing event that results in a\nfood not on the FTL (frozen papaya chunks).\nScenario 2: Non-FTL food processed into an intermediate FLT food and then processed into a\nnon-FLT food\nIf a food that is not on the FTL (e.g., whole strawberries) is processed into an intermediate food\nthat is on the FTL (e.g., fresh-cut strawberries) and is very soon thereafter (as part of a\ncontinuous processing operation) fully processed at the same location into a finished food that is\nnot on the FTL (e.g., frozen sliced strawberries), we would also consider this to be one\nprocessing event. However, you would not need to maintain any records under the rule because\nyou are conducting a single processing event that begins with a food not on the FTL (whole\nstrawberries) and results in a food not on the FTL (frozen sliced strawberries).\n22\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nScenario 3: Non-FTL food processed into an intermediate FLT food and then processed into an\nFLT food with a kill step\nIf a food that is not on the FTL (e.g., peanuts) is processed into an intermediate food that is on\nthe FTL (e.g., peanut butter) and is very soon thereafter (as part of a continuous processing\noperation) fully processed at the same location into a finished food that is on the FTL but\nreceives a kill step (e.g., peanut butter cookies), we would consider this to be a single processing\nevent. You would not need to maintain any receiving records, because the food you received is\nnot on the FTL. And you would be exempt from keeping transformation and shipping records\nunder \u00a7 1.1305(d)(3), because although peanut butter cookies are on the FTL, you applied a kill\nstep to the cookies (and therefore to the peanut butter). However, you would have to maintain a\nrecord of the kill step in order to receive the kill step exemption (see \u00a7 1.1305(d)(3)(ii)).\nContinuous processing operations that involve processing a RAC before it is initially packed are\nalso addressed in Response 434 in the preamble to the final rule (see 87 FR 70910 at 71034).",
+      "summary": "Question 21: How does the Food Traceability Rule apply to FTL foods that undergo continuous processing? Response 21: When applying the Food Traceability Rule to continuous proce...",
+      "citation": "Question 21",
+      "text_hash": "sha256:8e04c249f31d0cd2406b50976f064d4aad06ee106952454e83c346278f95599b",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 21",
+          "section": "Question 21",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 21,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-22-34",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 22: What records must I keep if I transform an exempt food in a way that causes it to",
+      "section": "Question 22",
+      "text": "Question 22: What records must I keep if I transform an exempt food in a way that causes it to\nno longer be exempt?\nResponse 22: There are some situations where an incoming food is fully or partially exempt\nfrom the rule, but the food is then transformed in a way that causes it to no longer be exempt. For\nexample, a commingled RAC might be processed in a way that causes it to no longer be a RAC,\nin which case it would no longer be exempt under \u00a7 1.1305(h). As described in Question 12, an\nexample of this would be commingled shrimp that meet the requirements for the commingled\nRAC exemption in \u00a7 1.1305(h) until they are peeled and deveined, at which point they are no\nlonger a RAC and are therefore no longer eligible for that exemption. As another example, as\ndiscussed in Question 5, raw oysters are generally exempt from the rule under \u00a7 1.1305(f); but\nbreaded raw oysters are generally not exempt because the raw oysters have been transformed\nthrough the breading process into a food that is still on the FTL but not subject to the exemption.\nA firm might therefore receive exempt raw oysters and transform them into breaded raw oysters,\nwhich are not exempt.\nIn these situations, the firm is receiving an exempt food, performing a transformation event, and\nthen shipping a non-exempt food. Because the incoming food is exempt, receiving records do not\nneed to be kept, although certain other records might be required if the exemption is only a\npartial exemption (see, e.g., \u00a7 1.1305(h)(3)). Shipping records do need to be kept because the\noutgoing food is not exempt.\nRegarding transformation, \u00a7 1.1350(a)(1) requires certain records to be kept regarding incoming\nFTL foods that are used in transformation, \u201cif applicable.\u201d This provision is not applicable in\nsituations where the incoming food is exempt. Therefore, the only transformation records that\nmust be kept are those that are required under \u00a7 1.1350(a)(2), which relate to the food produced\nthrough transformation. These records are required because the food produced through\ntransformation is not exempt.\n23\nContains Nonbinding Recommendations\nDraft-Not for Implementation",
+      "summary": "Question 22: What records must I keep if I transform an exempt food in a way that causes it to no longer be exempt? Response 22: There are some situations where an incoming food...",
+      "citation": "Question 22",
+      "text_hash": "sha256:8c4527e1f1b7cb6477fef434ee42b85b49d4e532bd0e0084bed5c8fcb31f0378",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 22",
+          "section": "Question 22",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 23,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-23-35",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 23: In our distribution center, we print out a sticker that we affix to each incoming case",
+      "section": "Question 23",
+      "text": "Question 23: In our distribution center, we print out a sticker that we affix to each incoming case\nof food, to help with our internal tracking of the product. Is this considered relabeling the food?\nIf so, do we need to keep transformation records when we put these stickers on FTL foods?\nResponse 23: In \u00a7 1.1310, transformation is defined in relevant part as \u201can event in a food\u2019s\nsupply chain that involves manufacturing/processing a food or changing a food (e.g., by\ncommingling, repacking, or relabeling) or its packaging or packing, when the output is a food on\nthe Food Traceability List.\u201d Relabeling is therefore a transformation event.\nHowever, putting a sticker on a case of food to help with internal tracking does not constitute\n\u201crelabeling.\u201d Similarly, adding a pallet license plate or other type of designation on a pallet does\nnot constitute \u201crelabeling.\u201d Neither of these activities is a transformation event.\nRelabeling often happens in conjunction with other transformation activities, such as repacking.\nHowever, even when a food is relabeled without being repacked, it is still a transformation event.\nFor example, as discussed in Response 308 of the preamble to the final rule, changing a brand\nname on a food\u2019s labeling would be a type of relabeling, and would therefore constitute\ntransformation under the rule (see 87 FR 70910 at 70999).",
+      "summary": "Question 23: In our distribution center, we print out a sticker that we affix to each incoming case of food, to help with our internal tracking of the product. Is this considere...",
+      "citation": "Question 23",
+      "text_hash": "sha256:f5512dafc8f1026600264203830211b5ce61687cc7c67d05df7aa0176eab271e",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 23",
+          "section": "Question 23",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 24,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-24-36",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 24: Are entities that manufacture, process, pack, or hold FTL foods required to have a",
+      "section": "Question 24",
+      "text": "Question 24: Are entities that manufacture, process, pack, or hold FTL foods required to have a\ntraceability plan if they are exempt from some or all of the rule\u2019s requirements?\nResponse 24: Under \u00a7 1.1315(a), entities must establish and maintain a traceability plan if they\nare \u201csubject to the requirements in this subpart.\u201d While we encourage all firms that manufacture,\nprocess, pack, or hold FTL foods to establish and maintain a traceability plan as a best practice,\nfirms that are fully exempt from the rule are not \u201csubject to the requirements in this subpart,\u201d and\nare therefore not required to establish and maintain a traceability plan. For example, certain small\nproducers are fully exempt from the rule under \u00a7 1.1305(a). Such small producers are not\nrequired to have a traceability plan.\nFirms that are partially exempt from the rule are still \u201csubject to the requirements in this\nsubpart,\u201d because they still have obligations under the rule. Partially exempt firms are therefore\nrequired to have a traceability plan. For example, if a farm\u2019s only FTL product is produce that is\nproduced and packaged on the farm, with packaging that remains in place until the food reaches\nthe consumer and that maintains the integrity of the product and prevents subsequent\ncontamination or alteration of the product, then all of the farm\u2019s FTL food is eligible for the\npartial exemption in \u00a7 1.1305(c). This is only a partial exemption because there are still certain\nrequirements: In addition to having packaging that remains in place as described above, it is also\nrequired that the labeling of the food that reaches the consumer include the name, complete\naddress, and business phone number of the farm on which the food was produced and packaged.\nBecause the farm is subject to these requirements, the farm must also have a traceability plan.\n24\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nNote that some firms might handle a mix of fully exempt FTL foods and FTL foods that are not\nfully exempt. For example, under \u00a7 1.1305(b), the rule does not apply to farms with respect to\nfood produced on the farm that is sold or donated directly to a consumer by the owner, operator,\nor agent in charge of the farm. If a farm sells some FTL food directly to consumers such that the\nfood is eligible for this exemption but sells other FTL food through the supply chain such that it\nis not eligible for this exemption (or any other full exemption), then the farm would need to have\na traceability plan. In this situation, the traceability plan could be limited to the farm\u2019s practices\nwith respect to the FTL foods that are not fully exempt from the requirements of the rule.",
+      "summary": "Question 24: Are entities that manufacture, process, pack, or hold FTL foods required to have a traceability plan if they are exempt from some or all of the rule\u2019s requirements?...",
+      "citation": "Question 24",
+      "text_hash": "sha256:a8c3513ed2d98a579081753ed00ecea7dd2111e9f2f23d6b73d8fdc78091d002",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 24",
+          "section": "Question 24",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 24,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-25-37",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 25: If another entity is maintaining required records on my behalf, can this third party",
+      "section": "Question 25",
+      "text": "Question 25: If another entity is maintaining required records on my behalf, can this third party\nalso send the records to the next point in the supply chain on my behalf? If FDA requests the\nrecords, can this third party send the records to FDA on my behalf?\nResponse 25: Section 1.1455(b) allows another entity to establish and maintain records required\nby the rule on your behalf. If another entity is maintaining records on your behalf, they can also\nsend those records to the next point in the supply chain on your behalf. However, as the covered\nentity you are ultimately responsible for ensuring the records are established, maintained, and\nsent (as appropriate) according to the requirements in the rule.\nIf another entity establishes and maintains required records on your behalf, \u00a7 1.1455(b) states\nthat you are responsible for ensuring that such records can be retrieved and provided onsite\nwithin 24 hours of request for official review. In practice, when an FDA representative requests\nrecords, they often engage in a dialogue with the firm about how the records will be provided. If\nthe records are being maintained by a third party, it may make sense for the third party to send\nthe records directly to FDA, rather than providing them onsite at the location of the inspection, if\napplicable. However, if the FDA representative prefers an onsite review of the records, then the\nrecords would need to be retrieved and provided onsite within 24 hours of request for official\nreview, as stated in \u00a7 1.1455(b). (Note that under \u00a7 1.1455(c)(2), electronic records are\nconsidered to be onsite if they are accessible from an onsite location.) If FDA requests that the\nrecords be sent in an electronic sortable spreadsheet, as is sometimes required under \u00a7\n1.1455(c)(3)(ii), then it may make sense for the third party to send the electronic sortable\nspreadsheet directly to FDA. As mentioned above, the logistics of how to provide records\n(including an electronic sortable spreadsheet) can be discussed with the FDA representative.",
+      "summary": "Question 25: If another entity is maintaining required records on my behalf, can this third party also send the records to the next point in the supply chain on my behalf? If FD...",
+      "citation": "Question 25",
+      "text_hash": "sha256:109be54688b01ca1c924a793ae52162842393930690c447f995288851ec944d2",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 25",
+          "section": "Question 25",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 25,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-26-38",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 26: Am I responsible if my suppliers provide me with inaccurate or incomplete KDEs,",
+      "section": "Question 26",
+      "text": "Question 26: Am I responsible if my suppliers provide me with inaccurate or incomplete KDEs,\nwhich I rely on for the KDEs that I am required to maintain?\nResponse 26: We encourage supply chain partners to work together to ensure that all entities are\nready to comply with the rule and to provide the necessary information to others within their\nsupply chain. If you suspect that your supplier is not providing the accurate and complete data\nthat you need to meet your Food Traceability Rule requirements, you should discuss this with\nyour supplier.\n25\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nUnder the Food Traceability Rule, each covered entity is responsible for the KDEs that relate to\nthe CTEs they perform. There are circumstances where your required KDEs will overlap with\nyour supplier\u2019s required KDEs. For example, under \u00a7 1.1340(b), your supplier must provide you\nwith the KDEs identified in \u00a7 1.1340(a)(1)-(7). You are required to maintain much of the same\ninformation as part of your receiving KDEs, as set forth in \u00a7 1.1345(a)(1)-(5) and (7).\nBoth you and your supplier have an independent responsibility to adhere to the rule\u2019s\nrequirements for the CTEs you perform. Your supplier is responsible for maintaining accurate\nshipping KDEs under \u00a7 1.1340(a), and they are responsible for providing you with accurate\ninformation under \u00a7 1.1340(b). However, you have an independent responsibility to maintain\naccurate receiving KDEs under \u00a7 1.1345(a). If FDA makes a request for your receiving KDEs\nunder \u00a7 1.1345(a), we will expect you to provide us with accurate information.\nIn some situations, FDA might request records from multiple covered entities in one FTL food\u2019s\nsupply chain (e.g., from both you and your supplier). In other situations, we might only request\nrecords from one covered entity in the food\u2019s supply chain. When we find that a firm\u2019s data that\nis required under the Food Traceability Rule is inaccurate or incomplete, we consider the public\nhealth impact and any voluntary corrective action by the firm when determining regulatory\nfollow-up. As a practical matter, we routinely allow firms an opportunity to make voluntary\ncorrective actions, which could include working to correct data inaccuracy, including working\nwith the source of inaccurate or incomplete data.\nResponse 427 in the preamble to the final rule (87 FR 70910 at 71031-32) explains why we did\nnot create a \u201csafe harbor\u201d that would allow a receiving entity to assume that the rule\u2019s\nrequirements do not apply when their supplier does not provide them with traceability\ninformation. Similarly, there is no \u201csafe harbor\u201d for a firm that receives incomplete or inaccurate\nrecords from their supplier. Receivers are responsible for maintaining the records required under",
+      "summary": "Question 26: Am I responsible if my suppliers provide me with inaccurate or incomplete KDEs, which I rely on for the KDEs that I am required to maintain? Response 26: We encoura...",
+      "citation": "Question 26",
+      "text_hash": "sha256:05f7e6ba8d491a0cc270d7e5853da558dc12d1e72767b09b3632a87e63764585",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 26",
+          "section": "Question 26",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 25,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1345-39",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "\u00a7 1.1345. Relieving receivers of that responsibility when suppliers do not provide them with",
+      "section": "\u00a71.1345",
+      "text": "\u00a7 1.1345. Relieving receivers of that responsibility when suppliers do not provide them with\ncomplete and accurate traceability information would encourage an approach that would\nseriously undermine the ability of the requirements to facilitate swift and effective traceability\nthroughout the supply chain.",
+      "summary": "\u00a7 1.1345. Relieving receivers of that responsibility when suppliers do not provide them with complete and accurate traceability information would encourage an approach that woul...",
+      "citation": "\u00a71.1345",
+      "text_hash": "sha256:57a284b9eb4ef6fd51bd662355e738018965a622a0ebc991147b881a87d438d9",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1345",
+          "section": "\u00a71.1345",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 26,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-27-40",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 27: When one company sells food on the FTL to another company, and they are both",
+      "section": "Question 27",
+      "text": "Question 27: When one company sells food on the FTL to another company, and they are both\nlocated at the same street address, is this a shipping and receiving event?\nResponse 27: Yes, this would be a shipping and receiving event. In the context of a transfer of\nfood between two different companies, any arrangement to move the food from one location to\nanother location \u2013 even in the rare situation where both locations are at the same street address \u2013\nis a shipping and receiving event. Such events can be described as intercompany shipments.\nAn example of an intercompany shipment of food between two companies at the same street\naddress could be a sushi bar that is owned by a sushi company, but that is physically located\nwithin a full-service grocery store that is owned by a different company. If the sushi bar buys\nFTL ingredients from the grocery store, the sushi bar would need to keep receiving records (and\nthe grocery store would need to keep shipping records) unless an exemption applies. Note that in\n26\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nthis specific example, it is possible that the partial exemption in \u00a71.1305(k), which relates to ad\nhoc purchases between RFEs and restaurants, might apply, as could other exemptions.\nThe requirements for the CTEs of shipping and receiving both include KDEs that relate to the\nlocation description from which the food was shipped and the location description where the\nfood was received. In the rare situation of an intercompany shipment between two companies\nlocated at the same street address, many elements of the location description (as defined in",
+      "summary": "Question 27: When one company sells food on the FTL to another company, and they are both located at the same street address, is this a shipping and receiving event? Response 27...",
+      "citation": "Question 27",
+      "text_hash": "sha256:064d928d5875177e3eb9f0885504bb1e5753a03ce02ab6a01365581af94a2e20",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 27",
+          "section": "Question 27",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 26,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1310-41",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "\u00a7 1.1310) will be the same for both entities, including the physical location address. However,",
+      "section": "\u00a71.1310",
+      "text": "\u00a7 1.1310) will be the same for both entities, including the physical location address. However,\nwe anticipate that the location descriptions will be distinguishable by the business name and the\nphone number, which are both elements of the location description.\nWith respect to the movement of food within one street address, the definitions of shipping and\nreceiving in the Food Traceability Rule treat the intracompany movement of food (i.e., within the\nsame company) differently from intercompany shipments. Section 1.1310 defines shipping as\n\u201can event in a food\u2019s supply chain in which a food is arranged for transport (e.g., by truck or\nship) from one location to another location,\u201d and goes on to state, \u201cShipping includes sending an\nintracompany shipment of food from one location at a particular street address of a firm to\nanother location at a different street address of the firm.\u201d Similarly, receiving is defined as \u201can\nevent in a food\u2019s supply chain in which a food is received by someone other than a consumer\nafter being transported (e.g., by truck or ship) from another location,\u201d and includes \u201creceipt of an\nintracompany shipment of food from one location at a particular street address of a firm to\nanother location at a different street address of the firm.\u201d\nThus, for the intracompany movement of food, shipping and receiving KDEs only need to be\nkept when the food is moved from one location at a particular street address of a firm to another\nlocation at a different street address of the same firm. Without this language, any movement of\nthe food at all \u2013 for example, from one dock at a distribution center to another dock at the same\ndistribution center, which might be a fairly large distance away \u2013 could be seen as a shipping and\nreceiving event. To avoid this outcome, the definitions clarify that in the context of intracompany\nmovement of food, the requirements for shipping and receiving are only triggered if the food\nmoves from one street address to another street address.",
+      "summary": "\u00a7 1.1310) will be the same for both entities, including the physical location address. However, we anticipate that the location descriptions will be distinguishable by the busin...",
+      "citation": "\u00a71.1310",
+      "text_hash": "sha256:2a643f5462ff60456acd33eed04af99bfa3617be42586b29d5bff62dbe429e51",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1310",
+          "section": "\u00a71.1310",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 27,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-28-42",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 28: When an airline caterer provides food to an airline, is this a shipping event? Does",
+      "section": "Question 28",
+      "text": "Question 28: When an airline caterer provides food to an airline, is this a shipping event? Does\nit matter if the caterer is located at or near the airport complex? Do the records need to identify\nthe location of the airplane receiving the food?\nResponse 28: As discussed in Response 216 of the preamble to the final rule (see 87 FR 70910\nat 70975), most airline caterers prepare meals and other foods for sale to airlines, rather than\ndirectly to consumers. As such, the transport of food by an airline caterer to an airline would\nconstitute a shipping event.\nAs described in Question 27, in the context of a shipment between two different companies, any\narrangement to move the food from one location to another location \u2013 even in the rare situation\nwhere both locations are at the same street address \u2013 is a shipping and receiving event.\nTherefore, when an airline caterer provides food to an airline, this is a shipping and receiving\nevent, even if the caterer is located at or near the airport complex. The caterer would therefore\n27\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nneed to maintain and send the required shipping records under \u00a7 1.1340, and the airline would\nneed to maintain the required receiving records under \u00a7 1.1345.\nAs discussed in Question 27, if the airline caterer and the airline are located very close to each\nother, many elements of the location description (as defined in \u00a7 1.1310) might be the same for\nboth entities, possibly including the physical location address. However, we anticipate that the\nlocation descriptions will be distinguishable by the business name and the phone number, which\nare both elements of the location description. The location description for the airline should\ninclude the physical location address of the airport where the transaction takes place, but more\nspecific location information, such as the runway to which the food is sent, is not required.\nHowever, firms can always choose to maintain additional information that would improve their\nrecordkeeping, even if such information is not required. For example, the flight number to which\nthe food is sent might already be present in both firms\u2019 business records, and might be a useful\ndata point to maintain; however, it is not required.",
+      "summary": "Question 28: When an airline caterer provides food to an airline, is this a shipping event? Does it matter if the caterer is located at or near the airport complex? Do the recor...",
+      "citation": "Question 28",
+      "text_hash": "sha256:b2e37ae676f1998e7cf4c2dfb64871fc9f84f7d1ac7372a413299d6d712d75eb",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 28",
+          "section": "Question 28",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 27,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-29-43",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 29: How should a firm\u2019s records identify the TLC source in a situation where the TLC",
+      "section": "Question 29",
+      "text": "Question 29: How should a firm\u2019s records identify the TLC source in a situation where the TLC\nsource is not staffed year-round (e.g., a farm that operates seasonally)?\nResponse 29: The final rule defines \u201ctraceability lot code source\u201d to mean the place where a\nfood was assigned a TLC. Once a TLC has been assigned, the location description for the TLC\nsource is a KDE that has to be maintained at every subsequent point in the supply chain.\n\u201cLocation description\u201d is defined in \u00a7 1.1310 to mean key contact information for the location\nwhere a food is handled, specifically the business name, phone number, physical location address\n(or geographic coordinates), and city, State, and zip code for domestic locations and comparable\ninformation for foreign locations, including country. By linking the TLC to the physical location\nwhere the food was handled, the location description for the TLC source plays a critical role in\nensuring timely and accurate information for traceback investigations.\nWhile the physical location address (or geographic coordinates) must correspond to where the\nfood was handled, there may be situations where it is appropriate to include a phone number that\ndoes not connect to the physical location address. For example, if a farm that is the TLC source\nis closed for long stretches of time because they only operate seasonally, the location description\nfor the TLC source could include the physical location address of the farm, but a phone number\nthat connects to a different physical location (or that is not associated with any physical location,\ne.g., a cell phone number). While this phone number does not need to connect to the physical\nlocation of the farm, it must be a working phone number that connects to an individual who has\nfamiliarity with the farm\u2019s procedures for traceability, or who can quickly identify such an\nindividual..\nOther required KDEs include the location description for entities other than the TLC source. For\nexample, shipping records are required under \u00a7 1.1340(a)(5) to include the location description\nfor the location from which you shipped the food. Any time a location description is required, it\nis permissible to include a phone number that does not connect to the physical location address if\nyou think a different phone number would promote more efficient and effective traceability. For\nexample, if there are concerns that the physical location that handled the food might not be\n28\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nstaffed at the time of a records request from FDA, or that the person most knowledgeable about\nthe firm\u2019s traceability practices will not be at the same physical location from which you shipped\nthe food, it is permissible to include a phone number that does not connect to the physical\nlocation address. This phone number must be the working phone number of an appropriate\nindividual, as described above. The location description must still include the physical location\naddress (or geographic coordinates) for the location where the food was handled.",
+      "summary": "Question 29: How should a firm\u2019s records identify the TLC source in a situation where the TLC source is not staffed year-round (e.g., a farm that operates seasonally)? Response ...",
+      "citation": "Question 29",
+      "text_hash": "sha256:42b204b413cca580b0b79f88cb246e0f9fd08580bcdc558f51d0c9befa676611",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 29",
+          "section": "Question 29",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 28,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-30-44",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 30: I am a food manufacturer that is required to register under section 415 of the",
+      "section": "Question 30",
+      "text": "Question 30: I am a food manufacturer that is required to register under section 415 of the\nFD&C Act. There are several partial exemptions in the rule that state that if the affected entity is\nrequired to register with FDA under section 415 of the FD&C Act, such person must maintain\nrecords identifying the immediate previous source and the immediate subsequent recipient of the\nrelevant food, in accordance with \u00a7\u00a7 1.337 and 1.345. Section 1.337 requires records concerning\nboth the nontransporter immediate previous source and the transporter immediate previous\nsource. Similarly, \u00a7 1.345 contains requirements concerning both the nontransporter immediate\nsubsequent recipient and the transporter immediate subsequent recipient. If one of these partial\nexemptions applies to me, do I need to keep records about transporters (i.e., about the transporter\nimmediate previous source and the transporter immediate subsequent recipient)? Or do I only\nneed to keep records about the nontransporter immediate previous source and the nontransporter\nimmediate subsequent recipient?\nResponse 30: For the purposes of these partial exemptions, you do not need to keep records\nabout transporters. You only need to keep records about the nontransporter immediate previous\nsource and the nontransporter immediate subsequent recipient.\nThere are three provisions within the Food Traceability Rule where this issue arises: the partial\nexemption for commingled RACs (see \u00a7 1.1305(h)(3)); the partial exemption for fishing vessels\n(see \u00a7 1.1305(m)(2)); and the provision regarding modified requirements and exemptions (see",
+      "summary": "Question 30: I am a food manufacturer that is required to register under section 415 of the FD&C Act. There are several partial exemptions in the rule that state that if the aff...",
+      "citation": "Question 30",
+      "text_hash": "sha256:d46893dea34e85b6e8732d1223426e4b062713731fb1c4d1afbda98689efffe4",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 30",
+          "section": "Question 30",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 29,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-1-1360-45",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "\u00a7 1.1360(b)). All three provisions require, under certain circumstances, that an entity must",
+      "section": "\u00a71.1360",
+      "text": "\u00a7 1.1360(b)). All three provisions require, under certain circumstances, that an entity must\nmaintain records identifying the \u201cimmediate previous source\u201d of the food and the \u201cimmediate\nsubsequent recipient\u201d of the food \u201cin accordance with \u00a7\u00a7 1.337 and 1.345.\u201d\nSections 1.337 and 1.345 are part of 21 CFR Part 1, Subpart J, which implements section 414(b)\nof the FD&C Act. FSMA \u00a7 204(d) does not directly reference \u00a7\u00a7 1.337 and 1.345; however, it\ndirects FDA, in certain situations, to require certain persons \u201cto maintain records that identify the\nimmediate previous source of [a food to which a limitation or exemption applies under certain\nprovisions] and the immediate subsequent recipient of such food.\u201d See FSMA \u00a7 204(d)(6)(F).\nFDA therefore adopted the three Food Traceability Rule provisions described above.\nThe Food Traceability Rule has an exemption for transporters of food (see \u00a7 1.1305(n)). As we\nexplained in the preamble to the proposed rule, we find that in most of our investigations of\npotential foodborne illness outbreaks, it is not necessary to inspect records maintained by food\ntransporters. This is because we generally are able to obtain the tracing information we need\nfrom other persons in the food\u2019s supply chain (see 85 FR 59984 at 59999). Similarly, the\nreferences to the \u201cimmediate previous source\u201d of the food and the \u201cimmediate subsequent\nrecipient\u201d of the food in \u00a7\u00a7 1.1305(h)(3), 1.1305(m)(2), and 1.1360(b) do not encompass the\ntransporter immediate previous source and the transporter immediate subsequent recipient of the\n29\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nfood. These Food Traceability Rule provisions serve their purpose by requiring information\nregarding the entity that was the source of the food and the entity that subsequently received the\nfood, not information about the transporters. This approach is in keeping with Congress\u2019s\nlanguage in FSMA \u00a7 204(d)(6)(F).\nWhat this means in practice is that entities who are subject to these Food Traceability Rule\nprovisions are required to keep the records listed under \u00a7 1.337(a)(1)-(5), but not (6). Similarly,\nsuch entities are required to keep the records listed under \u00a7 1.345(a)(1)-(5), but not (6).\nThe above discussion relates only to the provisions in the Food Traceability Rule that require\nrecords identifying the \u201cimmediate previous source\u201d and the \u201cimmediate subsequent recipient\u201d\nof a food \u201cin accordance with \u00a7\u00a7 1.337 and 1.345.\u201d This discussion is not relevant to entities who\nare subject to Subpart J. If you are subject to Subpart J, you must comply with all of that subpart,\nincluding (as applicable) all of the provisions within \u00a7\u00a7 1.337 and 1.345.\nFor reference, the records listed under \u00a7 1.337(a)(1)-(5) are as follows: (1) the name of the firm,\naddress, telephone number, and, if available, the fax number and e-mail address of the\nnontransporter immediate previous source, whether domestic or foreign; (2) an adequate\ndescription of the type of food received, to include brand name and specific variety (e.g., brand x\ncheddar cheese, not just cheese; or romaine lettuce, not just lettuce); (3) the date you received the\nfood; (4) for persons who manufacture, process, or pack food, the lot or code number or other\nidentifier of the food (to the extent this information exists); and (5) the quantity and how the food\nis packaged (e.g., 6 count bunches, 25 pound (lb) carton, 12 ounce (oz) bottle, 100 gallon (gal)\ntank).\nSimilarly, the records listed under \u00a7 1.345(a)(1)-(5), are as follows: (1) the name of the firm,\naddress, telephone number, and, if available, the fax number and e-mail address of the\nnontransporter immediate subsequent recipient, whether domestic or foreign; (2) an adequate\ndescription of the type of food released, to include brand name and specific variety (e.g., brand x\ncheddar cheese, not just cheese; or romaine lettuce, not just lettuce); (3) the date you released the\nfood; (4) for persons who manufacture, process, or pack food, the lot or code number or other\nidentifier of the food (to the extent this information exists); and (5) the quantity and how the food\nis packaged (e.g., 6 count bunches, 25 lb carton, 12 oz bottle, 100 gal tank).",
+      "summary": "\u00a7 1.1360(b)). All three provisions require, under certain circumstances, that an entity must maintain records identifying the \u201cimmediate previous source\u201d of the food and the \u201cim...",
+      "citation": "\u00a71.1360",
+      "text_hash": "sha256:816343f8d7b5af410e6e9fd32b328e874f393367c61704bb250397025aee8527",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "\u00a71.1360",
+          "section": "\u00a71.1360",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 29,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-qa-guidance-2026-pdf-question-31-46",
+      "source_id": "fda-qa-guidance-2026-pdf",
+      "section_label": "Question 31: The FTL includes \u201cLeafy greens (fresh-cut),\u201d \u201cFruits (fresh-cut),\u201d and \u201cVegetables",
+      "section": "Question 31",
+      "text": "Question 31: The FTL includes \u201cLeafy greens (fresh-cut),\u201d \u201cFruits (fresh-cut),\u201d and \u201cVegetables\nother than leafy greens (fresh-cut).\u201d How do I determine whether my product is \u201cfresh-cut\u201d for\nthe purpose of identifying whether or not it is on the FTL? For example, are tailed parsnips\nconsidered fresh-cut vegetables? Are whole heads of lettuce that have had their outer leaves\ntrimmed considered fresh-cut vegetables? Are quartered heads of cabbage considered fresh-cut\nvegetables?\nResponse 31: For the purpose of this guidance and for determining whether a product is on the\nFTL, \u201cfresh-cut produce\u201d means any fresh fruit or vegetable (or combination thereof) that has\n30\nContains Nonbinding Recommendations\nDraft-Not for Implementation\nbeen physically altered to no longer be in its whole state (e.g., by chopping, dicing, peeling,\nricing, shredding, slicing, spiralizing, or tearing) without additional processing (such as\nblanching, freezing, cooking, canning, or packing in a juice, syrup, or dressing), with or without\na wash or other treatment before being distributed in fresh form (e.g., to a consumer, an RFE, or\na manufacturing/processing facility).5\nProducts such as tailed parsnips are still in their whole state. The removal of the root tail does not\nalter the parsnip to the point of it no longer being in its whole state. Similarly, trimming the outer\nleaves of a head of lettuce does not alter the head of lettuce to the point of it no longer being in\nits whole state. Such products are therefore not fresh-cut vegetables. On the other hand, a\nquartered head of fresh cabbage is no longer in its whole state, and is therefore a fresh-cut\nvegetable.\nAs discussed in the preamble to the final rule (87 FR 70910 at 70929), produce that is listed as\nrarely consumed raw in the Produce Safety Rule (see 21 CFR 112.2(a)(1)) is exempt from the\nFood Traceability Rule under \u00a7 1.1305(e) for the entirety of the supply chain, regardless of\nwhether it is fresh-cut. For example, although all fresh-cut fruits and vegetables are on the FTL,\na fresh-cut \u201crarely consumed raw\u201d vegetable such as fresh diced butternut squash would be\nexempt under \u00a7 1.1305(e) because the fact that the butternut squash is fresh-cut does not change\nits status as \u201crarely consumed raw\u201d for the purposes of \u00a7 1.1305(e).\n5 In 2018, FDA announced the availability for public comment of a draft guidance titled \u201cGuide to Minimize Food\nSafety Hazards of Fresh-cut Produce\u201d (83 FR 53197, October 22, 2018). When finalized, that guidance will reflect\nFDA\u2019s current thinking on that topic. The definition of \u201cfresh-cut produce\u201d included in that draft guidance for the\npurposes of that guidance is similar, but not identical, to the definition of fresh-cut produce included in this\ndocument. FDA\u2019s intent is that the definition of \u201cfresh-cut produce\u201d be the same in the final version of this guidance\nand in the final version of the guidance \u201cGuide to Minimize Food Safety Hazards of Fresh-cut Produce.\u201d FDA\u2019s\ncurrent thinking is that this definition will be as specified in this document.\n31",
+      "summary": "Question 31: The FTL includes \u201cLeafy greens (fresh-cut),\u201d \u201cFruits (fresh-cut),\u201d and \u201cVegetables other than leafy greens (fresh-cut).\u201d How do I determine whether my product is \u201cf...",
+      "citation": "Question 31",
+      "text_hash": "sha256:bed1a849b67e880f82f96174de8e2ddb3b98558ebf51ae07b7a7d131888d74a6",
+      "anchors": [
+        {
+          "source_id": "fda-qa-guidance-2026-pdf",
+          "citation": "Question 31",
+          "section": "Question 31",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 30,
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+          "retrieved_at": "local-file",
+          "source_hash": "3799aa795cc33051014f8e4db179259d7da0f844bfaef2c8fb40f544af56cec5"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": {
+      "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+      "docket": "FDA-2025-D-2837",
+      "issued_date": "2026/02",
+      "applicability": "direct_guidance",
+      "trace_ready_priority": "ingest_as_guidance",
+      "source_role": "interpretation_support",
+      "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+    },
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

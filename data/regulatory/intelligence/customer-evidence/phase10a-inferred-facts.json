@@ -1,0 +1,17 @@
+[
+  {
+    "confidence": 0.82,
+    "evidence_pointer": {
+      "file_name": "fsma204-full-audit-sample.xlsx",
+      "source_kind": "sheet_name",
+      "source_name": "08_TLC_Lineage"
+    },
+    "extraction_method": "sheet_name_pattern_inference",
+    "fact_id": "phase10a-fact-0001",
+    "field_key": "traceability_lot_code",
+    "normalized_value": "LINEAGE",
+    "raw_value": "LINEAGE",
+    "source_kind": "sheet_name",
+    "source_name": "08_TLC_Lineage"
+  }
+]

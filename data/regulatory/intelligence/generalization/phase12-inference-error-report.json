@@ -1,0 +1,22 @@
+{
+  "citation_failures": [],
+  "generated_at": "2026-06-16T00:00:00Z",
+  "missed_ctes": [],
+  "missing_abstentions": [],
+  "obligation_false_negatives": [],
+  "obligation_false_positives": [],
+  "over_triggered_ctes": [],
+  "scenario_count": 100,
+  "summary_counts": {
+    "citation_failures": 0,
+    "missed_ctes": 0,
+    "missing_abstentions": 0,
+    "obligation_false_negatives": 0,
+    "obligation_false_positives": 0,
+    "over_triggered_ctes": 0,
+    "wrong_actor_role_decisions": 0,
+    "wrong_food_scope_decisions": 0
+  },
+  "wrong_actor_role_decisions": [],
+  "wrong_food_scope_decisions": []
+}

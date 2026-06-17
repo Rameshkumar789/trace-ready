@@ -1,0 +1,261 @@
+{
+  "sourceId": "traceability-plan-food-processors",
+  "url": "https://www.fda.gov/media/188100/download?attachment",
+  "rawArtifact": "../data/regulatory/traceability-plan-food-processors/raw/traceability-plan-food-processors.pdf",
+  "rawTextHash": "8e2d7377218bdf5b46e9320ff67e4752c9ca9357209e7beb49687257436c8282",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 2,
+  "chunks": [
+    {
+      "chunk_id": "traceability-plan-food-processors-page-1-1",
+      "source_id": "traceability-plan-food-processors",
+      "section_label": "PDF page 1",
+      "section": "page-1",
+      "text": "Traceability Plan Example for\nFood Processor (\u00a7 1.1315)\nThe purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example includes the information that is required by the Food Traceability Rule and is one example\nof how a traceability plan can be established. There is no specific format required for the traceability plan,\nbut the information in the traceability plan must meet the requirements as described in \u00a7 1.1315 of the\nFood Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records.\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 Except for aquaculture farms, the farm map must show the location and name of each field (or\nother growing area) in which you grow a food on the Food Traceability List, including geographic\ncoordinates and any other information needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects\nyour current practices and to ensure that you are in compliance with the requirements of the Food\nTraceability Rule. You must retain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov March 2025",
+      "summary": "Traceability Plan Example for Food Processor (\u00a7 1.1315) The purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of the Food Trac...",
+      "citation": "page-1",
+      "text_hash": "sha256:d64ae86879d302f5a24251552b317b8a58a65de52dea26b552fa6ec6f3bbe7b2",
+      "anchors": [
+        {
+          "source_id": "traceability-plan-food-processors",
+          "citation": "page-1",
+          "section": "page-1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/media/188100/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:11.150567+00:00",
+          "source_hash": "8e2d7377218bdf5b46e9320ff67e4752c9ca9357209e7beb49687257436c8282"
+        }
+      ]
+    },
+    {
+      "chunk_id": "traceability-plan-food-processors-page-2-2",
+      "source_id": "traceability-plan-food-processors",
+      "section_label": "PDF page 2",
+      "section": "page-2",
+      "text": "Traceability Plan Example for Food Processor (continued)\nProcedures to Maintain the Records\nHypothetical Solution is the software solution we utilize to send and receive EDI messages containing\nshipping and receiving KDEs with our supply chain partners. We receive Advanced Shipping Notices\n(ASNs) from our suppliers (via Hypothetical Solution) for each shipment with FTL foods. These ASNs\ncontain our required receiving KDEs, except for receipt date, which is automatically recorded by the\nsystem when the incoming shipment is marked as received at the loading dock. We also use Hypothetical\nSolution to send ASNs to our customers for FTL foods that we ship. These ASNs contain the required\nshipping KDEs, which the system maintains as well as sends. Hypothetical Solution stores all transactions\nfor more than 2 years in accordance with other company recordkeeping policies. Hypothetical Solution is\na 3rd-party, cloud-based software solution that stores, receives, and sends EDI transactions digitally.\nWhen we receive an ASN of an inbound shipment, the anticipated shipment is created in Pretend Tool,\nour central software tool for ordering and production. Receiving inbound shipments, work orders for\nproducing foods, and picking outbound shipments are all recorded in Pretend Tool as digital records.\nThese records also contain all of the required Transformation KDEs. The software is installed in servers\nthat are located on site at RS Foods. Records are kept for more than 2 years in accordance with company\nrecordkeeping policies.\nProcedures to Identify FTL Foods\nEvery food that RS Foods receives, produces, and ships is given a SKU in Pretend Tool. Without a SKU\nnumber, an inventory transaction cannot be recorded for a food in Pretend Tool. Each SKU has attributes\ndescribing which food it represents inside Pretend Tool. One of these attributes is a checkbox/flag that\nsays whether the food represented by the SKU is on the FTL or not. Foods that are on the FTL or that\ncontain FTL ingredients (in the same form in which they appear on the FTL, e.g., \u201cfresh\u201d) are flagged with\nthis checkbox. When a new product is added to our inventory, we associate it with a SKU in Pretend\nTool and evaluate whether to flag it as on the FTL. We review the total list of SKUs in Pretend Tool on a\nquarterly basis.\nAssigning Traceability Lot Codes\nTraceability lot codes are assigned for foods we produce using a combination of the production date, two-\ndigit facility number, and SKU: MM/DD/YYYY/facility number/SKU. For example, 03152026056AA13426\nwould be a production run of SKU AA13426 on March 15, 2026 in facility 56. Facility 56 is the number\ngiven to the Minneapolis location of RS Foods.\nIf an FTL food is received without a lot number (e.g., from an exempt supplier), we assign a\nTLC using a combination of the receive date, the Bill of Lading number and SKU. For example:\n0315202651378230B61342 is a product with a SKU of BB61342 received on March 15, 2026 with BOL\n#51378230.\nPoint of Contact\nJackie Taylor, QA manager, 222-453-8877\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in a\nfolder in the Pretend Tool for at least two years after it is updated.\nwww.fda.gov 2 March 2025",
+      "summary": "Traceability Plan Example for Food Processor (continued) Procedures to Maintain the Records Hypothetical Solution is the software solution we utilize to send and receive EDI mes...",
+      "citation": "page-2",
+      "text_hash": "sha256:89990809dcad3a4d53302371e6786f53ccdbe316c2fd642fe3562c3011286301",
+      "anchors": [
+        {
+          "source_id": "traceability-plan-food-processors",
+          "citation": "page-2",
+          "section": "page-2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/media/188100/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:11.150567+00:00",
+          "source_hash": "8e2d7377218bdf5b46e9320ff67e4752c9ca9357209e7beb49687257436c8282"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

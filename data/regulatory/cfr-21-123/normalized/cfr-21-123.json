@@ -1,0 +1,537 @@
+{
+  "sourceId": "cfr-21-123",
+  "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+  "rawArtifact": "../data/regulatory/cfr-21-123/raw/cfr-21-123.pdf",
+  "rawTextHash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 14,
+  "chunks": [
+    {
+      "chunk_id": "cfr-21-123-123-3-1",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.3 Definitions.",
+      "section": "\u00a7123.3",
+      "text": "\u00a7 123.3 Definitions.\nThe definitions and interpretations of terms in section 201 of the Federal Food, Drug, and Cosmetic Act (the act)\nand inparts 110and117 of this chapterare applicable to such terms when used in this part, except that the\ndefinitions and terms in parts 110 and 117 do not govern such terms where such terms are redefined in this part\nand except that the terms facility, hazard, and manufacturing/processing in parts 110 and 117 do not govern such\nterms where used in this part. The following definitions shall also apply:\n21 CFR 123.3 (enhanced display) page 1 of 12\n21 CFR Part 123 (up to date as of 6/12/2026)\n21 CFR 123.3(a)\nFish and Fishery Products\n(a) Certification numbermeans a unique combination of letters and numbers assigned by a shellfish control\nauthority to a molluscan shellfish processor.\n(b) Critical control pointmeans a point, step, or procedure in a food process at which control can be applied,\nand a food safety hazard can as a result be prevented, eliminated, or reduced to acceptable levels.\n(c) Critical limitmeans the maximum or minimum value to which a physical, biological, or chemical\nparameter must be controlled at a critical control point to prevent, eliminate, or reduce to an acceptable\nlevel the occurrence of the identified food safety hazard.\n(d) Fishmeans fresh or saltwater finfish, crustaceans, other forms of aquatic animal life (including, but not\nlimited to, alligator, frog, aquatic turtle, jellyfish, sea cucumber, and sea urchin and the roe of such\nanimals) other than birds or mammals, and all mollusks, where such animal life is intended for human\nconsumption.\n(e) Fishery productmeans any human food product in which fish is a characterizing ingredient.\n(f) Food safety hazardmeans any biological, chemical, or physical property that may cause a food to be\nunsafe for human consumption.\n(g) Importermeans either the U.S. owner or consignee at the time of entry into the United States, or the U.S.\nagent or representative of the foreign owner or consignee at the time of entry into the United States, who\nis responsible for ensuring that goods being offered for entry into the United States are in compliance\nwith all laws affecting the importation. For the purposes of this definition, ordinarily the importer is not the\ncustom house broker, the freight forwarder, the carrier, or the steamship representative.\n(h) Molluscan shellfishmeans any edible species of fresh or frozen oysters, clams, mussels, or scallops, or\nedible portions of such species, except when the product consists entirely of the shucked adductor\nmuscle.\n(i) Preventive measuremeans physical, chemical, or other factors that can be used to control an identified\nfood safety hazard.\n(j) Process-monitoring instrumentmeans an instrument or device used to indicate conditions during\nprocessing at a critical control point.\n(k)\n(1) Processingmeans, with respect to fish or fishery products: Handling, storing, preparing, heading,\neviscerating, shucking, freezing, changing into different market forms, manufacturing, preserving,\npacking, labeling, dockside unloading, or holding.\n(2) The regulations in this part do not apply to:\n(i) Harvesting or transporting fish or fishery products, without otherwise engaging in processing.\n(ii) Practices such as heading, eviscerating, or freezing intended solely to prepare a fish for holding\non board a harvest vessel.\n(iii) The operation of a retail establishment.\n(l) Processormeans any person engaged in commercial, custom, or institutional processing of fish or fishery\nproducts, either in the United States or in a foreign country. A processing includes any person engaged in\nthe production of foods that are to be used in market or consumer tests.\n21 CFR 123.3(l) (enhanced display) page 2 of 12\n21 CFR Part 123 (up to date as of 6/12/2026)\n21 CFR 123.3(m)\nFish and Fishery Products\n(m) Scombroid toxin-forming speciesmeans tuna, bluefish, mahi mahi, and other species, whether or not in the\nfamily Scombridae, in which significant levels of histamine may be produced in the fish flesh by\ndecarboxylation of free histidine as a result of exposure of the fish after capture to temperatures that\npermit the growth of mesophilic bacteria.\n(n) Shallis used to state mandatory requirements.\n(o) Shellfish control authoritymeans a Federal, State, or foreign agency, or sovereign tribal government, legally\nresponsible for the administration of a program that includes activities such as classification of\nmolluscan shellfish growing areas, enforcement of molluscan shellfish harvesting controls, and\ncertification of molluscan shellfish processors.\n(p) Shellstockmeans raw, in-shell molluscan shellfish.\n(q) Shouldis used to state recommended or advisory procedures or to identify recommended equipment.\n(r) Shucked shellfishmeans molluscan shellfish that have one or both shells removed.\n(s) Smoked or smoke-flavored fishery productsmeans the finished food prepared by:\n(1) Treating fish with salt (sodium chloride), and\n(2) Subjecting it to the direct action of smoke from burning wood, sawdust, or similar material and/or\nimparting to it the flavor of smoke by a means such as immersing it in a solution of wood smoke.\n(t) Tagmeans a record of harvesting information attached to a container of shellstock by the harvester or\nprocessor.\n[60 FR 65197, Dec. 18, 1995, as amended at80 FR 56167, Sept. 17, 2015]",
+      "summary": "\u00a7 123.3 Definitions. The definitions and interpretations of terms in section 201 of the Federal Food, Drug, and Cosmetic Act (the act) and inparts 110and117 of this chapterare a...",
+      "citation": "\u00a7123.3",
+      "text_hash": "sha256:417ad5f93362b861b825341a2e7d98e4f0ea4dfad95f75b806a239643750dbb8",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.3",
+          "section": "\u00a7123.3",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-5-2",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.5 Current good manufacturing practice.",
+      "section": "\u00a7123.5",
+      "text": "\u00a7 123.5 Current good manufacturing practice.\n(a) Except as provided by\u00a7 117.5(b),parts 110and117 of this chapterapply in determining whether the\nfacilities, methods, practices, and controls used to process fish and fishery products are safe, and\nwhether these products have been processed under sanitary conditions.\n(b) The purpose of this part is to set forth requirements specific to the processing of fish and fishery\nproducts.\n[60 FR 65197, Dec. 18, 1995, as amended at80 FR 56167, Sept. 17, 2015]",
+      "summary": "\u00a7 123.5 Current good manufacturing practice. (a) Except as provided by\u00a7 117.5(b),parts 110and117 of this chapterapply in determining whether the facilities, methods, practices, ...",
+      "citation": "\u00a7123.5",
+      "text_hash": "sha256:261329a92f2b8ebc61722a3e14a56799676d626ecf86a41208837a2c0601fc3f",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.5",
+          "section": "\u00a7123.5",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-6-3",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.6 Hazard analysis and Hazard Analysis Critical Control Point (HACCP) plan.",
+      "section": "\u00a7123.6",
+      "text": "\u00a7 123.6 Hazard analysis and Hazard Analysis Critical Control Point (HACCP) plan.\n(a) Hazard analysis.Every processor shall conduct, or have conducted for it, a hazard analysis to determine\nwhether there are food safety hazards that are reasonably likely to occur for each kind of fish and fishery\nproduct processed by that processor and to identify the preventive measures that the processor can apply\nto control those hazards. Such food safety hazards can be introduced both within and outside the\nprocessing plant environment, including food safety hazards that can occur before, during, and after\nharvest. A food safety hazard that is reasonably likely to occur is one for which a prudent processor\nwould establish controls because experience, illness data, scientific reports, or other information provide\na basis to conclude that there is a reasonable possibility that it will occur in the particular type of fish or\nfishery product being processed in the absence of those controls.\n21 CFR 123.6(a) (enhanced display) page 3 of 12\n21 CFR Part 123 (up to date as of 6/12/2026)\n21 CFR 123.6(b)\nFish and Fishery Products\n(b) The HACCP plan.Every processor shall have and implement a written HACCP plan whenever a hazard\nanalysis reveals one or more food safety hazards that are reasonably likely to occur, as described in\nparagraph (a)of this section. A HACCP plan shall be specific to:\n(1) Each location where fish and fishery products are processed by that processor; and\n(2) Each kind of fish and fishery product processed by the processor. The plan may group kinds of fish\nand fishery products together, or group kinds of production methods together, if the food safety\nhazards, critical control points, critical limits, and procedures required to be identified and performed\ninparagraph (c)of this section are identical for all fish and fishery products so grouped or for all\nproduction methods so grouped.\n(c) The contents of the HACCP plan.The HACCP plan shall, at a minimum:\n(1) List the food safety hazards that are reasonably likely to occur, as identified in accordance with\nparagraph (a)of this section, and that thus must be controlled for each fish and fishery product.\nConsideration should be given to whether any food safety hazards are reasonably likely to occur as a\nresult of the following:\n(i) Natural toxins;\n(ii) Microbiological contamination;\n(iii) Chemical contamination;\n(iv) Pesticides;\n(v) Drug residues;\n(vi) Decomposition in scombroid toxin-forming species or in any other species where a food safety\nhazard has been associated with decomposition;\n(vii) Parasites, where the processor has knowledge or has reason to know that the parasite-\ncontaining fish or fishery product will be consumed without a process sufficient to kill the\nparasites, or where the processor represents, labels, or intends for the product to be so\nconsumed;\n(viii) Unapproved use of direct or indirect food or color additives; and\n(ix) Physical hazards;\n(2) List the critical control points for each of the identified food safety hazards, including as appropriate:\n(i) Critical control points designed to control food safety hazards that could be introduced in the\nprocessing plant environment; and\n(ii) Critical control points designed to control food safety hazards introduced outside the\nprocessing plant environment, including food safety hazards that occur before, during, and\nafter harvest;\n(3) List the critical limits that must be met at each of the critical control points;\n(4) List the procedures, and frequency thereof, that will be used to monitor each of the critical control\npoints to ensure compliance with the critical limits;\n(5) Include any corrective action plans that have been developed in accordance with\u00a7 123.7(b), to be\nfollowed in response to deviations from critical limits at critical control points;\n21 CFR 123.6(c)(5) (enhanced display) page 4 of 12\n21 CFR Part 123 (up to date as of 6/12/2026)\n21 CFR 123.6(c)(6)\nFish and Fishery Products\n(6) List the verification procedures, and frequency thereof, that the processor will use in accordance with",
+      "summary": "\u00a7 123.6 Hazard analysis and Hazard Analysis Critical Control Point (HACCP) plan. (a) Hazard analysis.Every processor shall conduct, or have conducted for it, a hazard analysis t...",
+      "citation": "\u00a7123.6",
+      "text_hash": "sha256:fd230024a8d7b1ca19179d62b81eab27fe39814984d8ccb06f412f477885b2dd",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.6",
+          "section": "\u00a7123.6",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-8-4",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.8 Verification.",
+      "section": "\u00a7123.8",
+      "text": "\u00a7 123.8 Verification.\n(a) Overall verification.Every processor shall verify that the HACCP plan is adequate to control food safety\nhazards that are reasonably likely to occur, and that the plan is being effectively implemented. Verification\nshall include, at a minimum:\n(1) Reassessment of the HACCP plan.A reassessment of the adequacy of the HACCP plan whenever any\nchanges occur that could affect the hazard analysis or alter the HACCP plan in any way or at least\nannually. Such changes may include changes in the following: Raw materials or source of raw\nmaterials, product formulation, processing methods or systems, finished product distribution\nsystems, or the intended use or consumers of the finished product. The reassessment shall be\nperformed by an individual or individuals who have been trained in accordance with\u00a7 123.10. The\nHACCP plan shall be modified immediately whenever a reassessment reveals that the plan is no\nlonger adequate to fully meet the requirements of\u00a7 123.6(c).\n(2) Ongoing verification activities.Ongoing verification activities including:\n(i) A review of any consumer complaints that have been received by the processor to determine\nwhether they relate to the performance of critical control points or reveal the existence of\nunidentified critical control points;\n(ii) The calibration of process-monitoring instruments; and,\n(iii) At the option of the processor, the performing of periodic end-product or in-process testing.\n(3) Records review.A review, including signing and dating, by an individual who has been trained in\naccordance with\u00a7 123.10, of the records that document:\n(i) The monitoring of critical control points. The purpose of this review shall be, at a minimum, to\nensure that the records are complete and to verify that they document values that are within the\ncritical limits. This review shall occur within 1 week of the day that the records are made;\n21 CFR 123.8(a)(3)(i) (enhanced display) page 6 of 12\n21 CFR Part 123 (up to date as of 6/12/2026)\n21 CFR 123.8(a)(3)(ii)\nFish and Fishery Products\n(ii) The taking of corrective actions. The purpose of this review shall be, at a minimum, to ensure\nthat the records are complete and to verify that appropriate corrective actions were taken in\naccordance with\u00a7 123.7. This review shall occur within 1 week of the day that the records are\nmade; and\n(iii) The calibrating of any process control instruments used at critical control points and the\nperforming of any periodic end-product or in-process testing that is part of the processor's\nverification activities. The purpose of these reviews shall be, at a minimum, to ensure that the\nrecords are complete, and that these activities occurred in accordance with the processor's\nwritten procedures. These reviews shall occur within a reasonable time after the records are\nmade.\n(b) Corrective actions.Processors shall immediately follow the procedures in\u00a7 123.7whenever any\nverification procedure, including the review of a consumer complaint, reveals the need to take a corrective\naction.\n(c) Reassessment of the hazard analysis.Whenever a processor does not have a HACCP plan because a\nhazard analysis has revealed no food safety hazards that are reasonably likely to occur, the processor\nshall reassess the adequacy of that hazard analysis whenever there are any changes that could\nreasonably affect whether a food safety hazard now exists. Such changes may include, but are not limited\nto changes in: Raw materials or source of raw materials, product formulation, processing methods or\nsystems, finished product distribution systems, or the intended use or consumers of the finished product.\nThe reassessment shall be performed by an individual or individuals who have been trained in accordance\nwith\u00a7 123.10.\n(d) Recordkeeping.The calibration of process-monitoring instruments, and the performing of any periodic\nend-product and in-process testing, in accordance withparagraphs (a)(2)(ii)through(iii)of this section\nshall be documented in records that are subject to the recordkeeping requirements of\u00a7 123.9.",
+      "summary": "\u00a7 123.8 Verification. (a) Overall verification.Every processor shall verify that the HACCP plan is adequate to control food safety hazards that are reasonably likely to occur, a...",
+      "citation": "\u00a7123.8",
+      "text_hash": "sha256:6bdeaa08ae5e49334fbaaf3e242fd0e71119749d8ff6b93bd3ffa5208b769529",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.8",
+          "section": "\u00a7123.8",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 6,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-7-5",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.7 Corrective actions.",
+      "section": "\u00a7123.7",
+      "text": "\u00a7 123.7 Corrective actions.\n(a) Whenever a deviation from a critical limit occurs, a processor shall take corrective action either by:\n(1) Following a corrective action plan that is appropriate for the particular deviation, or\n(2) Following the procedures inparagraph (c)of this section.\n(b) Processors may develop written corrective action plans, which become part of their HACCP plans in\naccordance with\u00a7 123.6(c)(5), by which they predetermine the corrective actions that they will take\nwhenever there is a deviation from a critical limit. A corrective action plan that is appropriate for a\nparticular deviation is one that describes the steps to be taken and assigns responsibility for taking those\nsteps, to ensure that:\n(1) No product enters commerce that is either injurious to health or is otherwise adulterated as a result\nof the deviation; and\n(2) The cause of the deviation is corrected.\n(c) When a deviation from a critical limit occurs and the processor does not have a corrective action plan that\nis appropriate for that deviation, the processor shall:\n21 CFR 123.7(c) (enhanced display) page 5 of 12\n21 CFR Part 123 (up to date as of 6/12/2026)\n21 CFR 123.7(c)(1)\nFish and Fishery Products\n(1) Segregate and hold the affected product, at least until the requirements ofparagraphs (c)(2)and\n(c)(3)of this section are met;\n(2) Perform or obtain a review to determine the acceptability of the affected product for distribution. The\nreview shall be performed by an individual or individuals who have adequate training or experience to\nperform such a review. Adequate training may or may not include training in accordance with\u00a7\n123.10;\n(3) Take corrective action, when necessary, with respect to the affected product to ensure that no\nproduct enters commerce that is either injurious to health or is otherwise adulterated as a result of\nthe deviation;\n(4) Take corrective action, when necessary, to correct the cause of the deviation;\n(5) Perform or obtain timely reassessment by an individual or individuals who have been trained in\naccordance with\u00a7 123.10, to determine whether the HACCP plan needs to be modified to reduce the\nrisk of recurrence of the deviation, and modify the HACCP plan as necessary.\n(d) All corrective actions taken in accordance with this section shall be fully documented in records that are\nsubject to verification in accordance with\u00a7 123.8(a)(3)(ii)and the recordkeeping requirements of\u00a7 123.9.",
+      "summary": "\u00a7 123.7 Corrective actions. (a) Whenever a deviation from a critical limit occurs, a processor shall take corrective action either by: (1) Following a corrective action plan tha...",
+      "citation": "\u00a7123.7",
+      "text_hash": "sha256:8ef980bed9e6d2a6d1032a858849da77c370d4061bdfe267e0baa6f0de2f0b93",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.7",
+          "section": "\u00a7123.7",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 5,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-9-6",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.9 Records.",
+      "section": "\u00a7123.9",
+      "text": "\u00a7 123.9 Records.\n(a) General requirements.All records required by this part shall include:\n(1) The name and location of the processor or importer;\n(2) The date and time of the activity that the record reflects;\n(3) The signature or initials of the person performing the operation; and\n(4) Where appropriate, the identity of the product and the production code, if any. Processing and other\ninformation shall be entered on records at the time that it is observed.\n(b) Record retention.\n(1) All records required by this part shall be retained at the processing facility or importer's place of\nbusiness in the United States for at least 1 year after the date they were prepared in the case of\nrefrigerated products and for at least 2 years after the date they were prepared in the case of frozen,\npreserved, or shelf-stable products.\n(2) Records that relate to the general adequacy of equipment or processes being used by a processor,\nincluding the results of scientific studies and evaluations, shall be retained at the processing facility\nor the importer's place of business in the United States for at least 2 years after their applicability to\nthe product being produced at the facility.\n21 CFR 123.9(b)(2) (enhanced display) page 7 of 12\n21 CFR Part 123 (up to date as of 6/12/2026)\n21 CFR 123.9(b)(3)\nFish and Fishery Products\n(3) If the processing facility is closed for a prolonged period between seasonal packs, or if record\nstorage capacity is limited on a processing vessel or at a remote processing site, the records may be\ntransferred to some other reasonably accessible location at the end of the seasonal pack but shall\nbe immediately returned for official review upon demand.\n(c) Official review.All records required by this part and all plans and procedures required by this part shall be\navailable for official review and copying at reasonable times.\n(d) Public disclosure.\n(1) Subject to the limitations inparagraph (d)(2)of this section, all plans and records required by this\npart are not available for public disclosure unless they have been previously disclosed to the public\nas defined in\u00a7 20.81 of this chapteror they relate to a product or ingredient that has been\nabandoned and they no longer represent a trade secret or confidential commercial or financial\ninformation as defined in\u00a7 20.61 of this chapter.\n(2) However, these records and plans may be subject to disclosure to the extent that they are otherwise\npublicly available, or that disclosure could not reasonably be expected to cause a competitive\nhardship, such as generic-type HACCP plans that reflect standard industry practices.\n(e) Tags.Tags as defined in\u00a7 123.3(t)are not subject to the requirements of this section unless they are\nused to fulfill the requirements of\u00a7 123.28(c).\n(f) Records maintained on computers.The maintenance of records on computers is acceptable, provided that\nappropriate controls are implemented to ensure the integrity of the electronic data and signatures.",
+      "summary": "\u00a7 123.9 Records. (a) General requirements.All records required by this part shall include: (1) The name and location of the processor or importer; (2) The date and time of the a...",
+      "citation": "\u00a7123.9",
+      "text_hash": "sha256:3ab1f98fb3050071067ac3af4b66c4d00a6d1e60ae4bffe224c3ce6d3e8e56ab",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.9",
+          "section": "\u00a7123.9",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-10-7",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.10 Training.",
+      "section": "\u00a7123.10",
+      "text": "\u00a7 123.10 Training.\nAt a minimum, the following functions shall be performed by an individual who has successfully completed training\nin the application of HACCP principles to fish and fishery product processing at least equivalent to that received\nunder standardized curriculum recognized as adequate by the U.S. Food and Drug Administration or who is\notherwise qualified through job experience to perform these functions. Job experience will qualify an individual to\nperform these functions if it has provided knowledge at least equivalent to that provided through the standardized\ncurriculum.\n(a) Developing a HACCP plan, which could include adapting a model or generic-type HACCP plan, that is\nappropriate for a specific processor, in order to meet the requirements of\u00a7 123.6(b);\n(b) Reassessing and modifying the HACCP plan in accordance with the corrective action procedures\nspecified in\u00a7 123.7(c)(5), the HACCP plan in accordance with the verification activities specified in\u00a7\n123.8(a)(1), and the hazard analysis in accordance with the verification activities specified in\u00a7 123.8(c);\nand\n(c) Performing the record review required by\u00a7 123.8(a)(3); The trained individual need not be an employee of\nthe processor.",
+      "summary": "\u00a7 123.10 Training. At a minimum, the following functions shall be performed by an individual who has successfully completed training in the application of HACCP principles to fi...",
+      "citation": "\u00a7123.10",
+      "text_hash": "sha256:b9875d94d549f3ebcdc21526762372942b159999ee1164e0e4485718fdafcb21",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.10",
+          "section": "\u00a7123.10",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 8,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-11-8",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.11 Sanitation control procedures.",
+      "section": "\u00a7123.11",
+      "text": "\u00a7 123.11 Sanitation control procedures.\n(a) Sanitation SOP.Each processor should have and implement a written sanitation standard operating\nprocedure (herein referred to as SSOP) or similar document that is specific to each location where fish\nand fishery products are produced. The SSOP should specify how the processor will meet those\nsanitation conditions and practices that are to be monitored in accordance withparagraph (b)of this\nsection.\n21 CFR 123.11(a) (enhanced display) page 8 of 12\n21 CFR Part 123 (up to date as of 6/12/2026)\n21 CFR 123.11(b)\nFish and Fishery Products\n(b) Sanitation monitoring.Each processor shall monitor the conditions and practices during processing with\nsufficient frequency to ensure, at a minimum, conformance with those conditions and practices specified\ninpart 110 of this chapterand insubpart B of part 117 of this chapterthat are both appropriate to the\nplant and the food being processed and relate to the following:\n(1) Safety of the water that comes into contact with food or food contact surfaces, or is used in the\nmanufacture of ice;\n(2) Condition and cleanliness of food contact surfaces, including utensils, gloves, and outer garments;\n(3) Prevention of cross-contamination from insanitary objects to food, food packaging material, and\nother food contact surfaces, including utensils, gloves, and outer garments, and from raw product to\ncooked product;\n(4) Maintenance of hand washing, hand sanitizing, and toilet facilities;\n(5) Protection of food, food packaging material, and food contact surfaces from adulteration with\nlubricants, fuel, pesticides, cleaning compounds, sanitizing agents, condensate, and other chemical,\nphysical, and biological contaminants;\n(6) Proper labeling, storage, and use of toxic compounds;\n(7) Control of employee health conditions that could result in the microbiological contamination of food,\nfood packaging materials, and food contact surfaces; and\n(8) Exclusion of pests from the food plant.\nThe processor shall correct in a timely manner, those conditions and practices that are not met.\n(c) Sanitation control records.Each processor shall maintain sanitation control records that, at a minimum,\ndocument the monitoring and corrections prescribed byparagraph (b)of this section. These records are\nsubject to the requirements of\u00a7 123.9.\n(d) Relationship to HACCP plan.Sanitation controls may be included in the HACCP plan, required by\u00a7\n123.6(b). However, to the extent that they are monitored in accordance withparagraph (b)of this section\nthey need not be included in the HACCP plan, and vice versa.\n[60 FR 65197, Dec. 18, 1995, as amended at80 FR 56167, Sept. 17, 2015]",
+      "summary": "\u00a7 123.11 Sanitation control procedures. (a) Sanitation SOP.Each processor should have and implement a written sanitation standard operating procedure (herein referred to as SSOP...",
+      "citation": "\u00a7123.11",
+      "text_hash": "sha256:fd03256b1f36b6cf5c0f7b89adca1198f198487317bc423c7deb08064425e7ed",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.11",
+          "section": "\u00a7123.11",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 8,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-12-9",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.12 Special requirements for imported products.",
+      "section": "\u00a7123.12",
+      "text": "\u00a7 123.12 Special requirements for imported products.\nThis section sets forth specific requirements for imported fish and fishery products.\n(a) Importer verification.Every importer of fish or fishery products shall either:\n(1) Obtain the fish or fishery product from a country that has an active memorandum of understanding\n(MOU) or similar agreement with the Food and Drug Administration, that covers the fish or fishery\nproduct and documents the equivalency or compliance of the inspection system of the foreign\ncountry with the U.S. system, accurately reflects the current situation between the signing parties,\nand is functioning and enforceable in its entirety; or\n(2) Have and implement written verification procedures for ensuring that the fish and fishery products\nthat they offer for import into the United States were processed in accordance with the requirements\nof this part. The procedures shall list at a minimum:\n21 CFR 123.12(a)(2) (enhanced display) page 9 of 12\n21 CFR Part 123 (up to date as of 6/12/2026)\n21 CFR 123.12(a)(2)(i)\nFish and Fishery Products\n(i) Product specifications that are designed to ensure that the product is not adulterated under\nsection 402 of the Federal Food, Drug, and Cosmetic Act because it may be injurious to health\nor have been processed under insanitary conditions, and,\n(ii) Affirmative steps that may include any of the following:\n(A) Obtaining from the foreign processor the HACCP and sanitation monitoring records\nrequired by this part that relate to the specific lot of fish or fishery products being offered\nfor import;\n(B) Obtaining either a continuing or lot-by-lot certificate from an appropriate foreign\ngovernment inspection authority or competent third party certifying that the imported fish\nor fishery product is or was processed in accordance with the requirements of this part;\n(C) Regularly inspecting the foreign processor's facilities to ensure that the imported fish or\nfishery product is being processed in accordance with the requirements of this part;\n(D) Maintaining on file a copy, in English, of the foreign processor's HACCP plan, and a written\nguarantee from the foreign processor that the imported fish or fishery product is\nprocessed in accordance with the requirements of the part;\n(E) Periodically testing the imported fish or fishery product, and maintaining on file a copy, in\nEnglish, of a written guarantee from the foreign processor that the imported fish or fishery\nproduct is processed in accordance with the requirements of this part or,\n(F) Other such verification measures as appropriate that provide an equivalent level of\nassurance of compliance with the requirements of this part.\n(b) Competent third party.An importer may hire a competent third party to assist with or perform any or all of\nthe verification activities specified inparagraph (a)(2)of this section, including writing the importer's\nverification procedures on the importer's behalf.\n(c) Records.The importer shall maintain records, in English, that document the performance and results of\nthe affirmative steps specified inparagraph (a)(2)(ii)of this section. These records shall be subject to the\napplicable provisions of\u00a7 123.9.\n(d) Determination of compliance.There must be evidence that all fish and fishery products offered for entry\ninto the United States have been processed under conditions that comply with this part. If assurances do\nnot exist that the imported fish or fishery product has been processed under conditions that are\nequivalent to those required of domestic processors under this part, the product will appear to be\nadulterated and will be denied entry.\nSubpart B\u2014Smoked and Smoke-Flavored Fishery Products",
+      "summary": "\u00a7 123.12 Special requirements for imported products. This section sets forth specific requirements for imported fish and fishery products. (a) Importer verification.Every import...",
+      "citation": "\u00a7123.12",
+      "text_hash": "sha256:4b304c07942cf19d1197f171f623f674f4ff89b15e848aeb72b4d74da3e15926",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.12",
+          "section": "\u00a7123.12",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 9,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-15-10",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.15 General.",
+      "section": "\u00a7123.15",
+      "text": "\u00a7 123.15 General.\nThis subpart augmentssubpart A of this partby setting forth specific requirements for processing smoked and\nsmoke-flavored fishery products.\n21 CFR 123.15 (enhanced display) page 10 of 12\n21 CFR Part 123 (up to date as of 6/12/2026)\n21 CFR 123.16\nFish and Fishery Products",
+      "summary": "\u00a7 123.15 General. This subpart augmentssubpart A of this partby setting forth specific requirements for processing smoked and smoke-flavored fishery products. 21 CFR 123.15 (enh...",
+      "citation": "\u00a7123.15",
+      "text_hash": "sha256:2d7e1c06ed8e4014b4b9a9399d631a1433f686951a5f31f5156e3b308a76d198",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.15",
+          "section": "\u00a7123.15",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 10,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-16-11",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.16 Process controls.",
+      "section": "\u00a7123.16",
+      "text": "\u00a7 123.16 Process controls.\nIn order to meet the requirements ofsubpart A of this part, processors of smoked and smoke-flavored fishery\nproducts, except those subject to the requirements ofpart 113or114 of this chapter, shall include in their HACCP\nplans how they are controlling the food safety hazard associated with the formation of toxin byClostridium\nbotulinumfor at least as long as the shelf life of the product under normal and moderate abuse conditions.\nSubpart C\u2014Raw Molluscan Shellfish",
+      "summary": "\u00a7 123.16 Process controls. In order to meet the requirements ofsubpart A of this part, processors of smoked and smoke-flavored fishery products, except those subject to the requ...",
+      "citation": "\u00a7123.16",
+      "text_hash": "sha256:73f39515387a1448bf1a03a39836a04c382c9d73c23b3804a2cb292c4e87e5f8",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.16",
+          "section": "\u00a7123.16",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 11,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-20-12",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.20 General.",
+      "section": "\u00a7123.20",
+      "text": "\u00a7 123.20 General.\nThis subpart augmentssubpart A of this partby setting forth specific requirements for processing fresh or frozen\nmolluscan shellfish, where such processing does not include a treatment that ensures the destruction of vegetative\ncells of microorganisms of public health concern.",
+      "summary": "\u00a7 123.20 General. This subpart augmentssubpart A of this partby setting forth specific requirements for processing fresh or frozen molluscan shellfish, where such processing doe...",
+      "citation": "\u00a7123.20",
+      "text_hash": "sha256:74e29946eb20906a9888e721f0869e675281d8d534d2ed82d91ff5ee729d5d0d",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.20",
+          "section": "\u00a7123.20",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 11,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-123-28-13",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 123.28 Source controls.",
+      "section": "\u00a7123.28",
+      "text": "\u00a7 123.28 Source controls.\n(a) In order to meet the requirements ofsubpart A of this partas they apply to microbiological contamination,\nchemical contamination, natural toxins, and related food safety hazards, processors shall include in their\nHACCP plans how they are controlling the origin of the molluscan shellfish they process to ensure that the\nconditions ofparagraphs (b),(c), and(d)of this section are met.\n(b) Processors shall only process molluscan shellfish harvested from growing waters approved for harvesting\nby a shellfish control authority. In the case of molluscan shellfish harvested from U.S. Federal waters, the\nrequirements of this paragraph will be met so long as the shellfish have not been harvested from waters\nthat have been closed to harvesting by an agency of the Federal government.\n(c) To meet the requirements ofparagraph (b)of this section, processors who receive shellstock shall accept\nonly shellstock from a harvester that is in compliance with such licensure requirements as may apply to\nthe harvesting of molluscan shellfish or from a processor that is certified by a shellfish control authority,\nand that has a tag affixed to each container of shellstock. The tag shall bear, at a minimum, the\ninformation required in\u00a7 1240.60(b) of this chapter. In place of the tag, bulk shellstock shipments may be\naccompanied by a bill of lading or similar shipping document that contains the information required in\u00a7\n1240.60(b) of this chapter. Processors shall maintain records that document that all shellstock have met\nthe requirements of this section. These records shall document:\n(1) The date of harvest;\n(2) The location of harvest by State and site;\n(3) The quantity and type of shellfish;\n(4) The date of receipt by the processor; and\n(5) The name of the harvester, the name or registration number of the harvester's vessel, or an\nidentification number issued to the harvester by the shellfish control authority.\n(d) To meet the requirements ofparagraph (b)of this section, processors who receive shucked molluscan\nshellfish shall accept only containers of shucked molluscan shellfish that bear a label that complies with",
+      "summary": "\u00a7 123.28 Source controls. (a) In order to meet the requirements ofsubpart A of this partas they apply to microbiological contamination, chemical contamination, natural toxins, a...",
+      "citation": "\u00a7123.28",
+      "text_hash": "sha256:4b572804f274a849434814a819fb8d661ca3fc73d110e50e1f3a5688b2ef8d0e",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a7123.28",
+          "section": "\u00a7123.28",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 11,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    },
+    {
+      "chunk_id": "cfr-21-123-1240-60-14",
+      "source_id": "cfr-21-123",
+      "section_label": "\u00a7 1240.60(c) of this chapter. Processors shall maintain records that document that all shucked",
+      "section": "\u00a71240.60",
+      "text": "\u00a7 1240.60(c) of this chapter. Processors shall maintain records that document that all shucked\nmolluscan shellfish have met the requirements of this section. These records shall document:\n(1) The date of receipt;\n21 CFR 123.28(d)(1) (enhanced display) page 11 of 12\n21 CFR Part 123 (up to date as of 6/12/2026)\n21 CFR 123.28(d)(2)\nFish and Fishery Products\n(2) The quantity and type of shellfish; and\n(3) The name and certification number of the packer or repacker of the product.\n21 CFR 123.28(d)(3) (enhanced display) page 12 of 12",
+      "summary": "\u00a7 1240.60(c) of this chapter. Processors shall maintain records that document that all shucked molluscan shellfish have met the requirements of this section. These records shall...",
+      "citation": "\u00a71240.60",
+      "text_hash": "sha256:2409b1b0358a617015b2dce1d6b496882b3243739d0d1073a4a8273804311d03",
+      "anchors": [
+        {
+          "source_id": "cfr-21-123",
+          "citation": "\u00a71240.60",
+          "section": "\u00a71240.60",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 11,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+          "retrieved_at": "local-file",
+          "source_hash": "a6dd9ea6f3bcf833cba5cc1d8a1f0b2216f48347c277aae52ed56adaaf6ec66e"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

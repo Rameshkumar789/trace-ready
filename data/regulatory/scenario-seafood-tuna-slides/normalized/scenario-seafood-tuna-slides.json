@@ -1,0 +1,468 @@
+{
+  "sourceId": "scenario-seafood-tuna-slides",
+  "url": "https://www.fda.gov/media/163055/download?attachment",
+  "rawArtifact": "../data/regulatory/scenario-seafood-tuna-slides/raw/scenario-seafood-tuna-slides.pdf",
+  "rawTextHash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 11,
+  "chunks": [
+    {
+      "chunk_id": "scenario-seafood-tuna-slides-page-1-1",
+      "source_id": "scenario-seafood-tuna-slides",
+      "section_label": "PDF page 1",
+      "section": "page-1",
+      "text": "Food Safety Modernization Act (FSMA)\nFood Traceability Rule\nSupply Chain Example\nSeafood\nNovember 2022",
+      "summary": "Food Safety Modernization Act (FSMA) Food Traceability Rule Supply Chain Example Seafood November 2022",
+      "citation": "page-1",
+      "text_hash": "sha256:4df0401393a8b878618aef08d9d45485c5e06429456ce6487e52609b6c53764c",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "citation": "page-1",
+          "section": "page-1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/media/163055/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.771797+00:00",
+          "source_hash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-slides-page-2-2",
+      "source_id": "scenario-seafood-tuna-slides",
+      "section_label": "PDF page 2",
+      "section": "page-2",
+      "text": "Supply Chain Example: Wild-Caught Tuna\nThe Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food\nTraceability List (FTL) to maintain and provide to their supply chain partners specific information \u2013 called Key\nData Elements or KDEs \u2013 for certain Critical Tracking Events or CTEs in the food\u2019s supply chain. This framework\nforms the foundation for effective and efficient tracing of food.\nThe following example will walk through the Critical Tracking Events in a wild-caught tuna supply chain where\nKey Data Elements are required.\nAbbreviations used:\n\u2022 Key Data Elements or KDEs\n\u2022 Critical Tracking Events or CTEs\n\u2022 Food Traceability List or FTL\n\u2022 Traceability Lot Code or TLC\n\u2022 Raw Agricultural Commodities or RACs\n\u2022 Distribution Center or DC\n2",
+      "summary": "Supply Chain Example: Wild-Caught Tuna The Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List (FTL) to maintain ...",
+      "citation": "page-2",
+      "text_hash": "sha256:7da26bb6246072c23b911583ca0d7ff4b33f6756f443720dc0fdf0a4d7f3e21c",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "citation": "page-2",
+          "section": "page-2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/media/163055/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.771797+00:00",
+          "source_hash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-slides-page-3-3",
+      "source_id": "scenario-seafood-tuna-slides",
+      "section_label": "PDF page 3",
+      "section": "page-3",
+      "text": "Supply Chain Example: Wild-Caught Tuna\n3",
+      "summary": "Supply Chain Example: Wild-Caught Tuna 3",
+      "citation": "page-3",
+      "text_hash": "sha256:96de56836f5e8677930e870c31989be7a2f21c18be2d8f4a446aebd6948fa6b6",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "citation": "page-3",
+          "section": "page-3",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.fda.gov/media/163055/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.771797+00:00",
+          "source_hash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-slides-page-4-4",
+      "source_id": "scenario-seafood-tuna-slides",
+      "section_label": "PDF page 4",
+      "section": "page-4",
+      "text": "Supply Chain Example: Wild-Caught Tuna\n4",
+      "summary": "Supply Chain Example: Wild-Caught Tuna 4",
+      "citation": "page-4",
+      "text_hash": "sha256:e5e2899e5eb102df52f8e5243f23f998c1ed55ab97ad5b859f0d9dcabf656a70",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "citation": "page-4",
+          "section": "page-4",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 4,
+          "url": "https://www.fda.gov/media/163055/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.771797+00:00",
+          "source_hash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-slides-page-5-5",
+      "source_id": "scenario-seafood-tuna-slides",
+      "section_label": "PDF page 5",
+      "section": "page-5",
+      "text": "T\nSupply Chain Example: Wild-Caught una\nKDEs can be \u201clinked\u201d in different ways, including by being listed together in single row of an electronic sortable spreadsheet,\nstored together as a record in a database, shared to a subsequent recipient as an electronic message, or printed on the same\ncommercial document, such as a Bill of Lading. KDEs may also be linked together using a common identifier on multiple records,\nsuch as the traceability lot code.\n5",
+      "summary": "T Supply Chain Example: Wild-Caught una KDEs can be \u201clinked\u201d in different ways, including by being listed together in single row of an electronic sortable spreadsheet, stored to...",
+      "citation": "page-5",
+      "text_hash": "sha256:d9bb635fb07310e701101d031b1107bb6713f7bd2fda955f7825259ad297663c",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "citation": "page-5",
+          "section": "page-5",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 5,
+          "url": "https://www.fda.gov/media/163055/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.771797+00:00",
+          "source_hash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-slides-page-6-6",
+      "source_id": "scenario-seafood-tuna-slides",
+      "section_label": "PDF page 6",
+      "section": "page-6",
+      "text": "Supply Chain Example: Wild-Caught Tuna\n6",
+      "summary": "Supply Chain Example: Wild-Caught Tuna 6",
+      "citation": "page-6",
+      "text_hash": "sha256:db2ae5a5b36650b584ec8d2551a116acd8c7325226315be463c62a14f2c2058c",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "citation": "page-6",
+          "section": "page-6",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 6,
+          "url": "https://www.fda.gov/media/163055/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.771797+00:00",
+          "source_hash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-slides-page-7-7",
+      "source_id": "scenario-seafood-tuna-slides",
+      "section_label": "PDF page 7",
+      "section": "page-7",
+      "text": "Supply Chain Example: Wild-Caught Tuna\n7",
+      "summary": "Supply Chain Example: Wild-Caught Tuna 7",
+      "citation": "page-7",
+      "text_hash": "sha256:966fc14a71f4d4023d0c85144703936c9bf155ca463f0a81bd5deff638775fd3",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "citation": "page-7",
+          "section": "page-7",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.fda.gov/media/163055/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.771797+00:00",
+          "source_hash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-slides-page-8-8",
+      "source_id": "scenario-seafood-tuna-slides",
+      "section_label": "PDF page 8",
+      "section": "page-8",
+      "text": "Supply Chain Example: Wild-Caught Tuna\n8",
+      "summary": "Supply Chain Example: Wild-Caught Tuna 8",
+      "citation": "page-8",
+      "text_hash": "sha256:eca9f7d8b994954f1e6d9a99d3c8fbe91e047fbdfbc3f54829c27c9b8890e2a5",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "citation": "page-8",
+          "section": "page-8",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 8,
+          "url": "https://www.fda.gov/media/163055/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.771797+00:00",
+          "source_hash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-slides-page-9-9",
+      "source_id": "scenario-seafood-tuna-slides",
+      "section_label": "PDF page 9",
+      "section": "page-9",
+      "text": "Supply Chain Example: Wild-Caught Tuna\n9",
+      "summary": "Supply Chain Example: Wild-Caught Tuna 9",
+      "citation": "page-9",
+      "text_hash": "sha256:262702583cc4005be33e8a4315d522c30cc8fad55318c7fdf22bfe07c3208f7b",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "citation": "page-9",
+          "section": "page-9",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 9,
+          "url": "https://www.fda.gov/media/163055/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.771797+00:00",
+          "source_hash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-slides-page-10-10",
+      "source_id": "scenario-seafood-tuna-slides",
+      "section_label": "PDF page 10",
+      "section": "page-10",
+      "text": "Supply Chain Example: Wild-Caught Tuna\n10",
+      "summary": "Supply Chain Example: Wild-Caught Tuna 10",
+      "citation": "page-10",
+      "text_hash": "sha256:a0662f2394d9808a0d5af7f4fd2555907ef71b90bb14984a95f8584b5328cad3",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "citation": "page-10",
+          "section": "page-10",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 10,
+          "url": "https://www.fda.gov/media/163055/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.771797+00:00",
+          "source_hash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-slides-page-11-11",
+      "source_id": "scenario-seafood-tuna-slides",
+      "section_label": "PDF page 11",
+      "section": "page-11",
+      "text": "Additional Information\nVisit https://www.fda.gov/fsma for additional information.\n11",
+      "summary": "Additional Information Visit https://www.fda.gov/fsma for additional information. 11",
+      "citation": "page-11",
+      "text_hash": "sha256:6ce4617be23856c928b5a222b514eb560fa809e69fbd83abc4fcc5934317d841",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-slides",
+          "citation": "page-11",
+          "section": "page-11",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 11,
+          "url": "https://www.fda.gov/media/163055/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.771797+00:00",
+          "source_hash": "1b5a8094d8755ad87e1d9d1d4d9c0f0125867d769ecb7a4528047b384f050a35"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

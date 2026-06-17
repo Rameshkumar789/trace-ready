@@ -1,0 +1,245 @@
+{
+  "actors": [
+    {
+      "attributes": {
+        "actor_name": "San Jose Warehouse",
+        "actor_type": "warehouse",
+        "confidence": 0.86,
+        "reasons": [
+          "matched role terms for distributor"
+        ],
+        "role": "distributor"
+      },
+      "entity_id": "actor-LOC-1",
+      "entity_type": "actor",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-02_location_master-r2-c1",
+        "ev-fsma204_full_audit_sample-02_location_master-r2-c2",
+        "ev-fsma204_full_audit_sample-02_location_master-r2-c3"
+      ],
+      "name": "San Jose Warehouse"
+    }
+  ],
+  "counterparties": [
+    {
+      "attributes": {
+        "partner_type": "external"
+      },
+      "entity_id": "SUPPLIER-1",
+      "entity_type": "counterparty",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-03_partner_master-r2-c1",
+        "ev-fsma204_full_audit_sample-03_partner_master-r2-c2",
+        "ev-fsma204_full_audit_sample-03_partner_master-r2-c3",
+        "ev-fsma204_full_audit_sample-03_partner_master-r2-c4"
+      ],
+      "name": "Supplier A"
+    }
+  ],
+  "documents": [
+    {
+      "attributes": {
+        "document_type": "batch_log",
+        "status": null
+      },
+      "entity_id": "BATCH-1",
+      "entity_type": "document",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+        "ev-fsma204_full_audit_sample-05_cte_events-r3-c6"
+      ],
+      "name": "BATCH-1"
+    },
+    {
+      "attributes": {
+        "document_type": "bol",
+        "status": null
+      },
+      "entity_id": "BOL-1",
+      "entity_type": "document",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+        "ev-fsma204_full_audit_sample-05_cte_events-r4-c6"
+      ],
+      "name": "BOL-1"
+    },
+    {
+      "attributes": {
+        "document_type": "invoice",
+        "status": "available"
+      },
+      "entity_id": "EV-1",
+      "entity_type": "document",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-09_source_documents-r2-c1",
+        "ev-fsma204_full_audit_sample-09_source_documents-r2-c2",
+        "ev-fsma204_full_audit_sample-09_source_documents-r2-c3",
+        "ev-fsma204_full_audit_sample-09_source_documents-r2-c4"
+      ],
+      "name": "EV-1"
+    },
+    {
+      "attributes": {
+        "document_type": null,
+        "status": null
+      },
+      "entity_id": "EV-PLAN-1",
+      "entity_type": "document",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c1",
+        "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c2",
+        "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c3"
+      ],
+      "name": "EV-PLAN-1"
+    },
+    {
+      "attributes": {
+        "document_type": "invoice",
+        "status": null
+      },
+      "entity_id": "INV-1",
+      "entity_type": "document",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c1",
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c2",
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c3",
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c4",
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c5",
+        "ev-fsma204_full_audit_sample-05_cte_events-r2-c6"
+      ],
+      "name": "INV-1"
+    }
+  ],
+  "locations": [
+    {
+      "attributes": {
+        "location_type": "warehouse",
+        "role_resolution": {
+          "actor_name": "San Jose Warehouse",
+          "actor_type": "warehouse",
+          "confidence": 0.86,
+          "reasons": [
+            "matched role terms for distributor"
+          ],
+          "role": "distributor"
+        }
+      },
+      "entity_id": "LOC-1",
+      "entity_type": "location",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-02_location_master-r2-c1",
+        "ev-fsma204_full_audit_sample-02_location_master-r2-c2",
+        "ev-fsma204_full_audit_sample-02_location_master-r2-c3"
+      ],
+      "name": "San Jose Warehouse"
+    }
+  ],
+  "lots": [
+    {
+      "attributes": {
+        "source_field": "output_lot_or_tlc"
+      },
+      "entity_id": "lot-tlc_pesto_1",
+      "entity_type": "lot_or_tlc",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+        "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+      ],
+      "name": "TLC-PESTO-1"
+    }
+  ],
+  "product_forms": [
+    {
+      "attributes": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": "Herbs fresh",
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Fresh Basil",
+        "reasons": [
+          "customer supplied an FTL category",
+          "matched FTL library item: Cheese (made from pasteurized milk), fresh soft or soft unripened"
+        ],
+        "review_required": false
+      },
+      "entity_id": "form-PROD-1",
+      "entity_type": "product_form",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c1",
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c2",
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c3",
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c4"
+      ],
+      "name": "Fresh Basil"
+    },
+    {
+      "attributes": {
+        "confidence": 0.9,
+        "form_state": [
+          "fresh"
+        ],
+        "ftl_category": null,
+        "is_ftl_likely": true,
+        "output_remains_ftl": true,
+        "product_name": "Mixed Fresh Item",
+        "reasons": [
+          "matched FTL library item: Cheese (made from pasteurized milk), fresh soft or soft unripened"
+        ],
+        "review_required": false
+      },
+      "entity_id": "form-PROD-2",
+      "entity_type": "product_form",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-01_product_master-r3-c1",
+        "ev-fsma204_full_audit_sample-01_product_master-r3-c2",
+        "ev-fsma204_full_audit_sample-01_product_master-r3-c4"
+      ],
+      "name": "Mixed Fresh Item"
+    }
+  ],
+  "products": [
+    {
+      "attributes": {
+        "ftl_category": "Herbs fresh",
+        "is_ftl_likely": true
+      },
+      "entity_id": "PROD-1",
+      "entity_type": "product",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c1",
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c2",
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c3",
+        "ev-fsma204_full_audit_sample-01_product_master-r2-c4"
+      ],
+      "name": "Fresh Basil"
+    },
+    {
+      "attributes": {
+        "ftl_category": null,
+        "is_ftl_likely": true
+      },
+      "entity_id": "PROD-2",
+      "entity_type": "product",
+      "evidence_ids": [
+        "ev-fsma204_full_audit_sample-01_product_master-r3-c1",
+        "ev-fsma204_full_audit_sample-01_product_master-r3-c2",
+        "ev-fsma204_full_audit_sample-01_product_master-r3-c4"
+      ],
+      "name": "Mixed Fresh Item"
+    }
+  ]
+}

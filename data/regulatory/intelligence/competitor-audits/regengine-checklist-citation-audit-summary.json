@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-06-16T19:58:52.352325+00:00",
+  "input_file": "/Users/ramesh/Documents/Codex/2026-06-07/https-www-ycombinator-com-companies-here/traceready/data/regulatory/intelligence/competitor-audits/regengine-checklist-claims.json",
+  "rule_package_id": "approved-rule-package-v1",
+  "rule_package_version": 1,
+  "rule_package_status": "approved",
+  "claims_run": 8,
+  "verdict_counts": {
+    "partial_wrong_subparagraph": 1,
+    "unsupported_wrong_section": 3,
+    "partial_weak_subparagraph": 1,
+    "too_broad_or_incomplete": 1,
+    "supported": 1,
+    "wrong_subparagraph": 1
+  },
+  "results_file": "/Users/ramesh/Documents/Codex/2026-06-07/https-www-ycombinator-com-companies-here/traceready/data/regulatory/intelligence/competitor-audits/regengine-checklist-citation-audit-results.json"
+}

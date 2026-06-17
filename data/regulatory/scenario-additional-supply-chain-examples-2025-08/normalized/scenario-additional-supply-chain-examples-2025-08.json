@@ -1,0 +1,491 @@
+{
+  "sourceId": "scenario-additional-supply-chain-examples-2025-08",
+  "url": "https://www.fda.gov/media/188084/download?attachment",
+  "rawArtifact": "../data/regulatory/scenario-additional-supply-chain-examples-2025-08/raw/scenario-additional-supply-chain-examples-2025-08.pdf",
+  "rawTextHash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 12,
+  "chunks": [
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-1-1",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 1",
+      "section": "page-1",
+      "text": "Food Safety Modernization Act (FSMA)\nFood Traceability Rule\nSupply Chain Examples\nMarch 2025\n1",
+      "summary": "Food Safety Modernization Act (FSMA) Food Traceability Rule Supply Chain Examples March 2025 1",
+      "citation": "page-1",
+      "text_hash": "sha256:a6131e7572a7a02dededed45f6bdda896552f8c492e9dbaa2ea831dad4228a78",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-1",
+          "section": "page-1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-2-2",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 2",
+      "section": "page-2",
+      "text": "Supply Chain Examples\nThe Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List\n(FTL) to maintain and provide to their supply chain partners specific information \u2013 called Key Data Elements or KDEs \u2013 for\ncertain Critical Tracking Events or CTEs in the food\u2019s supply chain. This framework forms the foundation for effective and\nefficient tracing of food.\nThe following examples will walk through the Critical Tracking Events in a supply chain where Key Data Elements are\nrequired.\nAbbreviations used:\n\u2022 Key Data Elements or KDEs\n\u2022 Critical Tracking Events or CTEs\n\u2022 Food Traceability List or FTL\n\u2022 Traceability Lot Code or TLC\n\u2022 Raw Agricultural Commodities or RACs\n2",
+      "summary": "Supply Chain Examples The Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List (FTL) to maintain and provide to th...",
+      "citation": "page-2",
+      "text_hash": "sha256:ffaded487e3bbe97c2d58dda9c3ff166b697955f389a05496b8f7b1d44fe0fa8",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-2",
+          "section": "page-2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-3-3",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 3",
+      "section": "page-3",
+      "text": "Supply Chain Example: Commingled eggs with written\nagreements\nIn this off-line egg production example, eggs are harvested and packed on different farms under different company\nmanagement, then shipped to a shell-egg processor who washes, sorts, and re-packs the eggs. During the re-packing, the\nshell-egg processor commingles the eggs from the different farms. The farms all have written agreements with the shell\negg processor stating that the eggs will be commingled, as described in \u00a7 1.1305(h)(2). Since the entities have written\nagreements in place, they do not need to maintain KDEs for the eggs. Since the shell egg processor is commingling the\neggs, the eggs would be eligible for the exemption in \u00a7 1.1305(h). Any subsequent receivers of the commingled eggs would\nnot be subject to the requirements of the rule. Since \u00a7 1.1305(h)(2) is only a partial exemption, all entities that have\nwritten agreements in place must also maintain a traceability plan.\nNote that the exempt entities who handle the commingled eggs are not required to keep any traceability records for the\neggs, EXCEPT THAT under \u00a7 1.1305(h)(3), if they are required to register as a food facility, they must maintain records (for 2\nyears) identifying the immediate previous source and the immediate subsequent recipient of the food in accordance with\n\u00a7\u00a7 1.337 and 1.345.\n3",
+      "summary": "Supply Chain Example: Commingled eggs with written agreements In this off-line egg production example, eggs are harvested and packed on different farms under different company m...",
+      "citation": "page-3",
+      "text_hash": "sha256:891cf0abde94df90b8e585941bbbe103b502143b7b25f1558f847d64d1812925",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-3",
+          "section": "page-3",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-4-4",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 4",
+      "section": "page-4",
+      "text": "Supply Chain Example: Off-line shell egg production\nIn this off-line egg production example, eggs are harvested and packed on different farms that\nare owned by the same company management that owns the shell egg processor. The shell-egg\nprocessor washes, sorts, and re-packs the eggs. Since the farms are under the same company\nmanagement, this would not be considered commingling. Therefore, the eggs would be covered\nby the Food Traceability Rule. All entities in blue are covered by the rule and must maintain a\nTraceability Plan, in addition to the specified KDEs.\n4",
+      "summary": "Supply Chain Example: Off-line shell egg production In this off-line egg production example, eggs are harvested and packed on different farms that are owned by the same company ...",
+      "citation": "page-4",
+      "text_hash": "sha256:674f2b7d9133bb28bb03d76c341d5834100694f67d57f26538ecdfd7a27e1ce5",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-4",
+          "section": "page-4",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 4,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-5-5",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 5",
+      "section": "page-5",
+      "text": "Supply Chain Example: In-line shell egg production operation\nthat also receives eggs from a contract farm\nIn this example, the farm is an in-line shell egg\noperation whose eggs are packed at the location\nwhere they are laid (in blue). The farm washes, sorts,\nand packs its own eggs to be sold under the farm\u2019s\nbrand. The farm also commingles some of its eggs\nwith eggs from a contract farm (in grey). There are\nwritten agreements in place stating that the eggs\nfrom the contract farm will be commingled, as\ndescribed in \u00a7 1.1305(h)(2). The farm must maintain\nKDEs for its non-commingled eggs but does not have\nto maintain KDEs for the commingled eggs. The eggs\nare then sent to a distributor for distribution to\nretail. The distributor and retailers must maintain\nKDEs for the non-commingled eggs but do not have\nto maintain KDEs for the commingled eggs. See this\ntool for the KDEs required for each CTE. See previous\nsupply chain example for details about the partial\nexemption for commingled eggs.\n5",
+      "summary": "Supply Chain Example: In-line shell egg production operation that also receives eggs from a contract farm In this example, the farm is an in-line shell egg operation whose eggs ...",
+      "citation": "page-5",
+      "text_hash": "sha256:27597bf6f57800f465de42c87a03eec5b9f47927451d90129d8fb6b47515242a",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-5",
+          "section": "page-5",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 5,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-6-6",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 6",
+      "section": "page-6",
+      "text": "Supply Chain Example: Frozen bell peppers\nIn this scenario, the produce processor is making frozen bell peppers. Written agreements are in place to establish that the peppers will\nbe frozen, as described in \u00a7 1.1305(d)(6). The entities with written agreements in place do not need to maintain KDEs for the peppers.\nFurthermore, since frozen peppers are not on the Food Traceability List, any subsequent receivers of the frozen peppers would not be\nsubject to the requirements of the rule. Since \u00a7 1.1305(d)(6) is only a partial exemption, all entities that have written agreements in place\nmust also maintain a Traceability Plan.\n6",
+      "summary": "Supply Chain Example: Frozen bell peppers In this scenario, the produce processor is making frozen bell peppers. Written agreements are in place to establish that the peppers wi...",
+      "citation": "page-6",
+      "text_hash": "sha256:cadc18434e1753e91e2a565462c1bf5b43f8f9f89f75bbf7903be4e8b2d6cac7",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-6",
+          "section": "page-6",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 6,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-7-7",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 7",
+      "section": "page-7",
+      "text": "Supply Chain Example: Fresh-cut apples\nIn this scenario, the produce processor is making fresh-cut apples. Apples are not on the FTL, so no Key Data Elements (KDEs) are\nrequired for the fresh apples until they are fresh-cut. The produce processor must maintain transformation KDEs for the fresh-cut apples\nunder \u00a7 1.1350(a)(2), as well as shipping KDEs. The subsequent receivers of the fresh-cut apples must also maintain KDEs as identified in\nthe graphic. All entities in blue are covered by the final rule and must maintain a Traceability Plan, in addition to the specified KDEs. See\nthis tool for the KDEs required for each CTE.\n7",
+      "summary": "Supply Chain Example: Fresh-cut apples In this scenario, the produce processor is making fresh-cut apples. Apples are not on the FTL, so no Key Data Elements (KDEs) are required...",
+      "citation": "page-7",
+      "text_hash": "sha256:c36893acfd5b6630a5b35e658c61f94021d41e9673fe1c872719b642d046a070",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-7",
+          "section": "page-7",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-8-8",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 8",
+      "section": "page-8",
+      "text": "Supply Chain Example: Fresh cucumbers harvested, cooled,\npacked and shipped by the farm\nIn this scenario, the farm/packer grows, harvests, cools, initially\npacks and ships the fresh cucumbers. So the farm must\nmaintain KDEs related to those activities. Since the farm/packer\nis initially packing the cucumber, the farm must also assign a\nTraceability Lot Code to the cucumbers and is the Traceability\nLot Code Source. The subsequent receivers of the cucumbers\nmust also maintain KDEs as identified in the graphic. All entities\nin blue are covered by the final rule and must maintain a\nTraceability Plan, in addition to the specified KDEs. See this tool\nfor the KDEs required for each CTE.\n8",
+      "summary": "Supply Chain Example: Fresh cucumbers harvested, cooled, packed and shipped by the farm In this scenario, the farm/packer grows, harvests, cools, initially packs and ships the f...",
+      "citation": "page-8",
+      "text_hash": "sha256:393f52c6f9a4fc78252bc6eca1cbc39dbe19dbbccf95356c7fe89463a49b2d6c",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-8",
+          "section": "page-8",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 8,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-9-9",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 9",
+      "section": "page-9",
+      "text": "Supply Chain Example: Fresh melons sent to a food hub\nIn this scenario, several small farms grow, harvest and cool melons before sending them (not yet packed) to a food hub. The food hub\naggregates the melons from the multiple farms, packs them, and assigns a Traceability Lot Code to the melons. The food hub then sends\nthem to a grocery store in the area. KDEs are required for the fresh melons at the points indicated in the graphic. All entities in blue are\ncovered by the final rule and must maintain a Traceability Plan, in addition to the specified KDEs. See this tool for the KDEs required for\neach CTE.\n9",
+      "summary": "Supply Chain Example: Fresh melons sent to a food hub In this scenario, several small farms grow, harvest and cool melons before sending them (not yet packed) to a food hub. The...",
+      "citation": "page-9",
+      "text_hash": "sha256:8ee4235f33107eb899c655cc0f8968def7687f8cf949aa476cdd485705460262",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-9",
+          "section": "page-9",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 9,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-10-10",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 10",
+      "section": "page-10",
+      "text": "Supply Chain Example: Peanut Butter Crackers\nIn this scenario, a peanut butter processor is\nmaking peanut butter, and a food manufacturer\nis making peanut butter crackers. No kill step is\napplied to the peanut butter or to the peanut\nbutter crackers. Peanuts and salt are not on the\nFTL, so no KDEs are required for those\ningredients. The peanut butter processor is using\nthose ingredients to make peanut butter, so they\nmust maintain transformation KDEs for the\npeanut butter as outlined in \u00a7 1.1350(a)(2), as\nwell as shipping KDEs. The peanut butter cracker\nmanufacturer must maintain receiving KDEs for\nthe peanut butter, and transformation and\nshipping KDEs for the peanut butter crackers\nthey are making. The subsequent receivers of\nthe crackers must also maintain KDEs as\nidentified in the graphic. All entities in blue are\ncovered by the final rule and must maintain a\nTraceability Plan, in addition to the specified\nKDEs. See this tool for the KDEs required for\neach CTE.\n10",
+      "summary": "Supply Chain Example: Peanut Butter Crackers In this scenario, a peanut butter processor is making peanut butter, and a food manufacturer is making peanut butter crackers. No ki...",
+      "citation": "page-10",
+      "text_hash": "sha256:e3ef3ce2f29215d855d1a531f27a2af134102470a84b432e7c7626f1ced5a62b",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-10",
+          "section": "page-10",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 10,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-11-11",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 11",
+      "section": "page-11",
+      "text": "Supply Chain Example: FTL food used in a dual jurisdiction\nplant\nIn this scenario, a dual jurisdiction facility is\nreceiving soft cheese from its supplier. The\nfacility has one receiving room (not under\nexclusive USDA jurisdiction) for all of the\nfacility\u2019s incoming ingredients. They therefore\nmust maintain receiving KDEs for all the soft\ncheese they receive. The FDA-regulated part\nof the facility is making a fruit and cheese\nplate, so they must maintain transformation\nKDEs as well as shipping KDEs. The part of the\nfacility that is under exclusive USDA\njurisdiction is making a meat and cheese\nplate. Under \u00a7 1.1305(g), an exemption\napplies during and after the time when the\nfood is within the exclusive jurisdiction of the\nUSDA. Therefore, no records are required for\nthe meat and cheese plate. All entities in blue\nare covered by the final rule and must\nmaintain a Traceability Plan, in addition to the\nspecified KDEs. See this tool for the KDEs\nrequired for each CTE.\n11",
+      "summary": "Supply Chain Example: FTL food used in a dual jurisdiction plant In this scenario, a dual jurisdiction facility is receiving soft cheese from its supplier. The facility has one ...",
+      "citation": "page-11",
+      "text_hash": "sha256:a4971d788e6638af6fa789bce871b53bcb37533b1d18c3a7f4adf776106b5c95",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-11",
+          "section": "page-11",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 11,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-additional-supply-chain-examples-2025-08-page-12-12",
+      "source_id": "scenario-additional-supply-chain-examples-2025-08",
+      "section_label": "PDF page 12",
+      "section": "page-12",
+      "text": "Visit https://www.fda.gov/fsma for additional information.",
+      "summary": "Visit https://www.fda.gov/fsma for additional information.",
+      "citation": "page-12",
+      "text_hash": "sha256:6e39f46b56f425ee070df16ab919d492d4a85beb6a057ade5b68d5d21d1677cd",
+      "anchors": [
+        {
+          "source_id": "scenario-additional-supply-chain-examples-2025-08",
+          "citation": "page-12",
+          "section": "page-12",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 12,
+          "url": "https://www.fda.gov/media/188084/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:08.939348+00:00",
+          "source_hash": "a1cd94e7e3ae44c6f3eb8d83b1584aaef0ea1d9c052a17002d31e08256acb96c"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

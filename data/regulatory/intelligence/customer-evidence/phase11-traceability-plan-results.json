@@ -1,0 +1,52 @@
+[
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+    "check_id": "phase11-plan-0001",
+    "component": "record_maintenance_procedures",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-04_traceability_plan-r2-c1"
+    ],
+    "reason": "Traceability plan component expected by approved obligation in approved-rule-package-v1.",
+    "status": "present"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+    "check_id": "phase11-plan-0002",
+    "component": "ftl_food_identification",
+    "evidence_ids": [],
+    "reason": "Traceability plan component expected by approved obligation in approved-rule-package-v1.",
+    "status": "missing"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+    "check_id": "phase11-plan-0003",
+    "component": "tlc_assignment_procedure",
+    "evidence_ids": [],
+    "reason": "Traceability plan component expected by approved obligation in approved-rule-package-v1.",
+    "status": "missing"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+    "check_id": "phase11-plan-0004",
+    "component": "point_of_contact",
+    "evidence_ids": [],
+    "reason": "Traceability plan component expected by approved obligation in approved-rule-package-v1.",
+    "status": "missing"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+    "check_id": "phase11-plan-0005",
+    "component": "farm_map",
+    "evidence_ids": [],
+    "reason": "Traceability plan component expected by approved obligation in approved-rule-package-v1.",
+    "status": "missing"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+    "check_id": "phase11-plan-0006",
+    "component": "plan_update_and_retention",
+    "evidence_ids": [],
+    "reason": "Traceability plan component expected by approved obligation in approved-rule-package-v1.",
+    "status": "missing"
+  }
+]

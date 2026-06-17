@@ -1,0 +1,108 @@
+[
+  {
+    "abstained_ctes": [],
+    "applied_precedence_rules": [],
+    "candidate_scores": {
+      "receiving": 0.84
+    },
+    "confidence": 0.84,
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c4"
+    ],
+    "final_ctes": [
+      "receiving"
+    ],
+    "reviewer_questions": [],
+    "signal_reasons": {
+      "receiving": [
+        "event_type_claim=receiving",
+        "actor_role=receiver",
+        "receiving date signal"
+      ]
+    },
+    "suppressed_ctes": []
+  },
+  {
+    "abstained_ctes": [],
+    "applied_precedence_rules": [],
+    "candidate_scores": {
+      "receiving": 0.03,
+      "shipping": 0.87
+    },
+    "confidence": 0.87,
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "final_ctes": [
+      "shipping"
+    ],
+    "reviewer_questions": [],
+    "signal_reasons": {
+      "receiving": [
+        "lot/TLC evidence present"
+      ],
+      "shipping": [
+        "event_type_claim=shipping",
+        "actor_role=shipper",
+        "lot/TLC evidence present",
+        "shipping date signal"
+      ]
+    },
+    "suppressed_ctes": []
+  },
+  {
+    "abstained_ctes": [],
+    "applied_precedence_rules": [],
+    "candidate_scores": {
+      "transformation": 0.88
+    },
+    "confidence": 0.88,
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "final_ctes": [
+      "transformation"
+    ],
+    "reviewer_questions": [],
+    "signal_reasons": {
+      "transformation": [
+        "event_type_claim=transformation",
+        "actor_role=processor",
+        "output TLC with transformation action term"
+      ]
+    },
+    "suppressed_ctes": []
+  }
+]

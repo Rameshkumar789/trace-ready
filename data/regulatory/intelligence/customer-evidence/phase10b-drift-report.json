@@ -1,0 +1,212 @@
+{
+  "changed_low_confidence_headers": [],
+  "current_headers": [
+    {
+      "column": "business_id",
+      "sheet": "00_Business_Profile"
+    },
+    {
+      "column": "business_type",
+      "sheet": "00_Business_Profile"
+    },
+    {
+      "column": "company_name",
+      "sheet": "00_Business_Profile"
+    },
+    {
+      "column": "covered_entity_status",
+      "sheet": "00_Business_Profile"
+    },
+    {
+      "column": "handles_ftl_foods",
+      "sheet": "00_Business_Profile"
+    },
+    {
+      "column": "ftl_food_category",
+      "sheet": "01_Product_Master"
+    },
+    {
+      "column": "is_ftl_maybe",
+      "sheet": "01_Product_Master"
+    },
+    {
+      "column": "product_id",
+      "sheet": "01_Product_Master"
+    },
+    {
+      "column": "product_name",
+      "sheet": "01_Product_Master"
+    },
+    {
+      "column": "location_id",
+      "sheet": "02_Location_Master"
+    },
+    {
+      "column": "location_name",
+      "sheet": "02_Location_Master"
+    },
+    {
+      "column": "location_type",
+      "sheet": "02_Location_Master"
+    },
+    {
+      "column": "partner_id",
+      "sheet": "03_Partner_Master"
+    },
+    {
+      "column": "partner_name",
+      "sheet": "03_Partner_Master"
+    },
+    {
+      "column": "partner_type",
+      "sheet": "03_Partner_Master"
+    },
+    {
+      "column": "relationship",
+      "sheet": "03_Partner_Master"
+    },
+    {
+      "column": "answer",
+      "sheet": "04_Traceability_Plan"
+    },
+    {
+      "column": "evidence_id",
+      "sheet": "04_Traceability_Plan"
+    },
+    {
+      "column": "plan_item",
+      "sheet": "04_Traceability_Plan"
+    },
+    {
+      "column": "actor_location_id",
+      "sheet": "05_CTE_Events"
+    },
+    {
+      "column": "event_datetime",
+      "sheet": "05_CTE_Events"
+    },
+    {
+      "column": "event_id",
+      "sheet": "05_CTE_Events"
+    },
+    {
+      "column": "event_type",
+      "sheet": "05_CTE_Events"
+    },
+    {
+      "column": "reference_record_no",
+      "sheet": "05_CTE_Events"
+    },
+    {
+      "column": "reference_record_type",
+      "sheet": "05_CTE_Events"
+    },
+    {
+      "column": "event_id",
+      "sheet": "06_Event_Line_Items"
+    },
+    {
+      "column": "event_line_id",
+      "sheet": "06_Event_Line_Items"
+    },
+    {
+      "column": "lot_or_tlc",
+      "sheet": "06_Event_Line_Items"
+    },
+    {
+      "column": "output_lot_or_tlc",
+      "sheet": "06_Event_Line_Items"
+    },
+    {
+      "column": "product_id",
+      "sheet": "06_Event_Line_Items"
+    },
+    {
+      "column": "product_name",
+      "sheet": "06_Event_Line_Items"
+    },
+    {
+      "column": "cte_type",
+      "sheet": "07_KDE_Values"
+    },
+    {
+      "column": "event_id",
+      "sheet": "07_KDE_Values"
+    },
+    {
+      "column": "event_line_id",
+      "sheet": "07_KDE_Values"
+    },
+    {
+      "column": "field_key",
+      "sheet": "07_KDE_Values"
+    },
+    {
+      "column": "kde_id",
+      "sheet": "07_KDE_Values"
+    },
+    {
+      "column": "kde_name",
+      "sheet": "07_KDE_Values"
+    },
+    {
+      "column": "kde_value",
+      "sheet": "07_KDE_Values"
+    },
+    {
+      "column": "lineage_id",
+      "sheet": "08_TLC_Lineage"
+    },
+    {
+      "column": "lineage_status",
+      "sheet": "08_TLC_Lineage"
+    },
+    {
+      "column": "relationship_type",
+      "sheet": "08_TLC_Lineage"
+    },
+    {
+      "column": "target_lot_or_tlc",
+      "sheet": "08_TLC_Lineage"
+    },
+    {
+      "column": "event_id",
+      "sheet": "09_Source_Documents"
+    },
+    {
+      "column": "evidence_id",
+      "sheet": "09_Source_Documents"
+    },
+    {
+      "column": "evidence_status",
+      "sheet": "09_Source_Documents"
+    },
+    {
+      "column": "evidence_type",
+      "sheet": "09_Source_Documents"
+    },
+    {
+      "column": "claim_id",
+      "sheet": "10_Exemptions_Claims"
+    },
+    {
+      "column": "claim_type",
+      "sheet": "10_Exemptions_Claims"
+    },
+    {
+      "column": "claimed_by",
+      "sheet": "10_Exemptions_Claims"
+    },
+    {
+      "column": "evidence_provided",
+      "sheet": "10_Exemptions_Claims"
+    }
+  ],
+  "drift_report_id": "phase10b-drift-mapping-profile-pilot_customer-sample_workbook-v1",
+  "missing_approved_headers": [],
+  "new_headers": [],
+  "profile_id": "mapping-profile-pilot_customer-sample_workbook-v1",
+  "review_tasks": [],
+  "source_file": "../data/samples/fsma204-full-audit-sample.xlsx",
+  "status": "stable"
+}

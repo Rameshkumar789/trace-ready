@@ -1,0 +1,23 @@
+{
+  "active_package_id": "approved-rule-package-v1",
+  "active_version": 1,
+  "active_package_hash": "4983410ccca1967e8eabc9eea29528669e85b5dd92dd4bff57ba9dd1d0ec42db",
+  "generated_at": "2026-06-16T00:00:00Z",
+  "package_files": [
+    "approved-rule-package-v1.json"
+  ],
+  "rollback_pin_file": "active-rule-package-pin.json",
+  "latest_diff_file": "approved-rule-package-v1-diff.json",
+  "available_versions": [
+    {
+      "package_id": "approved-rule-package-v1",
+      "version": 1,
+      "status": "approved",
+      "package_hash": "4983410ccca1967e8eabc9eea29528669e85b5dd92dd4bff57ba9dd1d0ec42db",
+      "scenario_gate_status": "passed",
+      "record_counts": {
+        "obligations": 12
+      }
+    }
+  ]
+}

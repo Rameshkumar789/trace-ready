@@ -1,0 +1,364 @@
+[
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/2022-24417-10.pdf",
+    "sourceId": "fr-2022-24417-final-rule-pdf",
+    "url": "https://www.federalregister.gov/documents/2022/11/21/2022-24417/requirements-for-additional-traceability-records-for-certain-foods",
+    "status": "ingested",
+    "sectionsExtracted": 377,
+    "chunks": 377,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fr-2022-24417-final-rule-pdf/normalized/fr-2022-24417-final-rule-pdf.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/2022-24417-2.pdf",
+    "sourceId": "fr-2022-24417-final-rule-pdf",
+    "url": "https://www.federalregister.gov/documents/2022/11/21/2022-24417/requirements-for-additional-traceability-records-for-certain-foods",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/2022-24417-3.pdf",
+    "sourceId": "fr-2022-24417-final-rule-pdf",
+    "url": "https://www.federalregister.gov/documents/2022/11/21/2022-24417/requirements-for-additional-traceability-records-for-certain-foods",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/2022-24417-4.pdf",
+    "sourceId": "fr-2022-24417-final-rule-pdf",
+    "url": "https://www.federalregister.gov/documents/2022/11/21/2022-24417/requirements-for-additional-traceability-records-for-certain-foods",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/2022-24417-5.pdf",
+    "sourceId": "fr-2022-24417-final-rule-pdf",
+    "url": "https://www.federalregister.gov/documents/2022/11/21/2022-24417/requirements-for-additional-traceability-records-for-certain-foods",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/2022-24417-6.pdf",
+    "sourceId": "fr-2022-24417-final-rule-pdf",
+    "url": "https://www.federalregister.gov/documents/2022/11/21/2022-24417/requirements-for-additional-traceability-records-for-certain-foods",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/2022-24417-7.pdf",
+    "sourceId": "fr-2022-24417-final-rule-pdf",
+    "url": "https://www.federalregister.gov/documents/2022/11/21/2022-24417/requirements-for-additional-traceability-records-for-certain-foods",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/2022-24417-8.pdf",
+    "sourceId": "fr-2022-24417-final-rule-pdf",
+    "url": "https://www.federalregister.gov/documents/2022/11/21/2022-24417/requirements-for-additional-traceability-records-for-certain-foods",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/2022-24417-9.pdf",
+    "sourceId": "fr-2022-24417-final-rule-pdf",
+    "url": "https://www.federalregister.gov/documents/2022/11/21/2022-24417/requirements-for-additional-traceability-records-for-certain-foods",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/2022-24417.pdf",
+    "sourceId": "fr-2022-24417-final-rule-pdf",
+    "url": "https://www.federalregister.gov/documents/2022/11/21/2022-24417/requirements-for-additional-traceability-records-for-certain-foods",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/21 CFR 10.30 (up to date as of 6-12-2026).pdf",
+    "sourceId": "cfr-21-10-30",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-10/subpart-B/section-10.30",
+    "status": "ingested",
+    "sectionsExtracted": 1,
+    "chunks": 1,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/cfr-21-10-30/normalized/cfr-21-10-30.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/21 CFR 112.2 (up to date as of 6-12-2026).pdf",
+    "sourceId": "cfr-21-112-2",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-112/subpart-A/section-112.2",
+    "status": "ingested",
+    "sectionsExtracted": 1,
+    "chunks": 1,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/cfr-21-112-2/normalized/cfr-21-112-2.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/21 CFR 1240.60 (up to date as of 6-12-2026).pdf",
+    "sourceId": "cfr-21-1240-60",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-L/part-1240/subpart-D/section-1240.60",
+    "status": "ingested",
+    "sectionsExtracted": 1,
+    "chunks": 1,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/cfr-21-1240-60/normalized/cfr-21-1240-60.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/21 CFR 133.118 (up to date as of 6-12-2026).pdf",
+    "sourceId": "cfr-21-133-118",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-133/subpart-B/section-133.118",
+    "status": "ingested",
+    "sectionsExtracted": 1,
+    "chunks": 1,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/cfr-21-133-118/normalized/cfr-21-133-118.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/21 CFR 133.150 (up to date as of 6-12-2026).pdf",
+    "sourceId": "cfr-21-133-150",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-133/subpart-B/section-133.150",
+    "status": "ingested",
+    "sectionsExtracted": 1,
+    "chunks": 1,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/cfr-21-133-150/normalized/cfr-21-133-150.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/21 CFR Part 123 (up to date as of 6-12-2026).pdf",
+    "sourceId": "cfr-21-123",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123",
+    "status": "ingested",
+    "sectionsExtracted": 14,
+    "chunks": 14,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/cfr-21-123/normalized/cfr-21-123.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/FSMA Rule for Food Traceability - 2024-0520-CTEs-KDEs.pdf",
+    "sourceId": "fda-cte-kde-pdf",
+    "url": "https://www.fda.gov/media/163132/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 11,
+    "chunks": 11,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fda-cte-kde-pdf/normalized/fda-cte-kde-pdf.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/FSMAFoodTraceability-ElectronicSortableSpreadsheet-June2024.xlsx",
+    "sourceId": "fda-sortable-spreadsheet-xlsx",
+    "url": "https://www.fda.gov/media/179617/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 15,
+    "chunks": 15,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fda-sortable-spreadsheet-xlsx/normalized/fda-sortable-spreadsheet-xlsx.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/TraceRule-TraceabilityPlanExampleforFarms-FactSheet-11202023.pdf",
+    "sourceId": "traceability-plan-farms",
+    "url": "https://www.fda.gov/media/174057/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 3,
+    "chunks": 3,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/traceability-plan-farms/normalized/traceability-plan-farms.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/cfr-21-1-subpart-j.pdf",
+    "sourceId": "cfr-21-1-subpart-j",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-J",
+    "status": "ingested",
+    "sectionsExtracted": 8,
+    "chunks": 8,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/cfr-21-1-subpart-j/normalized/cfr-21-1-subpart-j.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/cfr-21-123-3.pdf",
+    "sourceId": "cfr-21-123-3",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-123/subpart-A/section-123.3",
+    "status": "ingested",
+    "sectionsExtracted": 1,
+    "chunks": 1,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/cfr-21-123-3/normalized/cfr-21-123-3.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/cfr-21-133-111",
+    "sourceId": "cfr-21-133-111",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-133/subpart-B/section-133.111",
+    "status": "ingested",
+    "sectionsExtracted": 1,
+    "chunks": 1,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/cfr-21-133-111/normalized/cfr-21-133-111.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/ecfr-21-cfr-1-subpart-s - 21 CFR Part 1 Subpart S (up to date as of 6-12-2026).pdf",
+    "sourceId": "ecfr-21-cfr-1-subpart-s-pdf",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+    "status": "ingested",
+    "sectionsExtracted": 33,
+    "chunks": 33,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/ecfr-21-cfr-1-subpart-s-pdf/normalized/ecfr-21-cfr-1-subpart-s-pdf.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/fda-lot-level-flexibility-discussion-paper.pdf",
+    "sourceId": "fda-lot-level-flexibility-discussion-paper",
+    "url": "https://www.fda.gov/media/192696/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 9,
+    "chunks": 9,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fda-lot-level-flexibility-discussion-paper/normalized/fda-lot-level-flexibility-discussion-paper.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/fda-public-meeting-2026.pdf",
+    "sourceId": "fda-public-meeting-2026",
+    "url": "https://www.federalregister.gov/documents/2026/05/28/2026-09537/challenges-and-solutions-in-lot-level-food-traceability-public-meeting-and-request-for-comments",
+    "status": "ingested",
+    "sectionsExtracted": 2,
+    "chunks": 2,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fda-public-meeting-2026/normalized/fda-public-meeting-2026.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/fda-qa-guidance-2026.pdf",
+    "sourceId": "fda-qa-guidance-2026-pdf",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+    "status": "ingested",
+    "sectionsExtracted": 46,
+    "chunks": 46,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fda-qa-guidance-2026-pdf/normalized/fda-qa-guidance-2026-pdf.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/fda-small-entity-guide-2023.pdf",
+    "sourceId": "fda-small-entity-guide-2023-pdf",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-requirements-additional-traceability-records-certain-foods-what-you",
+    "status": "ingested",
+    "sectionsExtracted": 86,
+    "chunks": 86,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fda-small-entity-guide-2023-pdf/normalized/fda-small-entity-guide-2023-pdf.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/fda-tabletop-exercises-report.pdf",
+    "sourceId": "fda-tabletop-exercises-report",
+    "url": "https://www.fda.gov/media/192993/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 10,
+    "chunks": 10,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fda-tabletop-exercises-report/normalized/fda-tabletop-exercises-report.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/fr-2022-24417-final-rule.pdf",
+    "sourceId": "fr-2022-24417-final-rule-pdf",
+    "url": "https://www.federalregister.gov/documents/2022/11/21/2022-24417/requirements-for-additional-traceability-records-for-certain-foods",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/fr-2023-technical-amendment.pdf",
+    "sourceId": "fr-2023-technical-amendment",
+    "url": "https://www.federalregister.gov/documents/2023/09/26/2023-20898/requirements-for-additional-traceability-records-for-certain-foods-technical-amendment",
+    "status": "ingested",
+    "sectionsExtracted": 2,
+    "chunks": 2,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fr-2023-technical-amendment/normalized/fr-2023-technical-amendment.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/fr-2025-compliance-date-extension.pdf",
+    "sourceId": "fr-2025-compliance-date-extension-pdf",
+    "url": "https://www.federalregister.gov/documents/2025/08/07/2025-14967/requirements-for-additional-traceability-records-for-certain-foods-compliance-date-extension",
+    "status": "ingested",
+    "sectionsExtracted": 12,
+    "chunks": 12,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fr-2025-compliance-date-extension-pdf/normalized/fr-2025-compliance-date-extension-pdf.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/fr-2026-cottage-cheese-exemption.pdf",
+    "sourceId": "fr-2026-cottage-cheese-exemption",
+    "url": "https://www.federalregister.gov/documents/2026/02/20/2026-03362/requirements-for-additional-traceability-records-for-certain-foods-exemption-for-cottage-cheeseunder",
+    "status": "ingested",
+    "sectionsExtracted": 7,
+    "chunks": 7,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fr-2026-cottage-cheese-exemption/normalized/fr-2026-cottage-cheese-exemption.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/fsma_traceability_qa-_draft_guidance_2023-520_-_clean_1-5-26.pdf",
+    "sourceId": "fda-qa-guidance-2026-pdf",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-about-requirements-additional-traceability-records-certain-foods",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/fsmafoodtraceability-electronicsortablespreadsheetwithsampledata-september2024.xlsx",
+    "sourceId": "fda-sortable-spreadsheet-sample-xlsx",
+    "url": "https://www.fda.gov/media/181946/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 15,
+    "chunks": 15,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/fda-sortable-spreadsheet-sample-xlsx/normalized/fda-sortable-spreadsheet-sample-xlsx.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/traceability-plan-aquaculture.pdf",
+    "sourceId": "traceability-plan-aquaculture",
+    "url": "https://www.fda.gov/media/188103/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 2,
+    "chunks": 2,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/traceability-plan-aquaculture/normalized/traceability-plan-aquaculture.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/traceability-plan-distribution-centers.pdf",
+    "sourceId": "traceability-plan-distribution-centers",
+    "url": "https://www.fda.gov/media/188101/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 2,
+    "chunks": 2,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/traceability-plan-distribution-centers/normalized/traceability-plan-distribution-centers.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/traceability-plan-farms.pdf",
+    "sourceId": "traceability-plan-farms",
+    "url": "https://www.fda.gov/media/174057/download?attachment",
+    "status": "duplicate_skipped"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/traceability-plan-food-processors.pdf",
+    "sourceId": "traceability-plan-food-processors",
+    "url": "https://www.fda.gov/media/188100/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 2,
+    "chunks": 2,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/traceability-plan-food-processors/normalized/traceability-plan-food-processors.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/traceability-plan-restaurants.pdf",
+    "sourceId": "traceability-plan-restaurants",
+    "url": "https://www.fda.gov/media/174058/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 2,
+    "chunks": 2,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/traceability-plan-restaurants/normalized/traceability-plan-restaurants.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/traceability-plan-seafood-processing.pdf",
+    "sourceId": "traceability-plan-seafood-processing",
+    "url": "https://www.fda.gov/media/188102/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 2,
+    "chunks": 2,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/traceability-plan-seafood-processing/normalized/traceability-plan-seafood-processing.json"
+  },
+  {
+    "file": "/Users/ramesh/Downloads/fda-documents/traceability-plan-sprouters.pdf",
+    "sourceId": "traceability-plan-sprouters",
+    "url": "https://www.fda.gov/media/181575/download?attachment",
+    "status": "ingested",
+    "sectionsExtracted": 3,
+    "chunks": 3,
+    "rejectedChunks": 0,
+    "normalizedArtifact": "../data/regulatory/traceability-plan-sprouters/normalized/traceability-plan-sprouters.json"
+  }
+]

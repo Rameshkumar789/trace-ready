@@ -1,0 +1,422 @@
+{
+  "sourceId": "fda-lot-level-flexibility-discussion-paper",
+  "url": "https://www.fda.gov/media/192696/download?attachment",
+  "rawArtifact": "../data/regulatory/fda-lot-level-flexibility-discussion-paper/raw/fda-lot-level-flexibility-discussion-paper.pdf",
+  "rawTextHash": "bf7fff66eada7ef85208aa2b69470d7f80f426f82c327626080de9cfd605fc10",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 9,
+  "chunks": [
+    {
+      "chunk_id": "fda-lot-level-flexibility-discussion-paper-page-1-1",
+      "source_id": "fda-lot-level-flexibility-discussion-paper",
+      "section_label": "PDF page 1",
+      "section": "page-1",
+      "text": "Disclaimer: This document is for discussion purposes only and does not represent draft or final\nguidance.\nDiscussion Paper: Identifying Additional Flexibilities for Satisfying the Food Traceability Rule\u2019s\nLot-Level Tracking Requirement\nBackground\nThe U.S. Food and Drug Administration (FDA or we) published in the Federal Register of\nNovember 21, 2022, a final rule titled \u201cRequirements for Additional Traceability Records for\nCertain Foods\u201d (87 FR 70910) (Food Traceability Rule) as part of our implementation of the FDA\nFood Safety Modernization Act (FSMA; Pub. L. 111-353). The Food Traceability\nRule establishes additional recordkeeping requirements for persons who manufacture, process,\npack, or hold foods the Agency has designated for inclusion on the Food Traceability List\n(FTL). The rule mandates lot-level tracking for foods on the FTL, requiring entities that perform\nspecific activities to assign unique codes, known as Traceability Lot Codes (TLCs), to each lot of\nthe food. The entity that assigns the TLC is known as the TLC source. Once a food has been\nassigned a TLC, the records required at each subsequent point in the supply chain must include\nthat TLC, as well as including information about the TLC source. The TLC can only be changed if\nthe food is transformed. The goal of lot-level tracking is to enable rapid tracing of contaminated\nfoods, allowing FDA to find the source of that food faster, narrowing the scope of recalls, and\nremoving affected products from the supply chain quickly.\nThe Food Traceability Rule establishes first of its kind national standards for supply chain\ntraceability from farm to restaurant/retail. Entities who handle FTL foods must maintain specific\nkey data elements (KDEs), such as the TLC, for each traceability lot of the food that they handle.\nThe required KDEs depend on what critical tracking events (CTEs) \u2013 such as initial packing,\ntransformation, receiving, and shipping \u2013 are being performed by the entity. The rule also\nrequires covered entities to share specific KDEs with their supply chain partners. Entities along a\nsupply chain must therefore coordinate to share relevant data elements with subsequent\nentities in the chain, in a compatible and timely manner.\nSince issuing the Food Traceability Rule in 2022, FDA has conducted extensive stakeholder\noutreach and education on the rule, in addition to providing technical assistance, tools, and\nother resources to assist industry with implementation. As the regulated industry worked to\ncomply with the rule's requirements, entities from across the supply chain voiced concerns with\nthe initial 3-year implementation timeframe, stating that they needed more time to come into\ncompliance. Even those few entities who were well positioned to meet the final rule\u2019s\n1",
+      "summary": "Disclaimer: This document is for discussion purposes only and does not represent draft or final guidance. Discussion Paper: Identifying Additional Flexibilities for Satisfying t...",
+      "citation": "page-1",
+      "text_hash": "sha256:d9dda08f52c22cd75d1d2bc12159f2713b269c89e57760793f26b916fda52062",
+      "anchors": [
+        {
+          "source_id": "fda-lot-level-flexibility-discussion-paper",
+          "citation": "page-1",
+          "section": "page-1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/media/192696/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:14.795395+00:00",
+          "source_hash": "bf7fff66eada7ef85208aa2b69470d7f80f426f82c327626080de9cfd605fc10"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-lot-level-flexibility-discussion-paper-page-2-2",
+      "source_id": "fda-lot-level-flexibility-discussion-paper",
+      "section_label": "PDF page 2",
+      "section": "page-2",
+      "text": "requirements by the original compliance date of January 20, 2026, expressed concern about the\ntimeline, in part because of their reliance on receiving accurate data from their supply chain\npartners who are not similarly situated.\nAs a result, FDA has proposed extending the compliance date for all persons subject to the\nrecordkeeping requirements to July 20, 2028. In Section 780 of the Continuing Appropriations,\nAgriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act,\n2026 (the Continuing Appropriations Act), Congress directed FDA not to enforce the Food\nTraceability Rule prior to that same date of July 20, 2028. FDA intends to comply with this\nCongressional directive.\nPurpose and Scope of this Document\nSection 780 of the Continuing Appropriations Act also directed FDA to engage quarterly with\nregulated entities to identify and implement, as appropriate, additional flexibilities for satisfying\nthe Food Traceability Rule\u2019s lot-level tracking requirement. Congress further stated that within\n180 days of the Continuing Appropriations Act\u2019s enactment, FDA should provide industry\nstakeholders with recommendations for these additional flexibilities.\nIn keeping with this Congressional directive, FDA has planned and begun implementing a series\nof quarterly engagements with industry. The first such engagement was a March 6, 2026,\nlistening session hosted by the Partnership for Food Traceability (PFT), where FDA heard from\nmembers of industry about their progress implementing lot-level tracking, challenges facing\nregulated entities, and potential solutions. The second engagement will be an FDA public\nmeeting, titled \u201cChallenges and Solutions for Lot-Level Traceability,\u201d to be held on June 15,\n2026. A second FDA public meeting is scheduled for November 6, 2026, with another focused\ndiscussion with industry hosted by PFT to take place in September 2026. These quarterly\nengagements are in addition to our regular engagements with industry through meetings and\nwebinars, and ongoing technical assistance to industry though the Technical Assistance\nNetwork (TAN).\nWe want these engagements with regulated entities and other interested parties to be as\nproductive as possible, so that they can inform our development of any additional flexibilities\nwe ultimately offer for satisfying the Food Traceability Rule\u2019s lot-level tracking requirement. At\nthis point in time, with most of the quarterly engagements still ahead of us, we have not made\na decision about the scope of flexibilities that would best address the challenges being faced by\nregulated entities while still protecting public health and maintaining the benefits of the Food\nTraceability Rule. However, we recognize Congress\u2019s desire for FDA to be transparent with\nstakeholders about this process, and specifically about where things stand approximately 180\n2",
+      "summary": "requirements by the original compliance date of January 20, 2026, expressed concern about the timeline, in part because of their reliance on receiving accurate data from their s...",
+      "citation": "page-2",
+      "text_hash": "sha256:146571280872cf81758aaf7884feb7c6537c54d8a9f2525cc4f2cf149c94670d",
+      "anchors": [
+        {
+          "source_id": "fda-lot-level-flexibility-discussion-paper",
+          "citation": "page-2",
+          "section": "page-2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/media/192696/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:14.795395+00:00",
+          "source_hash": "bf7fff66eada7ef85208aa2b69470d7f80f426f82c327626080de9cfd605fc10"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-lot-level-flexibility-discussion-paper-page-3-3",
+      "source_id": "fda-lot-level-flexibility-discussion-paper",
+      "section_label": "PDF page 3",
+      "section": "page-3",
+      "text": "days after enactment of the Continuing Appropriations Act. One goal of this discussion paper is\nto provide this transparency.\nWe also hope and anticipate that this discussion paper will promote deeper and more\nproductive future engagements with stakeholders, including at the June 15 public meeting. We\nencourage those making remarks at the June 15 public meeting to consider the questions in this\ndiscussion paper as you develop your remarks for that meeting.\nWe also want to provide all stakeholders with an opportunity to actively engage with FDA on\nthis topic. We therefore invite and encourage all interested parties to submit feedback on this\ndiscussion paper to https://www.regulations.gov, Docket No. FDA-2014-N-0053. Feedback does\nnot need to cover every question that is asked in this document; you are encouraged to focus\non whichever aspects of this discussion paper are of the most interest to you. To ensure that\nwe can fully consider your feedback as we continue our quarterly engagements and work to\nexpeditiously identify flexibilities to implement, please submit your feedback no later than July\n15, 2026.\nPlease note that this discussion paper does not reflect an exhaustive list of options that FDA\nwould be willing to consider with respect to potential flexibilities for satisfying the Food\nTraceability Rule\u2019s lot-level tracking requirement. This document is meant to capture the areas\nwhere we currently have the most questions, or where we think further dialogue would be\nespecially helpful. Please also note that the order in which the topics are listed is not meant to\nrepresent a prioritization or a preference for any topic.\nDiscussion Topics\nReasonable range of traceability lot codes for distributors shipping to retailers\nWe have heard from many in regulated industry about the challenges with lot-level tracking as\nan FTL food moves through a distribution center and is shipped to a retail location. Because FTL\nfoods are sometimes received in mixed-lot pallets, and because further mixing of lots can occur\nas products move in and out of designated product holding areas (pick slots), some distribution\ncenters have stated that they would have to scan every case to accurately track the movement\nof TLCs through their facilities. There is a concern that this would be logistically challenging and\nperhaps cost-prohibitive. Some members of regulated industry have therefore proposed that\ndistribution centers that ship to retailers be allowed to maintain and share records that reflect\na range of all possible TLCs that could reasonably be associated with a shipping event. Some\nhave suggested that the distribution center\u2019s traceability plan would describe how a reasonable\nrange was determined based on inventory management practices. We have several questions\nfor stakeholders on this potential flexibility:\n3",
+      "summary": "days after enactment of the Continuing Appropriations Act. One goal of this discussion paper is to provide this transparency. We also hope and anticipate that this discussion pa...",
+      "citation": "page-3",
+      "text_hash": "sha256:21437cd2fed995d0d13e3808705ee50380507e78f6b1f0073e9a71474949b7cf",
+      "anchors": [
+        {
+          "source_id": "fda-lot-level-flexibility-discussion-paper",
+          "citation": "page-3",
+          "section": "page-3",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.fda.gov/media/192696/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:14.795395+00:00",
+          "source_hash": "bf7fff66eada7ef85208aa2b69470d7f80f426f82c327626080de9cfd605fc10"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-lot-level-flexibility-discussion-paper-page-4-4",
+      "source_id": "fda-lot-level-flexibility-discussion-paper",
+      "section_label": "PDF page 4",
+      "section": "page-4",
+      "text": "1. How does industry define a \u201creasonable\u201d range of TLCs? Would it be feasible to have a\nspecified limit (e.g., a single TLC can be replaced by a range of 2 or 3 TLCs, but no more\nthan 3) and, if so, what factors would be considered in establishing the limit? How\nwould such a limit work in practice, given that many shipments contain more than one\nTLC? If a hard limit is not workable, how else can a \u201creasonable\u201d range be defined?\n2. What guardrails would need to be in place to ensure that this flexibility would not erode\nthe public health benefits of the rule?\n3. At most, how many different TLCs are likely to be on one pallet?\n4. At most, how many different TLCs are likely to be in a pick slot at any given time?\n5. How likely is it that an incoming pallet will contain multiple TLCs from the same TLC\nsource? How likely is it that an incoming pallet will contain multiple TLCs from different\nTLC sources?\n6. For an outgoing shipment, do you envision that the reasonable range of TLCs would be a\nrange from the same TLC source, or do you envision that it might encompass a range\nfrom multiple TLC sources? Would it be feasible to limit the range of TLCs to being from\nthe same TLC source?\n7. What are the fundamental best practices that distribution centers should incorporate to\nbe confident that the range of TLCs provides accurate information and is not overly\nbroad? If these best practices are in place, how often would you need to record a\nreasonable range of TLCs (as opposed to being confident about which TLCs were in a\ngiven shipment)?\n8. Would the distribution center be required to provide a range of TLCs for a given quantity\nof product (e.g., no more than 10 cases for a given range of TLCs), or would the range\napply to all the product (of a specific product description) that is in the entire shipment?\n9. How would you communicate a range of TLCs to a retailer? For example, can advance\nshipping notices (ASNs) transmit a range of TLCs currently?\n10. Would any changes or investments to your system to provide a reasonable range of\nTLCs also be helpful for coming into full compliance with the rule? Would any changes\nor investments to your system to provide a reasonable range of TLCs set you back on\nyour path to coming into full compliance with the rule?\nInferred traceability lot codes, with flexibility, for distributors shipping to retailers\nMany in regulated industry have stated that distribution centers often infer or calculate which\nTLCs are being shipped to a retailer, rather than confirming at the time of shipment (e.g., by\nscanning) which TLCs are being shipped. This inference can be made in a variety of ways, such\nas through a warehouse management system that takes into account when incoming TLCs were\nreceived, how they were placed in pick slots, and the order in which employees are trained to\n4",
+      "summary": "1. How does industry define a \u201creasonable\u201d range of TLCs? Would it be feasible to have a specified limit (e.g., a single TLC can be replaced by a range of 2 or 3 TLCs, but no mo...",
+      "citation": "page-4",
+      "text_hash": "sha256:28460c0cc4f8e96a5670eb06f86da10168e0c349666b3db6e989a9667d13f93e",
+      "anchors": [
+        {
+          "source_id": "fda-lot-level-flexibility-discussion-paper",
+          "citation": "page-4",
+          "section": "page-4",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 4,
+          "url": "https://www.fda.gov/media/192696/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:14.795395+00:00",
+          "source_hash": "bf7fff66eada7ef85208aa2b69470d7f80f426f82c327626080de9cfd605fc10"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-lot-level-flexibility-discussion-paper-page-5-5",
+      "source_id": "fda-lot-level-flexibility-discussion-paper",
+      "section_label": "PDF page 5",
+      "section": "page-5",
+      "text": "pick (e.g., first-expired, first-out). We have heard that this approach is fairly accurate, but that\nregulated industry is concerned that if they relied on this approach to comply with the rule,\nthey would invariably have some errors in their data. Some in regulated industry have\nexpressed optimism that over time, with better systems, technology, and training, this\napproach could become very accurate (comparable to scanning). We are interested in exploring\nwhether it might be possible to support the development of systems that could eventually be\nhighly accurate at inferring lot codes, while simultaneously providing flexibility as firms work\ntoward that goal.\nAs an example of this approach, if a distribution center inferred that certain TLCs were part of a\nshipment to a retailer (e.g., 10 boxes of TLC 5, 10 boxes of TLC 6, 10 boxes of TLC 7), they could\nmaintain and send forward these inferred TLCs, and accompany the inferred TLCs with a\nstatement of other TLCs that might also have been included in the shipment (e.g., TLC 4, TLC 8).\nThe distribution center\u2019s traceability plan would explain their method for inferring which TLCs\nwere shipped and for identifying other TLCs that might have been in the shipment. This\napproach could be seen as a variation of the \u201creasonable range of lot codes\u201d approach, but it\nwould more closely reflect the aspiration of full compliance with the rule, because the inferred\nTLCs would be presented in a manner that \u2013 if accurate \u2013 would be in full compliance with the\nrule.\nWe have several questions for stakeholders on this potential flexibility:\n1. Would the above example (in which a distribution center could state a number of other\nTLCs that might have been in a shipment, in addition to the TLCs that they infer are in\nthe shipment) be a viable way to provide flexibility to distribution centers that currently\ninfer which TLCs are in a shipment? Are there other ways to provide flexibility for such\ndistribution centers that could ensure similar or better accuracy? Are there some\ndistribution centers for which this flexibility would not be helpful?\n2. We anticipate that there may need to be a limit on how many additional TLCs could be\nstated. What factors should be considered in establishing that limit?\n3. How could this flexibility serve as a steppingstone to compliance with the rule as\nwritten? It seems like this could happen in one of two ways: 1) by encouraging\ndistribution centers to hone their ability to infer TLCs to the point where they can do so\nwith a high degree of accuracy, or 2) by providing a temporary way to trace TLCs while\nmore precise methods (e.g., RFID) are being developed and adopted. Do either or both\nof these seem likely?\n4. How would you communicate this TLC information to a retailer? For example, can ASNs\ntransmit other TLCs that might have also been included in a shipment (in addition to\n5",
+      "summary": "pick (e.g., first-expired, first-out). We have heard that this approach is fairly accurate, but that regulated industry is concerned that if they relied on this approach to comp...",
+      "citation": "page-5",
+      "text_hash": "sha256:e83099d535e4a2187ab96f7f0d347048689f6532243a8e799019f44a0a4072dc",
+      "anchors": [
+        {
+          "source_id": "fda-lot-level-flexibility-discussion-paper",
+          "citation": "page-5",
+          "section": "page-5",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 5,
+          "url": "https://www.fda.gov/media/192696/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:14.795395+00:00",
+          "source_hash": "bf7fff66eada7ef85208aa2b69470d7f80f426f82c327626080de9cfd605fc10"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-lot-level-flexibility-discussion-paper-page-6-6",
+      "source_id": "fda-lot-level-flexibility-discussion-paper",
+      "section_label": "PDF page 6",
+      "section": "page-6",
+      "text": "transmitting the TLCs that the shipper believes to have been included in the shipment,\ni.e., the inferred TLCs)?\nEaches\nWe have heard that there are challenges with maintaining KDEs for FTL food items that are no\nlonger part of a case, known as \u201ceaches\u201d. For example, a distribution center may have broken\nthe case to send a few items (less than a case) to one or more customers. Because individual\nitems are unlikely to have a TLC written on them (whereas the TLC might have been written on\nthe label of the case), it is more difficult to maintain a full set of KDEs for the individual items\nwhen they are shipped (as well as when they are received). Our current understanding is that\nthis circumstance would only apply to a low volume of food being shipped to any one customer.\nWe have the following questions to help inform our thinking about possible flexibilities for\neaches:\n1. Is there an industry or generally understood definition of eaches?\n2. Are there circumstances where a case may be broken up to create eaches throughout\nthe supply chain, or does this only occur immediately prior to shipment to retail?\n3. How common are eaches in different sectors, for example, convenience stores, grocery\nstores, and restaurants?\n4. What additional labeling information could appear on the outside of the container in\nwhich the eaches are shipped to ensure adequate traceability as the product moves\nthrough the supply chain from distribution to retail? Are there obstacles to providing\ninformation in this way?\n5. From a distribution center perspective, approximately what percentage of outgoing\ninventory is shipped as eaches?\n6. Are eaches created only when small quantities of a food are needed, or are there other\nscenarios in which they are created?\n7. What are the traceability challenges for eaches? We have heard there are challenges to\ntracking the TLC and TLC source for eaches; however, is information on other KDEs such\nas the product description, quantity, and supplier available (via purchase order, for\nexample)?\n8. Would either of the two previously described flexibilities (\u201creasonable range of TLCs\u201d or\n\u201cinferred TLCs, with flexibility\u201d) help address the difficulties associated with eaches? If\nso, how? If not, why not?\nReturns and Reclamations\n6",
+      "summary": "transmitting the TLCs that the shipper believes to have been included in the shipment, i.e., the inferred TLCs)? Eaches We have heard that there are challenges with maintaining ...",
+      "citation": "page-6",
+      "text_hash": "sha256:37be0b6cf0d8e80fabed2f872fb2bc5cea2be10390518f08b273a81275d3cb09",
+      "anchors": [
+        {
+          "source_id": "fda-lot-level-flexibility-discussion-paper",
+          "citation": "page-6",
+          "section": "page-6",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 6,
+          "url": "https://www.fda.gov/media/192696/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:14.795395+00:00",
+          "source_hash": "bf7fff66eada7ef85208aa2b69470d7f80f426f82c327626080de9cfd605fc10"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-lot-level-flexibility-discussion-paper-page-7-7",
+      "source_id": "fda-lot-level-flexibility-discussion-paper",
+      "section_label": "PDF page 7",
+      "section": "page-7",
+      "text": "Regulated industry has identified challenges with maintaining KDEs as required by the rule for\nindividual items that are sent back to the supplier as a return or reclamation. We have the\nfollowing questions to help inform our thinking regarding possible flexibilities for returns and\nreclamations:\n1. Are returns and reclamations of individual items considered under the industry\ndefinition of \u201ceaches\u201d?\n2. Are there standard industry definitions for \u201creturns\u201d and \u201creclamations\u201d?\n3. What are the biggest challenges with maintaining KDEs in these circumstances? Which\nKDEs are most challenging to maintain?\n4. Are there flexibilities you would propose that would help address the challenges\nassociated with returns and reclamations?\nFood Waste Recovery\nThe Continuing Appropriations Act directed FDA, among other things, to provide assistance to\nindustry regarding how to handle food waste recovery. Under the Food Traceability Rule, the\ndefinition of \u201cshipping\u201d in 21 CFR 1.1310 states that shipping does not include the donation of\nsurplus food. Therefore, retailers or other entities who donate food do not need to maintain\nany KDEs relating to the donation.\nWe are seeking clarity from stakeholders on what, if any, challenges exist around food waste\nrecovery that are not covered by the existing exemption for donated food.\nIntracompany shipments\nWe have heard from regulated industry that there are inefficiencies with the requirement to\nmaintain KDEs for intracompany shipments when no transformation is occurring. We have the\nfollowing questions about these challenges:\n1. Do you understand the rule to require duplicate records in the context of intracompany\nshipments? Note that 21 CFR 1.1455(f) states that you do not need to duplicate existing\nrecords you have if they contain the information required by the rule, and that you can\nsupplement any such existing records as necessary to include all of the required\ninformation. Also note that under 21 CFR 1.1455(g), you do not need to keep all of the\nrequired information in a single set of records. In light of these provisions, are there\nnonetheless circumstances under which duplicate records would need to be kept for\nintracompany shipments? If so, please describe those circumstances.\n7",
+      "summary": "Regulated industry has identified challenges with maintaining KDEs as required by the rule for individual items that are sent back to the supplier as a return or reclamation. We...",
+      "citation": "page-7",
+      "text_hash": "sha256:7289d3b0f898645f92a83292ff9ebf5d754dc292e2eccd66941e6dd5328a3476",
+      "anchors": [
+        {
+          "source_id": "fda-lot-level-flexibility-discussion-paper",
+          "citation": "page-7",
+          "section": "page-7",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.fda.gov/media/192696/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:14.795395+00:00",
+          "source_hash": "bf7fff66eada7ef85208aa2b69470d7f80f426f82c327626080de9cfd605fc10"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-lot-level-flexibility-discussion-paper-page-8-8",
+      "source_id": "fda-lot-level-flexibility-discussion-paper",
+      "section_label": "PDF page 8",
+      "section": "page-8",
+      "text": "2. Are you tracking TLCs now in your system, and do you think it provides accurate\ninformation about how TLCs move between different locations within your company\n(i.e., for intracompany shipments)? If so, please describe how your system tracks this\nmovement of TLCs.\n3. What specific challenges exist that are unique to intracompany shipments? Are there\nways in which compliance with the rule is more difficult for intracompany shipments\nthan it is for intercompany shipments? Are there particular types of intracompany\nshipments that are most challenging?\n4. What flexibility would be helpful to address concerns about intracompany shipments?\nUnder your proposed flexibility, would you be able to keep track of which TLCs your\ncompany originally received (i.e., from another company)? Would you be able to keep\ntrack of which TLCs your company ultimately shipped to another company? Would you\nbe able to track the movement of a specific TLC through different locations within your\ncompany (i.e., where the TLC moved in the course of intracompany shipments)? Would\nTLC and TLC source information be available to FDA at retail (i.e., at the retail food\nestablishment (RFE) or restaurant where the food ultimately goes), regardless of\nwhether or not the retail location is part of your company?\nShipments for retailers transforming food and sending to other retailers\nIn some restaurants and RFEs, retail kitchens will manufacture FTL foods (e.g., sushi) for sale in\ntheir retail location but also send some of the food to other retail locations in the vicinity. For\nthe food that is sold on-site at that location, they would not have to maintain transformation\nrecords because they are selling the food directly to consumers, as stated in 21 CFR\n1.1350(c). But transformation (and shipping) records would be required for the food that is sent\nto a nearby RFE or restaurant. We have heard from regulated industry that it is impractical to\nmaintain transformation KDEs for food that is manufactured in retail kitchens, even when some\nof that food is being sent off-site. We have the following questions regarding flexibilities for this\nscenario:\n1. Are there flexibilities that could alleviate the concerns associated with this scenario?\nWould those flexibilities raise other concerns, either logistically or in relation to public\nhealth protection? Should any flexibilities in this space be limited in some way, e.g., to\nsituations where the majority of the transformed food is sold on-site?\n2. Are there other implementation concerns that exist for these entities?\n3. What are best practices that could help entities in this situation fully comply with the\nrule?\nData Standardization\n8",
+      "summary": "2. Are you tracking TLCs now in your system, and do you think it provides accurate information about how TLCs move between different locations within your company (i.e., for int...",
+      "citation": "page-8",
+      "text_hash": "sha256:e58a7359a6d91fc09b6774cbc33eead4a49eaf08184cfcd0b8af651ad81e0981",
+      "anchors": [
+        {
+          "source_id": "fda-lot-level-flexibility-discussion-paper",
+          "citation": "page-8",
+          "section": "page-8",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 8,
+          "url": "https://www.fda.gov/media/192696/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:14.795395+00:00",
+          "source_hash": "bf7fff66eada7ef85208aa2b69470d7f80f426f82c327626080de9cfd605fc10"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-lot-level-flexibility-discussion-paper-page-9-9",
+      "source_id": "fda-lot-level-flexibility-discussion-paper",
+      "section_label": "PDF page 9",
+      "section": "page-9",
+      "text": "We have heard from regulated industry that it would be helpful to have a data standard for KDE\ncapture designated for food traceability. FSMA does not allow FDA to prescribe specific\ntechnologies for the maintenance of records under the Food Traceability Rule. We would\nappreciate additional information from stakeholders on the following questions:\n1. Is there a specific data standard that you think industry should coalesce around?\n9",
+      "summary": "We have heard from regulated industry that it would be helpful to have a data standard for KDE capture designated for food traceability. FSMA does not allow FDA to prescribe spe...",
+      "citation": "page-9",
+      "text_hash": "sha256:f1c12339aecce7f791c0751cf553374eef9cecb50fc2f7320acb181f20c348f8",
+      "anchors": [
+        {
+          "source_id": "fda-lot-level-flexibility-discussion-paper",
+          "citation": "page-9",
+          "section": "page-9",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 9,
+          "url": "https://www.fda.gov/media/192696/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:14.795395+00:00",
+          "source_hash": "bf7fff66eada7ef85208aa2b69470d7f80f426f82c327626080de9cfd605fc10"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

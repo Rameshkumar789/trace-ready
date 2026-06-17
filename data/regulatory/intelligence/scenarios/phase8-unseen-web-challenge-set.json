@@ -1,0 +1,343 @@
+[
+  {
+    "challenge_id": "unseen_web:romaine_salad_kit",
+    "name": "Fresh romaine salad kit through processor and foodservice DC",
+    "scenario_text": "A farm harvests fresh romaine, cools it, and sends it to an initial packinghouse that assigns a lot. A fresh-cut processor receives the romaine, chops and mixes it into refrigerated salad kits, ships cases to a distribution center, and the distribution center receives and ships cases to restaurants.",
+    "source_references": [
+      {
+        "source_id": "web-fda-food-traceability-list-2026-04-01",
+        "title": "FDA Food Traceability List",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Identifies FTL food categories used to construct unseen challenge foods."
+      },
+      {
+        "source_id": "web-fda-food-traceability-final-rule-page-2026-06-16",
+        "title": "FDA FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Defines CTE, TLC, traceability plan, records, FDA request, and sortable spreadsheet concepts for challenge expectations."
+      },
+      {
+        "source_id": "web-produce-traceability-overview",
+        "title": "Produce traceability overview",
+        "url": "https://en.wikipedia.org/wiki/Produce_traceability",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Provides non-FDA general produce supply-chain context for farm-to-retail challenge narratives."
+      }
+    ],
+    "expected_food_scope": "Fresh leafy greens and fresh-cut leafy greens are Food Traceability List foods.",
+    "expected_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "negative_expectations": [],
+    "rationale": "This is not an FDA benchmark scenario; it is a customer-like leafy-greens flow derived from public FTL and traceability materials."
+  },
+  {
+    "challenge_id": "unseen_web:fresh_mango_salsa",
+    "name": "Refrigerated fresh mango salsa made from FTL ingredients",
+    "scenario_text": "A processor receives fresh mangoes, fresh tomatoes, and fresh peppers. The facility chops and mixes the fresh ingredients into refrigerated fresh mango salsa, assigns a new production lot, and ships tubs to a grocery distribution center.",
+    "source_references": [
+      {
+        "source_id": "web-fda-food-traceability-list-2026-04-01",
+        "title": "FDA Food Traceability List",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Identifies FTL food categories used to construct unseen challenge foods."
+      },
+      {
+        "source_id": "web-fda-food-traceability-final-rule-page-2026-06-16",
+        "title": "FDA FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Defines CTE, TLC, traceability plan, records, FDA request, and sortable spreadsheet concepts for challenge expectations."
+      }
+    ],
+    "expected_food_scope": "Fresh tropical tree fruit, tomatoes, peppers, and fresh-cut fruits or vegetables are Food Traceability List foods.",
+    "expected_ctes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "negative_expectations": [],
+    "rationale": "Tests transformation of a mixed fresh product that is not one of the FDA benchmark examples."
+  },
+  {
+    "challenge_id": "unseen_web:tomato_paste_shelf_stable",
+    "name": "Fresh tomatoes processed into shelf-stable canned tomato paste",
+    "scenario_text": "A processor receives fresh tomatoes, cooks and concentrates them into shelf-stable canned tomato paste, and ships sealed cans to a distributor.",
+    "source_references": [
+      {
+        "source_id": "web-fda-food-traceability-list-2026-04-01",
+        "title": "FDA Food Traceability List",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Identifies FTL food categories used to construct unseen challenge foods."
+      },
+      {
+        "source_id": "web-fda-food-traceability-final-rule-page-2026-06-16",
+        "title": "FDA FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Defines CTE, TLC, traceability plan, records, FDA request, and sortable spreadsheet concepts for challenge expectations."
+      }
+    ],
+    "expected_food_scope": "Fresh tomatoes are on the Food Traceability List, but the shelf-stable canned finished product is not expected to remain in fresh FTL form.",
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+    ],
+    "negative_expectations": [
+      "Do not trigger transformation or outbound shipping duties for the shelf-stable non-FTL finished product without a reviewer-approved form-change rule."
+    ],
+    "rationale": "This deliberately tests form-change logic rather than copying the FDA canned-tuna benchmark."
+  },
+  {
+    "challenge_id": "unseen_web:refrigerated_smoked_salmon",
+    "name": "Fresh salmon transformed into refrigerated smoked salmon",
+    "scenario_text": "A seafood processor receives fresh salmon fillets, hot-smokes them into refrigerated smoked salmon, assigns a new lot, and ships cases to a foodservice distributor.",
+    "source_references": [
+      {
+        "source_id": "web-fda-food-traceability-list-2026-04-01",
+        "title": "FDA Food Traceability List",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Identifies FTL food categories used to construct unseen challenge foods."
+      },
+      {
+        "source_id": "web-fda-food-traceability-final-rule-page-2026-06-16",
+        "title": "FDA FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Defines CTE, TLC, traceability plan, records, FDA request, and sortable spreadsheet concepts for challenge expectations."
+      },
+      {
+        "source_id": "web-seafood-traceability-context",
+        "title": "Seafood traceability and supply-chain complexity context",
+        "url": "https://www.seriouseats.com/seafood-fraud-mislabeled-fish-resolution",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Provides non-FDA general seafood supply-chain context for unseen seafood challenge narratives."
+      }
+    ],
+    "expected_food_scope": "Finfish and refrigerated smoked finfish are Food Traceability List foods.",
+    "expected_ctes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "negative_expectations": [],
+    "rationale": "Tests seafood transformation without using the FDA tuna benchmark."
+  },
+  {
+    "challenge_id": "unseen_web:dockside_mahi_mahi",
+    "name": "Fresh mahi-mahi first received from a fishing vessel",
+    "scenario_text": "A fishing vessel lands fresh mahi-mahi at a processor dock. The first land-based receiver takes possession on land, assigns a traceability lot, and ships loins to a distributor.",
+    "source_references": [
+      {
+        "source_id": "web-fda-food-traceability-list-2026-04-01",
+        "title": "FDA Food Traceability List",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Identifies FTL food categories used to construct unseen challenge foods."
+      },
+      {
+        "source_id": "web-fda-food-traceability-final-rule-page-2026-06-16",
+        "title": "FDA FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Defines CTE, TLC, traceability plan, records, FDA request, and sortable spreadsheet concepts for challenge expectations."
+      },
+      {
+        "source_id": "web-seafood-traceability-context",
+        "title": "Seafood traceability and supply-chain complexity context",
+        "url": "https://www.seriouseats.com/seafood-fraud-mislabeled-fish-resolution",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Provides non-FDA general seafood supply-chain context for unseen seafood challenge narratives."
+      }
+    ],
+    "expected_food_scope": "Mahi-mahi is a listed histamine-producing finfish example on the Food Traceability List.",
+    "expected_ctes": [
+      "first_land_based_receiving",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "negative_expectations": [],
+    "rationale": "Tests first-land-based receiving on a finfish other than tuna."
+  },
+  {
+    "challenge_id": "unseen_web:restaurant_fresh_papaya_romaine",
+    "name": "Restaurant receiving fresh papaya and romaine",
+    "scenario_text": "A restaurant receives fresh papaya and fresh romaine from a distributor, stores the cases for service, and sells prepared portions directly to consumers.",
+    "source_references": [
+      {
+        "source_id": "web-fda-food-traceability-list-2026-04-01",
+        "title": "FDA Food Traceability List",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Identifies FTL food categories used to construct unseen challenge foods."
+      },
+      {
+        "source_id": "web-fda-food-traceability-final-rule-page-2026-06-16",
+        "title": "FDA FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Defines CTE, TLC, traceability plan, records, FDA request, and sortable spreadsheet concepts for challenge expectations."
+      }
+    ],
+    "expected_food_scope": "Fresh papaya is a tropical tree fruit example and romaine is a leafy green example on the Food Traceability List.",
+    "expected_ctes": [
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+    ],
+    "negative_expectations": [],
+    "rationale": "Tests restaurant receiving without using the FDA traceability-plan restaurant example as the scenario."
+  },
+  {
+    "challenge_id": "unseen_web:refrigerated_peanut_butter",
+    "name": "Refrigerated peanut butter manufacturer",
+    "scenario_text": "A manufacturer grinds roasted peanuts into refrigerated peanut butter, assigns a production lot, and ships jars to a retail distribution center.",
+    "source_references": [
+      {
+        "source_id": "web-fda-food-traceability-list-2026-04-01",
+        "title": "FDA Food Traceability List",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Identifies FTL food categories used to construct unseen challenge foods."
+      },
+      {
+        "source_id": "web-fda-food-traceability-final-rule-page-2026-06-16",
+        "title": "FDA FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Defines CTE, TLC, traceability plan, records, FDA request, and sortable spreadsheet concepts for challenge expectations."
+      }
+    ],
+    "expected_food_scope": "Nut butters, including peanut butter, are Food Traceability List foods.",
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "negative_expectations": [],
+    "rationale": "Tests a non-produce, non-seafood FTL category not covered by the FDA scenario benchmarks."
+  },
+  {
+    "challenge_id": "unseen_web:fresh_basil_repack",
+    "name": "Fresh basil repacked by a distributor",
+    "scenario_text": "A distributor receives fresh basil cases, repacks and relabels them into smaller customer cases, and ships them to grocery stores.",
+    "source_references": [
+      {
+        "source_id": "web-fda-food-traceability-list-2026-04-01",
+        "title": "FDA Food Traceability List",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Identifies FTL food categories used to construct unseen challenge foods."
+      },
+      {
+        "source_id": "web-fda-food-traceability-final-rule-page-2026-06-16",
+        "title": "FDA FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods",
+        "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Defines CTE, TLC, traceability plan, records, FDA request, and sortable spreadsheet concepts for challenge expectations."
+      },
+      {
+        "source_id": "web-produce-traceability-overview",
+        "title": "Produce traceability overview",
+        "url": "https://en.wikipedia.org/wiki/Produce_traceability",
+        "retrieved_at": "2026-06-16T00:00:00Z",
+        "usage": "Provides non-FDA general produce supply-chain context for farm-to-retail challenge narratives."
+      }
+    ],
+    "expected_food_scope": "Fresh herbs, including basil, are Food Traceability List foods.",
+    "expected_ctes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "negative_expectations": [],
+    "rationale": "Tests repacking/relabeling transformation behavior for fresh herbs."
+  }
+]

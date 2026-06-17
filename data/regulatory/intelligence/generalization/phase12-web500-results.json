@@ -1,0 +1,7042 @@
+[
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0001",
+    "scenario_family": "gs1-ship-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0002",
+    "scenario_family": "gs1-ship-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0003",
+    "scenario_family": "gs1-ship-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0004",
+    "scenario_family": "gs1-ship-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0005",
+    "scenario_family": "gs1-ship-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0006",
+    "scenario_family": "gs1-ship-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0007",
+    "scenario_family": "gs1-ship-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0008",
+    "scenario_family": "gs1-ship-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0009",
+    "scenario_family": "gs1-ship-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0010",
+    "scenario_family": "gs1-ship-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0011",
+    "scenario_family": "gs1-receive-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0012",
+    "scenario_family": "gs1-receive-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0013",
+    "scenario_family": "gs1-receive-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0014",
+    "scenario_family": "gs1-receive-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0015",
+    "scenario_family": "gs1-receive-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0016",
+    "scenario_family": "gs1-receive-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0017",
+    "scenario_family": "gs1-receive-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0018",
+    "scenario_family": "gs1-receive-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0019",
+    "scenario_family": "gs1-receive-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0020",
+    "scenario_family": "gs1-receive-bizstep",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0021",
+    "scenario_family": "gs1-transform-input-output",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0022",
+    "scenario_family": "gs1-transform-input-output",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0023",
+    "scenario_family": "gs1-transform-input-output",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0024",
+    "scenario_family": "gs1-transform-input-output",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0025",
+    "scenario_family": "gs1-transform-input-output",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0026",
+    "scenario_family": "gs1-transform-input-output",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0027",
+    "scenario_family": "gs1-transform-input-output",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0028",
+    "scenario_family": "gs1-transform-input-output",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0029",
+    "scenario_family": "gs1-transform-input-output",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0030",
+    "scenario_family": "gs1-transform-input-output",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0031",
+    "scenario_family": "gs1-pallet-shipping",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0032",
+    "scenario_family": "gs1-pallet-shipping",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0033",
+    "scenario_family": "gs1-pallet-shipping",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0034",
+    "scenario_family": "gs1-pallet-shipping",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0035",
+    "scenario_family": "gs1-pallet-shipping",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0036",
+    "scenario_family": "gs1-pallet-shipping",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0037",
+    "scenario_family": "gs1-pallet-shipping",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0038",
+    "scenario_family": "gs1-pallet-shipping",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0039",
+    "scenario_family": "gs1-pallet-shipping",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0040",
+    "scenario_family": "gs1-pallet-shipping",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0041",
+    "scenario_family": "gs1-aggregation-only",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0042",
+    "scenario_family": "gs1-aggregation-only",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0043",
+    "scenario_family": "gs1-aggregation-only",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0044",
+    "scenario_family": "gs1-aggregation-only",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0045",
+    "scenario_family": "gs1-aggregation-only",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0046",
+    "scenario_family": "gs1-aggregation-only",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0047",
+    "scenario_family": "gs1-aggregation-only",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0048",
+    "scenario_family": "gs1-aggregation-only",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0049",
+    "scenario_family": "gs1-aggregation-only",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0050",
+    "scenario_family": "gs1-aggregation-only",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0051",
+    "scenario_family": "gs1-error-declaration",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0052",
+    "scenario_family": "gs1-error-declaration",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0053",
+    "scenario_family": "gs1-error-declaration",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0054",
+    "scenario_family": "gs1-error-declaration",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0055",
+    "scenario_family": "gs1-error-declaration",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0056",
+    "scenario_family": "gs1-error-declaration",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0057",
+    "scenario_family": "gs1-error-declaration",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0058",
+    "scenario_family": "gs1-error-declaration",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0059",
+    "scenario_family": "gs1-error-declaration",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0060",
+    "scenario_family": "gs1-error-declaration",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0061",
+    "scenario_family": "smartproduct-manufactured",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0062",
+    "scenario_family": "smartproduct-manufactured",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0063",
+    "scenario_family": "smartproduct-manufactured",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0064",
+    "scenario_family": "smartproduct-manufactured",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0065",
+    "scenario_family": "smartproduct-manufactured",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0066",
+    "scenario_family": "smartproduct-manufactured",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0067",
+    "scenario_family": "smartproduct-manufactured",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0068",
+    "scenario_family": "smartproduct-manufactured",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0069",
+    "scenario_family": "smartproduct-manufactured",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0070",
+    "scenario_family": "smartproduct-manufactured",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0071",
+    "scenario_family": "smartproduct-loaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0072",
+    "scenario_family": "smartproduct-loaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0073",
+    "scenario_family": "smartproduct-loaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0074",
+    "scenario_family": "smartproduct-loaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0075",
+    "scenario_family": "smartproduct-loaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0076",
+    "scenario_family": "smartproduct-loaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0077",
+    "scenario_family": "smartproduct-loaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0078",
+    "scenario_family": "smartproduct-loaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0079",
+    "scenario_family": "smartproduct-loaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0080",
+    "scenario_family": "smartproduct-loaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0081",
+    "scenario_family": "smartproduct-unloaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0082",
+    "scenario_family": "smartproduct-unloaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0083",
+    "scenario_family": "smartproduct-unloaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0084",
+    "scenario_family": "smartproduct-unloaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0085",
+    "scenario_family": "smartproduct-unloaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0086",
+    "scenario_family": "smartproduct-unloaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0087",
+    "scenario_family": "smartproduct-unloaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0088",
+    "scenario_family": "smartproduct-unloaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0089",
+    "scenario_family": "smartproduct-unloaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0090",
+    "scenario_family": "smartproduct-unloaded-truck",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0091",
+    "scenario_family": "smartproduct-pallet-shipping",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0092",
+    "scenario_family": "smartproduct-pallet-shipping",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0093",
+    "scenario_family": "smartproduct-pallet-shipping",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0094",
+    "scenario_family": "smartproduct-pallet-shipping",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0095",
+    "scenario_family": "smartproduct-pallet-shipping",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0096",
+    "scenario_family": "smartproduct-pallet-shipping",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0097",
+    "scenario_family": "smartproduct-pallet-shipping",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0098",
+    "scenario_family": "smartproduct-pallet-shipping",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0099",
+    "scenario_family": "smartproduct-pallet-shipping",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0100",
+    "scenario_family": "smartproduct-pallet-shipping",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0101",
+    "scenario_family": "smartproduct-bulk-to-bottled",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0102",
+    "scenario_family": "smartproduct-bulk-to-bottled",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0103",
+    "scenario_family": "smartproduct-bulk-to-bottled",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0104",
+    "scenario_family": "smartproduct-bulk-to-bottled",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0105",
+    "scenario_family": "smartproduct-bulk-to-bottled",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0106",
+    "scenario_family": "smartproduct-bulk-to-bottled",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0107",
+    "scenario_family": "smartproduct-bulk-to-bottled",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0108",
+    "scenario_family": "smartproduct-bulk-to-bottled",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0109",
+    "scenario_family": "smartproduct-bulk-to-bottled",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0110",
+    "scenario_family": "smartproduct-bulk-to-bottled",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0111",
+    "scenario_family": "smartproduct-storage-only",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0112",
+    "scenario_family": "smartproduct-storage-only",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0113",
+    "scenario_family": "smartproduct-storage-only",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0114",
+    "scenario_family": "smartproduct-storage-only",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0115",
+    "scenario_family": "smartproduct-storage-only",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0116",
+    "scenario_family": "smartproduct-storage-only",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0117",
+    "scenario_family": "smartproduct-storage-only",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0118",
+    "scenario_family": "smartproduct-storage-only",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0119",
+    "scenario_family": "smartproduct-storage-only",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0120",
+    "scenario_family": "smartproduct-storage-only",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0121",
+    "scenario_family": "smartproduct-product-registration",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0122",
+    "scenario_family": "smartproduct-product-registration",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0123",
+    "scenario_family": "smartproduct-product-registration",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0124",
+    "scenario_family": "smartproduct-product-registration",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0125",
+    "scenario_family": "smartproduct-product-registration",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0126",
+    "scenario_family": "smartproduct-product-registration",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0127",
+    "scenario_family": "smartproduct-product-registration",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0128",
+    "scenario_family": "smartproduct-product-registration",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0129",
+    "scenario_family": "smartproduct-product-registration",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0130",
+    "scenario_family": "smartproduct-product-registration",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0131",
+    "scenario_family": "biotrak-inbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0132",
+    "scenario_family": "biotrak-inbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0133",
+    "scenario_family": "biotrak-inbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0134",
+    "scenario_family": "biotrak-inbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0135",
+    "scenario_family": "biotrak-inbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0136",
+    "scenario_family": "biotrak-inbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0137",
+    "scenario_family": "biotrak-inbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0138",
+    "scenario_family": "biotrak-inbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0139",
+    "scenario_family": "biotrak-inbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0140",
+    "scenario_family": "biotrak-inbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0141",
+    "scenario_family": "biotrak-production-link",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0142",
+    "scenario_family": "biotrak-production-link",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0143",
+    "scenario_family": "biotrak-production-link",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0144",
+    "scenario_family": "biotrak-production-link",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0145",
+    "scenario_family": "biotrak-production-link",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0146",
+    "scenario_family": "biotrak-production-link",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0147",
+    "scenario_family": "biotrak-production-link",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0148",
+    "scenario_family": "biotrak-production-link",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0149",
+    "scenario_family": "biotrak-production-link",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0150",
+    "scenario_family": "biotrak-production-link",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0151",
+    "scenario_family": "biotrak-outbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0152",
+    "scenario_family": "biotrak-outbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0153",
+    "scenario_family": "biotrak-outbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0154",
+    "scenario_family": "biotrak-outbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0155",
+    "scenario_family": "biotrak-outbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0156",
+    "scenario_family": "biotrak-outbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0157",
+    "scenario_family": "biotrak-outbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0158",
+    "scenario_family": "biotrak-outbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0159",
+    "scenario_family": "biotrak-outbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0160",
+    "scenario_family": "biotrak-outbound-delivery",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0161",
+    "scenario_family": "biotrak-transporter-only",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0162",
+    "scenario_family": "biotrak-transporter-only",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0163",
+    "scenario_family": "biotrak-transporter-only",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0164",
+    "scenario_family": "biotrak-transporter-only",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0165",
+    "scenario_family": "biotrak-transporter-only",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0166",
+    "scenario_family": "biotrak-transporter-only",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0167",
+    "scenario_family": "biotrak-transporter-only",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0168",
+    "scenario_family": "biotrak-transporter-only",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0169",
+    "scenario_family": "biotrak-transporter-only",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0170",
+    "scenario_family": "biotrak-transporter-only",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0171",
+    "scenario_family": "biotrak-cold-chain-end",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0172",
+    "scenario_family": "biotrak-cold-chain-end",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0173",
+    "scenario_family": "biotrak-cold-chain-end",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0174",
+    "scenario_family": "biotrak-cold-chain-end",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0175",
+    "scenario_family": "biotrak-cold-chain-end",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0176",
+    "scenario_family": "biotrak-cold-chain-end",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0177",
+    "scenario_family": "biotrak-cold-chain-end",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0178",
+    "scenario_family": "biotrak-cold-chain-end",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0179",
+    "scenario_family": "biotrak-cold-chain-end",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0180",
+    "scenario_family": "biotrak-cold-chain-end",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0181",
+    "scenario_family": "biotrak-block-transport",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0182",
+    "scenario_family": "biotrak-block-transport",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0183",
+    "scenario_family": "biotrak-block-transport",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0184",
+    "scenario_family": "biotrak-block-transport",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0185",
+    "scenario_family": "biotrak-block-transport",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0186",
+    "scenario_family": "biotrak-block-transport",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0187",
+    "scenario_family": "biotrak-block-transport",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0188",
+    "scenario_family": "biotrak-block-transport",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0189",
+    "scenario_family": "biotrak-block-transport",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0190",
+    "scenario_family": "biotrak-block-transport",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0191",
+    "scenario_family": "biotrak-block-transform",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0192",
+    "scenario_family": "biotrak-block-transform",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0193",
+    "scenario_family": "biotrak-block-transform",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0194",
+    "scenario_family": "biotrak-block-transform",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0195",
+    "scenario_family": "biotrak-block-transform",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0196",
+    "scenario_family": "biotrak-block-transform",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0197",
+    "scenario_family": "biotrak-block-transform",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0198",
+    "scenario_family": "biotrak-block-transform",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0199",
+    "scenario_family": "biotrak-block-transform",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0200",
+    "scenario_family": "biotrak-block-transform",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0201",
+    "scenario_family": "token-recipe-applied",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0202",
+    "scenario_family": "token-recipe-applied",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0203",
+    "scenario_family": "token-recipe-applied",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0204",
+    "scenario_family": "token-recipe-applied",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0205",
+    "scenario_family": "token-recipe-applied",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0206",
+    "scenario_family": "token-recipe-applied",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0207",
+    "scenario_family": "token-recipe-applied",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0208",
+    "scenario_family": "token-recipe-applied",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0209",
+    "scenario_family": "token-recipe-applied",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0210",
+    "scenario_family": "token-recipe-applied",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0211",
+    "scenario_family": "token-batch-ingredient",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0212",
+    "scenario_family": "token-batch-ingredient",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0213",
+    "scenario_family": "token-batch-ingredient",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0214",
+    "scenario_family": "token-batch-ingredient",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0215",
+    "scenario_family": "token-batch-ingredient",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0216",
+    "scenario_family": "token-batch-ingredient",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0217",
+    "scenario_family": "token-batch-ingredient",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0218",
+    "scenario_family": "token-batch-ingredient",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0219",
+    "scenario_family": "token-batch-ingredient",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0220",
+    "scenario_family": "token-batch-ingredient",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0221",
+    "scenario_family": "token-exchange-only",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0222",
+    "scenario_family": "token-exchange-only",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0223",
+    "scenario_family": "token-exchange-only",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0224",
+    "scenario_family": "token-exchange-only",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0225",
+    "scenario_family": "token-exchange-only",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0226",
+    "scenario_family": "token-exchange-only",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0227",
+    "scenario_family": "token-exchange-only",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0228",
+    "scenario_family": "token-exchange-only",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0229",
+    "scenario_family": "token-exchange-only",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0230",
+    "scenario_family": "token-exchange-only",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0231",
+    "scenario_family": "token-trace-inputs",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0232",
+    "scenario_family": "token-trace-inputs",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0233",
+    "scenario_family": "token-trace-inputs",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0234",
+    "scenario_family": "token-trace-inputs",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0235",
+    "scenario_family": "token-trace-inputs",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0236",
+    "scenario_family": "token-trace-inputs",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0237",
+    "scenario_family": "token-trace-inputs",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0238",
+    "scenario_family": "token-trace-inputs",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0239",
+    "scenario_family": "token-trace-inputs",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0240",
+    "scenario_family": "token-trace-inputs",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0241",
+    "scenario_family": "produce-origin-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0242",
+    "scenario_family": "produce-origin-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0243",
+    "scenario_family": "produce-origin-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0244",
+    "scenario_family": "produce-origin-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0245",
+    "scenario_family": "produce-origin-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0246",
+    "scenario_family": "produce-origin-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0247",
+    "scenario_family": "produce-origin-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0248",
+    "scenario_family": "produce-origin-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0249",
+    "scenario_family": "produce-origin-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0250",
+    "scenario_family": "produce-origin-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "harvesting"
+    ],
+    "record_id": "web500-0251",
+    "scenario_family": "produce-field-contamination",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "harvesting"
+    ],
+    "record_id": "web500-0252",
+    "scenario_family": "produce-field-contamination",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "harvesting"
+    ],
+    "record_id": "web500-0253",
+    "scenario_family": "produce-field-contamination",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "harvesting"
+    ],
+    "record_id": "web500-0254",
+    "scenario_family": "produce-field-contamination",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "harvesting"
+    ],
+    "record_id": "web500-0255",
+    "scenario_family": "produce-field-contamination",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "harvesting"
+    ],
+    "record_id": "web500-0256",
+    "scenario_family": "produce-field-contamination",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "harvesting"
+    ],
+    "record_id": "web500-0257",
+    "scenario_family": "produce-field-contamination",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "harvesting"
+    ],
+    "record_id": "web500-0258",
+    "scenario_family": "produce-field-contamination",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "harvesting"
+    ],
+    "record_id": "web500-0259",
+    "scenario_family": "produce-field-contamination",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "harvesting"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "harvesting"
+    ],
+    "record_id": "web500-0260",
+    "scenario_family": "produce-field-contamination",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "initial_packing"
+    ],
+    "record_id": "web500-0261",
+    "scenario_family": "produce-orchard-packing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "initial_packing"
+    ],
+    "record_id": "web500-0262",
+    "scenario_family": "produce-orchard-packing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "initial_packing"
+    ],
+    "record_id": "web500-0263",
+    "scenario_family": "produce-orchard-packing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "initial_packing"
+    ],
+    "record_id": "web500-0264",
+    "scenario_family": "produce-orchard-packing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "initial_packing"
+    ],
+    "record_id": "web500-0265",
+    "scenario_family": "produce-orchard-packing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "initial_packing"
+    ],
+    "record_id": "web500-0266",
+    "scenario_family": "produce-orchard-packing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "initial_packing"
+    ],
+    "record_id": "web500-0267",
+    "scenario_family": "produce-orchard-packing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "initial_packing"
+    ],
+    "record_id": "web500-0268",
+    "scenario_family": "produce-orchard-packing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "initial_packing"
+    ],
+    "record_id": "web500-0269",
+    "scenario_family": "produce-orchard-packing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "initial_packing"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "initial_packing"
+    ],
+    "record_id": "web500-0270",
+    "scenario_family": "produce-orchard-packing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0271",
+    "scenario_family": "produce-processing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0272",
+    "scenario_family": "produce-processing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0273",
+    "scenario_family": "produce-processing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0274",
+    "scenario_family": "produce-processing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0275",
+    "scenario_family": "produce-processing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0276",
+    "scenario_family": "produce-processing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0277",
+    "scenario_family": "produce-processing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0278",
+    "scenario_family": "produce-processing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0279",
+    "scenario_family": "produce-processing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0280",
+    "scenario_family": "produce-processing",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0281",
+    "scenario_family": "produce-transit-storage",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0282",
+    "scenario_family": "produce-transit-storage",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0283",
+    "scenario_family": "produce-transit-storage",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0284",
+    "scenario_family": "produce-transit-storage",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0285",
+    "scenario_family": "produce-transit-storage",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0286",
+    "scenario_family": "produce-transit-storage",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0287",
+    "scenario_family": "produce-transit-storage",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0288",
+    "scenario_family": "produce-transit-storage",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0289",
+    "scenario_family": "produce-transit-storage",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0290",
+    "scenario_family": "produce-transit-storage",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0291",
+    "scenario_family": "produce-cold-chain-only",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0292",
+    "scenario_family": "produce-cold-chain-only",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0293",
+    "scenario_family": "produce-cold-chain-only",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0294",
+    "scenario_family": "produce-cold-chain-only",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0295",
+    "scenario_family": "produce-cold-chain-only",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0296",
+    "scenario_family": "produce-cold-chain-only",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0297",
+    "scenario_family": "produce-cold-chain-only",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0298",
+    "scenario_family": "produce-cold-chain-only",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0299",
+    "scenario_family": "produce-cold-chain-only",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0300",
+    "scenario_family": "produce-cold-chain-only",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0301",
+    "scenario_family": "traceability-movement-steps",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0302",
+    "scenario_family": "traceability-movement-steps",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0303",
+    "scenario_family": "traceability-movement-steps",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0304",
+    "scenario_family": "traceability-movement-steps",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0305",
+    "scenario_family": "traceability-movement-steps",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0306",
+    "scenario_family": "traceability-movement-steps",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0307",
+    "scenario_family": "traceability-movement-steps",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0308",
+    "scenario_family": "traceability-movement-steps",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0309",
+    "scenario_family": "traceability-movement-steps",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0310",
+    "scenario_family": "traceability-movement-steps",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0311",
+    "scenario_family": "traceability-barcode-only",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0312",
+    "scenario_family": "traceability-barcode-only",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0313",
+    "scenario_family": "traceability-barcode-only",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0314",
+    "scenario_family": "traceability-barcode-only",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0315",
+    "scenario_family": "traceability-barcode-only",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0316",
+    "scenario_family": "traceability-barcode-only",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0317",
+    "scenario_family": "traceability-barcode-only",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0318",
+    "scenario_family": "traceability-barcode-only",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0319",
+    "scenario_family": "traceability-barcode-only",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0320",
+    "scenario_family": "traceability-barcode-only",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0321",
+    "scenario_family": "traceability-supplier-sales",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0322",
+    "scenario_family": "traceability-supplier-sales",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0323",
+    "scenario_family": "traceability-supplier-sales",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0324",
+    "scenario_family": "traceability-supplier-sales",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0325",
+    "scenario_family": "traceability-supplier-sales",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0326",
+    "scenario_family": "traceability-supplier-sales",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0327",
+    "scenario_family": "traceability-supplier-sales",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0328",
+    "scenario_family": "traceability-supplier-sales",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0329",
+    "scenario_family": "traceability-supplier-sales",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0330",
+    "scenario_family": "traceability-supplier-sales",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0331",
+    "scenario_family": "traceability-production-flow",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0332",
+    "scenario_family": "traceability-production-flow",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0333",
+    "scenario_family": "traceability-production-flow",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0334",
+    "scenario_family": "traceability-production-flow",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0335",
+    "scenario_family": "traceability-production-flow",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0336",
+    "scenario_family": "traceability-production-flow",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0337",
+    "scenario_family": "traceability-production-flow",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0338",
+    "scenario_family": "traceability-production-flow",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0339",
+    "scenario_family": "traceability-production-flow",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0340",
+    "scenario_family": "traceability-production-flow",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0341",
+    "scenario_family": "traceability-recall-location",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0342",
+    "scenario_family": "traceability-recall-location",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0343",
+    "scenario_family": "traceability-recall-location",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0344",
+    "scenario_family": "traceability-recall-location",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0345",
+    "scenario_family": "traceability-recall-location",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0346",
+    "scenario_family": "traceability-recall-location",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0347",
+    "scenario_family": "traceability-recall-location",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0348",
+    "scenario_family": "traceability-recall-location",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0349",
+    "scenario_family": "traceability-recall-location",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0350",
+    "scenario_family": "traceability-recall-location",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0351",
+    "scenario_family": "openfoodfacts-product-page",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0352",
+    "scenario_family": "openfoodfacts-product-page",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0353",
+    "scenario_family": "openfoodfacts-product-page",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0354",
+    "scenario_family": "openfoodfacts-product-page",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0355",
+    "scenario_family": "openfoodfacts-product-page",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0356",
+    "scenario_family": "openfoodfacts-product-page",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0357",
+    "scenario_family": "openfoodfacts-product-page",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0358",
+    "scenario_family": "openfoodfacts-product-page",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0359",
+    "scenario_family": "openfoodfacts-product-page",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0360",
+    "scenario_family": "openfoodfacts-product-page",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0361",
+    "scenario_family": "openfoodfacts-gtin",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0362",
+    "scenario_family": "openfoodfacts-gtin",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0363",
+    "scenario_family": "openfoodfacts-gtin",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0364",
+    "scenario_family": "openfoodfacts-gtin",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0365",
+    "scenario_family": "openfoodfacts-gtin",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0366",
+    "scenario_family": "openfoodfacts-gtin",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0367",
+    "scenario_family": "openfoodfacts-gtin",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0368",
+    "scenario_family": "openfoodfacts-gtin",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0369",
+    "scenario_family": "openfoodfacts-gtin",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0370",
+    "scenario_family": "openfoodfacts-gtin",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0371",
+    "scenario_family": "openfoodfacts-processing-location",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0372",
+    "scenario_family": "openfoodfacts-processing-location",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0373",
+    "scenario_family": "openfoodfacts-processing-location",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0374",
+    "scenario_family": "openfoodfacts-processing-location",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0375",
+    "scenario_family": "openfoodfacts-processing-location",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0376",
+    "scenario_family": "openfoodfacts-processing-location",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0377",
+    "scenario_family": "openfoodfacts-processing-location",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0378",
+    "scenario_family": "openfoodfacts-processing-location",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0379",
+    "scenario_family": "openfoodfacts-processing-location",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0380",
+    "scenario_family": "openfoodfacts-processing-location",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0381",
+    "scenario_family": "openfoodfacts-retailer-country",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0382",
+    "scenario_family": "openfoodfacts-retailer-country",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0383",
+    "scenario_family": "openfoodfacts-retailer-country",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0384",
+    "scenario_family": "openfoodfacts-retailer-country",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0385",
+    "scenario_family": "openfoodfacts-retailer-country",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0386",
+    "scenario_family": "openfoodfacts-retailer-country",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0387",
+    "scenario_family": "openfoodfacts-retailer-country",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0388",
+    "scenario_family": "openfoodfacts-retailer-country",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0389",
+    "scenario_family": "openfoodfacts-retailer-country",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0390",
+    "scenario_family": "openfoodfacts-retailer-country",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0391",
+    "scenario_family": "openfoodfacts-ingredient-list",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0392",
+    "scenario_family": "openfoodfacts-ingredient-list",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0393",
+    "scenario_family": "openfoodfacts-ingredient-list",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0394",
+    "scenario_family": "openfoodfacts-ingredient-list",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0395",
+    "scenario_family": "openfoodfacts-ingredient-list",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0396",
+    "scenario_family": "openfoodfacts-ingredient-list",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0397",
+    "scenario_family": "openfoodfacts-ingredient-list",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0398",
+    "scenario_family": "openfoodfacts-ingredient-list",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0399",
+    "scenario_family": "openfoodfacts-ingredient-list",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "record_id": "web500-0400",
+    "scenario_family": "openfoodfacts-ingredient-list",
+    "source_name": "Open Food Facts article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0401",
+    "scenario_family": "mixed-inbound-warehouse",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0402",
+    "scenario_family": "mixed-inbound-warehouse",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0403",
+    "scenario_family": "mixed-inbound-warehouse",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0404",
+    "scenario_family": "mixed-inbound-warehouse",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0405",
+    "scenario_family": "mixed-inbound-warehouse",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0406",
+    "scenario_family": "mixed-inbound-warehouse",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0407",
+    "scenario_family": "mixed-inbound-warehouse",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0408",
+    "scenario_family": "mixed-inbound-warehouse",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0409",
+    "scenario_family": "mixed-inbound-warehouse",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0410",
+    "scenario_family": "mixed-inbound-warehouse",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0411",
+    "scenario_family": "mixed-outbound-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0412",
+    "scenario_family": "mixed-outbound-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0413",
+    "scenario_family": "mixed-outbound-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0414",
+    "scenario_family": "mixed-outbound-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0415",
+    "scenario_family": "mixed-outbound-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0416",
+    "scenario_family": "mixed-outbound-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0417",
+    "scenario_family": "mixed-outbound-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0418",
+    "scenario_family": "mixed-outbound-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0419",
+    "scenario_family": "mixed-outbound-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0420",
+    "scenario_family": "mixed-outbound-retail",
+    "source_name": "Produce traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0421",
+    "scenario_family": "mixed-transform-ship",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0422",
+    "scenario_family": "mixed-transform-ship",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0423",
+    "scenario_family": "mixed-transform-ship",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0424",
+    "scenario_family": "mixed-transform-ship",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0425",
+    "scenario_family": "mixed-transform-ship",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0426",
+    "scenario_family": "mixed-transform-ship",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0427",
+    "scenario_family": "mixed-transform-ship",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0428",
+    "scenario_family": "mixed-transform-ship",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0429",
+    "scenario_family": "mixed-transform-ship",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "record_id": "web500-0430",
+    "scenario_family": "mixed-transform-ship",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "record_id": "web500-0431",
+    "scenario_family": "mixed-receive-transform",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "record_id": "web500-0432",
+    "scenario_family": "mixed-receive-transform",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "record_id": "web500-0433",
+    "scenario_family": "mixed-receive-transform",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "record_id": "web500-0434",
+    "scenario_family": "mixed-receive-transform",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "record_id": "web500-0435",
+    "scenario_family": "mixed-receive-transform",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "record_id": "web500-0436",
+    "scenario_family": "mixed-receive-transform",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "record_id": "web500-0437",
+    "scenario_family": "mixed-receive-transform",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "record_id": "web500-0438",
+    "scenario_family": "mixed-receive-transform",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "record_id": "web500-0439",
+    "scenario_family": "mixed-receive-transform",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving",
+      "transformation"
+    ],
+    "record_id": "web500-0440",
+    "scenario_family": "mixed-receive-transform",
+    "source_name": "Traceability article",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0441",
+    "scenario_family": "mixed-transfer-internal",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0442",
+    "scenario_family": "mixed-transfer-internal",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0443",
+    "scenario_family": "mixed-transfer-internal",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0444",
+    "scenario_family": "mixed-transfer-internal",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0445",
+    "scenario_family": "mixed-transfer-internal",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0446",
+    "scenario_family": "mixed-transfer-internal",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0447",
+    "scenario_family": "mixed-transfer-internal",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0448",
+    "scenario_family": "mixed-transfer-internal",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0449",
+    "scenario_family": "mixed-transfer-internal",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0450",
+    "scenario_family": "mixed-transfer-internal",
+    "source_name": "SmartProduct EPCIS/IoT paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0451",
+    "scenario_family": "mixed-return-correction",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0452",
+    "scenario_family": "mixed-return-correction",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0453",
+    "scenario_family": "mixed-return-correction",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0454",
+    "scenario_family": "mixed-return-correction",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0455",
+    "scenario_family": "mixed-return-correction",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0456",
+    "scenario_family": "mixed-return-correction",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0457",
+    "scenario_family": "mixed-return-correction",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0458",
+    "scenario_family": "mixed-return-correction",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0459",
+    "scenario_family": "mixed-return-correction",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "record_id": "web500-0460",
+    "scenario_family": "mixed-return-correction",
+    "source_name": "GS1 EPCIS Standard",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0461",
+    "scenario_family": "mixed-delivery-note-out",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0462",
+    "scenario_family": "mixed-delivery-note-out",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0463",
+    "scenario_family": "mixed-delivery-note-out",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0464",
+    "scenario_family": "mixed-delivery-note-out",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0465",
+    "scenario_family": "mixed-delivery-note-out",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0466",
+    "scenario_family": "mixed-delivery-note-out",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0467",
+    "scenario_family": "mixed-delivery-note-out",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0468",
+    "scenario_family": "mixed-delivery-note-out",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0469",
+    "scenario_family": "mixed-delivery-note-out",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "record_id": "web500-0470",
+    "scenario_family": "mixed-delivery-note-out",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0471",
+    "scenario_family": "mixed-delivery-note-in",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0472",
+    "scenario_family": "mixed-delivery-note-in",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0473",
+    "scenario_family": "mixed-delivery-note-in",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0474",
+    "scenario_family": "mixed-delivery-note-in",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0475",
+    "scenario_family": "mixed-delivery-note-in",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0476",
+    "scenario_family": "mixed-delivery-note-in",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0477",
+    "scenario_family": "mixed-delivery-note-in",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0478",
+    "scenario_family": "mixed-delivery-note-in",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0479",
+    "scenario_family": "mixed-delivery-note-in",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "record_id": "web500-0480",
+    "scenario_family": "mixed-delivery-note-in",
+    "source_name": "BioTrak food-chain logistics paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0481",
+    "scenario_family": "mixed-transforms-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0482",
+    "scenario_family": "mixed-transforms-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0483",
+    "scenario_family": "mixed-transforms-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0484",
+    "scenario_family": "mixed-transforms-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0485",
+    "scenario_family": "mixed-transforms-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0486",
+    "scenario_family": "mixed-transforms-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0487",
+    "scenario_family": "mixed-transforms-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0488",
+    "scenario_family": "mixed-transforms-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0489",
+    "scenario_family": "mixed-transforms-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0490",
+    "scenario_family": "mixed-transforms-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0491",
+    "scenario_family": "mixed-produced-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0492",
+    "scenario_family": "mixed-produced-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0493",
+    "scenario_family": "mixed-produced-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0494",
+    "scenario_family": "mixed-produced-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0495",
+    "scenario_family": "mixed-produced-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0496",
+    "scenario_family": "mixed-produced-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0497",
+    "scenario_family": "mixed-produced-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0498",
+    "scenario_family": "mixed-produced-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0499",
+    "scenario_family": "mixed-produced-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "record_id": "web500-0500",
+    "scenario_family": "mixed-produced-verb",
+    "source_name": "Token Recipes manufacturing traceability paper",
+    "status": "pass"
+  }
+]

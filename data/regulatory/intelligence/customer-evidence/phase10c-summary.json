@@ -1,0 +1,21 @@
+{
+  "abstentionCorrectnessRate": 1.0,
+  "acceptanceCoverage": {
+    "RI-10C-001_cte_precedence_matrix": true,
+    "RI-10C-002_multi_signal_cte_classifier": true,
+    "RI-10C-003_expanded_suppression_tests": true,
+    "RI-10C-004_abstention_thresholds": true,
+    "RI-10C-005_gold_labeled_customer_workbook_benchmark_set": true,
+    "RI-10C-006_cte_precision_recall_report": true
+  },
+  "benchmarkCases": 50,
+  "benchmarkFailures": 0,
+  "benchmarkPasses": 50,
+  "exactMatchRate": 1.0,
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "phase": "10C",
+  "precedenceRules": 8,
+  "productionEventsClassified": 3,
+  "suppressionCorrectnessRate": 1.0,
+  "topErrorCategories": {}
+}

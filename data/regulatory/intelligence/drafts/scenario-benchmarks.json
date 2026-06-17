@@ -1,0 +1,520 @@
+[
+  {
+    "citations": [
+      {
+        "source_id": "scenario-produce-cucumbers-slides",
+        "chunk_id": "scenario-produce-cucumbers-slides-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/163054/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Supply Chain Example: Cucumbers The Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List (FTL) to"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "low",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "scenario-produce-cucumbers-slides-page-2-2"
+      ]
+    },
+    "scenario_benchmark_id": "scenario_scenario_produce_cucumbers_slides_page_2",
+    "scenario_name": "FDA cucumber supply chain example",
+    "scenario_source": "scenario-produce-cucumbers-slides",
+    "food_scope": "Fresh cucumbers on the Food Traceability List",
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_harvesting",
+        "cte_type": "harvesting",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the harvesting CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_2_initial_packing",
+        "cte_type": "initial_packing",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the initial packing CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_3_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_4_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      }
+    ],
+    "expectations": [
+      {
+        "expectation_id": "expectation_traceability_plan",
+        "event_id": null,
+        "expected_finding": "needs_review",
+        "expected_behavior": "Covered entities shown in the FDA scenario should maintain a traceability plan in addition to CTE/KDE records.",
+        "required_evidence": [
+          "traceability plan",
+          "event records",
+          "linked KDEs"
+        ],
+        "expected_export_behavior": "Scenario-derived records should be exportable only after reviewer confirms actor roles and CTE sequence."
+      }
+    ],
+    "open_questions": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable."
+    ]
+  },
+  {
+    "citations": [
+      {
+        "source_id": "scenario-seafood-tuna-slides",
+        "chunk_id": "scenario-seafood-tuna-slides-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/163055/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Supply Chain Example: Wild-Caught Tuna The Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List ("
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "low",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "scenario-seafood-tuna-slides-page-2-2"
+      ]
+    },
+    "scenario_benchmark_id": "scenario_scenario_seafood_tuna_slides_page_2",
+    "scenario_name": "FDA wild-caught tuna supply chain example",
+    "scenario_source": "scenario-seafood-tuna-slides",
+    "food_scope": "Wild-caught tuna / finfish on the Food Traceability List",
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_first_land_based_receiving",
+        "cte_type": "first_land_based_receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the first land based receiving CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_2_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_3_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      }
+    ],
+    "expectations": [
+      {
+        "expectation_id": "expectation_traceability_plan",
+        "event_id": null,
+        "expected_finding": "needs_review",
+        "expected_behavior": "Covered entities shown in the FDA scenario should maintain a traceability plan in addition to CTE/KDE records.",
+        "required_evidence": [
+          "traceability plan",
+          "event records",
+          "linked KDEs"
+        ],
+        "expected_export_behavior": "Scenario-derived records should be exportable only after reviewer confirms actor roles and CTE sequence."
+      }
+    ],
+    "open_questions": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable."
+    ]
+  },
+  {
+    "citations": [
+      {
+        "source_id": "scenario-cheese-slides",
+        "chunk_id": "scenario-cheese-slides-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/163056/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Supply Chain Example: Soft Cheese The Food Traceability Rule requires persons who manufacture, process, pack, or hold foods on the Food Traceability List (FTL)"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "low",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "scenario-cheese-slides-page-2-2"
+      ]
+    },
+    "scenario_benchmark_id": "scenario_scenario_cheese_slides_page_2",
+    "scenario_name": "FDA soft cheese supply chain example",
+    "scenario_source": "scenario-cheese-slides",
+    "food_scope": "Soft cheese on the Food Traceability List",
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_transformation",
+        "cte_type": "transformation",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the transformation CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_2_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_3_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      }
+    ],
+    "expectations": [
+      {
+        "expectation_id": "expectation_traceability_plan",
+        "event_id": null,
+        "expected_finding": "needs_review",
+        "expected_behavior": "Covered entities shown in the FDA scenario should maintain a traceability plan in addition to CTE/KDE records.",
+        "required_evidence": [
+          "traceability plan",
+          "event records",
+          "linked KDEs"
+        ],
+        "expected_export_behavior": "Scenario-derived records should be exportable only after reviewer confirms actor roles and CTE sequence."
+      }
+    ],
+    "open_questions": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable."
+    ]
+  },
+  {
+    "citations": [
+      {
+        "source_id": "scenario-deli-salad-slides",
+        "chunk_id": "scenario-deli-salad-slides-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/173215/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Supply Chain Example: Deli salad using FTL ingredients and non-FTL ingredients In this scenario, a deli salad is made with fresh-cut celery and fresh-cut onions"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "low",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "scenario-deli-salad-slides-page-3-3"
+      ]
+    },
+    "scenario_benchmark_id": "scenario_scenario_deli_salad_slides_page_3",
+    "scenario_name": "FDA deli salad with FTL and non-FTL ingredients example",
+    "scenario_source": "scenario-deli-salad-slides",
+    "food_scope": "Ready-to-eat deli salad with FTL ingredients",
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_2_transformation",
+        "cte_type": "transformation",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the transformation CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_3_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      }
+    ],
+    "expectations": [
+      {
+        "expectation_id": "expectation_traceability_plan",
+        "event_id": null,
+        "expected_finding": "needs_review",
+        "expected_behavior": "Covered entities shown in the FDA scenario should maintain a traceability plan in addition to CTE/KDE records.",
+        "required_evidence": [
+          "traceability plan",
+          "event records",
+          "linked KDEs"
+        ],
+        "expected_export_behavior": "Scenario-derived records should be exportable only after reviewer confirms actor roles and CTE sequence."
+      }
+    ],
+    "open_questions": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable."
+    ]
+  },
+  {
+    "citations": [
+      {
+        "source_id": "scenario-deli-salad-slides",
+        "chunk_id": "scenario-deli-salad-slides-page-4-4",
+        "citation_anchor": "page-4",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/173215/download?attachment",
+        "section_ref": "page-4",
+        "page_number": 4,
+        "support_text": "Supply Chain Example: Tuna salad using canned tuna In this scenario, a deli salad is made with canned tuna and non-FTL ingredients. The seafood processor cans t"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "low",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "scenario-deli-salad-slides-page-4-4"
+      ]
+    },
+    "scenario_benchmark_id": "scenario_scenario_deli_salad_slides_page_4",
+    "scenario_name": "FDA tuna salad using canned tuna example",
+    "scenario_source": "scenario-deli-salad-slides",
+    "food_scope": "Ready-to-eat deli salad using canned tuna",
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_2_transformation",
+        "cte_type": "transformation",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the transformation CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_3_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      }
+    ],
+    "expectations": [
+      {
+        "expectation_id": "expectation_traceability_plan",
+        "event_id": null,
+        "expected_finding": "needs_review",
+        "expected_behavior": "Covered entities shown in the FDA scenario should maintain a traceability plan in addition to CTE/KDE records.",
+        "required_evidence": [
+          "traceability plan",
+          "event records",
+          "linked KDEs"
+        ],
+        "expected_export_behavior": "Scenario-derived records should be exportable only after reviewer confirms actor roles and CTE sequence."
+      }
+    ],
+    "open_questions": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable."
+    ]
+  },
+  {
+    "citations": [
+      {
+        "source_id": "scenario-sprouts-slides",
+        "chunk_id": "scenario-sprouts-slides-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/177855/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Example: Sprouts Supply Chain In this scenario, fresh sprouts are being packed by the sprout grower for sale at retail. Key Data Elements (KDEs) are required fo"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "deterministic",
+      "confidence": "low",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": [
+        "scenario-sprouts-slides-page-3-3"
+      ]
+    },
+    "scenario_benchmark_id": "scenario_scenario_sprouts_slides_page_3",
+    "scenario_name": "FDA sprouts supply chain example",
+    "scenario_source": "scenario-sprouts-slides",
+    "food_scope": "Fresh sprouts on the Food Traceability List",
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Covered entity in FDA scenario",
+        "role": "covered operator",
+        "location_description": null
+      },
+      {
+        "actor_id": "trading_partner",
+        "actor_name": "Trading partner in FDA scenario",
+        "role": "supplier or recipient",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_1_initial_packing",
+        "cte_type": "initial_packing",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the initial packing CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_2_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the shipping CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      },
+      {
+        "event_id": "event_3_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Reviewer should map the FDA scenario graphic/narrative to the receiving CTE.",
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "KDEs must remain linked to the applicable traceability lot when the CTE requires lot linkage."
+      }
+    ],
+    "expectations": [
+      {
+        "expectation_id": "expectation_traceability_plan",
+        "event_id": null,
+        "expected_finding": "needs_review",
+        "expected_behavior": "Covered entities shown in the FDA scenario should maintain a traceability plan in addition to CTE/KDE records.",
+        "required_evidence": [
+          "traceability plan",
+          "event records",
+          "linked KDEs"
+        ],
+        "expected_export_behavior": "Scenario-derived records should be exportable only after reviewer confirms actor roles and CTE sequence."
+      }
+    ],
+    "open_questions": [
+      "Reviewer must confirm exact actor names and arrows from the FDA scenario graphic.",
+      "Reviewer must confirm which KDE rows apply to each actor before this benchmark becomes executable."
+    ]
+  }
+]

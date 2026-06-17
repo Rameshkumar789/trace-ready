@@ -1,0 +1,1054 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model AuditProject {
+  id              String   @id
+  customerId      String?  @map("customer_id")
+  customerName    String?  @map("customer_name")
+  fileName        String   @map("file_name")
+  mode            String   @default("draft")
+  status          String
+  createdByUserId String?  @map("created_by_user_id") @db.Uuid
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+  rawWorkbookKey  String?  @map("raw_workbook_key")
+  datasetJson     Json?    @map("dataset_json")
+  parseErrors     Json?    @map("parse_errors")
+  metadataJson    Json?    @map("metadata_json")
+  customer        Customer? @relation(fields: [customerId], references: [id])
+  runs            AuditRun[]
+  files           AuditFile[]
+  jobs            AuditJob[]
+  artifacts       AuditArtifact[]
+  parsedSheets    ParsedWorkbookSheet[]
+  parsedRows      ParsedWorkbookRow[]
+  parsedCells     ParsedWorkbookCell[]
+  evidenceItems   EvidenceItem[]
+  normalizedBusinessObjects NormalizedBusinessObject[]
+  normalizedEvents NormalizedEvent[]
+  normalizedKdeValues NormalizedKdeValue[]
+  tlcLineageLinks TlcLineageLink[]
+  normalizedReviewItems NormalizedReviewItem[]
+  findings        GapFinding[]
+  auditLogs       AuditLog[]
+  reviewActions   CustomerReviewAction[]
+
+  @@index([customerId, createdAt])
+  @@index([status, createdAt])
+  @@map("audit_projects")
+}
+
+model Customer {
+  id          String   @id
+  name        String
+  status      String   @default("active")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+  sites       CustomerSite[]
+  memberships CustomerMembership[]
+  auditProjects AuditProject[]
+
+  @@index([status])
+  @@map("customers")
+}
+
+model CustomerSite {
+  id          String   @id
+  customerId  String   @map("customer_id")
+  name        String
+  siteType    String?  @map("site_type")
+  addressJson Json?    @map("address_json")
+  status      String   @default("active")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+  customer    Customer @relation(fields: [customerId], references: [id])
+
+  @@index([customerId, status])
+  @@map("customer_sites")
+}
+
+model CustomerMembership {
+  id         String   @id @default(cuid())
+  customerId String   @map("customer_id")
+  userId     String   @map("user_id") @db.Uuid
+  role       String
+  status     String   @default("active")
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+  customer   Customer @relation(fields: [customerId], references: [id])
+
+  @@unique([customerId, userId])
+  @@index([userId, status])
+  @@map("customer_memberships")
+}
+
+model AuditRun {
+  id                  String    @id
+  auditProjectId      String    @map("audit_project_id")
+  runNumber           Int       @map("run_number")
+  status              String
+  mode                String    @default("draft")
+  parserVersion       String?   @map("parser_version")
+  classifierVersion   String?   @map("classifier_version")
+  rulePackageId       String?   @map("rule_package_id")
+  rulePackageVersion  Int?      @map("rule_package_version")
+  rulePackageHash     String?   @map("rule_package_hash")
+  modelPolicyJson     Json?     @map("model_policy_json")
+  summaryJson         Json?     @map("summary_json")
+  startedAt           DateTime? @map("started_at")
+  completedAt         DateTime? @map("completed_at")
+  createdAt           DateTime  @default(now()) @map("created_at")
+  updatedAt           DateTime  @updatedAt @map("updated_at")
+  auditProject        AuditProject @relation(fields: [auditProjectId], references: [id])
+  files               AuditFile[]
+  jobs                AuditJob[]
+  artifacts           AuditArtifact[]
+  parsedSheets        ParsedWorkbookSheet[]
+  parsedRows          ParsedWorkbookRow[]
+  parsedCells         ParsedWorkbookCell[]
+  evidenceItems       EvidenceItem[]
+  normalizedBusinessObjects NormalizedBusinessObject[]
+  normalizedEvents     NormalizedEvent[]
+  normalizedKdeValues  NormalizedKdeValue[]
+  tlcLineageLinks      TlcLineageLink[]
+  normalizedReviewItems NormalizedReviewItem[]
+  findings            GapFinding[]
+  findingTraces       FindingTrace[]
+  reviewActions       CustomerReviewAction[]
+
+  @@unique([auditProjectId, runNumber])
+  @@index([auditProjectId, status])
+  @@index([rulePackageId, rulePackageVersion])
+  @@map("audit_runs")
+}
+
+model AuditFile {
+  id              String   @id
+  auditProjectId  String   @map("audit_project_id")
+  auditRunId      String?  @map("audit_run_id")
+  fileName        String   @map("file_name")
+  fileType        String   @map("file_type")
+  contentType     String?  @map("content_type")
+  storageBucket   String   @map("storage_bucket")
+  storageKey      String   @map("storage_key")
+  fileHash        String?  @map("file_hash")
+  sizeBytes       Int?     @map("size_bytes")
+  uploadedByUserId String? @map("uploaded_by_user_id") @db.Uuid
+  uploadedAt      DateTime @default(now()) @map("uploaded_at")
+  status          String   @default("uploaded")
+  metadataJson    Json?    @map("metadata_json")
+  auditProject    AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun        AuditRun? @relation(fields: [auditRunId], references: [id])
+  jobs            AuditJob[]
+  parsedSheets    ParsedWorkbookSheet[]
+  parsedRows      ParsedWorkbookRow[]
+  parsedCells     ParsedWorkbookCell[]
+  evidenceItems   EvidenceItem[]
+  normalizedEvents NormalizedEvent[]
+
+  @@index([auditProjectId, uploadedAt])
+  @@index([auditRunId])
+  @@index([storageBucket, storageKey])
+  @@map("audit_files")
+}
+
+model AuditJob {
+  id              String    @id
+  auditProjectId  String    @map("audit_project_id")
+  auditRunId      String?   @map("audit_run_id")
+  auditFileId     String?   @map("audit_file_id")
+  jobType         String    @map("job_type")
+  status          String
+  priority        Int       @default(100)
+  attemptCount    Int       @default(0) @map("attempt_count")
+  maxAttempts     Int       @default(3) @map("max_attempts")
+  lockedBy        String?   @map("locked_by")
+  lockedAt        DateTime? @map("locked_at")
+  availableAt     DateTime  @default(now()) @map("available_at")
+  startedAt       DateTime? @map("started_at")
+  completedAt     DateTime? @map("completed_at")
+  failureCategory String?   @map("failure_category")
+  errorJson       Json?     @map("error_json")
+  checkpointJson  Json?     @map("checkpoint_json")
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
+  auditProject    AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun        AuditRun? @relation(fields: [auditRunId], references: [id])
+  auditFile       AuditFile? @relation(fields: [auditFileId], references: [id])
+  events          AuditJobEvent[]
+
+  @@index([status, availableAt, priority])
+  @@index([auditProjectId, createdAt])
+  @@index([auditRunId])
+  @@map("audit_jobs")
+}
+
+model AuditJobEvent {
+  id             String   @id @default(cuid())
+  auditJobId     String   @map("audit_job_id")
+  auditProjectId String?  @map("audit_project_id")
+  auditRunId     String?  @map("audit_run_id")
+  eventType      String   @map("event_type")
+  message        String?
+  payloadJson    Json?    @map("payload_json")
+  createdAt      DateTime @default(now()) @map("created_at")
+  auditJob       AuditJob @relation(fields: [auditJobId], references: [id])
+
+  @@index([auditJobId, createdAt])
+  @@index([auditProjectId, createdAt])
+  @@index([auditRunId, createdAt])
+  @@map("audit_job_events")
+}
+
+model AuditArtifact {
+  id             String   @id
+  auditProjectId String   @map("audit_project_id")
+  auditRunId     String?  @map("audit_run_id")
+  artifactType   String   @map("artifact_type")
+  fileName       String   @map("file_name")
+  contentType    String   @map("content_type")
+  storageBucket  String   @map("storage_bucket")
+  storageKey     String   @map("storage_key")
+  sizeBytes      Int?     @map("size_bytes")
+  artifactHash   String?  @map("artifact_hash")
+  status         String   @default("available")
+  metadataJson   Json?    @map("metadata_json")
+  createdAt      DateTime @default(now()) @map("created_at")
+  auditProject   AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun       AuditRun? @relation(fields: [auditRunId], references: [id])
+
+  @@index([auditProjectId, artifactType])
+  @@index([auditRunId, artifactType])
+  @@index([storageBucket, storageKey])
+  @@map("audit_artifacts")
+}
+
+model ParsedWorkbookSheet {
+  id             String   @id
+  auditProjectId String   @map("audit_project_id")
+  auditRunId     String?  @map("audit_run_id")
+  auditFileId    String   @map("audit_file_id")
+  sheetName      String   @map("sheet_name")
+  sheetIndex     Int?     @map("sheet_index")
+  headerRowNumber Int?    @map("header_row_number")
+  rowCount       Int      @default(0) @map("row_count")
+  columnCount    Int      @default(0) @map("column_count")
+  parserVersion  String?  @map("parser_version")
+  metadataJson   Json?    @map("metadata_json")
+  createdAt      DateTime @default(now()) @map("created_at")
+  auditProject   AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun       AuditRun? @relation(fields: [auditRunId], references: [id])
+  auditFile      AuditFile @relation(fields: [auditFileId], references: [id])
+  rows           ParsedWorkbookRow[]
+  cells          ParsedWorkbookCell[]
+
+  @@unique([auditFileId, sheetName])
+  @@index([auditProjectId, sheetName])
+  @@index([auditRunId, sheetName])
+  @@map("parsed_workbook_sheets")
+}
+
+model ParsedWorkbookRow {
+  id             String   @id
+  auditProjectId String   @map("audit_project_id")
+  auditRunId     String?  @map("audit_run_id")
+  auditFileId    String   @map("audit_file_id")
+  sheetId        String   @map("sheet_id")
+  sheetName      String   @map("sheet_name")
+  sourceRowNumber Int     @map("source_row_number")
+  sourceRowKey   String   @map("source_row_key")
+  rowKind        String   @default("data") @map("row_kind")
+  rawRowJson     Json?    @map("raw_row_json")
+  normalizedRowJson Json? @map("normalized_row_json")
+  metadataJson   Json?    @map("metadata_json")
+  createdAt      DateTime @default(now()) @map("created_at")
+  auditProject   AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun       AuditRun? @relation(fields: [auditRunId], references: [id])
+  auditFile      AuditFile @relation(fields: [auditFileId], references: [id])
+  sheet          ParsedWorkbookSheet @relation(fields: [sheetId], references: [id])
+  cells          ParsedWorkbookCell[]
+
+  @@unique([auditFileId, sheetName, sourceRowNumber])
+  @@index([auditProjectId, sheetName, sourceRowNumber])
+  @@index([auditRunId, sheetName, sourceRowNumber])
+  @@index([sheetId, sourceRowNumber])
+  @@map("parsed_workbook_rows")
+}
+
+model ParsedWorkbookCell {
+  id              String   @id
+  auditProjectId  String   @map("audit_project_id")
+  auditRunId      String?  @map("audit_run_id")
+  auditFileId     String   @map("audit_file_id")
+  sheetId         String   @map("sheet_id")
+  rowId           String   @map("row_id")
+  sheetName       String   @map("sheet_name")
+  sourceRowNumber Int      @map("source_row_number")
+  sourceColumn    String   @map("source_column")
+  sourceColumnIndex Int?   @map("source_column_index")
+  cellAddress     String?  @map("cell_address")
+  rawValue        String?  @map("raw_value")
+  normalizedValue String?  @map("normalized_value")
+  canonicalField  String?  @map("canonical_field")
+  evidenceItemId  String?  @map("evidence_item_id")
+  parserVersion   String?  @map("parser_version")
+  metadataJson    Json?    @map("metadata_json")
+  createdAt       DateTime @default(now()) @map("created_at")
+  auditProject    AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun        AuditRun? @relation(fields: [auditRunId], references: [id])
+  auditFile       AuditFile @relation(fields: [auditFileId], references: [id])
+  sheet           ParsedWorkbookSheet @relation(fields: [sheetId], references: [id])
+  row             ParsedWorkbookRow @relation(fields: [rowId], references: [id])
+  evidenceItem    EvidenceItem? @relation(fields: [evidenceItemId], references: [id])
+
+  @@unique([auditFileId, sheetName, sourceRowNumber, sourceColumn])
+  @@index([auditProjectId, canonicalField])
+  @@index([auditRunId, canonicalField])
+  @@index([rowId])
+  @@index([evidenceItemId])
+  @@map("parsed_workbook_cells")
+}
+
+model EvidenceItem {
+  id                 String   @id
+  auditProjectId     String   @map("audit_project_id")
+  auditRunId         String?  @map("audit_run_id")
+  auditFileId        String?  @map("audit_file_id")
+  evidenceType       String   @map("evidence_type")
+  canonicalField     String?  @map("canonical_field")
+  sourceSheet        String?  @map("source_sheet")
+  sourceRowNumber    Int?     @map("source_row_number")
+  sourceColumn       String?  @map("source_column")
+  rawValue           String?  @map("raw_value")
+  normalizedValue    String?  @map("normalized_value")
+  confidence         Float?
+  reviewStatus       String   @default("unreviewed") @map("review_status")
+  metadataJson       Json?    @map("metadata_json")
+  createdAt          DateTime @default(now()) @map("created_at")
+  auditProject       AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun           AuditRun? @relation(fields: [auditRunId], references: [id])
+  auditFile          AuditFile? @relation(fields: [auditFileId], references: [id])
+  findingRefs        FindingEvidenceRef[]
+  normalizedEventRefs NormalizedEventEvidenceRef[]
+  normalizedKdeValues NormalizedKdeValue[]
+  parsedCells        ParsedWorkbookCell[]
+
+  @@index([auditProjectId, canonicalField])
+  @@index([auditRunId])
+  @@index([auditFileId])
+  @@map("evidence_items")
+}
+
+model NormalizedBusinessObject {
+  id              String   @id
+  auditProjectId  String   @map("audit_project_id")
+  auditRunId      String?  @map("audit_run_id")
+  objectType      String   @map("object_type")
+  objectKey       String   @map("object_key")
+  name            String
+  normalizedName  String?  @map("normalized_name")
+  confidence      Float?
+  reviewStatus    String   @default("unreviewed") @map("review_status")
+  attributesJson  Json?    @map("attributes_json")
+  evidenceIdsJson Json?    @map("evidence_ids_json")
+  createdAt       DateTime @default(now()) @map("created_at")
+  auditProject    AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun        AuditRun? @relation(fields: [auditRunId], references: [id])
+
+  @@unique([auditProjectId, auditRunId, objectType, objectKey])
+  @@index([auditProjectId, objectType])
+  @@index([auditRunId, objectType])
+  @@index([reviewStatus, createdAt])
+  @@map("normalized_business_objects")
+}
+
+model NormalizedEvent {
+  id                    String   @id
+  auditProjectId        String   @map("audit_project_id")
+  auditRunId            String?  @map("audit_run_id")
+  auditFileId           String?  @map("audit_file_id")
+  sourceRowKey          String   @map("source_row_key")
+  eventTypeClaim        String?  @map("event_type_claim")
+  eventDatetime         DateTime? @map("event_datetime")
+  eventDatetimeRaw      String?  @map("event_datetime_raw")
+  actorObjectId         String?  @map("actor_object_id")
+  productObjectId       String?  @map("product_object_id")
+  lotObjectId           String?  @map("lot_object_id")
+  sourceLotObjectId     String?  @map("source_lot_object_id")
+  outputLotObjectId     String?  @map("output_lot_object_id")
+  fromObjectId          String?  @map("from_object_id")
+  toObjectId            String?  @map("to_object_id")
+  documentObjectId      String?  @map("document_object_id")
+  destinationType       String?  @map("destination_type")
+  actionTermsJson       Json?    @map("action_terms_json")
+  classifiedCtesJson    Json?    @map("classified_ctes_json")
+  suppressedCtesJson    Json?    @map("suppressed_ctes_json")
+  reviewerQuestionsJson Json?    @map("reviewer_questions_json")
+  confidence            Float?
+  reviewStatus          String   @default("unreviewed") @map("review_status")
+  metadataJson          Json?    @map("metadata_json")
+  createdAt             DateTime @default(now()) @map("created_at")
+  auditProject          AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun              AuditRun? @relation(fields: [auditRunId], references: [id])
+  auditFile             AuditFile? @relation(fields: [auditFileId], references: [id])
+  evidenceRefs          NormalizedEventEvidenceRef[]
+  kdeValues             NormalizedKdeValue[]
+  tlcLineageLinks       TlcLineageLink[]
+  reviewItems           NormalizedReviewItem[]
+
+  @@unique([auditProjectId, auditRunId, sourceRowKey])
+  @@index([auditProjectId, reviewStatus])
+  @@index([auditRunId, reviewStatus])
+  @@index([auditFileId])
+  @@map("normalized_events")
+}
+
+model NormalizedEventEvidenceRef {
+  id                String   @id @default(cuid())
+  normalizedEventId String   @map("normalized_event_id")
+  evidenceItemId    String   @map("evidence_item_id")
+  role              String
+  createdAt         DateTime @default(now()) @map("created_at")
+  normalizedEvent   NormalizedEvent @relation(fields: [normalizedEventId], references: [id])
+  evidenceItem      EvidenceItem @relation(fields: [evidenceItemId], references: [id])
+
+  @@unique([normalizedEventId, evidenceItemId, role])
+  @@index([evidenceItemId])
+  @@map("normalized_event_evidence_refs")
+}
+
+model NormalizedKdeValue {
+  id                String   @id
+  auditProjectId    String   @map("audit_project_id")
+  auditRunId        String?  @map("audit_run_id")
+  normalizedEventId String?  @map("normalized_event_id")
+  evidenceItemId    String?  @map("evidence_item_id")
+  kdeKey            String   @map("kde_key")
+  kdeLabel          String?  @map("kde_label")
+  rawValue          String?  @map("raw_value")
+  normalizedValue   String?  @map("normalized_value")
+  confidence        Float?
+  reviewStatus      String   @default("unreviewed") @map("review_status")
+  metadataJson      Json?    @map("metadata_json")
+  createdAt         DateTime @default(now()) @map("created_at")
+  auditProject      AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun          AuditRun? @relation(fields: [auditRunId], references: [id])
+  normalizedEvent   NormalizedEvent? @relation(fields: [normalizedEventId], references: [id])
+  evidenceItem      EvidenceItem? @relation(fields: [evidenceItemId], references: [id])
+  reviewItems       NormalizedReviewItem[]
+
+  @@index([auditProjectId, kdeKey])
+  @@index([auditRunId, kdeKey])
+  @@index([normalizedEventId])
+  @@index([evidenceItemId])
+  @@index([reviewStatus, createdAt])
+  @@map("normalized_kde_values")
+}
+
+model TlcLineageLink {
+  id                String   @id
+  auditProjectId    String   @map("audit_project_id")
+  auditRunId        String?  @map("audit_run_id")
+  normalizedEventId String?  @map("normalized_event_id")
+  sourceTlc         String?  @map("source_tlc")
+  outputTlc         String?  @map("output_tlc")
+  linkType          String   @map("link_type")
+  confidence        Float?
+  reviewStatus      String   @default("unreviewed") @map("review_status")
+  evidenceIdsJson   Json?    @map("evidence_ids_json")
+  metadataJson      Json?    @map("metadata_json")
+  createdAt         DateTime @default(now()) @map("created_at")
+  auditProject      AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun          AuditRun? @relation(fields: [auditRunId], references: [id])
+  normalizedEvent   NormalizedEvent? @relation(fields: [normalizedEventId], references: [id])
+
+  @@index([auditProjectId, sourceTlc])
+  @@index([auditProjectId, outputTlc])
+  @@index([auditRunId])
+  @@index([reviewStatus, createdAt])
+  @@map("tlc_lineage_links")
+}
+
+model NormalizedReviewItem {
+  id                    String   @id
+  auditProjectId        String   @map("audit_project_id")
+  auditRunId            String?  @map("audit_run_id")
+  normalizedEventId     String?  @map("normalized_event_id")
+  normalizedKdeValueId  String?  @map("normalized_kde_value_id")
+  businessObjectId      String?  @map("business_object_id")
+  reviewType            String   @map("review_type")
+  question              String
+  reason                String
+  severity              String
+  status                String   @default("needs_review")
+  evidenceIdsJson       Json?    @map("evidence_ids_json")
+  metadataJson          Json?    @map("metadata_json")
+  createdAt             DateTime @default(now()) @map("created_at")
+  auditProject          AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun              AuditRun? @relation(fields: [auditRunId], references: [id])
+  normalizedEvent       NormalizedEvent? @relation(fields: [normalizedEventId], references: [id])
+  normalizedKdeValue    NormalizedKdeValue? @relation(fields: [normalizedKdeValueId], references: [id])
+
+  @@index([auditProjectId, status])
+  @@index([auditRunId, status])
+  @@index([normalizedEventId])
+  @@index([normalizedKdeValueId])
+  @@index([businessObjectId])
+  @@map("normalized_review_items")
+}
+
+model FindingEvidenceRef {
+  id             String   @id @default(cuid())
+  findingId      String   @map("finding_id")
+  evidenceItemId String   @map("evidence_item_id")
+  role           String
+  createdAt      DateTime @default(now()) @map("created_at")
+  finding        GapFinding @relation(fields: [findingId], references: [id])
+  evidenceItem   EvidenceItem @relation(fields: [evidenceItemId], references: [id])
+
+  @@unique([findingId, evidenceItemId, role])
+  @@index([evidenceItemId])
+  @@map("finding_evidence_refs")
+}
+
+model FindingTrace {
+  id          String   @id @default(cuid())
+  findingId   String   @map("finding_id")
+  auditRunId  String?  @map("audit_run_id")
+  sequence    Int
+  traceType   String   @map("trace_type")
+  title       String
+  payloadJson Json     @map("payload_json")
+  createdAt   DateTime @default(now()) @map("created_at")
+  finding     GapFinding @relation(fields: [findingId], references: [id])
+  auditRun    AuditRun? @relation(fields: [auditRunId], references: [id])
+
+  @@index([findingId, sequence])
+  @@index([auditRunId])
+  @@map("finding_traces")
+}
+
+model CustomerReviewAction {
+  id              String   @id @default(cuid())
+  auditProjectId  String   @map("audit_project_id")
+  auditRunId      String?  @map("audit_run_id")
+  findingId       String?  @map("finding_id")
+  action          String
+  actorUserId     String?  @map("actor_user_id") @db.Uuid
+  actorEmail      String?  @map("actor_email")
+  actorRole       String   @map("actor_role")
+  reason          String
+  comment         String?
+  beforeJson      Json?    @map("before_json")
+  afterJson       Json?    @map("after_json")
+  createdAt       DateTime @default(now()) @map("created_at")
+  auditProject    AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun        AuditRun? @relation(fields: [auditRunId], references: [id])
+  finding         GapFinding? @relation(fields: [findingId], references: [id])
+
+  @@index([auditProjectId, createdAt])
+  @@index([auditRunId, createdAt])
+  @@index([findingId, createdAt])
+  @@index([action, createdAt])
+  @@map("customer_review_actions")
+}
+
+model RegulatorySource {
+  id             String        @id
+  title          String
+  sourceType     String        @map("source_type")
+  sourceStatus   String        @map("source_status")
+  authorityRank  String        @map("authority_rank")
+  url            String
+  citation       String
+  publishedDate  DateTime?     @map("published_date")
+  effectiveDate  DateTime?     @map("effective_date")
+  complianceDate DateTime?     @map("compliance_date")
+  isFinalized    Boolean       @map("is_finalized")
+  retrievedAt    DateTime      @map("retrieved_at")
+  textHash       String        @map("text_hash")
+  rawArtifactBucket String?    @map("raw_artifact_bucket")
+  rawArtifactKey String?       @map("raw_artifact_key")
+  normalizedArtifactBucket String? @map("normalized_artifact_bucket")
+  normalizedArtifactKey String? @map("normalized_artifact_key")
+  summary        String?
+  notes          String?
+  chunks         SourceChunk[]
+  versions       RegulatorySourceVersion[]
+  ingestionJobs  SourceIngestionJob[]
+  ruleCards      RuleCard[]
+
+  @@index([sourceType, sourceStatus])
+  @@index([authorityRank])
+  @@map("regulatory_sources")
+}
+
+model SourceChunk {
+  id                 String           @id
+  regulatorySourceId String           @map("regulatory_source_id")
+  sourceVersionId    String?          @map("source_version_id")
+  chunkCode          String           @unique @map("chunk_code")
+  sectionLabel       String           @map("section_label")
+  sourceLocation     String           @map("source_location")
+  sectionRef         String?          @map("section_ref")
+  pageNumber         Int?             @map("page_number")
+  text               String
+  summary            String
+  citation           String
+  citationAnchor     String?          @map("citation_anchor")
+  textHash           String           @map("text_hash")
+  authorityRank      String?          @map("authority_rank")
+  sourceUrl          String?          @map("source_url")
+  sourceType         String?          @map("source_type")
+  rawArtifactBucket  String?          @map("raw_artifact_bucket")
+  rawArtifactKey     String?          @map("raw_artifact_key")
+  normalizedArtifactBucket String?    @map("normalized_artifact_bucket")
+  normalizedArtifactKey String?       @map("normalized_artifact_key")
+  status             String
+  usageRole          String           @default("extraction") @map("usage_role")
+  qualityFlagsJson   Json?            @map("quality_flags_json")
+  createdAt          DateTime         @default(now()) @map("created_at")
+  updatedAt          DateTime         @updatedAt @map("updated_at")
+  regulatorySource   RegulatorySource @relation(fields: [regulatorySourceId], references: [id])
+  sourceVersion      RegulatorySourceVersion? @relation(fields: [sourceVersionId], references: [id])
+  ruleCardLinks      RuleCardSource[]
+  kdeRequirements    KDERequirement[]
+
+  @@index([regulatorySourceId, status])
+  @@index([sourceVersionId])
+  @@index([citation])
+  @@map("source_chunks")
+}
+
+model RegulatorySourceVersion {
+  id                         String   @id
+  regulatorySourceId         String   @map("regulatory_source_id")
+  version                    Int
+  sourceUrl                  String   @map("source_url")
+  retrievedAt                DateTime @map("retrieved_at")
+  effectiveDate              DateTime? @map("effective_date")
+  complianceDate             DateTime? @map("compliance_date")
+  rawHash                    String?  @map("raw_hash")
+  normalizedHash             String?  @map("normalized_hash")
+  rawArtifactBucket          String?  @map("raw_artifact_bucket")
+  rawArtifactKey             String?  @map("raw_artifact_key")
+  normalizedArtifactBucket   String?  @map("normalized_artifact_bucket")
+  normalizedArtifactKey      String?  @map("normalized_artifact_key")
+  status                     String
+  metadataJson               Json?    @map("metadata_json")
+  createdAt                  DateTime @default(now()) @map("created_at")
+  regulatorySource           RegulatorySource @relation(fields: [regulatorySourceId], references: [id])
+  chunks                     SourceChunk[]
+
+  @@unique([regulatorySourceId, version])
+  @@index([regulatorySourceId, retrievedAt])
+  @@map("regulatory_source_versions")
+}
+
+model SourceIngestionJob {
+  id                 String   @id
+  regulatorySourceId String?  @map("regulatory_source_id")
+  sourceUrl          String?  @map("source_url")
+  sourceType         String   @map("source_type")
+  jobType            String   @map("job_type")
+  status             String
+  attemptCount       Int      @default(0) @map("attempt_count")
+  maxAttempts        Int      @default(3) @map("max_attempts")
+  lockedBy           String?  @map("locked_by")
+  lockedAt           DateTime? @map("locked_at")
+  availableAt        DateTime @default(now()) @map("available_at")
+  startedAt          DateTime? @map("started_at")
+  completedAt        DateTime? @map("completed_at")
+  errorJson          Json?    @map("error_json")
+  checkpointJson     Json?    @map("checkpoint_json")
+  createdBy          String?  @map("created_by") @db.Uuid
+  createdAt          DateTime @default(now()) @map("created_at")
+  updatedAt          DateTime @updatedAt @map("updated_at")
+  regulatorySource   RegulatorySource? @relation(fields: [regulatorySourceId], references: [id])
+  events             SourceIngestionJobEvent[]
+
+  @@index([status, availableAt])
+  @@index([regulatorySourceId, createdAt])
+  @@map("source_ingestion_jobs")
+}
+
+model SourceIngestionJobEvent {
+  id          String   @id @default(cuid())
+  jobId       String   @map("job_id")
+  eventType   String   @map("event_type")
+  message     String?
+  payloadJson Json?    @map("payload_json")
+  createdAt   DateTime @default(now()) @map("created_at")
+  job         SourceIngestionJob @relation(fields: [jobId], references: [id])
+
+  @@index([jobId, createdAt])
+  @@map("source_ingestion_job_events")
+}
+
+model RuleCard {
+  id                String           @id
+  ruleCode          String           @unique @map("rule_code")
+  title             String
+  ruleArea          String           @map("rule_area")
+  cteType           String?          @map("cte_type")
+  decisionQuestion  String           @map("decision_question")
+  authorityRank     Int              @map("authority_rank")
+  isFinalizedSource Boolean          @map("is_finalized_source")
+  effectiveDate     DateTime?        @map("effective_date")
+  complianceDate    DateTime?        @map("compliance_date")
+  conditionsJson    Json             @map("conditions_json")
+  logicKey          String           @map("logic_key")
+  allowedStatesJson Json             @map("allowed_states_json")
+  status            String
+  reviewedBy        String?          @map("reviewed_by")
+  reviewedAt        DateTime?        @map("reviewed_at")
+  version           Int
+  regulatorySourceId String?         @map("regulatory_source_id")
+  regulatorySource   RegulatorySource? @relation(fields: [regulatorySourceId], references: [id])
+  sourceLinks       RuleCardSource[]
+  kdeRequirements   KDERequirement[]
+  reviews           RuleCardReview[]
+  versions          RuleCardVersion[]
+  findings          GapFinding[]
+
+  @@index([status, ruleArea])
+  @@map("rule_cards")
+}
+
+model RuleCardSource {
+  id            String      @id @default(cuid())
+  ruleCardId    String      @map("rule_card_id")
+  sourceChunkId String      @map("source_chunk_id")
+  relevanceNote String?     @map("relevance_note")
+  ruleCard      RuleCard    @relation(fields: [ruleCardId], references: [id])
+  sourceChunk   SourceChunk @relation(fields: [sourceChunkId], references: [id])
+
+  @@unique([ruleCardId, sourceChunkId])
+  @@map("rule_card_sources")
+}
+
+model RuleCardReview {
+  id             String   @id @default(cuid())
+  ruleCardId     String   @map("rule_card_id")
+  reviewer       String
+  statusBefore   String   @map("status_before")
+  statusAfter    String   @map("status_after")
+  reviewDecision String   @map("review_decision")
+  notes          String
+  createdAt      DateTime @default(now()) @map("created_at")
+  ruleCard       RuleCard @relation(fields: [ruleCardId], references: [id])
+
+  @@index([ruleCardId, createdAt])
+  @@map("rule_card_reviews")
+}
+
+model RuleCardVersion {
+  id           String   @id @default(cuid())
+  ruleCardId   String   @map("rule_card_id")
+  version      Int
+  snapshotJson Json     @map("snapshot_json")
+  changeReason String   @map("change_reason")
+  changedBy    String   @map("changed_by")
+  createdAt    DateTime @default(now()) @map("created_at")
+  ruleCard     RuleCard @relation(fields: [ruleCardId], references: [id])
+
+  @@unique([ruleCardId, version])
+  @@map("rule_card_versions")
+}
+
+model KDERequirement {
+  id                String      @id
+  cteType           String      @map("cte_type")
+  kdeName           String      @map("kde_name")
+  fieldKey          String      @map("field_key")
+  requiredStatus    String      @map("required_status")
+  appliesWhen       String      @map("applies_when")
+  productScope      String?     @map("product_scope")
+  sourceChunkId     String      @map("source_chunk_id")
+  ruleCardId        String      @map("rule_card_id")
+  exampleValue      String?     @map("example_value")
+  severityIfMissing String      @map("severity_if_missing")
+  status            String
+  reviewedBy        String?     @map("reviewed_by")
+  reviewedAt        DateTime?   @map("reviewed_at")
+  version           Int
+  sourceChunk       SourceChunk @relation(fields: [sourceChunkId], references: [id])
+  ruleCard          RuleCard    @relation(fields: [ruleCardId], references: [id])
+  findings          GapFinding[]
+
+  @@index([cteType, status])
+  @@index([ruleCardId])
+  @@index([sourceChunkId])
+  @@map("kde_requirements")
+}
+
+model ScenarioCase {
+  id                   String   @id
+  name                 String
+  scenarioGroup        String   @map("scenario_group")
+  sourceCitationsJson  Json     @map("source_citations_json")
+  linkedRuleCardIdsJson Json    @map("linked_rule_card_ids_json")
+  evidenceFixtureJson  Json     @map("evidence_fixture_json")
+  expectedFindingsJson Json     @map("expected_findings_json")
+  expectedStatus       String   @map("expected_status")
+  requiresExpertReview Boolean  @map("requires_expert_review")
+  status               String
+  createdAt            DateTime @default(now()) @map("created_at")
+  regressionResults    ScenarioRegressionResult[]
+
+  @@index([scenarioGroup, status])
+  @@map("scenario_cases")
+}
+
+model GapFinding {
+  id                   String       @id
+  auditProjectId       String       @map("audit_project_id")
+  auditRunId           String?      @map("audit_run_id")
+  title                String
+  status               String
+  severity             String
+  findingType          String       @map("finding_type")
+  eventId              String?      @map("event_id")
+  eventLineId          String?      @map("event_line_id")
+  fieldOrKde           String?      @map("field_or_kde")
+  observedValue        String?      @map("observed_value")
+  expectedOrRequired   String?      @map("expected_or_required")
+  recommendation       String
+  ruleCardId           String?      @map("rule_card_id")
+  ruleCardVersion      Int?         @map("rule_card_version")
+  approvedRecordId     String?      @map("approved_record_id")
+  approvedObligationId String?      @map("approved_obligation_id")
+  sourceChunkId        String?      @map("source_chunk_id")
+  kdeRequirementId     String?      @map("kde_requirement_id")
+  rulePackageId        String?      @map("rule_package_id")
+  rulePackageVersion   Int?         @map("rule_package_version")
+  checkCode            String?      @map("check_code")
+  checkVersion         String?      @map("check_version")
+  evidenceRefsJson     Json?        @map("evidence_refs_json")
+  metadataJson         Json?        @map("metadata_json")
+  reviewState          String       @map("review_state")
+  createdAt            DateTime     @default(now()) @map("created_at")
+  auditProject         AuditProject @relation(fields: [auditProjectId], references: [id])
+  auditRun             AuditRun? @relation(fields: [auditRunId], references: [id])
+  ruleCard             RuleCard? @relation(fields: [ruleCardId], references: [id])
+  kdeRequirement       KDERequirement? @relation(fields: [kdeRequirementId], references: [id])
+  evidenceRefs         FindingEvidenceRef[]
+  traces               FindingTrace[]
+  reviewActions        CustomerReviewAction[]
+
+  @@index([auditProjectId, status])
+  @@index([auditRunId, status])
+  @@index([reviewState, createdAt])
+  @@index([rulePackageId, rulePackageVersion])
+  @@map("audit_findings")
+}
+
+model AuditLog {
+  id              String       @id @default(cuid())
+  auditProjectId  String?      @map("audit_project_id")
+  actor           String
+  action          String
+  beforeJson      Json?        @map("before_json")
+  afterJson       Json?        @map("after_json")
+  reason          String?
+  createdAt       DateTime     @default(now()) @map("created_at")
+  auditProject    AuditProject? @relation(fields: [auditProjectId], references: [id])
+
+  @@index([auditProjectId, createdAt])
+  @@index([action, createdAt])
+  @@map("audit_logs")
+}
+
+model RegulatoryDraftRecord {
+  id                     String   @id
+  collection             String
+  recordId               String   @map("record_id")
+  sourcePhase            String   @map("source_phase")
+  extractionMethod       String   @map("extraction_method")
+  confidence             String
+  reviewStatus           String   @map("review_status")
+  sourceChunkIdsJson     Json     @map("source_chunk_ids")
+  citationCount          Int      @map("citation_count")
+  citationCoverageStatus String   @map("citation_coverage_status")
+  schemaValid            Boolean  @map("schema_valid")
+  citationValid          Boolean  @map("citation_valid")
+  validationErrorsJson   Json     @map("validation_errors")
+  reviewerBlockersJson   Json     @map("reviewer_blockers")
+  payloadJson            Json     @map("payload")
+  createdAt              DateTime @default(now()) @map("created_at")
+  updatedAt              DateTime @updatedAt @map("updated_at")
+  approvedRecords        ApprovedRegulatoryRecord[]
+  reviewActions          RegulatoryReviewAction[]
+
+  @@index([collection, reviewStatus])
+  @@index([recordId])
+  @@map("regulatory_draft_records")
+}
+
+model ApprovedRegulatoryRecord {
+  id                String   @id
+  draftRecordId     String   @map("draft_record_id")
+  collection        String
+  recordId          String   @map("record_id")
+  version           Int
+  approvedBy        String   @map("approved_by")
+  approvedAt        DateTime @map("approved_at")
+  approvalReason    String   @map("approval_reason")
+  sourceChunkIdsJson Json    @map("source_chunk_ids")
+  payloadJson       Json     @map("payload")
+  supersededById    String?  @map("superseded_by_id")
+  createdAt         DateTime @default(now()) @map("created_at")
+  draftRecord       RegulatoryDraftRecord @relation(fields: [draftRecordId], references: [id])
+  reviewActions     RegulatoryReviewAction[]
+  packageRecords    ApprovedRulePackageRecord[]
+
+  @@unique([collection, recordId, version])
+  @@index([collection, recordId])
+  @@map("approved_regulatory_records")
+}
+
+model RegulatoryReviewAction {
+  id             String   @id
+  draftRecordId  String?  @map("draft_record_id")
+  approvedRecordId String? @map("approved_record_id")
+  action         String
+  actor          String
+  actorRole      String   @map("actor_role")
+  reason         String
+  beforeJson     Json?    @map("before_json")
+  afterJson      Json?    @map("after_json")
+  createdAt      DateTime @default(now()) @map("created_at")
+  draftRecord    RegulatoryDraftRecord? @relation(fields: [draftRecordId], references: [id])
+  approvedRecord ApprovedRegulatoryRecord? @relation(fields: [approvedRecordId], references: [id])
+
+  @@index([draftRecordId])
+  @@index([approvedRecordId])
+  @@index([action, createdAt])
+  @@map("regulatory_review_actions")
+}
+
+model ObligationInventoryRecord {
+  id              String   @id
+  obligationId    String   @map("obligation_id")
+  reviewStatus    String   @map("review_status")
+  confidenceScore Float    @map("confidence_score")
+  confidenceLevel String   @map("confidence_level")
+  approvalReady   Boolean  @map("approval_ready")
+  obligationJson  Json     @map("obligation")
+  linksJson       Json     @map("links")
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  @@index([obligationId])
+  @@index([reviewStatus, approvalReady])
+  @@map("obligation_inventory_records")
+}
+
+model ApprovedObligationSet {
+  id                  String   @id
+  version             Int
+  status              String
+  approvedAt          DateTime @map("approved_at")
+  approvedBy          String   @map("approved_by")
+  approvalRole        String   @map("approval_role")
+  approvalReason      String   @map("approval_reason")
+  immutable           Boolean
+  sourceReviewPackage String   @map("source_review_package")
+  recordsJson         Json     @map("records")
+  createdAt           DateTime @default(now()) @map("created_at")
+  rulePackages        ApprovedRulePackage[]
+
+  @@unique([version])
+  @@index([status, approvedAt])
+  @@map("approved_obligation_sets")
+}
+
+model ApprovedRulePackage {
+  id                         String   @id
+  packageId                  String   @map("package_id")
+  version                    Int
+  status                     String
+  immutable                  Boolean  @default(true)
+  packageHash                String   @map("package_hash")
+  generatedAt                DateTime @map("generated_at")
+  approvedAt                 DateTime @map("approved_at")
+  approvedBy                 String   @map("approved_by")
+  approvalRole               String   @map("approval_role")
+  approvalReason             String   @map("approval_reason")
+  approvedObligationSetId    String?  @map("approved_obligation_set_id")
+  scenarioGateStatus         String?  @map("scenario_gate_status")
+  sourceVersionsJson         Json?    @map("source_versions")
+  rollbackJson               Json?    @map("rollback")
+  metadataJson               Json?    @map("metadata_json")
+  createdAt                  DateTime @default(now()) @map("created_at")
+  approvedObligationSet      ApprovedObligationSet? @relation(fields: [approvedObligationSetId], references: [id])
+  records                    ApprovedRulePackageRecord[]
+  scenarioRegressionRuns     ScenarioRegressionRun[]
+
+  @@unique([packageId, version])
+  @@index([status, approvedAt])
+  @@index([packageHash])
+  @@map("approved_rule_packages")
+}
+
+model ApprovedRulePackageRecord {
+  id                       String   @id @default(cuid())
+  approvedRulePackageId    String   @map("approved_rule_package_id")
+  collection               String
+  recordId                 String   @map("record_id")
+  recordVersion            Int?     @map("record_version")
+  approvedRegulatoryRecordId String? @map("approved_regulatory_record_id")
+  payloadJson              Json     @map("payload")
+  sourceChunkIdsJson       Json?    @map("source_chunk_ids")
+  recordHash               String?  @map("record_hash")
+  createdAt                DateTime @default(now()) @map("created_at")
+  approvedRulePackage      ApprovedRulePackage @relation(fields: [approvedRulePackageId], references: [id])
+  approvedRegulatoryRecord ApprovedRegulatoryRecord? @relation(fields: [approvedRegulatoryRecordId], references: [id])
+
+  @@unique([approvedRulePackageId, collection, recordId, recordVersion])
+  @@index([collection, recordId])
+  @@map("approved_rule_package_records")
+}
+
+model ScenarioRegressionRun {
+  id                    String   @id
+  approvedRulePackageId String?  @map("approved_rule_package_id")
+  runType               String   @map("run_type")
+  status                String
+  benchmarkCount        Int      @map("benchmark_count")
+  passCount             Int      @map("pass_count")
+  failCount             Int      @map("fail_count")
+  resultHash            String?  @map("result_hash")
+  summaryJson           Json?    @map("summary_json")
+  createdAt             DateTime @default(now()) @map("created_at")
+  approvedRulePackage   ApprovedRulePackage? @relation(fields: [approvedRulePackageId], references: [id])
+  results               ScenarioRegressionResult[]
+
+  @@index([approvedRulePackageId, status])
+  @@index([runType, createdAt])
+  @@map("scenario_regression_runs")
+}
+
+model ScenarioRegressionResult {
+  id                     String   @id @default(cuid())
+  scenarioRegressionRunId String  @map("scenario_regression_run_id")
+  scenarioCaseId         String?  @map("scenario_case_id")
+  expectedStatus         String?  @map("expected_status")
+  actualStatus           String?  @map("actual_status")
+  passed                 Boolean
+  failureReason          String?  @map("failure_reason")
+  resultJson             Json?    @map("result_json")
+  createdAt              DateTime @default(now()) @map("created_at")
+  scenarioRegressionRun  ScenarioRegressionRun @relation(fields: [scenarioRegressionRunId], references: [id])
+  scenarioCase           ScenarioCase? @relation(fields: [scenarioCaseId], references: [id])
+
+  @@index([scenarioRegressionRunId, passed])
+  @@index([scenarioCaseId])
+  @@map("scenario_regression_results")
+}

@@ -1,0 +1,57 @@
+{
+  "abstainedEvents": 0,
+  "acceptanceCoverage": {
+    "RI-090_customer_evidence_model": true,
+    "RI-091_traceability_entity_model": true,
+    "RI-092_spreadsheet_evidence_ingestion": true,
+    "RI-093_ai_assisted_field_mapping_suggestions": true,
+    "RI-094_customer_event_graph": true,
+    "RI-095_food_form_resolver": true,
+    "RI-096_actor_role_resolver": true,
+    "RI-097_deterministic_cte_classifier": true,
+    "RI-098_negative_suppression_logic": true,
+    "RI-099_abstention_reviewer_questions": true,
+    "RI-10A-001_messy_workbook_parser": true,
+    "RI-10A-002_filename_sheet_fact_extraction": true,
+    "RI-10A-003_robust_value_normalization": true,
+    "RI-10A-004_document_type_parsers": true,
+    "RI-10A-005_evidence_conflict_model": true,
+    "RI-10A-006_customer_evidence_quality_report": true
+  },
+  "classifiedEvents": 3,
+  "entityCounts": {
+    "actors": 1,
+    "counterparties": 1,
+    "documents": 5,
+    "locations": 1,
+    "lots": 1,
+    "productForms": 2,
+    "products": 2
+  },
+  "eventNodes": 3,
+  "evidenceRecords": 80,
+  "fieldMappingSuggestions": 50,
+  "finalCteCounts": {
+    "receiving": 1,
+    "shipping": 1,
+    "transformation": 1
+  },
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "lowConfidenceFieldMappings": 0,
+  "phase": 10,
+  "phase10a": {
+    "documentProfiles": 11,
+    "documentTypeCounts": {
+      "invoice": 3,
+      "receiving_log": 2,
+      "unknown": 6
+    },
+    "evidenceConflicts": 0,
+    "inferredFacts": 1,
+    "qualityReportFile": "phase10a-quality-report.json"
+  },
+  "reviewRequiredEvents": 1,
+  "reviewerQuestions": 1,
+  "sourceFile": "../data/samples/fsma204-full-audit-sample.xlsx",
+  "suppressedCteCounts": {}
+}

@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "importantLimitations": [
+    "This is public internet source-derived evaluation data, not confidential customer transaction data.",
+    "Rows are generated from source-backed real-world traceability/logistics patterns and manually gold-labeled.",
+    "Open Food Facts live API was attempted but returned HTTP 503, so this workbook uses public article descriptions rather than bulk product API records.",
+    "No OpenAI, Anthropic, or other live model output was used."
+  ],
+  "metrics": {
+    "by_source": {
+      "BioTrak food-chain logistics paper": {
+        "count": 100,
+        "fail": 0,
+        "pass": 100
+      },
+      "GS1 EPCIS Standard": {
+        "count": 70,
+        "fail": 0,
+        "pass": 70
+      },
+      "Open Food Facts article": {
+        "count": 50,
+        "fail": 0,
+        "pass": 50
+      },
+      "Produce traceability article": {
+        "count": 70,
+        "fail": 0,
+        "pass": 70
+      },
+      "SmartProduct EPCIS/IoT paper": {
+        "count": 90,
+        "fail": 0,
+        "pass": 90
+      },
+      "Token Recipes manufacturing traceability paper": {
+        "count": 60,
+        "fail": 0,
+        "pass": 60
+      },
+      "Traceability article": {
+        "count": 60,
+        "fail": 0,
+        "pass": 60
+      }
+    },
+    "error_counts": {},
+    "exact_match_rate": 1.0,
+    "fail_count": 0,
+    "false_negative_by_cte": {
+      "harvesting": 0,
+      "initial_packing": 0,
+      "receiving": 0,
+      "shipping": 0,
+      "transformation": 0
+    },
+    "false_negative_rate": 0.0,
+    "false_positive_by_cte": {
+      "harvesting": 0,
+      "initial_packing": 0,
+      "receiving": 0,
+      "shipping": 0,
+      "transformation": 0
+    },
+    "false_positive_rate": 0.0,
+    "pass_count": 500,
+    "precision": 1.0,
+    "precision_by_cte": {
+      "harvesting": 1.0,
+      "initial_packing": 1.0,
+      "receiving": 1.0,
+      "shipping": 1.0,
+      "transformation": 1.0
+    },
+    "recall": 1.0,
+    "recall_by_cte": {
+      "harvesting": 1.0,
+      "initial_packing": 1.0,
+      "receiving": 1.0,
+      "shipping": 1.0,
+      "transformation": 1.0
+    },
+    "record_count": 500
+  },
+  "phase": "12-web500-real-world-source-derived-eval",
+  "recordCount": 500,
+  "sourceCount": 7
+}

@@ -1,0 +1,30 @@
+.DS_Store
+node_modules/
+.next/
+dist/
+build/
+.env
+.env.local
+*.log
+data/private/
+reports/private/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+ingestion/.traceready-object-store/
+
+# TypeScript / Next.js build cache
+*.tsbuildinfo
+
+# Eval / pipeline run outputs (regeneratable scratch)
+outputs/
+
+# Local-only Codex runtime symlink (not portable)
+ingestion/scripts/evaluation/node_modules

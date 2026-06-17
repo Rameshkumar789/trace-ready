@@ -1,0 +1,42 @@
+{
+  "abstention_count": 0,
+  "conflict_count": 0,
+  "document_type_counts": {
+    "invoice": 3,
+    "receiving_log": 2,
+    "unknown": 6
+  },
+  "duplicate_row_count": 0,
+  "generated_at": "2026-06-16T00:00:00Z",
+  "inferred_fact_count": 1,
+  "issues": [],
+  "low_confidence_mappings": [],
+  "missing_lineage_anchor_count": 0,
+  "parse_coverage": {
+    "evidenceRecords": 80,
+    "mappedRecordRate": 1.0,
+    "mappedRecords": 80,
+    "sheetsParsed": 11
+  },
+  "quality_gate": "pass",
+  "source_file": "../data/samples/fsma204-full-audit-sample.xlsx",
+  "unmapped_columns": [],
+  "unmapped_sheets": [],
+  "workbook_structure": {
+    "headerDetection": "best scoring row across first non-empty rows, with support for blank header bands and section header skips",
+    "hiddenOrMergedCellHandling": "xlsx hidden rows/columns skipped; merged ranges resolved from top-left cells where available",
+    "sheets": [
+      "00_Business_Profile",
+      "01_Product_Master",
+      "02_Location_Master",
+      "03_Partner_Master",
+      "04_Traceability_Plan",
+      "05_CTE_Events",
+      "06_Event_Line_Items",
+      "07_KDE_Values",
+      "08_TLC_Lineage",
+      "09_Source_Documents",
+      "10_Exemptions_Claims"
+    ]
+  }
+}

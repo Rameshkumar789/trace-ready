@@ -1,0 +1,227 @@
+[
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "scenario_id": "web-gs1-001",
+    "source_name": "GS1 EPCIS",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving"
+    ],
+    "scenario_id": "web-gs1-002",
+    "source_name": "GS1 EPCIS",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "scenario_id": "web-gs1-003",
+    "source_name": "GS1 EPCIS",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "scenario_id": "web-gs1-004",
+    "source_name": "GS1 EPCIS",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "scenario_id": "web-smartproduct-001",
+    "source_name": "SmartProduct",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "scenario_id": "web-smartproduct-002",
+    "source_name": "SmartProduct",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "scenario_id": "web-smartproduct-003",
+    "source_name": "SmartProduct",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "scenario_id": "web-smartproduct-004",
+    "source_name": "SmartProduct",
+    "status": "pass"
+  },
+  {
+    "errors": [
+      "over_triggered_cte"
+    ],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "receiving",
+      "shipping"
+    ],
+    "scenario_id": "web-biotrak-001",
+    "source_name": "BioTrak",
+    "status": "fail"
+  },
+  {
+    "errors": [
+      "missed_cte"
+    ],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "scenario_id": "web-biotrak-002",
+    "source_name": "BioTrak",
+    "status": "fail"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "scenario_id": "web-biotrak-003",
+    "source_name": "BioTrak",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [
+      "shipping"
+    ],
+    "expected_ctes": [],
+    "predicted_abstentions": [
+      "shipping"
+    ],
+    "predicted_ctes": [],
+    "scenario_id": "web-biotrak-004",
+    "source_name": "BioTrak",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "transformation"
+    ],
+    "scenario_id": "web-token-recipes-001",
+    "source_name": "Token Recipes",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [],
+    "predicted_abstentions": [],
+    "predicted_ctes": [],
+    "scenario_id": "web-openfoodfacts-001",
+    "source_name": "Open Food Facts",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping"
+    ],
+    "scenario_id": "web-produce-traceability-001",
+    "source_name": "Produce traceability",
+    "status": "pass"
+  },
+  {
+    "errors": [],
+    "expected_abstentions": [],
+    "expected_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "predicted_abstentions": [],
+    "predicted_ctes": [
+      "shipping",
+      "transformation"
+    ],
+    "scenario_id": "web-traceability-001",
+    "source_name": "Traceability",
+    "status": "pass"
+  }
+]

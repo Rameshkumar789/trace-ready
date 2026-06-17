@@ -1,0 +1,261 @@
+{
+  "sourceId": "fda-ftl-risk-ranking-results-table-1a",
+  "url": "https://www.fda.gov/media/166878/download?attachment",
+  "rawArtifact": "../data/regulatory/fda-ftl-risk-ranking-results-table-1a/raw/fda-ftl-risk-ranking-results-table-1a.pdf",
+  "rawTextHash": "9721b01ec9470dee90ee20fc6d555abd46350c75f99d09522fa38e8e8c92b0df",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 2,
+  "chunks": [
+    {
+      "chunk_id": "fda-ftl-risk-ranking-results-table-1a-page-1-1",
+      "source_id": "fda-ftl-risk-ranking-results-table-1a",
+      "section_label": "PDF page 1",
+      "section": "page-1",
+      "text": "Risk-Ranking Model for Food Tracing: Results for Commodities\nSeptember 2022\nTable 1A provides the commodities on the Food Traceability List and the risk score for each determined with the Risk-Ranking\nModel for Food Tracing. For detailed information on how the total risk score for a commodity is determined, see the reference\n\"Methodological Approach to Developing a Risk-Ranking Model for Food Tracing FSMA Section 204 (21 U.S. Code \u00a7 2223).\nSeptember 2022.\"\nTable 1A. Commodities on the Food Traceability List and commodity risk scores\nCommodity Category Commodity Commodity Risk Score\nDairy - Cheese and Cheese Products Cheese (made from pasteurized milk), fresh soft or soft 430\nunripened\nDairy - Cheese and Cheese Products Cheese (made from pasteurized milk), soft ripened or semi- 490\nsoft\nDairy - Cheese and Cheese Products Cheese (made from unpasteurized milk), other than hard 410\ncheese\nEggs Shell Eggs 450\nNuts and Nut Products Nut Butters 420\nPrepared Food - Refrigerated and Ready-to-eat Deli Salads 330\nReady-to-Eat Salads\nProduce - Fresh Cut Fruits (fresh-cut) 370\nProduce - Fresh Cut Leafy Greens (fresh-cut) 390\nProduce - Fresh Cut Vegetables other than leafy greens (fresh-cut) 430\nProduce - RAC Cucumbers 430\n1\n\n | Commodity Category |  |  | Commodity |  |  | Commodity Risk Score | \nDairy - Cheese and Cheese Products | Dairy - Cheese and Cheese Products |  |  | Cheese (made from pasteurized milk), fresh soft or soft |  | 430 | 430 | \n |  |  |  | unripened |  |  |  | \nDairy - Cheese and Cheese Products |  |  | Cheese (made from pasteurized milk), soft ripened or semi-\nsoft |  |  | 490 |  | \nDairy - Cheese and Cheese Products |  |  |  | Cheese (made from unpasteurized milk), other than hard |  | 410 |  | \n |  |  |  | cheese |  |  |  | \nEggs |  |  | Shell Eggs |  |  | 450 |  | \n | Nuts and Nut Products |  |  | Nut Butters |  |  | 420 | \nPrepared Food - Refrigerated and\nReady-to-Eat Salads |  |  | Ready-to-eat Deli Salads |  |  | 330 |  | \n | Produce - Fresh Cut |  |  | Fruits (fresh-cut) |  |  | 370 | \nProduce - Fresh Cut |  |  | Leafy Greens (fresh-cut) |  |  | 390 |  | \n | Produce - Fresh Cut |  |  | Vegetables other than leafy greens (fresh-cut) |  |  | 430 | \nProduce - RAC |  |  | Cucumbers |  |  | 430 |  |",
+      "summary": "Risk-Ranking Model for Food Tracing: Results for Commodities September 2022 Table 1A provides the commodities on the Food Traceability List and the risk score for each determine...",
+      "citation": "page-1",
+      "text_hash": "sha256:0622fc95169777029c6342c18cca91fa681c29661b0b42b9933f8e9019486353",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-results-table-1a",
+          "citation": "page-1",
+          "section": "page-1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/media/166878/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:59.241544+00:00",
+          "source_hash": "9721b01ec9470dee90ee20fc6d555abd46350c75f99d09522fa38e8e8c92b0df"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-results-table-1a-page-2-2",
+      "source_id": "fda-ftl-risk-ranking-results-table-1a",
+      "section_label": "PDF page 2",
+      "section": "page-2",
+      "text": "Commodity Category Commodity Commodity Risk Score\nProduce - RAC Herbs (fresh) 240\nProduce - RAC Leafy Greens 430\nProduce - RAC Melons 430\nProduce - RAC Peppers 370\nProduce - RAC Sprouts 420\nProduce - RAC Tomatoes 430\nProduce - RAC Tropical Tree Fruits 370\nSeafood - Finfish Finfish, species not associated with histamine or ciguatoxin 370\nSeafood - Finfish Finfish, histamine-producing species 430\nSeafood - Finfish Finfish, species potentially contaminated with ciguatoxin 330\nSeafood - Finfish Smoked Finfish 360\nSeafood - Invertebrates Crustaceans 430\nSeafood - Invertebrates Molluscan Shellfish, bivalves 380\n2\n\n | Commodity Category |  |  | Commodity |  |  | Commodity Risk Score | \n | Produce - RAC |  |  | Herbs (fresh) |  |  | 240 | \nProduce - RAC |  |  | Leafy Greens |  |  | 430 |  | \n | Produce - RAC |  |  | Melons |  |  | 430 | \nProduce - RAC |  |  | Peppers |  |  | 370 |  | \n | Produce - RAC |  |  | Sprouts |  |  | 420 | \nProduce - RAC |  |  | Tomatoes |  |  | 430 |  | \n | Produce - RAC |  |  | Tropical Tree Fruits |  |  | 370 | \nSeafood - Finfish |  |  | Finfish, species not associated with histamine or ciguatoxin |  |  | 370 |  | \n | Seafood - Finfish |  |  | Finfish, histamine-producing species |  |  | 430 | \nSeafood - Finfish |  |  | Finfish, species potentially contaminated with ciguatoxin |  |  | 330 |  | \n | Seafood - Finfish |  |  | Smoked Finfish |  |  | 360 | \nSeafood - Invertebrates |  |  | Crustaceans |  |  | 430 |  | \n | Seafood - Invertebrates |  |  | Molluscan Shellfish, bivalves |  |  | 380 |",
+      "summary": "Commodity Category Commodity Commodity Risk Score Produce - RAC Herbs (fresh) 240 Produce - RAC Leafy Greens 430 Produce - RAC Melons 430 Produce - RAC Peppers 370 Produce - RAC...",
+      "citation": "page-2",
+      "text_hash": "sha256:504a5313bd3c9662f3ae2520c0db86a35d63a6bba0eb03125deb132fa206926a",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-results-table-1a",
+          "citation": "page-2",
+          "section": "page-2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/media/166878/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:59.241544+00:00",
+          "source_hash": "9721b01ec9470dee90ee20fc6d555abd46350c75f99d09522fa38e8e8c92b0df"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

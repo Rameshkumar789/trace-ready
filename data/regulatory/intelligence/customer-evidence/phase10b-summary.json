@@ -1,0 +1,25 @@
+{
+  "acceptanceCoverage": {
+    "RI-10B-001_customer_field_mapping_draft_schema": true,
+    "RI-10B-002_ai_assisted_mapping_draft_generation": true,
+    "RI-10B-003_mapping_approval_workflow": true,
+    "RI-10B-004_customer_specific_mapping_profiles": true,
+    "RI-10B-005_mapping_regression_tests": true,
+    "RI-10B-006_mapping_drift_detection": true
+  },
+  "approvedMappings": 50,
+  "draftMappings": 50,
+  "driftReviewTasks": 0,
+  "driftStatus": "stable",
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "pendingMappings": 0,
+  "phase": "10B",
+  "profileHash": "539e40a2da19ba14927e1971da4ea72fb282d7c293b461599561710760313032",
+  "profileId": "mapping-profile-pilot_customer-sample_workbook-v1",
+  "regressionStatus": "pass",
+  "rejectedMappings": 0,
+  "reviewActions": 50,
+  "statusCounts": {
+    "approved": 50
+  }
+}

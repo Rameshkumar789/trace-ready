@@ -1,0 +1,982 @@
+{
+  "sourceId": "ecfr-21-cfr-1-subpart-s-pdf",
+  "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+  "rawArtifact": "../data/regulatory/ecfr-21-cfr-1-subpart-s-pdf/raw/ecfr-21-cfr-1-subpart-s-pdf.pdf",
+  "rawTextHash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 33,
+  "chunks": [
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1330-1",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1330 What records must I keep when I am performing the initial packing of a raw",
+      "section": "\u00a71.1330",
+      "text": "\u00a7 1.1330 What records must I keep when I am performing the initial packing of a raw\nagricultural commodity (other than a food obtained from a fishing vessel) on the Food\nTraceability List?\n(a) Except as specified inparagraph (c)of this section, for each traceability lot of a raw agricultural\ncommodity (other than a food obtained from a fishing vessel) on the Food Traceability List you initially\npack, you must maintain records containing the following information and linking this information to the\ntraceability lot:\n(1) The commodity and, if applicable, variety of the food received;\n(2) The date you received the food;\n(3) The quantity and unit of measure of the food received (e.g.,75 bins, 200 pounds);\n(4) The location description for the farm where the food was harvested;\n(5) For produce, the name of the field or other growing area from which the food was harvested (which\nmust correspond to the name used by the grower), or other information identifying the harvest\nlocation at least as precisely as the field or other growing area name;\n(6) For aquacultured food, the name of the container (e.g.,pond, pool, tank, cage) from which the food\nwas harvested (which must correspond to the container name used by the aquaculture farmer) or\nother information identifying the harvest location at least as precisely as the container name;\n(7) The business name and phone number for the harvester of the food;\n(8) The date of harvesting;\n(9) The location description for where the food was cooled (if applicable);\n(10) The date of cooling (if applicable);\n(11) The traceability lot code you assigned;\n(12) The product description of the packed food;\n(13) The quantity and unit of measure of the packed food (e.g.,6 cases, 25 reusable plastic containers,\n100 tanks, 200 pounds);\n(14) The location description for where you initially packed the food (i.e.,the traceability lot code source),\nand (if applicable) the traceability lot code source reference;\n(15) The date of initial packing; and\n(16) The reference document type and reference document number.\n(b) For each traceability lot of sprouts (except soil- or substrate-grown sprouts harvested without their roots)\nyou initially pack, you must also maintain records containing the following information and linking this\ninformation to the traceability lot:\n(1) The location description for the grower of seeds for sprouting and the date of seed harvesting, if\neither is available;\n(2) The location description for the seed conditioner or processor, the associated seed lot code, and the\ndate of conditioning or processing;\n21 CFR 1.1330(b)(2) (enhanced display) page 14 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1330(b)(3)\nAdditional Traceability Records for Certain Foods\n(3) The location description for the seed packinghouse (including any repackers), the date of packing\n(and of repacking, if applicable), and any associated seed lot code assigned by the seed\npackinghouse;\n(4) The location description for the seed supplier, any seed lot code assigned by the seed supplier\n(including the master lot and sub-lot codes), and any new seed lot code assigned by the sprouter;\n(5) A description of the seeds, including the seed type or taxonomic name, growing specifications, type\nof packaging, and (if applicable) antimicrobial treatment;\n(6) The date of receipt of the seeds by the sprouter; and\n(7) The reference document type and reference document number.\n(c) For each traceability lot of a raw agricultural commodity (other than a food obtained from a fishing vessel)\non the Food Traceability List you initially pack that you receive from a person to whom this subpart does\nnot apply, you must maintain records containing the following information and linking this information to\nthe traceability lot:\n(1) The commodity and, if applicable, variety of the food received;\n(2) The date you received the food;\n(3) The quantity and unit of measure of the food received (e.g.,75 bins, 200 pounds);\n(4) The location description for the person from whom you received the food;\n(5) The traceability lot code you assigned;\n(6) The product description of the packed food;\n(7) The quantity and unit of measure of the packed food (e.g.,6 cases, 25 reusable plastic containers,\n100 tanks, 200 pounds);\n(8) The location description for where you initially packed the food (i.e.,the traceability lot code source),\nand (if applicable) the traceability lot code source reference;\n(9) The date of initial packing; and\n(10) The reference document type and reference document number.",
+      "summary": "\u00a7 1.1330 What records must I keep when I am performing the initial packing of a raw agricultural commodity (other than a food obtained from a fishing vessel) on the Food Traceab...",
+      "citation": "\u00a71.1330",
+      "text_hash": "sha256:47b2e552704d2bf03420b94c2853e9048ee539e88e946046d170176020cc7e55",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1330",
+          "section": "\u00a71.1330",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 14,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1360-2",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1360 Under what circumstances will FDA modify the requirements in this subpart that apply",
+      "section": "\u00a71.1360",
+      "text": "\u00a7 1.1360 Under what circumstances will FDA modify the requirements in this subpart that apply\nto a food or type of entity or exempt a food or type of entity from the requirements of this\nsubpart?\n(a) General.Except as specified inparagraph (b)of this section, FDA will modify the requirements of this\nsubpart applicable to a food or type of entity, or exempt a food or type of entity from the requirements of\nthis subpart, when we determine that application of the requirements that would otherwise apply to the\nfood or type of entity is not necessary to protect the public health.\n(b) Registered facilities.If a person to whom modified requirements or an exemption applies underparagraph\n(a)of this section (including a person who manufactures, processes, packs, or holds a food to which\nmodified requirements or an exemption applies underparagraph (a)of this section) is required to register\nwith FDA under section 415 of the Federal Food, Drug, and Cosmetic Act (and in accordance with the\nrequirements ofsubpart H of this part) with respect to the manufacturing, processing, packing, or holding\nof the applicable food, such person must maintain records identifying the immediate previous source of\nsuch food and the immediate subsequent recipient of such food in accordance with\u00a7\u00a7 1.337and1.345.\nSuch records must be maintained for 2 years.",
+      "summary": "\u00a7 1.1360 Under what circumstances will FDA modify the requirements in this subpart that apply to a food or type of entity or exempt a food or type of entity from the requirement...",
+      "citation": "\u00a71.1360",
+      "text_hash": "sha256:4a878e94ec8ce3ef6b63c30555e35410a3189c3764d7889d10586269d3477521",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1360",
+          "section": "\u00a71.1360",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 18,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1375-3",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1375 What information submitted in a petition requesting modified requirements or an",
+      "section": "\u00a71.1375",
+      "text": "\u00a7 1.1375 What information submitted in a petition requesting modified requirements or an\nexemption, or information in comments on such a petition, is publicly available?\nFDA will presume that information submitted in a petition requesting modified requirements or an exemption, as\nwell as information in comments submitted on such a petition, does not contain information exempt from public\ndisclosure underpart 20 of this chapterand will be made public as part of the docket associated with the petition.",
+      "summary": "\u00a7 1.1375 What information submitted in a petition requesting modified requirements or an exemption, or information in comments on such a petition, is publicly available? FDA wil...",
+      "citation": "\u00a71.1375",
+      "text_hash": "sha256:1e1f6d305b191c427d06f16c81f715e35269971bab3634b3d95620befa50cc3b",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1375",
+          "section": "\u00a71.1375",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 19,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1430-4",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1430 What information submitted in a petition requesting a waiver for a type of entity, or",
+      "section": "\u00a71.1430",
+      "text": "\u00a7 1.1430 What information submitted in a petition requesting a waiver for a type of entity, or\ninformation in comments on such a petition, is publicly available?\nFDA will presume that information submitted in a petition requesting a waiver for a type of entity, as well as\ninformation in comments submitted on such a petition, does not contain information exempt from public disclosure\nunderpart 20 of this chapterand will be made public as part of the docket associated with the petition.",
+      "summary": "\u00a7 1.1430 What information submitted in a petition requesting a waiver for a type of entity, or information in comments on such a petition, is publicly available? FDA will presum...",
+      "citation": "\u00a71.1430",
+      "text_hash": "sha256:4736c088766437f9205d0ec33d2675fc73ac30e5c196a06c48913fc900cf77cc",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1430",
+          "section": "\u00a71.1430",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 22,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1465-5",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1465 How will FDA update the Food Traceability List?",
+      "section": "\u00a71.1465",
+      "text": "\u00a7 1.1465 How will FDA update the Food Traceability List?\n(a) When FDA tentatively concludes, in accordance with section 204(d)(2) of the FDA Food Safety\nModernization Act, that it is appropriate to revise the Food Traceability List, we will publish a notice in the\nFEDERAL REGISTERstating the proposed changes to the list and the reasons for these changes and\nrequesting information and views on the proposed changes.\n(b) After considering any information and views submitted on the proposed changes to the Food Traceability\nList, FDA will publish a notice in theFEDERAL REGISTERstating whether we are making any changes to the\nlist and the reasons for the decision. If FDA revises the list, we will also publish the revised list on our\nwebsite.\n(c) When FDA updates the Food Traceability List in accordance with this section, any deletions from the list\nwill become effective immediately. Any additions to the list will become effective 2 years after the date of\npublication of theFEDERAL REGISTERnotice announcing the revised list, unless otherwise stated in the\nnotice.\n21 CFR 1.1465(c) (enhanced display) page 26 of 26",
+      "summary": "\u00a7 1.1465 How will FDA update the Food Traceability List? (a) When FDA tentatively concludes, in accordance with section 204(d)(2) of the FDA Food Safety Modernization Act, that ...",
+      "citation": "\u00a71.1465",
+      "text_hash": "sha256:30d247b049fa56a1be3241a95221cf59e7f0fe288d1f6ff89f723203e2fa740d",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1465",
+          "section": "\u00a71.1465",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 26,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1300-6",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1300 Who is subject to this subpart?",
+      "section": "\u00a71.1300",
+      "text": "\u00a7 1.1300 Who is subject to this subpart?\nExcept as otherwise specified in this subpart, the requirements in this subpart apply to persons who manufacture,\nprocess, pack, or hold foods that appear on the list of foods for which additional traceability records are required in\naccordance with section 204(d)(2) of the FDA Food Safety Modernization Act (Food Traceability List). FDA will\npublish the Food Traceability List on its website,www.fda.gov.,in accordance with section 204(d)(2)(B) of the FDA\nFood Safety Modernization Act.",
+      "summary": "\u00a7 1.1300 Who is subject to this subpart? Except as otherwise specified in this subpart, the requirements in this subpart apply to persons who manufacture, process, pack, or hold...",
+      "citation": "\u00a71.1300",
+      "text_hash": "sha256:727c65814664706b8711204b715b11761428671918bd8346712512aa452753a2",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1300",
+          "section": "\u00a71.1300",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1305-7",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1305 What foods and persons are exempt from this subpart?",
+      "section": "\u00a71.1305",
+      "text": "\u00a7 1.1305 What foods and persons are exempt from this subpart?\n(a) Exemptions for certain small producers.\n(1) Certain produce farms.\n(i) This subpart does not apply to farms or the farm activities of farm mixed-type facilities with\nrespect to the produce they grow, when the farm is not a covered farm underpart 112 of this\nchapterin accordance with\u00a7 112.4(a) of this chapter,\n(ii) This subpart does not apply to produce farms when the average annual sum of the monetary\nvalue of their sales of produce and the market value of produce they manufacture, process,\npack, or hold without sale (e.g.,held for a fee) during the previous 3-year period is no more than\n$25,000 (on a rolling basis), adjusted for inflation using 2020 as the baseline year for\ncalculating the adjustment.\n(2) Certain shell egg producers.This subpart does not apply to shell egg producers with fewer than 3,000\nlaying hens at a particular farm, with respect to the shell eggs they produce at that farm.\n(3) Certain other producers of raw agricultural commodities.This subpart does not apply to producers of\nraw agricultural commodities other than produce or shell eggs (e.g.,aquaculture operations) when\nthe average annual sum of the monetary value of their sales of raw agricultural commodities and the\nmarket value of the raw agricultural commodities they manufacture, process, pack, or hold without\nsale (e.g.,held for a fee) during the previous 3-year period is no more than $25,000 (on a rolling\nbasis), adjusted for inflation using 2020 as the baseline year for calculating the adjustment.\n(b) Exemption for farms when food is sold or donated directly to consumers.This subpart does not apply to a\nfarm with respect to food produced on the farm (including food that is also packaged on the farm) that is\nsold or donated directly to a consumer by the owner, operator, or agent in charge of the farm.\n(c) Inapplicability to certain food produced and packaged on a farm.This subpart does not apply to food\nproduced and packaged on a farm, provided that:\n(1) The packaging of the food remains in place until the food reaches the consumer, and such\npackaging maintains the integrity of the product and prevents subsequent contamination or\nalteration of the product; and\n(2) The labeling of the food that reaches the consumer includes the name, complete address (street\naddress, town, State, country, and zip or other postal code for a domestic farm and comparable\ninformation for a foreign farm), and business phone number of the farm on which the food was\nproduced and packaged. FDA will waive the requirement to include a business phone number, as\nappropriate, to accommodate a religious belief of the individual in charge of the farm.\n(d) Exemptions and partial exemptions for foods that receive certain types of processing.This subpart does\nnot apply to the following foods that receive certain types of processing:\n21 CFR 1.1305(d) (enhanced display) page 3 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1305(d)(1)\nAdditional Traceability Records for Certain Foods\n(1) Produce that receives commercial processing that adequately reduces the presence of\nmicroorganisms of public health significance, provided the conditions set forth in\u00a7 112.2(b) of this\nchapterare met for the produce;\n(2) Shell eggs when all eggs produced at the particular farm receive a treatment (as defined in\u00a7 118.3\nof this chapter) in accordance with\u00a7 118.1(a)(2) of this chapter;\n(3) Food that you subject to a kill step, provided that you maintain records containing:\n(i) The information specified in\u00a7 1.1345for your receipt of the food to which you apply the kill\nstep (unless you have entered into a written agreement concerning your application of a kill\nstep to the food in accordance withparagraph (d)(6)of this section); and\n(ii) A record of your application of the kill step;\n(4) Food that you change such that the food is no longer on the Food Traceability List, provided that you\nmaintain records containing the information specified in\u00a7 1.1345for your receipt of the food you\nchange (unless you have entered into a written agreement concerning your changing of the food\nsuch that the food is no longer on the Food Traceability List in accordance withparagraph (d)(6)of\nthis section);\n(5) Food that you receive that has previously been subjected to a kill step or that has previously been\nchanged such that the food is no longer on the Food Traceability List;\n(6) Food that will be subjected to a kill step by an entity other than a retail food establishment,\nrestaurant, or consumer; or that will be changed by an entity other than a retail food establishment,\nrestaurant, or consumer, such that the food will no longer be on the Food Traceability List, provided\nthat:\n(i) There is a written agreement between the shipper of the food and the receiver stating that the\nreceiver will apply a kill step to the food or change the food such that it is no longer on the Food\nTraceability List; or\n(ii) There is a written agreement between the shipper of the food and the receiver stating that an\nentity in the supply chain subsequent to the receiver will apply a kill step to the food or change\nthe food such that it is no longer on the Food Traceability List and that the receiver will only\nship the food to another entity that agrees, in writing, it will:\n(A) Apply a kill step to the food or change the food such that it is no longer on the Food\nTraceability List; or\n(B) Enter into a similar written agreement with a subsequent receiver stating that a kill step\nwill be applied to the food or that the food will be changed such that it is no longer on the\nFood Traceability List.\n(iii) A written agreement entered into in accordance withparagraph (d)(6)(i)or(ii)of this section\nmust include the effective date, printed names and signatures of the persons entering into the\nagreement, and the substance of the agreement; and\n(iv) A written agreement entered into in accordance with paragraph (d)(6)(i) or (ii) must be\nmaintained by both parties for as long as it is in effect and must be renewed at least once every\n3 years.\n21 CFR 1.1305(d)(6)(iv) (enhanced display) page 4 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1305(e)\nAdditional Traceability Records for Certain Foods\n(e) Exemption for produce that is rarely consumed raw.This subpart does not apply to produce that is listed as\nrarely consumed raw in\u00a7 112.2(a)(1) of this chapter.\n(f) Exemption for raw bivalve molluscan shellfish.This subpart does not apply to raw bivalve molluscan\nshellfish that are covered by the requirements of the National Shellfish Sanitation Program, subject to the\nrequirements of part 123, subpart C, and\u00a7 1240.60 of this chapter, or covered by a final equivalence\ndetermination by FDA for raw bivalve molluscan shellfish.\n(g) Exemption for persons who manufacture, process, pack, or hold certain foods subject to regulation by the\nU.S. Department of Agriculture (USDA).This subpart does not apply to persons who manufacture, process,\npack, or hold food on the Food Traceability List during or after the time when the food is within the\nexclusive jurisdiction of the USDA under the Federal Meat Inspection Act (21 U.S.C. 601et seq.), the\nPoultry Products Inspection Act (21 U.S.C. 451et seq.), or the Egg Products Inspection Act (21 U.S.C.\n1031et seq.).\n(h) Partial exemption for commingled raw agricultural commodities.\n(1) Except as specified inparagraph (h)(3)of this section, this subpart does not apply to commingled\nraw agricultural commodities (which, as defined in\u00a7 1.1310, do not include types of fruits and\nvegetables to which the standards for the growing, harvesting, packing, and holding of produce for\nhuman consumption inpart 112 of this chapterapply).\n(2) Except as specified inparagraph (h)(3)of this section, this subpart does not apply to a raw\nagricultural commodity that will become a commingled raw agricultural commodity, provided that:\n(i) There is a written agreement between the shipper of the raw agricultural commodity and the\nreceiver stating that the receiver will include the commodity as part of a commingled raw\nagricultural commodity; or\n(ii) There is a written agreement between the shipper of the raw agricultural commodity and the\nreceiver stating that an entity in the supply chain subsequent to the receiver will include the\ncommodity as part of a commingled raw agricultural commodity and that the receiver will only\nship the raw agricultural commodity to another entity that agrees, in writing, it will either:\n(A) Include the raw agricultural commodity as part of a commingled raw agricultural\ncommodity; or\n(B) Enter into a similar written agreement with a subsequent receiver stating that the raw\nagricultural commodity will become part of a commingled raw agricultural commodity;\n(iii) A written agreement entered into in accordance withparagraph (h)(2)(i)or(ii)of this section\nmust include the effective date, printed names and signatures of the persons entering into the\nagreement, and the substance of the agreement; and\n(iv) A written agreement entered into in accordance with paragraph (h)(2)(i) or (ii) must be\nmaintained by both parties for as long as it is in effect and must be renewed at least once every\n3 years;\n(3) With respect to a commingled raw agricultural commodity that qualifies for either of the exemptions\nset forth inparagraphs (h)(1)and(2)of this section, if a person who manufactures, processes,\npacks, or holds such commodity is required to register with FDA under section 415 of the Federal\nFood, Drug, and Cosmetic Act with respect to the manufacturing, processing, packing, or holding of\n21 CFR 1.1305(h)(3) (enhanced display) page 5 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1305(i)\nAdditional Traceability Records for Certain Foods\nthe applicable raw agricultural commodity, such person must maintain records identifying the\nimmediate previous source of such raw agricultural commodity and the immediate subsequent\nrecipient of such food in accordance with\u00a7\u00a7 1.337and1.345. Such records must be maintained for\n2 years.\n(i) Exemption for small retail food establishments and small restaurants.This subpart does not apply to retail\nfood establishments and restaurants with an average annual monetary value of food sold or provided\nduring the previous 3-year period of no more than $250,000 (on a rolling basis), adjusted for inflation\nusing 2020 as the baseline year for calculating the adjustment.\n(j) Partial exemption for retail food establishments and restaurants purchasing directly from a farm.\n(1) Except as specified inparagraph (j)(2)of this section, this subpart does not apply to a retail food\nestablishment or restaurant with respect to a food that is produced on a farm (including food\nproduced and packaged on the farm) and both sold and shipped directly to the retail food\nestablishment or restaurant by the owner, operator, or agent in charge of that farm.\n(2) When a retail food establishment or restaurant purchases a food directly from a farm in accordance\nwithparagraph (j)(1)of this section, the retail food establishment or restaurant must maintain a\nrecord documenting the name and address of the farm that was the source of the food. The retail\nfood establishment or restaurant must maintain such a record for 180 days.\n(k) Partial exemption for retail food establishments and restaurants making certain purchases from another\nretail food establishment or restaurant.\n(1) Except as specified inparagraph (k)(2)of this section, this subpart does not apply to either entity\nwhen a purchase is made by a retail food establishment or restaurant from another retail food\nestablishment or restaurant, and the purchase occurs on an ad hoc basis outside of the buyer's\nusual purchasing practice (e.g.,not pursuant to a contractual agreement to purchase food from the\nseller).\n(2) When a retail food establishment or restaurant purchases a food on the Food Traceability List from\nanother retail food establishment or restaurant in accordance withparagraph (k)(1)of this section,\nthe retail food establishment or restaurant that makes the purchase must maintain a record (e.g.,a\nsales receipt) documenting the name of the product purchased, the date of purchase, and the name\nand address of the place of purchase.\n(l) Partial exemption for farm to school and farm to institution programs.\n(1) Except as specified inparagraph (l)(2)of this section, this subpart does not apply to an institution\noperating a child nutrition program authorized under the Richard B. Russell National School Lunch\nAct or Section 4 of the Child Nutrition Act of 1966, or any other entity conducting a farm to school or\nfarm to institution program, with respect to a food that is produced on a farm (including food\nproduced and packaged on the farm) and sold or donated to the school or institution.\n(2) When a school or institution conducting a farm to school or farm to institution program obtains a\nfood from a farm in accordance withparagraph (l)(1)of this section, the school food authority or\nrelevant food procurement entity must maintain a record documenting the name and address of the\nfarm that was the source of the food. The school food authority or relevant food procurement entity\nmust maintain such record for 180 days.\n(m) Partial exemption for owners, operators, or agents in charge of fishing vessels.\n21 CFR 1.1305(m) (enhanced display) page 6 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1305(m)(1)\nAdditional Traceability Records for Certain Foods\n(1) Except as specified inparagraph (m)(2)of this section, with respect to a food that is obtained from a\nfishing vessel, this subpart does not apply to the owner, operator, or agent in charge of the fishing\nvessel, and this subpart also does not apply to persons who manufacture, process, pack, or hold the\nfood until such time as the food is sold by the owner, operator, or agent in charge of the fishing\nvessel.\n(2) With respect to any person who receives the partial exemption set forth inparagraph (m)(1)of this\nsection, if such person is required to register with FDA under section 415 of the Federal Food, Drug,\nand Cosmetic Act with respect to the manufacturing, processing, packing, or holding of the\napplicable food, such person must maintain records identifying the immediate previous source of\nsuch food and the immediate subsequent recipient of such food in accordance with\u00a7\u00a7 1.337and\n1.345. Such records must be maintained for 2 years.\n(n) Exemption for transporters.This subpart does not apply to transporters of food.\n(o) Exemption for nonprofit food establishments.This subpart does not apply to nonprofit food\nestablishments.\n(p) Exemption for persons who manufacture, process, pack, or hold food for personal consumption.This\nsubpart does not apply to persons who manufacture, process, pack, or hold food for personal\nconsumption.\n(q) Exemption for certain persons who hold food on behalf of individual consumers.This subpart does not\napply to persons who hold food on behalf of specific individual consumers, provided that these persons:\n(1) Are not parties to the transaction involving the food they hold; and\n(2) Are not in the business of distributing food.\n(r) Exemption for food for research or evaluation.This subpart does not apply to food for research or\nevaluation use, provided that such food:\n(1) Is not intended for retail sale and is not sold or distributed to the public; and\n(2) Is accompanied by the statement \u201cFood for research or evaluation use.\u201d\n[87 FR 71077, Nov. 21, 2022, as amended at88 FR 65815, Sept. 26, 2023]",
+      "summary": "\u00a7 1.1305 What foods and persons are exempt from this subpart? (a) Exemptions for certain small producers. (1) Certain produce farms. (i) This subpart does not apply to farms or ...",
+      "citation": "\u00a71.1305",
+      "text_hash": "sha256:706fe0949309b0b7f48cb0d8486a372f72ebe51c0b70a0bc81cd1e81a617c6d5",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1305",
+          "section": "\u00a71.1305",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1310-8",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1310 What definitions apply to this subpart?",
+      "section": "\u00a71.1310",
+      "text": "\u00a7 1.1310 What definitions apply to this subpart?\nThe definitions of terms in section 201 of the Federal Food, Drug, and Cosmetic Act apply to such terms when used\nin this subpart. In addition, the following definitions apply to words and phrases as they are used in this subpart:\nCommingled raw agricultural commodity means any commodity that is combined or mixed after harvesting but\nbefore processing, except that the term \u201ccommingled raw agricultural commodity\u201d does not include types\nof fruits and vegetables that are raw agricultural commodities to which the standards for the growing,\nharvesting, packing, and holding of produce for human consumption inpart 112 of this chapterapply. For\nthe purpose of this definition, a commodity is \u201ccombined or mixed\u201d only when the combination or mixing\ninvolves food from different farms under different company management; except that for food obtained\nfrom a fishing vessel, a commodity is \u201ccombined or mixed\u201d only when the combination or mixing involves\nfood from different landing vessels and occurs after the vessels have landed. Also, for the purpose of this\ndefinition, the term \u201cprocessing\u201d means operations that alter the general state of the commodity, such as\ncanning, cooking, freezing, dehydration, milling, grinding, pasteurization, or homogenization.\n21 CFR 1.1310 \u201cCommingled raw agricultural commodity\u201d (enhanced display) page 7 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1310 \u201cCooling\u201d\nAdditional Traceability Records for Certain Foods\nCooling means active temperature reduction of a raw agricultural commodity using hydrocooling, icing (except\nicing of seafood), forced air cooling, vacuum cooling, or a similar process.\nCritical tracking event means an event in the supply chain of a food involving the harvesting, cooling (before\ninitial packing), initial packing of a raw agricultural commodity other than a food obtained from a fishing\nvessel, first land-based receiving of a food obtained from a fishing vessel, shipping, receiving, or\ntransformation of the food.\nFarm means farm as defined in\u00a7 1.328. For producers of shell eggs, \u201cfarm\u201d means all poultry houses and\ngrounds immediately surrounding the poultry houses covered under a single biosecurity program, as set\nforth in\u00a7 118.3 of this chapter.\nFirst land-based receiver means the person taking possession of a food for the first time on land directly from a\nfishing vessel.\nFishing vessel means any vessel, boat, ship, or other craft which is used for, equipped to be used for, or of a type\nwhich is normally used for fishing or aiding or assisting one or more vessels at sea in the performance of\nany activity relating to fishing, including, but not limited to, preparation, supply, storage, refrigeration,\ntransportation, or processing, as set forth in the Magnuson-Stevens Fishery Conservation and\nManagement Act (16 U.S.C. 1802(18)).\nFood Traceability List means the list of foods for which additional traceability records are required to be\nmaintained, as designated in accordance with section 204(d)(2) of the FDA Food Safety Modernization\nAct. The term \u201cFood Traceability List\u201d includes both the foods specifically listed and foods that contain\nlisted foods as ingredients, provided that the listed food that is used as an ingredient remains in the same\nform (e.g.,fresh) in which it appears on the list.\nHarvesting applies to farms and farm mixed-type facilities and means activities that are traditionally performed\non farms for the purpose of removing raw agricultural commodities from the place they were grown or\nraised and preparing them for use as food. Harvesting is limited to activities performed on raw\nagricultural commodities, or on processed foods created by drying/dehydrating a raw agricultural\ncommodity without additional manufacturing/processing, on a farm. Harvesting does not include\nactivities that transform a raw agricultural commodity into a processed food as defined in section 201(gg)\nof the Federal Food, Drug, and Cosmetic Act. Examples of harvesting include cutting (or otherwise\nseparating) the edible portion of the raw agricultural commodity from the crop plant and removing or\ntrimming part of the raw agricultural commodity (e.g.,foliage, husks, roots, or stems). Examples of\nharvesting also include cooling, field coring, filtering, gathering, hulling, shelling, sifting, threshing,\ntrimming of outer leaves of, and washing raw agricultural commodities grown on a farm.\nHolding means storage of food and also includes activities performed incidental to storage of a food (e.g.,\nactivities performed for the safe or effective storage of that food, such as fumigating food during storage,\nand drying/dehydrating raw agricultural commodities when the drying/dehydrating does not create a\ndistinct commodity (such as drying/dehydrating hay or alfalfa)). Holding also includes activities\nperformed as a practical necessity for the distribution of that food (such as blending of the same raw\nagricultural commodity and breaking down pallets), but does not include activities that transform a raw\nagricultural commodity into a processed food as defined in section 201(gg) of the Federal Food, Drug, and\nCosmetic Act. Holding facilities could include warehouses, cold storage facilities, storage silos, grain\nelevators, and liquid storage tanks.\nInitial packing means packing a raw agricultural commodity (other than a food obtained from a fishing vessel)\nfor the first time.\n21 CFR 1.1310 \u201cInitial packing\u201d (enhanced display) page 8 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1310 \u201cKey data element\u201d\nAdditional Traceability Records for Certain Foods\nKey data element means information associated with a critical tracking event for which a record must be\nmaintained and/or provided in accordance with this subpart.\nKill step means lethality processing that significantly minimizes pathogens in a food.\nLocation description means key contact information for the location where a food is handled, specifically the\nbusiness name, phone number, physical location address (or geographic coordinates), and city, State, and\nzip code for domestic locations and comparable information for foreign locations, including country.\nManufacturing/processing means making food from one or more ingredients, or synthesizing, preparing,\ntreating, modifying, or manipulating food, including food crops or ingredients. Examples of\nmanufacturing/processing activities include: Baking, boiling, bottling, canning, cooking, cooling, cutting,\ndistilling, drying/dehydrating raw agricultural commodities to create a distinct commodity (such as\ndrying/dehydrating grapes to produce raisins), evaporating, eviscerating, extracting juice, formulating,\nfreezing, grinding, homogenizing, irradiating, labeling, milling, mixing, packaging (including modified\natmosphere packaging), pasteurizing, peeling, rendering, treating to manipulate ripening, trimming,\nwashing, or waxing. For farms and farm mixed-type facilities, manufacturing/processing does not include\nactivities that are part of harvesting, packing, or holding.\nMixed-type facility means an establishment that engages in both activities that are exempt from registration\nunder section 415 of the Federal Food, Drug, and Cosmetic Act and activities that require the\nestablishment to be registered. An example of such a facility is a \u201cfarm mixed-type facility,\u201d which is an\nestablishment that is a farm, but also conducts activities outside the farm definition that require the\nestablishment to be registered.\nNonprofit food establishment means a charitable entity that prepares or serves food directly to the consumer or\notherwise provides food or meals for consumption by humans or animals in the United States. The term\nincludes central food banks, soup kitchens, and nonprofit food delivery services. To be considered a\nnonprofit food establishment, the establishment must meet the terms of section 501(c)(3) of the U.S.\nInternal Revenue Code (26 U.S.C. 501(c)(3)).\nPacking means placing food into a container other than packaging the food and also includes re-packing and\nactivities performed incidental to packing or re-packing a food (e.g.,activities performed for the safe or\neffective packing or re-packing of that food (such as sorting, culling, grading, and weighing or conveying\nincidental to packing or re-packing)), but does not include activities that transform a raw agricultural\ncommodity into a processed food as defined in section 201(gg) of the Federal Food, Drug, and Cosmetic\nAct.\nPerson includes an individual, partnership, corporation, and association.\nPoint of contact means an individual having familiarity with an entity's procedures for traceability, including their\nname and/or job title, and their phone number.\nProduce means produce as defined in\u00a7 112.3 of this chapter.\nProduct description means a description of a food product and includes the product name (including, if\napplicable, the brand name, commodity, and variety), packaging size, and packaging style. For seafood,\nthe product name may include the species and/or acceptable market name.\nRaw agricultural commodity means \u201craw agricultural commodity\u201d as defined in section 201(r) of the Federal\nFood, Drug, and Cosmetic Act.\n21 CFR 1.1310 \u201cRaw agricultural commodity\u201d (enhanced display) page 9 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1310 \u201cReceiving\u201d\nAdditional Traceability Records for Certain Foods\nReceiving means an event in a food's supply chain in which a food is received by someone other than a\nconsumer after being transported (e.g.,by truck or ship) from another location. Receiving includes receipt\nof an intracompany shipment of food from one location at a particular street address of a firm to another\nlocation at a different street address of the firm.\nReference document means a business transaction document, record, or message, in electronic or paper form,\nthat may contain some or all of the key data elements for a critical tracking event in the supply chain of a\nfood. A reference document may be established by you or obtained from another person. Reference\ndocument types may include, but are not limited to, bills of lading, purchase orders, advance shipping\nnotices, work orders, invoices, database records, batch logs, production logs, field tags, catch certificates,\nand receipts.\nReference document number means the identification number assigned to a specific reference document.\nRestaurant means a facility that prepares and sells food directly to consumers for immediate consumption.\n\u201cRestaurant\u201d does not include facilities that provide food to interstate conveyances, central kitchens, and\nother similar facilities that do not prepare and serve food directly to consumers.\n(1) Entities in which food is provided to humans, such as cafeterias, lunchrooms, cafes, bistros, fast\nfood establishments, food stands, saloons, taverns, bars, lounges, catering facilities, hospital\nkitchens, day care kitchens, and nursing home kitchens are restaurants; and\n(2) Pet shelters, kennels, and veterinary facilities in which food is provided to animals are restaurants.\nRetail food establishment means an establishment that sells food products directly to consumers as its primary\nfunction. The term \u201cretail food establishment\u201d includes facilities that manufacture, process, pack, or hold\nfood if the establishment's primary function is to sell from that establishment food, including food that it\nmanufactures, processes, packs, or holds, directly to consumers. A retail food establishment's primary\nfunction is to sell food directly to consumers if the annual monetary value of sales of food products\ndirectly to consumers exceeds the annual monetary value of sales of food products to all other buyers.\nThe term \u201cconsumers\u201d does not include businesses. A \u201cretail food establishment\u201d includes grocery stores,\nconvenience stores, and vending machine locations. A \u201cretail food establishment\u201d also includes certain\nfarm-operated businesses selling food directly to consumers as their primary function.\n(1) Sale of food directly to consumers from an establishment located on a farm includes sales by that\nestablishment directly to consumers:\n(i) At a roadside stand (a stand situated on the side of or near a road or thoroughfare at which a\nfarmer sells food from his or her farm directly to consumers) or farmers' market (a location\nwhere one or more local farmers assemble to sell food from their farms directly to consumers);\n(ii) Through a community supported agriculture program. Community supported agriculture (CSA)\nprogram means a program under which a farmer or group of farmers grows food for a group of\nshareholders (or subscribers) who pledge to buy a portion of the farmer's crop(s) for that\nseason. This includes CSA programs in which a group of farmers consolidate their crops at a\ncentral location for distribution to shareholders or subscribers; and\n(iii) At other such direct-to-consumer sales platforms, including door-to-door sales; mail, catalog\nand internet order, including online farmers' markets and online grocery delivery; religious or\nother organization bazaars; and State and local fairs.\n(2) Sale of food directly to consumers by a farm-operated business includes the sale of food by that\nfarm-operated business directly to consumers:\n21 CFR 1.1310 \u201cRetail food establishment\u201d (2) (enhanced display) page 10 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1310 \u201cRetail food establishment\u201d (2)(i)\nAdditional Traceability Records for Certain Foods\n(i) At a roadside stand (a stand situated on the side of or near a road or thoroughfare at which a\nfarmer sells food from his or her farm directly to consumers) or farmers' market (a location\nwhere one or more local farmers assemble to sell food from their farms directly to consumers);\n(ii) Through a community supported agriculture program. Community supported agriculture (CSA)\nprogram means a program under which a farmer or group of farmers grows food for a group of\nshareholders (or subscribers) who pledge to buy a portion of the farmer's crop(s) for that\nseason. This includes CSA programs in which a group of farmers consolidate their crops at a\ncentral location for distribution to shareholders or subscribers; and\n(iii) At other such direct-to-consumer sales platforms, including door-to-door sales; mail, catalog\nand internet order, including online farmers' markets and online grocery delivery; religious or\nother organization bazaars; and State and local fairs.\n(3) For the purposes of this definition, \u201cfarm-operated business\u201d means a business that is managed by\none or more farms and conducts manufacturing/processing not on the farm(s).\nShipping means an event in a food's supply chain in which a food is arranged for transport (e.g.,by truck or ship)\nfrom one location to another location. Shipping does not include the sale or shipment of a food directly to\na consumer or the donation of surplus food. Shipping includes sending an intracompany shipment of\nfood from one location at a particular street address of a firm to another location at a different street\naddress of the firm.\nTraceability lot means a batch or lot of food that has been initially packed (for raw agricultural commodities\nother than food obtained from a fishing vessel), received by the first land-based receiver (for food\nobtained from a fishing vessel), or transformed.\nTraceability lot code means a descriptor, often alphanumeric, used to uniquely identify a traceability lot within\nthe records of the traceability lot code source.\nTraceability lot code source means the place where a food was assigned a traceability lot code.\nTraceability lot code source reference means an alternative method for providing FDA with access to the location\ndescription for the traceability lot code source as required under this subpart. Examples of a traceability\nlot code source reference include, but are not limited to, the FDA Food Facility Registration Number for the\ntraceability lot code source or a web address that provides FDA with the location description for the\ntraceability lot code source.\nTransformation means an event in a food's supply chain that involves manufacturing/processing a food or\nchanging a food (e.g.,by commingling, repacking, or relabeling) or its packaging or packing, when the\noutput is a food on the Food Traceability List. Transformation does not include the initial packing of a\nfood or activities preceding that event (e.g.,harvesting, cooling).\nTransporter means a person who has possession, custody, or control of an article of food for the sole purpose\nof transporting the food, whether by road, rail, water, or air.\nYou means a person subject to this subpart under\u00a7 1.1300.\nTRACEABILITY PLAN\n21 CFR 1.1310 \u201cYou\u201d (enhanced display) page 11 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1315\nAdditional Traceability Records for Certain Foods",
+      "summary": "\u00a7 1.1310 What definitions apply to this subpart? The definitions of terms in section 201 of the Federal Food, Drug, and Cosmetic Act apply to such terms when used in this subpar...",
+      "citation": "\u00a71.1310",
+      "text_hash": "sha256:70afff14ad304be05eef290635405bba5f1d25e3fac5cde2ddf7746ac88da3ac",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1310",
+          "section": "\u00a71.1310",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1315-9",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1315 What traceability plan must I have for foods on the Food Traceability List that I",
+      "section": "\u00a71.1315",
+      "text": "\u00a7 1.1315 What traceability plan must I have for foods on the Food Traceability List that I\nmanufacture, process, pack, or hold?\n(a) If you are subject to the requirements in this subpart, you must establish and maintain a traceability plan\ncontaining the following information:\n(1) A description of the procedures you use to maintain the records you are required to keep under this\nsubpart, including the format and location of these records.\n(2) A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n(3) A description of how you assign traceability lot codes to foods on the Food Traceability List in\naccordance with\u00a7 1.1320, if applicable;\n(4) A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n(5) If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n(i) Except as specified inparagraph (a)(5)(ii)of this section, the farm map must show the location\nand name of each field (or other growing area) in which you grow a food on the Food\nTraceability List, including geographic coordinates and any other information needed to identify\nthe location of each field or growing area.\n(ii) For aquaculture farms, the farm map must show the location and name of each container (e.g.,\npond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n(b) You must update your traceability plan as needed to ensure that the information provided reflects your\ncurrent practices and to ensure that you are in compliance with the requirements of this subpart. You\nmust retain your previous traceability plan for 2 years after you update the plan.",
+      "summary": "\u00a7 1.1315 What traceability plan must I have for foods on the Food Traceability List that I manufacture, process, pack, or hold? (a) If you are subject to the requirements in thi...",
+      "citation": "\u00a71.1315",
+      "text_hash": "sha256:e4d2eec2ffa2b4689281f1eae9bba212523dba8baa72b2e8e2451838e9f57e28",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1315",
+          "section": "\u00a71.1315",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 12,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1320-10",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1320 When must I assign traceability lot codes to foods on the Food Traceability List?",
+      "section": "\u00a71.1320",
+      "text": "\u00a7 1.1320 When must I assign traceability lot codes to foods on the Food Traceability List?\n(a) You must assign a traceability lot code when you do any of the following: Initially pack a raw agricultural\ncommodity other than a food obtained from a fishing vessel; perform the first land-based receiving of a\nfood obtained from a fishing vessel; or transform a food.\n(b) Except as otherwise specified in this subpart, you must not establish a new traceability lot code when you\nconduct other activities (e.g.,shipping) for a food on the Food Traceability List.\nRECORDS OF CRITICAL TRACKING EVENTS",
+      "summary": "\u00a7 1.1320 When must I assign traceability lot codes to foods on the Food Traceability List? (a) You must assign a traceability lot code when you do any of the following: Initiall...",
+      "citation": "\u00a71.1320",
+      "text_hash": "sha256:5a54d283a12c0a851189cc29ef5df4e51f8635c03fb1de80f00ff86d290b98c0",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1320",
+          "section": "\u00a71.1320",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 12,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1325-11",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1325 What records must I keep and provide when I harvest or cool a raw agricultural",
+      "section": "\u00a71.1325",
+      "text": "\u00a7 1.1325 What records must I keep and provide when I harvest or cool a raw agricultural\ncommodity on the Food Traceability List?\n(a) Harvesting.\n(1) For each raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability\nList that you harvest, you must maintain records containing the following information:\n21 CFR 1.1325(a)(1) (enhanced display) page 12 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1325(a)(1)(i)\nAdditional Traceability Records for Certain Foods\n(i) The location description for the immediate subsequent recipient (other than a transporter) of\nthe food;\n(ii) The commodity and, if applicable, variety of the food;\n(iii) The quantity and unit of measure of the food (e.g.,75 bins, 200 pounds);\n(iv) The location description for the farm where the food was harvested;\n(v) For produce, the name of the field or other growing area from which the food was harvested\n(which must correspond to the name used by the grower), or other information identifying the\nharvest location at least as precisely as the field or other growing area name;\n(vi) For aquacultured food, the name of the container (e.g.,pond, pool, tank, cage) from which the\nfood was harvested (which must correspond to the container name used by the aquaculture\nfarmer) or other information identifying the harvest location at least as precisely as the\ncontainer name;\n(vii) The date of harvesting; and\n(viii) The reference document type and reference document number.\n(2) For each raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability\nList that you harvest, you must provide (in electronic, paper, or other written form) your business\nname, phone number, and the information inparagraphs (a)(1)(i)through(vii)of this section to the\ninitial packer of the raw agricultural commodity you harvest, either directly or through the supply\nchain.\n(b) Cooling before initial packing.\n(1) For each raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability\nList that you cool before it is initially packed, you must maintain records containing the following\ninformation:\n(i) The location description for the immediate subsequent recipient (other than a transporter) of\nthe food;\n(ii) The commodity and, if applicable, variety of the food;\n(iii) The quantity and unit of measure of the food (e.g.,75 bins, 200 pounds);\n(iv) The location description for where you cooled the food;\n(v) The date of cooling;\n(vi) The location description for the farm where the food was harvested; and\n(vii) The reference document type and reference document number.\n(2) For each raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability\nList that you cool before it is initially packed, you must provide (in electronic, paper, or other written\nform) the information inparagraphs (b)(1)(i)through(vi)of this section to the initial packer of the\nraw agricultural commodity you cool, either directly or through the supply chain.\n21 CFR 1.1325(b)(2) (enhanced display) page 13 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1330\nAdditional Traceability Records for Certain Foods",
+      "summary": "\u00a7 1.1325 What records must I keep and provide when I harvest or cool a raw agricultural commodity on the Food Traceability List? (a) Harvesting. (1) For each raw agricultural co...",
+      "citation": "\u00a71.1325",
+      "text_hash": "sha256:752b65305f8cd9324c4f6e6514a667e7bf13eacaaceac94b3a40ec09e4ccf25e",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1325",
+          "section": "\u00a71.1325",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 12,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1335-12",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1335 What records must I keep when I am the first land-based receiver of a food on the Food",
+      "section": "\u00a71.1335",
+      "text": "\u00a7 1.1335 What records must I keep when I am the first land-based receiver of a food on the Food\nTraceability List that was obtained from a fishing vessel?\nFor each traceability lot of a food obtained from a fishing vessel for which you are the first land-based receiver, you\nmust maintain records containing the following information and linking this information to the traceability lot:\n(a) The traceability lot code you assigned;\n(b) The species and/or acceptable market name for unpackaged food, or the product description for\npackaged food;\n(c) The quantity and unit of measure of the food (e.g.,300 kg);\n(d) The harvest date range and locations (as identified under the National Marine Fisheries Service Ocean\nGeographic Code, the United Nations Food and Agriculture Organization Major Fishing Area list, or any\nother widely recognized geographical location standard) for the trip during which the food was caught;\n21 CFR 1.1335(d) (enhanced display) page 15 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1335(e)\nAdditional Traceability Records for Certain Foods\n(e) The location description for the first land-based receiver (i.e.,the traceability lot code source), and (if\napplicable) the traceability lot code source reference;\n(f) The date the food was landed; and\n(g) The reference document type and reference document number.",
+      "summary": "\u00a7 1.1335 What records must I keep when I am the first land-based receiver of a food on the Food Traceability List that was obtained from a fishing vessel? For each traceability ...",
+      "citation": "\u00a71.1335",
+      "text_hash": "sha256:72478b94aa146cb9410a2fdec0e75710bcb95f26607a248f39d118f61b0946e0",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1335",
+          "section": "\u00a71.1335",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 15,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1340-13",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1340 What records must I keep and provide when I ship a food on the Food Traceability List?",
+      "section": "\u00a71.1340",
+      "text": "\u00a7 1.1340 What records must I keep and provide when I ship a food on the Food Traceability List?\n(a) For each traceability lot of a food on the Food Traceability List you ship, you must maintain records\ncontaining the following information and linking this information to the traceability lot:\n(1) The traceability lot code for the food;\n(2) The quantity and unit of measure of the food (e.g.,6 cases, 25 reusable plastic containers, 100 tanks,\n200 pounds);\n(3) The product description for the food;\n(4) The location description for the immediate subsequent recipient (other than a transporter) of the\nfood;\n(5) The location description for the location from which you shipped the food;\n(6) The date you shipped the food;\n(7) The location description for the traceability lot code source, or the traceability lot code source\nreference; and\n(8) The reference document type and reference document number.\n(b) You must provide (in electronic, paper, or other written form) the information inparagraphs (a)(1)through\n(7)of this section to the immediate subsequent recipient (other than a transporter) of each traceability lot\nthat you ship.\n(c) This section does not apply to the shipment of a food that occurs before the food is initially packed (if the\nfood is a raw agricultural commodity not obtained from a fishing vessel).",
+      "summary": "\u00a7 1.1340 What records must I keep and provide when I ship a food on the Food Traceability List? (a) For each traceability lot of a food on the Food Traceability List you ship, y...",
+      "citation": "\u00a71.1340",
+      "text_hash": "sha256:dc23bcfc9242a428d7e987860fc28d6a7e3b84dec8e0d370b24e700a91cf9126",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1340",
+          "section": "\u00a71.1340",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 16,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1345-14",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1345 What records must I keep when I receive a food on the Food Traceability List?",
+      "section": "\u00a71.1345",
+      "text": "\u00a7 1.1345 What records must I keep when I receive a food on the Food Traceability List?\n(a) Except as specified inparagraphs (b)and(c)of this section, for each traceability lot of a food on the Food\nTraceability List you receive, you must maintain records containing the following information and linking\nthis information to the traceability lot:\n(1) The traceability lot code for the food;\n(2) The quantity and unit of measure of the food (e.g.,6 cases, 25 reusable plastic containers, 100 tanks,\n200 pounds);\n(3) The product description for the food;\n(4) The location description for the immediate previous source (other than a transporter) for the food;\n(5) The location description for where the food was received;\n(6) The date you received the food;\n21 CFR 1.1345(a)(6) (enhanced display) page 16 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1345(a)(7)\nAdditional Traceability Records for Certain Foods\n(7) The location description for the traceability lot code source, or the traceability lot code source\nreference; and\n(8) The reference document type and reference document number.\n(b) For each traceability lot of a food on the Food Traceability List you receive from a person to whom this\nsubpart does not apply, you must maintain records containing the following information and linking this\ninformation to the traceability lot:\n(1) The traceability lot code for the food, which you must assign if one has not already been assigned\n(except that this paragraph does not apply if you are a retail food establishment or restaurant);\n(2) The quantity and unit of measure of the food (e.g.,6 cases, 25 reusable plastic containers, 100 tanks,\n200 pounds);\n(3) The product description for the food;\n(4) The location description for the immediate previous source (other than a transporter) for the food;\n(5) The location description for where the food was received (i.e.,the traceability lot code source), and\n(if applicable) the traceability lot code source reference;\n(6) The date you received the food; and\n(7) The reference document type and reference document number.\n(c) This section does not apply to receipt of a food that occurs before the food is initially packed (if the food\nis a raw agricultural commodity not obtained from a fishing vessel) or to the receipt of a food by the first\nland-based receiver (if the food is obtained from a fishing vessel).",
+      "summary": "\u00a7 1.1345 What records must I keep when I receive a food on the Food Traceability List? (a) Except as specified inparagraphs (b)and(c)of this section, for each traceability lot o...",
+      "citation": "\u00a71.1345",
+      "text_hash": "sha256:62acff21143771513abf9c475ba4b157ee0f72cf6210856308f355673b555a54",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1345",
+          "section": "\u00a71.1345",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 16,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1350-15",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1350 What records must I keep when I transform a food on the Food Traceability List?",
+      "section": "\u00a71.1350",
+      "text": "\u00a7 1.1350 What records must I keep when I transform a food on the Food Traceability List?\n(a) Except as specified inparagraphs (b)and(c)of this section, for each new traceability lot of food you\nproduce through transformation, you must maintain records containing the following information and\nlinking this information to the new traceability lot:\n(1) For the food on the Food Traceability List used in transformation (if applicable), the following\ninformation:\n(i) The traceability lot code for the food;\n(ii) The product description for the food to which the traceability lot code applies; and\n(iii) For each traceability lot used, the quantity and unit of measure of the food used from that lot.\n(2) For the food produced through transformation, the following information:\n(i) The new traceability lot code for the food;\n(ii) The location description for where you transformed the food (i.e.,the traceability lot code\nsource), and (if applicable) the traceability lot code source reference;\n(iii) The date transformation was completed;\n(iv) The product description for the food;\n(v) The quantity and unit of measure of the food (e.g.,6 cases, 25 reusable plastic containers, 100\ntanks, 200 pounds); and\n21 CFR 1.1350(a)(2)(v) (enhanced display) page 17 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1350(a)(2)(vi)\nAdditional Traceability Records for Certain Foods\n(vi) The reference document type and reference document number for the transformation event.\n(b) For each traceability lot produced through transformation of a raw agricultural commodity (other than a\nfood obtained from a fishing vessel) on the Food Traceability List that was not initially packed prior to\nyour transformation of the food, you must maintain records containing the information specified in\u00a7\n1.1330(a)or(c), and, if the raw agricultural commodity is sprouts, the information specified in\u00a7\n1.1330(b).\n(c) Paragraphs (a)and(b)of this section do not apply to retail food establishments and restaurants with\nrespect to foods they do not ship (e.g.,foods they sell or send directly to consumers).\nPROCEDURES FOR MODIFIED REQUIREMENTS AND EXEMPTIONS",
+      "summary": "\u00a7 1.1350 What records must I keep when I transform a food on the Food Traceability List? (a) Except as specified inparagraphs (b)and(c)of this section, for each new traceability...",
+      "citation": "\u00a71.1350",
+      "text_hash": "sha256:a2bced996b0f94b064d40a00efe240f52f1e62e95016fb0b4f1c518ee6927002",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1350",
+          "section": "\u00a71.1350",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 17,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1365-16",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1365 When will FDA consider whether to adopt modified requirements or grant an",
+      "section": "\u00a71.1365",
+      "text": "\u00a7 1.1365 When will FDA consider whether to adopt modified requirements or grant an\nexemption from the requirements of this subpart?\nFDA will consider modifying the requirements of this subpart applicable to a food or type of entity, or exempting a\nfood or type of entity from the requirements of this subpart, on our own initiative or in response to a citizen petition\nsubmitted under\u00a7 10.30 of this chapterby any interested party.",
+      "summary": "\u00a7 1.1365 When will FDA consider whether to adopt modified requirements or grant an exemption from the requirements of this subpart? FDA will consider modifying the requirements ...",
+      "citation": "\u00a71.1365",
+      "text_hash": "sha256:7446308c0abcc12be217df96a8077c4b6c7b2192c34f560db68b3a8de84c29cd",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1365",
+          "section": "\u00a71.1365",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 18,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1370-17",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1370 What must be included in a petition requesting modified requirements or an",
+      "section": "\u00a71.1370",
+      "text": "\u00a7 1.1370 What must be included in a petition requesting modified requirements or an\nexemption from the requirements?\nIn addition to meeting the requirements on the content and format of a citizen petition in\u00a7 10.30 of this chapter, a\npetition requesting modified requirements or an exemption from the requirements of this subpart must:\n(a) Specify the food or type of entity to which the modified requirements or exemption would apply;\n(b) If the petition requests modified requirements, specify the proposed modifications to the requirements of\nthis subpart; and\n(c) Present information demonstrating why application of the requirements requested to be modified or from\nwhich exemption is requested is not necessary to protect the public health.\n21 CFR 1.1370(c) (enhanced display) page 18 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1375\nAdditional Traceability Records for Certain Foods",
+      "summary": "\u00a7 1.1370 What must be included in a petition requesting modified requirements or an exemption from the requirements? In addition to meeting the requirements on the content and f...",
+      "citation": "\u00a71.1370",
+      "text_hash": "sha256:5c9f07c260f3b0d83fda901b81bb7513782a651e267f5e89ffe489201bf651da",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1370",
+          "section": "\u00a71.1370",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 18,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1380-18",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1380 What process applies to a petition requesting modified requirements or an exemption?",
+      "section": "\u00a71.1380",
+      "text": "\u00a7 1.1380 What process applies to a petition requesting modified requirements or an exemption?\n(a) In general, the procedures set forth in\u00a7 10.30 of this chaptergovern FDA's response to a petition\nrequesting modified requirements or an exemption. An interested person may submit comments on such\na petition in accordance with\u00a7 10.30(d) of this chapter.\n(b) Under\u00a7 10.30(h)(3) of this chapter, FDA will publish a notice in theFEDERAL REGISTERrequesting\ninformation and views on a submitted petition, including information and views from persons who could\nbe affected by the modified requirements or exemption if we granted the petition.\n(c) Under\u00a7 10.30(e)(3) of this chapter, we will respond to the petitioner in writing, as follows:\n(1) If we grant the petition either in whole or in part, we will publish a notice in theFEDERAL REGISTER\nsetting forth any modified requirements or exemptions and the reasons for them.\n(2) If we deny the petition (including a partial denial), our written response to the petitioner will explain\nthe reasons for the denial.\n(d) We will make readily accessible to the public, and periodically update, a list of petitions requesting\nmodified requirements or exemptions, including the status of each petition (for example, pending,\ngranted, or denied).",
+      "summary": "\u00a7 1.1380 What process applies to a petition requesting modified requirements or an exemption? (a) In general, the procedures set forth in\u00a7 10.30 of this chaptergovern FDA's resp...",
+      "citation": "\u00a71.1380",
+      "text_hash": "sha256:7c07f395a6b967a55436537538baa6a1325e78c529a454d8f9b7c86508c66a41",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1380",
+          "section": "\u00a71.1380",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 19,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1385-19",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1385 What process will FDA follow when adopting modified requirements or granting an",
+      "section": "\u00a71.1385",
+      "text": "\u00a7 1.1385 What process will FDA follow when adopting modified requirements or granting an\nexemption on our own initiative?\n(a) If FDA, on our own initiative, determines that adopting modified requirements or granting an exemption\nfrom the requirements for a food or type of entity is appropriate, we will publish a notice in theFEDERAL\nREGISTERsetting forth the proposed modified requirements or exemption and the reasons for the\nproposal. The notice will establish a public docket so that interested persons may submit written\ncomments on the proposal.\n(b) After considering any comments timely submitted, we will publish a notice in theFEDERAL REGISTERstating\nwhether we are adopting modified requirements or granting an exemption, and the reasons for our\ndecision.",
+      "summary": "\u00a7 1.1385 What process will FDA follow when adopting modified requirements or granting an exemption on our own initiative? (a) If FDA, on our own initiative, determines that adop...",
+      "citation": "\u00a71.1385",
+      "text_hash": "sha256:7633cdee245a3c0b71d43227ae2470d9436bd61040642ace5099fc67e769fb2e",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1385",
+          "section": "\u00a71.1385",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 19,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1390-20",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1390 When will modified requirements that we adopt or an exemption that we grant become",
+      "section": "\u00a71.1390",
+      "text": "\u00a7 1.1390 When will modified requirements that we adopt or an exemption that we grant become\neffective?\nAny modified requirements that FDA adopts or exemption that we grant will become effective on the date that\nnotice of the modified requirements or exemption is published in theFEDERAL REGISTER,unless otherwise stated in\nthe notice.\n21 CFR 1.1390 (enhanced display) page 19 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1395\nAdditional Traceability Records for Certain Foods",
+      "summary": "\u00a7 1.1390 When will modified requirements that we adopt or an exemption that we grant become effective? Any modified requirements that FDA adopts or exemption that we grant will ...",
+      "citation": "\u00a71.1390",
+      "text_hash": "sha256:ecff6d61f7d0da37ea5b53710bfeb0630bc611724ced3d2b7e42faaaaa6edb61",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1390",
+          "section": "\u00a71.1390",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 19,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1395-21",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1395 Under what circumstances may FDA revise or revoke modified requirements or an",
+      "section": "\u00a71.1395",
+      "text": "\u00a7 1.1395 Under what circumstances may FDA revise or revoke modified requirements or an\nexemption?\nFDA may revise or revoke modified requirements or an exemption if we determine that such revision or revocation is\nnecessary to protect the public health.",
+      "summary": "\u00a7 1.1395 Under what circumstances may FDA revise or revoke modified requirements or an exemption? FDA may revise or revoke modified requirements or an exemption if we determine ...",
+      "citation": "\u00a71.1395",
+      "text_hash": "sha256:524085da726c25f6fcab6648d7fd0089088e76715e0c1dcd4d1f5da991f80385",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1395",
+          "section": "\u00a71.1395",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 20,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1400-22",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1400 What procedures apply if FDA tentatively determines that modified requirements or",
+      "section": "\u00a71.1400",
+      "text": "\u00a7 1.1400 What procedures apply if FDA tentatively determines that modified requirements or\nan exemption should be revised or revoked?\n(a) If FDA tentatively determines that we should revise or revoke modified requirements or an exemption, we\nwill provide the following notifications:\n(1) We will notify the person that originally requested the modified requirements or exemption (if we\nadopted modified requirements or granted an exemption in response to a petition) in writing at the\naddress identified in the petition; and\n(2) We will publish a notice in theFEDERAL REGISTERof our tentative determination that the modified\nrequirements or exemption should be revised or revoked and the reasons for our tentative decision.\nThe notice will establish a public docket so that interested persons may submit written comments\non our tentative determination.\n(b) After considering any comments timely submitted, we will publish a notice in theFEDERAL REGISTERof our\ndecision whether to revise or revoke the modified requirements or exemption and the reasons for the\ndecision. If we do revise or revoke the modified requirements or exemption, the effective date of the\ndecision will be 1 year after the date of publication of the notice, unless otherwise stated in the notice.\nWAIVERS",
+      "summary": "\u00a7 1.1400 What procedures apply if FDA tentatively determines that modified requirements or an exemption should be revised or revoked? (a) If FDA tentatively determines that we s...",
+      "citation": "\u00a71.1400",
+      "text_hash": "sha256:3aaa75c364c8db57fb914a810d0a93358718b9fc8698e5193efed06b04bb77f3",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1400",
+          "section": "\u00a71.1400",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 20,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1405-23",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1405 Under what circumstances will FDA waive one or more of the requirements of this",
+      "section": "\u00a71.1405",
+      "text": "\u00a7 1.1405 Under what circumstances will FDA waive one or more of the requirements of this\nsubpart for an individual entity or a type of entity?\nFDA will waive one or more of the requirements of this subpart when we determine that:\n(a) Application of the requirements would result in an economic hardship for an individual entity or a type of\nentity, due to the unique circumstances of the individual entity or type of entity;\n(b) The waiver will not significantly impair our ability to rapidly and effectively identify recipients of a food to\nprevent or mitigate a foodborne illness outbreak or to address credible threats of serious adverse health\nconsequences or death to humans or animals as a result of such food being adulterated under section\n402 of the Federal Food, Drug, and Cosmetic Act or misbranded under section 403(w) of the Federal Food,\nDrug, and Cosmetic Act; and\n(c) The waiver will not otherwise be contrary to the public interest.",
+      "summary": "\u00a7 1.1405 Under what circumstances will FDA waive one or more of the requirements of this subpart for an individual entity or a type of entity? FDA will waive one or more of the ...",
+      "citation": "\u00a71.1405",
+      "text_hash": "sha256:38fda7c4f772eecd9ded66ad0dc9abd544faf63b369cc04a8cbabb05382851d1",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1405",
+          "section": "\u00a71.1405",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 20,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1410-24",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1410 When will FDA consider whether to waive a requirement of this subpart?",
+      "section": "\u00a71.1410",
+      "text": "\u00a7 1.1410 When will FDA consider whether to waive a requirement of this subpart?\nFDA will consider whether to waive a requirement of this subpart on our own initiative or in response to the\nfollowing:\n(a) A written request for a waiver for an individual entity; or\n21 CFR 1.1410(a) (enhanced display) page 20 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1410(b)\nAdditional Traceability Records for Certain Foods\n(b) A citizen petition requesting a waiver for a type of entity submitted under\u00a7 10.30 of this chapterby any\nperson subject to the requirements of this subpart.",
+      "summary": "\u00a7 1.1410 When will FDA consider whether to waive a requirement of this subpart? FDA will consider whether to waive a requirement of this subpart on our own initiative or in resp...",
+      "citation": "\u00a71.1410",
+      "text_hash": "sha256:5ad8d718cde561373a77a1ff023a8bdc76228d6a49ca0c809b3465681246cdc1",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1410",
+          "section": "\u00a71.1410",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 20,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1415-25",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1415 How may I request a waiver for an individual entity?",
+      "section": "\u00a71.1415",
+      "text": "\u00a7 1.1415 How may I request a waiver for an individual entity?\nYou may request a waiver of one or more requirements of this subpart for an individual entity by submitting a\nwritten request to the Food and Drug Administration as described atwww.fda.gov.The request for a waiver must\ninclude the following:\n(a) The name, address, and point of contact of the individual entity to which the waiver would apply;\n(b) The requirements of this subpart to which the waiver would apply;\n(c) Information demonstrating why application of the requirements requested to be waived would result in an\neconomic hardship for the entity, including information about the unique circumstances faced by the\nentity that result in unusual economic hardship from the application of these requirements;\n(d) Information demonstrating why the waiver will not significantly impair FDA's ability to rapidly and\neffectively identify recipients of a food to prevent or mitigate a foodborne illness outbreak or to address\ncredible threats of serious adverse health consequences or death to humans or animals as a result of\nsuch food being adulterated under section 402 of the Federal Food, Drug, and Cosmetic Act or\nmisbranded under section 403(w) of the Federal Food, Drug, and Cosmetic Act; and\n(e) Information demonstrating why the waiver would not otherwise be contrary to the public interest.",
+      "summary": "\u00a7 1.1415 How may I request a waiver for an individual entity? You may request a waiver of one or more requirements of this subpart for an individual entity by submitting a writt...",
+      "citation": "\u00a71.1415",
+      "text_hash": "sha256:7afa3a61f95e58aacc4769cf305b928ac55bc5f2bb49d2b6b06a2bde7873e920",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1415",
+          "section": "\u00a71.1415",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 21,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1420-26",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1420 What process applies to a request for a waiver for an individual entity?",
+      "section": "\u00a71.1420",
+      "text": "\u00a7 1.1420 What process applies to a request for a waiver for an individual entity?\n(a) After considering the information submitted in a request for a waiver for an individual entity, we will\nrespond in writing to the person that submitted the waiver request stating whether we are granting the\nwaiver (in whole or in part) and the reasons for the decision.\n(b) Any waiver for an individual entity that FDA grants will become effective on the date we issue our\nresponse to the waiver request, unless otherwise stated in the response.",
+      "summary": "\u00a7 1.1420 What process applies to a request for a waiver for an individual entity? (a) After considering the information submitted in a request for a waiver for an individual ent...",
+      "citation": "\u00a71.1420",
+      "text_hash": "sha256:a75575171e368e68135791c323322d780fbb7db6e2b4ad5ebfcc7827c9883d47",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1420",
+          "section": "\u00a71.1420",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 21,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1425-27",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1425 What must be included in a petition requesting a waiver for a type of entity?",
+      "section": "\u00a71.1425",
+      "text": "\u00a7 1.1425 What must be included in a petition requesting a waiver for a type of entity?\nIn addition to meeting the requirements on the content and format of a citizen petition in\u00a7 10.30 of this chapter, a\npetition requesting a waiver for a type of entity must:\n(a) Specify the type of entity to which the waiver would apply and the requirements of this subpart to which\nthe waiver would apply;\n(b) Present information demonstrating why application of the requirements requested to be waived would\nresult in an economic hardship for the type of entity, including information about the unique\ncircumstances faced by the type of entity that result in unusual economic hardship from the application\nof these requirements;\n(c) Present information demonstrating why the waiver will not significantly impair FDA's ability to rapidly and\neffectively identify recipients of a food to prevent or mitigate a foodborne illness outbreak or to address\ncredible threats of serious adverse health consequences or death to humans or animals as a result of\nsuch food being adulterated under section 402 of the Federal Food, Drug, and Cosmetic Act or\nmisbranded under section 403(w) of the Federal Food, Drug, and Cosmetic Act; and\n(d) Present information demonstrating why the waiver would not otherwise be contrary to the public interest.\n21 CFR 1.1425(d) (enhanced display) page 21 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1430\nAdditional Traceability Records for Certain Foods",
+      "summary": "\u00a7 1.1425 What must be included in a petition requesting a waiver for a type of entity? In addition to meeting the requirements on the content and format of a citizen petition in...",
+      "citation": "\u00a71.1425",
+      "text_hash": "sha256:0969cd5cb0f46ea290f1b141a9807a7337a842d6e1a66e28d191ce8eb8ae5183",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1425",
+          "section": "\u00a71.1425",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 21,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1435-28",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1435 What process applies to a petition requesting a waiver for a type of entity?",
+      "section": "\u00a71.1435",
+      "text": "\u00a7 1.1435 What process applies to a petition requesting a waiver for a type of entity?\n(a) In general, the procedures set forth in\u00a7 10.30 of this chaptergovern FDA's response to a petition\nrequesting a waiver. An interested person may submit comments on such a petition in accordance with\u00a7\n10.30(d) of this chapter.\n(b) Under\u00a7 10.30(h)(3) of this chapter, FDA will publish a notice in theFEDERAL REGISTERrequesting\ninformation and views on a submitted petition requesting a waiver for a type of entity, including\ninformation and views from persons who could be affected by the waiver if we granted the petition.\n(c) Under\u00a7 10.30(e)(3) of this chapter, we will respond to the petitioner in writing, as follows:\n(1) If we grant the petition either in whole or in part, we will publish a notice in theFEDERAL REGISTER\nsetting forth any requirements we have waived and the reasons for the waiver.\n(2) If we deny the petition (including a partial denial), our written response to the petitioner will explain\nthe reasons for the denial.\n(d) We will make readily accessible to the public, and periodically update, a list of petitions requesting waivers\nfor types of entities, including the status of each petition (for example, pending, granted, or denied).",
+      "summary": "\u00a7 1.1435 What process applies to a petition requesting a waiver for a type of entity? (a) In general, the procedures set forth in\u00a7 10.30 of this chaptergovern FDA's response to ...",
+      "citation": "\u00a71.1435",
+      "text_hash": "sha256:a3b74e87b401b653b20fc701ea519168ab5ee75c0621faa79ed6972f114638a0",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1435",
+          "section": "\u00a71.1435",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 22,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1440-29",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1440 What process will FDA follow when waiving a requirement of this subpart on our own",
+      "section": "\u00a71.1440",
+      "text": "\u00a7 1.1440 What process will FDA follow when waiving a requirement of this subpart on our own\ninitiative?\n(a) If FDA, on our own initiative, determines that a waiver of one or more requirements for an individual entity\nor type of entity is appropriate, we will publish a notice in theFEDERAL REGISTERsetting forth the proposed\nwaiver and the reasons for such waiver. The notice will establish a public docket so that interested\npersons may submit written comments on the proposal.\n(b) After considering any comments timely submitted, we will publish a notice in theFEDERAL REGISTERstating\nwhether we are granting the waiver (in whole or in part) and the reasons for our decision.\n(c) Any waiver for a type of entity that FDA grants will become effective on the date that notice of the waiver\nis published in theFEDERAL REGISTER,unless otherwise stated in the notice.",
+      "summary": "\u00a7 1.1440 What process will FDA follow when waiving a requirement of this subpart on our own initiative? (a) If FDA, on our own initiative, determines that a waiver of one or mor...",
+      "citation": "\u00a71.1440",
+      "text_hash": "sha256:79fa6a30507bf27a596f9c4243287b96648ce733c2089a0538d425b6d527cdb7",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1440",
+          "section": "\u00a71.1440",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 22,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1445-30",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1445 Under what circumstances may FDA modify or revoke a waiver?",
+      "section": "\u00a71.1445",
+      "text": "\u00a7 1.1445 Under what circumstances may FDA modify or revoke a waiver?\nFDA may modify or revoke a waiver if we determine that:\n(a) Compliance with the waived requirements would no longer impose a unique economic hardship on the\nindividual entity or type of entity to which the waiver applies;\n21 CFR 1.1445(a) (enhanced display) page 22 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1445(b)\nAdditional Traceability Records for Certain Foods\n(b) The waiver could significantly impair our ability to rapidly and effectively identify recipients of a food to\nprevent or mitigate a foodborne illness outbreak or to address credible threats of serious adverse health\nconsequences or death to humans or animals as a result of such food being adulterated under section\n402 of the Federal Food, Drug, and Cosmetic Act or misbranded under section 403(w) of the Federal Food,\nDrug, and Cosmetic Act; or\n(c) The waiver is otherwise contrary to the public interest.",
+      "summary": "\u00a7 1.1445 Under what circumstances may FDA modify or revoke a waiver? FDA may modify or revoke a waiver if we determine that: (a) Compliance with the waived requirements would no...",
+      "citation": "\u00a71.1445",
+      "text_hash": "sha256:a16ba0eddd73e29bbca2341b6e4540999a88d83f60fa3c026a7c70f2d1510004",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1445",
+          "section": "\u00a71.1445",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 22,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1450-31",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1450 What procedures apply if FDA tentatively determines that a waiver should be modified",
+      "section": "\u00a71.1450",
+      "text": "\u00a7 1.1450 What procedures apply if FDA tentatively determines that a waiver should be modified\nor revoked?\n(a) Waiver for an individual entity.\n(1) If FDA tentatively determines that we should modify or revoke a waiver for an individual entity, we will\nnotify the person that had received the waiver in writing of our tentative determination that the\nwaiver should be modified or revoked. The notice will provide the waiver recipient 60 days in which\nto submit information stating why the waiver should not be modified or revoked.\n(2) Upon consideration of any information submitted by the waiver recipient, we will respond in writing\nstating our decision whether to modify or revoke the waiver and the reasons for the decision. If we\nmodify or revoke the waiver, the effective date of the decision will be 1 year after the date of our\nresponse to the waiver recipient, unless otherwise stated in the response.\n(b) Waiver for a type of entity.\n(1) If FDA tentatively determines that we should modify or revoke a waiver for a type of entity, we will\nprovide the following notifications:\n(i) We will notify the person that originally requested the waiver (if we granted the waiver in\nresponse to a petition) in writing at the address identified in the petition.\n(ii) We will publish a notice in theFEDERAL REGISTERof our tentative determination that the waiver\nshould be modified or revoked and the reasons for our tentative decision. The notice will\nestablish a public docket so that interested persons may submit written comments on our\ntentative determination.\n(2) After considering any comments timely submitted, we will publish a notice in theFEDERAL REGISTERof\nour decision whether to modify or revoke the waiver and the reasons for the decision. If we do\nmodify or revoke the waiver, the effective date of the decision will be 1 year after the date of\npublication of the notice, unless otherwise stated in the notice.\nRECORDS MAINTENANCE AND AVAILABILITY",
+      "summary": "\u00a7 1.1450 What procedures apply if FDA tentatively determines that a waiver should be modified or revoked? (a) Waiver for an individual entity. (1) If FDA tentatively determines ...",
+      "citation": "\u00a71.1450",
+      "text_hash": "sha256:1e201e61061fa13c4c2f7703a84dfa3ff80faae5414db31e8a972103bb6d5eab",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1450",
+          "section": "\u00a71.1450",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 23,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1455-32",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1455 How must records required by this subpart be maintained and made available?",
+      "section": "\u00a71.1455",
+      "text": "\u00a7 1.1455 How must records required by this subpart be maintained and made available?\n(a) General requirements for records.\n(1) You must keep records as original paper or electronic records or true copies (such as photocopies,\npictures, scanned copies, or other accurate reproductions of the original records). Electronic records\nmay include valid, working electronic links to the information required to be maintained under this\nsubpart.\n(2) All records must be legible and stored to prevent deterioration or loss.\n21 CFR 1.1455(a)(2) (enhanced display) page 23 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1455(b)\nAdditional Traceability Records for Certain Foods\n(b) Establishment and maintenance of records by another entity.You may have another entity establish and\nmaintain records required under this subpart on your behalf, but you are responsible for ensuring that\nsuch records can be retrieved and provided onsite within 24 hours of request for official review.\n(c) Record availability.\n(1) You must make all records required under this subpart available to an authorized FDA representative,\nupon request, within 24 hours (or within some reasonable time to which FDA has agreed) after the\nrequest, along with any information needed to understand these records, such as internal or external\ncoding systems, glossaries, abbreviations, and a description of how the records you provide\ncorrespond to the information required under this subpart.\n(2) Offsite storage of records is permitted if such records can be retrieved and provided onsite within 24\nhours of request for official review. Electronic records are considered to be onsite if they are\naccessible from an onsite location.\n(3) When necessary to help FDA prevent or mitigate a foodborne illness outbreak, or to assist in the\nimplementation of a recall, or to otherwise address a threat to the public health, including but not\nlimited to situations where FDA has a reasonable belief that an article of food (and any other article\nof food that FDA reasonably believes is likely to be affected in a similar manner) presents a threat of\nserious adverse health consequences or death to humans or animals as a result of the food being\nadulterated under section 402 of the Federal Food, Drug, and Cosmetic Act or misbranded under\nsection 403(w) of the Federal Food, Drug, and Cosmetic Act, you must make available, within 24\nhours (or within some reasonable time to which FDA has agreed) of a request made in-person or\nremotely (e.g.,by phone) by an authorized FDA representative, the information you are required to\nmaintain under this subpart, for the foods and date ranges or traceability lot codes specified in the\nrequest.\n(i) If FDA's request for the information specified inparagraph (c)(3)of this section is made by\nphone, we will also provide the request to you in writing upon your request; however, you must\nprovide the requested information within 24 hours (or within some reasonable time to which\nFDA has agreed) of the phone request.\n(ii) Except as specified inparagraph (c)(3)(iii)and(iv)of this section, when the information\nrequested by FDA underparagraph (c)(3)of this section is information you are required to\nmaintain under\u00a7\u00a7 1.1325through1.1350, you must provide such information in an electronic\nsortable spreadsheet, along with any other information needed to understand the information\nin the spreadsheet.\n(iii) You may provide the information requested by FDA underparagraph (c)(3)of this section in a\nform other than an electronic sortable spreadsheet if you are:\n(A) A farm whose average annual sum of the monetary value of their sales of raw agricultural\ncommodities and the market value of raw agricultural commodities they manufacture,\nprocess, pack, or hold without sale (e.g.,held for a fee) during the previous 3-year period is\nno more than $250,000 (on a rolling basis), adjusted for inflation using 2020 as the\nbaseline year for calculating the adjustment;\n(B) A retail food establishment or restaurant with an average annual monetary value of food\nsold or provided during the previous 3-year period of no more than $1 million (on a rolling\nbasis), adjusted for inflation using 2020 as the baseline year for calculating the\nadjustment; or\n21 CFR 1.1455(c)(3)(iii)(B) (enhanced display) page 24 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1455(c)(3)(iii)(C)\nAdditional Traceability Records for Certain Foods\n(C) A person (other than a farm, retail food establishment, or restaurant) whose average\nannual sum of the monetary value of their sales of food and the market value of food they\nmanufacture, process, pack, or hold without sale (e.g.,held for a fee) during the previous\n3-year period is no more than $1 million (on a rolling basis), adjusted for inflation using\n2020 as the baseline year for calculating the adjustment.\n(iv) FDA will withdraw a request for an electronic sortable spreadsheet underparagraph (c)(3)(ii)of\nthis section, as appropriate, to accommodate a religious belief of a person asked to provide\nsuch a spreadsheet.\n(4) Upon FDA request, you must provide within a reasonable time an English translation of records\nrequired under this subpart maintained in a language other than English.\n(d) Record retention.Except as specified otherwise in this subpart, you must maintain records containing the\ninformation required by this subpart for 2 years from the date you created or obtained the records.\n(e) Electronic records.Records that are established or maintained to satisfy the requirements of this subpart\nand that meet the definition of electronic records in\u00a7 11.3(b)(6) of this chapterare exempt from the\nrequirements ofpart 11 of this chapter. Records that satisfy the requirements of this subpart, but that\nalso are required under other applicable statutory provisions or regulations, remain subject topart 11 of\nthis chapter, if not otherwise exempt.\n(f) Use of existing records.You do not need to duplicate existing records you have (e.g.,records that you keep\nin the ordinary course of business or that you maintain to comply with other Federal, State, Tribal,\nterritorial, or local regulations) if they contain the information required by this subpart. You may\nsupplement any such existing records as necessary to include all of the information required by this\nsubpart.\n(g) Use of multiple sets of records.You do not have to keep all of the information required by this subpart in a\nsingle set of records. However, your traceability plan must indicate the format and location of the records\nyou are required to keep under this subpart, in accordance with\u00a7 1.1315(a)(1).\n(h) Public disclosure.Records obtained by FDA in accordance with this subpart are subject to the disclosure\nrequirements underpart 20 of this chapter.\nCONSEQUENCES OF FAILURE TO COMPLY",
+      "summary": "\u00a7 1.1455 How must records required by this subpart be maintained and made available? (a) General requirements for records. (1) You must keep records as original paper or electro...",
+      "citation": "\u00a71.1455",
+      "text_hash": "sha256:e0cccdcbba4c394d0198e5a50b4f0a8ff93096633d2ebb1c5dba0b47671f5d10",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1455",
+          "section": "\u00a71.1455",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 23,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    },
+    {
+      "chunk_id": "ecfr-21-cfr-1-subpart-s-pdf-1-1460-33",
+      "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+      "section_label": "\u00a7 1.1460 What consequences could result from failing to comply with the requirements of this",
+      "section": "\u00a71.1460",
+      "text": "\u00a7 1.1460 What consequences could result from failing to comply with the requirements of this\nsubpart?\n(a) Prohibited act.The violation of any recordkeeping requirement under section 204 of the FDA Food Safety\nModernization Act, including the violation of any requirement of this subpart, is prohibited under section\n301(e) of the Federal Food, Drug, and Cosmetic Act, except when such violation is committed by a farm.\n(b) Refusal of admission.An article of food is subject to refusal of admission under section 801(a)(4) of the\nFederal Food, Drug, and Cosmetic Act if it appears that the recordkeeping requirements under section 204\nof the FDA Food Safety Modernization Act (other than the requirements under subsection (f) of that\nsection), including the requirements of this subpart, have not been complied with regarding such article.\nUPDATING THE FOOD TRACEABILITY LIST\n21 CFR 1.1460(b) (enhanced display) page 25 of 26\n21 CFR Part 1 Subpart S (up to date as of 6/12/2026)\n21 CFR 1.1465\nAdditional Traceability Records for Certain Foods",
+      "summary": "\u00a7 1.1460 What consequences could result from failing to comply with the requirements of this subpart? (a) Prohibited act.The violation of any recordkeeping requirement under sec...",
+      "citation": "\u00a71.1460",
+      "text_hash": "sha256:74d4da408f340437c2c70057168eb5599cd091b298e6c0fd41ec7ed042a068d1",
+      "anchors": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s-pdf",
+          "citation": "\u00a71.1460",
+          "section": "\u00a71.1460",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 25,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
+          "retrieved_at": "local-file",
+          "source_hash": "f296791c313cc30cb103b9575672439283a0a9e30b5efd9c95a0c6cb8af09cb1"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": {
+      "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+      "docket": "FDA-2014-N-0053",
+      "issued_date": "current_eCFR",
+      "applicability": "direct_core",
+      "trace_ready_priority": "must_ingest",
+      "source_role": "codified_legal_text",
+      "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+    },
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

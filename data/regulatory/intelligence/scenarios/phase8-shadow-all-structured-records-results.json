@@ -1,0 +1,657 @@
+[
+  {
+    "challenge_id": "unseen_web:romaine_salad_kit",
+    "name": "Fresh romaine salad kit through processor and foodservice DC",
+    "unseenInferenceStatus": "pass",
+    "shadowStructuredRecordStatus": "supported_with_drafts_and_rejected_noise",
+    "expectedCtes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "predictedCtes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "matchedRecordCount": 430,
+    "readyOrApprovedMatchedRecordCount": 420,
+    "rejectedMatchedRecordCount": 10,
+    "matchedCollectionCounts": {
+      "cte_definitions": 6,
+      "ftl_food_items": 4,
+      "kde_requirements": 72,
+      "obligations": 19,
+      "sortable_export_fields": 322,
+      "tlc_rules": 7
+    },
+    "matchedReviewStatusCounts": {
+      "needs_review": 420,
+      "rejected": 10
+    },
+    "matchedSourcePhaseCounts": {
+      "phase4_deterministic": 404,
+      "phase5_ai_assisted": 26
+    },
+    "readyCollectionCoverage": [
+      "cte_definitions",
+      "ftl_food_items",
+      "kde_requirements",
+      "obligations",
+      "sortable_export_fields",
+      "tlc_rules"
+    ],
+    "coverageByCte": {
+      "harvesting": {
+        "totalRecords": 46,
+        "readyOrApprovedRecords": 44,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 11,
+        "readyObligations": 7,
+        "readyTlcRules": 0,
+        "readySortableFields": 25
+      },
+      "cooling": {
+        "totalRecords": 47,
+        "readyOrApprovedRecords": 45,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 7,
+        "readyObligations": 7,
+        "readyTlcRules": 0,
+        "readySortableFields": 30
+      },
+      "initial_packing": {
+        "totalRecords": 172,
+        "readyOrApprovedRecords": 168,
+        "rejectedRecords": 4,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 23,
+        "readyObligations": 6,
+        "readyTlcRules": 3,
+        "readySortableFields": 135
+      },
+      "receiving": {
+        "totalRecords": 93,
+        "readyOrApprovedRecords": 90,
+        "rejectedRecords": 3,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 14,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 65
+      },
+      "transformation": {
+        "totalRecords": 53,
+        "readyOrApprovedRecords": 51,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 9,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 31
+      },
+      "shipping": {
+        "totalRecords": 57,
+        "readyOrApprovedRecords": 55,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 8,
+        "readyObligations": 7,
+        "readyTlcRules": 3,
+        "readySortableFields": 36
+      }
+    },
+    "rejectedRecordIds": [
+      "FSMA204-OBL-002",
+      "FSMA204-OBL-004",
+      "FSMA204-OBL-006",
+      "FSMA204-OBL-007",
+      "FSMA204-OBL-008",
+      "FSMA204-OBL-010",
+      "FSMA204-OBL-012",
+      "FSMA204-OBL-013",
+      "FSMA204-OBL-014",
+      "FSMA204-OBL-018"
+    ],
+    "interpretation": [
+      "The 550-record shadow corpus contains draft support for every expected non-plan CTE.",
+      "Matched rejected records are present; this is useful for diagnostics but unsafe for execution."
+    ]
+  },
+  {
+    "challenge_id": "unseen_web:fresh_mango_salsa",
+    "name": "Refrigerated fresh mango salsa made from FTL ingredients",
+    "unseenInferenceStatus": "pass",
+    "shadowStructuredRecordStatus": "supported_with_drafts_and_rejected_noise",
+    "expectedCtes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "predictedCtes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "matchedRecordCount": 190,
+    "readyOrApprovedMatchedRecordCount": 185,
+    "rejectedMatchedRecordCount": 5,
+    "matchedCollectionCounts": {
+      "cte_definitions": 3,
+      "ftl_food_items": 5,
+      "kde_requirements": 31,
+      "obligations": 12,
+      "sortable_export_fields": 132,
+      "tlc_rules": 7
+    },
+    "matchedReviewStatusCounts": {
+      "needs_review": 185,
+      "rejected": 5
+    },
+    "matchedSourcePhaseCounts": {
+      "phase4_deterministic": 171,
+      "phase5_ai_assisted": 19
+    },
+    "readyCollectionCoverage": [
+      "cte_definitions",
+      "ftl_food_items",
+      "kde_requirements",
+      "obligations",
+      "sortable_export_fields",
+      "tlc_rules"
+    ],
+    "coverageByCte": {
+      "receiving": {
+        "totalRecords": 93,
+        "readyOrApprovedRecords": 90,
+        "rejectedRecords": 3,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 14,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 65
+      },
+      "transformation": {
+        "totalRecords": 53,
+        "readyOrApprovedRecords": 51,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 9,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 31
+      },
+      "shipping": {
+        "totalRecords": 57,
+        "readyOrApprovedRecords": 55,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 8,
+        "readyObligations": 7,
+        "readyTlcRules": 3,
+        "readySortableFields": 36
+      }
+    },
+    "rejectedRecordIds": [
+      "FSMA204-OBL-010",
+      "FSMA204-OBL-012",
+      "FSMA204-OBL-013",
+      "FSMA204-OBL-014",
+      "FSMA204-OBL-018"
+    ],
+    "interpretation": [
+      "The 550-record shadow corpus contains draft support for every expected non-plan CTE.",
+      "Matched rejected records are present; this is useful for diagnostics but unsafe for execution."
+    ]
+  },
+  {
+    "challenge_id": "unseen_web:tomato_paste_shelf_stable",
+    "name": "Fresh tomatoes processed into shelf-stable canned tomato paste",
+    "unseenInferenceStatus": "gap",
+    "shadowStructuredRecordStatus": "supported_with_drafts_and_rejected_noise",
+    "expectedCtes": [
+      "receiving"
+    ],
+    "predictedCtes": [
+      "receiving",
+      "shipping"
+    ],
+    "matchedRecordCount": 94,
+    "readyOrApprovedMatchedRecordCount": 91,
+    "rejectedMatchedRecordCount": 3,
+    "matchedCollectionCounts": {
+      "cte_definitions": 1,
+      "ftl_food_items": 1,
+      "kde_requirements": 14,
+      "obligations": 9,
+      "sortable_export_fields": 65,
+      "tlc_rules": 4
+    },
+    "matchedReviewStatusCounts": {
+      "needs_review": 91,
+      "rejected": 3
+    },
+    "matchedSourcePhaseCounts": {
+      "phase4_deterministic": 81,
+      "phase5_ai_assisted": 13
+    },
+    "readyCollectionCoverage": [
+      "cte_definitions",
+      "ftl_food_items",
+      "kde_requirements",
+      "obligations",
+      "sortable_export_fields",
+      "tlc_rules"
+    ],
+    "coverageByCte": {
+      "receiving": {
+        "totalRecords": 93,
+        "readyOrApprovedRecords": 90,
+        "rejectedRecords": 3,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 14,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 65
+      }
+    },
+    "rejectedRecordIds": [
+      "FSMA204-OBL-012",
+      "FSMA204-OBL-013",
+      "FSMA204-OBL-018"
+    ],
+    "interpretation": [
+      "The unseen inference layer still produced a CTE prediction gap for this scenario.",
+      "The 550-record shadow corpus contains draft support for every expected non-plan CTE.",
+      "Matched rejected records are present; this is useful for diagnostics but unsafe for execution."
+    ]
+  },
+  {
+    "challenge_id": "unseen_web:refrigerated_smoked_salmon",
+    "name": "Fresh salmon transformed into refrigerated smoked salmon",
+    "unseenInferenceStatus": "pass",
+    "shadowStructuredRecordStatus": "supported_with_drafts_and_rejected_noise",
+    "expectedCtes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "predictedCtes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "matchedRecordCount": 189,
+    "readyOrApprovedMatchedRecordCount": 184,
+    "rejectedMatchedRecordCount": 5,
+    "matchedCollectionCounts": {
+      "cte_definitions": 3,
+      "ftl_food_items": 4,
+      "kde_requirements": 31,
+      "obligations": 12,
+      "sortable_export_fields": 132,
+      "tlc_rules": 7
+    },
+    "matchedReviewStatusCounts": {
+      "needs_review": 184,
+      "rejected": 5
+    },
+    "matchedSourcePhaseCounts": {
+      "phase4_deterministic": 170,
+      "phase5_ai_assisted": 19
+    },
+    "readyCollectionCoverage": [
+      "cte_definitions",
+      "ftl_food_items",
+      "kde_requirements",
+      "obligations",
+      "sortable_export_fields",
+      "tlc_rules"
+    ],
+    "coverageByCte": {
+      "receiving": {
+        "totalRecords": 93,
+        "readyOrApprovedRecords": 90,
+        "rejectedRecords": 3,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 14,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 65
+      },
+      "transformation": {
+        "totalRecords": 53,
+        "readyOrApprovedRecords": 51,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 9,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 31
+      },
+      "shipping": {
+        "totalRecords": 57,
+        "readyOrApprovedRecords": 55,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 8,
+        "readyObligations": 7,
+        "readyTlcRules": 3,
+        "readySortableFields": 36
+      }
+    },
+    "rejectedRecordIds": [
+      "FSMA204-OBL-010",
+      "FSMA204-OBL-012",
+      "FSMA204-OBL-013",
+      "FSMA204-OBL-014",
+      "FSMA204-OBL-018"
+    ],
+    "interpretation": [
+      "The 550-record shadow corpus contains draft support for every expected non-plan CTE.",
+      "Matched rejected records are present; this is useful for diagnostics but unsafe for execution."
+    ]
+  },
+  {
+    "challenge_id": "unseen_web:dockside_mahi_mahi",
+    "name": "Fresh mahi-mahi first received from a fishing vessel",
+    "unseenInferenceStatus": "gap",
+    "shadowStructuredRecordStatus": "supported_with_drafts_and_rejected_noise",
+    "expectedCtes": [
+      "first_land_based_receiving",
+      "shipping"
+    ],
+    "predictedCtes": [
+      "first_land_based_receiving",
+      "receiving",
+      "shipping"
+    ],
+    "matchedRecordCount": 96,
+    "readyOrApprovedMatchedRecordCount": 93,
+    "rejectedMatchedRecordCount": 3,
+    "matchedCollectionCounts": {
+      "cte_definitions": 2,
+      "ftl_food_items": 1,
+      "kde_requirements": 15,
+      "obligations": 10,
+      "sortable_export_fields": 62,
+      "tlc_rules": 6
+    },
+    "matchedReviewStatusCounts": {
+      "needs_review": 93,
+      "rejected": 3
+    },
+    "matchedSourcePhaseCounts": {
+      "phase4_deterministic": 80,
+      "phase5_ai_assisted": 16
+    },
+    "readyCollectionCoverage": [
+      "cte_definitions",
+      "ftl_food_items",
+      "kde_requirements",
+      "obligations",
+      "sortable_export_fields",
+      "tlc_rules"
+    ],
+    "coverageByCte": {
+      "first_land_based_receiving": {
+        "totalRecords": 46,
+        "readyOrApprovedRecords": 44,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 7,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 26
+      },
+      "shipping": {
+        "totalRecords": 57,
+        "readyOrApprovedRecords": 55,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 8,
+        "readyObligations": 7,
+        "readyTlcRules": 3,
+        "readySortableFields": 36
+      }
+    },
+    "rejectedRecordIds": [
+      "FSMA204-OBL-009",
+      "FSMA204-OBL-010",
+      "FSMA204-OBL-018"
+    ],
+    "interpretation": [
+      "The unseen inference layer still produced a CTE prediction gap for this scenario.",
+      "The 550-record shadow corpus contains draft support for every expected non-plan CTE.",
+      "Matched rejected records are present; this is useful for diagnostics but unsafe for execution."
+    ]
+  },
+  {
+    "challenge_id": "unseen_web:restaurant_fresh_papaya_romaine",
+    "name": "Restaurant receiving fresh papaya and romaine",
+    "unseenInferenceStatus": "gap",
+    "shadowStructuredRecordStatus": "supported_with_drafts_and_rejected_noise",
+    "expectedCtes": [
+      "receiving"
+    ],
+    "predictedCtes": [
+      "receiving",
+      "shipping"
+    ],
+    "matchedRecordCount": 97,
+    "readyOrApprovedMatchedRecordCount": 94,
+    "rejectedMatchedRecordCount": 3,
+    "matchedCollectionCounts": {
+      "cte_definitions": 1,
+      "ftl_food_items": 4,
+      "kde_requirements": 14,
+      "obligations": 9,
+      "sortable_export_fields": 65,
+      "tlc_rules": 4
+    },
+    "matchedReviewStatusCounts": {
+      "needs_review": 94,
+      "rejected": 3
+    },
+    "matchedSourcePhaseCounts": {
+      "phase4_deterministic": 84,
+      "phase5_ai_assisted": 13
+    },
+    "readyCollectionCoverage": [
+      "cte_definitions",
+      "ftl_food_items",
+      "kde_requirements",
+      "obligations",
+      "sortable_export_fields",
+      "tlc_rules"
+    ],
+    "coverageByCte": {
+      "receiving": {
+        "totalRecords": 93,
+        "readyOrApprovedRecords": 90,
+        "rejectedRecords": 3,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 14,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 65
+      }
+    },
+    "rejectedRecordIds": [
+      "FSMA204-OBL-012",
+      "FSMA204-OBL-013",
+      "FSMA204-OBL-018"
+    ],
+    "interpretation": [
+      "The unseen inference layer still produced a CTE prediction gap for this scenario.",
+      "The 550-record shadow corpus contains draft support for every expected non-plan CTE.",
+      "Matched rejected records are present; this is useful for diagnostics but unsafe for execution."
+    ]
+  },
+  {
+    "challenge_id": "unseen_web:refrigerated_peanut_butter",
+    "name": "Refrigerated peanut butter manufacturer",
+    "unseenInferenceStatus": "pass",
+    "shadowStructuredRecordStatus": "supported_with_drafts_and_rejected_noise",
+    "expectedCtes": [
+      "transformation",
+      "shipping"
+    ],
+    "predictedCtes": [
+      "transformation",
+      "shipping"
+    ],
+    "matchedRecordCount": 105,
+    "readyOrApprovedMatchedRecordCount": 102,
+    "rejectedMatchedRecordCount": 3,
+    "matchedCollectionCounts": {
+      "cte_definitions": 2,
+      "ftl_food_items": 3,
+      "kde_requirements": 17,
+      "obligations": 10,
+      "sortable_export_fields": 67,
+      "tlc_rules": 6
+    },
+    "matchedReviewStatusCounts": {
+      "needs_review": 102,
+      "rejected": 3
+    },
+    "matchedSourcePhaseCounts": {
+      "phase4_deterministic": 89,
+      "phase5_ai_assisted": 16
+    },
+    "readyCollectionCoverage": [
+      "cte_definitions",
+      "ftl_food_items",
+      "kde_requirements",
+      "obligations",
+      "sortable_export_fields",
+      "tlc_rules"
+    ],
+    "coverageByCte": {
+      "transformation": {
+        "totalRecords": 53,
+        "readyOrApprovedRecords": 51,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 9,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 31
+      },
+      "shipping": {
+        "totalRecords": 57,
+        "readyOrApprovedRecords": 55,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 8,
+        "readyObligations": 7,
+        "readyTlcRules": 3,
+        "readySortableFields": 36
+      }
+    },
+    "rejectedRecordIds": [
+      "FSMA204-OBL-010",
+      "FSMA204-OBL-014",
+      "FSMA204-OBL-018"
+    ],
+    "interpretation": [
+      "The 550-record shadow corpus contains draft support for every expected non-plan CTE.",
+      "Matched rejected records are present; this is useful for diagnostics but unsafe for execution."
+    ]
+  },
+  {
+    "challenge_id": "unseen_web:fresh_basil_repack",
+    "name": "Fresh basil repacked by a distributor",
+    "unseenInferenceStatus": "pass",
+    "shadowStructuredRecordStatus": "supported_with_drafts_and_rejected_noise",
+    "expectedCtes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "predictedCtes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "matchedRecordCount": 186,
+    "readyOrApprovedMatchedRecordCount": 181,
+    "rejectedMatchedRecordCount": 5,
+    "matchedCollectionCounts": {
+      "cte_definitions": 3,
+      "ftl_food_items": 1,
+      "kde_requirements": 31,
+      "obligations": 12,
+      "sortable_export_fields": 132,
+      "tlc_rules": 7
+    },
+    "matchedReviewStatusCounts": {
+      "needs_review": 181,
+      "rejected": 5
+    },
+    "matchedSourcePhaseCounts": {
+      "phase4_deterministic": 167,
+      "phase5_ai_assisted": 19
+    },
+    "readyCollectionCoverage": [
+      "cte_definitions",
+      "ftl_food_items",
+      "kde_requirements",
+      "obligations",
+      "sortable_export_fields",
+      "tlc_rules"
+    ],
+    "coverageByCte": {
+      "receiving": {
+        "totalRecords": 93,
+        "readyOrApprovedRecords": 90,
+        "rejectedRecords": 3,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 14,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 65
+      },
+      "transformation": {
+        "totalRecords": 53,
+        "readyOrApprovedRecords": 51,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 9,
+        "readyObligations": 6,
+        "readyTlcRules": 4,
+        "readySortableFields": 31
+      },
+      "shipping": {
+        "totalRecords": 57,
+        "readyOrApprovedRecords": 55,
+        "rejectedRecords": 2,
+        "readyCteDefinitions": 1,
+        "readyKdeRecords": 8,
+        "readyObligations": 7,
+        "readyTlcRules": 3,
+        "readySortableFields": 36
+      }
+    },
+    "rejectedRecordIds": [
+      "FSMA204-OBL-010",
+      "FSMA204-OBL-012",
+      "FSMA204-OBL-013",
+      "FSMA204-OBL-014",
+      "FSMA204-OBL-018"
+    ],
+    "interpretation": [
+      "The 550-record shadow corpus contains draft support for every expected non-plan CTE.",
+      "Matched rejected records are present; this is useful for diagnostics but unsafe for execution."
+    ]
+  }
+]

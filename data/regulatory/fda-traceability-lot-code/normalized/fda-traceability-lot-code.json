@@ -1,0 +1,560 @@
+{
+  "sourceId": "fda-traceability-lot-code",
+  "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+  "rawArtifact": "../data/regulatory/fda-traceability-lot-code/raw/fda-traceability-lot-code.html",
+  "rawTextHash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079",
+  "contentType": "text/html; charset=UTF-8",
+  "sectionsExtracted": 15,
+  "chunks": [
+    {
+      "chunk_id": "fda-traceability-lot-code-document-1",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "Document",
+      "section": "Document",
+      "text": "An official website of the United States government Search Menu Submit search",
+      "summary": "An official website of the United States government Search Menu Submit search",
+      "citation": "Document",
+      "text_hash": "sha256:fbf41eafb5be715e4f0895073152cdc7190c28c38499b0ed77573a218e2efda8",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "Document",
+          "section": "Document",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-traceability-lot-code-2",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "Traceability Lot Code",
+      "section": "Traceability Lot Code",
+      "text": "| | | | The goal of the Food Traceability rule is to ensure Key Data Elements (KDEs) can be maintained across the supply chain for more efficient and effective tracing while providing firms flexibility within their existing tracing systems. The traceability lot code (TLC) is an integral component of the rule\u2019s requirements. It links to the other KDEs required, including the TLC Source, which provides the physical location where the traceability lot code for an FTL food was assigned. Requiring documentation of traceability lot codes and traceability lot code sources enables FDA to identify the source of the food faster \u2013 by enabling FDA to skip steps in the supply chain, link a food to the firms that have handled it, and ultimately lead FDA back to the source of the food during an outbreak investigation. Here\u2019s a closer look at traceability lot code, traceability lot code source, and traceability lot code source reference.",
+      "summary": "| | | | The goal of the Food Traceability rule is to ensure Key Data Elements (KDEs) can be maintained across the supply chain for more efficient and effective tracing while pro...",
+      "citation": "Traceability Lot Code",
+      "text_hash": "sha256:bc8acf9aaa49aa73d982a5c4be9fb3da27a3e97f9ccbac7674e7a8cfee0da2f8",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "Traceability Lot Code",
+          "section": "Traceability Lot Code",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-what-is-a-traceability-lot-code-3",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "What is a traceability lot code?",
+      "section": "What is a traceability lot code?",
+      "text": "A traceability lot code means a descriptor, often alphanumeric, used to uniquely identify a traceability lot within the records of the traceability lot code source (defined below). This is similar to what industry currently refers to as a \u2018lot\u2019 or \u2018lot code\u2019. Unless the relevant entity is exempt from the rule, the traceability lot code is assigned when the food is initially packed (for raw agricultural commodities not obtained from a fishing vessel), received by the first land-based receiver (for food obtained from a fishing vessel), or transformed. Once a TLC is assigned, it must stay the same as the food moves through the supply chain; it can only be changed if the food is transformed.",
+      "summary": "A traceability lot code means a descriptor, often alphanumeric, used to uniquely identify a traceability lot within the records of the traceability lot code source (defined belo...",
+      "citation": "What is a traceability lot code?",
+      "text_hash": "sha256:aff276feba813d4ef6e7f55e2491e4d520de6e3b5b83e2cdd75e198ca826e138",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "What is a traceability lot code?",
+          "section": "What is a traceability lot code?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-what-are-some-examples-of-traceability-lot-codes-4",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "What are some examples of traceability lot codes?",
+      "section": "What are some examples of traceability lot codes?",
+      "text": "Several food industry-supported traceability initiatives offer best practices and standards for uniquely identifying a lot of food using a combination of a globally unique product identifier, firm-assigned internal lot code, and standard date code. Other examples include a Julian date, a lot code, batch code or other production code. This information, taken together, could be used as a traceability lot code, provided it meets the definition of \u201ctraceability lot code\u201d in the final rule. Some examples of traceability lot codes are below:",
+      "summary": "Several food industry-supported traceability initiatives offer best practices and standards for uniquely identifying a lot of food using a combination of a globally unique produ...",
+      "citation": "What are some examples of traceability lot codes?",
+      "text_hash": "sha256:7990c10e8bb5f6e43623fda878bdb6b72bad6f4735f1852be36a34d56863ac04",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "What are some examples of traceability lot codes?",
+          "section": "What are some examples of traceability lot codes?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-what-is-a-traceability-lot-code-source-5",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "What is a traceability lot code source?",
+      "section": "What is a traceability lot code source?",
+      "text": "A traceability lot code source refers to the physical location where a food was assigned a traceability lot code. In certain situations, the Food Traceability Rule requires documentation of either the . Location description means key contact information for the location where a food is handled, specifically the business name, phone number, physical location address (or geographic coordinates), and city, State, and zip code for domestic locations and comparable information for foreign locations, including country. Therefore, the location description for a traceability lot code source would be this key contact information for the place where the food was assigned a traceability lot code.",
+      "summary": "A traceability lot code source refers to the physical location where a food was assigned a traceability lot code. In certain situations, the Food Traceability Rule requires docu...",
+      "citation": "What is a traceability lot code source?",
+      "text_hash": "sha256:09e9cf5391537b2ef82724111c7c6ab9bb9d31467012b5d7d224b20f9e4c1b62",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "What is a traceability lot code source?",
+          "section": "What is a traceability lot code source?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-what-is-an-example-of-a-location-description-for-a-tlc-source-6",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "What is an example of a location description for a TLC source?",
+      "section": "What is an example of a location description for a TLC source?",
+      "text": "One example could look like this: FreshFood, Inc.",
+      "summary": "One example could look like this: FreshFood, Inc.",
+      "citation": "What is an example of a location description for a TLC source?",
+      "text_hash": "sha256:d9636f37deab10e04b7868cf1e4a57fc0ab497ee2885c844b241731ff10ee125",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "What is an example of a location description for a TLC source?",
+          "section": "What is an example of a location description for a TLC source?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-what-is-a-traceability-lot-code-source-reference-7",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "What is a traceability lot code source reference?",
+      "section": "What is a traceability lot code source reference?",
+      "text": "A traceability lot code source reference means an alternative method for providing FDA with access to the location description for the traceability lot code source. Examples of a traceability lot code source reference include, but are not limited to, the FDA Food Facility Registration Number for the traceability lot code source or a web address that provides FDA with the location description for the traceability lot code source.",
+      "summary": "A traceability lot code source reference means an alternative method for providing FDA with access to the location description for the traceability lot code source. Examples of ...",
+      "citation": "What is a traceability lot code source reference?",
+      "text_hash": "sha256:f49e5118b93969602f7fe20eb79513c304ba99e8454da195dd875f39599e12e3",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "What is a traceability lot code source reference?",
+          "section": "What is a traceability lot code source reference?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-what-is-a-traceability-lot-code-source-reference-8",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "What is a traceability lot code source reference?",
+      "section": "What is a traceability lot code source reference?",
+      "text": "If a firm chooses to use a traceability lot code source reference, they can set it up in a way that will maintain the confidentiality of business information concerning suppliers. For example, if the firm uses a web address as the traceability lot code source reference, the associated website may employ reasonable security measures, such as only being accessible to a government email address, provided that FDA has access to the information at no cost and without delay. Two examples are below: TLC Source Reference example: TLC Source Reference example:",
+      "summary": "If a firm chooses to use a traceability lot code source reference, they can set it up in a way that will maintain the confidentiality of business information concerning supplier...",
+      "citation": "What is a traceability lot code source reference?",
+      "text_hash": "sha256:2e5baa6559560c834142b341069dbad614d8e64fecf2f94c95b8331d3736c672",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "What is a traceability lot code source reference?",
+          "section": "What is a traceability lot code source reference?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-why-is-this-information-important-9",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "Why is this information important?",
+      "section": "Why is this information important?",
+      "text": "Requiring documentation of traceability lot codes and traceability lot code sources enables FDA to get to the source of the food faster \u2013 by enabling FDA to skip steps in the supply chain, link a food to the firms that have handled it, and ultimately lead FDA back to the source of the food during an outbreak investigation. Traceability lot codes (TLC) help ensure accurate identification of the food as it moves through the supply chain, and the TLC Source provides the physical location where the traceability lot code for an FTL food was assigned. Both of these KDEs will improve our ability to identify the specific food and location involved in a contamination event and determine the appropriate scope of a recall event.",
+      "summary": "Requiring documentation of traceability lot codes and traceability lot code sources enables FDA to get to the source of the food faster \u2013 by enabling FDA to skip steps in the su...",
+      "citation": "Why is this information important?",
+      "text_hash": "sha256:3b286e9181e0b8579f74e17e19bed4e0925d456660763234c6dad8e9b2ff3a05",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "Why is this information important?",
+          "section": "Why is this information important?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-what-else-do-i-need-to-know-10",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "What else do I need to know?",
+      "section": "What else do I need to know?",
+      "text": "The Food Traceability Rule does not prescribe a specific way firms must define a traceability lot; rather the rule provides firms with flexibility in how they determine what constitutes a traceability lot. We note that smaller traceability lots might lead to less food being affected in the event of a recall. The rule does require that a TLC and the other required Key Data Elements (KDEs) must be linked to each traceability lot. Linkages can be achieved by having the traceability lot code appear on the reference documents the firm keeps to document the required KDEs. For example, the traceability lot code could appear on a bill of lading or invoice, which also contains other KDEs. For firms that maintain records electronically, linkage could be achieved by including the traceability lot code in the same row of a spreadsheet or database that documents the required KDEs for a tracking event.",
+      "summary": "The Food Traceability Rule does not prescribe a specific way firms must define a traceability lot; rather the rule provides firms with flexibility in how they determine what con...",
+      "citation": "What else do I need to know?",
+      "text_hash": "sha256:2e81706f8b5675a7677aca9e360dccb4dcc85e7d341218a5f8eda4e792cb1cfa",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "What else do I need to know?",
+          "section": "What else do I need to know?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-what-else-do-i-need-to-know-11",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "What else do I need to know?",
+      "section": "What else do I need to know?",
+      "text": "The Food Traceability Rule does not prescribe a specific way firms must assign a TLC. Within your Traceability Plan, a firm must provide a description of the process used to assign a TLC (e.g., Julian date plus product code, randomized generated code, etc.) to foods on the Food Traceability List, if applicable.",
+      "summary": "The Food Traceability Rule does not prescribe a specific way firms must assign a TLC. Within your Traceability Plan, a firm must provide a description of the process used to ass...",
+      "citation": "What else do I need to know?",
+      "text_hash": "sha256:8ad58b2c47e8d99b8b3576734cf5d8801871bbe7504d6329bfe23d3b0ed1fa3d",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "What else do I need to know?",
+          "section": "What else do I need to know?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-what-else-do-i-need-to-know-12",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "What else do I need to know?",
+      "section": "What else do I need to know?",
+      "text": "Firms must assign a traceability lot code when they: Initially pack a raw agricultural commodity (RAC) other than a food obtained from a fishing vessel; Perform the first land-based receiving of a food obtained from a fishing vessel; or Transform a food. Firms must not establish a new traceability lot code when they conduct any other activities (e.g., shipping). However, if you receive a food from a person who is exempt from the rule, you must assign a traceability lot code (unless you are a retail food establishment or restaurant) - .",
+      "summary": "Firms must assign a traceability lot code when they: Initially pack a raw agricultural commodity (RAC) other than a food obtained from a fishing vessel; Perform the first land-b...",
+      "citation": "What else do I need to know?",
+      "text_hash": "sha256:f9ac717e73739f4c1977f8b334ef96a82019818826f61f03ff981a65e27b9d81",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "What else do I need to know?",
+          "section": "What else do I need to know?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-what-else-do-i-need-to-know-13",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "What else do I need to know?",
+      "section": "What else do I need to know?",
+      "text": "No, the final rule does not require that the TLC be included on food labeling or food packaging. The TLC could be sent to the next recipient of the food in a variety of ways, such as via a bill of lading, an advance shipment notice (ASN), in a separate email, or by embedding the information in a quick response (QR) code that appears on the packaging of the food or on a related document. The information would not have to physically accompany the food sent to the recipient but must be provided in a way that permits the receiver of the food to keep the records it is required to maintain under the rule.",
+      "summary": "No, the final rule does not require that the TLC be included on food labeling or food packaging. The TLC could be sent to the next recipient of the food in a variety of ways, su...",
+      "citation": "What else do I need to know?",
+      "text_hash": "sha256:e575a607dbe71e9e87910ccaff9bde2f1ef1a5c424829e1fbcc820a6947a9181",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "What else do I need to know?",
+          "section": "What else do I need to know?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-what-else-do-i-need-to-know-14",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "What else do I need to know?",
+      "section": "What else do I need to know?",
+      "text": "For examples of how the TLC and the location description for the TLC source (or the TLC source reference) could appear on an invoice or bill of lading, see the following examples. These examples are for illustrative purposes only and are not the only way these Key Data Elements could be presented. While these examples contain all the required Shipping KDEs for the purposes of illustration, states that you do not have to keep all of the information required by the rule in a single set of records. However, your traceability plan must indicate the format and location of the records you are required to keep under the rule, in accordance with .",
+      "summary": "For examples of how the TLC and the location description for the TLC source (or the TLC source reference) could appear on an invoice or bill of lading, see the following example...",
+      "citation": "What else do I need to know?",
+      "text_hash": "sha256:d6ee6c3f553abd866289710b60681f55b32812661159a82ec1b3cbb2ec4b7a2b",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "What else do I need to know?",
+          "section": "What else do I need to know?",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-traceability-lot-code-regulated-product-s-15",
+      "source_id": "fda-traceability-lot-code",
+      "section_label": "Regulated Product(s)",
+      "section": "Regulated Product(s)",
+      "text": "Food & Beverages Follow FDA on Facebook Follow FDA on X Follow FDA on Instagram Follow FDA on LinkedIn View FDA videos on YouTube Subscribe to FDA RSS feeds Contact Number 1-888-INFO-FDA (1-888-463-6332) Back to",
+      "summary": "Food & Beverages Follow FDA on Facebook Follow FDA on X Follow FDA on Instagram Follow FDA on LinkedIn View FDA videos on YouTube Subscribe to FDA RSS feeds Contact Number 1-888...",
+      "citation": "Regulated Product(s)",
+      "text_hash": "sha256:b2822505fa1fb0c7b1db9e0ef4c96dd720980400ea46ff9f16476a9c5ffeca4f",
+      "anchors": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "citation": "Regulated Product(s)",
+          "section": "Regulated Product(s)",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/traceability-lot-code",
+          "retrieved_at": "2026-06-16T05:48:41.526893+00:00",
+          "source_hash": "925c5c6675639dbd3af49b1dcc37bd3fc9dee86c52a151e163861ce93e082079"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

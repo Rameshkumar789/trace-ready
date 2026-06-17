@@ -1,0 +1,336 @@
+[
+  {
+    "challenge_id": "unseen_web:romaine_salad_kit",
+    "status": "pass",
+    "predicted_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_ctes": [
+      "harvesting",
+      "cooling",
+      "initial_packing",
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "missing_ctes": [],
+    "unexpected_ctes": [],
+    "predicted_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "missing_obligation_ids": [],
+    "unexpected_obligation_ids": [],
+    "notes": []
+  },
+  {
+    "challenge_id": "unseen_web:fresh_mango_salsa",
+    "status": "pass",
+    "predicted_ctes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_ctes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "missing_ctes": [],
+    "unexpected_ctes": [],
+    "predicted_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "missing_obligation_ids": [],
+    "unexpected_obligation_ids": [],
+    "notes": []
+  },
+  {
+    "challenge_id": "unseen_web:tomato_paste_shelf_stable",
+    "status": "gap",
+    "predicted_ctes": [
+      "receiving",
+      "shipping"
+    ],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "missing_ctes": [],
+    "unexpected_ctes": [
+      "shipping"
+    ],
+    "predicted_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+    ],
+    "missing_obligation_ids": [],
+    "unexpected_obligation_ids": [
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "notes": [
+      "The current inference layer may be over-triggering CTEs for this unseen scenario."
+    ]
+  },
+  {
+    "challenge_id": "unseen_web:refrigerated_smoked_salmon",
+    "status": "pass",
+    "predicted_ctes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_ctes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "missing_ctes": [],
+    "unexpected_ctes": [],
+    "predicted_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "missing_obligation_ids": [],
+    "unexpected_obligation_ids": [],
+    "notes": []
+  },
+  {
+    "challenge_id": "unseen_web:dockside_mahi_mahi",
+    "status": "gap",
+    "predicted_ctes": [
+      "first_land_based_receiving",
+      "receiving",
+      "shipping"
+    ],
+    "expected_ctes": [
+      "first_land_based_receiving",
+      "shipping"
+    ],
+    "missing_ctes": [],
+    "unexpected_ctes": [
+      "receiving"
+    ],
+    "predicted_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "missing_obligation_ids": [],
+    "unexpected_obligation_ids": [
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+    ],
+    "notes": [
+      "The current inference layer may be over-triggering CTEs for this unseen scenario."
+    ]
+  },
+  {
+    "challenge_id": "unseen_web:restaurant_fresh_papaya_romaine",
+    "status": "gap",
+    "predicted_ctes": [
+      "receiving",
+      "shipping"
+    ],
+    "expected_ctes": [
+      "receiving"
+    ],
+    "missing_ctes": [],
+    "unexpected_ctes": [
+      "shipping"
+    ],
+    "predicted_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+    ],
+    "missing_obligation_ids": [],
+    "unexpected_obligation_ids": [
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "notes": [
+      "The current inference layer may be over-triggering CTEs for this unseen scenario."
+    ]
+  },
+  {
+    "challenge_id": "unseen_web:refrigerated_peanut_butter",
+    "status": "pass",
+    "predicted_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "expected_ctes": [
+      "transformation",
+      "shipping"
+    ],
+    "missing_ctes": [],
+    "unexpected_ctes": [],
+    "predicted_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "missing_obligation_ids": [],
+    "unexpected_obligation_ids": [],
+    "notes": []
+  },
+  {
+    "challenge_id": "unseen_web:fresh_basil_repack",
+    "status": "pass",
+    "predicted_ctes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_ctes": [
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "missing_ctes": [],
+    "unexpected_ctes": [],
+    "predicted_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "missing_obligation_ids": [],
+    "unexpected_obligation_ids": [],
+    "notes": []
+  }
+]

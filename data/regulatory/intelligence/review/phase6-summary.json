@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "draftRecords": 550,
+  "readyForReview": 534,
+  "rejectedRecords": 16,
+  "approvedRecords": 0,
+  "reviewActions": 566,
+  "statusCounts": {
+    "needs_review": 534,
+    "rejected": 16
+  },
+  "collectionCounts": {
+    "cte_definitions": 7,
+    "defined_terms": 26,
+    "exemption_rules": 8,
+    "ftl_food_items": 20,
+    "kde_requirements": 79,
+    "obligations": 20,
+    "scenario_benchmarks": 6,
+    "sortable_export_fields": 370,
+    "tlc_rules": 8,
+    "traceability_plan_requirements": 6
+  },
+  "sourcePhaseCounts": {
+    "phase4_deterministic": 514,
+    "phase5_ai_assisted": 36
+  },
+  "citationCoverage": {
+    "records": 550,
+    "complete": 539,
+    "partial": 0,
+    "missing": 0,
+    "invalid": 11,
+    "citations": 561,
+    "validCitations": 550,
+    "invalidCitations": 11,
+    "missingSupportTextCitations": 0
+  },
+  "approvedRecordsPolicy": "Product audit engines must read approved_records only; Phase 6 does not auto-approve extracted drafts."
+}

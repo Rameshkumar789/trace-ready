@@ -1,0 +1,209 @@
+[
+  {
+    "action_terms": [
+      "receiving",
+      "event_id",
+      "event_type",
+      "event_datetime",
+      "actor_location_id",
+      "reference_record_type",
+      "reference_record_no",
+      "event_line_id",
+      "product_id",
+      "product_name"
+    ],
+    "actor_id": "LOC-1",
+    "actor_role": {
+      "actor_name": "LOC-1",
+      "actor_type": null,
+      "confidence": 0.62,
+      "reasons": [
+        "inferred from event type receiving"
+      ],
+      "role": "receiver"
+    },
+    "classified_ctes": [
+      "receiving"
+    ],
+    "destination_type": null,
+    "event_datetime": "2026-06-10",
+    "event_id": "REC-1:PROD-1",
+    "event_type_claim": "receiving",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c4"
+    ],
+    "food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": null,
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Fresh Basil",
+      "reasons": [
+        "matched FTL library item: Cheese (made from pasteurized milk), fresh soft or soft unripened"
+      ],
+      "review_required": false
+    },
+    "from_partner_id": null,
+    "lot_or_tlc": null,
+    "output_lot_or_tlc": null,
+    "product_id": "PROD-1",
+    "product_name": "Fresh Basil",
+    "reviewer_questions": [],
+    "source_lot_or_tlc": null,
+    "source_row_key": "fsma204-full-audit-sample.xlsx:05_CTE_Events:2+fsma204-full-audit-sample.xlsx:06_Event_Line_Items:2",
+    "suppressed_ctes": [],
+    "to_partner_id": null
+  },
+  {
+    "action_terms": [
+      "shipping",
+      "event_id",
+      "event_type",
+      "event_datetime",
+      "actor_location_id",
+      "reference_record_type",
+      "reference_record_no",
+      "event_line_id",
+      "product_id",
+      "product_name",
+      "traceability_lot_code"
+    ],
+    "actor_id": "LOC-1",
+    "actor_role": {
+      "actor_name": "LOC-1",
+      "actor_type": null,
+      "confidence": 0.62,
+      "reasons": [
+        "inferred from event type shipping"
+      ],
+      "role": "shipper"
+    },
+    "classified_ctes": [
+      "shipping"
+    ],
+    "destination_type": null,
+    "event_datetime": "2026-06-12",
+    "event_id": "SHIP-1:PROD-1",
+    "event_type_claim": "shipping",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": null,
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Basil Pesto",
+      "reasons": [
+        "matched FTL library item: Herbs (fresh)"
+      ],
+      "review_required": false
+    },
+    "from_partner_id": null,
+    "lot_or_tlc": "TLC-PESTO-1",
+    "output_lot_or_tlc": null,
+    "product_id": "PROD-1",
+    "product_name": "Basil Pesto",
+    "reviewer_questions": [
+      "Confirm destination: customer evidence does not clearly identify consumer versus business recipient."
+    ],
+    "source_lot_or_tlc": null,
+    "source_row_key": "fsma204-full-audit-sample.xlsx:05_CTE_Events:4+fsma204-full-audit-sample.xlsx:06_Event_Line_Items:4",
+    "suppressed_ctes": [],
+    "to_partner_id": null
+  },
+  {
+    "action_terms": [
+      "transformation",
+      "event_id",
+      "event_type",
+      "event_datetime",
+      "actor_location_id",
+      "reference_record_type",
+      "reference_record_no",
+      "event_line_id",
+      "product_id",
+      "product_name",
+      "output_lot_or_tlc"
+    ],
+    "actor_id": "LOC-1",
+    "actor_role": {
+      "actor_name": "LOC-1",
+      "actor_type": null,
+      "confidence": 0.62,
+      "reasons": [
+        "inferred from event type transformation"
+      ],
+      "role": "processor"
+    },
+    "classified_ctes": [
+      "transformation"
+    ],
+    "destination_type": null,
+    "event_datetime": "2026-06-11",
+    "event_id": "TRANS-1:PROD-1",
+    "event_type_claim": "transformation",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "food_form": {
+      "confidence": 0.9,
+      "form_state": [
+        "fresh"
+      ],
+      "ftl_category": null,
+      "is_ftl_likely": true,
+      "output_remains_ftl": true,
+      "product_name": "Basil Pesto",
+      "reasons": [
+        "matched FTL library item: Herbs (fresh)"
+      ],
+      "review_required": false
+    },
+    "from_partner_id": null,
+    "lot_or_tlc": null,
+    "output_lot_or_tlc": "TLC-PESTO-1",
+    "product_id": "PROD-1",
+    "product_name": "Basil Pesto",
+    "reviewer_questions": [],
+    "source_lot_or_tlc": null,
+    "source_row_key": "fsma204-full-audit-sample.xlsx:05_CTE_Events:3+fsma204-full-audit-sample.xlsx:06_Event_Line_Items:3",
+    "suppressed_ctes": [],
+    "to_partner_id": null
+  }
+]

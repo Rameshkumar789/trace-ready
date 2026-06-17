@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "purpose": "Shadow run of all Phase 6 structured records against unseen web-derived challenges. Not executable product truth.",
+  "structuredRecordsLoaded": 550,
+  "recordReviewStatusCounts": {
+    "needs_review": 534,
+    "rejected": 16
+  },
+  "recordSourcePhaseCounts": {
+    "phase4_deterministic": 514,
+    "phase5_ai_assisted": 36
+  },
+  "collectionStatusCounts": {
+    "cte_definitions": {
+      "needs_review": 7
+    },
+    "defined_terms": {
+      "needs_review": 26
+    },
+    "exemption_rules": {
+      "needs_review": 3,
+      "rejected": 5
+    },
+    "ftl_food_items": {
+      "needs_review": 20
+    },
+    "kde_requirements": {
+      "needs_review": 79
+    },
+    "obligations": {
+      "needs_review": 9,
+      "rejected": 11
+    },
+    "scenario_benchmarks": {
+      "needs_review": 6
+    },
+    "sortable_export_fields": {
+      "needs_review": 370
+    },
+    "tlc_rules": {
+      "needs_review": 8
+    },
+    "traceability_plan_requirements": {
+      "needs_review": 6
+    }
+  },
+  "challengeCount": 8,
+  "unseenInferenceStatusCounts": {
+    "gap": 3,
+    "pass": 5
+  },
+  "shadowStructuredRecordStatusCounts": {
+    "supported_with_drafts_and_rejected_noise": 8
+  },
+  "totalMatchedRecordsAcrossChallenges": 1387,
+  "readyOrApprovedMatchedRecordsAcrossChallenges": 1350,
+  "rejectedMatchedRecordsAcrossChallenges": 37,
+  "diagnosticFinding": "The full structured corpus provides broad CTE/KDE draft support for the unseen scenarios, but it does not fix inference mistakes such as over-triggering shipping/receiving; it also introduces rejected-record noise."
+}

@@ -1,0 +1,975 @@
+```json
+[
+  {
+    "exemption_rule_id": "EXR-1305-A1-PRODUCE-FARM-COVERED",
+    "exemption_type": "Small Producer - Produce Farm Not Covered Under Part 112",
+    "eligibility_condition": "The farm or farm mixed-type facility is not a covered farm under part 112 of this chapter in accordance with § 112.4(a) of this chapter.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": [],
+    "applies_to_entities": ["farms", "farm mixed-type facilities"],
+    "applies_to_foods": ["produce grown on the farm"],
+    "applies_to_ctes": ["harvesting", "cooling", "initial_packing", "shipping", "receiving", "transformation"],
+    "decision_questions": [
+      "Is the entity a farm or farm mixed-type facility?",
+      "Has it been determined that the farm is not a covered farm under part 112 per § 112.4(a)?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(a)(1)(i)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to farms or the farm activities of farm mixed-type facilities with respect to the produce they grow, when the farm is not a covered farm under part 112 of this chapter in accordance with § 112.4(a) of this chapter"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-A2-PRODUCE-FARM-SALES-THRESHOLD",
+    "exemption_type": "Small Producer - Produce Farm Sales Threshold",
+    "eligibility_condition": "The average annual sum of the monetary value of the produce farm's sales of produce and the market value of produce they manufacture, process, pack, or hold without sale during the previous 3-year period is no more than $25,000 (on a rolling basis), adjusted for inflation using 2020 as the baseline year.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": ["Records supporting calculation of average annual sales/market value of produce over the previous 3-year rolling period"],
+    "applies_to_entities": ["produce farms"],
+    "applies_to_foods": ["produce"],
+    "applies_to_ctes": ["harvesting", "cooling", "initial_packing", "shipping", "receiving", "transformation"],
+    "decision_questions": [
+      "What is the average annual sum of monetary value of produce sales and market value of produce manufactured, processed, packed, or held without sale over the previous 3-year rolling period?",
+      "Has the $25,000 threshold been adjusted for inflation using 2020 as the baseline year?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(a)(1)(ii)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to produce farms when the average annual sum of the monetary value of their sales of produce and the market value of produce they manufacture, process, pack, or hold without sale (e.g., held for a fee) during the previous 3-year period is no more than $25,000 (on a rolling basis), adjusted for inflation using 2020 as the baseline year for calculating the adjustment."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-A3-SHELL-EGG-SMALL-PRODUCER",
+    "exemption_type": "Small Producer - Shell Egg Producer with Fewer Than 3,000 Laying Hens",
+    "eligibility_condition": "The shell egg producer has fewer than 3,000 laying hens at a particular farm.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": ["Records or documentation of laying hen count at the particular farm"],
+    "applies_to_entities": ["shell egg producers"],
+    "applies_to_foods": ["shell eggs produced at that farm"],
+    "applies_to_ctes": ["harvesting", "initial_packing", "shipping", "receiving", "transformation"],
+    "decision_questions": [
+      "How many laying hens does the producer have at the particular farm?",
+      "Is the count fewer than 3,000 laying hens?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(a)(2)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to shell egg producers with fewer than 3,000 laying hens at a particular farm, with respect to the shell eggs they produce at that farm."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-A4-OTHER-RAC-SALES-THRESHOLD",
+    "exemption_type": "Small Producer - Other Raw Agricultural Commodity Producers Sales Threshold",
+    "eligibility_condition": "Producers of raw agricultural commodities other than produce or shell eggs (e.g., aquaculture operations) where the average annual sum of the monetary value of their sales of raw agricultural commodities and the market value of the raw agricultural commodities they manufacture, process, pack, or hold without sale during the previous 3-year period is no more than $25,000 (on a rolling basis), adjusted for inflation using 2020 as the baseline year.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": ["Records supporting calculation of average annual sales/market value of raw agricultural commodities over the previous 3-year rolling period"],
+    "applies_to_entities": ["producers of raw agricultural commodities other than produce or shell eggs", "aquaculture operations"],
+    "applies_to_foods": ["raw agricultural commodities other than produce or shell eggs"],
+    "applies_to_ctes": ["harvesting", "cooling", "initial_packing", "first_land_based_receiving", "shipping", "receiving", "transformation"],
+    "decision_questions": [
+      "Is the entity a producer of raw agricultural commodities other than produce or shell eggs?",
+      "What is the average annual sum of monetary value of sales and market value of raw agricultural commodities manufactured, processed, packed, or held without sale over the previous 3-year rolling period?",
+      "Has the $25,000 threshold been adjusted for inflation using 2020 as the baseline year?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(a)(3)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to producers of raw agricultural commodities other than produce or shell eggs (e.g., aquaculture operations) when the average annual sum of the monetary value of their sales of raw agricultural commodities and the market value of the raw agricultural commodities they manufacture, process, pack, or hold without sale (e.g., held for a fee) during the previous 3-year period is no more than $25,000 (on a rolling basis), adjusted for inflation using 2020 as the baseline year for calculating the adjustment."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-B-FARM-DIRECT-TO-CONSUMER",
+    "exemption_type": "Farm Direct-to-Consumer Sale or Donation",
+    "eligibility_condition": "The food is produced on the farm (including food that is also packaged on the farm) and is sold or donated directly to a consumer by the owner, operator, or agent in charge of the farm.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": [],
+    "applies_to_entities": ["farms (owner, operator, or agent in charge)"],
+    "applies_to_foods": ["food produced on the farm, including food packaged on the farm"],
+    "applies_to_ctes": ["harvesting", "cooling", "initial_packing", "shipping", "receiving", "transformation"],
+    "decision_questions": [
+      "Is the food produced on the farm?",
+      "Is the food sold or donated directly to a consumer (not an intermediary)?",
+      "Is the sale or donation made by the owner, operator, or agent in charge of the farm?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(b)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to a farm with respect to food produced on the farm (including food that is also packaged on the farm) that is sold or donated directly to a consumer by the owner, operator, or agent in charge of the farm."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-C-FARM-PRODUCED-PACKAGED-LABELED",
+    "exemption_type": "Food Produced and Packaged on a Farm with Intact Packaging and Labeling",
+    "eligibility_condition": "Food is produced and packaged on a farm, provided that: (1) the packaging remains in place until the food reaches the consumer and maintains product integrity and prevents subsequent contamination or alteration; and (2) the labeling includes the name, complete address (street address, town, State, country, and zip or other postal code for a domestic farm and comparable information for a foreign farm), and business phone number of the farm (FDA may waive the phone number requirement to accommodate a religious belief of the individual in charge of the farm).",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": ["Labeling records showing farm name, complete address, and business phone number on food reaching the consumer"],
+    "applies_to_entities": ["farms"],
+    "applies_to_foods": ["food produced and packaged on a farm"],
+    "applies_to_ctes": ["initial_packing", "shipping", "receiving"],
+    "decision_questions": [
+      "Is the food produced and packaged on a farm?",
+      "Does the packaging remain in place until the food reaches the consumer?",
+      "Does the packaging maintain product integrity and prevent subsequent contamination or alteration?",
+      "Does the labeling include the farm name, complete address, and business phone number?",
+      "Is there a religious belief waiver applicable for the phone number requirement?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(c)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to food produced and packaged on a farm, provided that: (1) The packaging of the food remains in place until the food reaches the consumer, and such packaging maintains the integrity of the product and prevents subsequent contamination or alteration of the product; and (2) The labeling of the food that reaches the consumer includes the name, complete address (street address, town, State, country, and zip or other postal code for a domestic farm and comparable information for a foreign farm), and business phone number of the farm on which the food was produced and packaged."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-D1-PRODUCE-COMMERCIAL-PROCESSING",
+    "exemption_type": "Processing Exemption - Produce Receiving Commercial Processing Reducing Microorganisms",
+    "eligibility_condition": "Produce receives commercial processing that adequately reduces the presence of microorganisms of public health significance, provided the conditions set forth in § 112.2(b) of this chapter are met for the produce.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": ["Records demonstrating compliance with § 112.2(b) conditions"],
+    "applies_to_entities": ["persons who manufacture, process, pack, or hold produce"],
+    "applies_to_foods": ["produce on the Food Traceability List"],
+    "applies_to_ctes": ["transformation", "shipping", "receiving"],
+    "decision_questions": [
+      "Does the produce receive commercial processing that adequately reduces the presence of microorganisms of public health significance?",
+      "Are the conditions set forth in § 112.2(b) met for the produce?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(d)(1)",
+        "page_number": null,
+        "support_text": "Produce that receives commercial processing that adequately reduces the presence of microorganisms of public health significance, provided the conditions set forth in § 112.2(b) of this chapter are met for the produce"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-D2-SHELL-EGG-TREATMENT",
+    "exemption_type": "Processing Exemption - Shell Eggs Receiving Treatment",
+    "eligibility_condition": "All eggs produced at the particular farm receive a treatment (as defined in § 118.3 of this chapter) in accordance with § 118.1(a)(2) of this chapter.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": ["Records demonstrating all eggs at the farm receive treatment per § 118.1(a)(2)"],
+    "applies_to_entities": ["shell egg producers"],
+    "applies_to_foods": ["shell eggs"],
+    "applies_to_ctes": ["harvesting", "initial_packing", "shipping", "receiving", "transformation"],
+    "decision_questions": [
+      "Do all eggs produced at the particular farm receive a treatment as defined in § 118.3?",
+      "Is the treatment applied in accordance with § 118.1(a)(2)?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(d)(2)",
+        "page_number": null,
+        "support_text": "Shell eggs when all eggs produced at the particular farm receive a treatment (as defined in § 118.3 of this chapter) in accordance with § 118.1(a)(2) of this chapter"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-D3-KILL-STEP-APPLIED",
+    "exemption_type": "Processing Exemption - Food Subjected to a Kill Step by the Entity",
+    "eligibility_condition": "The entity subjects the food to a kill step, provided that the entity maintains records containing: (i) the information specified in § 1.1345 for receipt of the food to which the kill step is applied (unless a written agreement per § 1.1305(d)(6) is in place); and (ii) a record of the application of the kill step.",
+    "effect": "modified_requirements",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule - all traceability recordkeeping requirements except receipt records per § 1.1345 and kill step application records"],
+    "documentation_needed": [
+      "Records containing information specified in § 1.1345 for receipt of the food (unless written agreement per § 1.1305(d)(6) is in place)",
+      "Record of application of the kill step"
+    ],
+    "applies_to_entities": ["persons who manufacture, process, pack, or hold food on the Food Traceability List"],
+    "applies_to_foods": ["foods on the Food Traceability List that are subjected to a kill step"],
+    "applies_to_ctes": ["transformation", "receiving"],
+    "decision_questions": [
+      "Does the entity apply a kill step to the food?",
+      "Does the entity maintain records per § 1.1345 for receipt of the food?",
+      "Is there a written agreement per § 1.1305(d)(6) in place that modifies the receipt recordkeeping obligation?",
+      "Does the entity maintain a record of the kill step application?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(d)(3)",
+        "page_number": null,
+        "support_text": "Food that you subject to a kill step, provided that you maintain records containing: (i) The information specified in § 1.1345 for your receipt of the food to which you apply the kill step (unless you have entered into a written agreement concerning your application of a kill step to the food in accordance with paragraph (d)(6) of this section); and (ii) A record of your application of the kill step"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-D4-FOOD-CHANGED-OFF-FTL",
+    "exemption_type": "Processing Exemption - Food Changed Such That It Is No Longer on the Food Traceability List",
+    "eligibility_condition": "The entity changes the food such that the food is no longer on the Food Traceability List, provided that the entity maintains records containing the information specified in § 1.1345 for receipt of the food it changes (unless a written agreement per § 1.1305(d)(6) is in place).",
+    "effect": "modified_requirements",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule - all traceability recordkeeping requirements except receipt records per § 1.1345"],
+    "documentation_needed": [
+      "Records containing information specified in § 1.1345 for receipt of the food being changed (unless written agreement per § 1.1305(d)(6) is in place)"
+    ],
+    "applies_to_entities": ["persons who manufacture, process, pack, or hold food on the Food Traceability List"],
+    "applies_to_foods": ["foods on the Food Traceability List that are changed such that they are no longer on the Food Traceability List"],
+    "applies_to_ctes": ["transformation", "receiving"],
+    "decision_questions": [
+      "Does the entity change the food such that it is no longer on the Food Traceability List?",
+      "Does the entity maintain records per § 1.1345 for receipt of the food being changed?",
+      "Is there a written agreement per § 1.1305(d)(6) in place that modifies the receipt recordkeeping obligation?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(d)(4)",
+        "page_number": null,
+        "support_text": "Food that you change such that the food is no longer on the Food Traceability List, provided that you maintain records containing the information specified in § 1.1345 for your receipt of the food you change (unless you have entered into a written agreement concerning your changing of the food such that the food is no longer on the Food Traceability List in accordance with paragraph (d)(6) of this section)"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-D5-PREVIOUSLY-KILL-STEPPED-OR-CHANGED",
+    "exemption_type": "Processing Exemption - Food Previously Subjected to Kill Step or Changed Off FTL",
+    "eligibility_condition": "The entity receives food that has previously been subjected to a kill step or that has previously been changed such that the food is no longer on the Food Traceability List.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": [],
+    "applies_to_entities": ["persons who receive food that has previously been subjected to a kill step or changed off the Food Traceability List"],
+    "applies_to_foods": ["foods on the Food Traceability List that have previously been subjected to a kill step or changed such that they are no longer on the Food Traceability List"],
+    "applies_to_ctes": ["receiving", "shipping", "transformation"],
+    "decision_questions": [
+      "Has the food previously been subjected to a kill step?",
+      "Has the food previously been changed such that it is no longer on the Food Traceability List?",
+      "What documentation exists to verify the prior kill step or change?"
+    ],
+    "reviewer_warning": "The source text does not specify what documentation, if any, the receiving entity must maintain to demonstrate that the food was previously subjected to a kill step or changed off the FTL. Reviewer should assess whether additional documentation requirements apply.",
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(d)(5)",
+        "page_number": null,
+        "support_text": "Food that you receive that has previously been subjected to a kill step or that has previously been changed such that the food is no longer on the Food Traceability List"
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "medium",
+      "review_status": "needs_review",
+      "reviewer_notes": ["No documentation requirement stated in source text for this sub-provision; reviewer should confirm whether any verification obligation exists."],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-D6-KILL-STEP-BY-SUBSEQUENT-ENTITY-WRITTEN-AGREEMENT",
+    "exemption_type": "Processing Exemption - Food to Be Subjected to Kill Step or Changed Off FTL by Subsequent Entity via Written Agreement",
+    "eligibility_condition": "Food will be subjected to a kill step by an entity other than a retail food establishment, restaurant, or consumer; or will be changed by an entity other than a retail food establishment, restaurant, or consumer such that the food will no longer be on the Food Traceability List, provided that: (i) there is a written agreement between the shipper and receiver stating the receiver will apply a kill step or change the food off the FTL; or (ii) there is a written agreement between the shipper and receiver stating a subsequent entity will apply a kill step or change the food off the FTL and the receiver will only ship to entities that agree in writing to apply a kill step, change the food off the FTL, or enter into a similar written agreement with subsequent receivers. Written agreements must include effective date, printed names and signatures, and the substance of the agreement, and must be maintained by both parties for as long as in effect and renewed at least once every 3 years.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": [
+      "Written agreement between shipper and receiver per § 1.1305(d)(6)(i) or (ii) including effective date, printed names and signatures, and substance of the agreement",
+      "Maintenance of written agreement by both parties for as long as it is in effect",
+      "Renewal of written agreement at least once every 3 years"
+    ],
+    "applies_to_entities": ["shippers of food on the Food Traceability List", "receivers of food on the Food Traceability List"],
+    "applies_to_foods": ["foods on the Food Traceability List destined for kill step or change off FTL by a non-retail, non-restaurant, non-consumer entity"],
+    "applies_to_ctes": ["shipping", "receiving", "transformation"],
+    "decision_questions": [
+      "Will the food be subjected to a kill step or changed off the FTL by an entity other than a retail food establishment, restaurant, or consumer?",
+      "Is there a written agreement between the shipper and receiver per § 1.1305(d)(6)(i) or (ii)?",
+      "Does the written agreement include the effective date, printed names and signatures, and substance of the agreement?",
+      "Are both parties maintaining the written agreement?",
+      "Has the written agreement been renewed within the last 3 years?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(d)(6)",
+        "page_number": null,
+        "support_text": "Food that will be subjected to a kill step by an entity other than a retail food establishment, restaurant, or consumer; or that will be changed by an entity other than a retail food establishment, restaurant, or consumer, such that the food will no longer be on the Food Traceability List, provided that: (i) There is a written agreement between the shipper of the food and the receiver stating that the receiver will apply a kill step to the food or change the food such that it is no longer on the Food Traceability List; or (ii) There is a written agreement between the shipper of the food and the receiver stating that an entity in the supply chain subsequent to the receiver will apply a kill step to the food or change the food such that it is no longer on the Food Traceability List and that the receiver will only ship the food to another entity that agrees, in writing..."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-E-RARELY-CONSUMED-RAW-PRODUCE",
+    "exemption_type": "Produce Rarely Consumed Raw",
+    "eligibility_condition": "The produce is listed as rarely consumed raw in § 112.2(a)(1) of this chapter.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": [],
+    "applies_to_entities": ["any person handling produce listed as rarely consumed raw"],
+    "applies_to_foods": ["produce listed as rarely consumed raw in § 112.2(a)(1)"],
+    "applies_to_ctes": ["harvesting", "cooling", "initial_packing", "shipping", "receiving", "transformation"],
+    "decision_questions": [
+      "Is the produce listed as rarely consumed raw in § 112.2(a)(1)?",
+      "Has the applicable produce type been confirmed against the § 112.2(a)(1) list?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(e)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to produce that is listed as rarely consumed raw in § 112.2(a)(1) of this chapter."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-F-RAW-BIVALVE-MOLLUSCAN-SHELLFISH-NSSP",
+    "exemption_type": "Raw Bivalve Molluscan Shellfish Covered by NSSP or FDA Equivalence Determination",
+    "eligibility_condition": "Raw bivalve molluscan shellfish are covered by the requirements of the National Shellfish Sanitation Program, subject to the requirements of part 123, subpart C, and § 1240.60 of this chapter, or covered by a final equivalence determination by FDA for raw bivalve molluscan shellfish.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": ["Documentation of NSSP coverage or FDA final equivalence determination"],
+    "applies_to_entities": ["persons handling raw bivalve molluscan shellfish covered by NSSP or FDA equivalence determination"],
+    "applies_to_foods": ["raw bivalve molluscan shellfish"],
+    "applies_to_ctes": ["harvesting", "first_land_based_receiving", "shipping", "receiving", "transformation"],
+    "decision_questions": [
+      "Are the raw bivalve molluscan shellfish covered by the National Shellfish Sanitation Program requirements?",
+      "Are the shellfish subject to part 123, subpart C, and § 1240.60?",
+      "Is there a final FDA equivalence determination covering these shellfish?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(f)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to raw bivalve molluscan shellfish that are covered by the requirements of the National Shellfish Sanitation Program, subject to the requirements of part 123, subpart C, and § 1240.60 of this chapter, or covered by a final equivalence determination by FDA for raw bivalve molluscan shellfish."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-G-USDA-EXCLUSIVE-JURISDICTION",
+    "exemption_type": "USDA Exclusive Jurisdiction - Federal Meat, Poultry, or Egg Products Inspection Acts",
+    "eligibility_condition": "Persons who manufacture, process, pack, or hold food on the Food Traceability List during or after the time when the food is within the exclusive jurisdiction of the USDA under the Federal Meat Inspection Act (21 U.S.C. 601 et seq.), the Poultry Products Inspection Act (21 U.S.C. 451 et seq.), or the Egg Products Inspection Act (21 U.S.C. 1031 et seq.).",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": ["Documentation establishing that the food is within the exclusive jurisdiction of USDA under the applicable Act"],
+    "applies_to_entities": ["persons who manufacture, process, pack, or hold food on the Food Traceability List under USDA exclusive jurisdiction"],
+    "applies_to_foods": ["food on the Food Traceability List within USDA exclusive jurisdiction under FMIA, PPIA, or EPIA"],
+    "applies_to_ctes": ["receiving", "shipping", "transformation", "initial_packing"],
+    "decision_questions": [
+      "Is the food within the exclusive jurisdiction of USDA under the Federal Meat Inspection Act, Poultry Products Inspection Act, or Egg Products Inspection Act?",
+      "At what point does USDA exclusive jurisdiction begin and end for this food?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(g)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to persons who manufacture, process, pack, or hold food on the Food Traceability List during or after the time when the food is within the exclusive jurisdiction of the USDA under the Federal Meat Inspection Act (21 U.S.C. 601 et seq.), the Poultry Products Inspection Act (21 U.S.C. 451 et seq.), or the Egg Products Inspection Act (21 U.S.C. 1031 et seq.)."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-H1-COMMINGLED-RAC",
+    "exemption_type": "Partial Exemption - Commingled Raw Agricultural Commodities",
+    "eligibility_condition": "The food is a commingled raw agricultural commodity (which, as defined in § 1.1310, does not include types of fruits and vegetables to which the standards for the growing, harvesting, packing, and holding of produce for human consumption in part 112 apply), except as specified in § 1.1305(h)(3).",
+    "effect": "partial",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule - most requirements; however, FDA-registered persons must maintain records identifying immediate previous source and immediate subsequent recipient per §§ 1.337 and 1.345 for 2 years per § 1.1305(h)(3)"],
+    "documentation_needed": [
+      "If required to register with FDA under section 415 of the FD&C Act: records identifying immediate previous source and immediate subsequent recipient per §§ 1.337 and 1.345, maintained for 2 years"
+    ],
+    "applies_to_entities": ["persons who manufacture, process, pack, or hold commingled raw agricultural commodities"],
+    "applies_to_foods": ["commingled raw agricultural commodities (excluding fruits and vegetables subject to part 112 produce safety standards)"],
+    "applies_to_ctes": ["receiving", "shipping", "transformation"],
+    "decision_questions": [
+      "Is the food a commingled raw agricultural commodity as defined in § 1.1310?",
+      "Does the commingled RAC include types of fruits and vegetables subject to part 112 produce safety standards (which would exclude it from this exemption)?",
+      "Is the person required to register with FDA under section 415 of the FD&C Act with respect to this food (triggering § 1.1305(h)(3) recordkeeping obligations)?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(h)(1) and (h)(3)",
+        "page_number": null,
+        "support_text": "Except as specified in paragraph (h)(3) of this section, this subpart does not apply to commingled raw agricultural commodities (which, as defined in § 1.1310, do not include types of fruits and vegetables to which the standards for the growing, harvesting, packing, and holding of produce for human consumption in part 112 of this chapter apply)... if a person who manufactures, processes, packs, or holds such commodity is required to register with FDA under section 415 of the Federal Food, Drug, and Cosmetic Act with respect to the manufacturing, processing, packing, or holding of the applicable raw agricultural commodity, such person must maintain records identifying the immediate previous source of such raw agricultural commodity and the immediate subsequent recipient of such food in accordance with §§ 1.337 and 1.345. Such records must be maintained for 2 years."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-H2-RAC-DESTINED-FOR-COMMINGLING-WRITTEN-AGREEMENT",
+    "exemption_type": "Partial Exemption - Raw Agricultural Commodity Destined to Become Commingled RAC via Written Agreement",
+    "eligibility_condition": "A raw agricultural commodity that will become a commingled raw agricultural commodity, provided that: (i) there is a written agreement between the shipper and receiver stating the receiver will include the commodity as part of a commingled RAC; or (ii) there is a written agreement between the shipper and receiver stating a subsequent entity will include the commodity as part of a commingled RAC and the receiver will only ship to entities that agree in writing to include it in a commingled RAC or enter into a similar written agreement with subsequent receivers. Written agreements must include effective date, printed names and signatures, and substance of the agreement, and must be maintained by both parties for as long as in effect and renewed at least once every 3 years. Except as specified in § 1.1305(h)(3).",
+    "effect": "partial",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule - most requirements; however, FDA-registered persons must maintain records identifying immediate previous source and immediate subsequent recipient per §§ 1.337 and 1.345 for 2 years per § 1.1305(h)(3)"],
+    "documentation_needed": [
+      "Written agreement between shipper and receiver per § 1.1305(h)(2)(i) or (ii) including effective date, printed names and signatures, and substance of the agreement",
+      "Maintenance of written agreement by both parties for as long as it is in effect",
+      "Renewal of written agreement at least once every 3 years",
+      "If required to register with FDA under section 415 of the FD&C Act: records identifying immediate previous source and immediate subsequent recipient per §§ 1.337 and 1.345, maintained for 2 years"
+    ],
+    "applies_to_entities": ["shippers of raw agricultural commodities destined to become commingled RACs", "receivers of such commodities"],
+    "applies_to_foods": ["raw agricultural commodities destined to become commingled raw agricultural commodities"],
+    "applies_to_ctes": ["shipping", "receiving"],
+    "decision_questions": [
+      "Will the raw agricultural commodity become a commingled raw agricultural commodity?",
+      "Is there a written agreement between the shipper and receiver per § 1.1305(h)(2)(i) or (ii)?",
+      "Does the written agreement include the effective date, printed names and signatures, and substance of the agreement?",
+      "Are both parties maintaining the written agreement and renewing it at least every 3 years?",
+      "Is the person required to register with FDA under section 415 of the FD&C Act (triggering § 1.1305(h)(3) recordkeeping obligations)?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(h)(2) and (h)(3)",
+        "page_number": null,
+        "support_text": "Except as specified in paragraph (h)(3) of this section, this subpart does not apply to a raw agricultural commodity that will become a commingled raw agricultural commodity, provided that: (i) There is a written agreement between the shipper of the raw agricultural commodity and the receiver stating that the receiver will include the commodity as part of a commingled raw agricultural commodity..."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-I-SMALL-RETAIL-RESTAURANT",
+    "exemption_type": "Small Retail Food Establishment or Restaurant - Annual Sales Threshold",
+    "eligibility_condition": "Retail food establishments and restaurants with an average annual monetary value of food sold or provided during the previous 3-year period of no more than $250,000 (on a rolling basis), adjusted for inflation using 2020 as the baseline year.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": ["Records supporting calculation of average annual monetary value of food sold or provided over the previous 3-year rolling period"],
+    "applies_to_entities": ["retail food establishments", "restaurants"],
+    "applies_to_foods": ["all foods on the Food Traceability List"],
+    "applies_to_ctes": ["receiving", "shipping", "transformation", "traceability_plan"],
+    "decision_questions": [
+      "Is the entity a retail food establishment or restaurant?",
+      "What is the average annual monetary value of food sold or provided over the previous 3-year rolling period?",
+      "Has the $250,000 threshold been adjusted for inflation using 2020 as the baseline year?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(i)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to retail food establishments and restaurants with an average annual monetary value of food sold or provided during the previous 3-year period of no more than $250,000 (on a rolling basis), adjusted for inflation using 2020 as the baseline year for calculating the adjustment."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-J-RETAIL-RESTAURANT-DIRECT-FARM-PURCHASE",
+    "exemption_type": "Partial Exemption - Retail Food Establishment or Restaurant Purchasing Directly from a Farm",
+    "eligibility_condition": "A retail food establishment or restaurant receives food that is produced on a farm (including food produced and packaged on the farm) and both sold and shipped directly to the retail food establishment or restaurant by the owner, operator, or agent in charge of that farm.",
+    "effect": "partial",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule - most requirements; however, the retail food establishment or restaurant must maintain a record documenting the name and address of the farm that was the source of the food for 180 days"],
+    "documentation_needed": [
+      "Record documenting the name and address of the farm that was the source of the food, maintained for 180 days"
+    ],
+    "applies_to_entities": ["retail food establishments", "restaurants"],
+    "applies_to_foods": ["food produced on a farm (including food produced and packaged on the farm) sold and shipped directly from the farm"],
+    "applies_to_ctes": ["receiving"],
+    "decision_questions": [
+      "Is the food produced on a farm?",
+      "Is the food both sold and shipped directly to the retail food establishment or restaurant by the owner, operator, or agent in charge of the farm?",
+      "Does the retail food establishment or restaurant maintain a record of the farm name and address for 180 days?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(j)",
+        "page_number": null,
+        "support_text": "Except as specified in paragraph (j)(2) of this section, this subpart does not apply to a retail food establishment or restaurant with respect to a food that is produced on a farm (including food produced and packaged on the farm) and both sold and shipped directly to the retail food establishment or restaurant by the owner, operator, or agent in charge of that farm. (2) When a retail food establishment or restaurant purchases a food directly from a farm in accordance with paragraph (j)(1) of this section, the retail food establishment or restaurant must maintain a record documenting the name and address of the farm that was the source of the food. The retail food establishment or restaurant must maintain such a record for 180 days."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-K-RETAIL-RESTAURANT-AD-HOC-PURCHASE",
+    "exemption_type": "Partial Exemption - Retail Food Establishment or Restaurant Ad Hoc Purchase from Another Retail Food Establishment or Restaurant",
+    "eligibility_condition": "A purchase is made by a retail food establishment or restaurant from another retail food establishment or restaurant, and the purchase occurs on an ad hoc basis outside of the buyer's usual purchasing practice (e.g., not pursuant to a contractual agreement to purchase food from the seller).",
+    "effect": "partial",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule - most requirements; however, the purchasing retail food establishment or restaurant must maintain a record (e.g., a sales receipt) documenting the name of the product purchased, the date of purchase, and the name and address of the place of purchase"],
+    "documentation_needed": [
+      "Record (e.g., sales receipt) documenting: name of the product purchased, date of purchase, and name and address of the place of purchase"
+    ],
+    "applies_to_entities": ["retail food establishments", "restaurants (both buyer and seller)"],
+    "applies_to_foods": ["foods on the Food Traceability List purchased on an ad hoc basis between retail food establishments or restaurants"],
+    "applies_to_ctes": ["receiving"],
+    "decision_questions": [
+      "Is the purchase made by a retail food establishment or restaurant from another retail food establishment or restaurant?",
+      "Is the purchase on an ad hoc basis outside of the buyer's usual purchasing practice?",
+      "Is there a contractual agreement to purchase food from the seller (which would disqualify the ad hoc exemption)?",
+      "Does the purchasing entity maintain a record with the product name, date of purchase, and name and address of the place of purchase?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(k)",
+        "page_number": null,
+        "support_text": "Except as specified in paragraph (k)(2) of this section, this subpart does not apply to either entity when a purchase is made by a retail food establishment or restaurant from another retail food establishment or restaurant, and the purchase occurs on an ad hoc basis outside of the buyer's usual purchasing practice (e.g., not pursuant to a contractual agreement to purchase food from the seller). (2) When a retail food establishment or restaurant purchases a food on the Food Traceability List from another retail food establishment or restaurant in accordance with paragraph (k)(1) of this section, the retail food establishment or restaurant that makes the purchase must maintain a record (e.g., a sales receipt) documenting the name of the product purchased, the date of purchase, and the name and address of the place of purchase."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-L-FARM-TO-SCHOOL-INSTITUTION",
+    "exemption_type": "Partial Exemption - Farm to School and Farm to Institution Programs",
+    "eligibility_condition": "An institution operating a child nutrition program authorized under the Richard B. Russell National School Lunch Act or Section 4 of the Child Nutrition Act of 1966, or any other entity conducting a farm to school or farm to institution program, with respect to food that is produced on a farm (including food produced and packaged on the farm) and sold or donated to the school or institution.",
+    "effect": "partial",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule - most requirements; however, the school food authority or relevant food procurement entity must maintain a record documenting the name and address of the farm that was the source of the food for 180 days"],
+    "documentation_needed": [
+      "Record documenting the name and address of the farm that was the source of the food, maintained for 180 days by the school food authority or relevant food procurement entity"
+    ],
+    "applies_to_entities": ["institutions operating child nutrition programs under the Richard B. Russell National School Lunch Act or Section 4 of the Child Nutrition Act of 1966", "entities conducting farm to school or farm to institution programs"],
+    "applies_to_foods": ["food produced on a farm (including food produced and packaged on the farm) sold or donated to the school or institution"],
+    "applies_to_ctes": ["receiving"],
+    "decision_questions": [
+      "Is the entity an institution operating a child nutrition program under the Richard B. Russell National School Lunch Act or Section 4 of the Child Nutrition Act of 1966, or another entity conducting a farm to school or farm to institution program?",
+      "Is the food produced on a farm and sold or donated to the school or institution?",
+      "Does the school food authority or relevant food procurement entity maintain a record of the farm name and address for 180 days?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(l)",
+        "page_number": null,
+        "support_text": "Except as specified in paragraph (l)(2) of this section, this subpart does not apply to an institution operating a child nutrition program authorized under the Richard B. Russell National School Lunch Act or Section 4 of the Child Nutrition Act of 1966, or any other entity conducting a farm to school or farm to institution program, with respect to a food that is produced on a farm (including food produced and packaged on the farm) and sold or donated to the school or institution. (2) When a school or institution conducting a farm to school or farm to institution program obtains a food from a farm in accordance with paragraph (l)(1) of this section, the school food authority or relevant food procurement entity must maintain a record documenting the name and address of the farm that was the source of the food. The school food authority or relevant food procurement entity must maintain such record for 180 days."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-M-FISHING-VESSEL",
+    "exemption_type": "Partial Exemption - Fishing Vessel Owners, Operators, or Agents and Persons Handling Food Until Sold by Fishing Vessel",
+    "eligibility_condition": "With respect to food obtained from a fishing vessel: the owner, operator, or agent in charge of the fishing vessel, and persons who manufacture, process, pack, or hold the food until such time as the food is sold by the owner, operator, or agent in charge of the fishing vessel.",
+    "effect": "partial",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule - most requirements; however, if required to register with FDA under section 415 of the FD&C Act, such person must maintain records identifying the immediate previous source and immediate subsequent recipient per §§ 1.337 and 1.345 for 2 years"],
+    "documentation_needed": [
+      "If required to register with FDA under section 415 of the FD&C Act: records identifying immediate previous source and immediate subsequent recipient per §§ 1.337 and 1.345, maintained for 2 years"
+    ],
+    "applies_to_entities": ["owners, operators, or agents in charge of fishing vessels", "persons who manufacture, process, pack, or hold food from a fishing vessel until it is sold by the fishing vessel owner/operator/agent"],
+    "applies_to_foods": ["food obtained from a fishing vessel"],
+    "applies_to_ctes": ["harvesting", "first_land_based_receiving", "shipping", "receiving", "transformation"],
+    "decision_questions": [
+      "Is the food obtained from a fishing vessel?",
+      "Is the entity the owner, operator, or agent in charge of the fishing vessel, or a person handling the food before it is sold by the fishing vessel owner/operator/agent?",
+      "Has the food been sold by the owner, operator, or agent in charge of the fishing vessel (which would end the exemption for subsequent handlers)?",
+      "Is the person required to register with FDA under section 415 of the FD&C Act (triggering § 1.1305(m)(2) recordkeeping obligations)?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(m)",
+        "page_number": null,
+        "support_text": "Except as specified in paragraph (m)(2) of this section, with respect to a food that is obtained from a fishing vessel, this subpart does not apply to the owner, operator, or agent in charge of the fishing vessel, and this subpart also does not apply to persons who manufacture, process, pack, or hold the food until such time as the food is sold by the owner, operator, or agent in charge of the fishing vessel. (2) With respect to any person who receives the partial exemption set forth in paragraph (m)(1) of this section, if such person is required to register with FDA under section 415 of the Federal Food, Drug, and Cosmetic Act with respect to the manufacturing, processing, packing, or holding of the applicable food, such person must maintain records identifying the immediate previous source of such food and the immediate subsequent recipient of such food in accordance with §§ 1.337 and 1.345. Such records must be maintained for 2 years."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-N-TRANSPORTERS",
+    "exemption_type": "Transporter Exemption",
+    "eligibility_condition": "The entity is a transporter of food.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": [],
+    "applies_to_entities": ["transporters of food"],
+    "applies_to_foods": ["all foods on the Food Traceability List"],
+    "applies_to_ctes": ["shipping", "receiving"],
+    "decision_questions": [
+      "Is the entity a transporter of food?",
+      "Does the entity perform any activities beyond transportation (e.g., manufacturing, processing, packing, or holding) that would remove it from transporter status?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(n)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to transporters of food."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-O-NONPROFIT-FOOD-ESTABLISHMENT",
+    "exemption_type": "Nonprofit Food Establishment Exemption",
+    "eligibility_condition": "The entity is a nonprofit food establishment.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": [],
+    "applies_to_entities": ["nonprofit food establishments"],
+    "applies_to_foods": ["all foods on the Food Traceability List"],
+    "applies_to_ctes": ["receiving", "shipping", "transformation", "traceability_plan"],
+    "decision_questions": [
+      "Is the entity a nonprofit food establishment?",
+      "What documentation establishes the entity's nonprofit status?"
+    ],
+    "reviewer_warning": "The source text does not define 'nonprofit food establishment.' Reviewer should confirm the applicable regulatory definition and whether documentation of nonprofit status is required.",
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(o)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to nonprofit food establishments."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "medium",
+      "review_status": "needs_review",
+      "reviewer_notes": ["Source text does not define 'nonprofit food establishment'; reviewer should confirm applicable definition and documentation requirements."],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-P-PERSONAL-CONSUMPTION",
+    "exemption_type": "Personal Consumption Exemption",
+    "eligibility_condition": "The person manufactures, processes, packs, or holds food for personal consumption.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": [],
+    "applies_to_entities": ["persons who manufacture, process, pack, or hold food for personal consumption"],
+    "applies_to_foods": ["food for personal consumption"],
+    "applies_to_ctes": ["other"],
+    "decision_questions": [
+      "Is the food manufactured, processed, packed, or held solely for personal consumption?",
+      "Is the food intended for retail sale or distribution to others?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(p)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to persons who manufacture, process, pack, or hold food for personal consumption."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-Q-HOLDING-FOR-INDIVIDUAL-CONSUMERS",
+    "exemption_type": "Exemption for Persons Holding Food on Behalf of Individual Consumers",
+    "eligibility_condition": "Persons who hold food on behalf of specific individual consumers, provided that: (1) they are not parties to the transaction involving the food they hold; and (2) they are not in the business of distributing food.",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": [],
+    "applies_to_entities": ["persons who hold food on behalf of specific individual consumers and are not parties to the transaction and not in the business of distributing food"],
+    "applies_to_foods": ["food held on behalf of specific individual consumers"],
+    "applies_to_ctes": ["other"],
+    "decision_questions": [
+      "Is the person holding food on behalf of specific individual consumers?",
+      "Is the person a party to the transaction involving the food they hold?",
+      "Is the person in the business of distributing food?"
+    ],
+    "reviewer_warning": null,
+    "citations": [
+      {
+        "source_id": "ecfr-21-cfr-1-subpart-s",
+        "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2",
+        "citation_anchor": "21 CFR 1.1305",
+        "authority_rank": "codified_rule",
+        "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2026-06-11/title-21.xml?part=1",
+        "section_ref": "21 CFR 1.1305(q)",
+        "page_number": null,
+        "support_text": "This subpart does not apply to persons who hold food on behalf of specific individual consumers, provided that these persons: (1) Are not parties to the transaction involving the food they hold; and (2) Are not in the business of distributing food."
+      }
+    ],
+    "metadata": {
+      "extraction_method": "ai_assisted",
+      "confidence": "high",
+      "review_status": "draft",
+      "reviewer_notes": [],
+      "source_chunk_ids": ["ecfr-21-cfr-1-subpart-s-21-cfr-1-1305-2"]
+    }
+  },
+  {
+    "exemption_rule_id": "EXR-1305-R-RESEARCH-EVALUATION-FOOD",
+    "exemption_type": "Food for Research or Evaluation Use",
+    "eligibility_condition": "Food for research or evaluation use, provided that: (1) the food is not intended for retail sale and is not sold or distributed to the public; and (2) the food is accompanied by the statement 'Food for research or evaluation use.'",
+    "effect": "full",
+    "affected_requirements": ["21 CFR Part 1 Subpart S - Food Traceability Rule"],
+    "documentation_needed": [
+      "Statement accompanying the food reading 'Food for research or evaluation use'"
+    ],
+    "applies_to_entities": ["persons who manufacture, process, pack, hold, or distribute food for research or evaluation use"],
+    "applies_to_foods": ["food for research or evaluation use that is not intended for retail sale and is not sold or distributed to the public"],
+    "applies_to_ctes": ["other"],
+    "decision_questions": [
+      "Is the food intended for research or evaluation use?",

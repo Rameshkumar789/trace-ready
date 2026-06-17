@@ -1,0 +1,14 @@
+[
+  {
+    "source_basis": "Public product metadata rows from the Open Food Facts static bulk export.",
+    "source_key": "open_food_facts_static_tsv",
+    "source_name": "Open Food Facts static bulk TSV",
+    "source_url": "https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz"
+  },
+  {
+    "source_basis": "Public EPCIS JSON-LD/XML example event records from GS1; standard reference https://ref.gs1.org/standards/epcis/.",
+    "source_key": "gs1_epcis_public_examples",
+    "source_name": "GS1 EPCIS public examples",
+    "source_url": "https://github.com/gs1/EPCIS"
+  }
+]

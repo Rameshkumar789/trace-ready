@@ -1,0 +1,103 @@
+{
+  "artifact_id": "approved-subparagraph-targets-v1",
+  "version": 1,
+  "status": "approved",
+  "generated_at": "2026-06-16T00:00:00Z",
+  "approval": {
+    "approved_by": "TraceReady regulatory intelligence build",
+    "approval_role": "system-reviewed deterministic citation target map",
+    "approval_reason": "Move obligation-to-subparagraph policy targets out of executable code into an auditable approved intelligence artifact."
+  },
+  "scope": {
+    "rule_package_id": "approved-rule-package-v1",
+    "rule_package_version": 1,
+    "source_id": "ecfr-21-cfr-1-subpart-s",
+    "constraint": "Subparagraph resolution is additive and must not weaken section-level citation validation."
+  },
+  "targets": [
+    {
+      "obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+      "section_ref": "21 CFR 1.1300",
+      "target_anchors": ["21 CFR 1.1300"],
+      "review_status": "approved",
+      "rationale": "Scope obligation is section-level and has no narrower paragraph marker in the cited section chunk."
+    },
+    {
+      "obligation_id": "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "section_ref": "21 CFR 1.1315",
+      "target_anchors": ["21 CFR 1.1315(a)"],
+      "review_status": "approved",
+      "rationale": "Traceability plan establishment and maintenance requirement begins at paragraph (a)."
+    },
+    {
+      "obligation_id": "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "section_ref": "21 CFR 1.1320",
+      "target_anchors": ["21 CFR 1.1320(a)"],
+      "review_status": "approved",
+      "rationale": "Traceability lot code assignment triggers are listed in paragraph (a)."
+    },
+    {
+      "obligation_id": "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "section_ref": "21 CFR 1.1325",
+      "target_anchors": ["21 CFR 1.1325(a)", "21 CFR 1.1325(b)"],
+      "review_status": "approved",
+      "rationale": "The approved obligation covers both harvesting records in paragraph (a) and cooling-before-initial-packing records in paragraph (b)."
+    },
+    {
+      "obligation_id": "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "section_ref": "21 CFR 1.1330",
+      "target_anchors": ["21 CFR 1.1330(a)"],
+      "review_status": "approved",
+      "rationale": "The core initial packing KDE maintenance requirement is in paragraph (a)."
+    },
+    {
+      "obligation_id": "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+      "section_ref": "21 CFR 1.1335",
+      "target_anchors": ["21 CFR 1.1335"],
+      "review_status": "approved",
+      "rationale": "The cited first land-based receiving section has no narrower paragraph marker in the canonical chunk."
+    },
+    {
+      "obligation_id": "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "section_ref": "21 CFR 1.1340",
+      "target_anchors": ["21 CFR 1.1340(a)", "21 CFR 1.1340(b)"],
+      "review_status": "approved",
+      "rationale": "Shipping records are maintained under paragraph (a) and provided to the immediate subsequent recipient under paragraph (b)."
+    },
+    {
+      "obligation_id": "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "section_ref": "21 CFR 1.1345",
+      "target_anchors": ["21 CFR 1.1345(a)"],
+      "review_status": "approved",
+      "rationale": "The ordinary receiving record requirement is in paragraph (a); paragraphs (b) and (c) are exceptions/special cases."
+    },
+    {
+      "obligation_id": "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "section_ref": "21 CFR 1.1350",
+      "target_anchors": ["21 CFR 1.1350(a)"],
+      "review_status": "approved",
+      "rationale": "The ordinary transformation record requirement is in paragraph (a); paragraphs (b) and (c) are exceptions/special cases."
+    },
+    {
+      "obligation_id": "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "section_ref": "21 CFR 1.1455",
+      "target_anchors": ["21 CFR 1.1455(a)(1)", "21 CFR 1.1455(a)(2)"],
+      "review_status": "approved",
+      "rationale": "Record form, electronic links, legibility, and storage requirements are in paragraphs (a)(1) and (a)(2)."
+    },
+    {
+      "obligation_id": "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "section_ref": "21 CFR 1.1455",
+      "target_anchors": ["21 CFR 1.1455(c)(1)"],
+      "review_status": "approved",
+      "rationale": "The general 24-hour FDA availability obligation is in paragraph (c)(1)."
+    },
+    {
+      "obligation_id": "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+      "section_ref": "21 CFR 1.1455",
+      "target_anchors": ["21 CFR 1.1455(c)(3)(ii)"],
+      "review_status": "approved",
+      "rationale": "The electronic sortable spreadsheet requirement is specifically in paragraph (c)(3)(ii), not paragraph (b)(3)."
+    }
+  ]
+}

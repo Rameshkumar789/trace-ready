@@ -1,0 +1,12 @@
+[
+  {
+    "checked_mappings": 50,
+    "failed_mappings": 0,
+    "failures": [],
+    "passed_mappings": 50,
+    "profile_id": "mapping-profile-pilot_customer-sample_workbook-v1",
+    "regression_id": "phase10b-regression-mapping-profile-pilot_customer-sample_workbook-v1",
+    "source_file": "../data/samples/fsma204-full-audit-sample.xlsx",
+    "status": "pass"
+  }
+]

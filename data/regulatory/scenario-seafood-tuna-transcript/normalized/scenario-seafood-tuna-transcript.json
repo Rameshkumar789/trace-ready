@@ -1,0 +1,284 @@
+{
+  "sourceId": "scenario-seafood-tuna-transcript",
+  "url": "https://www.fda.gov/media/163058/download?attachment",
+  "rawArtifact": "../data/regulatory/scenario-seafood-tuna-transcript/raw/scenario-seafood-tuna-transcript.pdf",
+  "rawTextHash": "d065deac2ce10dd8c515954366ee904890593b3e721cd13e3231621a52288861",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 3,
+  "chunks": [
+    {
+      "chunk_id": "scenario-seafood-tuna-transcript-page-1-1",
+      "source_id": "scenario-seafood-tuna-transcript",
+      "section_label": "PDF page 1",
+      "section": "page-1",
+      "text": "FDA FSMA Food Traceability Final Rule\nVideo Presentation: How the Food Traceability Rule works: Seafood Supply Chain Example\nWatch on https://youtu.be/RCT86_Nhwmc\n[Slide] The Food Traceability Rule requires people who manufacture, process, pack, or hold foods\non the Food Traceability List or FTL, to maintain and provide to their supply chain partners, specific\ninformation \u2013 called Key Data Elements or KDEs \u2013 for certain Critical Tracking Events or CTEs in the\nfood\u2019s supply chain. This framework forms the foundation for effective and efficient tracing of food.\n[Slide] This example shows a supply chain for fresh tuna which is sold at a restaurant as tuna steaks.\nTuna is a Finfish and is on the Food Traceability List; therefore, all entities in this tuna supply chain are\ncovered by the Food Traceability Rule. Next, we will walk through the Critical Tracking Events in this\nsupply chain where Key Data Elements are required.\n[Slide] In this example, tuna is caught at sea by a fishing vessel. Fishing vessels are largely exempt from\nthe rule. If the owner, operator or agent in charge of the fishing vessel is NOT required to register under\nsection 415 of the Food Drug & Cosmetic Act as part of FDA\u2019s food facility registration requirements,\nthen the fishing vessel is completely exempt, and the owner does not have to keep records under the\nfinal rule. If they ARE required to register under section 415, then the owner, operator, or agent in\ncharge of the fishing vessel must maintain records identifying the immediate previous source and\nimmediate subsequent recipient of the food. However, they do not have to retain other records under\nthe rule.\n[Slide] The tuna arrives at port and is sold to a seafood company who will sort the fish and send them on\nto be processed. This seafood company is the First Land-based Receiver, since they are the person\ntaking possession of the food for the first time on land directly from a fishing vessel. As the First Land-\nBased Receiver, the seafood company must maintain Key Data Elements specifically related to their first\nland-based receiving of the tuna. This includes the harvest date range and locations for the trip during\nwhich the tuna was caught, information the seafood company may need to obtain from the fishing\nvessel. The Rule does not specify how that information must be obtained, to provide flexibility for a\nvariety of supply chains and operations.\nThe First Land-based Receiver must also assign a Traceability Lot Code or TLC to the fresh tuna. The TLC\nis a descriptor, often alphanumeric, used to uniquely identify a traceability lot within the firm\u2019s records.\nThe place where the food is assigned a traceability lot code is known as the Traceability Lot Code Source.\nThe TLC enables the FDA to make linkages within a firm and across a supply chain. If we know the TLC\nand who assigned it, we can go right to that entity during an outbreak investigation. This helps us to\nidentify the contaminated food more quickly; and it may help to mitigate additional illness, and\npotentially save lives.\n1",
+      "summary": "FDA FSMA Food Traceability Final Rule Video Presentation: How the Food Traceability Rule works: Seafood Supply Chain Example Watch on https://youtu.be/RCT86_Nhwmc [Slide] The Fo...",
+      "citation": "page-1",
+      "text_hash": "sha256:c309e38a52aefd3958e01fdebfa6bcaff5f33fe07a39ef803f58f75f0d6f0659",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-transcript",
+          "citation": "page-1",
+          "section": "page-1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/media/163058/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.182252+00:00",
+          "source_hash": "d065deac2ce10dd8c515954366ee904890593b3e721cd13e3231621a52288861"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-transcript-page-2-2",
+      "source_id": "scenario-seafood-tuna-transcript",
+      "section_label": "PDF page 2",
+      "section": "page-2",
+      "text": "There are only a few activities in the supply chain during which a TLC can be assigned \u2013 when you\nperform the first land-based receiving of a food obtained from a fishing vessel (as shown in the\nexample); initially pack a raw agricultural commodity; or when you transform a food on the Food\nTraceability List. The TLC must be linked in the firm\u2019s records with the Key Data Elements associated\nwith that lot of food.\nNow that the tuna has been received on land, the seafood company is going to send it to a fish\nprocessor who will turn it into tuna steaks for sale at a restaurant . The seafood company must maintain\nKey Data Elements related to the Shipping of the tuna to the next point in the supply chain -- the\nSeafood Processor. The seafood company must also send many of these KDEs to the Seafood Processor.\n[Slide] The Seafood Processor receives the tuna from the seafood company and therefore, they must\nkeep Receiving KDEs of the tuna that they receive. Most of the information that they need for these\nReceiving KDEs will be sent to them by the seafood company.\nIn this example, the Seafood Processor is going to transform the tuna from whole fish into tuna steaks\nfor sale at a restaurant. This is a Transformation event. The Seafood Processor is a TLC Source and must\nassign a TLC to the tuna steaks. The Seafood Processor must also keep transformation KDEs. As part of\nthese Transformation KDEs, they must maintain records containing the incoming traceability lot codes\nfor the tuna and link that information with the traceability lot code that they assign to the new lot of\ntuna steaks.\nNext, the Seafood Processor is going to send the tuna steaks to a Distributor for distribution to a\nrestaurant. The Seafood Processor must maintain Key Data Elements related to the Shipping of the tuna\nsteaks to the next point in the supply chain -- the Distributor. They must also send many of these KDEs\nto the Distributor.\n[Slide] The Distributor receives the tuna steaks from the Seafood Processor. Therefore, the Distributor\nmust keep Receiving KDEs of the tuna steaks that they receive. Most of the information they need for\nthese Receiving KDEs will be sent to them by the Seafood Processor. Unlike the First Land-based\nReceiver or the Seafood Processor, the DC is not a TLC Source and therefore must not assign a new TLC\nto the food.\nBecause the Distributor is shipping the tuna steaks to a restaurant, the Distributor must maintain Key\nData Elements related to the Shipping of the tuna steaks to the next point in the supply chain -- the\nRestaurant. The Distributor must also send many of the KDEs to the Restaurant.\n[Slide] The Restaurant receives the repacked tuna steaks from the Distributor. So, the Restaurant must\nkeep Receiving KDEs of the tuna steaks that they receive. Most of the information they need for these\nReceiving KDEs will be sent to them by the Distributor.\n[Slide] Additionally, all entities covered by the Rule are required to maintain a Traceability Plan. During\nan inspection or in the case of an outbreak investigation, the Traceability Plan will help FDA understand\na firm\u2019s traceability records. The Traceability Plan must include:\n\u2022 A description of the procedures used to maintain the records required by the rule;\n\u2022 A description of the procedures used to identify foods on the FTL that you manufacture,\nprocess, pack, or hold;\n\u2022 A description of how you assign traceability lot codes, if applicable; and\n2",
+      "summary": "There are only a few activities in the supply chain during which a TLC can be assigned \u2013 when you perform the first land-based receiving of a food obtained from a fishing vessel...",
+      "citation": "page-2",
+      "text_hash": "sha256:233210bf9fe4c78df9f937267ec62fb7bf5c7f33807dba81c9efb2a88e2c39e4",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-transcript",
+          "citation": "page-2",
+          "section": "page-2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/media/163058/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.182252+00:00",
+          "source_hash": "d065deac2ce10dd8c515954366ee904890593b3e721cd13e3231621a52288861"
+        }
+      ]
+    },
+    {
+      "chunk_id": "scenario-seafood-tuna-transcript-page-3-3",
+      "source_id": "scenario-seafood-tuna-transcript",
+      "section_label": "PDF page 3",
+      "section": "page-3",
+      "text": "\u2022 A point of contact for questions regarding your traceability plan and records.\nThe Traceability Plan has additional requirements if you grow or raise a food on the Food Traceability\nList - other than eggs. However, those requirements are not relevant to anyone in this supply chain.\n[Slide] Maintaining these Key Data Elements at each critical tracking event in the supply chain is\nessential and is a requirement of the rule. This will ensure that if an outbreak does occur, FDA is able to\nquickly and efficiently trace the contaminated food through the supply chain. The FDA can provide\ncritical information to the public more quickly, and work with the affected firms to remove any\ncontaminated product from the marketplace, avoiding additional illnesses and potentially saving lives.\nAdditional information about the requirements in the final rule are available on our website at\nwww.fda.gov.\n3",
+      "summary": "\u2022 A point of contact for questions regarding your traceability plan and records. The Traceability Plan has additional requirements if you grow or raise a food on the Food Tracea...",
+      "citation": "page-3",
+      "text_hash": "sha256:441012d372616d8589caeda3c7a4dda1fff106712e0c391cfc69bcac91712c9c",
+      "anchors": [
+        {
+          "source_id": "scenario-seafood-tuna-transcript",
+          "citation": "page-3",
+          "section": "page-3",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.fda.gov/media/163058/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:02.182252+00:00",
+          "source_hash": "d065deac2ce10dd8c515954366ee904890593b3e721cd13e3231621a52288861"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

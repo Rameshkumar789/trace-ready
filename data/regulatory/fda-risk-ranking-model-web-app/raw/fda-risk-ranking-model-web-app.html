@@ -1,0 +1,568 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<script src=https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&amp;subagency=FDA language="javascript" id="_fed_an_ua_tag"></script> 
+
+	<title>FDA Risk-Ranking Model
+ 
+	</title>
+
+    <script type="text/javascript">
+        const oldBaseUrl = "https://cfsanappsexternal.fda.gov";
+        const newBaseUrl = "https://hfpappexternal.fda.gov";
+        if (window.location.href.startsWith(oldBaseUrl)) {
+            window.location.replace(newBaseUrl + window.location.pathname + window.location.search);
+        }
+    </script>
+
+    <script type="text/javascript">
+        const oldBaseUrlwww = "https://www.cfsanappsexternal.fda.gov";
+        const newBaseUrlwww = "https://hfpappexternal.fda.gov";
+        if (window.location.href.startsWith(oldBaseUrlwww)) {
+            window.location.replace(newBaseUrlwww + window.location.pathname + window.location.search);
+        }
+    </script>
+	
+		
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/cerulean.min.css"/>
+
+	 <!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+	
+	
+	 <!-- BOOTSTRAP -->
+	<script src="assets/bootstrap.min.js"></script> 
+	
+	 <!-- CHART.JS -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3"></script>
+	
+	 <!-- MATH -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	
+	<!-- Select2 --> 
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+
+	<!-- maximizeSelect2Height -->
+	<script class="init" src="assets/maximize-select2-height.min.js"></script> 
+
+	
+	<style>
+		body {
+			font-size: 170%;
+		}
+		td.details-control {
+            text-align:center;
+			cursor: pointer; 
+		}
+		td.title {
+			font-weight: bold;
+		}
+		.toBCentered {
+			text-align: center;
+		}
+		#table1 thead, #table2 thead  {
+			vertical-align: bottom;
+		}
+		.toIndent {
+			padding-left: 1.5em;
+			text-indent:-1.5em;
+		}
+		th.trPointer {
+			color: rgb(47, 164, 231);
+			hover: rgb(255, 255, 255);
+			cursor: pointer;
+		} 
+		th.trPointer:hover {
+			color: rgb(115, 122, 181);
+			text-decoration: underline;
+		} 
+		.boxCriteria {
+			color:white;
+			background-color:#4472C4; 
+			font-size:150%
+		}
+		td.bor {
+			border: 1px solid black;
+		}
+		ast {
+			font-weight: bold;
+			color: #0000FF;
+			font-size: 1.2em;
+		}
+		.explanation{
+			background-color:#595959; 
+			font-size:100%;
+			color:white;
+		}			
+		td.centered { 
+			vertical-align:middle; text-align:center; 
+		}
+		@media (min-width: 1200px) {
+			.modal-xlg {
+				width: 80%; 
+			}
+		}
+		.forModal{
+			width: 100%; 
+		}
+		li.extraBullet {
+			margin-bottom: 1em; 
+			margin-top: 1em;
+		}
+		right{
+			text-align:right;
+		}
+		
+<!-- allow the table to fit on iPhone but awfully		
+		table.dataTable thead tr th {
+			word-wrap: break-word;
+			word-break: break-all;
+		}
+-->	
+	</style>
+
+	
+	<!-- MY CODE -->
+	<script class="init" src="assets/regisFTL.js"></script> 
+
+</head>
+		
+<body>
+
+
+
+<div w3-include-html="assets/defCrit1.html" class="forModal"></div> 
+<div w3-include-html="assets/defCrit2.html" class="forModal"></div> 
+<div w3-include-html="assets/defCrit3.html" class="forModal"></div> 
+<div w3-include-html="assets/defCrit4.html" class="forModal"></div> 
+<div w3-include-html="assets/defCrit5.html" class="forModal"></div> 
+<div w3-include-html="assets/defCrit6.html" class="forModal"></div> 
+<div w3-include-html="assets/defCrit7.html" class="forModal"></div> 
+
+<!-- Modal -->
+ 
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog  modal-xlg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-title">Modal Header</div>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!-- Actual Page -->
+
+  <div class="container-fluid">
+     <div class="row">
+      <img src="assets/FDAlogo.png" alt="CFSAN logo" height="15%" width="15%" />
+    </div>
+    <h3>Risk-Ranking Model for Food Tracing</h3>
+    	<p style="font-size:85%;">
+    	  <i>This site is best viewed using current versions of Google Chrome, Mozilla Firefox or Microsoft Edge.
+    	  </i>
+				</p> 	
+	
+	
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+<!--        <div class="navbar-header">
+          <span class="navbar-brand"></span>
+        </div> -->
+        <ul class="nav navbar-nav" data-tabsetid="3965">
+          <li class="active">
+            <a href="#tab-3965-1" data-toggle="tab" data-value="Introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#tab-3965-2" data-toggle="tab" data-value="Methods and Criteria">Methods and Criteria</a>
+          </li>
+          <li>
+            <a href="#tab-3965-3" data-toggle="tab" data-value="RRM-FT Results">Results Table for FTL Foods</a>
+          </li>
+          <li>
+            <a href="#tab-3965-4" data-toggle="tab" data-value="Extras1">Results Figure for FTL Commodity-Hazard Pairs</a>
+          </li>
+          <li>
+            <a href="#tab-3965-5" data-toggle="tab" data-value="Extras2">Results Figure for FTL Commodities</a>
+          </li>
+         <li>
+            <a href="#tab-3965-6" data-toggle="tab" data-value="NonFTL">Results Table for All Foods</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	
+    <div class="container-fluid">
+      <div class="tab-content" data-tabsetid="3965">
+	  <!--
+		INTRODUCTION AND METHODS 
+		-->
+	  
+        <div class="tab-pane active" data-value="Introduction" id="tab-3965-1">
+          <div class="row">
+            <p>The <a href="https://www.fda.gov/food/food-safety-modernization-act-fsma/full-text-food-safety-modernization-act-fsma" target="_blank">FDA Food Safety Modernization Act (FSMA)</a> 
+				   <a href="https://www.fda.gov/food/food-safety-modernization-act-fsma/full-text-food-safety-modernization-act-fsma#SEC204" target="_blank">section 204</a> (21 U.S. Code &sect; 2223), requires the Food and Drug Administration to designate high-risk foods for which additional recordkeeping requirements are appropriate and necessary to protect the public health.
+			</p>
+            <p>The FDA developed a Risk-Ranking Model for Food Tracing (RRM-FT) as a data-driven science-based decision support tool to assist the Agency in the process of designating a 
+			   <a href="https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list" target="_blank">Food Traceability List (FTL)</a> as required by FSMA Section 204.
+			</p>
+            <p>This website is designed for users to view the RRM-FT results as well as the risk-ranking methodology. Users can navigate the RRM-FT website through the following tabs:
+			</p>
+			<ul class="extraBullet">
+				<li class="extraBullet"><b>Methods and Criteria:</b> Click on the &ldquo;Methods and Criteria</a>&rdquo; tab to view a description of the seven criteria in the RRM-FT, 
+				to download the &ldquo;Methodological Approach to Developing a Risk-Ranking Model for Food Tracing FSMA Section 204&rdquo; document, and to download the full list of references evaluated and used to obtain data for the scoring of the seven criteria for commodity-hazard pairs in the RRM-FT.
+				This tab also provides an example of how a risk score is calculated for a commodity-hazard pair or for a commodity, as well as examples of how criteria scores are calculated;	</li>
+			
+				<p>The methods document &ldquo;Methodological Approach to Developing a Risk-Ranking Model for Food Tracing FSMA Section 204 (21 U.S. Code § 2223))&rdquo; is downloadable here:</p>
+            <a href="assets/Methodological Approach to Developing RRM-FT_09-21-2022_DRDA.pdf" target="_blank">
+            <h4> Download the current methods document</h4></a>
+
+			<p>The full list of references evaluated and used to obtain data for the scoring of the seven criteria for commodity-hazard pairs in the RRM-FT is downloadable here:</p> 
+			<a href="assets/RRM-FT_full list of references_09-20-2022_DRDA.pdf" target="_blank">
+            <h4>Download the full list of references</h4>
+            </a>
+				
+				<li class="extraBullet"><b>RRM-FT Results:</b> The results are presented for food commodities on the FTL and all food commodities evaluated in the model. 
+				Click on the &ldquo;Results Table for FTL Foods&rdquo; tab to view a  list of the associated commodity categories, commodities and commodity scores, and commodity-hazard pairs and their scores. Interactive graphs are provided 
+				for the FTL food commodities in the &ldquo;Results Figure for FTL Commodity-Hazard Pairs&rdquo; and the &ldquo;Results Figure for FTL Commodities&rdquo; tabs. 
+				Results for all food commodities are provided in the 
+				&ldquo;Results Table for All Foods&rdquo; tab.
+				</li>
+					<p>The results for the food commodities on the FTL can be downloaded at the <a href="https://www.fda.gov/media/166878/download" target="_blank">Commodity level for FTL foods</a> or at the 
+						<a href="https://www.fda.gov/media/166879/download" target="_blank">Commodity-Hazard pair level for FTL foods</a> . 
+					   The results for all food commodities and the associated commodity-hazard pairs can be downloaded <a href="https://www.fda.gov/media/166880/download" target="_blank">here</a>.</p>
+			</ul>
+		<p><p><i>Last update: April 2023.</i></p></p>
+			<hr>	
+          </div>
+		  
+        </div>
+		
+		<!--
+		Criteria
+		-->
+
+        <div class="tab-pane" data-value="Methods and Criteria" id="tab-3965-2">
+
+			<p>The RRM-FT is a semi-quantitative risk-ranking model that scores commodity-hazard pairs according to data and seven criteria. Click on a Criterion to obtain a highlight of the scoring definition, the data sources and an example.</p>
+			<ul id="myCriteria"> 
+				<li>
+					<a><b>Criterion 1 (C1):</b></a> Frequency of outbreaks and occurrence of illnesses,
+				</li>
+                <li>
+					<a><b>Criterion 2 (C2):</b></a> Severity of illness,
+				</li>
+                <li>
+					<a><b>Criterion 3 (C3):</b></a> Likelihood of contamination,
+				</li>
+                <li>
+					<a><b>Criterion 4 (C4):</b></a> Growth potential, with consideration of shelf life,
+				</li>
+                <li>
+					<a><b>Criterion 5 (C5):</b></a> Manufacturing process contamination probability and industry-wide intervention,
+				</li>
+                <li>
+					<a><b>Criterion 6 (C6):</b></a> Consumption, and
+				</li>
+                <li>
+					<a><b>Criterion 7 (C7):</b></a> Cost of illness.
+				</li> 
+			</ul>
+			<p>These criteria are consistent with the requirements in section 204(d)(2)(A) (21 U.S. Code &sect; 2223(d)(2)(A)).</p>
+            <p>The methods document &ldquo;Methodological Approach to Developing a Risk-Ranking Model for Food Tracing FSMA Section 204 (21 U.S. Code § 2223))&rdquo; is downloadable here.</p>
+            <a href="assets/Methodological Approach to Developing RRM-FT_09-21-2022_DRDA.pdf" target="_blank">
+            <h4>Download the current methods document</h4>
+            </a>
+			<p>The full list of references evaluated and used to obtain data for the scoring of the seven criteria for commodity-hazard pairs in the RRM-FT is downloadable here.</p> 
+			<a href="assets/RRM-FT_full list of references_09-20-2022_DRDA.pdf" target="_blank">
+            <h4>Download the full list of references</h4>
+            </a>
+			<!-- New --> 
+
+
+				<h3>Calculation of the Risk Score for a Commodity</h3>
+				<p>
+				To calculate a risk score for a commodity (fictitious example: &ldquo;Commodity A&rdquo;), we 
+				first obtain the risk score(s) for the  
+				commodity-hazard pair(s) (<i>e.g.</i> &ldquo;Commodity A - Hazard 1&rdquo;, 
+				&ldquo;Commodity A - Hazard 2&rdquo;, &ldquo;Commodity A - Hazard 3&rdquo;, <i>etc.</i>) and then aggregate the commodity-hazard pair risk 
+				score(s) into a commodity risk score.
+				</p>
+				<h4>1. Commodity-Hazard Pair Risk Score</h4>
+
+				<p>
+					A risk score for a commodity-hazard pair is calculated by summing weighted
+					criteria scores across all seven criteria. Equal weighting (criteria
+					weight = 10) was used for each criterion (see &sect; 5.4 of the
+					<a href="assets/Methodological Approach to Developing RRM-FT_09-21-2022_DRDA.pdf" target="_blank">method document</a>). 
+					For example, say that the pair &ldquo;Commodity A - Hazard 1&rdquo; has criterion scores as follows:
+				</p>
+
+
+			<div class="row">
+				<table id="table1" class="display toBCentered" style="width:90%">
+					<thead>
+						<tr>
+							<th class="toBCentered">Commodity</th>
+							<th class="toBCentered">Hazard</th>
+							<th class="toBCentered">Criterion&nbsp;1: Frequency of outbreaks and occurrence of illnesses</th>
+							<th class="toBCentered">Criterion&nbsp;2: Severity of illness</th>
+							<th class="toBCentered">Criterion&nbsp;3: Likelihood of contamination</th>
+							<th class="toBCentered">Criterion&nbsp;4: Growth potential, with consideration of shelf life</th>
+							<th class="toBCentered">Criterion&nbsp;5: Manufacturing process contamination probability and industry-wide intervention</th>
+							<th class="toBCentered">Criterion&nbsp;6: Consumption</th>
+							<th class="toBCentered">Criterion&nbsp;7: Cost of illness</th>
+						</tr>
+					</thead>
+				
+					<tbody>
+						<tr>
+							<td>Commodity A</td>
+							<td>Hazard 1</td>
+							<td>9</td>
+							<td>9</td>
+							<td>1</td>
+							<td>3</td>
+							<td>3</td>
+							<td>9</td>
+							<td>9</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+
+				<p></p>
+				<p>The Risk Score for &ldquo;Commodity A - Hazard 1&rdquo; is then:</p> 
+				<p class = "toBCentered">
+					<strong>Commodity-Hazard Pair Risk Score = (10 &times; 9) + (10 &times; 9) + (10 &times; 1) + (10 &times; 3) + (10 &times; 3) + (10 &times; 9) + (10 &times; 9)  = 430</strong>
+				</p>
+
+				<h4>2. Commodity Risk Score</h4>
+
+				<p>
+					For a commodity associated with multiple hazards, <i>i.e.</i>, multiple
+					commodity-hazard pairs are identified, a Commodity Risk Score is calculated
+					through an aggregation method according to the following formula:
+				</p>
+				<p align="center">
+					$$RS_i\_C=10\times\log_{10}(\sum_{j=1}^{n_i}10^{RS_{i,j}/10})$$
+				</p>
+				<p>where,</p>
+				<p>
+					&emsp;<strong><i>RS<sub>i</sub>_C</i></strong> is the aggregated risk score associated with commodity <i>i</i>;
+				</p>
+				<p>
+					&emsp;<strong><i>RS<sub>i,j</sub></i></strong>
+					is the risk score for commodity <i>i</i> and the <i>j<sup>th</sup></i> hazard;
+				</p>
+				<p>
+					&emsp;<strong><i>n<sub>i</sub></i></strong>
+					is the number of hazards associated with commodity <i>i</i>.
+				</p>
+				<p><small>
+					(The division of the individual risk scores by 10 is for computational reasons. 
+					To return to the original scale, the result is then multiplied by 10.)</small>
+				</p>
+
+				<p>
+					For example, say that the commodity &ldquo;Commodity A&rdquo; is associated with the following commodity-hazard
+					pairs:
+				</p>
+
+			
+			<div class="row">
+				<table id="table2" class="display toBCentered" style="width:90%">
+					<thead>
+						<tr>
+							<th class="toBCentered">Commodity</th>
+							<th class="toBCentered">Hazard</th>
+							<th class="toBCentered">Criterion&nbsp;1: Frequency of outbreaks and occurrence of illnesses</th>
+							<th class="toBCentered">Criterion&nbsp;2: Severity of illness</th>
+							<th class="toBCentered">Criterion&nbsp;3: Likelihood of contamination</th>
+							<th class="toBCentered">Criterion&nbsp;4: Growth potential, with consideration of shelf life</th>
+							<th class="toBCentered">Criterion&nbsp;5: Manufacturing process contamination probability and industry-wide intervention</th>
+							<th class="toBCentered">Criterion&nbsp;6: Consumption</th>
+							<th class="toBCentered">Criterion&nbsp;7: Cost of illness</th>
+							<th class="toBCentered">Commodity-Hazard Pair Risk Score</th>
+						</tr>
+					</thead>
+				
+					<tbody>
+						<tr>
+							<td>Commodity A</td>
+							<td>Hazard 1</td>
+							<td>9</td><td>9</td><td>1</td><td>3</td><td>3</td><td>9</td><td>9</td><td>430</td>
+						</tr>
+						<tr>
+							<td>Commodity A</td>
+							<td>Hazard 2</td>
+							<td>1</td><td>9</td><td>3</td><td>9</td><td>3</td><td>9</td><td>1</td><td>350</td>
+						</tr>
+						<tr>
+							<td>Commodity A</td>
+							<td>Hazard 3</td>
+							<td>0</td><td>9</td><td>3</td><td>9</td><td>3</td><td>9</td><td>0</td><td>330</td>
+						</tr>
+						<tr>
+							<td>Commodity A</td>
+							<td>Hazard 4</td>
+							<td>0</td><td>9</td><td>1</td><td>0</td><td>1</td><td>9</td><td>0</td><td>200</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+				<p></p>
+				<p>The Commodity Risk Score is then:</p>
+				<p class = "toBCentered"><strong>
+					Commodity Risk Score = 10 &times; [log<sub>10</sub>
+					(10<sup>43</sup>+10<sup>35</sup>+10<sup>33</sup>+10<sup>20</sup>)] = 430.
+				</strong></p>
+				<p>The Commodity Risk Score is driven by the risk score for the highest-ranking commodity-hazard pair.</p>
+				<hr>
+
+<!-- End New -->			
+
+			</div>
+		
+			
+		<!--
+		RRM-FT Results
+		-->
+
+        <div class="tab-pane" data-value="RRM-FT Results" id="tab-3965-3">
+			<div class="container-fluid">
+			<div class="row">
+            	<p>Click on a row to open a sub-table that shows the commodity-hazard pairs evaluated in that commodity including their model criteria scores. 
+						Users can search for a commodity category or commodity of interest by typing the name in the search box. 
+						Users can visualize the results in alphabetical order by commodity category and by commodity, and in numerical order by commodity risk score by clicking the corresponding column name.</p> 
+						<p>The results for the food commodities on the Food Traceability List can be downloaded at the 
+						<a href="https://www.fda.gov/media/166878/download" target="_blank">Commodity level for FTL foods</a> or at the 
+						<a href="https://www.fda.gov/media/166879/download" target="_blank">Commodity-Hazard pair level for FTL foods</a>.</p>
+<!--            <div id="tableSelected" style="width:100%; height:auto; " class="datatables html-widget html-widget-output"></div> -->
+			</div>
+				<div class="row">
+					<h4>Table 1. RRM-FT Results for Commodities on the Food Traceability List</h4>
+				</div>
+				<div class="row">
+					<table id="table3" class="display" style="width:100%"></table>
+				</div>
+				<div>
+					<p><sup>a</sup> Abbreviations: RAC: Raw Agricultural Commodity; RTE: Ready-to-Eat.</p>
+					<p><sup>b</sup> Abbreviations: STEC: Shiga-toxin producing <i>E. coli</i>.</p>
+				</div>
+
+				<hr>	
+			</div>
+        </div> <!-- End Tab pane  -->
+
+		<!--
+		Extras
+		-->
+
+        <div class="tab-pane" data-value="Extras1" id="tab-3965-4">
+			<div class="container-fluid">
+				<div class="row">
+					For food commodities on the Food Traceability List, view the full graph by selecting &ldquo;All&rdquo; for Commodity and Hazard. 
+					View a sub-graph by selecting one Commodity or one Hazard. Users can select from the dropdown lists, and search for a Commodity or a Hazard of interest by typing some letters in the search box. 
+					For mobile devices, the full graph may not show, and the sub-graph view is the option to use.
+					The x-axis of the graph shows risk score for the commodity-hazard pair.
+				</div> 
+				<div class="row">
+					<h4>Figure 1. RRM-FT Results for Commodity-Hazard Pairs Associated with Commodities on the Food Traceability List</h4>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<h3>Commodity</h3>
+							<select class="dropdown" id="selectorComm" style="width: 100%"></select>  <!-- <option value="All">All</option> was form-control  -->
+					</div>
+					<div class="col-sm-6">
+						<h3>Hazard</h3>
+						<select class="dropdown" id="selectorHaz" style="width: 100%"></select>  <!-- was of class form-control  -->
+					</div>
+				</div>				
+
+				<div>&nbsp;</div>
+				<div class="row">
+					<div id="forTheGraph" style="height:100px width:100%"> <!--  12000px --> 
+						<canvas id="graph"></canvas>
+					</div>
+<!--			<p id="tooLarge"></p>  -->
+				</div>
+			</div>
+		</div> <!-- End Tab pane  -->
+
+        <div class="tab-pane" data-value="Extras2" id="tab-3965-5">
+			<div class="container-fluid">
+				<div class="row">
+					<p>For food commodities on the Food Traceability List, click on a bar to obtain a graph showing the corresponding commodity-hazard pairs.</p>
+					</div>
+					<div class="row">
+						<h4>Figure 2. RRM-FT Results for Commodities on the Food Traceability List</h4>
+					</div>
+				<div id="forTheGraphAgg"> <!--  12000px --> 
+						<canvas id="graphAgg"></canvas>
+				</div>
+			</div> 
+		</div> <!-- End Tab pane  -->
+
+		<!--
+		All Food Results
+		-->
+
+        <div class="tab-pane" data-value="NonFTL" id="tab-3965-6">
+			<div class="container-fluid">
+				<div class="row">
+					<p>Click on a row to open a sub-table that shows the commodity-hazard pairs evaluated in that commodity including their model criteria scores. 
+						Users can search for a commodity category or commodity of interest by typing the name in the search box. 
+						Users can visualize the results in alphabetical order by commodity category and by commodity, and in numerical order by commodity risk score by clicking the corresponding column name.</p> 
+						<p>The results for all food commodities and the associated commodity-hazard pairs can be downloaded 
+						<a href='https://www.fda.gov/media/166880/download' target="_blank">here</a>.</p>
+<!--            <div id="tableSelected" style="width:100%; height:auto; " class="datatables html-widget html-widget-output"></div> -->
+				</div>
+				<div class="row">
+					<h4>Table 2. RRM-FT Results for All Commodities and Associated Commodity-Hazard Pairs</h4>
+					<p><i>Note: Commodities noted with an asterisk “<ast>*</ast>” appear on the current Food Traceability List (FTL), which can be found at the
+					<a href="https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list" target="_blank">FDA website</a>. 
+					As explained on that webpage, the Food Traceability Rule applies not only to the foods specifically listed on the FTL, 
+					but also to any foods that contain listed foods as ingredients, provided that the listed food that is used as an ingredient remains in the same form (e.g., fresh) 
+					in which it appears on the FTL.</i></p>
+				</div>
+				<div>
+					<table id="table4" class="display" style="width:100%"></table>
+				</div>
+				<div>
+					<p><sup>a</sup> Abbreviations: LACF: Low-Acid Canned Food; N.E.C: Not Elsewhere Classified; RAC: Raw Agricultural Commodity; RTE: Ready-to-Eat.</p>
+					<p><sup>b</sup> Abbreviations: Afl DON Fum OTA: Aflatoxins, Deoxynivalenol, Fumonisins, and Ochratoxin A; STEC: Shiga-toxin producing <i>E. coli</i>;
+						PSP: Paralytic shellfish poisoning; ETEC: Enterotoxigenic <i>E. coli</i>.</p>
+				</div>
+				<hr>	
+			</div>
+        </div> <!-- End Tab pane  -->
+
+
+      </div> <!-- End Container Fluid  -->
+    </div> <!-- End Container Fluid -->
+    </div> <!-- End Container Fluid -->
+
+ 	
+	 <script>
+		includeHTML();
+	</script> 	
+</body>
+</html>

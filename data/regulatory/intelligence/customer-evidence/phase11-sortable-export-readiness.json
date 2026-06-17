@@ -1,0 +1,72 @@
+[
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-export-0001",
+    "cte": "receiving",
+    "event_id": "REC-1:PROD-1",
+    "missing_fields": [
+      "traceability_lot_code",
+      "traceability_lot_code"
+    ],
+    "populated_fields": [
+      "product_name",
+      "event_datetime",
+      "reference_record_type",
+      "reference_record_no",
+      "product_name",
+      "event_datetime",
+      "reference_record_type",
+      "reference_record_no"
+    ],
+    "status": "blocked"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-export-0002",
+    "cte": "shipping",
+    "event_id": "SHIP-1:PROD-1",
+    "missing_fields": [],
+    "populated_fields": [
+      "traceability_lot_code",
+      "product_name",
+      "event_datetime",
+      "reference_record_type",
+      "reference_record_no",
+      "traceability_lot_code",
+      "product_name",
+      "event_datetime",
+      "reference_record_type",
+      "reference_record_no"
+    ],
+    "status": "ready"
+  },
+  {
+    "approved_obligation_id": "FSMA204-OBL-DET-1300-SCOPE",
+    "check_id": "phase11-export-0003",
+    "cte": "transformation",
+    "event_id": "TRANS-1:PROD-1",
+    "missing_fields": [
+      "source_lot_or_tlc",
+      "source_lot_or_tlc",
+      "source_lot_or_tlc"
+    ],
+    "populated_fields": [
+      "output_lot_or_tlc",
+      "product_name",
+      "event_datetime",
+      "reference_record_type",
+      "reference_record_no",
+      "output_lot_or_tlc",
+      "product_name",
+      "event_datetime",
+      "reference_record_type",
+      "reference_record_no",
+      "output_lot_or_tlc",
+      "product_name",
+      "event_datetime",
+      "reference_record_type",
+      "reference_record_no"
+    ],
+    "status": "blocked"
+  }
+]

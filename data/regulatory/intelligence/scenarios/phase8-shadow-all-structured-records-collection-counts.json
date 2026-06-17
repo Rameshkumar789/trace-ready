@@ -1,0 +1,34 @@
+{
+  "cte_definitions": {
+    "needs_review": 7
+  },
+  "defined_terms": {
+    "needs_review": 26
+  },
+  "exemption_rules": {
+    "needs_review": 3,
+    "rejected": 5
+  },
+  "ftl_food_items": {
+    "needs_review": 20
+  },
+  "kde_requirements": {
+    "needs_review": 79
+  },
+  "obligations": {
+    "needs_review": 9,
+    "rejected": 11
+  },
+  "scenario_benchmarks": {
+    "needs_review": 6
+  },
+  "sortable_export_fields": {
+    "needs_review": 370
+  },
+  "tlc_rules": {
+    "needs_review": 8
+  },
+  "traceability_plan_requirements": {
+    "needs_review": 6
+  }
+}

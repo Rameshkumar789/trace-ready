@@ -1,0 +1,3061 @@
+{
+  "approved_rule_package_id": "approved-rule-package-v1",
+  "approved_rule_package_version": 1,
+  "comparison_notes": [
+    "Parser candidates are evaluated against gold labels before any parsed facts are allowed into deterministic approved-rule execution.",
+    "The approved rule package remains fixed; this harness measures fact extraction quality, not legal-rule generation.",
+    "No live OpenAI, Anthropic, or other AI model output was used in the current Phase 12 parser comparison."
+  ],
+  "evaluation_runs": [
+    {
+      "abstention_rate": 0.25,
+      "deterministic_rule_execution_unchanged": true,
+      "exact_cte_match_rate": 1.0,
+      "parser_id": "deterministic_multisignal_parser",
+      "parser_type": "deterministic",
+      "parser_version": "phase10c-v1",
+      "precision": 1.0,
+      "prompt_id": null,
+      "recall": 1.0,
+      "results": [
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:shipping_b2b:fresh_basil:001"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:receiving_b2b:fresh_basil:002"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "first_land_based_receiving"
+          ],
+          "scenario_id": "phase12:first_land_seafood:fresh_basil:003"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:transformation_ftl:fresh_basil:004"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:direct_consumer:fresh_basil:005"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_basil:006"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transporter_only:fresh_basil:007"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:internal_transfer:fresh_basil:008"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:return_correction:fresh_basil:009"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "traceability_plan"
+          ],
+          "scenario_id": "phase12:traceability_plan:fresh_basil:010"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "harvesting"
+          ],
+          "scenario_id": "phase12:harvesting:fresh_basil:011"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "cooling"
+          ],
+          "scenario_id": "phase12:cooling:fresh_basil:012"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "initial_packing"
+          ],
+          "scenario_id": "phase12:initial_packing:fresh_basil:013"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "transformation"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_basil:014"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_basil:015"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_basil:016"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_basil:017"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:restaurant_receiving:fresh_basil:018"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:distribution_crossdock:fresh_basil:019"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_basil:020"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:shipping_b2b:fresh_tuna:021"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:receiving_b2b:fresh_tuna:022"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "first_land_based_receiving"
+          ],
+          "scenario_id": "phase12:first_land_seafood:fresh_tuna:023"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:transformation_ftl:fresh_tuna:024"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:direct_consumer:fresh_tuna:025"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_tuna:026"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transporter_only:fresh_tuna:027"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:internal_transfer:fresh_tuna:028"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:return_correction:fresh_tuna:029"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "traceability_plan"
+          ],
+          "scenario_id": "phase12:traceability_plan:fresh_tuna:030"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "harvesting"
+          ],
+          "scenario_id": "phase12:harvesting:fresh_tuna:031"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "cooling"
+          ],
+          "scenario_id": "phase12:cooling:fresh_tuna:032"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "initial_packing"
+          ],
+          "scenario_id": "phase12:initial_packing:fresh_tuna:033"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "transformation"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_tuna:034"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_tuna:035"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_tuna:036"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_tuna:037"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:restaurant_receiving:fresh_tuna:038"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:distribution_crossdock:fresh_tuna:039"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_tuna:040"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:shipping_b2b:soft_cheese:041"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:receiving_b2b:soft_cheese:042"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "first_land_based_receiving"
+          ],
+          "scenario_id": "phase12:first_land_seafood:soft_cheese:043"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:transformation_ftl:soft_cheese:044"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:direct_consumer:soft_cheese:045"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:non_ftl_transformation:soft_cheese:046"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transporter_only:soft_cheese:047"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:internal_transfer:soft_cheese:048"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:return_correction:soft_cheese:049"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "traceability_plan"
+          ],
+          "scenario_id": "phase12:traceability_plan:soft_cheese:050"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "harvesting"
+          ],
+          "scenario_id": "phase12:harvesting:soft_cheese:051"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "cooling"
+          ],
+          "scenario_id": "phase12:cooling:soft_cheese:052"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "initial_packing"
+          ],
+          "scenario_id": "phase12:initial_packing:soft_cheese:053"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "transformation"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:kill_step_uncertainty:soft_cheese:054"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:exemption_claim_shipping:soft_cheese:055"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:ambiguous_actor_receiving:soft_cheese:056"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:food_scope_review_shipping:soft_cheese:057"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:restaurant_receiving:soft_cheese:058"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:distribution_crossdock:soft_cheese:059"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:seafood_processor_shipping:soft_cheese:060"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:shipping_b2b:fresh_cucumber:061"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:receiving_b2b:fresh_cucumber:062"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "first_land_based_receiving"
+          ],
+          "scenario_id": "phase12:first_land_seafood:fresh_cucumber:063"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:transformation_ftl:fresh_cucumber:064"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:direct_consumer:fresh_cucumber:065"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_cucumber:066"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transporter_only:fresh_cucumber:067"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:internal_transfer:fresh_cucumber:068"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:return_correction:fresh_cucumber:069"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "traceability_plan"
+          ],
+          "scenario_id": "phase12:traceability_plan:fresh_cucumber:070"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "harvesting"
+          ],
+          "scenario_id": "phase12:harvesting:fresh_cucumber:071"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "cooling"
+          ],
+          "scenario_id": "phase12:cooling:fresh_cucumber:072"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "initial_packing"
+          ],
+          "scenario_id": "phase12:initial_packing:fresh_cucumber:073"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "transformation"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_cucumber:074"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_cucumber:075"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_cucumber:076"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_cucumber:077"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:restaurant_receiving:fresh_cucumber:078"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:distribution_crossdock:fresh_cucumber:079"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_cucumber:080"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:shipping_b2b:fresh_sprouts:081"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:receiving_b2b:fresh_sprouts:082"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "first_land_based_receiving"
+          ],
+          "scenario_id": "phase12:first_land_seafood:fresh_sprouts:083"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:transformation_ftl:fresh_sprouts:084"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:direct_consumer:fresh_sprouts:085"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_sprouts:086"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transporter_only:fresh_sprouts:087"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:internal_transfer:fresh_sprouts:088"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:return_correction:fresh_sprouts:089"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "traceability_plan"
+          ],
+          "scenario_id": "phase12:traceability_plan:fresh_sprouts:090"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "harvesting"
+          ],
+          "scenario_id": "phase12:harvesting:fresh_sprouts:091"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "cooling"
+          ],
+          "scenario_id": "phase12:cooling:fresh_sprouts:092"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "initial_packing"
+          ],
+          "scenario_id": "phase12:initial_packing:fresh_sprouts:093"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "transformation"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_sprouts:094"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_sprouts:095"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_sprouts:096"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_sprouts:097"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:restaurant_receiving:fresh_sprouts:098"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:distribution_crossdock:fresh_sprouts:099"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_sprouts:100"
+        }
+      ],
+      "scenario_count": 100
+    },
+    {
+      "abstention_rate": 0.0,
+      "deterministic_rule_execution_unchanged": true,
+      "exact_cte_match_rate": 0.6,
+      "parser_id": "permissive_keyword_parser",
+      "parser_type": "comparison_baseline",
+      "parser_version": "baseline-v0",
+      "precision": 0.619,
+      "prompt_id": null,
+      "recall": 1.0,
+      "results": [
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:shipping_b2b:fresh_basil:001"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:receiving_b2b:fresh_basil:002"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "first_land_based_receiving",
+            "receiving"
+          ],
+          "scenario_id": "phase12:first_land_seafood:fresh_basil:003"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:transformation_ftl:fresh_basil:004"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:direct_consumer:fresh_basil:005"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_basil:006"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:transporter_only:fresh_basil:007"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:internal_transfer:fresh_basil:008"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:return_correction:fresh_basil:009"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "traceability_plan"
+          ],
+          "scenario_id": "phase12:traceability_plan:fresh_basil:010"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "harvesting"
+          ],
+          "scenario_id": "phase12:harvesting:fresh_basil:011"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "cooling"
+          ],
+          "scenario_id": "phase12:cooling:fresh_basil:012"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "initial_packing"
+          ],
+          "scenario_id": "phase12:initial_packing:fresh_basil:013"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_basil:014"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_basil:015"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_basil:016"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_basil:017"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:restaurant_receiving:fresh_basil:018"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:distribution_crossdock:fresh_basil:019"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_basil:020"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:shipping_b2b:fresh_tuna:021"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:receiving_b2b:fresh_tuna:022"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "first_land_based_receiving",
+            "receiving"
+          ],
+          "scenario_id": "phase12:first_land_seafood:fresh_tuna:023"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:transformation_ftl:fresh_tuna:024"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:direct_consumer:fresh_tuna:025"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_tuna:026"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:transporter_only:fresh_tuna:027"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:internal_transfer:fresh_tuna:028"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:return_correction:fresh_tuna:029"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "traceability_plan"
+          ],
+          "scenario_id": "phase12:traceability_plan:fresh_tuna:030"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "harvesting"
+          ],
+          "scenario_id": "phase12:harvesting:fresh_tuna:031"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "cooling"
+          ],
+          "scenario_id": "phase12:cooling:fresh_tuna:032"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "initial_packing"
+          ],
+          "scenario_id": "phase12:initial_packing:fresh_tuna:033"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_tuna:034"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_tuna:035"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_tuna:036"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_tuna:037"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:restaurant_receiving:fresh_tuna:038"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:distribution_crossdock:fresh_tuna:039"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_tuna:040"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:shipping_b2b:soft_cheese:041"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:receiving_b2b:soft_cheese:042"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "first_land_based_receiving",
+            "receiving"
+          ],
+          "scenario_id": "phase12:first_land_seafood:soft_cheese:043"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:transformation_ftl:soft_cheese:044"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:direct_consumer:soft_cheese:045"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:non_ftl_transformation:soft_cheese:046"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:transporter_only:soft_cheese:047"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:internal_transfer:soft_cheese:048"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:return_correction:soft_cheese:049"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "traceability_plan"
+          ],
+          "scenario_id": "phase12:traceability_plan:soft_cheese:050"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "harvesting"
+          ],
+          "scenario_id": "phase12:harvesting:soft_cheese:051"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "cooling"
+          ],
+          "scenario_id": "phase12:cooling:soft_cheese:052"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "initial_packing"
+          ],
+          "scenario_id": "phase12:initial_packing:soft_cheese:053"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:kill_step_uncertainty:soft_cheese:054"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:exemption_claim_shipping:soft_cheese:055"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:ambiguous_actor_receiving:soft_cheese:056"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:food_scope_review_shipping:soft_cheese:057"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:restaurant_receiving:soft_cheese:058"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:distribution_crossdock:soft_cheese:059"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:seafood_processor_shipping:soft_cheese:060"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:shipping_b2b:fresh_cucumber:061"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:receiving_b2b:fresh_cucumber:062"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "first_land_based_receiving",
+            "receiving"
+          ],
+          "scenario_id": "phase12:first_land_seafood:fresh_cucumber:063"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:transformation_ftl:fresh_cucumber:064"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:direct_consumer:fresh_cucumber:065"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_cucumber:066"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:transporter_only:fresh_cucumber:067"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:internal_transfer:fresh_cucumber:068"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:return_correction:fresh_cucumber:069"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "traceability_plan"
+          ],
+          "scenario_id": "phase12:traceability_plan:fresh_cucumber:070"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "harvesting"
+          ],
+          "scenario_id": "phase12:harvesting:fresh_cucumber:071"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "cooling"
+          ],
+          "scenario_id": "phase12:cooling:fresh_cucumber:072"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "initial_packing"
+          ],
+          "scenario_id": "phase12:initial_packing:fresh_cucumber:073"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_cucumber:074"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_cucumber:075"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_cucumber:076"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_cucumber:077"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:restaurant_receiving:fresh_cucumber:078"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:distribution_crossdock:fresh_cucumber:079"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_cucumber:080"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:shipping_b2b:fresh_sprouts:081"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:receiving_b2b:fresh_sprouts:082"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "first_land_based_receiving",
+            "receiving"
+          ],
+          "scenario_id": "phase12:first_land_seafood:fresh_sprouts:083"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:transformation_ftl:fresh_sprouts:084"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:direct_consumer:fresh_sprouts:085"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_sprouts:086"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:transporter_only:fresh_sprouts:087"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:internal_transfer:fresh_sprouts:088"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:return_correction:fresh_sprouts:089"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "traceability_plan"
+          ],
+          "scenario_id": "phase12:traceability_plan:fresh_sprouts:090"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "harvesting"
+          ],
+          "scenario_id": "phase12:harvesting:fresh_sprouts:091"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "cooling"
+          ],
+          "scenario_id": "phase12:cooling:fresh_sprouts:092"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "initial_packing"
+          ],
+          "scenario_id": "phase12:initial_packing:fresh_sprouts:093"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "transformation"
+          ],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_sprouts:094"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_sprouts:095"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_sprouts:096"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_sprouts:097"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "receiving"
+          ],
+          "scenario_id": "phase12:restaurant_receiving:fresh_sprouts:098"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:distribution_crossdock:fresh_sprouts:099"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [],
+          "parser_ctes": [
+            "shipping"
+          ],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_sprouts:100"
+        }
+      ],
+      "scenario_count": 100
+    },
+    {
+      "abstention_rate": 0.65,
+      "deterministic_rule_execution_unchanged": true,
+      "exact_cte_match_rate": 0.35,
+      "parser_id": "conservative_abstention_parser",
+      "parser_type": "comparison_baseline",
+      "parser_version": "baseline-v0",
+      "precision": 1.0,
+      "prompt_id": null,
+      "recall": 0.0,
+      "results": [
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:shipping_b2b:fresh_basil:001"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:receiving_b2b:fresh_basil:002"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [
+            "first_land_based_receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:first_land_seafood:fresh_basil:003"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [
+            "transformation"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transformation_ftl:fresh_basil:004"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:direct_consumer:fresh_basil:005"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_basil:006"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transporter_only:fresh_basil:007"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:internal_transfer:fresh_basil:008"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:return_correction:fresh_basil:009"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [
+            "traceability_plan"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:traceability_plan:fresh_basil:010"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [
+            "harvesting"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:harvesting:fresh_basil:011"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [
+            "cooling"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:cooling:fresh_basil:012"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [
+            "initial_packing"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:initial_packing:fresh_basil:013"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_basil:014"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_basil:015"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_basil:016"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_basil:017"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:restaurant_receiving:fresh_basil:018"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:distribution_crossdock:fresh_basil:019"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_basil:020"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:shipping_b2b:fresh_tuna:021"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:receiving_b2b:fresh_tuna:022"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [
+            "first_land_based_receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:first_land_seafood:fresh_tuna:023"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [
+            "transformation"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transformation_ftl:fresh_tuna:024"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:direct_consumer:fresh_tuna:025"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_tuna:026"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transporter_only:fresh_tuna:027"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:internal_transfer:fresh_tuna:028"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:return_correction:fresh_tuna:029"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [
+            "traceability_plan"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:traceability_plan:fresh_tuna:030"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [
+            "harvesting"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:harvesting:fresh_tuna:031"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [
+            "cooling"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:cooling:fresh_tuna:032"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [
+            "initial_packing"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:initial_packing:fresh_tuna:033"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_tuna:034"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_tuna:035"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_tuna:036"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_tuna:037"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:restaurant_receiving:fresh_tuna:038"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:distribution_crossdock:fresh_tuna:039"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_tuna:040"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:shipping_b2b:soft_cheese:041"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:receiving_b2b:soft_cheese:042"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [
+            "first_land_based_receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:first_land_seafood:soft_cheese:043"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [
+            "transformation"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transformation_ftl:soft_cheese:044"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:direct_consumer:soft_cheese:045"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:non_ftl_transformation:soft_cheese:046"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transporter_only:soft_cheese:047"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:internal_transfer:soft_cheese:048"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:return_correction:soft_cheese:049"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [
+            "traceability_plan"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:traceability_plan:soft_cheese:050"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [
+            "harvesting"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:harvesting:soft_cheese:051"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [
+            "cooling"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:cooling:soft_cheese:052"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [
+            "initial_packing"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:initial_packing:soft_cheese:053"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:kill_step_uncertainty:soft_cheese:054"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:exemption_claim_shipping:soft_cheese:055"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:ambiguous_actor_receiving:soft_cheese:056"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:food_scope_review_shipping:soft_cheese:057"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:restaurant_receiving:soft_cheese:058"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:distribution_crossdock:soft_cheese:059"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:seafood_processor_shipping:soft_cheese:060"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:shipping_b2b:fresh_cucumber:061"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:receiving_b2b:fresh_cucumber:062"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [
+            "first_land_based_receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:first_land_seafood:fresh_cucumber:063"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [
+            "transformation"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transformation_ftl:fresh_cucumber:064"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:direct_consumer:fresh_cucumber:065"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_cucumber:066"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transporter_only:fresh_cucumber:067"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:internal_transfer:fresh_cucumber:068"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:return_correction:fresh_cucumber:069"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [
+            "traceability_plan"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:traceability_plan:fresh_cucumber:070"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [
+            "harvesting"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:harvesting:fresh_cucumber:071"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [
+            "cooling"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:cooling:fresh_cucumber:072"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [
+            "initial_packing"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:initial_packing:fresh_cucumber:073"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_cucumber:074"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_cucumber:075"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_cucumber:076"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_cucumber:077"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:restaurant_receiving:fresh_cucumber:078"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:distribution_crossdock:fresh_cucumber:079"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_cucumber:080"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:shipping_b2b:fresh_sprouts:081"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:receiving_b2b:fresh_sprouts:082"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "first_land_based_receiving"
+          ],
+          "parser_abstentions": [
+            "first_land_based_receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:first_land_seafood:fresh_sprouts:083"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "transformation"
+          ],
+          "parser_abstentions": [
+            "transformation"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transformation_ftl:fresh_sprouts:084"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:direct_consumer:fresh_sprouts:085"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:non_ftl_transformation:fresh_sprouts:086"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:transporter_only:fresh_sprouts:087"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:internal_transfer:fresh_sprouts:088"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:return_correction:fresh_sprouts:089"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "traceability_plan"
+          ],
+          "parser_abstentions": [
+            "traceability_plan"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:traceability_plan:fresh_sprouts:090"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "harvesting"
+          ],
+          "parser_abstentions": [
+            "harvesting"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:harvesting:fresh_sprouts:091"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "cooling"
+          ],
+          "parser_abstentions": [
+            "cooling"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:cooling:fresh_sprouts:092"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "initial_packing"
+          ],
+          "parser_abstentions": [
+            "initial_packing"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:initial_packing:fresh_sprouts:093"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:kill_step_uncertainty:fresh_sprouts:094"
+        },
+        {
+          "exact_cte_match": true,
+          "expected_ctes": [],
+          "parser_abstentions": [],
+          "parser_ctes": [],
+          "scenario_id": "phase12:exemption_claim_shipping:fresh_sprouts:095"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:ambiguous_actor_receiving:fresh_sprouts:096"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:food_scope_review_shipping:fresh_sprouts:097"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "receiving"
+          ],
+          "parser_abstentions": [
+            "receiving"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:restaurant_receiving:fresh_sprouts:098"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:distribution_crossdock:fresh_sprouts:099"
+        },
+        {
+          "exact_cte_match": false,
+          "expected_ctes": [
+            "shipping"
+          ],
+          "parser_abstentions": [
+            "shipping"
+          ],
+          "parser_ctes": [],
+          "scenario_id": "phase12:seafood_processor_shipping:fresh_sprouts:100"
+        }
+      ],
+      "scenario_count": 100
+    }
+  ],
+  "generated_at": "2026-06-16T00:00:00Z",
+  "live_model_outputs_evaluated": false,
+  "purpose": "Compare fact-extraction parser candidates without changing approved deterministic rule execution. Current Phase 12 runs include the deterministic classifier and non-AI baselines only; live OpenAI/Anthropic prompt outputs are not evaluated yet."
+}

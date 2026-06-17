@@ -1,0 +1,55 @@
+{
+  "baseline_status": "created",
+  "change_policy": {
+    "approved_rule_package_change": "block publication until benchmark, unseen, and customer-evidence regression suites pass.",
+    "customer_mapping_profile_change": "rerun customer-evidence regression and field-mapping drift checks.",
+    "parser_or_prompt_change": "rerun parser evaluation harness and require no degradation against the pinned gold labels.",
+    "source_version_change": "rerun Phase 8, Phase 10C, Phase 11 sample, and Phase 12 before publishing new package."
+  },
+  "current_run_statuses": {
+    "approved_rule_package": "approved",
+    "phase12_generalization": "pass",
+    "scenario_exact_passes": "100/100"
+  },
+  "generated_at": "2026-06-16T00:00:00Z",
+  "monitored_inputs": [
+    {
+      "hash": "549a71a6dcc794a827063b1b2e697c3b5d08742b5a7977853d0d2afdf705cf73",
+      "input": "approved_rule_package",
+      "package_id": "approved-rule-package-v1",
+      "rerun_suites_on_change": [
+        "phase8_benchmark",
+        "phase10c_customer_cte_benchmark",
+        "phase11_customer_evidence_sample",
+        "phase12_generalization"
+      ],
+      "version": 1
+    },
+    {
+      "hash": "1924eeed2c40e227195c403565af7a45902d018ce3af732d3c4b339f9a04e736",
+      "input": "phase12_unseen_challenge_set",
+      "rerun_suites_on_change": [
+        "phase12_generalization"
+      ],
+      "scenario_count": 100
+    },
+    {
+      "hash": "820f13fb5c412a025eb8ee78bb478698c0b1940ffc29733f9d80bf52e4c3625b",
+      "input": "phase8_benchmark_summary",
+      "path": "../data/regulatory/intelligence/scenarios/phase8-summary.json"
+    },
+    {
+      "hash": "3a124b890ea77b84460fe82a6f896b88609195c17ec2cc3789fae2496166f665",
+      "input": "phase10c_customer_cte_summary",
+      "path": "../data/regulatory/intelligence/customer-evidence/phase10c-summary.json"
+    },
+    {
+      "hash": "f537591a3c923529e1a030699af81dfe0144cfc040370b58528b4a40075ee526",
+      "input": "phase11_customer_evidence_summary",
+      "path": "../data/regulatory/intelligence/customer-evidence/phase11-summary.json"
+    }
+  ],
+  "publication_gate": "pass",
+  "rerun_required_before_publication": false,
+  "status": "stable"
+}

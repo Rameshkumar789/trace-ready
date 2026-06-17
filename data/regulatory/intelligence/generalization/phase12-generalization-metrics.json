@@ -1,0 +1,36 @@
+{
+  "abstention_correctness": 1.0,
+  "actor_role_review_correctness": 1.0,
+  "citation_correctness": 1.0,
+  "cte_precision_by_cte": {
+    "cooling": 1.0,
+    "first_land_based_receiving": 1.0,
+    "harvesting": 1.0,
+    "initial_packing": 1.0,
+    "receiving": 1.0,
+    "shipping": 1.0,
+    "traceability_plan": 1.0,
+    "transformation": 1.0
+  },
+  "cte_recall_by_cte": {
+    "cooling": 1.0,
+    "first_land_based_receiving": 1.0,
+    "harvesting": 1.0,
+    "initial_packing": 1.0,
+    "receiving": 1.0,
+    "shipping": 1.0,
+    "traceability_plan": 1.0,
+    "transformation": 1.0
+  },
+  "exact_scenario_pass_count": 100,
+  "exact_scenario_pass_rate": 1.0,
+  "false_negative_rate": 0.0,
+  "false_positive_rate": 0.0,
+  "food_scope_review_correctness": 1.0,
+  "generated_at": "2026-06-16T00:00:00Z",
+  "obligation_precision": 1.0,
+  "obligation_recall": 1.0,
+  "scenario_count": 100,
+  "suppression_correctness": 1.0,
+  "top_error_categories": {}
+}

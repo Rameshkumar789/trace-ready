@@ -1,0 +1,340 @@
+[
+  {
+    "benchmark_id": "phase8:fda_scenario:cucumber",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:fda_scenario:tuna",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:fda_scenario:cheese",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:fda_scenario:deli_salad_ftl_ingredients",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:fda_scenario:deli_salad_canned_tuna",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:fda_scenario:sprouts",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:farm",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:restaurant",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:sprouter",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:food_processor",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:distribution_center",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:seafood_processing",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:aquaculture",
+    "status": "pass",
+    "checks": [
+      {
+        "check_id": "citations_complete",
+        "status": "pass",
+        "message": "All benchmark citations resolve to canonical source chunks with support text."
+      },
+      {
+        "check_id": "expected_obligations_approved",
+        "status": "pass",
+        "message": "Every expected benchmark obligation exists in the approved Phase 7 obligation set."
+      },
+      {
+        "check_id": "event_contract",
+        "status": "pass",
+        "message": "All benchmark events include CTE, KDE, TLC, and approved-obligation expectations."
+      },
+      {
+        "check_id": "traceability_plan_contract",
+        "status": "pass",
+        "message": "Benchmark includes traceability plan, records, FDA request, and sortable-export expectations."
+      }
+    ]
+  }
+]

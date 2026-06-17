@@ -1,0 +1,37 @@
+{
+  "abstention_correctness_rate": 1.0,
+  "benchmark_count": 50,
+  "exact_match_count": 50,
+  "exact_match_rate": 1.0,
+  "false_negatives_by_cte": {
+    "first_land_based_receiving": 0,
+    "receiving": 0,
+    "shipping": 0,
+    "traceability_plan": 0,
+    "transformation": 0
+  },
+  "false_positives_by_cte": {
+    "first_land_based_receiving": 0,
+    "receiving": 0,
+    "shipping": 0,
+    "traceability_plan": 0,
+    "transformation": 0
+  },
+  "generated_at": "2026-06-16T00:00:00Z",
+  "precision_by_cte": {
+    "first_land_based_receiving": 1.0,
+    "receiving": 1.0,
+    "shipping": 1.0,
+    "traceability_plan": 1.0,
+    "transformation": 1.0
+  },
+  "recall_by_cte": {
+    "first_land_based_receiving": 1.0,
+    "receiving": 1.0,
+    "shipping": 1.0,
+    "traceability_plan": 1.0,
+    "transformation": 1.0
+  },
+  "suppression_correctness_rate": 1.0,
+  "top_error_categories": {}
+}

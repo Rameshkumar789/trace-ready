@@ -1,0 +1,166 @@
+This company is Friday4:30.
+
+It is very relevant to our thinking, but it is solving a different part of the food risk workflow.
+
+What Friday4:30 does
+
+Friday4:30 is an incident response platform for food brands and manufacturers. The article says it helps companies manage and log issues from first alert to resolution. The founders describe the pain as the “Friday 4:30 moment” — when a product issue, production problem, recall, or supply-chain crisis appears late in the day and the company has to respond ad hoc.  
+
+The platform is built around preparedness and structured incident management. It replaces crisis manuals, spreadsheet/email chains, and institutional knowledge that might live only in an experienced employee’s head. The article says it helps bring together the many moving parts of incident response and makes professional crisis management accessible to mid-market food brands.  
+
+They raised £335,000 from Haatch, and the investor quote is important: Haatch specifically says food and drink companies are still managing product recalls and supply-chain crises on spreadsheets and email chains.  
+
+⸻
+
+Where Friday4:30 fits in the market
+
+Friday4:30 sits after something goes wrong.
+
+Food issue happens
+- product failure
+- contamination concern
+- recall
+- production shutdown
+- supply-chain crisis
+- customer complaint
+        ↓
+Friday4:30
+- log incident
+- coordinate response
+- assign people
+- track actions
+- preserve knowledge
+- move from first alert to resolution
+        ↓
+Incident closed / response documented
+
+So their workflow is:
+
+Incident response and crisis management.
+
+⸻
+
+How it compares to our idea
+
+Our current strongest idea is:
+
+Digital FSMA 204 gap audit + traceability exception operations desk.
+
+We sit before or during traceability readiness, not mainly after a crisis.
+
+Our product:
+Do we have the right traceability records?
+Are covered products identified?
+Are supplier KDEs missing?
+Are lot codes preserved?
+Are transformations linked?
+Can we share records downstream?
+Friday4:30:
+An incident happened.
+Who needs to respond?
+What actions were taken?
+How do we manage the crisis?
+How do we close the issue?
+
+Simple comparison
+
+Area	Friday4:30	Trace Ready idea
+Main problem	Incident/crisis response	FSMA 204 readiness and traceability gaps
+Timing	After issue appears	Before issue, during audit/readiness, ongoing exceptions
+Buyer	Food brands/manufacturers	Distributors, packers, food hubs, food operators
+Main workflow	First alert → resolution	Data gap → remediation
+Current manual pain	Crisis manuals, email chains, spreadsheets	ERP/WMS gaps, missing KDEs, supplier data, lot-code lineage
+Output	Incident response record	Gap audit, supplier obligations, remediation checklist, clean traceability records
+Closest overlap	Recalls/supply-chain crisis	Recall readiness / traceability evidence
+
+⸻
+
+Why Friday4:30 matters to us
+
+This is another validation of the broader pattern:
+
+Food companies still run critical compliance/risk workflows on spreadsheets, emails, and people’s memory.
+
+RetailReady did this for retail warehouse compliance.
+Friday4:30 is doing this for food incident response.
+We can do this for FSMA 204 traceability readiness and data gaps.
+
+The investor quote from Haatch is especially useful because it confirms that mid-market food brands still rely on spreadsheets and email chains for serious product recall and crisis workflows.  
+
+That supports our thesis that food compliance workflows are underserved.
+
+⸻
+
+Does Friday4:30 compete with us?
+
+Not directly today.
+
+They are more incident-response software.
+
+But they could expand into:
+
+* recall workflow,
+* supply-chain crisis traceability,
+* product issue investigation,
+* supplier issue tracking,
+* recall closure,
+* evidence packets.
+
+So in the future they may overlap with our recall readiness / incident evidence expansion.
+
+But our wedge is different:
+
+Make the FSMA 204 compliance gap visible before a crisis happens.
+
+⸻
+
+What is the “twist” in Friday4:30?
+
+Like the other examples, existing tools already existed:
+
+* spreadsheets,
+* crisis manuals,
+* email chains,
+* consultants,
+* QA systems,
+* recall plans.
+
+Friday4:30’s twist is:
+
+Turn expert incident-response knowledge into a structured software workflow that guides the company from first alert to resolution.
+
+That is exactly the same startup pattern we are learning.
+
+For us, the twist should be:
+
+Turn expert FSMA 204 gap analysis into a digital audit and remediation workflow.
+
+⸻
+
+Lesson for Trace Ready
+
+Friday4:30 gives us a better way to describe our idea.
+
+Instead of saying:
+
+“We use AI to check traceability records.”
+
+Say:
+
+“We encode expert FSMA 204 readiness knowledge into a digital gap-audit workflow, so mid-market food operators can know exactly where their products, suppliers, lot-code lineage, transformations, and data-sharing processes fail before an audit or recall.”
+
+That is much stronger.
+
+⸻
+
+Final takeaway
+
+Friday4:30 validates the market pattern:
+
+Food companies need structured, expert-driven software for messy compliance/risk workflows that are still handled through spreadsheets, email, and institutional knowledge.
+
+They are attacking incident response.
+
+We should attack:
+
+FSMA 204 readiness and traceability gap remediation.

@@ -1,0 +1,246 @@
+{
+  "sourceId": "cfr-21-133-150",
+  "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-133/subpart-B/section-133.150",
+  "rawArtifact": "../data/regulatory/cfr-21-133-150/raw/cfr-21-133-150.pdf",
+  "rawTextHash": "085622498dd7455fa3f4f77e3a65c846d15662fad8b4ee8e6aefa565b4774bc4",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 1,
+  "chunks": [
+    {
+      "chunk_id": "cfr-21-133-150-133-150-1",
+      "source_id": "cfr-21-133-150",
+      "section_label": "\u00a7 133.150 Hard cheeses.",
+      "section": "\u00a7133.150",
+      "text": "\u00a7 133.150 Hard cheeses.\n(a) The cheeses for which definitions and standards of identity are prescribed by this section are hard\ncheeses for which specifically applicable definitions and standards of identity are not prescribed by other\nsections of this part. They are made from milk and the other ingredients specified in this section, by the\nprocedure set forth inparagraph (b)of this section. They contain not more than 39 percent of moisture,\nand their solids contain not less than 50 percent of milkfat, as determined by the methods prescribed in\u00a7\n133.5 (a),(b), and(d). If the milk used is not pasteurized, the cheese so made is cured at a temperature of\nnot less than 35 \u00b0F for not less than 60 days.\n(b) Milk, which may be pasteurized or clarified or both, and which may be warmed, is subjected to the action\nof harmless lactic-acid-producing bacteria, with or without other harmless flavor-producing bacteria,\npresent in such milk or added thereto. Harmless artificial coloring may be added. Sufficient rennet, rennet\npaste, extract of rennet paste, or other safe and suitable milk-clotting enzyme that produces equivalent\ncurd formation, singly or in any combination (with or without purified calcium chloride in a quantity not\nmore than 0.02 percent, calculated as anhydrous calcium chloride, of the weight of the milk) is added to\nset the milk to a semisolid mass. The mass is cut into small particles, stirred, and heated. The curd is\nseparated from the whey, drained, and shaped into forms, and may be pressed. The curd is salted at some\nstage of the manufacturing process. The shaped curd may be cured. The rind may be coated with paraffin\nor rubbed with vegetable oil. A harmless preparation of enzymes of animal or plant origin capable of\naiding in the curing or development of flavor of hard cheese may be added during the procedure, in such\nquantity that the weight of the solids of such preparation is not more than 0.1 percent of the weight of the\nmilk used. Harmless flavor-producing microorganisms may be added, and curing may be conducted\nunder suitable conditions for the development of biological curing agents.\n(c) For the purposes of this section:\n(1) The word \u201cmilk\u201d means cow's milk or goat's milk or sheep's milk or mixtures of two or all of these.\nSuch milk may be adjusted by separating part of the fat therefrom, or (in the case of cow's milk) by\nadding one or more of the following: Cream, skim milk, concentrated skim milk, nonfat dry milk; (in\nthe case of goat's milk) the corresponding products from goat's milk; (in the case of sheep's milk)\nthe corresponding products from sheep's milk; water in a quantity sufficient to reconstitute any\nconcentrated or dried products used.\n(2) Milk shall be deemed to have been pasteurized if it has been held at a temperature of not less than\n143 \u00b0F for a period of not less than 30 minutes, or for a time and at a temperature equivalent thereto\nin phosphatase destruction. A hard cheese shall be deemed not to have been made from\npasteurized milk if 0.25 gram shows a phenol equivalent of more than 3 micrograms when tested by\nthe method prescribed in\u00a7 133.5(c).\n21 CFR 133.150(c)(2) (enhanced display) page 1 of 2\n21 CFR 133.150 (up to date as of 6/12/2026)\n21 CFR 133.150(d)\nHard cheeses.\n(d) Safe and suitable antimycotic agent(s), the cumulative levels of which shall not exceed current good\nmanufacturing practice, may be added to the surface of the cheese.\n(e) The name of each hard cheese for which a definition and standard of identity is prescribed by this section\nis \u201cHard cheese\u201d, preceded or followed by:\n(1) The specific common or unusual name of such hard cheese, if any such name has become generally\nrecognized therefor; or\n(2) If no such specific common or usual name has become generally recognized, therefor, an arbitrary or\nfanciful name that is not false or misleading in any particular.\n(3) When milk other than cow's milk is used, in whole or in part, the statement \u201cmade from ______\u201d, the\nblank being filled in with the name or names of the milk used, in order of predominance by weight.\n(f) Label declaration.Each of the ingredients used in the food shall be declared on the label as required by the\napplicable sections ofparts 101and130 of this chapter, except that:\n(1) When milk other than cow's milk is used, in whole or in part, the common or usual name of each such\nmilk ingredient shall be declared in order of predominance by weight; and\n(2) Enzymes of animal, plant, or microbial origin may be declared as \u201cenzymes\u201d.\n[42 FR 14366, Mar. 15, 1977, as amended at48 FR 49013, Oct. 24, 1983;49 FR 10094, Mar. 19, 1984;58 FR 2893, Jan. 6, 1993]\n21 CFR 133.150(f)(2) (enhanced display) page 2 of 2",
+      "summary": "\u00a7 133.150 Hard cheeses. (a) The cheeses for which definitions and standards of identity are prescribed by this section are hard cheeses for which specifically applicable definit...",
+      "citation": "\u00a7133.150",
+      "text_hash": "sha256:df14119b53ecfa87eefc6c621b6dfd424c9701af00c311f2292297ea6e929dee",
+      "anchors": [
+        {
+          "source_id": "cfr-21-133-150",
+          "citation": "\u00a7133.150",
+          "section": "\u00a7133.150",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-133/subpart-B/section-133.150",
+          "retrieved_at": "local-file",
+          "source_hash": "085622498dd7455fa3f4f77e3a65c846d15662fad8b4ee8e6aefa565b4774bc4"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": {
+      "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+      "docket": "FDA-2014-N-0053",
+      "issued_date": "current_eCFR",
+      "applicability": "direct_core",
+      "trace_ready_priority": "must_ingest",
+      "source_role": "codified_legal_text",
+      "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+    },
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

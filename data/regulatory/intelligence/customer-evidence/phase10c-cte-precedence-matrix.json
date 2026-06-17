@@ -1,0 +1,114 @@
+{
+  "cte_order": [
+    "traceability_plan",
+    "first_land_based_receiving",
+    "harvesting",
+    "cooling",
+    "initial_packing",
+    "transformation",
+    "shipping",
+    "receiving"
+  ],
+  "generated_at": "2026-06-16T00:00:00Z",
+  "matrix_id": "phase10c-cte-precedence-matrix-v1",
+  "rules": [
+    {
+      "abstain_when_present": false,
+      "condition": "first_land_based_receiving and receiving are both supported",
+      "prefer_ctes": [
+        "first_land_based_receiving"
+      ],
+      "rationale": "First land-based receiving is a more specific CTE than generic receiving for seafood landing evidence.",
+      "reviewer_question": null,
+      "rule_id": "precedence-first-land-over-generic-receiving",
+      "suppress_ctes": [
+        "receiving"
+      ]
+    },
+    {
+      "abstain_when_present": false,
+      "condition": "destination is direct_to_consumer",
+      "prefer_ctes": [],
+      "rationale": "Direct-to-consumer movement should not trigger business-to-business shipping CTE classification.",
+      "reviewer_question": null,
+      "rule_id": "suppress-direct-to-consumer-shipping",
+      "suppress_ctes": [
+        "shipping"
+      ]
+    },
+    {
+      "abstain_when_present": true,
+      "condition": "actor role is transporter and no shipper/receiver party is resolved",
+      "prefer_ctes": [],
+      "rationale": "Transporter-only records can describe movement without establishing the covered entity CTE role.",
+      "reviewer_question": "Confirm whether this row represents the covered shipper/receiver or only a transporter/carrier record.",
+      "rule_id": "abstain-transporter-only",
+      "suppress_ctes": [
+        "shipping",
+        "receiving"
+      ]
+    },
+    {
+      "abstain_when_present": true,
+      "condition": "movement appears internal to same actor/location",
+      "prefer_ctes": [],
+      "rationale": "Internal movements should not automatically become shipping/receiving CTEs.",
+      "reviewer_question": "Confirm whether this internal transfer is a reportable shipping/receiving event.",
+      "rule_id": "suppress-internal-transfer",
+      "suppress_ctes": [
+        "shipping",
+        "receiving"
+      ]
+    },
+    {
+      "abstain_when_present": true,
+      "condition": "event terms include return, reversal, correction, void, or adjustment",
+      "prefer_ctes": [],
+      "rationale": "Return and correction records often refer to prior events rather than new CTEs.",
+      "reviewer_question": "Review return/correction evidence before classifying the CTE.",
+      "rule_id": "abstain-return-or-correction",
+      "suppress_ctes": []
+    },
+    {
+      "abstain_when_present": false,
+      "condition": "food form output_remains_ftl is false",
+      "prefer_ctes": [],
+      "rationale": "Non-FTL finished form should suppress downstream FTL CTE duties until reviewed.",
+      "reviewer_question": "Confirm transformed output FTL scope before applying downstream FTL duties.",
+      "rule_id": "suppress-non-ftl-output",
+      "suppress_ctes": [
+        "shipping",
+        "transformation"
+      ]
+    },
+    {
+      "abstain_when_present": true,
+      "condition": "kill step, exemption, partial exemption, or scope uncertainty is material",
+      "prefer_ctes": [],
+      "rationale": "Material uncertainty should create reviewer questions instead of confident findings.",
+      "reviewer_question": "Resolve exemption, kill-step, or food-scope uncertainty before confident CTE classification.",
+      "rule_id": "abstain-kill-step-or-exemption-uncertainty",
+      "suppress_ctes": []
+    },
+    {
+      "abstain_when_present": false,
+      "condition": "document/event is traceability plan",
+      "prefer_ctes": [
+        "traceability_plan"
+      ],
+      "rationale": "Traceability plan evidence is governance evidence, not a movement/transformation CTE.",
+      "reviewer_question": null,
+      "rule_id": "traceability-plan-exclusive",
+      "suppress_ctes": [
+        "harvesting",
+        "cooling",
+        "initial_packing",
+        "first_land_based_receiving",
+        "shipping",
+        "receiving",
+        "transformation"
+      ]
+    }
+  ],
+  "version": 1
+}

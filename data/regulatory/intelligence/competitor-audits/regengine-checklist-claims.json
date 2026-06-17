@@ -1,0 +1,58 @@
+[
+  {
+    "claim_id": "regengine-checklist-harvest-cte",
+    "checklist_item": "Harvest CTEs captured",
+    "claimed_citation": "21 CFR 1.1325(b)",
+    "claim_text": "Harvesting events with lot codes assigned at point of harvest",
+    "expected_topic": "harvesting"
+  },
+  {
+    "claim_id": "regengine-checklist-shipping-cte",
+    "checklist_item": "Shipping CTEs captured",
+    "claimed_citation": "21 CFR 1.1350(b)",
+    "claim_text": "All outbound shipments with Traceability Lot Codes linked to each unit",
+    "expected_topic": "shipping"
+  },
+  {
+    "claim_id": "regengine-checklist-receiving-cte",
+    "checklist_item": "Receiving CTEs captured",
+    "claimed_citation": "21 CFR 1.1345(b)",
+    "claim_text": "Inbound receiving events with supplier data and TLC verification",
+    "expected_topic": "receiving"
+  },
+  {
+    "claim_id": "regengine-checklist-transformation-cte",
+    "checklist_item": "Transformation CTEs captured",
+    "claimed_citation": "21 CFR 1.1335(b)",
+    "claim_text": "Processing, packing, and repacking events with new TLCs assigned",
+    "expected_topic": "transformation"
+  },
+  {
+    "claim_id": "regengine-checklist-all-kdes",
+    "checklist_item": "All KDEs populated",
+    "claimed_citation": "21 CFR 1.1315",
+    "claim_text": "Key Data Elements recorded for each Critical Tracking Event type",
+    "expected_topic": "cte_kdes"
+  },
+  {
+    "claim_id": "regengine-checklist-tlc-linkage",
+    "checklist_item": "TLCs linked across events",
+    "claimed_citation": "21 CFR 1.1320",
+    "claim_text": "Traceability Lot Codes connected from harvest to distribution across your supply chain",
+    "expected_topic": "tlc_assignment_and_linkage"
+  },
+  {
+    "claim_id": "regengine-checklist-24-hour-response",
+    "checklist_item": "24-hour response capability",
+    "claimed_citation": "21 CFR 1.1455",
+    "claim_text": "Can provide FDA with requested traceability data within 24 hours",
+    "expected_topic": "fda_24_hour_response"
+  },
+  {
+    "claim_id": "regengine-checklist-electronic-recordkeeping",
+    "checklist_item": "Electronic recordkeeping",
+    "claimed_citation": "21 CFR 1.1455(b)(3)",
+    "claim_text": "Sortable, searchable electronic records - not paper or static spreadsheets",
+    "expected_topic": "sortable_spreadsheet"
+  }
+]

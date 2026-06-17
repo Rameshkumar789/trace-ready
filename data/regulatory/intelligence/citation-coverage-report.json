@@ -1,0 +1,297 @@
+{
+  "summary": {
+    "records": 10,
+    "complete": 10,
+    "partial": 0,
+    "missing": 0,
+    "invalid": 0,
+    "citations": 10,
+    "validCitations": 10,
+    "invalidCitations": 0,
+    "missingSupportTextCitations": 0
+  },
+  "by_collection": {
+    "cte_definitions": {
+      "complete": 1
+    },
+    "defined_terms": {
+      "complete": 1
+    },
+    "exemption_rules": {
+      "complete": 1
+    },
+    "ftl_food_items": {
+      "complete": 1
+    },
+    "kde_requirements": {
+      "complete": 1
+    },
+    "obligations": {
+      "complete": 1
+    },
+    "scenario_benchmarks": {
+      "complete": 1
+    },
+    "sortable_export_fields": {
+      "complete": 1
+    },
+    "tlc_rules": {
+      "complete": 1
+    },
+    "traceability_plan_requirements": {
+      "complete": 1
+    }
+  },
+  "records": [
+    {
+      "collection": "defined_terms",
+      "record_id": "defined_term_critical_tracking_event",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3",
+          "citation_anchor": "21 CFR 1.1310",
+          "support_text": "Critical tracking event",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "obligations",
+      "record_id": "obligation_maintain_traceability_records_for_ctes",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1310-3",
+          "citation_anchor": "21 CFR 1.1310",
+          "support_text": "Critical tracking event",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "ftl_food_items",
+      "record_id": "ftl_food_item_leafy_greens",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "fda-food-traceability-list",
+          "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+          "citation_anchor": "21 CFR 1.1305",
+          "support_text": "Food Traceability List Description",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "cte_definitions",
+      "record_id": "cte_harvesting",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "chunk_id": "fda-cte-kde-pdf-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Harvesting KDEs",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "kde_requirements",
+      "record_id": "kde_harvesting_location_description",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "fda-cte-kde-pdf",
+          "chunk_id": "fda-cte-kde-pdf-page-2-2",
+          "citation_anchor": "page-2",
+          "support_text": "Harvesting KDEs",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "tlc_rules",
+      "record_id": "tlc_rule_assignment_and_preservation_for_ftl_lots",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "fda-traceability-lot-code",
+          "chunk_id": "fda-traceability-lot-code-traceability-lot-code-2",
+          "citation_anchor": "Traceability Lot Code",
+          "support_text": "traceability lot code (TLC) is an integral component",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "exemption_rules",
+      "record_id": "exemption_rule_produce_farm_relevant_exemptions",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "fda-produce-farms-exemptions",
+          "chunk_id": "fda-produce-farms-exemptions-exemptions-relevant-to-produce-farms-under-the-produce-safety-rule-and-the-food-traceability-rule-2",
+          "citation_anchor": "Exemptions Relevant to Produce Farms Under the Produce Safety Rule and the Food Traceability Rule",
+          "support_text": "exemptions relevant to produce farms",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "traceability_plan_requirements",
+      "record_id": "traceability_plan_requirement_plan_must_exist",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "ecfr-21-cfr-1-subpart-s",
+          "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1315-4",
+          "citation_anchor": "21 CFR 1.1315",
+          "support_text": "traceability plan",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "sortable_export_fields",
+      "record_id": "sortable_export_field_traceability_lot_code",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "fda-sortable-spreadsheet-xlsx",
+          "chunk_id": "fda-sortable-spreadsheet-xlsx-introduction-1",
+          "citation_anchor": "Introduction",
+          "support_text": "sortable spreadsheet template",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    },
+    {
+      "collection": "scenario_benchmarks",
+      "record_id": "scenario_benchmark_cucumbers_initial_pack_to_receiving",
+      "citation_count": 1,
+      "valid_citation_count": 1,
+      "invalid_citation_count": 0,
+      "missing_support_text_count": 0,
+      "coverage_status": "complete",
+      "validations": [
+        {
+          "source_id": "scenario-produce-cucumbers-slides",
+          "chunk_id": "scenario-produce-cucumbers-slides-page-10-10",
+          "citation_anchor": "page-10",
+          "support_text": "Supply Chain Example: Cucumbers",
+          "chunk_exists": true,
+          "source_matches": true,
+          "anchor_matches": true,
+          "support_text_present": true,
+          "exact_match": true,
+          "normalized_match": true,
+          "status": "valid",
+          "message": "Citation support_text appears exactly in the cited chunk."
+        }
+      ]
+    }
+  ]
+}

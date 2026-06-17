@@ -1,0 +1,307 @@
+{
+  "sourceId": "fda-risk-ranking-model-web-app",
+  "url": "https://hfpappexternal.fda.gov/scripts/FDARiskRankingModelforFoodTracingfinalrule/",
+  "rawArtifact": "../data/regulatory/fda-risk-ranking-model-web-app/raw/fda-risk-ranking-model-web-app.html",
+  "rawTextHash": "bb32c11f3884a9ba937a53e9e525a50a345babe47240b829bf0050825ba5a9c3",
+  "contentType": "text/html",
+  "sectionsExtracted": 4,
+  "chunks": [
+    {
+      "chunk_id": "fda-risk-ranking-model-web-app-document-1",
+      "source_id": "fda-risk-ranking-model-web-app",
+      "section_label": "Document",
+      "section": "Document",
+      "text": "Modal Header Some text in the modal.",
+      "summary": "Modal Header Some text in the modal.",
+      "citation": "Document",
+      "text_hash": "sha256:2422ac54dc9685541d4997cd4f6f40afe46be8b3532a3e4f6ae9834ecf0dfb99",
+      "anchors": [
+        {
+          "source_id": "fda-risk-ranking-model-web-app",
+          "citation": "Document",
+          "section": "Document",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://hfpappexternal.fda.gov/scripts/FDARiskRankingModelforFoodTracingfinalrule/",
+          "retrieved_at": "2026-06-16T05:47:39.257117+00:00",
+          "source_hash": "bb32c11f3884a9ba937a53e9e525a50a345babe47240b829bf0050825ba5a9c3"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-risk-ranking-model-web-app-risk-ranking-model-for-food-tracing-2",
+      "source_id": "fda-risk-ranking-model-web-app",
+      "section_label": "Risk-Ranking Model for Food Tracing",
+      "section": "Risk-Ranking Model for Food Tracing",
+      "text": "The (21 U.S. Code \u00a7 2223), requires the Food and Drug Administration to designate high-risk foods for which additional recordkeeping requirements are appropriate and necessary to protect the public health. The FDA developed a Risk-Ranking Model for Food Tracing (RRM-FT) as a data-driven science-based decision support tool to assist the Agency in the process of designating a as required by FSMA Section 204. This website is designed for users to view the RRM-FT results as well as the risk-ranking methodology. Users can navigate the RRM-FT website through the following tabs: Click on the \u201cMethods and Criteria The methods document \u201cMethodological Approach to Developing a Risk-Ranking Model for Food Tracing FSMA Section 204 (21 U.S. Code \u00a7 2223))\u201d is downloadable here: The full list of references evaluated and used to obtain data for the scoring of the seven criteria for commodity-hazard pairs in the RRM-FT is downloadable here: The results are presented for food commodities on the FTL and all food commodities evaluated in the model. Click on the \u201cResults Table for FTL Foods\u201d tab to view a list of the associated commodity categories, commodities and commodity scores, and commodity-hazard pairs and their scores. Interactive graphs are provided for the FTL food commodities in the \u201cResults Figure for FTL Commodity-Hazard Pairs\u201d and the \u201cResults Figure for FTL Commodities\u201d tabs. Results for all food commodities are provided in the \u201cResults Table for All Foods\u201d tab. The results for the food commodities on the FTL can be downloaded at the or at the . The results for all food commodities and the associated commodity-hazard pairs can be downloaded . The RRM-FT is a semi-quantitative risk-ranking model that scores commodity-hazard pairs according to data and seven criteria. Click on a Criterion to obtain a highlight of the scoring definition, the data sources and an example. Frequency of outbreaks and occurrence of illnesses, Severity of illness, Likelihood of contamination, Growth potential, with consideration of shelf life, Manufacturing process contamination probability and industry-wide intervention, Consumption, and Cost of illness. These criteria are consistent with the requirements in section 204(d)(2)(A) (21 U.S. Code \u00a7 2223(d)(2)(A)). The methods document \u201cMethodological Approach to Developing a Risk-Ranking Model for Food Tracing FSMA Section 204 (21 U.S. Code \u00a7 2223))\u201d is downloadable here. The full list of references evaluated and used to obtain data for the scoring of the seven criteria for commodity-hazard pairs in the RRM-FT is downloadable here.",
+      "summary": "The (21 U.S. Code \u00a7 2223), requires the Food and Drug Administration to designate high-risk foods for which additional recordkeeping requirements are appropriate and necessary t...",
+      "citation": "Risk-Ranking Model for Food Tracing",
+      "text_hash": "sha256:c9e685a1808c7c03940e7bce6be1a1f2e9e1adfededf73791c76183d9b37c449",
+      "anchors": [
+        {
+          "source_id": "fda-risk-ranking-model-web-app",
+          "citation": "Risk-Ranking Model for Food Tracing",
+          "section": "Risk-Ranking Model for Food Tracing",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://hfpappexternal.fda.gov/scripts/FDARiskRankingModelforFoodTracingfinalrule/",
+          "retrieved_at": "2026-06-16T05:47:39.257117+00:00",
+          "source_hash": "bb32c11f3884a9ba937a53e9e525a50a345babe47240b829bf0050825ba5a9c3"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-risk-ranking-model-web-app-calculation-of-the-risk-score-for-a-commodity-3",
+      "source_id": "fda-risk-ranking-model-web-app",
+      "section_label": "Calculation of the Risk Score for a Commodity",
+      "section": "Calculation of the Risk Score for a Commodity",
+      "text": "To calculate a risk score for a commodity (fictitious example: \u201cCommodity A\u201d), we first obtain the risk score(s) for the commodity-hazard pair(s) ( \u201cCommodity A - Hazard 1\u201d, \u201cCommodity A - Hazard 2\u201d, \u201cCommodity A - Hazard 3\u201d, ) and then aggregate the commodity-hazard pair risk score(s) into a commodity risk score. A risk score for a commodity-hazard pair is calculated by summing weighted criteria scores across all seven criteria. Equal weighting (criteria weight = 10) was used for each criterion (see \u00a7 5.4 of the ). For example, say that the pair \u201cCommodity A - Hazard 1\u201d has criterion scores as follows: Commodity Hazard Criterion 1: Frequency of outbreaks and occurrence of illnesses Criterion 2: Severity of illness Criterion 3: Likelihood of contamination Criterion 4: Growth potential, with consideration of shelf life Criterion 5: Manufacturing process contamination probability and industry-wide intervention Criterion 6: Consumption Criterion 7: Cost of illness Commodity A Hazard 1 9 9 1 3 3 9 9 The Risk Score for \u201cCommodity A - Hazard 1\u201d is then: For a commodity associated with multiple hazards, , multiple commodity-hazard pairs are identified, a Commodity Risk Score is calculated through an aggregation method according to the following formula: $$RS_i\\_C=10\\times\\log_{10}(\\sum_{j=1}^{n_i}10^{RS_{i,j}/10})$$ where, is the aggregated risk score associated with commodity ; is the risk score for commodity and the hazard; is the number of hazards associated with commodity . For example, say that the commodity \u201cCommodity A\u201d is associated with the following commodity-hazard pairs: Commodity Hazard Criterion 1: Frequency of outbreaks and occurrence of illnesses Criterion 2: Severity of illness Criterion 3: Likelihood of contamination Criterion 4: Growth potential, with consideration of shelf life Criterion 5: Manufacturing process contamination probability and industry-wide intervention Criterion 6: Consumption Criterion 7: Cost of illness Commodity-Hazard Pair Risk Score Commodity A Hazard 1 9 9 1 3 3 9 9 430 Commodity A Hazard 2 1 9 3 9 3 9 1 350 Commodity A Hazard 3 0 9 3 9 3 9 0 330 Commodity A Hazard 4 0 9 1 0 1 9 0 200 The Commodity Risk Score is then: The Commodity Risk Score is driven by the risk score for the highest-ranking commodity-hazard pair. Click on a row to open a sub-table that shows the commodity-hazard pairs evaluated in that commodity including their model criteria scores. Users can search for a commodity category or commodity of interest by typing the name in the search box. Users can visualize the results in alphabetical order by commodity category and by commodity, and in numerical order by commodity risk score by clicking the corresponding column name. The results for the food commodities on the Food Traceability List can be downloaded at the or at the . Abbreviations: RAC: Raw Agricultural Commodity; RTE: Ready-to-Eat. Abbreviations: STEC: Shiga-toxin producing . For food commodities on the Food Traceability List, view the full graph by selecting \u201cAll\u201d for Commodity and Hazard. View a sub-graph by selecting one Commodity or one Hazard. Users can select from the dropdown lists, and search for a Commodity or a Hazard of interest by typing some letters in the search box. For mobile devices, the full graph may not show, and the sub-graph view is the option to use. The x-axis of the graph shows risk score for the commodity-hazard pair.",
+      "summary": "To calculate a risk score for a commodity (fictitious example: \u201cCommodity A\u201d), we first obtain the risk score(s) for the commodity-hazard pair(s) ( \u201cCommodity A - Hazard 1\u201d, \u201cCo...",
+      "citation": "Calculation of the Risk Score for a Commodity",
+      "text_hash": "sha256:b344558daae8a9b719f335bd7e56bacdc2b0e5b35c0066e938e29cabe248d47f",
+      "anchors": [
+        {
+          "source_id": "fda-risk-ranking-model-web-app",
+          "citation": "Calculation of the Risk Score for a Commodity",
+          "section": "Calculation of the Risk Score for a Commodity",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://hfpappexternal.fda.gov/scripts/FDARiskRankingModelforFoodTracingfinalrule/",
+          "retrieved_at": "2026-06-16T05:47:39.257117+00:00",
+          "source_hash": "bb32c11f3884a9ba937a53e9e525a50a345babe47240b829bf0050825ba5a9c3"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-risk-ranking-model-web-app-hazard-4",
+      "source_id": "fda-risk-ranking-model-web-app",
+      "section_label": "Hazard",
+      "section": "Hazard",
+      "text": "For food commodities on the Food Traceability List, click on a bar to obtain a graph showing the corresponding commodity-hazard pairs. Click on a row to open a sub-table that shows the commodity-hazard pairs evaluated in that commodity including their model criteria scores. Users can search for a commodity category or commodity of interest by typing the name in the search box. Users can visualize the results in alphabetical order by commodity category and by commodity, and in numerical order by commodity risk score by clicking the corresponding column name. The results for all food commodities and the associated commodity-hazard pairs can be downloaded . Abbreviations: LACF: Low-Acid Canned Food; N.E.C: Not Elsewhere Classified; RAC: Raw Agricultural Commodity; RTE: Ready-to-Eat. Abbreviations: Afl DON Fum OTA: Aflatoxins, Deoxynivalenol, Fumonisins, and Ochratoxin A; STEC: Shiga-toxin producing ; PSP: Paralytic shellfish poisoning; ETEC: Enterotoxigenic .",
+      "summary": "For food commodities on the Food Traceability List, click on a bar to obtain a graph showing the corresponding commodity-hazard pairs. Click on a row to open a sub-table that sh...",
+      "citation": "Hazard",
+      "text_hash": "sha256:94116a721554d5296daecd24f948aed4c61efbe8fe1e136eabc3012d447f518b",
+      "anchors": [
+        {
+          "source_id": "fda-risk-ranking-model-web-app",
+          "citation": "Hazard",
+          "section": "Hazard",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": null,
+          "url": "https://hfpappexternal.fda.gov/scripts/FDARiskRankingModelforFoodTracingfinalrule/",
+          "retrieved_at": "2026-06-16T05:47:39.257117+00:00",
+          "source_hash": "bb32c11f3884a9ba937a53e9e525a50a345babe47240b829bf0050825ba5a9c3"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

@@ -1,0 +1,583 @@
+{
+  "sourceId": "fda-ftl-risk-ranking-designation-memo",
+  "url": "https://www.fda.gov/media/142282/download?attachment",
+  "rawArtifact": "../data/regulatory/fda-ftl-risk-ranking-designation-memo/raw/fda-ftl-risk-ranking-designation-memo.pdf",
+  "rawTextHash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 16,
+  "chunks": [
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-1-1",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 1",
+      "section": "page-1",
+      "text": "Memorandum\nDate: October 31, 2022\nFrom: FDA Food Traceability Rule Workgroup\nSubject: Designation of the Food Traceability List Using the Risk-Ranking Model for\nFood Tracing (2022 version)\nTo: Memorandum for the Record\nThe FDA Food Safety Modernization Act (FSMA) section 204 (21 U.S. Code \u00a7 2223) requires\nthe Food and Drug Administration (\u201cFDA\u201d) to designate high-risk foods for which additional\nrecordkeeping requirements are appropriate and necessary to protect the public health. FDA\ndeveloped a Risk-Ranking Model for Food Tracing (\u201cthe Model\u201d), a data-driven science-based\ndecision support tool to assist the Agency in the process of designating a Food Traceability List.\nThis document describes several key aspects about how the Model was used to develop the Food\nTraceability List (Table 1). The Model scores commodity-hazard pairs according to data and\ninformation relevant for seven criteria: (C1) frequency of outbreaks and occurrence of illnesses,\n(C2) severity of illness, (C3) likelihood of contamination, (C4) growth potential, with\nconsideration of shelf life, (C5) manufacturing process contamination probability and industry-\nwide intervention, (C6) consumption, and (C7) cost of illness, as described in the technical report\nentitled \u201cMethodological Approach to Developing a Risk-Ranking Model for Food Tracing\nFSMA Section 204\u201d (Ref.1). These criteria account for the specific statutory factors required in\nsection 204(d)(2)(A) (21 U.S. Code \u00a7 2223(d)(2)(A)).\nTypes of Hazards Considered\nThe Model was designed to be flexible and to consider a wide range of hazards including\nmicrobial and chemical contaminants in FDA-regulated human foods. This approach is\nconsistent with requirements under Section 204 to consider, among other factors, \u201cthe likelihood\nthat a particular food has a high potential risk for microbiological or chemical contamination.\u201d\nFor traceability purposes, FDA efforts generally focus on foods contaminated with biological or\nacute chemical toxins which present an immediate public health risk. For example, leafy greens\npotentially contaminated with E. coli O157:H7 or reef finfish potentially contaminated with\nciguatoxin could cause illnesses for which traceability would be necessary to rapidly identify the\nsource of contamination and prevent additional illnesses.\nIn contrast, enhanced recordkeeping for traceability would not be similarly useful for addressing\nadverse health effects from chronic exposure to chemical hazards (such as lead or other toxic\nelements). As such, FDA determined that for the purposes of developing the Food Traceability\nList, the Agency would only consider results from the Model for microbial hazards and acute\nchemical toxins.\n1",
+      "summary": "Memorandum Date: October 31, 2022 From: FDA Food Traceability Rule Workgroup Subject: Designation of the Food Traceability List Using the Risk-Ranking Model for Food Tracing (20...",
+      "citation": "page-1",
+      "text_hash": "sha256:690fc4101841b441367d21c1a13834b7e9cdb759a27b1f25a3070af094e10d1b",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-1",
+          "section": "page-1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-2-2",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 2",
+      "section": "page-2",
+      "text": "Similarly, FDA decided not to include results from the Model regarding food allergens.\nTypically, consumers with food allergies can identify the food or ingredient that most likely\ncaused the allergic reaction, including the brand and packaging of the food in most cases. FDA\ncan then rapidly identify the source of the allergen-containing food and take appropriate\nregulatory action. Therefore, enhanced recordkeeping for traceability would not greatly enhance\nFDA\u2019s ability to identify and respond to undeclared allergens in food.\nOutbreaks Related to Contamination at Retail or Point-of-Service\nWithin the data used for the Model, outbreaks for certain commodity-hazard pairs, such as C.\nperfringens in fresh soup or Norovirus in cakes, were attributed to contamination and/or growth\nof pathogens in the food at retail or point-of-service. Such contamination is generally due to\nunsafe food practices at retail or point-of-service, such as lack of time/temperature control, ill\nfood workers, or improper cleaning and sanitizing of food surfaces. For the purposes of this\nrulemaking, enhanced recordkeeping requirements for foods contaminated at retail or point-of-\nservice would not significantly improve traceability because in such situations, once the retail or\npoint-of-service location has been identified, there is no need to further trace the source of the\nfood. For the purposes of ranking commodities as part of the Food Traceability List, FDA made\nthe determination to not include outbreak data on commodity-hazard pairs for which outbreaks\nwere attributed to contamination or growth of pathogens in the food at retail or point-of-service.\nGranularity of Foods Identified\nThe Model output allows calculation of risk scores for commodity-hazard pairs, and aggregated\nrisk scores at two levels of granularity: \u201ccommodity category\u201d (e.g., produce-Raw Agricultural\nCommodity) or \u201ccommodity\u201d (e.g., leafy greens). A level of granularity more specific than\n\u201ccommodity\u201d is not feasible due to insufficient data.\nFor the purposes of the Food Traceability List, FDA determined that the appropriate level of\ngranularity is at the level of \u201ccommodity\u201d. Food items within the same \u201ccommodity\u201d designation\ngenerally have similar characteristics, associated hazards, and production and supply-chain\npractices and conditions. Further, data used to assess components of the model (e.g., outbreak\nand illness data, likelihood of contamination, degree to which product supports growth,\nconsumption, and annual cost of illness) are available and adequate at the \u201ccommodity\u201d level of\ngranularity. This approach results in a more targeted Food Traceability List than one based on\nthe \u201ccommodity category\u201d level. It also focuses recordkeeping requirements on the commodities\nfor which improved recordkeeping would be most beneficial for reducing food safety risks\nthrough tracing.\nIdentifying Foods for the Food Traceability List\nTo identify commodities for the Food Traceability List, the commodities and associated\ncommodity-hazard pairs produced by the Model were ranked. Commodities with associated\ncommodity-hazard pairs with criteria scores in the moderate to strong range were considered\n(Table 1) for inclusion on the List. Appendix I below provides the risk score, determined with\n2",
+      "summary": "Similarly, FDA decided not to include results from the Model regarding food allergens. Typically, consumers with food allergies can identify the food or ingredient that most lik...",
+      "citation": "page-2",
+      "text_hash": "sha256:bed75a7d6a88c40c011ff4ca1b72c78e4532a61c6d5d2a3cd10ed767fbb342b2",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-2",
+          "section": "page-2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-3-3",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 3",
+      "section": "page-3",
+      "text": "the Model, for each commodity on the Food Traceability List, the risk scores for commodity-\nhazard pairs associated with each commodity, and the individual criterion scores (criteria 1\nthrough 7 or C1 through C7) for each commodity-hazard pair. For more detailed information on\nthe risk-based scoring criteria and how the risk score for a commodity is determined, see the\nreference methodology document for the Model (Ref 1).\nA commodity was included on the Food Traceability List if its risk score, aggregated across all\nassociated hazards, was 330 or higher in the Model. This commodity risk score corresponds to,\nfor one or more associated commodity-hazard pairs, the equivalent of at least two criterion\nscores each equal to 9 (criterion scores were \u201cstrong\u201d) and the remaining five criterion scores\neach equal to 3 (criterion scores were \u201cmoderate\u201d), providing evidence for a significant public\nhealth risk. A commodity was also included on the Food Traceability List if the outbreaks and\nillnesses (C1) and cost of illness (C7) criterion scores for one or more associated commodity-\nhazard pairs were \u201cstrong\u201d (criterion scores of C1 and C7 each equal to 9), also providing\nevidence of a significant public health risk.\nThe scores for many of the commodities on the Food Traceability List met both conditions.\nFDA believes that focusing the requirements of the rule on those foods for which there is\nevidence of significant public health risk is consistent with the mandate of FSMA Section 204 to\ndesignate foods for which additional recordkeeping is necessary and appropriate to protect public\nhealth.\nThis approach results in the designation of commodities on the Food Traceability List as posted\nto FDA\u2019s website at www.fda.gov.\n3",
+      "summary": "the Model, for each commodity on the Food Traceability List, the risk scores for commodity- hazard pairs associated with each commodity, and the individual criterion scores (cri...",
+      "citation": "page-3",
+      "text_hash": "sha256:a36c67312aafe128c7ca30c0b235e15f5cac3c44fd26adb0c0f5e33d07280e96",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-3",
+          "section": "page-3",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-4-4",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 4",
+      "section": "page-4",
+      "text": "Table 1. Moderate and strong score definitions for each of the seven criteria in the model\nCriteria Moderate (criteria score=3) Strong (criteria score=9)\nOutbreaks and \u2022 >1-10 outbreaks and hundreds of \u2022 \u226510 outbreaks and hundreds or\nillnesses (C1)a cases since 1999; OR thousands of cases since 1999; OR\n\u2022 \u226510 outbreaks and tens of cases \u2022 >1-10 outbreaks and thousands of\nsince 1999; OR cases since 1999\n\u2022 \u22641 outbreak and thousands of cases\nsince 1999\nSeverity of illness \u2022 Hospitalization rate >10-20% and \u2022 Hospitalization rate >20% OR\n(C2) mortality rate 0%; OR mortality rate >0.5%\n\u2022 Hospitalization rate \u226420% and\nmortality rate >0% to \u22640.5%\nLikelihood of \u2022 Contamination rate >0.1-1%; OR \u2022 Contamination rate >1%; OR\ncontamination \u2022 >1-10 RFRc reports/year; OR \u2022 >10 RFR reports/year; OR\n(C3)b\n\u2022 >5-10 recalls/year \u2022 >10 recalls/year\nGrowth potential \u2022 1-3 log CFU (colony forming unit) \u2022 \u22653 log CFU increase given\n10 10\nwith increase given customary shelf life customary shelf life\nconsideration of\nshelf life (C4)\nManufacturing \u2022 Recurring or frequent detection of \u2022 Recurring or frequent detection of\nprocess contamination; control measures contamination; lack of adequate\ncontamination available and adequate, evidence for control measures, or evidence of\nprobability and consistent implementation in poor implementation of control\nindustry-wide industry; OR measures in industry; OR\nintervention (C5) \u2022 Known history of contamination; \u2022 Recurring or frequent detection of\ncontrol measures available but lack contamination; control measures\nof an adequate kill step, lack of available but lack of an adequate\nevidence for consistent kill step, lack of evidence for\nimplementation, or evidence for consistent implementation, or\ninconsistent implementation in evidence for inconsistent\nindustry; OR implementation in industry; OR\n\u2022 Infrequent detection of \u2022 Known history of contamination;\ncontamination; lack of adequate lack of adequate control measures,\ncontrol measures, or evidence of or evidence of poor\npoor implementation of control implementation of control\nmeasures in industry measures in industry\nConsumption \u2022 >10% consumers and >0-10 \u2022 >10% consumers and >10\n(C6) g/serving; OR g/serving; OR\n\u2022 >5-10% consumers and >10-100 \u2022 >5-10% consumers and >100\ng/serving; OR g/serving\n\u2022 1-5% consumers and > 100\ng/serving\nCost of illness \u2022 >$1M to 10M/year \u2022 >$10M/year\n(C7)\na Weighted by year of outbreak; b Weighted by number of samples, geographic location and year;\nc Reportable Food Registry\n4\n\nCriteria | Moderate (criteria score=3) | Strong (criteria score=9)\nOutbreaks and\nillnesses (C1)a | \u2022 >1-10 outbreaks and hundreds of\ncases since 1999; OR\n\u2022 \u226510 outbreaks and tens of cases\nsince 1999; OR\n\u2022 \u22641 outbreak and thousands of cases\nsince 1999 | \u2022 \u226510 outbreaks and hundreds or\nthousands of cases since 1999; OR\n\u2022 >1-10 outbreaks and thousands of\ncases since 1999\nSeverity of illness\n(C2) | \u2022 Hospitalization rate >10-20% and\nmortality rate 0%; OR\n\u2022 Hospitalization rate \u226420% and\nmortality rate >0% to \u22640.5% | \u2022 Hospitalization rate >20% OR\nmortality rate >0.5%\nLikelihood of\ncontamination\n(C3)b | \u2022 Contamination rate >0.1-1%; OR\n\u2022 >1-10 RFRc reports/year; OR\n\u2022 >5-10 recalls/year | \u2022 Contamination rate >1%; OR\n\u2022 >10 RFR reports/year; OR\n\u2022 >10 recalls/year\nGrowth potential\nwith\nconsideration of\nshelf life (C4) | \u2022 1-3 log CFU (colony forming unit)\n10\nincrease given customary shelf life | \u2022 \u22653 log CFU increase given\n10\ncustomary shelf life\nManufacturing\nprocess\ncontamination\nprobability and\nindustry-wide\nintervention (C5) | \u2022 Recurring or frequent detection of\ncontamination; control measures\navailable and adequate, evidence for\nconsistent implementation in\nindustry; OR\n\u2022 Known history of contamination;\ncontrol measures available but lack\nof an adequate kill step, lack of\nevidence for consistent\nimplementation, or evidence for\ninconsistent implementation in\nindustry; OR\n\u2022 Infrequent detection of\ncontamination; lack of adequate\ncontrol measures, or evidence of\npoor implementation of control\nmeasures in industry | \u2022 Recurring or frequent detection of\ncontamination; lack of adequate\ncontrol measures, or evidence of\npoor implementation of control\nmeasures in industry; OR\n\u2022 Recurring or frequent detection of\ncontamination; control measures\navailable but lack of an adequate\nkill step, lack of evidence for\nconsistent implementation, or\nevidence for inconsistent\nimplementation in industry; OR\n\u2022 Known history of contamination;\nlack of adequate control measures,\nor evidence of poor\nimplementation of control\nmeasures in industry\nConsumption\n(C6) | \u2022 >10% consumers and >0-10\ng/serving; OR\n\u2022 >5-10% consumers and >10-100\ng/serving; OR\n\u2022 1-5% consumers and > 100\ng/serving | \u2022 >10% consumers and >10\ng/serving; OR\n\u2022 >5-10% consumers and >100\ng/serving\nCost of illness\n(C7) | \u2022 >$1M to 10M/year | \u2022 >$10M/year",
+      "summary": "Table 1. Moderate and strong score definitions for each of the seven criteria in the model Criteria Moderate (criteria score=3) Strong (criteria score=9) Outbreaks and \u2022 >1-10 o...",
+      "citation": "page-4",
+      "text_hash": "sha256:abeb3e5f9de0dadcababc71626aca32dcad785b01a1c221724fd60c844de6886",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-4",
+          "section": "page-4",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 4,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-5-5",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 5",
+      "section": "page-5",
+      "text": "References\nRef. 1. Food and Drug Administration (2022).\" Methodological Approach to Developing a\nRisk-Ranking Model for Food Tracing FSMA Section 204 (21 U.S. Code \u00a7 2223). September\n2022. Available at www.fda.gov.\"\n02/03/2023\nKatherine Vierk Brill on behalf of the FDA\nFood Traceability Rule Workgroup Date\n5",
+      "summary": "References Ref. 1. Food and Drug Administration (2022).\" Methodological Approach to Developing a Risk-Ranking Model for Food Tracing FSMA Section 204 (21 U.S. Code \u00a7 2223). Sept...",
+      "citation": "page-5",
+      "text_hash": "sha256:3fae7ef5cf57870c2b71fc670453ad08f8ae0980a80ca623be7f720392756079",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-5",
+          "section": "page-5",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 5,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-6-6",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 6",
+      "section": "page-6",
+      "text": "Appendix I. Commodities on the Food Traceability List and associated commodity-hazard pairs, criteria and risk scores\nfor each commodity-hazard pair, and commodity risk score\nCommodity\nCommodity\nCommodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard\nRisk Score\nRisk Score\nCheese (made from pasteurized\nCampylobacter spp. 0 3 1 1 1 9 0 150 430\nmilk), fresh soft or soft unripened\nCheese (made from pasteurized Clostridium botulinum\n0 9 1 0 1 9 0 200 430\nmilk), fresh soft or soft unripened and toxin\nCheese (made from pasteurized Listeria\n1 9 3 9 9 9 3 430 430\nmilk), fresh soft or soft unripened monocytogenes\nCheese (made from pasteurized Mycotoxins -\n0 9 1 0 3 9 0 220 430\nmilk), fresh soft or soft unripened Aflatoxin M1\nCheese (made from pasteurized\nSalmonella spp. 1 9 1 1 1 9 1 230 430\nmilk), fresh soft or soft unripened\nCheese (made from pasteurized Staphylococcus aureus\n0 3 1 3 3 9 0 190 430\nmilk), fresh soft or soft unripened and toxin\nCheese (made from pasteurized Bacillus cereus and\n0 1 1 3 1 9 0 150 490\nmilk), soft ripened or semi-soft toxin\nCheese (made from pasteurized Listeria\n1 9 9 9 3 9 9 490 490\nmilk), soft ripened or semi-soft monocytogenes\nCheese (made from pasteurized Mycotoxins -\n0 9 1 0 3 9 0 220 490\nmilk), soft ripened or semi-soft Aflatoxin M1\nCheese (made from pasteurized\nSalmonella spp. 1 9 3 1 1 9 0 240 490\nmilk), soft ripened or semi-soft\n6\n\nCommodity |  |  | Hazard |  |  | C1 | C2 | C3 | C4 | C5 | C6 | C7 | Commodity\n-Hazard\nRisk Score | Commodity\nRisk Score\nCheese (made from pasteurized\nmilk), fresh soft or soft unripened |  |  | Campylobacter spp. |  |  | 0 | 3 | 1 | 1 | 1 | 9 | 0 | 150 | 430\nCheese (made from pasteurized\nmilk), fresh soft or soft unripened |  |  | Clostridium botulinum\nand toxin |  |  | 0 | 9 | 1 | 0 | 1 | 9 | 0 | 200 | 430\nCheese (made from pasteurized\nmilk), fresh soft or soft unripened |  |  | Listeria\nmonocytogenes |  |  | 1 | 9 | 3 | 9 | 9 | 9 | 3 | 430 | 430\nCheese (made from pasteurized\nmilk), fresh soft or soft unripened |  |  | Mycotoxins -\nAflatoxin M1 |  |  | 0 | 9 | 1 | 0 | 3 | 9 | 0 | 220 | 430\nCheese (made from pasteurized\nmilk), fresh soft or soft unripened |  |  | Salmonella spp. |  |  | 1 | 9 | 1 | 1 | 1 | 9 | 1 | 230 | 430\nCheese (made from pasteurized\nmilk), fresh soft or soft unripened |  |  | Staphylococcus aureus\nand toxin |  |  | 0 | 3 | 1 | 3 | 3 | 9 | 0 | 190 | 430\n | Cheese (made from pasteurized |  |  | Bacillus cereus and |  | 0 | 1 | 1 | 3 | 1 | 9 | 0 | 150 | 490\n | milk), soft ripened or semi-soft |  |  | toxin |  |  |  |  |  |  |  |  |  | \nCheese (made from pasteurized\nmilk), soft ripened or semi-soft |  |  | Listeria\nmonocytogenes |  |  | 1 | 9 | 9 | 9 | 3 | 9 | 9 | 490 | 490\n | Cheese (made from pasteurized |  |  | Mycotoxins - |  | 0 | 9 | 1 | 0 | 3 | 9 | 0 | 220 | 490\n | milk), soft ripened or semi-soft |  |  | Aflatoxin M1 |  |  |  |  |  |  |  |  |  | \nCheese (made from pasteurized\nmilk), soft ripened or semi-soft |  |  | Salmonella spp. |  |  | 1 | 9 | 3 | 1 | 1 | 9 | 0 | 240 | 490\n\nCommodity\n-Hazard\n\nCommodity\nRisk Score\n\nCheese (made from pasteurized\nmilk), fresh soft or soft unripened\n\nCheese (made from pasteurized\nmilk), fresh soft or soft unripened\n\nListeria\nmonocytogenes\n\nCheese (made from pasteurized\nmilk), fresh soft or soft unripened",
+      "summary": "Appendix I. Commodities on the Food Traceability List and associated commodity-hazard pairs, criteria and risk scores for each commodity-hazard pair, and commodity risk score Co...",
+      "citation": "page-6",
+      "text_hash": "sha256:f7edf7e9ef2de1ed49b26deb402c542a7076e9af0d8ba514b4693f6c34c4213a",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-6",
+          "section": "page-6",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 6,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-7-7",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 7",
+      "section": "page-7",
+      "text": "Commodity\nCommodity\nCommodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard\nRisk Score\nRisk Score\nCheese (made from pasteurized Scombroid toxin\n0 1 3 1 3 9 0 170 490\nmilk), soft ripened or semi-soft (Histamine)\nCheese (made from pasteurized Staphylococcus aureus\n0 3 1 1 1 9 0 150 490\nmilk), soft ripened or semi-soft and toxin\nCheese (made from pasteurized\nSTEC O157 1 9 1 1 1 9 3 250 490\nmilk), soft ripened or semi-soft\nCheese (made from unpasteurized\nBrucella spp. 1 9 1 1 9 1 0 220 410\nmilk), other than hard cheese\nCheese (made from unpasteurized Listeria\n1 9 9 3 9 1 9 410 410\nmilk), other than hard cheese monocytogenes\nCheese (made from unpasteurized\nSalmonella spp. 1 9 1 1 3 1 1 170 410\nmilk), other than hard cheese\nCheese (made from unpasteurized Staphylococcus aureus\n0 3 9 3 9 1 0 250 410\nmilk), other than hard cheese and toxin\nCheese (made from unpasteurized\nSTEC O157 1 9 1 1 3 1 1 170 410\nmilk), other than hard cheese\nShell Eggs Norovirus 0 3 0 0 3 9 0 150 450\nShell Eggs Salmonella spp. 9 9 3 3 3 9 9 450 450\nListeria\nNut Butters 0 9 1 0 1 9 0 200 420\nmonocytogenes\nMycotoxins -\nNut Butters 1 9 1 0 3 9 0 230 420\nAflatoxins\nNut Butters Norovirus 0 3 1 0 1 9 0 140 420\n7\n\nCommodity |  |  | Hazard |  |  | C1 |  |  | C2 |  |  | C3 |  |  | C4 |  |  | C5 |  |  | C6 |  |  | C7 |  |  | Commodity\n-Hazard\nRisk Score |  |  | Commodity\nRisk Score |  | \n | Cheese (made from pasteurized |  |  | Scombroid toxin |  | 0 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 170 |  |  | 490 |  | \n | milk), soft ripened or semi-soft |  |  | (Histamine) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nCheese (made from pasteurized\nmilk), soft ripened or semi-soft |  |  | Staphylococcus aureus\nand toxin |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 150 |  |  | 490 |  | \n | Cheese (made from pasteurized |  | STEC O157 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 250 |  |  | 490 |  | \n | milk), soft ripened or semi-soft |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nCheese (made from unpasteurized\nmilk), other than hard cheese |  |  | Brucella spp. |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 220 |  |  | 410 |  | \nCheese (made from unpasteurized\nmilk), other than hard cheese |  |  | Listeria\nmonocytogenes |  |  | 1 |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 9 |  |  | 410 |  |  | 410 |  | \nCheese (made from unpasteurized\nmilk), other than hard cheese |  |  | Salmonella spp. |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 170 |  |  | 410 |  | \nCheese (made from unpasteurized\nmilk), other than hard cheese |  |  | Staphylococcus aureus\nand toxin |  |  | 0 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 250 |  |  | 410 |  | \nCheese (made from unpasteurized\nmilk), other than hard cheese |  |  | STEC O157 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 170 |  |  | 410 |  | \n | Shell Eggs |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 150 |  |  | 450 | \nShell Eggs |  |  | Salmonella spp. |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 3 |  |  | 3 |  |  | 9 |  |  | 9 |  |  | 450 |  |  | 450 |  | \nNut Butters |  |  |  | Listeria |  | 0 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 200 |  |  | 420 |  | \n |  |  |  | monocytogenes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nNut Butters |  |  | Mycotoxins -\nAflatoxins |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 230 |  |  | 420 |  | \n | Nut Butters |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 140 |  |  | 420 | \n\nCommodity\n-Hazard\nRisk Score\n\nCommodity\nRisk Score\n\nCheese (made from unpasteurized\nmilk), other than hard cheese\n\nListeria\nmonocytogenes\n\nCheese (made from unpasteurized\nmilk), other than hard cheese\n\nStaphylococcus aureus\nand toxin",
+      "summary": "Commodity Commodity Commodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard Risk Score Risk Score Cheese (made from pasteurized Scombroid toxin 0 1 3 1 3 9 0 170 490 milk), soft ripened o...",
+      "citation": "page-7",
+      "text_hash": "sha256:99b3ce73e7fa6ce1d314d8ae21eebe925102e3a705cfc7b41d06750ac9ff11d2",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-7",
+          "section": "page-7",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 7,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-8-8",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 8",
+      "section": "page-8",
+      "text": "Commodity\nCommodity\nCommodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard\nRisk Score\nRisk Score\nNut Butters Salmonella spp. 9 9 3 0 3 9 9 420 420\nStaphylococcus aureus\nNut Butters 0 3 1 0 1 9 1 150 420\nand toxin\nNut Butters STEC O157 1 9 1 0 1 9 3 240 420\nBacillus cereus and\nReady-to-eat Deli Salads 0 1 3 3 1 9 0 170 330\ntoxin\nReady-to-eat Deli Salads Campylobacter spp. 0 3 0 1 1 9 0 140 330\nClostridium\nReady-to-eat Deli Salads 0 3 1 1 1 9 0 150 330\nperfringens and toxin\nCryptosporidium\nReady-to-eat Deli Salads 0 9 1 0 1 9 0 200 330\nparvum or other spp.\nCyclospora\nReady-to-eat Deli Salads 0 1 1 0 1 9 0 120 330\ncayetanensis\nReady-to-eat Deli Salads Hepatitis A virus 0 9 9 0 1 9 0 280 330\nListeria\nReady-to-eat Deli Salads 1 9 9 3 1 9 1 330 330\nmonocytogenes\nReady-to-eat Deli Salads Norovirus 1 3 1 0 1 9 0 150 330\nReady-to-eat Deli Salads Salmonella spp. 3 9 1 1 1 9 3 270 330\nScombroid toxin\nReady-to-eat Deli Salads 1 1 1 0 3 9 1 160 330\n(Histamine)\nReady-to-eat Deli Salads Shigella spp. 0 9 1 3 1 9 0 230 330\nStaphylococcus aureus\nReady-to-eat Deli Salads 0 3 1 1 1 9 0 150 330\nand toxin\nReady-to-eat Deli Salads STEC O157 0 9 1 3 1 9 0 230 330\nFruits (fresh-cut) Campylobacter spp. 0 3 0 1 1 9 0 140 370\n8\n\nCommodity |  |  | Hazard |  |  | C1 |  |  | C2 |  |  | C3 |  |  | C4 |  |  | C5 |  |  | C6 |  |  | C7 |  |  | Commodity\n-Hazard\nRisk Score |  |  | Commodity\nRisk Score |  | \nNut Butters |  |  | Salmonella spp. |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 0 |  |  | 3 |  |  | 9 |  |  | 9 |  |  | 420 |  |  | 420 |  | \nNut Butters |  |  |  | Staphylococcus aureus |  | 0 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 150 |  |  | 420 |  | \n |  |  |  | and toxin |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nNut Butters |  |  | STEC O157 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 240 |  |  | 420 |  | \nReady-to-eat Deli Salads |  |  |  | Bacillus cereus and |  | 0 |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 170 |  |  | 330 |  | \n |  |  |  | toxin |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nReady-to-eat Deli Salads |  |  | Campylobacter spp. |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 140 |  |  | 330 |  | \nReady-to-eat Deli Salads |  |  | Clostridium\nperfringens and toxin |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 150 |  |  | 330 |  | \nReady-to-eat Deli Salads |  |  | Cryptosporidium\nparvum or other spp. |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 200 |  |  | 330 |  | \nReady-to-eat Deli Salads |  |  |  | Cyclospora |  | 0 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 120 |  |  | 330 |  | \n |  |  |  | cayetanensis |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nReady-to-eat Deli Salads |  |  | Hepatitis A virus |  |  | 0 |  |  | 9 |  |  | 9 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 280 |  |  | 330 |  | \nReady-to-eat Deli Salads |  |  |  | Listeria |  | 1 |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 330 |  |  | 330 |  | \n |  |  |  | monocytogenes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nReady-to-eat Deli Salads |  |  | Norovirus |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 150 |  |  | 330 |  | \n | Ready-to-eat Deli Salads |  |  | Salmonella spp. |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 270 |  |  | 330 | \nReady-to-eat Deli Salads |  |  | Scombroid toxin\n(Histamine) |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 160 |  |  | 330 |  | \n | Ready-to-eat Deli Salads |  |  | Shigella spp. |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 230 |  |  | 330 | \nReady-to-eat Deli Salads |  |  | Staphylococcus aureus\nand toxin |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 150 |  |  | 330 |  | \n | Ready-to-eat Deli Salads |  |  | STEC O157 |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 230 |  |  | 330 | \nFruits (fresh-cut) |  |  | Campylobacter spp. |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 140 |  |  | 370 |  | \n\nCommodity\n-Hazard\nRisk Score\n\nCommodity\nRisk Score\n\nClostridium\nperfringens and toxin",
+      "summary": "Commodity Commodity Commodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard Risk Score Risk Score Nut Butters Salmonella spp. 9 9 3 0 3 9 9 420 420 Staphylococcus aureus Nut Butters 0 3 1...",
+      "citation": "page-8",
+      "text_hash": "sha256:bf2267b2a684157bdfff386654ef8238d703a68694a1e9135566de092899989b",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-8",
+          "section": "page-8",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 8,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-9-9",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 9",
+      "section": "page-9",
+      "text": "Commodity\nCommodity\nCommodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard\nRisk Score\nRisk Score\nCyclospora\nFruits (fresh-cut) 0 1 1 0 1 9 0 120 370\ncayetanensis\nFruits (fresh-cut) Giardia spp. 0 3 3 0 1 9 0 160 370\nFruits (fresh-cut) Hepatitis A virus 0 9 1 0 1 9 0 200 370\nListeria\nFruits (fresh-cut) 1 9 3 9 3 9 3 370 370\nmonocytogenes\nFruits (fresh-cut) Mycotoxins - Patulin 0 1 3 0 1 9 0 140 370\nFruits (fresh-cut) Norovirus 0 3 1 0 1 9 0 140 370\nFruits (fresh-cut) Salmonella spp. 1 9 1 3 3 9 3 290 370\nFruits (fresh-cut) STEC non-O157 0 3 0 1 1 9 0 140 370\nFruits (fresh-cut) STEC O157 0 9 1 3 1 9 0 230 370\nLeafy Greens (fresh-cut) Campylobacter spp. 0 3 1 1 1 9 0 150 390\nCryptosporidium\nLeafy Greens (fresh-cut) 0 9 9 0 1 9 0 280 390\nparvum or other spp.\nCyclospora\nLeafy Greens (fresh-cut) 1 1 9 0 1 9 9 300 390\ncayetanensis\nLeafy Greens (fresh-cut) Giardia spp. 0 3 9 0 1 9 0 220 390\nLeafy Greens (fresh-cut) Hepatitis A virus 0 9 1 0 1 9 0 200 390\nListeria\nLeafy Greens (fresh-cut) 1 9 3 9 3 9 3 370 390\nmonocytogenes\nLeafy Greens (fresh-cut) Norovirus 0 3 0 0 1 9 0 130 390\nLeafy Greens (fresh-cut) Salmonella spp. 3 9 3 9 3 9 3 390 390\nLeafy Greens (fresh-cut) Shigella spp. 0 9 1 9 1 9 0 290 390\nLeafy Greens (fresh-cut) STEC non-O157 1 3 3 3 3 9 1 230 390\nLeafy Greens (fresh-cut) STEC O157 3 9 1 3 3 9 3 310 390\n9\n\nCommodity |  |  | Hazard |  |  | C1 |  |  | C2 |  |  | C3 |  |  | C4 |  |  | C5 |  |  | C6 |  |  | C7 |  |  | Commodity\n-Hazard\nRisk Score |  |  | Commodity\nRisk Score |  | \nFruits (fresh-cut) |  |  |  | Cyclospora |  | 0 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 120 |  |  | 370 |  | \n |  |  |  | cayetanensis |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nFruits (fresh-cut) |  |  | Giardia spp. |  |  | 0 |  |  | 3 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 160 |  |  | 370 |  | \n | Fruits (fresh-cut) |  |  | Hepatitis A virus |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 200 |  |  | 370 | \nFruits (fresh-cut) |  |  | Listeria\nmonocytogenes |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 370 |  |  | 370 |  | \n | Fruits (fresh-cut) |  |  | Mycotoxins - Patulin |  |  | 0 |  |  | 1 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 140 |  |  | 370 | \nFruits (fresh-cut) |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 140 |  |  | 370 |  | \n | Fruits (fresh-cut) |  |  | Salmonella spp. |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 290 |  |  | 370 | \nFruits (fresh-cut) |  |  | STEC non-O157 |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 140 |  |  | 370 |  | \n | Fruits (fresh-cut) |  |  | STEC O157 |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 230 |  |  | 370 | \nLeafy Greens (fresh-cut) |  |  | Campylobacter spp. |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 150 |  |  | 390 |  | \nLeafy Greens (fresh-cut) |  |  | Cryptosporidium\nparvum or other spp. |  |  | 0 |  |  | 9 |  |  | 9 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 280 |  |  | 390 |  | \nLeafy Greens (fresh-cut) |  |  | Cyclospora\ncayetanensis |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 9 |  |  | 300 |  |  | 390 |  | \n | Leafy Greens (fresh-cut) |  |  | Giardia spp. |  |  | 0 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 220 |  |  | 390 | \nLeafy Greens (fresh-cut) |  |  | Hepatitis A virus |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 200 |  |  | 390 |  | \nLeafy Greens (fresh-cut) |  |  |  | Listeria |  | 1 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 370 |  |  | 390 |  | \n |  |  |  | monocytogenes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nLeafy Greens (fresh-cut) |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 130 |  |  | 390 |  | \n | Leafy Greens (fresh-cut) |  |  | Salmonella spp. |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 390 |  |  | 390 | \nLeafy Greens (fresh-cut) |  |  | Shigella spp. |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 290 |  |  | 390 |  | \n | Leafy Greens (fresh-cut) |  |  | STEC non-O157 |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 3 |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 230 |  |  | 390 | \nLeafy Greens (fresh-cut) |  |  | STEC O157 |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 310 |  |  | 390 |  | \n\nCommodity\n-Hazard\nRisk Score\n\nCommodity\nRisk Score\n\nCryptosporidium\nparvum or other spp.",
+      "summary": "Commodity Commodity Commodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard Risk Score Risk Score Cyclospora Fruits (fresh-cut) 0 1 1 0 1 9 0 120 370 cayetanensis Fruits (fresh-cut) Giard...",
+      "citation": "page-9",
+      "text_hash": "sha256:6d7e9c89c7772526c3b46ae586775fd883cd4dbbd076d73c8908682b8a7935a4",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-9",
+          "section": "page-9",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 9,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-10-10",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 10",
+      "section": "page-10",
+      "text": "Commodity\nCommodity\nCommodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard\nRisk Score\nRisk Score\nVegetables other than leafy Cyclospora\n1 1 1 0 1 9 3 160 430\ngreens (fresh-cut) cayetanensis\nVegetables other than leafy\nGiardia spp. 0 3 3 0 1 9 0 160 430\ngreens (fresh-cut)\nVegetables other than leafy Listeria\n1 9 9 9 3 9 3 430 430\ngreens (fresh-cut) monocytogenes\nVegetables other than leafy\nNorovirus 0 3 1 0 1 9 0 140 430\ngreens (fresh-cut)\nVegetables other than leafy\nSalmonella spp. 3 9 1 3 1 9 9 350 430\ngreens (fresh-cut)\nVegetables other than leafy\nShigella spp. 0 9 1 3 1 9 0 230 430\ngreens (fresh-cut)\nVegetables other than leafy\nSTEC O157 1 9 1 1 1 9 1 230 430\ngreens (fresh-cut)\nVegetables other than leafy Yersinia\n0 9 1 3 1 9 0 230 430\ngreens (fresh-cut) pseudotuberculosis\nCucumbers Campylobacter spp. 0 3 1 1 1 3 0 90 430\nListeria\nCucumbers 0 9 9 3 3 3 0 270 430\nmonocytogenes\nCucumbers Norovirus 0 3 0 0 1 3 0 70 430\nCucumbers Salmonella spp. 9 9 9 3 1 3 9 430 430\nCucumbers STEC O157 1 9 1 1 1 3 1 170 430\nCyclospora\nHerbs (fresh) 9 1 1 0 3 1 9 240 240\ncayetanensis\nE. coli, other\nHerbs (fresh) 0 1 3 3 1 1 0 90 240\npathogenic (ETEC)\nListeria\nHerbs (fresh) 0 9 1 1 3 1 0 150 240\nmonocytogenes\n10\n\nCommodity |  |  | Hazard |  |  | C1 |  |  | C2 |  |  | C3 |  |  | C4 |  |  | C5 |  |  | C6 |  |  | C7 |  |  | Commodity\n-Hazard\nRisk Score |  |  | Commodity\nRisk Score |  | \n | Vegetables other than leafy |  |  | Cyclospora |  | 1 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 160 |  |  | 430 |  | \n | greens (fresh-cut) |  |  | cayetanensis |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nVegetables other than leafy\ngreens (fresh-cut) |  |  | Giardia spp. |  |  | 0 |  |  | 3 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 160 |  |  | 430 |  | \n | Vegetables other than leafy |  |  | Listeria |  | 1 |  |  | 9 |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 430 |  |  | 430 |  | \n | greens (fresh-cut) |  |  | monocytogenes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nVegetables other than leafy\ngreens (fresh-cut) |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 140 |  |  | 430 |  | \n | Vegetables other than leafy |  | Salmonella spp. |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 9 |  |  | 350 |  |  | 430 |  | \n | greens (fresh-cut) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nVegetables other than leafy\ngreens (fresh-cut) |  |  | Shigella spp. |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 230 |  |  | 430 |  | \n | Vegetables other than leafy |  | STEC O157 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 230 |  |  | 430 |  | \n | greens (fresh-cut) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nVegetables other than leafy\ngreens (fresh-cut) |  |  | Yersinia\npseudotuberculosis |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 230 |  |  | 430 |  | \n | Cucumbers |  |  | Campylobacter spp. |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 0 |  |  | 90 |  |  | 430 | \nCucumbers |  |  | Listeria\nmonocytogenes |  |  | 0 |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 3 |  |  | 3 |  |  | 0 |  |  | 270 |  |  | 430 |  | \n | Cucumbers |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 1 |  |  | 3 |  |  | 0 |  |  | 70 |  |  | 430 | \nCucumbers |  |  | Salmonella spp. |  |  | 9 |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 1 |  |  | 3 |  |  | 9 |  |  | 430 |  |  | 430 |  | \n | Cucumbers |  |  | STEC O157 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 170 |  |  | 430 | \nHerbs (fresh) |  |  | Cyclospora\ncayetanensis |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 240 |  |  | 240 |  | \nHerbs (fresh) |  |  |  | E. coli, other |  | 0 |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 90 |  |  | 240 |  | \n |  |  |  | pathogenic (ETEC) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nHerbs (fresh) |  |  | Listeria\nmonocytogenes |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 150 |  |  | 240 |  | \n\nCommodity\n-Hazard\nRisk Score\n\nCommodity\nRisk Score",
+      "summary": "Commodity Commodity Commodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard Risk Score Risk Score Vegetables other than leafy Cyclospora 1 1 1 0 1 9 3 160 430 greens (fresh-cut) cayetanen...",
+      "citation": "page-10",
+      "text_hash": "sha256:8b058df4a7d7f3e02e3a079155c2da318cfedb362b0b1e85bdb1b3ca4952401d",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-10",
+          "section": "page-10",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 10,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-11-11",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 11",
+      "section": "page-11",
+      "text": "Commodity\nCommodity\nCommodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard\nRisk Score\nRisk Score\nHerbs (fresh) Norovirus 0 3 0 0 1 1 0 50 240\nHerbs (fresh) Salmonella spp. 1 9 3 3 3 1 3 230 240\nHerbs (fresh) Shigella spp. 0 9 1 3 1 1 0 150 240\nHerbs (fresh) STEC non-O157 1 3 9 1 1 1 3 190 240\nHerbs (fresh) STEC O157 1 9 1 1 1 1 3 170 240\nLeafy Greens Campylobacter spp. 0 3 1 1 1 9 0 150 430\nClostridium\nLeafy Greens 0 3 0 0 1 9 0 130 430\nperfringens and toxin\nCryptosporidium\nLeafy Greens 0 9 3 0 1 9 0 220 430\nparvum or other spp.\nCyclospora\nLeafy Greens 3 1 9 0 1 9 9 320 430\ncayetanensis\nLeafy Greens Giardia spp. 0 3 1 0 1 9 0 140 430\nLeafy Greens Hepatitis A virus 0 9 1 0 1 9 0 200 430\nListeria\nLeafy Greens 0 9 3 9 3 9 0 330 430\nmonocytogenes\nLeafy Greens Norovirus 0 3 9 0 1 9 0 220 430\nLeafy Greens Salmonella spp. 1 9 3 9 3 9 1 350 430\nLeafy Greens Shigella spp. 0 9 1 1 1 9 0 210 430\nLeafy Greens STEC non-O157 1 3 1 1 3 9 1 190 430\nLeafy Greens STEC O157 9 9 1 3 3 9 9 430 430\nMelons Campylobacter spp. 0 3 1 1 1 9 0 150 430\nListeria\nMelons 1 9 3 9 3 9 9 430 430\nmonocytogenes\nMelons Norovirus 0 3 1 0 1 9 0 140 430\n11\n\nCommodity |  |  | Hazard |  |  | C1 |  |  | C2 |  |  | C3 |  |  | C4 |  |  | C5 |  |  | C6 |  |  | C7 |  |  | Commodity\n-Hazard\nRisk Score |  |  | Commodity\nRisk Score |  | \n | Herbs (fresh) |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 50 |  |  | 240 | \nHerbs (fresh) |  |  | Salmonella spp. |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 3 |  |  | 3 |  |  | 1 |  |  | 3 |  |  | 230 |  |  | 240 |  | \n | Herbs (fresh) |  |  | Shigella spp. |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 150 |  |  | 240 | \nHerbs (fresh) |  |  | STEC non-O157 |  |  | 1 |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 190 |  |  | 240 |  | \n | Herbs (fresh) |  |  | STEC O157 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 170 |  |  | 240 | \nLeafy Greens |  |  | Campylobacter spp. |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 150 |  |  | 430 |  | \nLeafy Greens |  |  | Clostridium\nperfringens and toxin |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 130 |  |  | 430 |  | \nLeafy Greens |  |  | Cryptosporidium\nparvum or other spp. |  |  | 0 |  |  | 9 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 220 |  |  | 430 |  | \nLeafy Greens |  |  |  | Cyclospora |  | 3 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 9 |  |  | 320 |  |  | 430 |  | \n |  |  |  | cayetanensis |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nLeafy Greens |  |  | Giardia spp. |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 140 |  |  | 430 |  | \n | Leafy Greens |  |  | Hepatitis A virus |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 200 |  |  | 430 | \nLeafy Greens |  |  | Listeria\nmonocytogenes |  |  | 0 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 330 |  |  | 430 |  | \n | Leafy Greens |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 220 |  |  | 430 | \nLeafy Greens |  |  | Salmonella spp. |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 350 |  |  | 430 |  | \n | Leafy Greens |  |  | Shigella spp. |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 210 |  |  | 430 | \nLeafy Greens |  |  | STEC non-O157 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 190 |  |  | 430 |  | \n | Leafy Greens |  |  | STEC O157 |  |  | 9 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 9 |  |  | 9 |  |  | 430 |  |  | 430 | \nMelons |  |  | Campylobacter spp. |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 150 |  |  | 430 |  | \nMelons |  |  |  | Listeria |  | 1 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 9 |  |  | 430 |  |  | 430 |  | \n |  |  |  | monocytogenes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nMelons |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 140 |  |  | 430 |  | \n\nCommodity\n-Hazard\nRisk Score\n\nCommodity\nRisk Score\n\nClostridium\nperfringens and toxin",
+      "summary": "Commodity Commodity Commodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard Risk Score Risk Score Herbs (fresh) Norovirus 0 3 0 0 1 1 0 50 240 Herbs (fresh) Salmonella spp. 1 9 3 3 3 1 3 ...",
+      "citation": "page-11",
+      "text_hash": "sha256:a2cefa1d13e44184b681c7fc1ae36a4c60dd33b2f8c1a5fe95ae2a199e55bba0",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-11",
+          "section": "page-11",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 11,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-12-12",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 12",
+      "section": "page-12",
+      "text": "Commodity\nCommodity\nCommodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard\nRisk Score\nRisk Score\nMelons Salmonella spp. 9 9 3 3 1 9 3 370 430\nMelons Shigella spp. 1 9 1 1 1 9 1 230 430\nMelons STEC O157 0 9 1 1 1 9 0 210 430\nListeria\nPeppers 0 9 1 9 3 3 0 250 370\nmonocytogenes\nSalmonella enterica -\nPeppers 1 9 1 3 1 3 3 210 370\nSerovar paratyphi\nPeppers Salmonella spp. 9 9 3 3 1 3 9 370 370\nPeppers STEC non-O157 0 3 1 1 1 3 0 90 370\nListeria\nSprouts 1 9 3 3 3 0 3 220 420\nmonocytogenes\nSprouts Salmonella spp. 9 9 3 9 3 0 9 420 420\nSprouts STEC non-O157 1 3 1 9 3 0 1 180 420\nSprouts STEC O157 1 9 1 9 3 0 3 260 420\nTomatoes Campylobacter spp. 0 3 0 1 1 9 0 140 430\nTomatoes Hepatitis A virus 0 9 1 0 1 9 0 200 430\nListeria\nTomatoes 0 9 1 1 3 9 0 230 430\nmonocytogenes\nTomatoes Norovirus 0 3 9 0 1 9 0 220 430\nTomatoes Salmonella spp. 9 9 1 3 3 9 9 430 430\nTomatoes Shigella spp. 0 9 1 1 1 9 0 210 430\nListeria\nTropical Tree Fruits 0 9 1 9 3 3 0 250 370\nmonocytogenes\nSalmonella enterica -\nTropical Tree Fruits 0 9 1 1 1 3 0 150 370\nSerovar typhi\nTropical Tree Fruits Salmonella spp. 9 9 3 9 1 3 3 370 370\n12\n\nCommodity |  |  | Hazard |  |  | C1 |  |  | C2 |  |  | C3 |  |  | C4 |  |  | C5 |  |  | C6 |  |  | C7 |  |  | Commodity\n-Hazard\nRisk Score |  |  | Commodity\nRisk Score |  | \n | Melons |  |  | Salmonella spp. |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 370 |  |  | 430 | \nMelons |  |  | Shigella spp. |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 230 |  |  | 430 |  | \n | Melons |  |  | STEC O157 |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 210 |  |  | 430 | \nPeppers |  |  | Listeria\nmonocytogenes |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 3 |  |  | 0 |  |  | 250 |  |  | 370 |  | \nPeppers |  |  |  | Salmonella enterica - |  | 1 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 210 |  |  | 370 |  | \n |  |  |  | Serovar paratyphi |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nPeppers |  |  | Salmonella spp. |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 3 |  |  | 1 |  |  | 3 |  |  | 9 |  |  | 370 |  |  | 370 |  | \n | Peppers |  |  | STEC non-O157 |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 0 |  |  | 90 |  |  | 370 | \nSprouts |  |  | Listeria\nmonocytogenes |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 3 |  |  | 3 |  |  | 0 |  |  | 3 |  |  | 220 |  |  | 420 |  | \n | Sprouts |  |  | Salmonella spp. |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 0 |  |  | 9 |  |  | 420 |  |  | 420 | \nSprouts |  |  | STEC non-O157 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 180 |  |  | 420 |  | \n | Sprouts |  |  | STEC O157 |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 0 |  |  | 3 |  |  | 260 |  |  | 420 | \nTomatoes |  |  | Campylobacter spp. |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 140 |  |  | 430 |  | \n | Tomatoes |  |  | Hepatitis A virus |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 200 |  |  | 430 | \nTomatoes |  |  | Listeria\nmonocytogenes |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 230 |  |  | 430 |  | \n | Tomatoes |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 220 |  |  | 430 | \nTomatoes |  |  | Salmonella spp. |  |  | 9 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 9 |  |  | 9 |  |  | 430 |  |  | 430 |  | \n | Tomatoes |  |  | Shigella spp. |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 210 |  |  | 430 | \nTropical Tree Fruits |  |  | Listeria\nmonocytogenes |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 3 |  |  | 0 |  |  | 250 |  |  | 370 |  | \nTropical Tree Fruits |  |  |  | Salmonella enterica - |  | 0 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 0 |  |  | 150 |  |  | 370 |  | \n |  |  |  | Serovar typhi |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nTropical Tree Fruits |  |  | Salmonella spp. |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 370 |  |  | 370 |  | \n\nCommodity\n-Hazard\nRisk Score\n\nCommodity\nRisk Score",
+      "summary": "Commodity Commodity Commodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard Risk Score Risk Score Melons Salmonella spp. 9 9 3 3 1 9 3 370 430 Melons Shigella spp. 1 9 1 1 1 9 1 230 430 M...",
+      "citation": "page-12",
+      "text_hash": "sha256:23fa51c37bb942b56b6612e4de159178fff4b48ffbfad44889c9e1837c6cb4d8",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-12",
+          "section": "page-12",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 12,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-13-13",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 13",
+      "section": "page-13",
+      "text": "Commodity\nCommodity\nCommodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard\nRisk Score\nRisk Score\nFinfish, species not associated\nAeromonas spp. 0 3 9 9 1 9 0 310 370\nwith histamine or ciguatoxin\nFinfish, species not associated\nAnisakis simplex 0 1 9 0 3 9 1 230 370\nwith histamine or ciguatoxin\nFinfish, species not associated Bacillus cereus and\n0 1 1 9 1 9 0 210 370\nwith histamine or ciguatoxin toxin\nFinfish, species not associated\nCampylobacter spp. 0 3 0 1 1 9 0 140 370\nwith histamine or ciguatoxin\nFinfish, species not associated\nCestodes 0 9 3 0 3 9 0 240 370\nwith histamine or ciguatoxin\nFinfish, species not associated Listeria\n0 9 9 9 1 9 0 370 370\nwith histamine or ciguatoxin monocytogenes\nFinfish, species not associated\nNorovirus 0 3 0 0 1 9 0 130 370\nwith histamine or ciguatoxin\nFinfish, species not associated Plesiomonas\n0 1 9 1 1 9 0 210 370\nwith histamine or ciguatoxin shigelloides\nFinfish, species not associated\nRhabdomyolysis 1 3 3 0 3 9 0 190 370\nwith histamine or ciguatoxin\nFinfish, species not associated\nSalmonella spp. 1 9 9 1 3 9 1 330 370\nwith histamine or ciguatoxin\nFinfish, species not associated\nShigella spp. 0 9 1 1 1 9 0 210 370\nwith histamine or ciguatoxin\nFinfish, species not associated Staphylococcus aureus\n0 3 9 1 1 9 0 230 370\nwith histamine or ciguatoxin and toxin\nFinfish, species not associated\nSTEC O157 0 9 0 1 1 9 0 200 370\nwith histamine or ciguatoxin\nFinfish, species not associated\nTetrodotoxin 1 9 1 0 3 9 0 230 370\nwith histamine or ciguatoxin\n13\n\nCommodity |  |  | Hazard |  |  | C1 | C2 | C3 | C4 | C5 | C6 | C7 | Commodity\n-Hazard\nRisk Score | Commodity\nRisk Score\n | Finfish, species not associated |  | Aeromonas spp. |  |  | 0 | 3 | 9 | 9 | 1 | 9 | 0 | 310 | 370\n | with histamine or ciguatoxin |  |  |  |  |  |  |  |  |  |  |  |  | \nFinfish, species not associated\nwith histamine or ciguatoxin |  |  | Anisakis simplex |  |  | 0 | 1 | 9 | 0 | 3 | 9 | 1 | 230 | 370\n | Finfish, species not associated |  |  | Bacillus cereus and |  | 0 | 1 | 1 | 9 | 1 | 9 | 0 | 210 | 370\n | with histamine or ciguatoxin |  |  | toxin |  |  |  |  |  |  |  |  |  | \nFinfish, species not associated\nwith histamine or ciguatoxin |  |  | Campylobacter spp. |  |  | 0 | 3 | 0 | 1 | 1 | 9 | 0 | 140 | 370\n | Finfish, species not associated |  | Cestodes |  |  | 0 | 9 | 3 | 0 | 3 | 9 | 0 | 240 | 370\n | with histamine or ciguatoxin |  |  |  |  |  |  |  |  |  |  |  |  | \nFinfish, species not associated\nwith histamine or ciguatoxin |  |  | Listeria\nmonocytogenes |  |  | 0 | 9 | 9 | 9 | 1 | 9 | 0 | 370 | 370\n | Finfish, species not associated |  | Norovirus |  |  | 0 | 3 | 0 | 0 | 1 | 9 | 0 | 130 | 370\n | with histamine or ciguatoxin |  |  |  |  |  |  |  |  |  |  |  |  | \nFinfish, species not associated\nwith histamine or ciguatoxin |  |  | Plesiomonas\nshigelloides |  |  | 0 | 1 | 9 | 1 | 1 | 9 | 0 | 210 | 370\n | Finfish, species not associated |  | Rhabdomyolysis |  |  | 1 | 3 | 3 | 0 | 3 | 9 | 0 | 190 | 370\n | with histamine or ciguatoxin |  |  |  |  |  |  |  |  |  |  |  |  | \nFinfish, species not associated\nwith histamine or ciguatoxin |  |  | Salmonella spp. |  |  | 1 | 9 | 9 | 1 | 3 | 9 | 1 | 330 | 370\n | Finfish, species not associated |  | Shigella spp. |  |  | 0 | 9 | 1 | 1 | 1 | 9 | 0 | 210 | 370\n | with histamine or ciguatoxin |  |  |  |  |  |  |  |  |  |  |  |  | \nFinfish, species not associated\nwith histamine or ciguatoxin |  |  | Staphylococcus aureus\nand toxin |  |  | 0 | 3 | 9 | 1 | 1 | 9 | 0 | 230 | 370\n | Finfish, species not associated |  | STEC O157 |  |  | 0 | 9 | 0 | 1 | 1 | 9 | 0 | 200 | 370\n | with histamine or ciguatoxin |  |  |  |  |  |  |  |  |  |  |  |  | \nFinfish, species not associated\nwith histamine or ciguatoxin |  |  | Tetrodotoxin |  |  | 1 | 9 | 1 | 0 | 3 | 9 | 0 | 230 | 370\n\nCommodity\n-Hazard\nRisk Score\n\nCommodity\nRisk Score",
+      "summary": "Commodity Commodity Commodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard Risk Score Risk Score Finfish, species not associated Aeromonas spp. 0 3 9 9 1 9 0 310 370 with histamine or ci...",
+      "citation": "page-13",
+      "text_hash": "sha256:99e072e63e87a462102573fc68633fe9b31a83cf1cf02dd76b479a3eba1f4a4a",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-13",
+          "section": "page-13",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 13,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-14-14",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 14",
+      "section": "page-14",
+      "text": "Commodity\nCommodity\nCommodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard\nRisk Score\nRisk Score\nFinfish, species not associated\nTrematodes 0 3 9 0 1 9 0 220 370\nwith histamine or ciguatoxin\nFinfish, species not associated Vibrio\n1 9 9 3 3 9 0 340 370\nwith histamine or ciguatoxin parahaemolyticus\nFinfish, histamine-producing\nAeromonas spp. 0 3 9 9 1 9 0 310 430\nspecies\nFinfish, histamine-producing Amnesic shellfish\n1 3 3 0 3 9 0 190 430\nspecies poisoning (ASP)\nFinfish, histamine-producing\nEscolar toxin 1 1 3 0 9 9 0 230 430\nspecies\nFinfish, histamine-producing\nHepatitis A virus 0 9 1 0 3 9 0 220 430\nspecies\nFinfish, histamine-producing Listeria\n0 9 9 9 1 9 0 370 430\nspecies monocytogenes\nFinfish, histamine-producing\nSalmonella spp. 3 9 9 1 3 9 3 370 430\nspecies\nFinfish, histamine-producing\nSaxitoxin (PSP) 0 9 3 0 3 9 0 240 430\nspecies\nFinfish, histamine-producing Scombroid toxin\n9 1 9 3 3 9 9 430 430\nspecies (Histamine)\nFinfish, species potentially\nCiguatoxin 9 3 9 0 3 0 9 330 330\ncontaminated with ciguatoxin\nFinfish, species potentially Listeria\n0 9 9 9 1 0 0 280 330\ncontaminated with ciguatoxin monocytogenes\nFinfish, species potentially\nSalmonella spp. 0 9 9 1 3 0 0 220 330\ncontaminated with ciguatoxin\nListeria\nSmoked Finfish 0 9 9 9 9 0 0 360 360\nmonocytogenes\n14\n\nCommodity |  |  | Hazard |  |  | C1 | C2 | C3 | C4 | C5 | C6 | C7 | Commodity\n-Hazard\nRisk Score | Commodity\nRisk Score\n | Finfish, species not associated |  | Trematodes |  |  | 0 | 3 | 9 | 0 | 1 | 9 | 0 | 220 | 370\n | with histamine or ciguatoxin |  |  |  |  |  |  |  |  |  |  |  |  | \nFinfish, species not associated\nwith histamine or ciguatoxin |  |  | Vibrio\nparahaemolyticus |  |  | 1 | 9 | 9 | 3 | 3 | 9 | 0 | 340 | 370\n | Finfish, histamine-producing |  | Aeromonas spp. |  |  | 0 | 3 | 9 | 9 | 1 | 9 | 0 | 310 | 430\n | species |  |  |  |  |  |  |  |  |  |  |  |  | \nFinfish, histamine-producing\nspecies |  |  | Amnesic shellfish\npoisoning (ASP) |  |  | 1 | 3 | 3 | 0 | 3 | 9 | 0 | 190 | 430\n | Finfish, histamine-producing |  | Escolar toxin |  |  | 1 | 1 | 3 | 0 | 9 | 9 | 0 | 230 | 430\n | species |  |  |  |  |  |  |  |  |  |  |  |  | \nFinfish, histamine-producing\nspecies |  |  | Hepatitis A virus |  |  | 0 | 9 | 1 | 0 | 3 | 9 | 0 | 220 | 430\n | Finfish, histamine-producing |  |  | Listeria |  | 0 | 9 | 9 | 9 | 1 | 9 | 0 | 370 | 430\n | species |  |  | monocytogenes |  |  |  |  |  |  |  |  |  | \nFinfish, histamine-producing\nspecies |  |  | Salmonella spp. |  |  | 3 | 9 | 9 | 1 | 3 | 9 | 3 | 370 | 430\n | Finfish, histamine-producing |  | Saxitoxin (PSP) |  |  | 0 | 9 | 3 | 0 | 3 | 9 | 0 | 240 | 430\n | species |  |  |  |  |  |  |  |  |  |  |  |  | \nFinfish, histamine-producing\nspecies |  |  | Scombroid toxin\n(Histamine) |  |  | 9 | 1 | 9 | 3 | 3 | 9 | 9 | 430 | 430\n | Finfish, species potentially |  | Ciguatoxin |  |  | 9 | 3 | 9 | 0 | 3 | 0 | 9 | 330 | 330\n | contaminated with ciguatoxin |  |  |  |  |  |  |  |  |  |  |  |  | \nFinfish, species potentially\ncontaminated with ciguatoxin |  |  | Listeria\nmonocytogenes |  |  | 0 | 9 | 9 | 9 | 1 | 0 | 0 | 280 | 330\n | Finfish, species potentially |  | Salmonella spp. |  |  | 0 | 9 | 9 | 1 | 3 | 0 | 0 | 220 | 330\n | contaminated with ciguatoxin |  |  |  |  |  |  |  |  |  |  |  |  | \nSmoked Finfish |  |  | Listeria\nmonocytogenes |  |  | 0 | 9 | 9 | 9 | 9 | 0 | 0 | 360 | 360\n\nCommodity\n-Hazard\nRisk Score\n\nCommodity\nRisk Score",
+      "summary": "Commodity Commodity Commodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard Risk Score Risk Score Finfish, species not associated Trematodes 0 3 9 0 1 9 0 220 370 with histamine or ciguat...",
+      "citation": "page-14",
+      "text_hash": "sha256:d95ae77271382e65d71aca9419f53e1250c6d9b08f9d007b827d9e8f94efef3e",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-14",
+          "section": "page-14",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 14,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-15-15",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 15",
+      "section": "page-15",
+      "text": "Commodity\nCommodity\nCommodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard\nRisk Score\nRisk Score\nSmoked Finfish Norovirus 0 3 0 0 1 0 0 40 360\nSmoked Finfish Parasites 0 1 3 0 3 0 0 70 360\nSmoked Finfish Salmonella spp. 0 9 1 3 1 0 0 140 360\nScombroid toxin\nSmoked Finfish 1 1 3 3 3 0 0 110 360\n(Histamine)\nCrustaceans Aeromonas spp. 0 3 9 9 1 9 0 310 430\nBacillus cereus and\nCrustaceans 0 1 1 1 1 9 0 130 430\ntoxin\nE. coli, other\nCrustaceans 0 3 9 1 1 9 0 230 430\npathogenic (EA)\nCrustaceans Hepatitis A virus 3 9 1 0 3 9 3 280 430\nListeria\nCrustaceans 0 9 9 9 3 9 0 390 430\nmonocytogenes\nCrustaceans Norovirus 0 3 1 0 3 9 0 160 430\nCrustaceans Paragonimus spp. 1 3 1 0 1 9 0 150 430\nCrustaceans Salmonella spp. 1 9 9 3 1 9 3 350 430\nStaphylococcus aureus\nCrustaceans 0 3 3 1 1 9 0 170 430\nand toxin\nCrustaceans Vibrio cholerae 1 9 9 1 1 9 0 300 430\nVibrio\nCrustaceans 9 9 9 3 1 9 3 430 430\nparahaemolyticus\nCrustaceans Vibrio vulnificus 0 9 9 1 1 9 0 290 430\nAmnesic shellfish\nMolluscan Shellfish, bivalves 1 3 3 0 3 0 0 100 380\npoisoning (ASP)\nAzaspiracid shellfish\nMolluscan Shellfish, bivalves 1 3 9 0 3 0 1 170 380\npoisoning (AZP)\nMolluscan Shellfish, bivalves Brevitoxins (NSP) 1 3 3 0 3 0 0 100 380\n15\n\nCommodity |  |  | Hazard |  |  | C1 |  |  | C2 |  |  | C3 |  |  | C4 |  |  | C5 |  |  | C6 |  |  | C7 |  |  | Commodity\n-Hazard\nRisk Score |  |  | Commodity\nRisk Score |  | \n | Smoked Finfish |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 1 |  |  | 0 |  |  | 0 |  |  | 40 |  |  | 360 | \nSmoked Finfish |  |  | Parasites |  |  | 0 |  |  | 1 |  |  | 3 |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 70 |  |  | 360 |  | \n | Smoked Finfish |  |  | Salmonella spp. |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 0 |  |  | 140 |  |  | 360 | \nSmoked Finfish |  |  | Scombroid toxin\n(Histamine) |  |  | 1 |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 110 |  |  | 360 |  | \n | Crustaceans |  |  | Aeromonas spp. |  |  | 0 |  |  | 3 |  |  | 9 |  |  | 9 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 310 |  |  | 430 | \nCrustaceans |  |  | Bacillus cereus and\ntoxin |  |  | 0 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 130 |  |  | 430 |  | \nCrustaceans |  |  |  | E. coli, other |  | 0 |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 230 |  |  | 430 |  | \n |  |  |  | pathogenic (EA) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nCrustaceans |  |  | Hepatitis A virus |  |  | 3 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 280 |  |  | 430 |  | \nCrustaceans |  |  |  | Listeria |  | 0 |  |  | 9 |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 390 |  |  | 430 |  | \n |  |  |  | monocytogenes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nCrustaceans |  |  | Norovirus |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 160 |  |  | 430 |  | \n | Crustaceans |  |  | Paragonimus spp. |  |  | 1 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 150 |  |  | 430 | \nCrustaceans |  |  | Salmonella spp. |  |  | 1 |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 350 |  |  | 430 |  | \nCrustaceans |  |  |  | Staphylococcus aureus |  | 0 |  |  | 3 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 170 |  |  | 430 |  | \n |  |  |  | and toxin |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nCrustaceans |  |  | Vibrio cholerae |  |  | 1 |  |  | 9 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 300 |  |  | 430 |  | \nCrustaceans |  |  |  | Vibrio |  | 9 |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 430 |  |  | 430 |  | \n |  |  |  | parahaemolyticus |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nCrustaceans |  |  | Vibrio vulnificus |  |  | 0 |  |  | 9 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 0 |  |  | 290 |  |  | 430 |  | \nMolluscan Shellfish, bivalves |  |  |  | Amnesic shellfish |  | 1 |  |  | 3 |  |  | 3 |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 100 |  |  | 380 |  | \n |  |  |  | poisoning (ASP) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nMolluscan Shellfish, bivalves |  |  | Azaspiracid shellfish\npoisoning (AZP) |  |  | 1 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 170 |  |  | 380 |  | \n | Molluscan Shellfish, bivalves |  |  | Brevitoxins (NSP) |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 100 |  |  | 380 | \n\nCommodity\n-Hazard\nRisk Score\n\nCommodity\nRisk Score",
+      "summary": "Commodity Commodity Commodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard Risk Score Risk Score Smoked Finfish Norovirus 0 3 0 0 1 0 0 40 360 Smoked Finfish Parasites 0 1 3 0 3 0 0 70 3...",
+      "citation": "page-15",
+      "text_hash": "sha256:6245cf6e431f4b4aa3da9a53cf5ea931d8be6950a13d17a69d18d239bfe02352",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-15",
+          "section": "page-15",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 15,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    },
+    {
+      "chunk_id": "fda-ftl-risk-ranking-designation-memo-page-16-16",
+      "source_id": "fda-ftl-risk-ranking-designation-memo",
+      "section_label": "PDF page 16",
+      "section": "page-16",
+      "text": "Commodity\nCommodity\nCommodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard\nRisk Score\nRisk Score\nMolluscan Shellfish, bivalves Campylobacter spp. 1 3 3 1 1 0 3 120 380\nClostridium\nMolluscan Shellfish, bivalves 0 3 1 1 1 0 0 60 380\nperfringens and toxin\nMolluscan Shellfish, bivalves Hepatitis A virus 3 9 3 0 3 0 3 210 380\nListeria\nMolluscan Shellfish, bivalves 0 9 1 3 3 0 0 160 380\nmonocytogenes\nMolluscan Shellfish, bivalves Norovirus 9 3 9 0 3 0 0 240 380\nMolluscan Shellfish, bivalves Okadaic acid (DSP) 1 9 9 0 3 0 1 230 380\nPlesiomonas\nMolluscan Shellfish, bivalves 1 1 9 3 1 0 1 160 380\nshigelloides\nSalmonella enterica -\nMolluscan Shellfish, bivalves 1 9 9 1 1 0 0 210 380\nSerovar typhi\nMolluscan Shellfish, bivalves Salmonella spp. 0 9 9 3 1 0 0 220 380\nMolluscan Shellfish, bivalves Saxitoxin (PSP) 1 9 1 0 3 0 1 150 380\nMolluscan Shellfish, bivalves Shigella spp. 0 9 1 1 1 0 0 120 380\nMolluscan Shellfish, bivalves Vibrio cholerae 1 9 1 1 1 0 0 130 380\nVibrio\nMolluscan Shellfish, bivalves 9 9 9 1 1 0 9 380 380\nparahaemolyticus\nMolluscan Shellfish, bivalves Vibrio vulnificus 1 9 9 3 1 0 3 260 380\n16\n\nCommodity |  |  | Hazard |  |  | C1 |  |  | C2 |  |  | C3 |  |  | C4 |  |  | C5 |  |  | C6 |  |  | C7 |  |  | Commodity\n-Hazard\nRisk Score |  |  | Commodity\nRisk Score |  | \nMolluscan Shellfish, bivalves |  |  | Campylobacter spp. |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 3 |  |  | 120 |  |  | 380 |  | \nMolluscan Shellfish, bivalves |  |  | Clostridium\nperfringens and toxin |  |  | 0 |  |  | 3 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 0 |  |  | 60 |  |  | 380 |  | \nMolluscan Shellfish, bivalves |  |  | Hepatitis A virus |  |  | 3 |  |  | 9 |  |  | 3 |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 3 |  |  | 210 |  |  | 380 |  | \nMolluscan Shellfish, bivalves |  |  |  | Listeria |  | 0 |  |  | 9 |  |  | 1 |  |  | 3 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 160 |  |  | 380 |  | \n |  |  |  | monocytogenes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nMolluscan Shellfish, bivalves |  |  | Norovirus |  |  | 9 |  |  | 3 |  |  | 9 |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 0 |  |  | 240 |  |  | 380 |  | \n | Molluscan Shellfish, bivalves |  |  | Okadaic acid (DSP) |  |  | 1 |  |  | 9 |  |  | 9 |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 230 |  |  | 380 | \nMolluscan Shellfish, bivalves |  |  | Plesiomonas\nshigelloides |  |  | 1 |  |  | 1 |  |  | 9 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 1 |  |  | 160 |  |  | 380 |  | \nMolluscan Shellfish, bivalves |  |  |  | Salmonella enterica - |  | 1 |  |  | 9 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 0 |  |  | 210 |  |  | 380 |  | \n |  |  |  | Serovar typhi |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nMolluscan Shellfish, bivalves |  |  | Salmonella spp. |  |  | 0 |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 0 |  |  | 220 |  |  | 380 |  | \n | Molluscan Shellfish, bivalves |  |  | Saxitoxin (PSP) |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 0 |  |  | 3 |  |  | 0 |  |  | 1 |  |  | 150 |  |  | 380 | \nMolluscan Shellfish, bivalves |  |  | Shigella spp. |  |  | 0 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 0 |  |  | 120 |  |  | 380 |  | \n | Molluscan Shellfish, bivalves |  |  | Vibrio cholerae |  |  | 1 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 0 |  |  | 130 |  |  | 380 | \nMolluscan Shellfish, bivalves |  |  | Vibrio\nparahaemolyticus |  |  | 9 |  |  | 9 |  |  | 9 |  |  | 1 |  |  | 1 |  |  | 0 |  |  | 9 |  |  | 380 |  |  | 380 |  | \n | Molluscan Shellfish, bivalves |  |  | Vibrio vulnificus |  |  | 1 |  |  | 9 |  |  | 9 |  |  | 3 |  |  | 1 |  |  | 0 |  |  | 3 |  |  | 260 |  |  | 380 | \n\nCommodity\n-Hazard\nRisk Score\n\nCommodity\nRisk Score\n\nClostridium\nperfringens and toxin",
+      "summary": "Commodity Commodity Commodity Hazard C1 C2 C3 C4 C5 C6 C7 -Hazard Risk Score Risk Score Molluscan Shellfish, bivalves Campylobacter spp. 1 3 3 1 1 0 3 120 380 Clostridium Mollus...",
+      "citation": "page-16",
+      "text_hash": "sha256:e832825e103439952d1495f6c7f7dd4ddea5e180c3567bc4604310b00e0ff950",
+      "anchors": [
+        {
+          "source_id": "fda-ftl-risk-ranking-designation-memo",
+          "citation": "page-16",
+          "section": "page-16",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 16,
+          "url": "https://www.fda.gov/media/142282/download?attachment",
+          "retrieved_at": "2026-06-16T05:46:42.861748+00:00",
+          "source_hash": "9366d5b1b6e934c9f34a18a250cc98040e624b3c91d91edf04c31a5c6eaf842b"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": null,
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

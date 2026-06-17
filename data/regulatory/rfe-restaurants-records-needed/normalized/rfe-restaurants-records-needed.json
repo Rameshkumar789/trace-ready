@@ -1,0 +1,292 @@
+{
+  "sourceId": "rfe-restaurants-records-needed",
+  "url": "https://www.fda.gov/media/163014/download?attachment",
+  "rawArtifact": "../data/regulatory/rfe-restaurants-records-needed/raw/rfe-restaurants-records-needed.pdf",
+  "rawTextHash": "439d1929ac5690b6014c1f35bcd105f5d67b5e6af9af09aaa8b878e48b0b7e7f",
+  "contentType": "application/pdf",
+  "sectionsExtracted": 3,
+  "chunks": [
+    {
+      "chunk_id": "rfe-restaurants-records-needed-page-1-1",
+      "source_id": "rfe-restaurants-records-needed",
+      "section_label": "PDF page 1",
+      "section": "page-1",
+      "text": "Retail food establishments (RFEs)\nand restaurants:\nWhat records do I need to keep for the\nFood Traceability Rule?\nRecordkeeping requirements under the rule depend on the activity (Critical Tracking Event or\nCTE) being conducted by the regulated entity. Generally, RFEs and restaurants must maintain\nreceiving records as described in 21 CFR \u00a7 1.1345. The following key data elements (KDEs) must\nbe maintained and linked to the traceability lot for the food:\n\u2022 Traceability lot code for the food\n\u2022 Quantity and unit of measure of the food\n\u2022 Product description for the food\n\u2022 Location description for the immediate previous source of the food\n\u2022 Location description for where the food was received\n\u2022 Date you received the food\n\u2022 Location description for the traceability lot code source, or the traceability lot code source\nreference\n\u2022 Reference document type and reference document number\nIf an RFE or restaurant receives a food from a person who is exempt from the rule, you must\nmaintain, and link to the traceability lot of the food, the following KDEs:\n\u2022 Quantity and unit of measure of the food\n\u2022 Product description for the food\n\u2022 Location description for the immediate previous source of the food\n\u2022 Location description for where the food was received\n\u2022 Date you received the food\n\u2022 Reference document type and reference document number\nIn most situations, the shipper of the food will send you most of the above KDEs. You may be\nrequired to keep other records depending on whether you are performing any other critical\ntracking events.\nDo I have to keep records for FTL foods I transform and sell directly to consumers (e.g., a fresh\nsalad prepared in a restaurant kitchen and then sold to a restaurant customer)?\nNo, 21 CFR \u00a7 1.1350(c) states that the transformation KDEs do not apply to RFEs and restaurants\nwith respect to foods they do not ship (e.g., foods they sell or send directly to consumers).\nHowever, an entity such as a central kitchen that transforms a food and ships it to a business such\nas a restaurant or RFE must keep the required records.\nwww.fda.gov 1 September 2022",
+      "summary": "Retail food establishments (RFEs) and restaurants: What records do I need to keep for the Food Traceability Rule? Recordkeeping requirements under the rule depend on the activit...",
+      "citation": "page-1",
+      "text_hash": "sha256:837498c992bfa824a55e901687dca5f9c31dbacf0a43bdcbbea34f3936e2affe",
+      "anchors": [
+        {
+          "source_id": "rfe-restaurants-records-needed",
+          "citation": "page-1",
+          "section": "page-1",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 1,
+          "url": "https://www.fda.gov/media/163014/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:12.458958+00:00",
+          "source_hash": "439d1929ac5690b6014c1f35bcd105f5d67b5e6af9af09aaa8b878e48b0b7e7f"
+        }
+      ]
+    },
+    {
+      "chunk_id": "rfe-restaurants-records-needed-page-2-2",
+      "source_id": "rfe-restaurants-records-needed",
+      "section_label": "PDF page 2",
+      "section": "page-2",
+      "text": "Retail food establishments (RFEs) and restaurants: What records do I need to keep for the Food Traceability Rule (continued)\nDoes FDA require a specific application or technology for keeping records?\nNo. In accordance with FSMA 204(d)(1)(C), the final rule does not prescribe specific technologies\nfor the maintenance of records. Records may be kept as original paper or electronic records or\ntrue copies (such as photocopies, pictures, scanned copies, or other accurate reproductions of the\noriginal records). Records must be legible and stored to prevent deterioration or loss. Electronic\nrecords may include valid, working electronic links to the information required to be maintained\nunder the final rule.\nHowever, in certain circumstances when the public health is threatened, we may request that\ninformation about specific foods and specific date ranges (or traceability lot code ranges) be\nprovided to us in an electronic sortable spreadsheet in accordance with 21 CFR \u00a7 1.1455(c)(3)(ii),\nalong with any other information needed to understand the information in the spreadsheet.\nRFEs and restaurants with an average annual monetary value of food sold or provided during\nthe previous 3-year period of no more than $1,000,000 (on a rolling basis), adjusted for inflation,\nare exempt from the requirement to provide FDA with an electronic sortable spreadsheet upon\nrequest. However, those entities must still maintain the records required by the rule.\nHow will I receive records from my suppliers?\nFDA does not require a specific format or technology for maintaining records and sharing them\nwith supply chain partners. You may receive records from your suppliers via any of the methods\ncurrently used by the food industry, including bills of lading, invoices, advanced ship notices,\npacking lists, case labels, 2-D barcodes, etc. However, it is your responsibility to make sure you\nmaintain all the KDEs required under the rule.\nHow long must I keep the records required by the rule?\nIn most cases, records containing the information required under the final rule must be\nmaintained for 2 years from the date you created or obtained the records. One exception is for\nrecords maintained by an RFE or restaurant for food purchased directly from a farm; those\nrecords must be maintained for 180 days.\nWhen do I need to comply with the Food Traceability Rule?\nThe compliance date for all covered entities is January 20, 2026.\nYou can find additional resources at our Food Traceability Final Rule page at www.fda.gov.\nwww.fda.gov 2 September 2022",
+      "summary": "Retail food establishments (RFEs) and restaurants: What records do I need to keep for the Food Traceability Rule (continued) Does FDA require a specific application or technolog...",
+      "citation": "page-2",
+      "text_hash": "sha256:63137e588f286db466e1022a7d5a887256ce17e8dbe2dafd2b08a49ef2d22f06",
+      "anchors": [
+        {
+          "source_id": "rfe-restaurants-records-needed",
+          "citation": "page-2",
+          "section": "page-2",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 2,
+          "url": "https://www.fda.gov/media/163014/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:12.458958+00:00",
+          "source_hash": "439d1929ac5690b6014c1f35bcd105f5d67b5e6af9af09aaa8b878e48b0b7e7f"
+        }
+      ]
+    },
+    {
+      "chunk_id": "rfe-restaurants-records-needed-page-3-3",
+      "source_id": "rfe-restaurants-records-needed",
+      "section_label": "PDF page 3",
+      "section": "page-3",
+      "text": "Retail food establishments (RFEs) and restaurants: What records do I need to keep for the Food Traceability Rule (continued)\nFor additional questions:\nThe Technical Assistance Network (TAN) is a central source of information for questions related to\nthe Food Safety Modernization Act (FSMA) rules, programs, and implementation strategies.\nSubmit Your Question Electronically:\nPlease submit your question to TAN for assistance.\nMail Your Question\nIf you prefer to mail in your question, please send it to the address below:\nFood and Drug Administration\n5001 Campus Drive\nWiley Building, HFS-009\nAttn: FSMA Outreach\nCollege Park, MD 20740\nHow TAN Works\nInquiries are answered by FDA Information Specialists or Subject Matter Experts, based on the\ncomplexity of the question. FDA will respond to inquiries received as soon as possible. However,\nresponse times may vary, due to complexity of question and the volume of inquiries we receive.\nOnce a question is submitted, the inquirer will receive notification of receipt and a case number to\nbe referenced in future correspondence.\nwww.fda.gov 3 September 2022",
+      "summary": "Retail food establishments (RFEs) and restaurants: What records do I need to keep for the Food Traceability Rule (continued) For additional questions: The Technical Assistance N...",
+      "citation": "page-3",
+      "text_hash": "sha256:ebd103c19e5591c90bbb3118a1abe22612e4fe87791b25a2c821c7def201f7f7",
+      "anchors": [
+        {
+          "source_id": "rfe-restaurants-records-needed",
+          "citation": "page-3",
+          "section": "page-3",
+          "paragraph": null,
+          "table_label": null,
+          "page_number": 3,
+          "url": "https://www.fda.gov/media/163014/download?attachment",
+          "retrieved_at": "2026-06-16T05:49:12.458958+00:00",
+          "source_hash": "439d1929ac5690b6014c1f35bcd105f5d67b5e6af9af09aaa8b878e48b0b7e7f"
+        }
+      ]
+    }
+  ],
+  "rejectedChunks": [],
+  "traceReadyContext": {
+    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
+    "sourcePageCurrentAsOf": "2026-02-19",
+    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
+    "matchedSource": {
+      "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+      "docket": "FDA-2014-N-0053",
+      "issued_date": "2022/11",
+      "applicability": "direct_core",
+      "trace_ready_priority": "must_ingest",
+      "source_role": "binding_rule_family",
+      "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+    },
+    "coreRuleDockets": [
+      "FDA-2014-N-0053",
+      "FDA-2025-D-2837",
+      "FDA-2023-D-1336"
+    ],
+    "coreSourcesToIngest": [
+      {
+        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2022/11",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "binding_rule_family",
+        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
+      },
+      {
+        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_eCFR",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "codified_legal_text",
+        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
+      },
+      {
+        "title": "Food Traceability List",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "current_FDA",
+        "applicability": "direct_core",
+        "trace_ready_priority": "must_ingest",
+        "source_role": "product_scope_source",
+        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
+      },
+      {
+        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
+        "docket": "FDA-2014-N-0053",
+        "issued_date": "2025/08",
+        "applicability": "direct_change_monitoring",
+        "trace_ready_priority": "track_not_executable",
+        "source_role": "proposed_rule_or_change_signal",
+        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
+      },
+      {
+        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2025-D-2837",
+        "issued_date": "2026/02",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "interpretation_support",
+        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
+      },
+      {
+        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
+        "docket": "FDA-2023-D-1336",
+        "issued_date": "2023/05",
+        "applicability": "direct_guidance",
+        "trace_ready_priority": "ingest_as_guidance",
+        "source_role": "operator_translation_support",
+        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
+      }
+    ],
+    "adjacentCustomerRules": [
+      {
+        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
+        "docket": "FDA-2011-N-0921",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_activity_context",
+        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
+      },
+      {
+        "title": "Final Rule: Pre-Harvest Agricultural Water",
+        "docket": "FDA-2021-N-0471",
+        "issued_date": "2024/05",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "defer_full_implementation",
+        "source_role": "produce_safety_context",
+        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
+        "docket": "FDA-2011-N-0920",
+        "issued_date": "2015/09",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "food_safety_program_context",
+        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
+      },
+      {
+        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
+        "docket": "FDA-2011-N-0143",
+        "issued_date": "2015/11",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "importer_supplier_context",
+        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
+      },
+      {
+        "title": "Sanitary Transportation of Human and Animal Food",
+        "docket": "FDA-2013-N-0013",
+        "issued_date": "2016/04",
+        "applicability": "adjacent_customer_context",
+        "trace_ready_priority": "future_expansion_candidate",
+        "source_role": "transportation_context",
+        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
+      },
+      {
+        "title": "Amendments to Registration of Food Facilities",
+        "docket": "FDA-2002-N-0323",
+        "issued_date": "2016/07",
+        "applicability": "adjacent_metadata_context",
+        "trace_ready_priority": "metadata_only",
+        "source_role": "entity_location_metadata",
+        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
+      },
+      {
+        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
+        "docket": "FDA-2002-N-0153",
+        "issued_date": "2014/04",
+        "applicability": "adjacent_records_context",
+        "trace_ready_priority": "supporting_context",
+        "source_role": "general_records_access_context",
+        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
+      }
+    ],
+    "notMvpRules": [
+      {
+        "title": "Laboratory Accreditation for Analyses of Foods",
+        "docket": "FDA-2019-N-3325",
+        "issued_date": "2021/12",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "lab_accreditation",
+        "reason": "Lab accreditation is not traceability record readiness."
+      },
+      {
+        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
+        "docket": "FDA-2013-N-1425",
+        "issued_date": "2016/05",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "food_defense",
+        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
+      },
+      {
+        "title": "Accredited Third-Party Certification",
+        "docket": "FDA-2011-N-0146",
+        "issued_date": "2015/11",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "certification_body_accreditation",
+        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
+      },
+      {
+        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
+        "docket": "FDA-2011-N-0922",
+        "issued_date": "2015/09",
+        "applicability": "not_current_scope",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "animal_food_safety",
+        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
+      },
+      {
+        "title": "Information Required in Prior Notice of Imported Food",
+        "docket": "FDA-2011-N-0179",
+        "issued_date": "2013/05",
+        "applicability": "future_import_adjacency",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "import_notice",
+        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
+      },
+      {
+        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
+        "docket": "FDA-2011-N-0197",
+        "issued_date": "2013/02",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "enforcement_authority",
+        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
+      },
+      {
+        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
+        "docket": "FDA-2013-N-0590",
+        "issued_date": "2014/03",
+        "applicability": "not_mvp",
+        "trace_ready_priority": "do_not_implement_now",
+        "source_role": "reporting_registry",
+        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
+      }
+    ],
+    "ingestionPolicy": [
+      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
+      "Use FDA Food Traceability List as product-scope truth.",
+      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
+      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
+      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
+    ]
+  }
+}

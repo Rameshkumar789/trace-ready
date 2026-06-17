@@ -1,0 +1,12 @@
+{
+  "active_package_id": "approved-rule-package-v1",
+  "active_version": 1,
+  "active_package_hash": "4983410ccca1967e8eabc9eea29528669e85b5dd92dd4bff57ba9dd1d0ec42db",
+  "pinned_at": "2026-06-16T00:00:00Z",
+  "pin_reason": "Active approved rule package for deterministic audit-engine consumption.",
+  "rollback_supported": true,
+  "previous_package_id": null,
+  "latest_diff_status": "changed",
+  "scenario_gate_status": "passed",
+  "can_publish_rule_changes": true
+}

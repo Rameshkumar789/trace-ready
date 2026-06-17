@@ -1,0 +1,83 @@
+[
+  {
+    "obligationId": "obl-entity-scope",
+    "obligationText": "Determine whether the business appears in scope, out of scope, exempt, partially exempt, or not determined using source-backed evidence.",
+    "obligationArea": "entity_scope",
+    "sourceChunkIds": ["chunk-scope-1300", "chunk-exemptions-1305"],
+    "ruleCardIds": ["rule-entity-scope"],
+    "kdeRequirementIds": [],
+    "deterministicCheckIds": ["evaluateEntityScope", "evaluateExemptionClaims"],
+    "status": "approved",
+    "reviewedBy": "founder",
+    "reviewedAt": "2026-06-14",
+    "version": 1
+  },
+  {
+    "obligationId": "obl-traceability-plan",
+    "obligationText": "Check whether a traceability plan exists and whether required plan evidence is present.",
+    "obligationArea": "traceability_plan",
+    "sourceChunkIds": ["chunk-plan-1315"],
+    "ruleCardIds": ["rule-traceability-plan"],
+    "kdeRequirementIds": ["kde-traceability-plan-record-maintenance", "kde-traceability-plan-ftl-identification", "kde-traceability-plan-tlc-assignment"],
+    "deterministicCheckIds": ["evaluateTraceabilityPlan"],
+    "status": "approved",
+    "reviewedBy": "founder",
+    "reviewedAt": "2026-06-14",
+    "version": 1
+  },
+  {
+    "obligationId": "obl-shipping-kdes",
+    "obligationText": "Shipping records require TLC, product, quantity, ship-from, immediate subsequent recipient, ship date, source references, and reference record details as applicable.",
+    "obligationArea": "cte_kde_completeness",
+    "cteType": "shipping",
+    "sourceChunkIds": ["chunk-shipping-1340"],
+    "ruleCardIds": ["rule-shipping-kdes"],
+    "kdeRequirementIds": ["kde-shipping-tlc", "kde-shipping-product", "kde-shipping-quantity", "kde-shipping-recipient", "kde-shipping-date", "kde-shipping-reference-record"],
+    "deterministicCheckIds": ["evaluateCteKdeCompleteness", "resolveKdeRequirements"],
+    "status": "approved",
+    "reviewedBy": "founder",
+    "reviewedAt": "2026-06-14",
+    "version": 1
+  },
+  {
+    "obligationId": "obl-receiving-kdes",
+    "obligationText": "Receiving records require TLC, product, quantity, immediate previous source, received location/date, source references, and reference record details as applicable.",
+    "obligationArea": "cte_kde_completeness",
+    "cteType": "receiving",
+    "sourceChunkIds": ["chunk-receiving-1345"],
+    "ruleCardIds": ["rule-receiving-kdes"],
+    "kdeRequirementIds": ["kde-receiving-tlc", "kde-receiving-product", "kde-receiving-quantity", "kde-receiving-previous-source", "kde-receiving-date", "kde-receiving-reference-record"],
+    "deterministicCheckIds": ["evaluateCteKdeCompleteness", "resolveKdeRequirements"],
+    "status": "approved",
+    "reviewedBy": "founder",
+    "reviewedAt": "2026-06-14",
+    "version": 1
+  },
+  {
+    "obligationId": "obl-transformation-lineage",
+    "obligationText": "Transformation records must preserve input lot evidence and record output/new TLC, transformation location/date, product, quantity, and references when applicable.",
+    "obligationArea": "tlc_lineage",
+    "cteType": "transformation",
+    "sourceChunkIds": ["chunk-transformation-1350", "chunk-tlc-1320"],
+    "ruleCardIds": ["rule-transformation-kdes", "rule-tlc-lineage"],
+    "kdeRequirementIds": ["kde-transformation-input-tlc", "kde-transformation-output-tlc", "kde-transformation-location", "kde-transformation-date", "kde-transformation-reference-record"],
+    "deterministicCheckIds": ["evaluateCteKdeCompleteness", "evaluateTlcLineage", "evaluateTlcAssignment"],
+    "status": "approved",
+    "reviewedBy": "founder",
+    "reviewedAt": "2026-06-14",
+    "version": 1
+  },
+  {
+    "obligationId": "obl-records-availability",
+    "obligationText": "Records must be maintained and made available in a form that supports FDA review, including sortable spreadsheet readiness when requested.",
+    "obligationArea": "records_availability",
+    "sourceChunkIds": ["chunk-records-1455"],
+    "ruleCardIds": ["rule-records-availability"],
+    "kdeRequirementIds": [],
+    "deterministicCheckIds": ["evaluateRecordsAvailability", "evaluateSortableExportReadiness"],
+    "status": "approved",
+    "reviewedBy": "founder",
+    "reviewedAt": "2026-06-14",
+    "version": 1
+  }
+]

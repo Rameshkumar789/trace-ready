@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "sourceApprovedObligationPackage": "phase7-approved-obligation-set-v1",
+  "sourceApprovedObligationPackageVersion": 1,
+  "fdaScenarioBenchmarks": 6,
+  "traceabilityPlanBenchmarks": 7,
+  "totalBenchmarks": 13,
+  "regressionStatusCounts": {
+    "pass": 13
+  },
+  "canPublishRuleChanges": true,
+  "publishGateStatus": "passed",
+  "reviewerOverrideReason": null,
+  "reviewerOverrides": 0,
+  "citationCoverage": {
+    "records": 13,
+    "complete": 13,
+    "partial": 0,
+    "missing": 0,
+    "invalid": 0,
+    "citations": 22,
+    "validCitations": 22,
+    "invalidCitations": 0,
+    "missingSupportTextCitations": 0
+  },
+  "fdaScenarioCoverage": [
+    "cheese",
+    "cucumber",
+    "deli_salad_canned_tuna",
+    "deli_salad_ftl_ingredients",
+    "sprouts",
+    "tuna"
+  ],
+  "traceabilityPlanCoverage": [
+    "traceability-plan-aquaculture",
+    "traceability-plan-distribution-centers",
+    "traceability-plan-farms",
+    "traceability-plan-food-processors",
+    "traceability-plan-restaurants",
+    "traceability-plan-seafood-processing",
+    "traceability-plan-sprouters"
+  ],
+  "cteCoverage": [
+    "cooling",
+    "first_land_based_receiving",
+    "harvesting",
+    "initial_packing",
+    "receiving",
+    "shipping",
+    "traceability_plan",
+    "transformation"
+  ]
+}

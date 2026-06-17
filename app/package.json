@@ -1,0 +1,44 @@
+{
+  "name": "traceready-audit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "postinstall": "prisma generate --schema prisma/schema.prisma",
+    "prisma:generate": "prisma generate --schema prisma/schema.prisma",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit --project tsconfig.typecheck.json",
+    "test": "vitest run",
+    "test:legacy": "vitest run --config vitest.legacy.config.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^3.0.71",
+    "@prisma/client": "^6.19.3",
+    "@supabase/supabase-js": "^2.108.1",
+    "@types/node": "^20.19.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "ai": "^6.0.205",
+    "lucide-react": "^1.18.0",
+    "next": "^16.2.9",
+    "postcss": "^8.5.10",
+    "prisma": "^6.19.3",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "read-excel-file": "^9.2.0",
+    "write-excel-file": "^4.1.1",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "exceljs": "^4.4.0",
+    "typescript": "^5.8.3",
+    "vitest": "^2.1.9"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "abstentionCorrectness": 1.0,
+  "acceptanceCoverage": {
+    "RI-110_generalization_metrics": true,
+    "RI-111_unseen_scenario_challenge_set_100": true,
+    "RI-112_gold_label_expected_outputs": true,
+    "RI-113_inference_error_report": true,
+    "RI-114_model_prompt_evaluation_harness": true,
+    "RI-115_drift_change_monitoring": true
+  },
+  "citationCorrectness": 1.0,
+  "cteFalseNegativeRate": 0.0,
+  "cteFalsePositiveRate": 0.0,
+  "driftMonitorStatus": "stable",
+  "errorSummaryCounts": {
+    "citation_failures": 0,
+    "missed_ctes": 0,
+    "missing_abstentions": 0,
+    "obligation_false_negatives": 0,
+    "obligation_false_positives": 0,
+    "over_triggered_ctes": 0,
+    "wrong_actor_role_decisions": 0,
+    "wrong_food_scope_decisions": 0
+  },
+  "exactScenarioPassCount": 100,
+  "exactScenarioPassRate": 1.0,
+  "foodCategories": {
+    "fresh herbs": 20,
+    "fresh produce": 20,
+    "seafood": 20,
+    "soft cheese": 20,
+    "sprouts": 20
+  },
+  "generatedAt": "2026-06-16T00:00:00Z",
+  "goldLabels": 100,
+  "liveModelOutputsEvaluated": false,
+  "obligationPrecision": 1.0,
+  "obligationRecall": 1.0,
+  "parserEvaluationRuns": 3,
+  "parserEvaluationScope": "deterministic classifier plus non-AI baselines; live model/prompt parser run not yet executed",
+  "phase": 12,
+  "publicationGate": "pass",
+  "resultStatusCounts": {
+    "pass": 100
+  },
+  "rulePackageId": "approved-rule-package-v1",
+  "rulePackageVersion": 1,
+  "scenarioCount": 100,
+  "scenarioFamilies": {
+    "ambiguous_actor_receiving": 5,
+    "cooling": 5,
+    "direct_consumer": 5,
+    "distribution_crossdock": 5,
+    "exemption_claim_shipping": 5,
+    "first_land_seafood": 5,
+    "food_scope_review_shipping": 5,
+    "harvesting": 5,
+    "initial_packing": 5,
+    "internal_transfer": 5,
+    "kill_step_uncertainty": 5,
+    "non_ftl_transformation": 5,
+    "receiving_b2b": 5,
+    "restaurant_receiving": 5,
+    "return_correction": 5,
+    "seafood_processor_shipping": 5,
+    "shipping_b2b": 5,
+    "traceability_plan": 5,
+    "transformation_ftl": 5,
+    "transporter_only": 5
+  }
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_ctes": [
+      "receiving"
+    ],
+    "confidence": 0.88,
+    "event_id": "REC-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r2-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r2-c4"
+    ],
+    "final_ctes": [
+      "receiving"
+    ],
+    "reasons": [
+      "structured event_type mapped to receiving"
+    ],
+    "reviewer_questions": [],
+    "suppressed_ctes": []
+  },
+  {
+    "candidate_ctes": [
+      "shipping"
+    ],
+    "confidence": 0.68,
+    "event_id": "SHIP-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r4-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r4-c5"
+    ],
+    "final_ctes": [
+      "shipping"
+    ],
+    "reasons": [
+      "structured event_type mapped to shipping"
+    ],
+    "reviewer_questions": [
+      "Confirm destination: customer evidence does not clearly identify consumer versus business recipient."
+    ],
+    "suppressed_ctes": []
+  },
+  {
+    "candidate_ctes": [
+      "transformation"
+    ],
+    "confidence": 0.88,
+    "event_id": "TRANS-1:PROD-1",
+    "evidence_ids": [
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c1",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c2",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c3",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c4",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c5",
+      "ev-fsma204_full_audit_sample-05_cte_events-r3-c6",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c1",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c2",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c3",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c4",
+      "ev-fsma204_full_audit_sample-06_event_line_items-r3-c7"
+    ],
+    "final_ctes": [
+      "transformation"
+    ],
+    "reasons": [
+      "structured event_type mapped to transformation",
+      "source/output lot relationship indicates transformation"
+    ],
+    "reviewer_questions": [],
+    "suppressed_ctes": []
+  }
+]

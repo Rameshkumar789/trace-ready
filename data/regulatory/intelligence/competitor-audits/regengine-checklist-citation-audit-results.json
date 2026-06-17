@@ -1,0 +1,430 @@
+[
+  {
+    "claim_id": "regengine-checklist-harvest-cte",
+    "checklist_item": "Harvest CTEs captured",
+    "claimed_citation": "21 CFR 1.1325(b)",
+    "claim_text": "Harvesting events with lot codes assigned at point of harvest",
+    "expected_topic": "harvesting",
+    "trace_ready_verdict": "partial_wrong_subparagraph",
+    "claimed_section_matches_expected_section": true,
+    "correct_sections": [
+      "21 CFR 1.1325"
+    ],
+    "explanation": "Harvesting is supported by the harvesting portion of 21 CFR 1.1325, not the cooling portion.",
+    "supporting_approved_obligations": [
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+        "action": "Maintain and provide required harvesting or cooling records",
+        "required_output": "Harvesting/cooling information and reference document details",
+        "applies_to_ctes": [
+          "harvesting",
+          "cooling"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1325",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1325-6",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) Harvesting. (1) For each raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability List that you harvest, you must maintain records containing the following information: (i) The location description for the immediate subsequent recipient (other than a transporter) of the food; (ii) Th"
+          }
+        ]
+      }
+    ],
+    "rule_package_id": "approved-rule-package-v1",
+    "rule_package_version": 1,
+    "rule_package_status": "approved"
+  },
+  {
+    "claim_id": "regengine-checklist-shipping-cte",
+    "checklist_item": "Shipping CTEs captured",
+    "claimed_citation": "21 CFR 1.1350(b)",
+    "claim_text": "All outbound shipments with Traceability Lot Codes linked to each unit",
+    "expected_topic": "shipping",
+    "trace_ready_verdict": "unsupported_wrong_section",
+    "claimed_section_matches_expected_section": false,
+    "correct_sections": [
+      "21 CFR 1.1340"
+    ],
+    "explanation": "Shipping records are supported by 21 CFR 1.1340.",
+    "supporting_approved_obligations": [
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+        "action": "Maintain shipping records linked to the traceability lot and provide required information to the immediate subsequent recipient",
+        "required_output": "Shipping records and pass-forward information",
+        "applies_to_ctes": [
+          "shipping"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1340",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) For each traceability lot of a food on the Food Traceability List you ship, you must maintain records containing the following information and linking this information to the traceability lot: (1) The traceability lot code for the food; (2) The quantity and unit of measure of the food ( e.g., 6 cases, 25 reusable p"
+          }
+        ]
+      }
+    ],
+    "rule_package_id": "approved-rule-package-v1",
+    "rule_package_version": 1,
+    "rule_package_status": "approved"
+  },
+  {
+    "claim_id": "regengine-checklist-receiving-cte",
+    "checklist_item": "Receiving CTEs captured",
+    "claimed_citation": "21 CFR 1.1345(b)",
+    "claim_text": "Inbound receiving events with supplier data and TLC verification",
+    "expected_topic": "receiving",
+    "trace_ready_verdict": "partial_weak_subparagraph",
+    "claimed_section_matches_expected_section": true,
+    "correct_sections": [
+      "21 CFR 1.1345"
+    ],
+    "explanation": "Basic receiving records are supported by 21 CFR 1.1345(a); 1.1345(b) is a special source-not-subject case.",
+    "supporting_approved_obligations": [
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+        "action": "Maintain receiving records containing required information and link the information to the traceability lot",
+        "required_output": "Receiving records linked to the traceability lot",
+        "applies_to_ctes": [
+          "receiving"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1345",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) Except as specified in paragraphs (b) and (c) of this section, for each traceability lot of a food on the Food Traceability List you receive, you must maintain records containing the following information and linking this information to the traceability lot: (1) The traceability lot code for the food; (2) The quant"
+          }
+        ]
+      }
+    ],
+    "rule_package_id": "approved-rule-package-v1",
+    "rule_package_version": 1,
+    "rule_package_status": "approved"
+  },
+  {
+    "claim_id": "regengine-checklist-transformation-cte",
+    "checklist_item": "Transformation CTEs captured",
+    "claimed_citation": "21 CFR 1.1335(b)",
+    "claim_text": "Processing, packing, and repacking events with new TLCs assigned",
+    "expected_topic": "transformation",
+    "trace_ready_verdict": "unsupported_wrong_section",
+    "claimed_section_matches_expected_section": false,
+    "correct_sections": [
+      "21 CFR 1.1350"
+    ],
+    "explanation": "Transformation records are supported by 21 CFR 1.1350.",
+    "supporting_approved_obligations": [
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+        "action": "Maintain transformation records containing input and output traceability information and link it to the new traceability lot",
+        "required_output": "Transformation records linked to the new traceability lot",
+        "applies_to_ctes": [
+          "transformation"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1350",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1350-11",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) Except as specified in paragraphs (b) and (c) of this section, for each new traceability lot of food you produce through transformation, you must maintain records containing the following information and linking this information to the new traceability lot: (1) For the food on the Food Traceability List used in tra"
+          }
+        ]
+      }
+    ],
+    "rule_package_id": "approved-rule-package-v1",
+    "rule_package_version": 1,
+    "rule_package_status": "approved"
+  },
+  {
+    "claim_id": "regengine-checklist-all-kdes",
+    "checklist_item": "All KDEs populated",
+    "claimed_citation": "21 CFR 1.1315",
+    "claim_text": "Key Data Elements recorded for each Critical Tracking Event type",
+    "expected_topic": "cte_kdes",
+    "trace_ready_verdict": "unsupported_wrong_section",
+    "claimed_section_matches_expected_section": false,
+    "correct_sections": [
+      "21 CFR 1.1325",
+      "21 CFR 1.1330",
+      "21 CFR 1.1335",
+      "21 CFR 1.1340",
+      "21 CFR 1.1345",
+      "21 CFR 1.1350"
+    ],
+    "explanation": "All KDE coverage is CTE-specific across 1.1325 through 1.1350; 1.1315 is traceability plan.",
+    "supporting_approved_obligations": [
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+        "action": "Maintain and provide required harvesting or cooling records",
+        "required_output": "Harvesting/cooling information and reference document details",
+        "applies_to_ctes": [
+          "harvesting",
+          "cooling"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1325",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1325-6",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) Harvesting. (1) For each raw agricultural commodity (not obtained from a fishing vessel) on the Food Traceability List that you harvest, you must maintain records containing the following information: (i) The location description for the immediate subsequent recipient (other than a transporter) of the food; (ii) Th"
+          }
+        ]
+      },
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+        "action": "Maintain records containing required initial packing information and link the information to the traceability lot",
+        "required_output": "Initial packing records linked to the traceability lot",
+        "applies_to_ctes": [
+          "initial_packing"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1330",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1330-7",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) Except as specified in paragraph (c) of this section, for each traceability lot of a raw agricultural commodity (other than a food obtained from a fishing vessel) on the Food Traceability List you initially pack, you must maintain records containing the following information and linking this information to the trac"
+          }
+        ]
+      },
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1335-FIRST-LAND-BASED-RECEIVING-KDES",
+        "action": "Maintain records containing required first land-based receiving information and link the information to the traceability lot",
+        "required_output": "First land-based receiving records linked to the traceability lot",
+        "applies_to_ctes": [
+          "first_land_based_receiving"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1335",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1335-8",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "For each traceability lot of a food obtained from a fishing vessel for which you are the first land-based receiver, you must maintain records containing the following information and linking this information to the traceability lot: (a) The traceability lot code you assigned; (b) The species and/or acceptable market na"
+          }
+        ]
+      },
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+        "action": "Maintain shipping records linked to the traceability lot and provide required information to the immediate subsequent recipient",
+        "required_output": "Shipping records and pass-forward information",
+        "applies_to_ctes": [
+          "shipping"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1340",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) For each traceability lot of a food on the Food Traceability List you ship, you must maintain records containing the following information and linking this information to the traceability lot: (1) The traceability lot code for the food; (2) The quantity and unit of measure of the food ( e.g., 6 cases, 25 reusable p"
+          }
+        ]
+      },
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+        "action": "Maintain receiving records containing required information and link the information to the traceability lot",
+        "required_output": "Receiving records linked to the traceability lot",
+        "applies_to_ctes": [
+          "receiving"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1345",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) Except as specified in paragraphs (b) and (c) of this section, for each traceability lot of a food on the Food Traceability List you receive, you must maintain records containing the following information and linking this information to the traceability lot: (1) The traceability lot code for the food; (2) The quant"
+          }
+        ]
+      },
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+        "action": "Maintain transformation records containing input and output traceability information and link it to the new traceability lot",
+        "required_output": "Transformation records linked to the new traceability lot",
+        "applies_to_ctes": [
+          "transformation"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1350",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1350-11",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) Except as specified in paragraphs (b) and (c) of this section, for each new traceability lot of food you produce through transformation, you must maintain records containing the following information and linking this information to the new traceability lot: (1) For the food on the Food Traceability List used in tra"
+          }
+        ]
+      }
+    ],
+    "rule_package_id": "approved-rule-package-v1",
+    "rule_package_version": 1,
+    "rule_package_status": "approved"
+  },
+  {
+    "claim_id": "regengine-checklist-tlc-linkage",
+    "checklist_item": "TLCs linked across events",
+    "claimed_citation": "21 CFR 1.1320",
+    "claim_text": "Traceability Lot Codes connected from harvest to distribution across your supply chain",
+    "expected_topic": "tlc_assignment_and_linkage",
+    "trace_ready_verdict": "too_broad_or_incomplete",
+    "claimed_section_matches_expected_section": true,
+    "correct_sections": [
+      "21 CFR 1.1320",
+      "21 CFR 1.1340",
+      "21 CFR 1.1345",
+      "21 CFR 1.1350"
+    ],
+    "explanation": "1.1320 supports assignment/no-new-TLC logic, while cross-event linkage also depends on CTE-specific shipping/receiving/transformation records.",
+    "supporting_approved_obligations": [
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+        "action": "Assign a traceability lot code and do not establish a new TLC for other activities unless otherwise specified",
+        "required_output": "Assigned TLC for triggering CTEs",
+        "applies_to_ctes": [
+          "initial_packing",
+          "first_land_based_receiving",
+          "transformation"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1320",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1320-5",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) You must assign a traceability lot code when you do any of the following: Initially pack a raw agricultural commodity other than a food obtained from a fishing vessel; perform the first land-based receiving of a food obtained from a fishing vessel; or transform a food. (b) Except as otherwise specified in this subp"
+          }
+        ]
+      },
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+        "action": "Maintain shipping records linked to the traceability lot and provide required information to the immediate subsequent recipient",
+        "required_output": "Shipping records and pass-forward information",
+        "applies_to_ctes": [
+          "shipping"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1340",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1340-9",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) For each traceability lot of a food on the Food Traceability List you ship, you must maintain records containing the following information and linking this information to the traceability lot: (1) The traceability lot code for the food; (2) The quantity and unit of measure of the food ( e.g., 6 cases, 25 reusable p"
+          }
+        ]
+      },
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+        "action": "Maintain receiving records containing required information and link the information to the traceability lot",
+        "required_output": "Receiving records linked to the traceability lot",
+        "applies_to_ctes": [
+          "receiving"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1345",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1345-10",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) Except as specified in paragraphs (b) and (c) of this section, for each traceability lot of a food on the Food Traceability List you receive, you must maintain records containing the following information and linking this information to the traceability lot: (1) The traceability lot code for the food; (2) The quant"
+          }
+        ]
+      },
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+        "action": "Maintain transformation records containing input and output traceability information and link it to the new traceability lot",
+        "required_output": "Transformation records linked to the new traceability lot",
+        "applies_to_ctes": [
+          "transformation"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1350",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1350-11",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) Except as specified in paragraphs (b) and (c) of this section, for each new traceability lot of food you produce through transformation, you must maintain records containing the following information and linking this information to the new traceability lot: (1) For the food on the Food Traceability List used in tra"
+          }
+        ]
+      }
+    ],
+    "rule_package_id": "approved-rule-package-v1",
+    "rule_package_version": 1,
+    "rule_package_status": "approved"
+  },
+  {
+    "claim_id": "regengine-checklist-24-hour-response",
+    "checklist_item": "24-hour response capability",
+    "claimed_citation": "21 CFR 1.1455",
+    "claim_text": "Can provide FDA with requested traceability data within 24 hours",
+    "expected_topic": "fda_24_hour_response",
+    "trace_ready_verdict": "supported",
+    "claimed_section_matches_expected_section": true,
+    "correct_sections": [
+      "21 CFR 1.1455"
+    ],
+    "explanation": "24-hour FDA response is supported by 21 CFR 1.1455.",
+    "supporting_approved_obligations": [
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1455-FDA-REQUEST",
+        "action": "Make all required records available within 24 hours or within a reasonable time agreed to by FDA",
+        "required_output": "Records and information needed to understand the records",
+        "applies_to_ctes": [
+          "other"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1455",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1455-31",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) General requirements for records. (1) You must keep records as original paper or electronic records or true copies (such as photocopies, pictures, scanned copies, or other accurate reproductions of the original records). Electronic records may include valid, working electronic links to the information required to b"
+          }
+        ]
+      }
+    ],
+    "rule_package_id": "approved-rule-package-v1",
+    "rule_package_version": 1,
+    "rule_package_status": "approved"
+  },
+  {
+    "claim_id": "regengine-checklist-electronic-recordkeeping",
+    "checklist_item": "Electronic recordkeeping",
+    "claimed_citation": "21 CFR 1.1455(b)(3)",
+    "claim_text": "Sortable, searchable electronic records - not paper or static spreadsheets",
+    "expected_topic": "sortable_spreadsheet",
+    "trace_ready_verdict": "wrong_subparagraph",
+    "claimed_section_matches_expected_section": true,
+    "correct_sections": [
+      "21 CFR 1.1455"
+    ],
+    "explanation": "Sortable spreadsheet is supported by 21 CFR 1.1455(c)(3)(ii), not 1.1455(b)(3).",
+    "supporting_approved_obligations": [
+      {
+        "approved_obligation_id": "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET",
+        "action": "Provide required information in an electronic sortable spreadsheet unless an exception applies",
+        "required_output": "Sortable spreadsheet for specified foods and date ranges or TLCs",
+        "applies_to_ctes": [
+          "other"
+        ],
+        "citations": [
+          {
+            "section_ref": "21 CFR 1.1455",
+            "chunk_id": "ecfr-21-cfr-1-subpart-s-21-cfr-1-1455-31",
+            "source_id": "ecfr-21-cfr-1-subpart-s",
+            "authority_rank": "codified_rule",
+            "support_text_excerpt": "(a) General requirements for records. (1) You must keep records as original paper or electronic records or true copies (such as photocopies, pictures, scanned copies, or other accurate reproductions of the original records). Electronic records may include valid, working electronic links to the information required to b"
+          }
+        ]
+      }
+    ],
+    "rule_package_id": "approved-rule-package-v1",
+    "rule_package_version": 1,
+    "rule_package_status": "approved"
+  }
+]

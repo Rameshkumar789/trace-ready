@@ -1,0 +1,1037 @@
+[
+  {
+    "benchmark_id": "phase8:traceability_plan:farm",
+    "benchmark_type": "fda_traceability_plan_example",
+    "scenario_name": "FDA traceability plan example for farms",
+    "scenario_source_id": "traceability-plan-farms",
+    "source_scenario_id": null,
+    "food_scope": "Farms handling Food Traceability List foods, including farm map expectations where applicable",
+    "citations": [
+      {
+        "source_id": "traceability-plan-farms",
+        "chunk_id": "traceability-plan-farms-page-1-1",
+        "citation_anchor": "page-1",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/174057/download?attachment",
+        "section_ref": "page-1",
+        "page_number": 1,
+        "support_text": "Traceability Plan Example\nfor Farms (\u00a7 1.1315)\nThe purpose of this document is to help farms establish a traceability plan as required in \u00a7 1.1315 of the\nFood Traceability Rule.\nThis example incorporates the information that is required by FDA\u2019s Food Traceability Rule and is one\nexample of how a traceability plan can be established. There is no specific format required for the\ntraceability plan, but the information in the traceability plan must meet the requirements as described in \u00a7\n1.1315 of the Food Traceability Rule and reflect the current practices specific to the covered entity. Please\nnote that for purposes of illustration, we have provided two examples of what a farm map could look like;\nhowever, the rule only requires one farm map (if applicable).\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the final rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records;\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 The farm map must show the location and name of each field (or other growing area) in which\nyou grow a food on the Food Traceability List, including geographic coordinates and any other\ninformation needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects your\ncurrent practices and to ensure that you are in compliance with the requirements of the rule. You must\nretain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov November 2023"
+      },
+      {
+        "source_id": "traceability-plan-farms",
+        "chunk_id": "traceability-plan-farms-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/174057/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Traceability Plan Example for Farms (continued)\nProcedures to Maintain the Records\nDigital records of all required KDEs are captured and stored in our commercial software solution. Records\nare maintained for two years.\nHard copies of Bills of Lading are provided to subsequent recipients containing all KDEs except TLC/\nTLC Source Reference, which is barcoded on product case labels. Some companies also receive digital\nadvanced shipment notices containing all required KDEs.\nProcedures to Identify FTL Foods\nAll products packed at this facility are on the FTL.\nAssigning Traceability Lot Codes\nUnique products/pack sizes are assigned a 14-digit case GS1 GTIN. Internal lot codes are assigned\nusing date (MMDDYY) and packing line (\u201cAAA\u201d \u2013 \u201cZZZ\u201d). Together the case GTIN and Internal Lot code\nrepresent our traceability lot code.\nPoint of Contact\nSarah Tree, Traceability Manager, 123-456-7899\nFarm Map\nSee Appendix.\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in a\nfolder on SharePoint for at least two years after it is updated.\nwww.fda.gov 2 November 2023"
+      },
+      {
+        "source_id": "traceability-plan-farms",
+        "chunk_id": "traceability-plan-farms-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/174057/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Traceability Plan Example for Farms (continued)\nAppendix:\nA. Example #1\nFarm Name Field Name Field Geographic Coordinates\nLizzie\u2019s Lettuce Field A-08 26.35145, -81.45909\nLizzie\u2019s Lettuce Field B-09 26.35008, -81.45906\nLizzie\u2019s Lettuce Field C-02 26.34812, -81.45893\nLizzie\u2019s Lettuce Field D-03 26.34647, -81.45913\nB. Example #2\nwww.fda.gov 3 November 2023\n\nFarm Name | Field Name | Field Geographic Coordinates\nLizzie\u2019s Lettuce | Field A-08 | 26.35145, -81.45909\nLizzie\u2019s Lettuce | Field B-09 | 26.35008, -81.45906\nLizzie\u2019s Lettuce | Field C-02 | 26.34812, -81.45893\nLizzie\u2019s Lettuce | Field D-03 | 26.34647, -81.45913\n |  |"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Farm operator",
+        "role": "covered operator",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_traceability_plan",
+        "cte_type": "traceability_plan",
+        "actor_id": "covered_entity",
+        "event_description": "Covered entity establishes and maintains a traceability plan for the FDA example business type.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+        ],
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "Traceability plan must describe TLC assignment procedures when the business performs TLC-triggering CTEs."
+      },
+      {
+        "event_id": "event_harvesting",
+        "cte_type": "harvesting",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for harvesting.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "business_name",
+          "commodity_and_if_applicable_variety_of_the_food",
+          "phone_number",
+          "quantity_and_unit_of_measure_of_the_food",
+          "harvesting_kdes_except_the_reference",
+          "location_description_for_the_farm_where_the_food_was_harvested_document_type_and_reference_document",
+          "for_produce_name_of_the_field_or_other_growing_area_from_which_the_food_was_harvested_must_correspon",
+          "for_aquacultured_food_name_of_the_container_e_g_pond_pool_tank_cage_from_which_the_food_was_harveste",
+          "date_of_harvesting",
+          "reference_document_type_and_reference_document_number"
+        ],
+        "expected_tlc_behavior": "Harvesting or cooling KDEs must remain available for linkage to the initial packed traceability lot."
+      },
+      {
+        "event_id": "event_cooling",
+        "cte_type": "cooling",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for cooling.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "commodity_and_if_applicable_variety_of_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "location_description_for_where_you_cooled_the_food",
+          "date_of_cooling",
+          "location_description_for_the_farm_where_the_food_was_harvested",
+          "cooling_kdes_except_the_reference_document_type_and_reference_document_number"
+        ],
+        "expected_tlc_behavior": "Harvesting or cooling KDEs must remain available for linkage to the initial packed traceability lot."
+      },
+      {
+        "event_id": "event_initial_packing",
+        "cte_type": "initial_packing",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for initial packing.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+          "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+        ],
+        "expected_kde_field_keys": [
+          "commodity_and_if_applicable_variety_of_the_food_received",
+          "business_name_and_phone_number_for_the_harvester_of_the_food",
+          "date_you_received_the_food",
+          "date_of_harvesting",
+          "quantity_and_unit_of_measure_of_the_food_received",
+          "location_description_for_where_the_food_was_cooled_if_applicable",
+          "location_description_for_the_farm_where_the_food_was_harvested",
+          "date_of_cooling_if_applicable",
+          "for_produce",
+          "traceability_lot_code_you_assigned_name_of_the_field_or_other_growing_area_from_which_the_food_was_h",
+          "product_description_of_the_packed_food_must_correspond_to_the_name_used_by_the_grower_or",
+          "quantity_and_unit_of_measure_of_the_packed_food_other_information_identifying_the_harvest_location_a",
+          "location_description_for_where_you_initially_packed_the_food_i_e_traceability_lot_or_growing_area_na",
+          "for_aquacultured_food",
+          "date_of_initial_packing_name_of_the_container_e_g_pond_pool_tank_cage_from_which_the_food_was",
+          "reference_document_type_and_reference_document_number_harvested_must_correspond_to_the_container_nam",
+          "location_description_for_the_grower_of_seeds_for_sprouting_and_date_of_seed_harvesting_if_either_is",
+          "location_description_for_the_seed_conditioner_or_processor_associated_seed_lot_code_and_date_of_cond",
+          "location_description_for_the_seed_packinghouse_including_any_repackers_date_of_packing_and_repacking",
+          "location_description_for_the_seed_supplier_any_seed_lot_code_assigned_by_the_seed_supplier_including",
+          "description_of_the_seeds_including_seed_type_or_taxonomic_name_growing_specifications_type_of_packag",
+          "date_of_receipt_of_the_seeds_by_the_sprouter",
+          "reference_document_type_and_reference_document_number"
+        ],
+        "expected_tlc_behavior": "This CTE must assign the traceability lot code and link KDEs to the assigned lot."
+      }
+    ],
+    "expected_ctes": [
+      "traceability_plan",
+      "harvesting",
+      "cooling",
+      "initial_packing"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+    ],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Entity must maintain traceability plan evidence in addition to applicable CTE/KDE records.",
+    "reviewer_notes": [
+      "Farm examples must include map/location evidence where required by 21 CFR 1.1315."
+    ],
+    "regression_status": "regression_ready"
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:restaurant",
+    "benchmark_type": "fda_traceability_plan_example",
+    "scenario_name": "FDA traceability plan example for restaurants",
+    "scenario_source_id": "traceability-plan-restaurants",
+    "source_scenario_id": null,
+    "food_scope": "Restaurant handling Food Traceability List foods",
+    "citations": [
+      {
+        "source_id": "traceability-plan-restaurants",
+        "chunk_id": "traceability-plan-restaurants-page-1-1",
+        "citation_anchor": "page-1",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/174058/download?attachment",
+        "section_ref": "page-1",
+        "page_number": 1,
+        "support_text": "Traceability Plan Example\nfor Restaurants (\u00a7 1.1315)\nThe purpose of this document is to help restaurants establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example incorporates the information that is required by FDA\u2019s Food Traceability Rule and is one\nexample of how a traceability plan can be established. There is no specific format required for the\ntraceability plan, but the information in the traceability plan must meet the requirements as described in\n\u00a7 1.1315 of the Food Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the final rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records;\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 The farm map must show the location and name of each field (or other growing area) in which\nyou grow a food on the Food Traceability List, including geographic coordinates and any other\ninformation needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects your\ncurrent practices and to ensure that you are in compliance with the requirements of the rule. You must\nretain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov November 2023"
+      },
+      {
+        "source_id": "traceability-plan-restaurants",
+        "chunk_id": "traceability-plan-restaurants-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/174058/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Traceability Plan Example for Restaurants (continued)\nProcedures to Maintain the Records\nHard copies of Invoices and Bills of Lading are scanned and stored in an electronic filing system located\non our local computer system. Digital advance shipment notices that have been received are also\nmaintained in an electronic filing system located on our local computer system. Records are maintained\nfor two years.\nProcedures to Identify FTL Foods\nAll suppliers to Sammy\u2019s Sandwich Shoppe are obligated by contract to identify FTL Foods on the records\nprovided when shipments are received (either paper copies provided at receiving or electronically sent\nahead of shipment receipt).\nAssigning Traceability Lot Codes\nWe do not assign TLCs.\nPoint of Contact\nSteve McGee, Manager, 456-789-1233\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety program, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in a\nfolder on our local computer system for at least two years after it is updated.\nwww.fda.gov 2 November 2023"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Restaurant operator",
+        "role": "covered operator",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_traceability_plan",
+        "cte_type": "traceability_plan",
+        "actor_id": "covered_entity",
+        "event_description": "Covered entity establishes and maintains a traceability plan for the FDA example business type.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+        ],
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "Traceability plan must describe TLC assignment procedures when the business performs TLC-triggering CTEs."
+      },
+      {
+        "event_id": "event_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for receiving.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already_been_assigned",
+          "product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+          "location_description_for_the_immediate_previous_source",
+          "quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+          "product_description_for_the_food",
+          "location_description_for_where_the_food_was_received",
+          "location_description_for_the_immediate_previous_source_other_than_a_transporter_for_the_food",
+          "date_you_received_the_food",
+          "location_description_for_where_the_food_was_received_i_e_traceability_lot_code_source_and_if",
+          "location_description_for_the_traceability_lot_code_source_or_applicable_traceability_lot_code_source",
+          "reference_document_type_and_reference_document_number",
+          "reference_document_type_and_reference_document_number_this_section_does_not_apply_to_receipt_of_a_fo"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      }
+    ],
+    "expected_ctes": [
+      "traceability_plan",
+      "receiving"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Entity must maintain traceability plan evidence in addition to applicable CTE/KDE records.",
+    "reviewer_notes": [
+      "Restaurant examples emphasize record maintenance procedures for incoming FTL foods."
+    ],
+    "regression_status": "regression_ready"
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:sprouter",
+    "benchmark_type": "fda_traceability_plan_example",
+    "scenario_name": "FDA traceability plan example for sprouters",
+    "scenario_source_id": "traceability-plan-sprouters",
+    "source_scenario_id": null,
+    "food_scope": "Sprouter handling fresh sprouts on the Food Traceability List",
+    "citations": [
+      {
+        "source_id": "traceability-plan-sprouters",
+        "chunk_id": "traceability-plan-sprouters-page-1-1",
+        "citation_anchor": "page-1",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/181575/download?attachment",
+        "section_ref": "page-1",
+        "page_number": 1,
+        "support_text": "Traceability Plan Example\n- Sprouter (\u00a7 1.1315)\nThe purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example includes the information that is required by the Food Traceability Rule and is one example\nof how a traceability plan can be established. There is no specific format required for the traceability plan,\nbut the information in the traceability plan must meet the requirements as described in \u00a7 1.1315 of the\nFood Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records.\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 Except for aquaculture farms, the farm map must show the location and name of each\nfield (or other growing area) in which you grow a food on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each field or\ngrowing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects\nyour current practices and to ensure that you are in compliance with the requirements of the Food\nTraceability Rule. You must retain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov September 2024"
+      },
+      {
+        "source_id": "traceability-plan-sprouters",
+        "chunk_id": "traceability-plan-sprouters-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/181575/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Traceability Plan Example for Sprouter (continued)\nProcedures to Maintain the Records\nDigital records of all required KDEs are captured and stored in an excel document on the Traceability\nManager\u2019s laptop. Records are maintained for two years.\nHard copies of Bills of Lading are provided to subsequent recipients containing all required KDEs. Some\ncompanies also receive digital advanced shipment notices containing all required KDEs.\nProcedures to Identify FTL Foods\nAll products packed at this operation are on the FTL.\nAssigning Traceability Lot Codes\nLot codes are assigned using sprout type (\u201cAL\u201d or \u201cMB\u201d), harvest date (MMDDYY) and growing location\n(\u201cRD1-12\u201d or \u201cMBB1-10\u201d). For example, a lot of alfalfa sprouts harvested on Aug. 19, 2024, from rotary\ndrum 1 would have the TLC \u201cAL081924RD1.\u201d\nPoint of Contact\nJen Clover, Traceability Manager, 123-456-7899\nFarm Map\nSee Appendix.\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in\na folder on the Traceability Manager\u2019s laptop for at least two years after it is updated folder on our local\ncomputer system for at least two years after it is updated.\nwww.fda.gov 2 September 2024"
+      },
+      {
+        "source_id": "traceability-plan-sprouters",
+        "chunk_id": "traceability-plan-sprouters-page-3-3",
+        "citation_anchor": "page-3",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/181575/download?attachment",
+        "section_ref": "page-3",
+        "page_number": 3,
+        "support_text": "Traceability Plan Example for Sprouter (continued)\nAppendix:\nGrowing Green\n123 Alfalfa lane\nMinneapolis, MN 55401\nGPS coordinates: 39.289661, -76.580203\nwww.fda.gov 3 September 2024"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Sprouter",
+        "role": "covered operator",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_traceability_plan",
+        "cte_type": "traceability_plan",
+        "actor_id": "covered_entity",
+        "event_description": "Covered entity establishes and maintains a traceability plan for the FDA example business type.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+        ],
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "Traceability plan must describe TLC assignment procedures when the business performs TLC-triggering CTEs."
+      },
+      {
+        "event_id": "event_initial_packing",
+        "cte_type": "initial_packing",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for initial packing.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+          "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+        ],
+        "expected_kde_field_keys": [
+          "commodity_and_if_applicable_variety_of_the_food_received",
+          "business_name_and_phone_number_for_the_harvester_of_the_food",
+          "date_you_received_the_food",
+          "date_of_harvesting",
+          "quantity_and_unit_of_measure_of_the_food_received",
+          "location_description_for_where_the_food_was_cooled_if_applicable",
+          "location_description_for_the_farm_where_the_food_was_harvested",
+          "date_of_cooling_if_applicable",
+          "for_produce",
+          "traceability_lot_code_you_assigned_name_of_the_field_or_other_growing_area_from_which_the_food_was_h",
+          "product_description_of_the_packed_food_must_correspond_to_the_name_used_by_the_grower_or",
+          "quantity_and_unit_of_measure_of_the_packed_food_other_information_identifying_the_harvest_location_a",
+          "location_description_for_where_you_initially_packed_the_food_i_e_traceability_lot_or_growing_area_na",
+          "for_aquacultured_food",
+          "date_of_initial_packing_name_of_the_container_e_g_pond_pool_tank_cage_from_which_the_food_was",
+          "reference_document_type_and_reference_document_number_harvested_must_correspond_to_the_container_nam",
+          "location_description_for_the_grower_of_seeds_for_sprouting_and_date_of_seed_harvesting_if_either_is",
+          "location_description_for_the_seed_conditioner_or_processor_associated_seed_lot_code_and_date_of_cond",
+          "location_description_for_the_seed_packinghouse_including_any_repackers_date_of_packing_and_repacking",
+          "location_description_for_the_seed_supplier_any_seed_lot_code_assigned_by_the_seed_supplier_including",
+          "description_of_the_seeds_including_seed_type_or_taxonomic_name_growing_specifications_type_of_packag",
+          "date_of_receipt_of_the_seeds_by_the_sprouter",
+          "reference_document_type_and_reference_document_number"
+        ],
+        "expected_tlc_behavior": "This CTE must assign the traceability lot code and link KDEs to the assigned lot."
+      },
+      {
+        "event_id": "event_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for shipping.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "product_description_for_the_food",
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "location_description_for_the_location_from_which_you_shipped_the_food",
+          "date_you_shipped_the_food",
+          "location_description_for_the_traceability_lot_code_source_or_the_traceability_lot_code_source_refere",
+          "reference_document_type_and_reference_document_number_maintain_only_this_section_does_not_apply_to_t"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      }
+    ],
+    "expected_ctes": [
+      "traceability_plan",
+      "initial_packing",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+    ],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Entity must maintain traceability plan evidence in addition to applicable CTE/KDE records.",
+    "reviewer_notes": [
+      "Sprouter examples must preserve seed source and sprout initial-packing expectations."
+    ],
+    "regression_status": "regression_ready"
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:food_processor",
+    "benchmark_type": "fda_traceability_plan_example",
+    "scenario_name": "FDA traceability plan example for food processors",
+    "scenario_source_id": "traceability-plan-food-processors",
+    "source_scenario_id": null,
+    "food_scope": "Food processor handling Food Traceability List ingredients or finished foods",
+    "citations": [
+      {
+        "source_id": "traceability-plan-food-processors",
+        "chunk_id": "traceability-plan-food-processors-page-1-1",
+        "citation_anchor": "page-1",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/188100/download?attachment",
+        "section_ref": "page-1",
+        "page_number": 1,
+        "support_text": "Traceability Plan Example for\nFood Processor (\u00a7 1.1315)\nThe purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example includes the information that is required by the Food Traceability Rule and is one example\nof how a traceability plan can be established. There is no specific format required for the traceability plan,\nbut the information in the traceability plan must meet the requirements as described in \u00a7 1.1315 of the\nFood Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records.\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 Except for aquaculture farms, the farm map must show the location and name of each field (or\nother growing area) in which you grow a food on the Food Traceability List, including geographic\ncoordinates and any other information needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects\nyour current practices and to ensure that you are in compliance with the requirements of the Food\nTraceability Rule. You must retain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov March 2025"
+      },
+      {
+        "source_id": "traceability-plan-food-processors",
+        "chunk_id": "traceability-plan-food-processors-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/188100/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Traceability Plan Example for Food Processor (continued)\nProcedures to Maintain the Records\nHypothetical Solution is the software solution we utilize to send and receive EDI messages containing\nshipping and receiving KDEs with our supply chain partners. We receive Advanced Shipping Notices\n(ASNs) from our suppliers (via Hypothetical Solution) for each shipment with FTL foods. These ASNs\ncontain our required receiving KDEs, except for receipt date, which is automatically recorded by the\nsystem when the incoming shipment is marked as received at the loading dock. We also use Hypothetical\nSolution to send ASNs to our customers for FTL foods that we ship. These ASNs contain the required\nshipping KDEs, which the system maintains as well as sends. Hypothetical Solution stores all transactions\nfor more than 2 years in accordance with other company recordkeeping policies. Hypothetical Solution is\na 3rd-party, cloud-based software solution that stores, receives, and sends EDI transactions digitally.\nWhen we receive an ASN of an inbound shipment, the anticipated shipment is created in Pretend Tool,\nour central software tool for ordering and production. Receiving inbound shipments, work orders for\nproducing foods, and picking outbound shipments are all recorded in Pretend Tool as digital records.\nThese records also contain all of the required Transformation KDEs. The software is installed in servers\nthat are located on site at RS Foods. Records are kept for more than 2 years in accordance with company\nrecordkeeping policies.\nProcedures to Identify FTL Foods\nEvery food that RS Foods receives, produces, and ships is given a SKU in Pretend Tool. Without a SKU\nnumber, an inventory transaction cannot be recorded for a food in Pretend Tool. Each SKU has attributes\ndescribing which food it represents inside Pretend Tool. One of these attributes is a checkbox/flag that\nsays whether the food represented by the SKU is on the FTL or not. Foods that are on the FTL or that\ncontain FTL ingredients (in the same form in which they appear on the FTL, e.g., \u201cfresh\u201d) are flagged with\nthis checkbox. When a new product is added to our inventory, we associate it with a SKU in Pretend\nTool and evaluate whether to flag it as on the FTL. We review the total list of SKUs in Pretend Tool on a\nquarterly basis.\nAssigning Traceability Lot Codes\nTraceability lot codes are assigned for foods we produce using a combination of the production date, two-\ndigit facility number, and SKU: MM/DD/YYYY/facility number/SKU. For example, 03152026056AA13426\nwould be a production run of SKU AA13426 on March 15, 2026 in facility 56. Facility 56 is the number\ngiven to the Minneapolis location of RS Foods.\nIf an FTL food is received without a lot number (e.g., from an exempt supplier), we assign a\nTLC using a combination of the receive date, the Bill of Lading number and SKU. For example:\n0315202651378230B61342 is a product with a SKU of BB61342 received on March 15, 2026 with BOL\n#51378230.\nPoint of Contact\nJackie Taylor, QA manager, 222-453-8877\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in a\nfolder in the Pretend Tool for at least two years after it is updated.\nwww.fda.gov 2 March 2025"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Food processor",
+        "role": "covered operator",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_traceability_plan",
+        "cte_type": "traceability_plan",
+        "actor_id": "covered_entity",
+        "event_description": "Covered entity establishes and maintains a traceability plan for the FDA example business type.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+        ],
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "Traceability plan must describe TLC assignment procedures when the business performs TLC-triggering CTEs."
+      },
+      {
+        "event_id": "event_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for receiving.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already_been_assigned",
+          "product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+          "location_description_for_the_immediate_previous_source",
+          "quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+          "product_description_for_the_food",
+          "location_description_for_where_the_food_was_received",
+          "location_description_for_the_immediate_previous_source_other_than_a_transporter_for_the_food",
+          "date_you_received_the_food",
+          "location_description_for_where_the_food_was_received_i_e_traceability_lot_code_source_and_if",
+          "location_description_for_the_traceability_lot_code_source_or_applicable_traceability_lot_code_source",
+          "reference_document_type_and_reference_document_number",
+          "reference_document_type_and_reference_document_number_this_section_does_not_apply_to_receipt_of_a_fo"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      },
+      {
+        "event_id": "event_transformation",
+        "cte_type": "transformation",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for transformation.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+          "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+        ],
+        "expected_kde_field_keys": [
+          "new_traceability_lot_code_for_the_food",
+          "traceability_lot_code_for_the_food",
+          "location_description_for_where_you_transformed_the_food_i_e_the_traceability_lot_code_source_and_if",
+          "product_description_for_the_food_to_the_traceability_lot_code_source_reference_which_the_traceabilit",
+          "date_transformation_was_completed",
+          "for_each_traceability_lot_used_the",
+          "product_description_for_the_food_quantity_and_unit_of_measure_of_the",
+          "quantity_and_unit_of_measure_of_the_food_food_used_from_that_lot",
+          "reference_document_type_and_reference_document_number_for_racs_other_than_a_food_obtained_from_a_fis"
+        ],
+        "expected_tlc_behavior": "Transformation must assign a new traceability lot code for output food and preserve input lot lineage."
+      },
+      {
+        "event_id": "event_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for shipping.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "product_description_for_the_food",
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "location_description_for_the_location_from_which_you_shipped_the_food",
+          "date_you_shipped_the_food",
+          "location_description_for_the_traceability_lot_code_source_or_the_traceability_lot_code_source_refere",
+          "reference_document_type_and_reference_document_number_maintain_only_this_section_does_not_apply_to_t"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      }
+    ],
+    "expected_ctes": [
+      "traceability_plan",
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+    ],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Entity must maintain traceability plan evidence in addition to applicable CTE/KDE records.",
+    "reviewer_notes": [
+      "Processor examples must cover transformation and outbound traceability records."
+    ],
+    "regression_status": "regression_ready"
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:distribution_center",
+    "benchmark_type": "fda_traceability_plan_example",
+    "scenario_name": "FDA traceability plan example for distribution centers",
+    "scenario_source_id": "traceability-plan-distribution-centers",
+    "source_scenario_id": null,
+    "food_scope": "Distribution center receiving and shipping Food Traceability List foods",
+    "citations": [
+      {
+        "source_id": "traceability-plan-distribution-centers",
+        "chunk_id": "traceability-plan-distribution-centers-page-1-1",
+        "citation_anchor": "page-1",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/188101/download?attachment",
+        "section_ref": "page-1",
+        "page_number": 1,
+        "support_text": "Traceability Plan Example for\nDistribution Center (\u00a7 1.1315)\nThe purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example includes the information that is required by the Food Traceability Rule and is one example\nof how a traceability plan can be established. There is no specific format required for the traceability plan,\nbut the information in the traceability plan must meet the requirements as described in \u00a7 1.1315 of the\nFood Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records.\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 Except for aquaculture farms, the farm map must show the location and name of each field (or\nother growing area) in which you grow a food on the Food Traceability List, including geographic\ncoordinates and any other information needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects\nyour current practices and to ensure that you are in compliance with the requirements of the Food\nTraceability Rule. You must retain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov March 2025"
+      },
+      {
+        "source_id": "traceability-plan-distribution-centers",
+        "chunk_id": "traceability-plan-distribution-centers-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/188101/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Traceability Plan Example for Distribution Center (continued)\nProcedures to Maintain the Records\nWhen shipments are inbound to Dee-Cee Distribution Center, shippers are required to transmit an ASN to\nthe Dee-Cee EDI gateway or email the College Park logistics department email address with the inbound\nshipment details. When an inbound shipment includes foods on the FTL, this transmission or email needs\nto include the Shipping KDEs that the supplier is required to send, including the Traceability Lot Code of\nthe foods.\nPending arrivals are created in Dee-Cee\u2019s Warehouse Management System (WMS) with the details of the\nexpected shipment. Then, when the truck is unloaded at College Park, the unloading staff can record a\nWarehouse Receipt transaction in the WMS which records the KDEs required for a Receiving CTE. The\nWarehouse Receipt transaction can update which products, quantities, and Traceability Lot Codes are\nrecorded in the WMS if what is actually unloaded differs from the ASN.\nWhen outbound shipments are assembled by pickers, the products and their associated TLCs are\nrecorded in a Warehouse Pick transaction in the WMS. After the doors are closed on the truck, the loading\nstaff confirms the Warehouse Pick transaction which either triggers an ASN in the Dee-Cee EDI gateway (if\nthe recipient is setup with EDI) or notification to the logistics department to email the shipping KDEs to the\nrecipient.\nThe Dee-Cee EDI gateway and WMS are cloud-hosted software solutions that store records digitally such\nthat the records are accessible by personnel at the College Park distribution center. When the logistics\ndepartment receives documents via email for inbound shipments, the documents are saved as PDFs in\nthe Dee-Cee document management system (DMS), where they are associated with the WMS Warehouse\nReceipt transaction #. If documents (e.g., Bills of Lading) are hand-delivered by a driver, the unloading\nstaff will pass them along to the logistics department to scan the documents and store in the DMS. The\nDMS is also a cloud-hosted service that stores the files digitally in a way that is accessible by personnel at\nthe College Park location.\nProcedures to Identify FTL Foods\nMany products packed at this operation are on the FTL. Because suppliers and current inventory needs\nchange often, our Traceability Manager reviews all new products and compares them to the FDA\u2019s Food\nTraceability List before they are added to our Product Lists. When FTL foods are identified (including foods\nthat contain FTL ingredients), they are flagged in our warehouse management system as FTL foods.\nAssigning Traceability Lot Codes\nMost FTL products received already have assigned Traceability Lot Codes. The only situation in which our\nfirm assigns TLCs is when we receive FTL foods from exempt entities. In that situation, we assign a TLC\nthat consists of the supplier\u2019s name/number in our WMS, the purchase order number, SKU, and the date\nof receipt of the food.\nPoint of Contact\nMarie Clover, Inventory Control Specialist, 123-456-7899\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is maintained\nin our Document Management System at least two years after it is updated.\nwww.fda.gov 2 March 2025"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Distribution center",
+        "role": "covered operator",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_traceability_plan",
+        "cte_type": "traceability_plan",
+        "actor_id": "covered_entity",
+        "event_description": "Covered entity establishes and maintains a traceability plan for the FDA example business type.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+        ],
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "Traceability plan must describe TLC assignment procedures when the business performs TLC-triggering CTEs."
+      },
+      {
+        "event_id": "event_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for receiving.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already_been_assigned",
+          "product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+          "location_description_for_the_immediate_previous_source",
+          "quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+          "product_description_for_the_food",
+          "location_description_for_where_the_food_was_received",
+          "location_description_for_the_immediate_previous_source_other_than_a_transporter_for_the_food",
+          "date_you_received_the_food",
+          "location_description_for_where_the_food_was_received_i_e_traceability_lot_code_source_and_if",
+          "location_description_for_the_traceability_lot_code_source_or_applicable_traceability_lot_code_source",
+          "reference_document_type_and_reference_document_number",
+          "reference_document_type_and_reference_document_number_this_section_does_not_apply_to_receipt_of_a_fo"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      },
+      {
+        "event_id": "event_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for shipping.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "product_description_for_the_food",
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "location_description_for_the_location_from_which_you_shipped_the_food",
+          "date_you_shipped_the_food",
+          "location_description_for_the_traceability_lot_code_source_or_the_traceability_lot_code_source_refere",
+          "reference_document_type_and_reference_document_number_maintain_only_this_section_does_not_apply_to_t"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      }
+    ],
+    "expected_ctes": [
+      "traceability_plan",
+      "receiving",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Entity must maintain traceability plan evidence in addition to applicable CTE/KDE records.",
+    "reviewer_notes": [
+      "Distribution center examples must cover inbound and outbound record procedures."
+    ],
+    "regression_status": "regression_ready"
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:seafood_processing",
+    "benchmark_type": "fda_traceability_plan_example",
+    "scenario_name": "FDA traceability plan example for seafood processing facilities",
+    "scenario_source_id": "traceability-plan-seafood-processing",
+    "source_scenario_id": null,
+    "food_scope": "Seafood processor handling finfish or other Food Traceability List seafood",
+    "citations": [
+      {
+        "source_id": "traceability-plan-seafood-processing",
+        "chunk_id": "traceability-plan-seafood-processing-page-1-1",
+        "citation_anchor": "page-1",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/188102/download?attachment",
+        "section_ref": "page-1",
+        "page_number": 1,
+        "support_text": "Traceability Plan Example for\nSeafood Processing Facility (\u00a7 1.1315)\nThe purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example includes the information that is required by the Food Traceability Rule and is one example\nof how a traceability plan can be established. There is no specific format required for the traceability plan,\nbut the information in the traceability plan must meet the requirements as described in \u00a7 1.1315 of the\nFood Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records.\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 Except for aquaculture farms, the farm map must show the location and name of each field (or\nother growing area) in which you grow a food on the Food Traceability List, including geographic\ncoordinates and any other information needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects\nyour current practices and to ensure that you are in compliance with the requirements of the Food\nTraceability Rule. You must retain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov March 2025"
+      },
+      {
+        "source_id": "traceability-plan-seafood-processing",
+        "chunk_id": "traceability-plan-seafood-processing-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/188102/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Traceability Plan Example for Seafood Processing Facility (continued)\nProcedures to Maintain the Records\nDigital records of all required KDEs are captured and stored in our electronic inventory control system.\nRecords are maintained for two years.\nElectronic copies of Bills of Lading are provided to subsequent recipients containing all required KDEs.\nProcedures to Identify FTL Foods\nAll products we carry are on the FTL.\nAssigning Traceability Lot Codes\nTraceability lot codes are assigned using a combination of the manufacturing facility, production date, the\nproduction line/shift and the type of product. See lot code decoder below.\nPoint of Contact\nAarush Das, Supply Chain Manager, 222-754-8989\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in a\nfolder on the Traceability Manager\u2019s laptop for at least two years after it is updated.\nwww.fda.gov 2 March 2025"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Seafood processor",
+        "role": "covered operator",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_traceability_plan",
+        "cte_type": "traceability_plan",
+        "actor_id": "covered_entity",
+        "event_description": "Covered entity establishes and maintains a traceability plan for the FDA example business type.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+        ],
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "Traceability plan must describe TLC assignment procedures when the business performs TLC-triggering CTEs."
+      },
+      {
+        "event_id": "event_receiving",
+        "cte_type": "receiving",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for receiving.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1345-RECEIVING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "traceability_lot_code_for_the_food_which_you_must_assign_if_one_has_not_already_been_assigned",
+          "product_description_for_the_food_does_not_apply_to_rfes_or_restaurants",
+          "location_description_for_the_immediate_previous_source",
+          "quantity_and_unit_of_measure_of_the_food_other_than_a_transporter_for_the_food",
+          "product_description_for_the_food",
+          "location_description_for_where_the_food_was_received",
+          "location_description_for_the_immediate_previous_source_other_than_a_transporter_for_the_food",
+          "date_you_received_the_food",
+          "location_description_for_where_the_food_was_received_i_e_traceability_lot_code_source_and_if",
+          "location_description_for_the_traceability_lot_code_source_or_applicable_traceability_lot_code_source",
+          "reference_document_type_and_reference_document_number",
+          "reference_document_type_and_reference_document_number_this_section_does_not_apply_to_receipt_of_a_fo"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      },
+      {
+        "event_id": "event_transformation",
+        "cte_type": "transformation",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for transformation.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+          "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+        ],
+        "expected_kde_field_keys": [
+          "new_traceability_lot_code_for_the_food",
+          "traceability_lot_code_for_the_food",
+          "location_description_for_where_you_transformed_the_food_i_e_the_traceability_lot_code_source_and_if",
+          "product_description_for_the_food_to_the_traceability_lot_code_source_reference_which_the_traceabilit",
+          "date_transformation_was_completed",
+          "for_each_traceability_lot_used_the",
+          "product_description_for_the_food_quantity_and_unit_of_measure_of_the",
+          "quantity_and_unit_of_measure_of_the_food_food_used_from_that_lot",
+          "reference_document_type_and_reference_document_number_for_racs_other_than_a_food_obtained_from_a_fis"
+        ],
+        "expected_tlc_behavior": "Transformation must assign a new traceability lot code for output food and preserve input lot lineage."
+      },
+      {
+        "event_id": "event_shipping",
+        "cte_type": "shipping",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for shipping.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "traceability_lot_code_for_the_food",
+          "quantity_and_unit_of_measure_of_the_food",
+          "product_description_for_the_food",
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "location_description_for_the_location_from_which_you_shipped_the_food",
+          "date_you_shipped_the_food",
+          "location_description_for_the_traceability_lot_code_source_or_the_traceability_lot_code_source_refere",
+          "reference_document_type_and_reference_document_number_maintain_only_this_section_does_not_apply_to_t"
+        ],
+        "expected_tlc_behavior": "This CTE must preserve the traceability lot code and link pass-forward records to the lot."
+      }
+    ],
+    "expected_ctes": [
+      "traceability_plan",
+      "receiving",
+      "transformation",
+      "shipping"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1345-RECEIVING-KDES",
+      "FSMA204-OBL-DET-1350-TRANSFORMATION-KDES",
+      "FSMA204-OBL-DET-1340-SHIPPING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+    ],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Entity must maintain traceability plan evidence in addition to applicable CTE/KDE records.",
+    "reviewer_notes": [
+      "Seafood processing examples must preserve fresh seafood source and transformation expectations."
+    ],
+    "regression_status": "regression_ready"
+  },
+  {
+    "benchmark_id": "phase8:traceability_plan:aquaculture",
+    "benchmark_type": "fda_traceability_plan_example",
+    "scenario_name": "FDA traceability plan example for aquaculture farms",
+    "scenario_source_id": "traceability-plan-aquaculture",
+    "source_scenario_id": null,
+    "food_scope": "Aquaculture farm handling Food Traceability List seafood",
+    "citations": [
+      {
+        "source_id": "traceability-plan-aquaculture",
+        "chunk_id": "traceability-plan-aquaculture-page-1-1",
+        "citation_anchor": "page-1",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/188103/download?attachment",
+        "section_ref": "page-1",
+        "page_number": 1,
+        "support_text": "Traceability Plan Example for\nAquaculture Farm (\u00a7 1.1315)\nThe purpose of this document is to help businesses establish a traceability plan as required in \u00a7 1.1315 of\nthe Food Traceability Rule.\nThis example includes the information that is required by the Food Traceability Rule and is one example\nof how a traceability plan can be established. There is no specific format required for the traceability plan,\nbut the information in the traceability plan must meet the requirements as described in \u00a7 1.1315 of the\nFood Traceability Rule and reflect the current practices specific to the covered entity.\nRequirements under \u00a7 1.1315 of the Food Traceability Rule:\nIf you are subject to the requirements of the rule, you must establish and maintain a traceability plan\ncontaining the following information:\n1. A description of the procedures you use to maintain the records you are required to keep under this\nrule, including the format and location of these records.\n2. A description of the procedures you use to identify foods on the Food Traceability List that you\nmanufacture, process, pack, or hold;\n3. A description of how you assign traceability lot codes to foods on the Food Traceability List, if\napplicable;\n4. A statement identifying a point of contact for questions regarding your traceability plan and records;\nand\n5. If you grow or raise a food on the Food Traceability List (other than eggs), a farm map showing the\nareas in which you grow or raise such foods.\n\u2022 Except for aquaculture farms, the farm map must show the location and name of each field (or\nother growing area) in which you grow a food on the Food Traceability List, including geographic\ncoordinates and any other information needed to identify the location of each field or growing area.\n\u2022 For aquaculture farms, the farm map instead must show the location and name of each container\n(e.g., pond, pool, tank, cage) in which you raise seafood on the Food Traceability List, including\ngeographic coordinates and any other information needed to identify the location of each\ncontainer.\n6. You must update your traceability plan as needed to ensure that the information provided reflects\nyour current practices and to ensure that you are in compliance with the requirements of the Food\nTraceability Rule. You must retain your previous traceability plan for 2 years after you update the plan.\nwww.fda.gov March 2025"
+      },
+      {
+        "source_id": "traceability-plan-aquaculture",
+        "chunk_id": "traceability-plan-aquaculture-page-2-2",
+        "citation_anchor": "page-2",
+        "authority_rank": "scenario",
+        "source_url": "https://www.fda.gov/media/188103/download?attachment",
+        "section_ref": "page-2",
+        "page_number": 2,
+        "support_text": "Traceability Plan Example for Aquaculture Farm (continued)\nProcedures to Maintain the Records\nPaper records containing all required KDEs are maintained in file folders in the main office located at 1608\nAquapond Road, Leland, MS 38756. Records are maintained for two years.\nHard copies of invoices for when fish are sent for processing are provided to subsequent recipients and\ncontain all required KDEs.\nProcedures to Identify FTL Foods\nAll products on this farm are on the FTL.\nAssigning Traceability Lot Codes\nWe are not required to assign traceability lot codes to the fish for the purposes of the Food Traceability\nRule.\nPoint of Contact\nTina Jones, Farm Manager, 222-754-8989\nFarm Map\nSee Appendix.\nTraceability Plan Updates\nThis plan is reviewed annually as part of our management review of our food safety system, as well as\nwhenever something changes in our traceability procedures. Each previous traceability plan is kept in a\nfolder on the Traceability Manager\u2019s laptop for at least two years after it is updated.\nAppendix:\nSwimmy\u2019s FishFarm\n1608 Aquapond Road\nLeland, MS 38756\nGPS coordinates: 33.343806, -91.149742\nwww.fda.gov 2 March 2025"
+      }
+    ],
+    "actors": [
+      {
+        "actor_id": "covered_entity",
+        "actor_name": "Aquaculture farm",
+        "role": "covered operator",
+        "location_description": null
+      }
+    ],
+    "events": [
+      {
+        "event_id": "event_traceability_plan",
+        "cte_type": "traceability_plan",
+        "actor_id": "covered_entity",
+        "event_description": "Covered entity establishes and maintains a traceability plan for the FDA example business type.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+        ],
+        "expected_kde_field_keys": [],
+        "expected_tlc_behavior": "Traceability plan must describe TLC assignment procedures when the business performs TLC-triggering CTEs."
+      },
+      {
+        "event_id": "event_harvesting",
+        "cte_type": "harvesting",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for harvesting.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES"
+        ],
+        "expected_kde_field_keys": [
+          "location_description_for_the_immediate_subsequent_recipient_other_than_a_transporter_of_the_food",
+          "business_name",
+          "commodity_and_if_applicable_variety_of_the_food",
+          "phone_number",
+          "quantity_and_unit_of_measure_of_the_food",
+          "harvesting_kdes_except_the_reference",
+          "location_description_for_the_farm_where_the_food_was_harvested_document_type_and_reference_document",
+          "for_produce_name_of_the_field_or_other_growing_area_from_which_the_food_was_harvested_must_correspon",
+          "for_aquacultured_food_name_of_the_container_e_g_pond_pool_tank_cage_from_which_the_food_was_harveste",
+          "date_of_harvesting",
+          "reference_document_type_and_reference_document_number"
+        ],
+        "expected_tlc_behavior": "Harvesting or cooling KDEs must remain available for linkage to the initial packed traceability lot."
+      },
+      {
+        "event_id": "event_initial_packing",
+        "cte_type": "initial_packing",
+        "actor_id": "covered_entity",
+        "event_description": "Traceability plan example must support operational records for initial packing.",
+        "expected_obligation_ids": [
+          "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+          "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+        ],
+        "expected_kde_field_keys": [
+          "commodity_and_if_applicable_variety_of_the_food_received",
+          "business_name_and_phone_number_for_the_harvester_of_the_food",
+          "date_you_received_the_food",
+          "date_of_harvesting",
+          "quantity_and_unit_of_measure_of_the_food_received",
+          "location_description_for_where_the_food_was_cooled_if_applicable",
+          "location_description_for_the_farm_where_the_food_was_harvested",
+          "date_of_cooling_if_applicable",
+          "for_produce",
+          "traceability_lot_code_you_assigned_name_of_the_field_or_other_growing_area_from_which_the_food_was_h",
+          "product_description_of_the_packed_food_must_correspond_to_the_name_used_by_the_grower_or",
+          "quantity_and_unit_of_measure_of_the_packed_food_other_information_identifying_the_harvest_location_a",
+          "location_description_for_where_you_initially_packed_the_food_i_e_traceability_lot_or_growing_area_na",
+          "for_aquacultured_food",
+          "date_of_initial_packing_name_of_the_container_e_g_pond_pool_tank_cage_from_which_the_food_was",
+          "reference_document_type_and_reference_document_number_harvested_must_correspond_to_the_container_nam",
+          "location_description_for_the_grower_of_seeds_for_sprouting_and_date_of_seed_harvesting_if_either_is",
+          "location_description_for_the_seed_conditioner_or_processor_associated_seed_lot_code_and_date_of_cond",
+          "location_description_for_the_seed_packinghouse_including_any_repackers_date_of_packing_and_repacking",
+          "location_description_for_the_seed_supplier_any_seed_lot_code_assigned_by_the_seed_supplier_including",
+          "description_of_the_seeds_including_seed_type_or_taxonomic_name_growing_specifications_type_of_packag",
+          "date_of_receipt_of_the_seeds_by_the_sprouter",
+          "reference_document_type_and_reference_document_number"
+        ],
+        "expected_tlc_behavior": "This CTE must assign the traceability lot code and link KDEs to the assigned lot."
+      }
+    ],
+    "expected_ctes": [
+      "traceability_plan",
+      "harvesting",
+      "initial_packing"
+    ],
+    "expected_obligation_ids": [
+      "FSMA204-OBL-DET-1300-SCOPE",
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN",
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES",
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT",
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST",
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_kde_obligation_ids": [
+      "FSMA204-OBL-DET-1325-HARVEST-COOLING-KDES",
+      "FSMA204-OBL-DET-1330-INITIAL-PACKING-KDES"
+    ],
+    "expected_tlc_obligation_ids": [
+      "FSMA204-OBL-DET-1320-TLC-ASSIGNMENT"
+    ],
+    "expected_traceability_plan_obligation_ids": [
+      "FSMA204-OBL-DET-1315-TRACEABILITY-PLAN"
+    ],
+    "expected_records_obligation_ids": [
+      "FSMA204-OBL-DET-1455-RECORDS-MAINTENANCE",
+      "FSMA204-OBL-DET-1455-FDA-REQUEST"
+    ],
+    "expected_sortable_export_obligation_ids": [
+      "FSMA204-OBL-DET-1455-SORTABLE-SPREADSHEET"
+    ],
+    "expected_food_scope_behavior": "Entity must maintain traceability plan evidence in addition to applicable CTE/KDE records.",
+    "reviewer_notes": [
+      "Aquaculture examples must cover container or harvest-location traceability evidence."
+    ],
+    "regression_status": "regression_ready"
+  }
+]
