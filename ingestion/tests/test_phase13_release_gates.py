@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from traceready_ingestion.intelligence.phase13_release_gates import (
+from traceready_backend.intelligence.phase13_release_gates import (
     build_phase13_release_gates,
     build_two_stage_classifier_package,
     load_approved_subparagraph_targets,

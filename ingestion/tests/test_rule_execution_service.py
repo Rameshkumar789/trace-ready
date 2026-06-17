@@ -3,11 +3,11 @@ from tempfile import TemporaryDirectory
 import json
 import unittest
 
-from traceready_ingestion.backend.jobs.rule_execution import execute_rule_execution_job
-from traceready_ingestion.backend.repositories.supabase_tables import stable_row_id
-from traceready_ingestion.backend.schemas.rule_execution import RuleExecutionJobPayload
-from traceready_ingestion.backend.services.rule_execution_service import run_rule_execution_job
-from traceready_ingestion.storage.artifacts import LocalObjectStore, audit_upload_key
+from traceready_backend.backend.jobs.rule_execution import execute_rule_execution_job
+from traceready_backend.backend.repositories.supabase_tables import stable_row_id
+from traceready_backend.backend.schemas.rule_execution import RuleExecutionJobPayload
+from traceready_backend.backend.services.rule_execution_service import run_rule_execution_job
+from traceready_backend.storage.artifacts import LocalObjectStore, audit_upload_key
 
 
 SAMPLE_CSV = (

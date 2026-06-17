@@ -1,6 +1,6 @@
 # Ingestion Scripts
 
-The production Python package lives under `traceready_ingestion/`.
+The production Python package lives under `traceready_backend/`.
 
 These folders contain reproducibility and evaluation entrypoints:
 

@@ -3,8 +3,8 @@ from __future__ import annotations
 import unittest
 from pathlib import Path
 
-from traceready_ingestion.intelligence.citations import build_citation_coverage_report, load_chunk_index
-from traceready_ingestion.intelligence.phase08_scenario_regression import (
+from traceready_backend.intelligence.citations import build_citation_coverage_report, load_chunk_index
+from traceready_backend.intelligence.phase08_scenario_regression import (
     FDA_REQUEST_OBLIGATION_ID,
     SORTABLE_EXPORT_OBLIGATION_ID,
     TLC_ASSIGNMENT_OBLIGATION_ID,

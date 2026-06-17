@@ -50,7 +50,7 @@ Future hardening / not MVP blockers:
 - Generalized structured PDF table extraction into normalized tables. Current extraction is sufficient for the controlled FSMA source package and citation chunking; add this when onboarding broader table-heavy regulatory sources.
 - Generalized typed XLSX schema extraction. Current code handles FDA sortable workbook extraction and customer evidence workbook parsing; add a reusable typed-table extraction layer when more workbook templates need first-class schemas.
 - Regulatory change monitor. Needed for post-MVP governance so FDA/eCFR/source changes automatically create review tasks; not required for the first approved-package pilot if sources are manually refreshed and integrity-checked.
-- Always-on long-running worker. Not needed for Vercel MVP because processing intentionally runs through bounded HTTP job slices and cron. Revisit only if workload volume requires a separate queue worker outside Vercel.
+- Always-on long-running worker. Not needed for Vercel MVP because processing intentionally runs through bounded HTTP job slices triggered on demand (e.g. by the app on upload). Revisit only if workload volume requires a separate queue worker outside Vercel.
 
 ## Project Layout
 
@@ -79,7 +79,7 @@ traceready/ingestion/
     test_legal_chunker.py
     test_rule_card_drafter.py
     test_source_ingestion.py
-  traceready_ingestion/
+  traceready_backend/
     cli.py
     fetchers/
       ecfr_fetcher.py
@@ -133,7 +133,7 @@ traceready/ingestion/
 The deployable backend entrypoint is:
 
 ```text
-traceready_ingestion.api.main:app
+traceready_backend.api.main:app
 ```
 
 The Vercel-compatible shim is:
@@ -185,7 +185,7 @@ x-traceready-internal-token: <token>
 Production object storage is Supabase Storage. The Python code uses the `ObjectStore` boundary in:
 
 ```text
-traceready_ingestion.storage.artifacts
+traceready_backend.storage.artifacts
 ```
 
 Runtime should use:
@@ -273,7 +273,7 @@ SUPABASE_DATABASE_URL=postgresql://postgres.<project-ref>:<password>@<host>:<por
 ### 3. Run The FastAPI App Locally
 
 ```bash
-.venv/bin/python -m uvicorn traceready_ingestion.api.main:app --reload --host 127.0.0.1 --port 8000
+.venv/bin/python -m uvicorn traceready_backend.api.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 Use the venv Python explicitly. On some machines, plain `uvicorn` resolves to a global Python install and cannot see the ingestion dependencies installed in `.venv`, including the Supabase storage client.
@@ -571,7 +571,7 @@ The Vercel entrypoint is:
 api/index.py
 ```
 
-The cron in `vercel.json` calls:
+Audit jobs are processed by calling (e.g. from the app on upload):
 
 ```text
 POST /internal/jobs/audit/process-slice
@@ -810,7 +810,7 @@ The model should produce structured drafts only. It should not decide whether a 
 Production writes now use Supabase table repositories under:
 
 ```text
-traceready_ingestion.backend.repositories
+traceready_backend.backend.repositories
 ```
 
 The old `storage/db.py` in-memory store remains local/test-only compatibility and should not be used as production state.

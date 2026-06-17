@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from traceready_ingestion.intelligence.phase06_review_workflow import build_phase6_review_package
+from traceready_backend.intelligence.phase06_review_workflow import build_phase6_review_package
 
 
 ROOT = Path(__file__).resolve().parents[2]

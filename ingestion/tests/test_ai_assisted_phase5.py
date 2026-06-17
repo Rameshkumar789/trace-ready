@@ -2,12 +2,12 @@ import json
 import unittest
 from pathlib import Path
 
-from traceready_ingestion.intelligence.phase05_ai_assisted_extraction import (
+from traceready_backend.intelligence.phase05_ai_assisted_extraction import (
     build_phase5_prompt_specs,
     render_prompt,
     validate_ai_records,
 )
-from traceready_ingestion.intelligence.citations import load_chunk_index
+from traceready_backend.intelligence.citations import load_chunk_index
 
 
 ROOT = Path(__file__).resolve().parents[2]

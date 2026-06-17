@@ -4,8 +4,8 @@ import unittest
 from contextlib import contextmanager
 from unittest.mock import patch
 
-from traceready_ingestion.api.config import RuntimeEnvironment, ServiceSettings, load_settings
-from traceready_ingestion.api.main import create_app
+from traceready_backend.api.config import RuntimeEnvironment, ServiceSettings, load_settings
+from traceready_backend.api.main import create_app
 
 
 def call_asgi(app, path, headers=None, method="GET", json_body=None):
@@ -121,8 +121,8 @@ class ApiSkeletonTest(unittest.TestCase):
         )
         fake_jobs = FakeAuditJobs()
 
-        with patch("traceready_ingestion.api.main.supabase_connection", fake_supabase_connection), patch(
-            "traceready_ingestion.api.main.AuditJobRepository", return_value=fake_jobs
+        with patch("traceready_backend.api.main.supabase_connection", fake_supabase_connection), patch(
+            "traceready_backend.api.main.AuditJobRepository", return_value=fake_jobs
         ):
             status, _headers, body = call_asgi(
                 app,
@@ -143,8 +143,8 @@ class ApiSkeletonTest(unittest.TestCase):
         )
         fake_regulatory = FakeRegulatory()
 
-        with patch("traceready_ingestion.api.main.supabase_connection", fake_supabase_connection), patch(
-            "traceready_ingestion.api.main.RegulatoryRepository", return_value=fake_regulatory
+        with patch("traceready_backend.api.main.supabase_connection", fake_supabase_connection), patch(
+            "traceready_backend.api.main.RegulatoryRepository", return_value=fake_regulatory
         ):
             status, _headers, body = call_asgi(
                 app,
@@ -167,10 +167,10 @@ class ApiSkeletonTest(unittest.TestCase):
             ServiceSettings(environment=RuntimeEnvironment.TEST, internal_api_token="secret")
         )
 
-        with patch("traceready_ingestion.api.main.supabase_connection", fake_supabase_connection), patch(
-            "traceready_ingestion.api.main.build_object_store", return_value=object()
+        with patch("traceready_backend.api.main.supabase_connection", fake_supabase_connection), patch(
+            "traceready_backend.api.main.build_object_store", return_value=object()
         ), patch(
-            "traceready_ingestion.api.main.run_audit_job_slice",
+            "traceready_backend.api.main.run_audit_job_slice",
             return_value={"status": "ok", "processedCount": 1, "processed": [{"jobId": "job_1"}], "continue": False},
         ) as processor:
             status, _headers, body = call_asgi(
@@ -191,12 +191,12 @@ class ApiSkeletonTest(unittest.TestCase):
             ServiceSettings(environment=RuntimeEnvironment.TEST, internal_api_token="secret")
         )
 
-        with patch("traceready_ingestion.api.main.supabase_connection", fake_supabase_connection), patch(
-            "traceready_ingestion.api.main.build_object_store", return_value=object()
+        with patch("traceready_backend.api.main.supabase_connection", fake_supabase_connection), patch(
+            "traceready_backend.api.main.build_object_store", return_value=object()
         ), patch(
-            "traceready_ingestion.api.main.RegulatoryRepository", return_value=object()
+            "traceready_backend.api.main.RegulatoryRepository", return_value=object()
         ), patch(
-            "traceready_ingestion.api.main.check_source_artifact_integrity",
+            "traceready_backend.api.main.check_source_artifact_integrity",
             return_value=FakeIntegrityReport(),
         ) as checker:
             status, _headers, body = call_asgi(

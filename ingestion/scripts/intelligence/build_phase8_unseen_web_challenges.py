@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_ingestion.intelligence.phase08_unseen_web_challenges import (
+from traceready_backend.intelligence.phase08_unseen_web_challenges import (
     build_unseen_web_challenge_package,
     write_unseen_web_challenge_artifacts,
 )

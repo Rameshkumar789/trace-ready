@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_ingestion.intelligence.phase06_review_workflow import (
+from traceready_backend.intelligence.phase06_review_workflow import (
     build_phase6_review_package,
     write_phase6_review_artifacts,
 )

@@ -4,9 +4,9 @@ from tempfile import TemporaryDirectory
 import json
 import unittest
 
-from traceready_ingestion.backend.services.source_artifact_integrity_service import check_source_artifact_integrity
-from traceready_ingestion.storage.artifacts import LocalObjectStore, source_chunk_package_key, source_normalized_key, source_raw_key
-from traceready_ingestion.versioning.hashing import sha256_bytes, sha256_text
+from traceready_backend.backend.services.source_artifact_integrity_service import check_source_artifact_integrity
+from traceready_backend.storage.artifacts import LocalObjectStore, source_chunk_package_key, source_normalized_key, source_raw_key
+from traceready_backend.versioning.hashing import sha256_bytes, sha256_text
 
 
 class FakeIntegrityRepository:

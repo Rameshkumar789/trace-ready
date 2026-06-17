@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_ingestion.intelligence.citations import (
+from traceready_backend.intelligence.citations import (
     build_citation_coverage_report,
     load_chunk_index,
     load_records_from_intelligence_output,

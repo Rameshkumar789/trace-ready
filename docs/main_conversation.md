@@ -11809,7 +11809,7 @@ traceready/
   ingestion/
     pyproject.toml
     ingest.py
-    traceready_ingestion/
+    traceready_backend/
       fetchers/
         ecfr_fetcher.py
         fda_fetcher.py
@@ -12106,7 +12106,7 @@ Sources: [Regology](https://www.regology.com/), [AscentAI](https://www.ascentreg
 >   ingestion/
 >     pyproject.toml
 >     ingest.py
->     traceready_ingestion/
+>     traceready_backend/
 >       fetchers/
 >         ecfr_fetcher.py
 >         fda_fetcher.py
@@ -12403,13 +12403,13 @@ Yes. I checked the codebase. **Python chunking is implemented, but it is current
 What exists:
 
 - Python ingestion package exists at [ingestion](./traceready/ingestion/pyproject.toml:1)
-- Chunker exists at [legal_chunker.py](./traceready/ingestion/traceready_ingestion/chunking/legal_chunker.py:1)
-- Citation anchors exist at [citation_anchor.py](./traceready/ingestion/traceready_ingestion/chunking/citation_anchor.py:1)
-- HTML extraction exists at [html_extractor.py](./traceready/ingestion/traceready_ingestion/extractors/html_extractor.py:1)
-- PDF extraction exists at [pdf_extractor.py](./traceready/ingestion/traceready_ingestion/extractors/pdf_extractor.py:1)
+- Chunker exists at [legal_chunker.py](./traceready/ingestion/traceready_backend/chunking/legal_chunker.py:1)
+- Citation anchors exist at [citation_anchor.py](./traceready/ingestion/traceready_backend/chunking/citation_anchor.py:1)
+- HTML extraction exists at [html_extractor.py](./traceready/ingestion/traceready_backend/extractors/html_extractor.py:1)
+- PDF extraction exists at [pdf_extractor.py](./traceready/ingestion/traceready_backend/extractors/pdf_extractor.py:1)
 - Draft rule/KDE generation exists, but deterministic placeholder, not real AI yet:
-  - [rule_card_drafter.py](./traceready/ingestion/traceready_ingestion/drafting/rule_card_drafter.py:1)
-  - [kde_drafter.py](./traceready/ingestion/traceready_ingestion/drafting/kde_drafter.py:1)
+  - [rule_card_drafter.py](./traceready/ingestion/traceready_backend/drafting/rule_card_drafter.py:1)
+  - [kde_drafter.py](./traceready/ingestion/traceready_backend/drafting/kde_drafter.py:1)
 
 What the chunker does now:
 
@@ -20388,7 +20388,7 @@ Verification:
 >
 > - Wrote `./traceready/ingestion/ingest.py` (+4 -3)
 > - Wrote `./traceready/ingestion/tests/test_legal_chunker.py` (+16 -1)
-> - Wrote `./traceready/ingestion/traceready_ingestion/chunking/legal_chunker.py` (+48 -2)
+> - Wrote `./traceready/ingestion/traceready_backend/chunking/legal_chunker.py` (+48 -2)
 >
 > </details>
 >
@@ -20480,8 +20480,8 @@ So I also ran a controlled FSMA-style sample through the same ingestion pipeline
 ```
 
 Generated files:
-- `/tmp/traceready-ingestion-local-sample/raw/fsma204-local-sample.html`
-- `/tmp/traceready-ingestion-local-sample/normalized/fsma204-local-sample.json`
+- `/tmp/traceready-backend-local-sample/raw/fsma204-local-sample.html`
+- `/tmp/traceready-backend-local-sample/normalized/fsma204-local-sample.json`
 
 Tests passed after the fix:
 
@@ -20530,7 +20530,7 @@ I also updated the ingestion code so rejected source sections are preserved inst
 > - Wrote `./traceready/ingestion/README.md` (+18 -0)
 > - Wrote `./traceready/ingestion/ingest.py` (+70 -4)
 > - Wrote `./traceready/ingestion/tests/test_ecfr_xml_extractor.py` (+21 -0)
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/ecfr_xml_extractor.py` (+52 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/ecfr_xml_extractor.py` (+52 -0)
 >
 > </details>
 >
@@ -20544,7 +20544,7 @@ I also updated the ingestion code so rejected source sections are preserved inst
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/chunking/legal_chunker.py` (+2 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/chunking/legal_chunker.py` (+2 -0)
 >
 > </details>
 >
@@ -20590,9 +20590,9 @@ I also fixed the ingestion app so it can properly read eCFR XML. The old extract
 
 Code added/changed:
 
-- [ecfr_xml_extractor.py](./traceready/ingestion/traceready_ingestion/extractors/ecfr_xml_extractor.py)
+- [ecfr_xml_extractor.py](./traceready/ingestion/traceready_backend/extractors/ecfr_xml_extractor.py)
 - [ingest.py](./traceready/ingestion/ingest.py)
-- [legal_chunker.py](./traceready/ingestion/traceready_ingestion/chunking/legal_chunker.py)
+- [legal_chunker.py](./traceready/ingestion/traceready_backend/chunking/legal_chunker.py)
 - [README.md](./traceready/ingestion/README.md)
 
 Verification:
@@ -21202,8 +21202,8 @@ Everything else is either customer context, future expansion, or not relevant to
 > - Wrote `./traceready/ingestion/README.md` (+10 -1)
 > - Wrote `./traceready/ingestion/ingest.py` (+26 -2)
 > - Wrote `./traceready/ingestion/tests/test_fsma_rules_context.py` (+22 -0)
-> - Wrote `./traceready/ingestion/traceready_ingestion/context/__init__.py` (+3 -0)
-> - Wrote `./traceready/ingestion/traceready_ingestion/context/fsma_rules_context.py` (+268 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/context/__init__.py` (+3 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/context/fsma_rules_context.py` (+268 -0)
 >
 > </details>
 >
@@ -21228,8 +21228,8 @@ What changed:
   - matched source role
 
 Files added/updated:
-- [fsma_rules_context.py](./traceready/ingestion/traceready_ingestion/context/fsma_rules_context.py)
-- [__init__.py](./traceready/ingestion/traceready_ingestion/context/__init__.py)
+- [fsma_rules_context.py](./traceready/ingestion/traceready_backend/context/fsma_rules_context.py)
+- [__init__.py](./traceready/ingestion/traceready_backend/context/__init__.py)
 - [ingest.py](./traceready/ingestion/ingest.py)
 - [README.md](./traceready/ingestion/README.md)
 - [test_fsma_rules_context.py](./traceready/ingestion/tests/test_fsma_rules_context.py)
@@ -21283,9 +21283,9 @@ OK
 >
 > - Wrote `./traceready/ingestion/ingest.py` (+23 -1)
 > - Wrote `./traceready/ingestion/tests/test_fda_fsma_rules_page_extractor.py` (+32 -0)
-> - Wrote `./traceready/ingestion/traceready_ingestion/context/__init__.py` (+2 -2)
-> - Wrote `./traceready/ingestion/traceready_ingestion/context/fsma_rules_context.py` (+7 -0)
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/fda_fsma_rules_page_extractor.py` (+175 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/context/__init__.py` (+2 -2)
+> - Wrote `./traceready/ingestion/traceready_backend/context/fsma_rules_context.py` (+7 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/fda_fsma_rules_page_extractor.py` (+175 -0)
 >
 > </details>
 >
@@ -21322,7 +21322,7 @@ OK
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/context/fsma_rules_context.py` (+55 -5)
+> - Wrote `./traceready/ingestion/traceready_backend/context/fsma_rules_context.py` (+55 -5)
 >
 > </details>
 >
@@ -21336,7 +21336,7 @@ OK
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/context/fsma_rules_context.py` (+3 -1)
+> - Wrote `./traceready/ingestion/traceready_backend/context/fsma_rules_context.py` (+3 -1)
 >
 > </details>
 >
@@ -21346,7 +21346,7 @@ OK
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/context/fsma_rules_context.py` (+2 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/context/fsma_rules_context.py` (+2 -0)
 >
 > </details>
 >
@@ -21813,7 +21813,7 @@ So yes, the previous list missed important operational materials. The biggest ad
 >
 > <details><summary>Edited 2 files</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/fetchers/ecfr_fetcher.py` (+2 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/fetchers/ecfr_fetcher.py` (+2 -0)
 > - Wrote `./traceready/ingestion/ingest.py` (+31 -5)
 >
 > </details>
@@ -21828,7 +21828,7 @@ So yes, the previous list missed important operational materials. The biggest ad
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/pdf_extractor.py` (+40 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/pdf_extractor.py` (+40 -0)
 >
 > </details>
 >
@@ -21852,7 +21852,7 @@ So yes, the previous list missed important operational materials. The biggest ad
 >
 > <details><summary>Created a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/xlsx_extractor.py` (+23 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/xlsx_extractor.py` (+23 -0)
 >
 > </details>
 >
@@ -22002,7 +22002,7 @@ One honest note: a few **scenario video/transcript links** still point to the FD
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/pdf_extractor.py` (+138 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/pdf_extractor.py` (+138 -0)
 >
 > </details>
 >
@@ -22044,7 +22044,7 @@ One honest note: a few **scenario video/transcript links** still point to the FD
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/pdf_extractor.py` (+5 -1)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/pdf_extractor.py` (+5 -1)
 >
 > </details>
 >
@@ -22062,7 +22062,7 @@ One honest note: a few **scenario video/transcript links** still point to the FD
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/pdf_extractor.py` (+65 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/pdf_extractor.py` (+65 -0)
 >
 > </details>
 >
@@ -22082,7 +22082,7 @@ One honest note: a few **scenario video/transcript links** still point to the FD
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/pdf_extractor.py` (+62 -1)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/pdf_extractor.py` (+62 -1)
 >
 > </details>
 >
@@ -22212,7 +22212,7 @@ For rule-card drafting, I would still use `ecfr-21-cfr-1-subpart-s` XML as the p
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/pdf_extractor.py` (+100 -3)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/pdf_extractor.py` (+100 -3)
 >
 > </details>
 >
@@ -22240,7 +22240,7 @@ For rule-card drafting, I would still use `ecfr-21-cfr-1-subpart-s` XML as the p
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/pdf_extractor.py` (+2 -2)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/pdf_extractor.py` (+2 -2)
 >
 > </details>
 >
@@ -22252,7 +22252,7 @@ For rule-card drafting, I would still use `ecfr-21-cfr-1-subpart-s` XML as the p
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/pdf_extractor.py` (+2 -2)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/pdf_extractor.py` (+2 -2)
 >
 > </details>
 >
@@ -22262,7 +22262,7 @@ For rule-card drafting, I would still use `ecfr-21-cfr-1-subpart-s` XML as the p
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/extractors/pdf_extractor.py` (+2 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/extractors/pdf_extractor.py` (+2 -0)
 >
 > </details>
 >
@@ -22320,7 +22320,7 @@ After: layout-aware Federal Register semantic chunks
 
 Files updated:
 
-- [pdf_extractor.py](./traceready/ingestion/traceready_ingestion/extractors/pdf_extractor.py)
+- [pdf_extractor.py](./traceready/ingestion/traceready_backend/extractors/pdf_extractor.py)
 - [README.md](./traceready/ingestion/README.md)
 - [regulatory-source-ingestion-tracker.md](./traceready/docs/regulatory-source-ingestion-tracker.md)
 
@@ -23601,9 +23601,9 @@ Immediate next task is `RI-001`: create the canonical source registry schema.
 > <details><summary>Created 4 files</summary>
 >
 > - Wrote `./traceready/ingestion/build_regulatory_registry.py` (+23 -0)
-> - Wrote `./traceready/ingestion/traceready_ingestion/registry/__init__.py` (+19 -0)
-> - Wrote `./traceready/ingestion/traceready_ingestion/registry/builder.py` (+370 -0)
-> - Wrote `./traceready/ingestion/traceready_ingestion/registry/schemas.py` (+97 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/registry/__init__.py` (+19 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/registry/builder.py` (+370 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/registry/schemas.py` (+97 -0)
 >
 > </details>
 >
@@ -23674,9 +23674,9 @@ Started implementation and completed the first regulatory-intelligence slice.
 
 Built:
 - Canonical source registry schemas:
-  [schemas.py](./traceready/ingestion/traceready_ingestion/registry/schemas.py)
+  [schemas.py](./traceready/ingestion/traceready_backend/registry/schemas.py)
 - Registry/chunk builder:
-  [builder.py](./traceready/ingestion/traceready_ingestion/registry/builder.py)
+  [builder.py](./traceready/ingestion/traceready_backend/registry/builder.py)
 - CLI runner:
   [build_regulatory_registry.py](./traceready/ingestion/build_regulatory_registry.py)
 
@@ -23721,8 +23721,8 @@ Next build slice is `RI-020` to `RI-024`: strict typed schemas for defined terms
 >
 > <details><summary>Created 3 files</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/__init__.py` (+29 -0)
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/schemas.py` (+202 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/__init__.py` (+29 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/schemas.py` (+202 -0)
 > - Wrote `./traceready/ingestion/validate_intelligence_schemas.py` (+145 -0)
 >
 > </details>
@@ -23746,7 +23746,7 @@ Implemented the next slice: `RI-020` through `RI-024`.
 
 Added strict regulatory intelligence schemas here:
 
-[schemas.py](./traceready/ingestion/traceready_ingestion/intelligence/schemas.py)
+[schemas.py](./traceready/ingestion/traceready_backend/intelligence/schemas.py)
 
 Covers:
 - `DefinedTerm`
@@ -23797,7 +23797,7 @@ Next task is `RI-030`: deterministic FTL food taxonomy extraction.
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/registry/builder.py` (+120 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/registry/builder.py` (+120 -0)
 >
 > </details>
 >
@@ -23868,7 +23868,7 @@ So the core path is safe to continue because eCFR, CTE/KDE, FTL, and spreadsheet
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/registry/builder.py` (+110 -5)
+> - Wrote `./traceready/ingestion/traceready_backend/registry/builder.py` (+110 -5)
 >
 > </details>
 >
@@ -23880,7 +23880,7 @@ So the core path is safe to continue because eCFR, CTE/KDE, FTL, and spreadsheet
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/registry/builder.py` (+4 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/registry/builder.py` (+4 -0)
 >
 > </details>
 >
@@ -23908,7 +23908,7 @@ What changed:
 - Raw source artifacts are still preserved; only the canonical extraction registry is cleaned.
 
 Updated:
-- [builder.py](./traceready/ingestion/traceready_ingestion/registry/builder.py)
+- [builder.py](./traceready/ingestion/traceready_backend/registry/builder.py)
 - [health-report.json](./traceready/data/regulatory/registry/health-report.json)
 - [source-chunks.json](./traceready/data/regulatory/registry/source-chunks.json)
 - [14-regulatory-intelligence-task-tracker.md](./traceready/docs/blueprint/14-regulatory-intelligence-task-tracker.md)
@@ -23950,8 +23950,8 @@ Now Phase 1 and Phase 2 data quality is actually clean enough to build on.
 >
 > <details><summary>Edited 2 files</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/registry/schemas.py` (+2 -0)
-> - Wrote `./traceready/ingestion/traceready_ingestion/registry/builder.py` (+2 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/registry/schemas.py` (+2 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/registry/builder.py` (+2 -0)
 >
 > </details>
 >
@@ -23959,7 +23959,7 @@ Now Phase 1 and Phase 2 data quality is actually clean enough to build on.
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/registry/builder.py` (+0 -4)
+> - Wrote `./traceready/ingestion/traceready_backend/registry/builder.py` (+0 -4)
 >
 > </details>
 >
@@ -23967,7 +23967,7 @@ Now Phase 1 and Phase 2 data quality is actually clean enough to build on.
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/registry/builder.py` (+23 -1)
+> - Wrote `./traceready/ingestion/traceready_backend/registry/builder.py` (+23 -1)
 >
 > </details>
 >
@@ -24088,7 +24088,7 @@ The registry builder looks at each chunk and classifies it using:
 
 The current logic is in:
 
-[builder.py](./traceready/ingestion/traceready_ingestion/registry/builder.py)
+[builder.py](./traceready/ingestion/traceready_backend/registry/builder.py)
 
 The important limitation: this is still rule-based. It is safer than guessing, but not perfect. The better next step is to add a **chunk classification audit report** where every dropped/citation-only chunk has:
 
@@ -24436,7 +24436,7 @@ This is much stronger than building “an AI FSMA chatbot” or another traceabi
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/schemas.py` (+168 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/schemas.py` (+168 -0)
 >
 > </details>
 >
@@ -24475,7 +24475,7 @@ This is much stronger than building “an AI FSMA chatbot” or another traceabi
 
 Completed Phase 3 fully.
 
-I added the remaining typed extraction schemas in [schemas.py](./traceready/ingestion/traceready_ingestion/intelligence/schemas.py:54):
+I added the remaining typed extraction schemas in [schemas.py](./traceready/ingestion/traceready_backend/intelligence/schemas.py:54):
 
 - `TlcRule`
 - `ExemptionRule`
@@ -24516,7 +24516,7 @@ Phase 3 is now complete. Next real work is Phase 4: deterministic extraction, st
 >
 > <details><summary>Created a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/citations.py` (+216 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/citations.py` (+216 -0)
 >
 > </details>
 >
@@ -24567,7 +24567,7 @@ Done. You were right to call it out: RI-013 and RI-014 were still planned. They 
 
 Added:
 
-- Citation span validator: [citations.py](./traceready/ingestion/traceready_ingestion/intelligence/citations.py:1)
+- Citation span validator: [citations.py](./traceready/ingestion/traceready_backend/intelligence/citations.py:1)
 - Citation coverage report CLI: [build_citation_coverage_report.py](./traceready/ingestion/build_citation_coverage_report.py:1)
 - Tests: [test_citation_validation.py](./traceready/ingestion/tests/test_citation_validation.py:1)
 - Generated report: [citation-coverage-report.json](./traceready/data/regulatory/intelligence/citation-coverage-report.json)
@@ -24622,7 +24622,7 @@ python -m unittest discover -s tests: 16 tests passing
 >
 > <details><summary>Created a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/phase4_extractors.py` (+708 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/phase4_extractors.py` (+708 -0)
 >
 > </details>
 >
@@ -24648,7 +24648,7 @@ python -m unittest discover -s tests: 16 tests passing
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/phase4_extractors.py` (+7 -3)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/phase4_extractors.py` (+7 -3)
 >
 > </details>
 >
@@ -24660,7 +24660,7 @@ python -m unittest discover -s tests: 16 tests passing
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/phase4_extractors.py` (+20 -9)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/phase4_extractors.py` (+20 -9)
 >
 > </details>
 >
@@ -24672,7 +24672,7 @@ python -m unittest discover -s tests: 16 tests passing
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/citations.py` (+1 -1)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/citations.py` (+1 -1)
 >
 > </details>
 >
@@ -24707,7 +24707,7 @@ Done. Phase 4 is complete and the tracker is updated.
 
 Implemented:
 
-- [phase4_extractors.py](./traceready/ingestion/traceready_ingestion/intelligence/phase4_extractors.py)
+- [phase4_extractors.py](./traceready/ingestion/traceready_backend/intelligence/phase4_extractors.py)
 - [build_phase4_drafts.py](./traceready/ingestion/build_phase4_drafts.py)
 - [test_phase4_extractors.py](./traceready/ingestion/tests/test_phase4_extractors.py)
 - Updated [14-regulatory-intelligence-task-tracker.md](./traceready/docs/blueprint/14-regulatory-intelligence-task-tracker.md)
@@ -24802,7 +24802,7 @@ That is exactly the right stage for now.
 >
 > <details><summary>Created a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/ai_assisted.py` (+465 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/ai_assisted.py` (+465 -0)
 >
 > </details>
 >
@@ -24834,7 +24834,7 @@ That is exactly the right stage for now.
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/__init__.py` (+16 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/__init__.py` (+16 -0)
 >
 > </details>
 >
@@ -24857,7 +24857,7 @@ Done. Phase 5 is complete and the tracker now marks RI-040 through RI-044 as `do
 
 What I added:
 
-- [ai_assisted.py](./traceready/ingestion/traceready_ingestion/intelligence/ai_assisted.py)
+- [ai_assisted.py](./traceready/ingestion/traceready_backend/intelligence/ai_assisted.py)
 - [build_phase5_prompt_pack.py](./traceready/ingestion/build_phase5_prompt_pack.py)
 - [run_phase5_safety_checks.py](./traceready/ingestion/run_phase5_safety_checks.py)
 - [test_ai_assisted_phase5.py](./traceready/ingestion/tests/test_ai_assisted_phase5.py)
@@ -24987,7 +24987,7 @@ Good catch. That distinction matters.
 >
 > <details><summary>Created a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/anthropic_client.py` (+111 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/anthropic_client.py` (+111 -0)
 >
 > </details>
 >
@@ -24995,7 +24995,7 @@ Good catch. That distinction matters.
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/ai_assisted.py` (+38 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/ai_assisted.py` (+38 -0)
 >
 > </details>
 >
@@ -25042,7 +25042,7 @@ Good catch. That distinction matters.
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/anthropic_client.py` (+4 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/anthropic_client.py` (+4 -0)
 >
 > </details>
 >
@@ -25096,7 +25096,7 @@ What changed:
 
 - Added Anthropic dependency in [pyproject.toml](./traceready/ingestion/pyproject.toml)
 - Added env template: [.env.example](./traceready/ingestion/.env.example)
-- Added Anthropic client wrapper: [anthropic_client.py](./traceready/ingestion/traceready_ingestion/intelligence/anthropic_client.py)
+- Added Anthropic client wrapper: [anthropic_client.py](./traceready/ingestion/traceready_backend/intelligence/anthropic_client.py)
 - Added real extraction runner: [run_phase5_anthropic_extraction.py](./traceready/ingestion/run_phase5_anthropic_extraction.py)
 - Updated README and tracker.
 
@@ -25135,7 +25135,7 @@ I verified the current model IDs against Anthropic’s official model docs: [Cla
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/anthropic_client.py` (+21 -0)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/anthropic_client.py` (+21 -0)
 >
 > </details>
 >
@@ -25191,7 +25191,7 @@ The code is ready; tests passed. The only blocker is the key not being visible t
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/anthropic_client.py` (+26 -4)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/anthropic_client.py` (+26 -4)
 >
 > </details>
 >
@@ -25249,8 +25249,8 @@ I’m compiling the patched runner and then rerunning with a bigger token budget
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/anthropic_client.py` (+35 -7)
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/anthropic_client.py` (+21 -2)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/anthropic_client.py` (+35 -7)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/anthropic_client.py` (+21 -2)
 >
 > </details>
 >
@@ -25258,7 +25258,7 @@ I’m compiling the patched runner and then rerunning with a bigger token budget
 >
 > <details><summary>Edited 2 files</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/anthropic_client.py` (+7 -4)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/anthropic_client.py` (+7 -4)
 > - Wrote `./traceready/ingestion/run_phase5_anthropic_extraction.py` (+73 -0)
 >
 > </details>
@@ -25335,7 +25335,7 @@ I’m compiling the patched runner and then rerunning with a bigger token budget
 >
 > <details><summary>Edited a file</summary>
 >
-> - Wrote `./traceready/ingestion/traceready_ingestion/intelligence/ai_assisted.py` (+10 -1)
+> - Wrote `./traceready/ingestion/traceready_backend/intelligence/ai_assisted.py` (+10 -1)
 >
 > </details>
 >

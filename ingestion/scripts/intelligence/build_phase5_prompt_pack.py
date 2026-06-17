@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_ingestion.intelligence.phase05_ai_assisted_extraction import build_phase5_prompt_specs, render_prompt, select_phase5_source_chunks
+from traceready_backend.intelligence.phase05_ai_assisted_extraction import build_phase5_prompt_specs, render_prompt, select_phase5_source_chunks
 
 
 def main() -> None:

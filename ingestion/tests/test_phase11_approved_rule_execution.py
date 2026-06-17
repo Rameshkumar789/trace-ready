@@ -7,7 +7,7 @@ from collections import defaultdict
 from pathlib import Path
 from types import SimpleNamespace
 
-from traceready_ingestion.audit_engine.rule_execution import (
+from traceready_backend.audit_engine.rule_execution import (
     _is_answered,
     build_phase11_rule_execution,
     check_kde_completeness,
@@ -16,8 +16,8 @@ from traceready_ingestion.audit_engine.rule_execution import (
     generate_exception_queue,
     map_events_to_approved_obligations,
 )
-from traceready_ingestion.audit_engine.customer_evidence import build_phase10_customer_evidence
-from traceready_ingestion.audit_engine.cte_classification import build_phase10c_cte_hardening
+from traceready_backend.audit_engine.customer_evidence import build_phase10_customer_evidence
+from traceready_backend.audit_engine.cte_classification import build_phase10c_cte_hardening
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -124,7 +124,7 @@ class Phase11ApprovedRuleExecutionTest(unittest.TestCase):
         self.assertTrue(package.summary["acceptanceCoverage"]["RI-109_fda_style_export_package"])
 
     def test_phase11_artifacts_include_workbook_file(self) -> None:
-        from traceready_ingestion.audit_engine.rule_execution import write_phase11_rule_execution_artifacts
+        from traceready_backend.audit_engine.rule_execution import write_phase11_rule_execution_artifacts
 
         package = build_phase11_rule_execution(input_file=SAMPLE, approved_rule_package_file=RULE_PACKAGE, ftl_food_items_file=FTL)
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -172,7 +172,7 @@ class TlcLineageAndPlaceholderTest(unittest.TestCase):
         self.assertEqual(trn.status, "linked")
 
     def test_kde_contracts_cover_full_movement_kdes_and_cooling(self):
-        from traceready_ingestion.audit_engine.rule_execution import _load_kde_check_contracts
+        from traceready_backend.audit_engine.rule_execution import _load_kde_check_contracts
 
         contracts = _load_kde_check_contracts()
         # The full FSMA KDE set per movement CTE — not the old 4-5 field subset.
@@ -203,12 +203,12 @@ class ExemptionClaimEvaluationTest(unittest.TestCase):
         return SimpleNamespace(evidence_records=records)
 
     def setUp(self):
-        from traceready_ingestion.audit_engine.rule_execution import _load_exemption_rules
+        from traceready_backend.audit_engine.rule_execution import _load_exemption_rules
 
         self.rules = _load_exemption_rules()
 
     def _checks(self, rows):
-        from traceready_ingestion.audit_engine.rule_execution import check_exemption_claims
+        from traceready_backend.audit_engine.rule_execution import check_exemption_claims
 
         return check_exemption_claims(phase10=self._phase10(rows), exemption_rules=self.rules)
 
@@ -237,7 +237,7 @@ class ExemptionClaimEvaluationTest(unittest.TestCase):
         self.assertIn("reviewer must confirm", checks[0].reason.lower())
 
     def test_tolerates_rich_supabase_card_schema(self):
-        from traceready_ingestion.audit_engine.rule_execution import check_exemption_claims
+        from traceready_backend.audit_engine.rule_execution import check_exemption_claims
 
         # The approved Supabase cards use prose exemption_type, documentation_needed, no aliases.
         rich_rules = [

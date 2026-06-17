@@ -1,6 +1,6 @@
 import unittest
 
-from traceready_ingestion.storage.db import InMemoryDraftStore, NonDurableStoreError
+from traceready_backend.storage.db import InMemoryDraftStore, NonDurableStoreError
 
 
 class StorageDbTest(unittest.TestCase):

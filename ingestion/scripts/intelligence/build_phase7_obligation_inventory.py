@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_ingestion.intelligence.phase07_obligation_inventory import (
+from traceready_backend.intelligence.phase07_obligation_inventory import (
     build_phase7_obligation_inventory,
     write_phase7_obligation_artifacts,
 )

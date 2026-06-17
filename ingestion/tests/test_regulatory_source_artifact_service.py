@@ -3,14 +3,14 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 
-from traceready_ingestion.backend.repositories.supabase_tables import RegulatorySourceUpsert, SourceChunkUpsert
-from traceready_ingestion.backend.services.regulatory_source_artifact_service import (
+from traceready_backend.backend.repositories.supabase_tables import RegulatorySourceUpsert, SourceChunkUpsert
+from traceready_backend.backend.services.regulatory_source_artifact_service import (
     DraftPayloadArtifact,
     NamedArtifactPayload,
     RegulatorySourceArtifactRepositories,
     persist_regulatory_source_artifacts,
 )
-from traceready_ingestion.storage.artifacts import LocalObjectStore
+from traceready_backend.storage.artifacts import LocalObjectStore
 
 
 class FakeRegulatoryRepository:

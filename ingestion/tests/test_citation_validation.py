@@ -1,6 +1,6 @@
 import unittest
 
-from traceready_ingestion.intelligence.citations import (
+from traceready_backend.intelligence.citations import (
     build_citation_coverage_report,
     validate_citation_span,
 )

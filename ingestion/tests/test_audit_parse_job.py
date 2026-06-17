@@ -2,10 +2,10 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 
-from traceready_ingestion.backend.jobs.audit_parse import execute_audit_parse_job
-from traceready_ingestion.backend.schemas.audit_parse import AuditParseJobPayload
-from traceready_ingestion.backend.services.audit_parse_service import run_audit_parse_job
-from traceready_ingestion.storage.artifacts import LocalObjectStore, audit_upload_key
+from traceready_backend.backend.jobs.audit_parse import execute_audit_parse_job
+from traceready_backend.backend.schemas.audit_parse import AuditParseJobPayload
+from traceready_backend.backend.services.audit_parse_service import run_audit_parse_job
+from traceready_backend.storage.artifacts import LocalObjectStore, audit_upload_key
 
 
 class FakeAuditJobRepository:

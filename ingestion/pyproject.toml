@@ -1,5 +1,5 @@
 [project]
-name = "traceready-ingestion"
+name = "traceready-backend"
 version = "0.1.0"
 description = "TraceReady regulatory source ingestion and AI draft generation worker"
 requires-python = ">=3.11"
@@ -18,21 +18,21 @@ dependencies = [
 ]
 
 [project.scripts]
-traceready-ingest = "traceready_ingestion.cli:main"
+traceready-ingest = "traceready_backend.cli:main"
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["traceready_ingestion*"]
+include = ["traceready_backend*"]
 exclude = ["api*", "scripts*", "tests*"]
 
 # Ship the bundled reviewable rule data (KDE contracts, exemption rules, plan components) so the
 # deterministic engine is self-contained on Vercel — it no longer depends on the repo-root data/
 # folder, which is not part of the deploy.
 [tool.setuptools.package-data]
-"traceready_ingestion.audit_engine" = ["bundled_rules/*.json"]
+"traceready_backend.audit_engine" = ["bundled_rules/*.json"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]

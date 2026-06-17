@@ -3,11 +3,11 @@ from __future__ import annotations
 import argparse
 import json
 
-from traceready_ingestion.api.config import load_settings
-from traceready_ingestion.backend.db import supabase_connection
-from traceready_ingestion.backend.repositories.supabase_tables import RegulatoryRepository
-from traceready_ingestion.backend.services.source_artifact_integrity_service import check_source_artifact_integrity
-from traceready_ingestion.storage.artifacts import build_object_store
+from traceready_backend.api.config import load_settings
+from traceready_backend.backend.db import supabase_connection
+from traceready_backend.backend.repositories.supabase_tables import RegulatoryRepository
+from traceready_backend.backend.services.source_artifact_integrity_service import check_source_artifact_integrity
+from traceready_backend.storage.artifacts import build_object_store
 
 
 def main() -> None:

@@ -5,19 +5,19 @@ import json
 from html import unescape
 from pathlib import Path
 
-from traceready_ingestion.chunking.legal_chunker import chunk_legal_meaning_with_rejections
-from traceready_ingestion.context import build_source_context, classify_fsma_rule_entry
-from traceready_ingestion.extractors.ecfr_xml_extractor import extract_ecfr_sections
-from traceready_ingestion.extractors.fda_fsma_rules_page_extractor import (
+from traceready_backend.chunking.legal_chunker import chunk_legal_meaning_with_rejections
+from traceready_backend.context import build_source_context, classify_fsma_rule_entry
+from traceready_backend.extractors.ecfr_xml_extractor import extract_ecfr_sections
+from traceready_backend.extractors.fda_fsma_rules_page_extractor import (
     extract_fsma_rules_guidance_entries,
     extract_fsma_rules_guidance_sections,
 )
-from traceready_ingestion.extractors.html_extractor import extract_html_sections
-from traceready_ingestion.extractors.pdf_extractor import build_semantic_pdf_sections, extract_pdf_pages
-from traceready_ingestion.extractors.xlsx_extractor import extract_xlsx_sheets
-from traceready_ingestion.fetchers.ecfr_fetcher import fetch_url
-from traceready_ingestion.storage.artifacts import write_artifact
-from traceready_ingestion.versioning.hashing import sha256_bytes, sha256_text
+from traceready_backend.extractors.html_extractor import extract_html_sections
+from traceready_backend.extractors.pdf_extractor import build_semantic_pdf_sections, extract_pdf_pages
+from traceready_backend.extractors.xlsx_extractor import extract_xlsx_sheets
+from traceready_backend.fetchers.ecfr_fetcher import fetch_url
+from traceready_backend.storage.artifacts import write_artifact
+from traceready_backend.versioning.hashing import sha256_bytes, sha256_text
 
 
 def ingest_source_text(

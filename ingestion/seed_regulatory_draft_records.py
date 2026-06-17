@@ -4,10 +4,10 @@ import argparse
 import json
 from pathlib import Path
 
-from traceready_ingestion.api.config import load_settings
-from traceready_ingestion.backend.db import supabase_connection
-from traceready_ingestion.backend.repositories.supabase_tables import RegulatoryRepository
-from traceready_ingestion.backend.services.regulatory_draft_import_service import (
+from traceready_backend.api.config import load_settings
+from traceready_backend.backend.db import supabase_connection
+from traceready_backend.backend.repositories.supabase_tables import RegulatoryRepository
+from traceready_backend.backend.services.regulatory_draft_import_service import (
     import_phase6_draft_review_records,
 )
 

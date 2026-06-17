@@ -1,8 +1,8 @@
 import unittest
 
-from traceready_ingestion.chunking.legal_chunker import chunk_legal_meaning
-from traceready_ingestion.drafting.kde_drafter import draft_kde_requirement
-from traceready_ingestion.drafting.rule_card_drafter import draft_rule_card
+from traceready_backend.chunking.legal_chunker import chunk_legal_meaning
+from traceready_backend.drafting.kde_drafter import draft_kde_requirement
+from traceready_backend.drafting.rule_card_drafter import draft_rule_card
 
 
 class RuleCardDrafterTest(unittest.TestCase):

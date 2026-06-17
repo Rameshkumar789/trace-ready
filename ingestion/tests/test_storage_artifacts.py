@@ -2,8 +2,8 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 
-from traceready_ingestion.api.config import ObjectStoreMode, RuntimeEnvironment, ServiceSettings
-from traceready_ingestion.storage.artifacts import (
+from traceready_backend.api.config import ObjectStoreMode, RuntimeEnvironment, ServiceSettings
+from traceready_backend.storage.artifacts import (
     LocalObjectStore,
     NonDurableObjectStoreError,
     ObjectStorageError,

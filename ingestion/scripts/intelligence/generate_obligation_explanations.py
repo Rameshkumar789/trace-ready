@@ -13,8 +13,8 @@ import json
 import os
 from pathlib import Path
 
-from traceready_ingestion.intelligence.anthropic_client import AnthropicJSONClient, AnthropicLLMConfig
-from traceready_ingestion.intelligence.obligation_explanations import generate_obligation_explanations
+from traceready_backend.intelligence.anthropic_client import AnthropicJSONClient, AnthropicLLMConfig
+from traceready_backend.intelligence.obligation_explanations import generate_obligation_explanations
 
 REPO = Path(__file__).resolve().parents[3]
 PACKAGE = REPO / "data/regulatory/intelligence/rules/approved-rule-package-v1.json"

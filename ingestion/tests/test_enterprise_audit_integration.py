@@ -3,15 +3,15 @@ from tempfile import TemporaryDirectory
 import json
 import unittest
 
-from traceready_ingestion.backend.schemas.audit_parse import AuditParseJobPayload
-from traceready_ingestion.backend.schemas.rule_execution import RuleExecutionJobPayload
-from traceready_ingestion.backend.services.audit_parse_service import run_audit_parse_job
-from traceready_ingestion.backend.services.normalized_evidence_service import (
+from traceready_backend.backend.schemas.audit_parse import AuditParseJobPayload
+from traceready_backend.backend.schemas.rule_execution import RuleExecutionJobPayload
+from traceready_backend.backend.services.audit_parse_service import run_audit_parse_job
+from traceready_backend.backend.services.normalized_evidence_service import (
     persist_normalized_customer_evidence,
 )
-from traceready_ingestion.backend.services.rule_execution_service import run_rule_execution_job
-from traceready_ingestion.audit_engine.customer_evidence import build_phase10_customer_evidence
-from traceready_ingestion.storage.artifacts import LocalObjectStore, audit_upload_key
+from traceready_backend.backend.services.rule_execution_service import run_rule_execution_job
+from traceready_backend.audit_engine.customer_evidence import build_phase10_customer_evidence
+from traceready_backend.storage.artifacts import LocalObjectStore, audit_upload_key
 
 
 ROOT = Path(__file__).resolve().parents[2]

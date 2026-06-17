@@ -9,14 +9,14 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from typing import Any
 
-from traceready_ingestion.intelligence.phase05_ai_assisted_extraction import (
+from traceready_backend.intelligence.phase05_ai_assisted_extraction import (
     build_phase5_prompt_specs,
     render_prompt,
     select_phase5_source_chunks,
     validate_ai_records,
 )
-from traceready_ingestion.intelligence.anthropic_client import AnthropicJSONClient, AnthropicJSONParseError, AnthropicLLMConfig
-from traceready_ingestion.intelligence.citations import load_chunk_index
+from traceready_backend.intelligence.anthropic_client import AnthropicJSONClient, AnthropicJSONParseError, AnthropicLLMConfig
+from traceready_backend.intelligence.citations import load_chunk_index
 
 
 def main() -> None:

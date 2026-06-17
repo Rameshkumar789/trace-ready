@@ -3,7 +3,7 @@ from __future__ import annotations
 import unittest
 from pathlib import Path
 
-from traceready_ingestion.audit_engine.cte_classification import (
+from traceready_backend.audit_engine.cte_classification import (
     _benchmark_event,
     build_cte_precedence_matrix,
     build_phase10c_benchmark_cases,

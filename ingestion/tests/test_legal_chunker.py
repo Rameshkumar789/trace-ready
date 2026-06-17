@@ -1,6 +1,6 @@
 import unittest
 
-from traceready_ingestion.chunking.legal_chunker import chunk_legal_meaning, chunk_legal_meaning_with_rejections
+from traceready_backend.chunking.legal_chunker import chunk_legal_meaning, chunk_legal_meaning_with_rejections
 
 
 class LegalChunkerTest(unittest.TestCase):

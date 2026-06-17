@@ -27,9 +27,9 @@ import json
 from pathlib import Path
 from typing import Any
 
-from traceready_ingestion.api.config import load_settings
-from traceready_ingestion.backend.db import supabase_connection
-from traceready_ingestion.audit_engine import rule_execution as engine
+from traceready_backend.api.config import load_settings
+from traceready_backend.backend.db import supabase_connection
+from traceready_backend.audit_engine import rule_execution as engine
 
 BUNDLED_RULES = Path(engine.BUNDLED_RULES_DIR)
 APPROVED_BY = "ai-auto-review:claude"

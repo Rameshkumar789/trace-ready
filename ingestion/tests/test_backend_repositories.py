@@ -1,6 +1,6 @@
 import unittest
 
-from traceready_ingestion.backend.repositories.supabase_tables import (
+from traceready_backend.backend.repositories.supabase_tables import (
     AuditFileCreate,
     AuditFileRepository,
     AuditFindingCreate,

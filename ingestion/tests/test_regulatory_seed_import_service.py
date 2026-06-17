@@ -3,8 +3,8 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 
-from traceready_ingestion.backend.services.regulatory_seed_import_service import import_regulatory_registry_seed
-from traceready_ingestion.storage.artifacts import LocalObjectStore
+from traceready_backend.backend.services.regulatory_seed_import_service import import_regulatory_registry_seed
+from traceready_backend.storage.artifacts import LocalObjectStore
 
 
 class FakeRegulatoryRepository:

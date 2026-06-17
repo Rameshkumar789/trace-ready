@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from traceready_ingestion.intelligence.phase08_unseen_web_challenges import build_unseen_web_challenge_package
+from traceready_backend.intelligence.phase08_unseen_web_challenges import build_unseen_web_challenge_package
 
 
 class Phase8UnseenWebChallengeTest(unittest.TestCase):

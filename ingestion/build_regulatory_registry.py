@@ -4,7 +4,7 @@ import argparse
 import json
 from pathlib import Path
 
-from traceready_ingestion.registry.builder import write_registry
+from traceready_backend.registry.builder import write_registry
 
 
 def main() -> None:

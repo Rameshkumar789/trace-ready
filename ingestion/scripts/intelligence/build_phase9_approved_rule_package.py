@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_ingestion.intelligence.phase09_approved_rule_package import (
+from traceready_backend.intelligence.phase09_approved_rule_package import (
     build_phase9_rule_package,
     write_phase9_rule_package_artifacts,
 )

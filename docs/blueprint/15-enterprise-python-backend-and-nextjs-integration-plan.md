@@ -66,7 +66,7 @@ Current reviewer links:
 
 ### 2.3 Current Python Layer
 
-Current package: `ingestion/traceready_ingestion`.
+Current package: `ingestion/traceready_backend`.
 
 Implemented capabilities:
 
@@ -98,7 +98,7 @@ Current gaps:
 - no normalized evidence/event/finding DB tables,
 - no production report artifact writer.
 
-The current `ingestion/traceready_ingestion/storage/db.py` is an in-memory draft store. It is not an enterprise DB layer.
+The current `ingestion/traceready_backend/storage/db.py` is an in-memory draft store. It is not an enterprise DB layer.
 
 ### 2.4 Current Supabase State
 
@@ -181,8 +181,8 @@ Important misses:
 - Source PDFs/HTML/XLSX and normalized extraction JSON are local files under `data/regulatory`, not private object-storage objects with DB metadata.
 - `app/src/lib/regulatory/data-loader.ts` reads local JSON through `fs.readFileSync`; regulatory tabs are not DB-backed.
 - `app/src/lib/storage/local-audit-store.ts` writes customer audits to `app/storage/audits/{auditId}/audit.json`; customer audit runtime storage is not DB-backed.
-- `ingestion/traceready_ingestion/storage/artifacts.py` writes local files; there is no Supabase/S3 object-store abstraction yet.
-- `ingestion/traceready_ingestion/storage/db.py` is an in-memory draft store; there is no Python production DB repository yet.
+- `ingestion/traceready_backend/storage/artifacts.py` writes local files; there is no Supabase/S3 object-store abstraction yet.
+- `ingestion/traceready_backend/storage/db.py` is an in-memory draft store; there is no Python production DB repository yet.
 - `app/package.json` does not include `prisma` or `@prisma/client`; Prisma schema exists but the Next.js app is not wired to it.
 - Supabase SQL migrations do not yet create `regulatory_sources`, `source_chunks`, source ingestion jobs, audit runs, audit files, audit jobs, parsed workbook rows, evidence items, normalized events, finding traces, customer review actions, or report artifact metadata.
 - `phase6-approved-records.json` is empty. The executable package is currently based on the approved Phase 7/9 obligation package, not a full DB-backed approved rule-card/KDE-card publication workflow.
@@ -192,7 +192,7 @@ These are not failures of the local intelligence work. They are the exact produc
 
 Script packaging policy:
 
-Production entrypoints remain at the ingestion root (`ingest.py`, `seed_regulatory_sources.py`, `check_source_artifact_integrity.py`, and Vercel `api/index.py`). Historical phase/evaluation artifact builders live under `ingestion/scripts/intelligence/` and `ingestion/scripts/evaluation/`. Production code should not import those script files directly; reusable logic belongs under `traceready_ingestion/`. This preserves historical/regression workflows while the deployable backend takes over production execution.
+Production entrypoints remain at the ingestion root (`ingest.py`, `seed_regulatory_sources.py`, `check_source_artifact_integrity.py`, and Vercel `api/index.py`). Historical phase/evaluation artifact builders live under `ingestion/scripts/intelligence/` and `ingestion/scripts/evaluation/`. Production code should not import those script files directly; reusable logic belongs under `traceready_backend/`. This preserves historical/regression workflows while the deployable backend takes over production execution.
 
 ### 2.6 Next.js Application Audit Findings
 
@@ -695,7 +695,7 @@ ingestion/
       regulatory.py
 ```
 
-The existing `traceready_ingestion` modules should be reused as domain logic. The new `traceready_backend` layer should provide API, DB, storage, job orchestration, and deployment boundaries.
+The existing `traceready_backend` modules should be reused as domain logic. The new `traceready_backend` layer should provide API, DB, storage, job orchestration, and deployment boundaries.
 
 ## 7. Internal API Contract
 
@@ -1020,8 +1020,8 @@ Status: `done`. Detailed checklist is in section 10.3.
 
 | Subtask | Status | Notes |
 |---|---|---|
-| EPY-007.1 Define backend package location | `done` | Added `traceready_ingestion.api` and `traceready_ingestion.backend` without deleting existing ingestion scripts. |
-| EPY-007.2 Add FastAPI/Vercel entrypoint | `done` | Added `traceready_ingestion.api.main:app` and `ingestion/api/index.py` import shim. |
+| EPY-007.1 Define backend package location | `done` | Added `traceready_backend.api` and `traceready_backend.backend` without deleting existing ingestion scripts. |
+| EPY-007.2 Add FastAPI/Vercel entrypoint | `done` | Added `traceready_backend.api.main:app` and `ingestion/api/index.py` import shim. |
 | EPY-007.3 Add health and readiness routes | `done` | Added `/health`, `/ready`, and protected `/internal/ping`. |
 | EPY-007.4 Add config/env loader | `done` | DB, Supabase, storage bucket, internal token, environment, CORS origins, and readiness requirement flags load from env. |
 | EPY-007.5 Add structured logging/errors/security modules | `done` | Added request IDs, JSON logs, safe exception responses, and internal-token validation. |
@@ -1031,7 +1031,7 @@ Status: `done`. Detailed checklist is in section 10.3.
 
 | Subtask | Status | Notes |
 |---|---|---|
-| EPY-008.1 Add Supabase table connection module | `done` | Added lazy connection lifecycle for Supabase table access in `traceready_ingestion.backend.db`; Python runtime requires `SUPABASE_DATABASE_URL`. |
+| EPY-008.1 Add Supabase table connection module | `done` | Added lazy connection lifecycle for Supabase table access in `traceready_backend.backend.db`; Python runtime requires `SUPABASE_DATABASE_URL`. |
 | EPY-008.2 Add audit job repository | `done` | Added create, claim with `for update skip locked`, checkpoint, complete, fail, and event append operations. |
 | EPY-008.3 Add audit file/artifact repository | `done` | Added file and generated artifact inserts for `audit_files` and `audit_artifacts`. |
 | EPY-008.4 Add evidence repository | `done` | Added typed evidence item persistence/listing for parsed workbook cells/facts, normalized values, confidence, and review status. |

@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_ingestion.intelligence.phase08_scenario_regression import (
+from traceready_backend.intelligence.phase08_scenario_regression import (
     build_phase8_scenario_regressions,
     write_phase8_scenario_artifacts,
 )

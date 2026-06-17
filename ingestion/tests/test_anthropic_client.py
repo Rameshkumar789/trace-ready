@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from traceready_ingestion.intelligence.anthropic_client import AnthropicLLMConfig, extract_json_array
+from traceready_backend.intelligence.anthropic_client import AnthropicLLMConfig, extract_json_array
 
 
 class AnthropicClientTest(unittest.TestCase):
