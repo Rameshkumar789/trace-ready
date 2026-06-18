@@ -98,12 +98,12 @@ def _environment_with_local_dotenv(environ: Mapping[str, str]) -> Mapping[str, s
 
 
 def _local_dotenv_candidates() -> tuple[Path, ...]:
-    ingestion_root = Path(__file__).resolve().parents[2]
+    backend_root = Path(__file__).resolve().parents[2]
     cwd = Path.cwd()
     candidates = [
         cwd / ".env",
-        cwd / "ingestion" / ".env",
-        ingestion_root / ".env",
+        cwd / "backend" / ".env",
+        backend_root / ".env",
     ]
     unique: list[Path] = []
     for candidate in candidates:

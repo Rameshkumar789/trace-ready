@@ -1,4 +1,4 @@
-# TraceReady Ingestion Worker
+# TraceReady Backend
 
 Python worker for regulatory-source ingestion, legal-meaning chunking, citation anchoring, and draft rule-card generation.
 
@@ -55,7 +55,7 @@ Future hardening / not MVP blockers:
 ## Project Layout
 
 ```text
-traceready/ingestion/
+traceready/backend/
   pyproject.toml
   README.md
   scripts/                           # offline operational tooling (run with `python -m scripts.<...>`)
@@ -263,7 +263,7 @@ export TRACEREADY_INTERNAL_API_TOKEN=<internal-token>
 export TRACEREADY_REQUIRE_CONFIGURED_DEPENDENCIES=true
 ```
 
-In the Python app, paste the Supabase connection URL into `ingestion/.env` as:
+In the Python app, paste the Supabase connection URL into `backend/.env` as:
 
 ```text
 SUPABASE_DATABASE_URL=postgresql://postgres.<project-ref>:<password>@<host>:<port>/postgres?sslmode=require

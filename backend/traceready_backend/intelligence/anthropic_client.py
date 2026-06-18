@@ -28,7 +28,7 @@ class AnthropicLLMConfig:
         _load_local_env_file()
         api_key = os.getenv("ANTHROPIC_API_KEY", "").strip()
         if not api_key:
-            raise RuntimeError("ANTHROPIC_API_KEY is not set. Add it to your shell or traceready/ingestion/.env.")
+            raise RuntimeError("ANTHROPIC_API_KEY is not set. Add it to your shell or traceready/backend/.env.")
         return cls(
             api_key=api_key,
             model=os.getenv("TRACEREADY_ANTHROPIC_MODEL", DEFAULT_ANTHROPIC_MODEL).strip() or DEFAULT_ANTHROPIC_MODEL,

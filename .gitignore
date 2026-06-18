@@ -18,7 +18,7 @@ venv/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-ingestion/.traceready-object-store/
+backend/.traceready-object-store/
 
 # TypeScript / Next.js build cache
 *.tsbuildinfo
@@ -27,4 +27,4 @@ ingestion/.traceready-object-store/
 outputs/
 
 # Local-only Codex runtime symlink (not portable)
-ingestion/scripts/evaluation/node_modules
+backend/scripts/evaluation/node_modules

@@ -22,7 +22,7 @@ GENERATED_BY = "ai_explanation_drafter_v1"
 
 
 def _load_env() -> None:
-    env_path = REPO / "ingestion/.env"
+    env_path = REPO / "backend/.env"
     if not env_path.exists():
         return
     for line in env_path.read_text().splitlines():

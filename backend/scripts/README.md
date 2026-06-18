@@ -8,7 +8,7 @@ These folders contain reproducibility and evaluation entrypoints:
 - `intelligence/validate_intelligence_schemas.py`: schema smoke validation against registry citations.
 - `evaluation/`: public-web eval dataset/workbook builders.
 
-The root `ingestion/` folder keeps production-facing CLIs, source bootstrap/admin commands, and deployment files:
+The root `backend/` folder keeps production-facing CLIs, source bootstrap/admin commands, and deployment files:
 
 - `ingest.py`
 - `build_regulatory_registry.py`
