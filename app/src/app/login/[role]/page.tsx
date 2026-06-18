@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { TraceReadyLogo } from "@/components/TraceReadyLogo";
-import { loginAction } from "./actions";
 
 const roleConfig = {
   operator: {
@@ -74,7 +73,7 @@ export default async function LoginPage({
         {readableError ? (
           <p className="badge danger">{readableError}</p>
         ) : null}
-        <form action={loginAction} className="auth-form">
+        <form action="/auth/login" method="post" className="auth-form">
           <input name="loginRole" type="hidden" value={loginRoute} />
           <input name="next" type="hidden" value={resolvedSearchParams?.next ?? ""} />
           <label>

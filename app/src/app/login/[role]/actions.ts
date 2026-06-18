@@ -187,25 +187,11 @@ async function setTraceReadySessionCookie({
     expiresAt
   });
 
-  const serialized = await serializeSession(traceReadySession);
-  const maxAge = Math.max(0, Math.floor((expiresAt - Date.now()) / 1000));
-  // TEMP diagnostic — confirms login reached the cookie-set and the attributes it used.
-  console.log(
-    "[login-auth]",
-    JSON.stringify({
-      stage: "set-cookie",
-      role,
-      serializedLen: serialized.length,
-      secure: process.env.NODE_ENV === "production",
-      maxAge,
-      expiresInMin: Math.round((expiresAt - Date.now()) / 60000)
-    })
-  );
-  cookieStore.set(TRACEREADY_SESSION_COOKIE, serialized, {
+  cookieStore.set(TRACEREADY_SESSION_COOKIE, await serializeSession(traceReadySession), {
     httpOnly: true,
     sameSite: "lax",
     secure: process.env.NODE_ENV === "production",
     path: "/",
-    maxAge
+    maxAge: Math.max(0, Math.floor((expiresAt - Date.now()) / 1000))
   });
 }
