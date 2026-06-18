@@ -1,3 +1,6 @@
+"""Seed AI-extracted regulatory draft records into Supabase for reviewer approval.
+
+Run:  python -m scripts.ops.seed_regulatory_draft_records"""
 from __future__ import annotations
 
 import argparse

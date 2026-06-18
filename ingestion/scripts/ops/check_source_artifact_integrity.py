@@ -1,3 +1,6 @@
+"""Verify regulatory source DB rows and their private storage artifacts are consistent.
+
+Run:  python -m scripts.ops.check_source_artifact_integrity"""
 from __future__ import annotations
 
 import argparse

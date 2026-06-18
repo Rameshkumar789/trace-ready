@@ -1,3 +1,6 @@
+"""Batch-ingest the bundled local FDA documents listed in the local-documents manifest.
+
+Run:  python -m scripts.ops.ingest_local_fda_documents"""
 from __future__ import annotations
 
 import argparse
@@ -5,7 +8,7 @@ import json
 import re
 from pathlib import Path
 
-from ingest import ingest_source_pdf, ingest_source_xlsx
+from scripts.ops.ingest import ingest_source_pdf, ingest_source_xlsx
 
 
 FINAL_RULE_PDF_URL = "https://www.govinfo.gov/content/pkg/FR-2022-11-21/pdf/2022-24417.pdf"

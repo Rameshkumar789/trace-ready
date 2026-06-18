@@ -57,15 +57,17 @@ Future hardening / not MVP blockers:
 ```text
 traceready/ingestion/
   pyproject.toml
-  ingest.py
-  build_regulatory_registry.py
-  ingest_fda_fsma204_hub_sources.py
-  ingest_local_fda_documents.py
-  seed_regulatory_sources.py
-  seed_regulatory_draft_records.py
-  check_source_artifact_integrity.py
   README.md
-  scripts/
+  scripts/                           # offline operational tooling (run with `python -m scripts.<...>`)
+    ops/                             # build the knowledge base + seed Supabase
+      ingest.py
+      build_regulatory_registry.py
+      ingest_fda_fsma204_hub_sources.py
+      ingest_local_fda_documents.py
+      seed_regulatory_sources.py
+      seed_regulatory_draft_records.py
+      seed_approved_rule_package.py
+      check_source_artifact_integrity.py
     intelligence/
       build_phase*_*.py
       run_phase5_*.py
@@ -80,7 +82,6 @@ traceready/ingestion/
     test_rule_card_drafter.py
     test_source_ingestion.py
   traceready_backend/
-    cli.py
     fetchers/
       ecfr_fetcher.py
     extractors/
@@ -336,7 +337,7 @@ curl -X POST http://127.0.0.1:8000/internal/jobs/audit/<job_id>/retry \
 This loads the current local source registry into Supabase tables and private object storage:
 
 ```bash
-python seed_regulatory_sources.py \
+python -m scripts.ops.seed_regulatory_sources \
   --regulatory-dir ../data/regulatory \
   --bucket traceready-pilot-private \
   --source-version 1
@@ -366,7 +367,7 @@ It does not seed benchmark/evaluation workbooks, competitor audit files, or Phas
 To seed local Phase 6 draft cards into the DB-backed reviewer queue:
 
 ```bash
-python seed_regulatory_draft_records.py \
+python -m scripts.ops.seed_regulatory_draft_records \
   --phase6-review-package-file ../data/regulatory/intelligence/review/phase6-review-package.json
 ```
 
@@ -383,7 +384,7 @@ Use this when the reviewer UI should show local cards for approval. This command
 For only approval-ready cards:
 
 ```bash
-python seed_regulatory_draft_records.py --only-ready-for-review
+python -m scripts.ops.seed_regulatory_draft_records --only-ready-for-review
 ```
 
 ### 6. Verify Regulatory Source Integrity
@@ -391,7 +392,7 @@ python seed_regulatory_draft_records.py --only-ready-for-review
 After seeding, run:
 
 ```bash
-python check_source_artifact_integrity.py \
+python -m scripts.ops.check_source_artifact_integrity \
   --bucket traceready-pilot-private \
   --source-version 1
 ```
@@ -477,7 +478,7 @@ new FDA/eCFR/PDF/XLSX/source URL
 For one-off local source ingestion:
 
 ```bash
-python ingest.py \
+python -m scripts.ops.ingest \
   --url "<official-source-url>" \
   --source-id "<stable-source-id>" \
   --output-dir ../data/regulatory
@@ -486,7 +487,7 @@ python ingest.py \
 For local registry and intelligence artifact rebuilds:
 
 ```bash
-python build_regulatory_registry.py
+python -m scripts.ops.build_regulatory_registry
 python scripts/intelligence/validate_intelligence_schemas.py
 python scripts/intelligence/build_phase4_drafts.py
 python scripts/intelligence/build_phase5_prompt_pack.py
@@ -636,7 +637,7 @@ The tests validate the current ingestion foundation:
 Example:
 
 ```bash
-python ingest.py \
+python -m scripts.ops.ingest \
   --url "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S" \
   --source-id "ecfr-21-cfr-1-subpart-s" \
   --output-dir "../data/regulatory"
@@ -674,7 +675,7 @@ Each chunk includes:
 PDF URLs and local PDF files are supported.
 
 ```bash
-python ingest.py \
+python -m scripts.ops.ingest \
   --url "https://www.fda.gov/media/163132/download?attachment" \
   --source-id "fda-cte-kde" \
   --output-dir "../data/regulatory/fda-cte-kde" \
@@ -684,7 +685,7 @@ python ingest.py \
 For local PDFs:
 
 ```bash
-python ingest.py \
+python -m scripts.ops.ingest \
   --input-file "../data/regulatory/fda-cte-kde/raw/fda-cte-kde.pdf" \
   --url "https://www.fda.gov/media/163132/download?attachment" \
   --source-id "fda-cte-kde" \
@@ -699,7 +700,7 @@ The extractor uses `pdfplumber`, then `pypdf`, then PyMuPDF/fallback when availa
 XLSX URLs and local XLSX files are supported. Each workbook sheet becomes a source section.
 
 ```bash
-python ingest.py \
+python -m scripts.ops.ingest \
   --url "https://www.fda.gov/media/179617/download?attachment" \
   --source-id "fda-sortable-spreadsheet-xlsx" \
   --output-dir "../data/regulatory/fda-sortable-spreadsheet-xlsx" \
@@ -744,7 +745,7 @@ For the real FSMA 204 Subpart S rule, prefer the official eCFR API XML over scra
 Example after downloading Title 21 Part 1 XML:
 
 ```bash
-python ingest.py \
+python -m scripts.ops.ingest \
   --input-file /tmp/title-21-part-1-full.xml \
   --url "https://www.ecfr.gov/api/versioner/v1/full/YYYY-MM-DD/title-21.xml?part=1" \
   --source-id "ecfr-21-cfr-1-subpart-s" \

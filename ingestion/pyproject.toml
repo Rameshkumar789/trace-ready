@@ -17,9 +17,6 @@ dependencies = [
   "uvicorn>=0.30"
 ]
 
-[project.scripts]
-traceready-ingest = "traceready_backend.cli:main"
-
 [build-system]
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"

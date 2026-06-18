@@ -1,3 +1,7 @@
+"""Seed the approved rule package into public.approved_rule_packages -- the package the
+runtime audit engine loads from Supabase at request time.
+
+Run:  python -m scripts.ops.seed_approved_rule_package"""
 from __future__ import annotations
 
 import argparse

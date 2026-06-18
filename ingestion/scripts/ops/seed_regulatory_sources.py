@@ -1,3 +1,7 @@
+"""Seed regulatory sources + chunks (and their storage artifacts) into Supabase from the
+built registry.
+
+Run:  python -m scripts.ops.seed_regulatory_sources"""
 from __future__ import annotations
 
 import argparse

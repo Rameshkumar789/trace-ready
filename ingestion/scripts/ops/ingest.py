@@ -1,3 +1,7 @@
+"""Ingest one regulatory source: fetch -> extract sections -> legal-meaning chunk ->
+write normalized JSON under data/regulatory/<source-id>/.
+
+Run:  python -m scripts.ops.ingest --url <url> --source-id <id> --output-dir ../data/regulatory"""
 from __future__ import annotations
 
 import argparse

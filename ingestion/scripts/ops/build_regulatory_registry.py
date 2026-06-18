@@ -1,3 +1,7 @@
+"""Build the canonical regulatory registry (sources.json + source-chunks.json) from every
+normalized source under data/regulatory/.
+
+Run:  python -m scripts.ops.build_regulatory_registry"""
 from __future__ import annotations
 
 import argparse

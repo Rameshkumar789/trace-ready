@@ -1,10 +1,13 @@
+"""Batch-ingest the FDA FSMA 204 hub source set listed in the hub ingestion manifest.
+
+Run:  python -m scripts.ops.ingest_fda_fsma204_hub_sources"""
 from __future__ import annotations
 
 import argparse
 import json
 from pathlib import Path
 
-from ingest import ingest_html_url
+from scripts.ops.ingest import ingest_html_url
 
 
 FDA_FSMA204_HUB_SOURCES = [
