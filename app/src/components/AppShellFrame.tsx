@@ -169,10 +169,18 @@ export function AppShellFrame({ children, initialNavCollapsed = false, links, pr
                 <UtilityIcon name="settings" />
                 <span>Settings</span>
               </Link>
-              <Link className="profile-dropdown-link danger" href="/logout" onClick={() => setProfileMenuOpen(false)} role="menuitem">
-                <UtilityIcon name="signout" />
-                <span>Sign out</span>
-              </Link>
+              <form action="/logout" method="post" style={{ display: "contents" }}>
+                <button
+                  className="profile-dropdown-link danger"
+                  type="submit"
+                  role="menuitem"
+                  onClick={() => setProfileMenuOpen(false)}
+                  style={{ width: "100%", background: "none", border: "none", font: "inherit", cursor: "pointer", textAlign: "left" }}
+                >
+                  <UtilityIcon name="signout" />
+                  <span>Sign out</span>
+                </button>
+              </form>
             </div>
           </div>
         </header>
