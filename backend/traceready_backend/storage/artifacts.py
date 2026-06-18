@@ -75,7 +75,27 @@ def capture_payload(data: bytes, content_type: str | None = None) -> ObjectPaylo
     )
 
 
+# Explicit content types for formats we emit. We do NOT rely on mimetypes.guess_type for these:
+# Vercel's stripped Python lambda image lacks the system mime database (/etc/mime.types), so it
+# resolves .xlsx to None -> application/octet-stream, which a MIME-restricted Supabase bucket
+# rejects with 400. The Next app uploads xlsx with the spreadsheet mime below and succeeds, so we
+# match it here to keep backend artifact uploads consistent across runtimes.
+_EXPLICIT_CONTENT_TYPES: dict[str, str] = {
+    ".xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    ".xlsm": "application/vnd.ms-excel.sheet.macroEnabled.12",
+    ".xls": "application/vnd.ms-excel",
+    ".json": "application/json",
+    ".csv": "text/csv",
+    ".pdf": "application/pdf",
+    ".txt": "text/plain",
+}
+
+
 def guess_content_type(filename_or_key: str, fallback: str = "application/octet-stream") -> str:
+    suffix = os.path.splitext(filename_or_key)[1].lower()
+    explicit = _EXPLICIT_CONTENT_TYPES.get(suffix)
+    if explicit:
+        return explicit
     guessed, _encoding = mimetypes.guess_type(filename_or_key)
     return guessed or fallback
 
