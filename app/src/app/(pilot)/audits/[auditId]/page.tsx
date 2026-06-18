@@ -19,6 +19,8 @@ import { AppShell } from "@/components/AppShell";
 import { getPilotSession } from "@/lib/auth/session";
 import { canAccessPath } from "@/lib/auth/session-cookie";
 import { loadObligationExplanations, loadOperatorStoredAudit, type ObligationExplanation } from "@/lib/audit/operator-audit-db";
+import { loadAuditProcessingStatus } from "@/lib/audit/audit-processing-status";
+import { AuditProcessing } from "./AuditProcessing";
 import { runDemoAudit } from "@/lib/audit/demo-audit";
 import type { Finding } from "@/lib/findings/finding";
 import type { StoredAudit } from "@/lib/audit/stored-audit";
@@ -54,6 +56,22 @@ export default async function AuditWorkspacePage({ params }: { params: Promise<{
   if (!session || !canAccessPath(session, `/audits/${auditId}`)) {
     redirect(`/login/operator?auth=required&next=${encodeURIComponent(`/audits/${auditId}`)}`);
   }
+  // Real audits run synchronously on upload (no cron/queue worker). While that is still in
+  // flight we show a spinner that polls until findings are ready — instead of a separate
+  // processing/status page.
+  if (auditId !== "demo") {
+    const status = await loadAuditProcessingStatus(auditId, session).catch(() => undefined);
+    if (!status) notFound();
+    const ready = status.projectStatus === "succeeded" || status.run?.status === "succeeded";
+    if (!ready) {
+      return (
+        <AppShell>
+          <AuditProcessing auditId={auditId} fileName={status.fileName} />
+        </AppShell>
+      );
+    }
+  }
+
   const audit = auditId === "demo" ? demoAsStored() : await loadOperatorStoredAudit(auditId, session);
   if (!audit) notFound();
 

@@ -2,11 +2,9 @@
 
 import { redirect } from "next/navigation";
 import { createUploadAuditJob } from "@/lib/audit/upload-job";
-import { loadAuditProcessingStatus } from "@/lib/audit/audit-processing-status";
 import { validateUploadMetadata } from "@/lib/security/upload-security";
 import { getPilotSession } from "@/lib/auth/session";
 import { canAccessPath } from "@/lib/auth/session-cookie";
-import type { TraceReadySession } from "@/lib/auth/session-cookie";
 
 export async function uploadWorkbookAction(formData: FormData) {
   const session = await getPilotSession();
@@ -38,30 +36,15 @@ export async function uploadWorkbookAction(formData: FormData) {
     redirect(`/upload?error=${encodeURIComponent("Upload could not be queued. Check Supabase configuration and try again.")}`);
   }
 
-  // Run parsing + deterministic rule execution synchronously so the operator sees
-  // results immediately instead of a queue/processing screen. The worker slice claims
-  // both the parse and execute jobs in one call.
-  const workerMessage = await requestPythonWorkerSlice(session.userId).catch((error) => {
+  // Run parsing + deterministic rule execution synchronously so the operator sees results
+  // immediately. The worker slice claims both the parse and execute jobs in one call. We then
+  // go straight to the audit workspace, which shows a spinner and finishes processing itself if
+  // this call did not complete in time (no separate status page).
+  await requestPythonWorkerSlice(session.userId).catch((error) => {
     console.error("Failed to trigger Python worker", error);
-    return error instanceof Error ? `Upload queued, but the audit could not be run automatically: ${error.message}` : "Upload queued, but the audit could not be run automatically.";
   });
 
-  // If processing completed, go straight to the results workspace; otherwise fall back
-  // to the status page so the operator can see progress / retry.
-  if (await auditProcessingFinished(queued.auditProjectId, session)) {
-    redirect(`/audits/${queued.auditProjectId}`);
-  }
-  redirect(`/audits/${queued.auditProjectId}/status?worker=${encodeURIComponent(workerMessage)}`);
-}
-
-async function auditProcessingFinished(auditProjectId: string, session: TraceReadySession): Promise<boolean> {
-  try {
-    const status = await loadAuditProcessingStatus(auditProjectId, session);
-    return status?.projectStatus === "succeeded" || status?.run?.status === "succeeded";
-  } catch (error) {
-    console.error("Failed to read audit status after upload", error);
-    return false;
-  }
+  redirect(`/audits/${queued.auditProjectId}`);
 }
 
 async function requestPythonWorkerSlice(userId: string) {
@@ -88,7 +71,4 @@ async function requestPythonWorkerSlice(userId: string) {
     const text = await response.text();
     throw new Error(`${response.status} ${response.statusText}: ${text}`);
   }
-  const result = await response.json().catch(() => undefined);
-  const processedCount = typeof result?.processedCount === "number" ? result.processedCount : 0;
-  return processedCount > 0 ? `Python worker processed ${processedCount} job slice${processedCount === 1 ? "" : "s"}.` : "Python worker was called, but no queued jobs were claimed.";
 }

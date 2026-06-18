@@ -8420,3 +8420,45 @@ th {
     width: 100%;
   }
 }
+
+/* Audit processing spinner (shown on the audit workspace while the synchronous run finishes) */
+.audit-processing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  text-align: center;
+  min-height: 60vh;
+  padding: 3rem 1.5rem;
+}
+
+.audit-processing h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.audit-processing p {
+  margin: 0;
+  max-width: 32rem;
+  color: var(--muted);
+}
+
+.audit-processing .button {
+  margin-top: 0.5rem;
+}
+
+.audit-processing-spinner {
+  color: var(--accent, #2563eb);
+  animation: audit-spin 0.9s linear infinite;
+}
+
+.audit-processing-warn {
+  color: var(--amber, #d97706);
+}
+
+@keyframes audit-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
