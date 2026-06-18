@@ -75,6 +75,35 @@ export async function parseSessionCookie(value: string | undefined): Promise<Tra
   }
 }
 
+// Edge-middleware-safe decode: validates the cookie's STRUCTURE and expiry WITHOUT verifying
+// the HMAC signature, so it needs no secret and never fails just because the Edge runtime can't
+// resolve TRACEREADY_AUTH_SECRET. Use this ONLY for optimistic routing in middleware. The
+// authoritative signature check stays in parseSessionCookie (run server-side in getPilotSession),
+// so a forged/tampered cookie passes the middleware but is rejected when a protected page renders.
+export function decodeSessionCookieUnverified(value: string | undefined): TraceReadySession | undefined {
+  if (!value) return undefined;
+  const [payload, signature] = value.split(".");
+  if (!payload || !signature) return undefined;
+  try {
+    const parsed = JSON.parse(base64UrlDecode(payload)) as Partial<TraceReadySession>;
+    if (parsed.authProvider !== "supabase") return undefined;
+    if (!parsed.userId || !parsed.email || !isTraceReadyRole(parsed.role)) return undefined;
+    if (!parsed.issuedAt || !parsed.expiresAt || parsed.expiresAt <= Date.now()) return undefined;
+    return {
+      authProvider: "supabase",
+      userId: parsed.userId,
+      email: parsed.email,
+      fullName: normalizeOptionalText(parsed.fullName),
+      companyName: normalizeOptionalText(parsed.companyName),
+      role: parsed.role,
+      issuedAt: parsed.issuedAt,
+      expiresAt: parsed.expiresAt
+    };
+  } catch {
+    return undefined;
+  }
+}
+
 function normalizeOptionalText(value: unknown): string | undefined {
   return typeof value === "string" && value.trim() ? value.trim() : undefined;
 }

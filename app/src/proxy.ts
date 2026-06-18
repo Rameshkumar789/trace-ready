@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { canAccessPath, loginPathForTarget, parseSessionCookie, TRACEREADY_SESSION_COOKIE } from "@/lib/auth/session-cookie";
+import { canAccessPath, decodeSessionCookieUnverified, loginPathForTarget, TRACEREADY_SESSION_COOKIE } from "@/lib/auth/session-cookie";
 
 export async function proxy(request: NextRequest) {
   const protectedPath =
@@ -13,7 +13,9 @@ export async function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-  const session = await parseSessionCookie(request.cookies.get(TRACEREADY_SESSION_COOKIE)?.value);
+  // Optimistic, secret-free routing check (Edge runtime). The HMAC signature is verified
+  // server-side in getPilotSession when a protected page actually renders.
+  const session = decodeSessionCookieUnverified(request.cookies.get(TRACEREADY_SESSION_COOKIE)?.value);
 
   if (canAccessPath(session, request.nextUrl.pathname)) {
     return NextResponse.next();
