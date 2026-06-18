@@ -15,7 +15,23 @@ export async function proxy(request: NextRequest) {
 
   // Optimistic, secret-free routing check (Edge runtime). The HMAC signature is verified
   // server-side in getPilotSession when a protected page actually renders.
-  const session = decodeSessionCookieUnverified(request.cookies.get(TRACEREADY_SESSION_COOKIE)?.value);
+  const rawCookie = request.cookies.get(TRACEREADY_SESSION_COOKIE)?.value;
+  const session = decodeSessionCookieUnverified(rawCookie);
+
+  // TEMP diagnostic — prints to Vercel runtime logs so we can see why a session is rejected.
+  // Remove once the prod login loop is resolved. Does not log the cookie value.
+  console.log(
+    "[mw-auth]",
+    JSON.stringify({
+      path: request.nextUrl.pathname,
+      host: request.headers.get("host"),
+      hasCookie: Boolean(rawCookie),
+      cookieLen: rawCookie?.length ?? 0,
+      cookieNames: request.cookies.getAll().map((c) => c.name),
+      decoded: Boolean(session),
+      role: session?.role
+    })
+  );
 
   if (canAccessPath(session, request.nextUrl.pathname)) {
     return NextResponse.next();
