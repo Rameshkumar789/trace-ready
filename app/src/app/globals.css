@@ -1,28 +1,28 @@
 :root {
   /* Cool, minimal, OpenAI/Claude-leaning. Neutrals carry the UI; one refined blue is the
      single accent (primary + citations); red/amber/green only for finding severity. */
-  --ink: #1a1d23;
-  --muted: #667085;
-  --line: #e4e7ec;
+  --ink: #111827;
+  --muted: #6b7280;
+  --line: #e5e7eb;
   --panel: #ffffff;
   --surface: #f7f8fa;
-  --surface-strong: #eef1f5;
-  --accent: #2c52c9;
-  --accent-strong: #2442a6;
-  --accent-soft: #eaeefb;
+  --surface-strong: #f4f5f7;
+  --accent: #2442a6;
+  --accent-strong: #1c357f;
+  --accent-soft: #eef2fd;
   --teal: #5b6776;
-  --mint: #eef1f5;
+  --mint: #ecfdf3;
   --gold: #b54708;
-  --gold-soft: #fbecd8;
-  --coral: #d92d20;
-  --coral-soft: #fdecea;
+  --gold-soft: #fffaeb;
+  --coral: #b42318;
+  --coral-soft: #fef3f2;
   --warn: #b54708;
-  --danger: #d92d20;
+  --danger: #b42318;
   --ok: #067647;
-  --steel: #1a1d23;
-  --blue: #2c52c9;
-  --blue-soft: #eaeefb;
-  --navy: #11141a;
+  --steel: #111827;
+  --blue: #2442a6;
+  --blue-soft: #eef2fd;
+  --navy: #111827;
 }
 
 * {
@@ -5492,7 +5492,7 @@ th {
 /* Role-specific dashboard skins. The shell mechanics stay shared; portal visuals do not. */
 .operator-shell {
   grid-template-columns: 232px 1fr;
-  background: #f4f8ff;
+  background: #ffffff;
 }
 
 .operator-shell .nav {
@@ -5538,7 +5538,7 @@ th {
 
 .operator-shell .main,
 .operator-shell .main-content {
-  background: #f4f8ff;
+  background: #ffffff;
 }
 
 .reviewer-shell {
@@ -6110,7 +6110,7 @@ th {
   border-color: #2563eb;
   background:
     radial-gradient(circle at 50% 22%, rgba(37, 99, 235, 0.16), transparent 32%),
-    linear-gradient(180deg, #ffffff 0%, #f4f8ff 100%);
+    linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
 }
 
 .records-dropzone.has-file {
