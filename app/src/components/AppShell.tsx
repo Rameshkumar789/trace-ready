@@ -4,9 +4,8 @@ import { AppShellFrame } from "./AppShellFrame";
 
 const operatorLinks = [
   ["/operator", "Home"],
-  ["/audits", "Audits"],
-  ["/upload", "Upload"],
-  ["/operator/ask", "Ask FSMA"]
+  ["/upload", "Upload Records"],
+  ["/audits", "Audits"]
 ] as const;
 
 const reviewerLinks = [
