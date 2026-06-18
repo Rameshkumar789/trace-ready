@@ -5,6 +5,11 @@ import { requiredWorkbookSheets } from "@/lib/import/workbook-schema";
 import { uploadWorkbookAction } from "./actions";
 import { UploadWorkbookForm } from "./UploadWorkbookForm";
 
+// The upload action runs parse + rule execution synchronously (no cron/queue worker), so the
+// server function needs room to finish the full audit before returning. Raise the Vercel
+// function timeout for this route accordingly (Hobby allows up to 60s).
+export const maxDuration = 60;
+
 const afterUploadSteps = [
   {
     title: "Scope check",
