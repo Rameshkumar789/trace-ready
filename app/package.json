@@ -33,8 +33,10 @@
     "zod": "^3.25.67"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
     "@vitejs/plugin-react": "^4.5.2",
     "exceljs": "^4.4.0",
+    "tailwindcss": "^4.3.1",
     "typescript": "^5.8.3",
     "vitest": "^2.1.9"
   },
