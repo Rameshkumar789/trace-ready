@@ -101,6 +101,24 @@ class SortableExportReadinessCheck(StrictRuleExecutionModel):
     approved_obligation_id: str
 
 
+class SupplierProductCoverage(StrictRuleExecutionModel):
+    """One cell of the "scope the problem" matrix: for a given supplier (trading partner)
+    and product, what is the FTL scope and is the required data actually there? This is the
+    artifact Jim asked to lead with — "which products and which suppliers to worry about" —
+    aggregated from the per-event KDE/TLC checks already produced by the engine."""
+
+    supplier_id: str
+    supplier_name: str | None = None
+    product: str
+    ftl_status: str  # on | investigate | off
+    event_count: int
+    event_ids: list[str] = Field(default_factory=list)
+    missing_fields: list[str] = Field(default_factory=list)
+    tlc_gap: bool = False
+    gap_count: int = 0
+    status: str  # covered | gap | out_of_scope
+
+
 class AuditFinding(StrictRuleExecutionModel):
     finding_id: str
     event_id: str | None = None
@@ -158,6 +176,9 @@ class Phase11RuleExecutionPackage(StrictRuleExecutionModel):
     audit_findings: list[AuditFinding]
     exception_queue: list[ExceptionQueueItem]
     export_package: FdaStyleExportPackage
+    # P1 "scope the problem" matrix (supplier x product). Optional/additive so existing
+    # constructors and persisted artifacts stay backward-compatible.
+    supplier_product_coverage: list[SupplierProductCoverage] = Field(default_factory=list)
 
 
 BUNDLED_RULES_DIR = Path(__file__).resolve().parent / "bundled_rules"
@@ -269,6 +290,95 @@ def _extend_unique(target: list[str], values: list[str]) -> None:
             target.append(value)
 
 
+KDE_GAP_STATUSES = {"missing", "conflicting", "not_captured"}
+
+
+def build_supplier_product_coverage(
+    *,
+    events: dict[str, CustomerEventNode],
+    kde_checks: list[KdeCompletenessCheck],
+    tlc_checks: list[TlcLineageCheck],
+    counterparties: list[Any] | None = None,
+) -> list[SupplierProductCoverage]:
+    """Aggregate per-event checks into a supplier x product coverage matrix.
+
+    Supplier is the trading partner on the record (who sent it, falling back to who received
+    it). FTL status rolls up the three-tier per-event scope; a cell is a "gap" only when it is
+    in scope (not "off") AND a required KDE is missing/conflicting or the TLC link is broken.
+    """
+    name_by_id: dict[str, str] = {}
+    for cp in counterparties or []:
+        entity_id = getattr(cp, "entity_id", None)
+        if entity_id:
+            name_by_id[entity_id] = getattr(cp, "name", None)
+
+    kde_by_event: dict[str, list[KdeCompletenessCheck]] = defaultdict(list)
+    for check in kde_checks:
+        kde_by_event[check.event_id].append(check)
+    tlc_by_event: dict[str, list[TlcLineageCheck]] = defaultdict(list)
+    for check in tlc_checks:
+        tlc_by_event[check.event_id].append(check)
+
+    cells: "OrderedDict[tuple[str, str], dict[str, Any]]" = OrderedDict()
+    for event in events.values():
+        supplier_id = event.from_partner_id or event.to_partner_id or "unknown_supplier"
+        product = event.product_name or event.product_id or "unknown_product"
+        ftl_status = event.food_form.ftl_status if event.food_form else "investigate"
+        cell = cells.setdefault((supplier_id, product), {"event_ids": [], "ftl_statuses": set()})
+        cell["event_ids"].append(event.event_id)
+        cell["ftl_statuses"].add(ftl_status)
+
+    rows: list[SupplierProductCoverage] = []
+    for (supplier_id, product), cell in cells.items():
+        statuses = cell["ftl_statuses"]
+        if statuses == {"off"}:
+            ftl_status = "off"
+        elif statuses == {"on"}:
+            ftl_status = "on"
+        else:
+            ftl_status = "investigate"
+
+        missing_fields: list[str] = []
+        gap_count = 0
+        for event_id in cell["event_ids"]:
+            for check in kde_by_event.get(event_id, []):
+                if check.status in KDE_GAP_STATUSES:
+                    gap_count += 1
+                    if check.field_key not in missing_fields:
+                        missing_fields.append(check.field_key)
+        tlc_gap = any(
+            check.status == "gap"
+            for event_id in cell["event_ids"]
+            for check in tlc_by_event.get(event_id, [])
+        )
+
+        if ftl_status == "off":
+            status = "out_of_scope"
+        elif gap_count or tlc_gap:
+            status = "gap"
+        else:
+            status = "covered"
+
+        rows.append(
+            SupplierProductCoverage(
+                supplier_id=supplier_id,
+                supplier_name=name_by_id.get(supplier_id),
+                product=product,
+                ftl_status=ftl_status,
+                event_count=len(cell["event_ids"]),
+                event_ids=sorted(cell["event_ids"]),
+                missing_fields=missing_fields,
+                tlc_gap=tlc_gap,
+                gap_count=gap_count,
+                status=status,
+            )
+        )
+
+    # Worst first: open gaps (broken TLC, then most missing fields), then everything else.
+    rows.sort(key=lambda row: (row.status != "gap", not row.tlc_gap, -row.gap_count, row.supplier_id, row.product))
+    return rows
+
+
 def build_phase11_rule_execution(
     *,
     input_file: Path,
@@ -340,6 +450,12 @@ def build_phase11_rule_execution(
         approved_obligations=approved_obligations,
     )
     exception_queue = generate_exception_queue(audit_findings)
+    supplier_product_coverage = build_supplier_product_coverage(
+        events=event_by_id,
+        kde_checks=kde_checks,
+        tlc_checks=tlc_checks,
+        counterparties=getattr(phase10.entity_graph, "counterparties", []),
+    )
     export_package = build_fda_style_export_package(
         rule_package=rule_package,
         events=event_by_id,
@@ -374,6 +490,7 @@ def build_phase11_rule_execution(
         audit_findings=audit_findings,
         exception_queue=exception_queue,
         export_package=export_package,
+        supplier_product_coverage=supplier_product_coverage,
     )
 
 

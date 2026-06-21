@@ -68,11 +68,38 @@ class FoodFormResolution(StrictCustomerEvidenceModel):
     product_name: str | None = None
     ftl_category: str | None = None
     is_ftl_likely: bool | None = None
+    # Three-tier scope classification surfaced to operators (Jim's "on / investigate / off"):
+    #   "on"          -> high-confidence FTL match, no unresolved kill-step/exemption ambiguity
+    #   "investigate" -> ambiguous: unknown scope, or on-list but a kill-step/exemption may apply
+    #   "off"         -> affirmatively determined NOT on the Food Traceability List
+    # Conservative by design: we never downgrade to "off" without an affirmative signal, so a
+    # covered food is never silently dropped from scope (a false negative is the dangerous error).
+    ftl_status: str = "investigate"
     form_state: list[str] = Field(default_factory=list)
     output_remains_ftl: bool | None = None
     confidence: float = Field(ge=0, le=1)
     reasons: list[str] = Field(default_factory=list)
     review_required: bool = False
+
+    @field_validator("ftl_status")
+    @classmethod
+    def _ftl_status_is_known(cls, value: str) -> str:
+        if value not in {"on", "investigate", "off"}:
+            raise ValueError("ftl_status must be one of: on, investigate, off")
+        return value
+
+
+def classify_ftl_status(*, is_ftl_likely: bool | None, review_required: bool) -> str:
+    """Collapse the internal FTL signals into the operator-facing three-tier scope.
+
+    "off" requires an affirmative not-on-list determination (is_ftl_likely is False);
+    everything ambiguous stays "investigate" so covered foods are never silently excluded.
+    """
+    if is_ftl_likely is False:
+        return "off"
+    if is_ftl_likely is True and not review_required:
+        return "on"
+    return "investigate"
 
 
 class ActorRoleResolution(StrictCustomerEvidenceModel):
@@ -859,10 +886,14 @@ def resolve_food_form(
     )
     if is_ftl_likely is None:
         match_reasons.append("food scope could not be resolved from the supplied evidence")
+    ftl_status = classify_ftl_status(is_ftl_likely=is_ftl_likely, review_required=review_required)
+    if ftl_status == "investigate":
+        match_reasons.append("scope flagged for review (investigate) — confirm FTL coverage before relying on it")
     return FoodFormResolution(
         product_name=product_name,
         ftl_category=ftl_category,
         is_ftl_likely=is_ftl_likely,
+        ftl_status=ftl_status,
         form_state=sorted(set(form_state)),
         output_remains_ftl=output_remains_ftl,
         confidence=confidence,
