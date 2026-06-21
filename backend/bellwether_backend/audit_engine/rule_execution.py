@@ -826,6 +826,57 @@ def run_traceback_fire_drill(events: dict[str, CustomerEventNode], target_lot: s
     )
 
 
+def findings_from_integrity_and_anomalies(
+    existing: list[AuditFinding],
+    *,
+    tlc_integrity_checks: list[TlcIntegrityCheck],
+    quality_anomalies: list[QualityAnomaly],
+) -> list[AuditFinding]:
+    """Turn P2 (TLC integrity) and P5 (anomalies) into AuditFindings so they ride the existing
+    persistence -> finding-card path and actually show up in the operator UI, instead of being
+    invisible side-channel fields."""
+    new: list[AuditFinding] = []
+    for check in tlc_integrity_checks:
+        if check.status != "gap":
+            continue
+        new.append(
+            AuditFinding(
+                finding_id=f"phase11-finding-{len(existing) + len(new) + 1:04d}",
+                event_id=check.event_id,
+                cte=check.cte,
+                severity="high",
+                status="gap",
+                finding_type=f"tlc_{check.check_kind}",
+                message=check.reason,
+                approved_obligation_id="engine-tlc-integrity",
+                source_citation={"section": CTE_SECTION_REFS.get(check.cte, "21 CFR 1.1350")},
+                customer_evidence_ids=check.evidence_ids,
+                confidence=0.9,
+                reviewer_status="needs_review",
+                affected_fields=sorted(str(k) for k in check.details.keys()),
+            )
+        )
+    for anomaly in quality_anomalies:
+        new.append(
+            AuditFinding(
+                finding_id=f"phase11-finding-{len(existing) + len(new) + 1:04d}",
+                event_id=None,
+                cte=None,
+                severity=anomaly.severity,
+                status="operational_anomaly",
+                finding_type=f"anomaly_{anomaly.anomaly_type}",
+                message=anomaly.reason,
+                approved_obligation_id="engine-data-quality",
+                source_citation={"section": "21 CFR 1.1315"},
+                customer_evidence_ids=anomaly.evidence_ids,
+                confidence=0.7,
+                reviewer_status="needs_review",
+                affected_fields=[str(anomaly.details.get("field"))] if anomaly.details.get("field") else [],
+            )
+        )
+    return new
+
+
 def build_phase11_rule_execution(
     *,
     input_file: Path,
@@ -896,6 +947,15 @@ def build_phase11_rule_execution(
         sortable_export_checks=sortable_export_checks,
         approved_obligations=approved_obligations,
     )
+    # P2 + P5 checks become findings so they persist and render in the UI like any other finding.
+    tlc_integrity_checks = check_tlc_integrity(mappings=obligation_mappings, events=event_by_id)
+    tlc_integrity_checks += check_uom_reconciliation(mappings=obligation_mappings, events=event_by_id)
+    quality_anomalies = detect_data_quality_anomalies(event_by_id)
+    audit_findings += findings_from_integrity_and_anomalies(
+        audit_findings,
+        tlc_integrity_checks=tlc_integrity_checks,
+        quality_anomalies=quality_anomalies,
+    )
     exception_queue = generate_exception_queue(audit_findings)
     supplier_product_coverage = build_supplier_product_coverage(
         events=event_by_id,
@@ -903,9 +963,6 @@ def build_phase11_rule_execution(
         tlc_checks=tlc_checks,
         counterparties=getattr(phase10.entity_graph, "counterparties", []),
     )
-    tlc_integrity_checks = check_tlc_integrity(mappings=obligation_mappings, events=event_by_id)
-    tlc_integrity_checks += check_uom_reconciliation(mappings=obligation_mappings, events=event_by_id)
-    quality_anomalies = detect_data_quality_anomalies(event_by_id)
     supplier_scorecards = build_supplier_scorecards(supplier_product_coverage)
     export_package = build_fda_style_export_package(
         rule_package=rule_package,

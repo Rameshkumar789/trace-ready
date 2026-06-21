@@ -16,7 +16,7 @@ export function UploadWorkbookForm({ action }: { action: (formData: FormData) =>
     >
       <label className={`records-dropzone ${fileName ? "has-file" : ""}`}>
         <input
-          accept=".xlsx,.xlsm"
+          accept=".xlsx,.xlsm,.csv,.edi,.x12,.asn,.xml"
           name="workbook"
           onChange={(event) => setFileName(event.currentTarget.files?.[0]?.name ?? "")}
           required

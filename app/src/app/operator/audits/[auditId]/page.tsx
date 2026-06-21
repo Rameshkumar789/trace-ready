@@ -11,6 +11,7 @@ import {
 } from "@/lib/audit/operator-audit-db";
 import { loadAuditProcessingStatus } from "@/lib/audit/audit-processing-status";
 import { AuditProcessing } from "./AuditProcessing";
+import { ScopeScorecardPanel } from "./ScopeScorecardPanel";
 import { runDemoAudit } from "@/lib/audit/demo-audit";
 import type { Finding } from "@/lib/findings/finding";
 import type { StoredAudit } from "@/lib/audit/stored-audit";
@@ -78,6 +79,8 @@ export default async function AuditWorkspacePage({ params }: { params: Promise<{
         />
 
         {findings.length ? <SeverityCteMatrix findings={findings} /> : null}
+
+        <ScopeScorecardPanel audit={audit} />
 
         {mustFix.length ? (
           <section className="flex flex-col gap-3">
