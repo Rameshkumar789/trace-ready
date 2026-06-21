@@ -1,5 +1,11 @@
 import type { StoredAudit } from "@/lib/audit/stored-audit";
 import { findingsToRows } from "./export-audit-xlsx";
+import {
+  buildSupplierProductCoverage,
+  buildSupplierScorecards,
+  coverageToRows,
+  scorecardsToRows
+} from "./supplier-scorecard";
 
 function buildReadinessSummaryRows(audit: StoredAudit) {
   const counts = audit.findings.reduce<Record<string, number>>((acc, finding) => {
@@ -36,6 +42,8 @@ export function buildAuditExportPackage(audit: StoredAudit) {
   return {
     "11_Bellwether_Findings": findingsToRows(audit.findings),
     "12_Readiness_Summary": buildReadinessSummaryRows(audit),
-    "13_FDA_Sortable_Export_Check": buildSortableExportCheckRows(audit)
+    "13_FDA_Sortable_Export_Check": buildSortableExportCheckRows(audit),
+    "14_Scope_Coverage": coverageToRows(buildSupplierProductCoverage(audit)),
+    "15_Supplier_Scorecard": scorecardsToRows(buildSupplierScorecards(audit))
   };
 }
