@@ -97,6 +97,11 @@ export function FindingCard({
               <BlockLabel icon={<BookOpen size={15} />}>The FSMA rule</BlockLabel>
               <RuleCitation explanation={explanation} />
             </div>
+          ) : finding.sourceCitation?.section || finding.sourceCitation?.note ? (
+            <div className="min-w-[220px] flex-1">
+              <BlockLabel icon={<BookOpen size={15} />}>The FSMA rule</BlockLabel>
+              <EngineCitation citation={finding.sourceCitation} />
+            </div>
           ) : null}
           {finding.recommendation ? (
             <div className="min-w-[220px] flex-1">
@@ -118,6 +123,22 @@ export function FindingCard({
         ) : null}
       </div>
     </Card>
+  );
+}
+
+function EngineCitation({ citation }: { citation: NonNullable<Finding["sourceCitation"]> }) {
+  return (
+    <div className="rounded-pill border border-line px-3 py-2">
+      <span className="inline-flex items-center gap-1 text-[13px] font-medium text-accent">
+        {citation.section ?? "FSMA 204"}
+      </span>
+      {citation.scenario ? (
+        <span className="ml-2 rounded bg-review-soft px-1.5 py-0.5 text-[11px] font-semibold text-review">
+          flexibility: {citation.scenario.replace(/_/g, " ")}
+        </span>
+      ) : null}
+      {citation.note ? <p className="mt-0.5 text-[13px] leading-normal text-muted">{citation.note}</p> : null}
+    </div>
   );
 }
 

@@ -443,9 +443,18 @@ export function mapFindingRow(row: FindingRow): Finding {
     sourceChunkId: row.source_chunk_id ?? stringFrom(citation.chunkId) ?? stringFrom(citation.section) ?? "approved-source",
     kdeRequirementId: row.kde_requirement_id ?? undefined,
     approvedObligationId: row.approved_obligation_id ?? undefined,
+    sourceCitation: citationFromMetadata(citation),
     evidenceRefs: evidenceRefsFromJson(row.evidence_refs_json),
     reviewState: toReviewState(row.review_state)
   };
+}
+
+function citationFromMetadata(citation: Record<string, unknown>): Finding["sourceCitation"] {
+  const section = stringFrom(citation.section);
+  const scenario = stringFrom(citation.scenario);
+  const note = stringFrom(citation.note);
+  if (!section && !scenario && !note) return undefined;
+  return { section, scenario, note };
 }
 
 function datasetFromDb(datasetJson: unknown, events: NormalizedEventRow[], evidenceItems: EvidenceItemRow[]): NormalizedAuditDataset {

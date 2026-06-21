@@ -18,6 +18,10 @@ export interface Finding {
   kdeRequirementId?: string;
   regulatorySourceId?: string;
   approvedObligationId?: string;
+  // Engine-supplied citation (CFR section, plus any flexibility scenario/note from the
+  // flexibility-aware resolver). Surfaced on the finding card when there's no obligation
+  // explanation (e.g. P2 integrity, P5 anomaly, or a flexibility-scoped finding).
+  sourceCitation?: { section?: string; scenario?: string; note?: string };
   evidenceRefs: EvidenceRef[];
   reviewState: "pending" | "approved" | "edited" | "dismissed" | "needs_more_evidence";
 }
