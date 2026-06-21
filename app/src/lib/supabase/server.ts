@@ -70,7 +70,7 @@ function createSupabaseServiceClient() {
 export async function getBellwetherProfile(userId: string): Promise<BellwetherProfile | undefined> {
   const supabase = createSupabaseServiceClient();
   const { data, error } = await supabase
-    .from("bellwether_profiles")
+    .from("traceready_profiles")
     .select("user_id,email,full_name,company_name,role,status")
     .eq("user_id", userId)
     .maybeSingle();
@@ -132,7 +132,7 @@ export async function upsertBellwetherProfile({
 export async function activateBellwetherProfile(userId: string): Promise<void> {
   const supabase = createSupabaseServiceClient();
   const { error } = await supabase
-    .from("bellwether_profiles")
+    .from("traceready_profiles")
     .update({
       status: "active",
       updated_at: new Date().toISOString()
