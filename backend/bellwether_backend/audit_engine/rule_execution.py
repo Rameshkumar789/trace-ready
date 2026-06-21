@@ -136,6 +136,21 @@ class TlcIntegrityCheck(StrictRuleExecutionModel):
     evidence_ids: list[str] = Field(default_factory=list)
 
 
+class QualityAnomaly(StrictRuleExecutionModel):
+    """P5 — data-quality / plausibility anomalies that presence checks miss: impossible
+    chronology (ship before receive), one lot code reused across many products (the "same lot
+    on everything" pattern Jim flagged — surfaced as needs_review, since our research could not
+    confirm it is fraud vs. a placeholder), and GS1 GTIN/GLN check-digit failures."""
+
+    anomaly_id: str
+    anomaly_type: str
+    severity: str
+    status: str  # gap | needs_review
+    reason: str
+    details: dict[str, Any] = Field(default_factory=dict)
+    evidence_ids: list[str] = Field(default_factory=list)
+
+
 class AuditFinding(StrictRuleExecutionModel):
     finding_id: str
     event_id: str | None = None
@@ -198,6 +213,8 @@ class Phase11RuleExecutionPackage(StrictRuleExecutionModel):
     supplier_product_coverage: list[SupplierProductCoverage] = Field(default_factory=list)
     # P2 lot-code integrity checks (retention / reassignment / UoM). Additive/optional.
     tlc_integrity_checks: list[TlcIntegrityCheck] = Field(default_factory=list)
+    # P5 data-quality / plausibility anomalies. Additive/optional.
+    quality_anomalies: list[QualityAnomaly] = Field(default_factory=list)
 
 
 BUNDLED_RULES_DIR = Path(__file__).resolve().parent / "bundled_rules"
@@ -505,6 +522,99 @@ def check_uom_reconciliation(
     return checks
 
 
+def _gs1_check_digit_valid(code: str) -> bool:
+    """GS1 mod-10 check digit (GTIN-8/12/13/14, GLN-13). Returns True only for the valid
+    GS1 lengths with a correct check digit; non-GS1-shaped values are not judged here."""
+    digits = [int(ch) for ch in code if ch.isdigit()]
+    if len(code) != len(digits) or len(digits) not in {8, 12, 13, 14}:
+        return False
+    body, check = digits[:-1], digits[-1]
+    # Weights alternate 3/1 from the rightmost body digit.
+    total = sum(d * (3 if i % 2 == 0 else 1) for i, d in enumerate(reversed(body)))
+    return (10 - (total % 10)) % 10 == check
+
+
+def _parse_dt(value: str | None):
+    if not value:
+        return None
+    text = str(value).strip().replace("Z", "+00:00")
+    try:
+        from datetime import datetime
+
+        return datetime.fromisoformat(text)
+    except ValueError:
+        return None
+
+
+_RECEIVE_CTES = {"receiving", "first_land_based_receiving", "initial_packing", "harvesting"}
+
+
+def detect_data_quality_anomalies(events: dict[str, CustomerEventNode]) -> list[QualityAnomaly]:
+    anomalies: list[QualityAnomaly] = []
+
+    # 1) Impossible chronology: a lot shipped before it was received/packed.
+    by_lot: dict[str, dict[str, Any]] = defaultdict(lambda: {"receive": [], "ship": [], "events": []})
+    for event in events.values():
+        lot = _real_value(event.lot_or_tlc) or _real_value(event.output_lot_or_tlc)
+        dt = _parse_dt(event.event_datetime)
+        if not lot or dt is None:
+            continue
+        key = lot.strip().lower()
+        by_lot[key]["events"].append(event.event_id)
+        for cte in event.classified_ctes:
+            if cte in _RECEIVE_CTES:
+                by_lot[key]["receive"].append(dt)
+            elif cte == "shipping":
+                by_lot[key]["ship"].append(dt)
+    for lot, rec in by_lot.items():
+        if rec["receive"] and rec["ship"] and min(rec["ship"]) < min(rec["receive"]):
+            anomalies.append(
+                QualityAnomaly(
+                    anomaly_id=f"anom-chrono-{len(anomalies) + 1:03d}",
+                    anomaly_type="impossible_chronology", severity="high", status="gap",
+                    reason="Lot was shipped before it was received/packed — the dates cannot be correct.",
+                    details={"lot": lot, "earliest_ship": min(rec["ship"]).isoformat(), "earliest_receive": min(rec["receive"]).isoformat()},
+                )
+            )
+
+    # 2) One lot code reused across many distinct products (Jim's "same lot on everything").
+    products_by_lot: dict[str, set[str]] = defaultdict(set)
+    for event in events.values():
+        lot = _real_value(event.lot_or_tlc)
+        product = event.product_name or event.product_id
+        if lot and product:
+            products_by_lot[lot.strip().lower()].add(product)
+    for lot, products in products_by_lot.items():
+        if len(products) > 1:
+            anomalies.append(
+                QualityAnomaly(
+                    anomaly_id=f"anom-lotreuse-{len(anomalies) + 1:03d}",
+                    anomaly_type="lot_code_reused_across_products", severity="medium", status="needs_review",
+                    reason="The same lot code appears on multiple distinct products — verify it is a real lot, not a placeholder or duplicate.",
+                    details={"lot": lot, "products": sorted(products)},
+                )
+            )
+
+    # 3) GS1 check-digit failures on GS1-shaped identifiers (product_id as GTIN, partner ids as GLN).
+    seen_ids: set[str] = set()
+    for event in events.values():
+        for label, value in (("product_id", event.product_id), ("from_partner_id", event.from_partner_id), ("to_partner_id", event.to_partner_id)):
+            candidate = (value or "").strip()
+            if not candidate or candidate in seen_ids or not candidate.isdigit() or len(candidate) not in {8, 12, 13, 14}:
+                continue
+            seen_ids.add(candidate)
+            if not _gs1_check_digit_valid(candidate):
+                anomalies.append(
+                    QualityAnomaly(
+                        anomaly_id=f"anom-gs1-{len(anomalies) + 1:03d}",
+                        anomaly_type="gs1_check_digit_invalid", severity="medium", status="needs_review",
+                        reason=f"{label} looks like a GS1 identifier but its check digit is invalid (Walmart/Kroger require valid GS1 GTIN/GLN).",
+                        details={"field": label, "value": candidate},
+                    )
+                )
+    return anomalies
+
+
 def build_phase11_rule_execution(
     *,
     input_file: Path,
@@ -584,6 +694,7 @@ def build_phase11_rule_execution(
     )
     tlc_integrity_checks = check_tlc_integrity(mappings=obligation_mappings, events=event_by_id)
     tlc_integrity_checks += check_uom_reconciliation(mappings=obligation_mappings, events=event_by_id)
+    quality_anomalies = detect_data_quality_anomalies(event_by_id)
     export_package = build_fda_style_export_package(
         rule_package=rule_package,
         events=event_by_id,
@@ -620,6 +731,7 @@ def build_phase11_rule_execution(
         export_package=export_package,
         supplier_product_coverage=supplier_product_coverage,
         tlc_integrity_checks=tlc_integrity_checks,
+        quality_anomalies=quality_anomalies,
     )
 
 
