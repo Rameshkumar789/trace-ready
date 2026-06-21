@@ -151,6 +151,27 @@ class QualityAnomaly(StrictRuleExecutionModel):
     evidence_ids: list[str] = Field(default_factory=list)
 
 
+class SupplierScorecardAction(StrictRuleExecutionModel):
+    field_or_issue: str
+    action: str
+    citation: str
+
+
+class SupplierScorecard(StrictRuleExecutionModel):
+    """P4 — the per-supplier report card a buyer hands to a trading partner: a grade, what's
+    missing, and citation-backed actions. The enforcement instrument (mirrors the Walmart/Kroger
+    chargeback model) rather than just an internal report."""
+
+    supplier_id: str
+    supplier_name: str | None = None
+    grade: str  # A | B | C | D | F
+    in_scope_products: int
+    products_with_gaps: int
+    tlc_gap: bool
+    missing_fields: list[str] = Field(default_factory=list)
+    recommended_actions: list[SupplierScorecardAction] = Field(default_factory=list)
+
+
 class AuditFinding(StrictRuleExecutionModel):
     finding_id: str
     event_id: str | None = None
@@ -215,6 +236,8 @@ class Phase11RuleExecutionPackage(StrictRuleExecutionModel):
     tlc_integrity_checks: list[TlcIntegrityCheck] = Field(default_factory=list)
     # P5 data-quality / plausibility anomalies. Additive/optional.
     quality_anomalies: list[QualityAnomaly] = Field(default_factory=list)
+    # P4 per-supplier scorecards. Additive/optional.
+    supplier_scorecards: list[SupplierScorecard] = Field(default_factory=list)
 
 
 BUNDLED_RULES_DIR = Path(__file__).resolve().parent / "bundled_rules"
@@ -615,6 +638,93 @@ def detect_data_quality_anomalies(events: dict[str, CustomerEventNode]) -> list[
     return anomalies
 
 
+# Field -> representative CFR citation for the supplier-facing recommended actions.
+FIELD_CITATIONS = {
+    "traceability_lot_code": "21 CFR 1.1340 / 1.1345",
+    "output_lot_or_tlc": "21 CFR 1.1350",
+    "source_lot_or_tlc": "21 CFR 1.1350",
+    "event_datetime": "21 CFR 1.1340(a) / 1.1345(a)",
+    "reference_record_no": "21 CFR 1.1340(a) / 1.1345(a)",
+    "reference_record_type": "21 CFR 1.1340(a) / 1.1345(a)",
+    "product_name": "21 CFR 1.1340(a) / 1.1345(a)",
+    "location_id": "21 CFR 1.1340(a) / 1.1345(a)",
+}
+DEFAULT_FIELD_CITATION = "21 CFR 1.1315"
+
+
+def _supplier_grade(in_scope: int, with_gaps: int, tlc_gap: bool) -> str:
+    if in_scope == 0:
+        return "A"
+    ratio = with_gaps / in_scope
+    if tlc_gap and ratio >= 0.5:
+        return "F"
+    if ratio >= 0.5:
+        return "F"
+    if ratio >= 0.3:
+        return "D"
+    if ratio >= 0.15:
+        return "C"
+    if ratio > 0:
+        return "B"
+    return "A"
+
+
+def build_supplier_scorecards(coverage: list[SupplierProductCoverage]) -> list[SupplierScorecard]:
+    """Roll the supplier x product coverage up into a per-supplier graded scorecard with
+    citation-backed actions a buyer can send to the supplier."""
+    by_supplier: "OrderedDict[str, dict[str, Any]]" = OrderedDict()
+    for row in coverage:
+        bucket = by_supplier.setdefault(
+            row.supplier_id,
+            {"name": row.supplier_name, "in_scope": 0, "gaps": 0, "tlc_gap": False, "missing": []},
+        )
+        if row.ftl_status != "off":  # out-of-scope products don't count against the supplier
+            bucket["in_scope"] += 1
+            if row.status == "gap":
+                bucket["gaps"] += 1
+        if row.tlc_gap:
+            bucket["tlc_gap"] = True
+        for field in row.missing_fields:
+            if field not in bucket["missing"]:
+                bucket["missing"].append(field)
+
+    scorecards: list[SupplierScorecard] = []
+    for supplier_id, bucket in by_supplier.items():
+        actions: list[SupplierScorecardAction] = []
+        for field in bucket["missing"]:
+            actions.append(
+                SupplierScorecardAction(
+                    field_or_issue=field,
+                    action=f"Provide {_field_label(field)} on every covered record.",
+                    citation=FIELD_CITATIONS.get(field, DEFAULT_FIELD_CITATION),
+                )
+            )
+        if bucket["tlc_gap"]:
+            actions.append(
+                SupplierScorecardAction(
+                    field_or_issue="tlc_lineage",
+                    action="Link each shipped lot back to its source/transformation lot so the chain is unbroken.",
+                    citation="21 CFR 1.1350",
+                )
+            )
+        scorecards.append(
+            SupplierScorecard(
+                supplier_id=supplier_id,
+                supplier_name=bucket["name"],
+                grade=_supplier_grade(bucket["in_scope"], bucket["gaps"], bucket["tlc_gap"]),
+                in_scope_products=bucket["in_scope"],
+                products_with_gaps=bucket["gaps"],
+                tlc_gap=bucket["tlc_gap"],
+                missing_fields=bucket["missing"],
+                recommended_actions=actions,
+            )
+        )
+    # Worst grade first so the buyer sees who to chase.
+    grade_rank = {"F": 0, "D": 1, "C": 2, "B": 3, "A": 4}
+    scorecards.sort(key=lambda s: (grade_rank.get(s.grade, 5), -s.products_with_gaps, s.supplier_id))
+    return scorecards
+
+
 def build_phase11_rule_execution(
     *,
     input_file: Path,
@@ -695,6 +805,7 @@ def build_phase11_rule_execution(
     tlc_integrity_checks = check_tlc_integrity(mappings=obligation_mappings, events=event_by_id)
     tlc_integrity_checks += check_uom_reconciliation(mappings=obligation_mappings, events=event_by_id)
     quality_anomalies = detect_data_quality_anomalies(event_by_id)
+    supplier_scorecards = build_supplier_scorecards(supplier_product_coverage)
     export_package = build_fda_style_export_package(
         rule_package=rule_package,
         events=event_by_id,
@@ -732,6 +843,7 @@ def build_phase11_rule_execution(
         supplier_product_coverage=supplier_product_coverage,
         tlc_integrity_checks=tlc_integrity_checks,
         quality_anomalies=quality_anomalies,
+        supplier_scorecards=supplier_scorecards,
     )
 
 
