@@ -1,5 +1,5 @@
 import { createSupabaseAdminClient } from "@/lib/supabase/admin";
-import type { TraceReadySession } from "@/lib/auth/session-cookie";
+import type { BellwetherSession } from "@/lib/auth/session";
 import type { Finding } from "@/lib/findings/finding";
 import type { FindingSeverity, FindingState, NormalizedAuditDataset, CTEType, EvidenceRef } from "@/lib/ontology/types";
 import type { StoredAudit, StoredAuditSummary } from "@/lib/audit/stored-audit";
@@ -132,7 +132,7 @@ interface ArtifactRow {
 const projectSelect =
   "id, customer_id, customer_name, file_name, mode, status, created_by_user_id, dataset_json, parse_errors, created_at, updated_at";
 
-export async function loadOperatorAuditDashboard(session: TraceReadySession): Promise<OperatorAuditDashboard> {
+export async function loadOperatorAuditDashboard(session: BellwetherSession): Promise<OperatorAuditDashboard> {
   const summaries = await listOperatorAuditSummaries(session, 25);
   return {
     totalAudits: summaries.length,
@@ -145,7 +145,7 @@ export async function loadOperatorAuditDashboard(session: TraceReadySession): Pr
   };
 }
 
-export async function listOperatorAuditSummaries(session: TraceReadySession, limit = 50): Promise<OperatorAuditSummary[]> {
+export async function listOperatorAuditSummaries(session: BellwetherSession, limit = 50): Promise<OperatorAuditSummary[]> {
   const client = createSupabaseAdminClient();
   const projects = await listAccessibleProjects(client, session, limit);
   if (!projects.length) return [];
@@ -195,7 +195,7 @@ export async function listOperatorAuditSummaries(session: TraceReadySession, lim
   });
 }
 
-export async function loadOperatorStoredAudit(auditProjectId: string, session: TraceReadySession): Promise<StoredAudit | undefined> {
+export async function loadOperatorStoredAudit(auditProjectId: string, session: BellwetherSession): Promise<StoredAudit | undefined> {
   const client = createSupabaseAdminClient();
   const project = await loadAuthorizedProject(client, auditProjectId, session);
   if (!project) return undefined;
@@ -288,7 +288,7 @@ export async function loadObligationExplanations(obligationIds: string[]): Promi
 export async function loadOperatorAuditArtifact(
   auditProjectId: string,
   artifactTypes: string[],
-  session: TraceReadySession
+  session: BellwetherSession
 ): Promise<OperatorAuditArtifact | undefined> {
   const client = createSupabaseAdminClient();
   const project = await loadAuthorizedProject(client, auditProjectId, session);
@@ -346,7 +346,7 @@ function evidenceItemQuery(client: ReturnType<typeof createSupabaseAdminClient>,
   return auditRunId ? query.eq("audit_run_id", auditRunId) : query;
 }
 
-async function listAccessibleProjects(client: ReturnType<typeof createSupabaseAdminClient>, session: TraceReadySession, limit: number) {
+async function listAccessibleProjects(client: ReturnType<typeof createSupabaseAdminClient>, session: BellwetherSession, limit: number) {
   if (session.role === "founder_admin") {
     return selectMany<ProjectRow>(
       client.from("audit_projects").select(projectSelect).order("created_at", { ascending: false }).limit(limit)
@@ -382,7 +382,7 @@ async function listAccessibleProjects(client: ReturnType<typeof createSupabaseAd
     .slice(0, limit);
 }
 
-async function loadAuthorizedProject(client: ReturnType<typeof createSupabaseAdminClient>, auditProjectId: string, session: TraceReadySession) {
+async function loadAuthorizedProject(client: ReturnType<typeof createSupabaseAdminClient>, auditProjectId: string, session: BellwetherSession) {
   const project = await selectMaybe<ProjectRow>(
     client.from("audit_projects").select(projectSelect).eq("id", auditProjectId).maybeSingle()
   );

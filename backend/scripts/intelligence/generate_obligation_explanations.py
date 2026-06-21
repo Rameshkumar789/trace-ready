@@ -4,7 +4,7 @@ Reads the approved obligations (their source-chunk text), drafts grounded plain-
 explanations via the ingestion LLM client, and upserts them into Supabase
 ``obligation_explanations`` as status='ai_generated' (pending reviewer approval).
 
-Run from traceready/ingestion:  python scripts/intelligence/generate_obligation_explanations.py
+Run from bellwether/ingestion:  python scripts/intelligence/generate_obligation_explanations.py
 """
 
 from __future__ import annotations
@@ -13,8 +13,8 @@ import json
 import os
 from pathlib import Path
 
-from traceready_backend.intelligence.anthropic_client import AnthropicJSONClient, AnthropicLLMConfig
-from traceready_backend.intelligence.obligation_explanations import generate_obligation_explanations
+from bellwether_backend.intelligence.anthropic_client import AnthropicJSONClient, AnthropicLLMConfig
+from bellwether_backend.intelligence.obligation_explanations import generate_obligation_explanations
 
 REPO = Path(__file__).resolve().parents[3]
 PACKAGE = REPO / "data/regulatory/intelligence/rules/approved-rule-package-v1.json"

@@ -60,11 +60,11 @@ LOCAL_SOURCE_MAP = {
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Batch ingest local FDA/CFR documents into TraceReady regulatory artifacts.")
+    parser = argparse.ArgumentParser(description="Batch ingest local FDA/CFR documents into Bellwether regulatory artifacts.")
     parser.add_argument("--input-dir", required=True)
     parser.add_argument("--output-dir", default="../data/regulatory")
     parser.add_argument("--manifest", default="../data/regulatory/local-fda-documents-ingestion-manifest.json")
-    parser.add_argument("--include-traceready-context", action="store_true")
+    parser.add_argument("--include-bellwether-context", action="store_true")
     args = parser.parse_args()
 
     input_dir = Path(args.input_dir)
@@ -93,7 +93,7 @@ def main() -> None:
                     url=url,
                     source_id=source_id,
                     output_dir=source_output_dir,
-                    include_trace_ready_context=args.include_traceready_context,
+                    include_trace_ready_context=args.include_bellwether_context,
                 )
             else:
                 result = ingest_source_pdf(
@@ -101,7 +101,7 @@ def main() -> None:
                     url=url,
                     source_id=source_id,
                     output_dir=source_output_dir,
-                    include_trace_ready_context=args.include_traceready_context,
+                    include_trace_ready_context=args.include_bellwether_context,
                 )
             manifest.append(
                 {

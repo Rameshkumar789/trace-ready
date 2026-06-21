@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_backend.intelligence.phase13_release_gates import (
+from bellwether_backend.intelligence.phase13_release_gates import (
     build_phase13_release_gates,
     write_phase13_release_gate_artifacts,
 )

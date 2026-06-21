@@ -338,7 +338,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Ingest the FDA FSMA 204 hub page and English/core linked artifacts.")
     parser.add_argument("--output-dir", default="../data/regulatory")
     parser.add_argument("--manifest", default="../data/regulatory/fda-fsma204-hub-ingestion-manifest.json")
-    parser.add_argument("--include-traceready-context", action="store_true")
+    parser.add_argument("--include-bellwether-context", action="store_true")
     parser.add_argument("--source-id", action="append", help="Limit ingestion to one or more source IDs.")
     args = parser.parse_args()
 
@@ -357,7 +357,7 @@ def main() -> None:
                 source_output_dir,
                 min_section=source.get("minSection"),
                 max_section=source.get("maxSection"),
-                include_trace_ready_context=args.include_traceready_context,
+                include_trace_ready_context=args.include_bellwether_context,
             )
             manifest.append(
                 {

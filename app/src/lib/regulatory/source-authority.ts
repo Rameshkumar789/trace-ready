@@ -16,16 +16,6 @@ export function assertProposedRulesAreNotFinal(sources: RegulatorySource[]) {
   return [];
 }
 
-export function sourceAuthoritySummary(sources: RegulatorySource[]) {
-  return sortByAuthority(sources).map((source) => ({
-    sourceId: source.sourceId,
-    citation: source.citation,
-    status: source.sourceStatus,
-    rank: source.authorityRank,
-    isFinalized: source.isFinalized
-  }));
-}
-
 function authorityRankValue(rank: RegulatorySource["authorityRank"]) {
   if (typeof rank === "number") {
     return rank;

@@ -1,6 +1,6 @@
 import unittest
 
-from traceready_backend.context import build_source_context, fsma_rules_guidance_context
+from bellwether_backend.context import build_source_context, fsma_rules_guidance_context
 
 
 class FsmaRulesContextTest(unittest.TestCase):

@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import { describe, expect, it } from "vitest";
 import { auditUploadKey, createUploadAuditJob } from "./upload-job";
 import type { QueuedUploadRecords, UploadAuditJobRepository } from "./upload-job";
-import type { TraceReadySession } from "@/lib/auth/session-cookie";
+import type { BellwetherSession } from "@/lib/auth/session";
 import type { StorageProvider, StoredObject } from "@/lib/storage/storage-provider";
 
 class CapturingStorage implements StorageProvider {
@@ -52,7 +52,7 @@ describe("upload audit job creation", () => {
 
     const records = repository.queued;
     expect(records).toBeDefined();
-    expect(records?.customer.name).toBe("TraceReady Pilot Co");
+    expect(records?.customer.name).toBe("Bellwether Pilot Co");
     expect(records?.membership.user_id).toBe(testSession().userId);
     expect(records?.auditProject.status).toBe("queued");
     expect(records?.auditProject.raw_workbook_key).toBe(queued.storageKey);
@@ -87,15 +87,12 @@ describe("upload audit job creation", () => {
   });
 });
 
-function testSession(): TraceReadySession {
+function testSession(): BellwetherSession {
   return {
-    authProvider: "supabase",
     userId: "11111111-1111-4111-8111-111111111111",
     email: "operator@example.com",
     fullName: "Pilot Operator",
-    companyName: "TraceReady Pilot Co",
-    role: "operator",
-    issuedAt: 1,
-    expiresAt: 9_999_999_999_999
+    companyName: "Bellwether Pilot Co",
+    role: "operator"
   };
 }

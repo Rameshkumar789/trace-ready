@@ -2,7 +2,6 @@ import fs from "node:fs";
 import path from "node:path";
 import type {
   KdeRequirementRecord,
-  Phase6ReviewPackage,
   RegulatoryObligation,
   RegulatorySource,
   RuleCard,
@@ -49,7 +48,7 @@ export function loadRegulatorySources(): RegulatorySource[] {
   return [...sources, ...legacySourceAliases(sources)];
 }
 
-export function loadSourceChunks(): SourceChunk[] {
+function loadSourceChunks(): SourceChunk[] {
   const chunks: SourceChunk[] = readJson<CanonicalSourceChunk[]>("registry/source-chunks.json").map((chunk) => ({
     chunkId: chunk.chunk_id,
     regulatorySourceId: chunk.source_id,
@@ -78,11 +77,11 @@ export function loadSourceChunks(): SourceChunk[] {
   return [...chunks, ...legacyChunkAliases(chunks)];
 }
 
-export function loadRuleCards(): RuleCard[] {
+function loadRuleCards(): RuleCard[] {
   return readJsonIfExists<RuleCard[]>("intelligence/review/phase6-approved-records.json", []);
 }
 
-export function loadKdeRequirements(): KdeRequirementRecord[] {
+function loadKdeRequirements(): KdeRequirementRecord[] {
   const files = [
     "kde-requirements/harvest-cooling.json",
     "kde-requirements/initial-packing.json",
@@ -95,51 +94,15 @@ export function loadKdeRequirements(): KdeRequirementRecord[] {
   return files.flatMap((file) => readJsonIfExists<KdeRequirementRecord[]>(file, []));
 }
 
-export function loadScenarioCases(): ScenarioCase[] {
+function loadScenarioCases(): ScenarioCase[] {
   return [
     ...readJsonIfExists<ScenarioCase[]>("scenarios/fsma204-core.json", []),
     ...readJsonIfExists<ScenarioCase[]>("scenarios/fsma204-expanded.json", [])
   ];
 }
 
-export function loadObligations(): RegulatoryObligation[] {
+function loadObligations(): RegulatoryObligation[] {
   return readJsonIfExists<RegulatoryObligation[]>("obligations.json", []);
-}
-
-export function loadPhase6ReviewPackage(): Phase6ReviewPackage {
-  return readJson<Phase6ReviewPackage>("intelligence/review/phase6-review-package.json");
-}
-
-export function loadApprovedRulePackageSummary() {
-  return readJsonIfExists<{
-    package_id?: string;
-    version?: number;
-    package_hash?: string;
-    scenario_regression_gate?: { status?: string };
-  }>("intelligence/rules/approved-rule-package-v1.json", {});
-}
-
-export function loadPhase10CustomerEvidenceSummary() {
-  return readJsonIfExists<{
-    generatedAt?: string;
-    evidenceRecords?: number;
-    eventNodes?: number;
-  }>("intelligence/customer-evidence/phase10-summary.json", {});
-}
-
-export function loadPhase13ReleaseGatesSummary() {
-  return readJsonIfExists<{
-    twoStageStatus?: string;
-    subparagraphResolutionStatus?: string;
-  }>("intelligence/generalization/phase13-release-gates-summary.json", {});
-}
-
-export function loadPhase14GovernanceInputs() {
-  return {
-    rulePackage: loadApprovedRulePackageSummary(),
-    phase10Summary: loadPhase10CustomerEvidenceSummary(),
-    phase13Summary: loadPhase13ReleaseGatesSummary()
-  };
 }
 
 export function loadRegulatoryBundle() {

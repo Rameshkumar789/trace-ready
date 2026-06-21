@@ -11,4 +11,4 @@ export function getPrismaClient(): PrismaClient {
   return globalForPrisma.traceReadyPrisma;
 }
 
-export type TraceReadyPrismaClient = ReturnType<typeof getPrismaClient>;
+export type BellwetherPrismaClient = ReturnType<typeof getPrismaClient>;

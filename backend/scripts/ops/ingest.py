@@ -9,19 +9,19 @@ import json
 from html import unescape
 from pathlib import Path
 
-from traceready_backend.chunking.legal_chunker import chunk_legal_meaning_with_rejections
-from traceready_backend.context import build_source_context, classify_fsma_rule_entry
-from traceready_backend.extractors.ecfr_xml_extractor import extract_ecfr_sections
-from traceready_backend.extractors.fda_fsma_rules_page_extractor import (
+from bellwether_backend.chunking.legal_chunker import chunk_legal_meaning_with_rejections
+from bellwether_backend.context import build_source_context, classify_fsma_rule_entry
+from bellwether_backend.extractors.ecfr_xml_extractor import extract_ecfr_sections
+from bellwether_backend.extractors.fda_fsma_rules_page_extractor import (
     extract_fsma_rules_guidance_entries,
     extract_fsma_rules_guidance_sections,
 )
-from traceready_backend.extractors.html_extractor import extract_html_sections
-from traceready_backend.extractors.pdf_extractor import build_semantic_pdf_sections, extract_pdf_pages
-from traceready_backend.extractors.xlsx_extractor import extract_xlsx_sheets
-from traceready_backend.fetchers.ecfr_fetcher import fetch_url
-from traceready_backend.storage.artifacts import write_artifact
-from traceready_backend.versioning.hashing import sha256_bytes, sha256_text
+from bellwether_backend.extractors.html_extractor import extract_html_sections
+from bellwether_backend.extractors.pdf_extractor import build_semantic_pdf_sections, extract_pdf_pages
+from bellwether_backend.extractors.xlsx_extractor import extract_xlsx_sheets
+from bellwether_backend.fetchers.ecfr_fetcher import fetch_url
+from bellwether_backend.storage.artifacts import write_artifact
+from bellwether_backend.versioning.hashing import sha256_bytes, sha256_text
 
 
 def ingest_source_text(
@@ -240,7 +240,7 @@ def main() -> None:
     parser.add_argument("--output-dir", default="../data/regulatory")
     parser.add_argument("--min-section", type=float)
     parser.add_argument("--max-section", type=float)
-    parser.add_argument("--include-traceready-context", action="store_true")
+    parser.add_argument("--include-bellwether-context", action="store_true")
     args = parser.parse_args()
     if args.input_file:
         source_path = Path(args.input_file)
@@ -250,7 +250,7 @@ def main() -> None:
                 url=args.url,
                 source_id=args.source_id,
                 output_dir=Path(args.output_dir),
-                include_trace_ready_context=args.include_traceready_context,
+                include_trace_ready_context=args.include_bellwether_context,
             )
         elif source_path.suffix.lower() in {".xlsx", ".xlsm"}:
             result = ingest_source_xlsx(
@@ -258,7 +258,7 @@ def main() -> None:
                 url=args.url,
                 source_id=args.source_id,
                 output_dir=Path(args.output_dir),
-                include_trace_ready_context=args.include_traceready_context,
+                include_trace_ready_context=args.include_bellwether_context,
             )
         else:
             result = ingest_source_text(
@@ -269,7 +269,7 @@ def main() -> None:
                 raw_extension=source_path.suffix.lstrip(".") or "txt",
                 min_section=args.min_section,
                 max_section=args.max_section,
-                include_trace_ready_context=args.include_traceready_context,
+                include_trace_ready_context=args.include_bellwether_context,
             )
     else:
         result = ingest_html_url(
@@ -278,7 +278,7 @@ def main() -> None:
             Path(args.output_dir),
             min_section=args.min_section,
             max_section=args.max_section,
-            include_trace_ready_context=args.include_traceready_context,
+            include_trace_ready_context=args.include_bellwether_context,
         )
     print(
         json.dumps(

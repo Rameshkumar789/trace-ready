@@ -3,7 +3,7 @@ from __future__ import annotations
 import unittest
 from pathlib import Path
 
-from traceready_backend.intelligence.phase07_obligation_inventory import build_phase7_obligation_inventory
+from bellwether_backend.intelligence.phase07_obligation_inventory import build_phase7_obligation_inventory
 
 
 ROOT = Path(__file__).resolve().parents[2]

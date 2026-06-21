@@ -2,8 +2,8 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 
-from traceready_backend.api.config import ObjectStoreMode, RuntimeEnvironment, ServiceSettings
-from traceready_backend.storage.artifacts import (
+from bellwether_backend.api.config import ObjectStoreMode, RuntimeEnvironment, ServiceSettings
+from bellwether_backend.storage.artifacts import (
     LocalObjectStore,
     NonDurableObjectStoreError,
     ObjectStorageError,
@@ -105,7 +105,7 @@ class StorageArtifactsTest(unittest.TestCase):
 
     def test_local_object_store_upload_download_list_and_hash(self):
         with TemporaryDirectory() as tmpdir:
-            store = LocalObjectStore(Path(tmpdir), environ={"TRACEREADY_ENV": "test"})
+            store = LocalObjectStore(Path(tmpdir), environ={"BELLWETHER_ENV": "test"})
             key = audit_upload_key(
                 customer_id="customer_1",
                 audit_project_id="audit_1",
@@ -134,7 +134,7 @@ class StorageArtifactsTest(unittest.TestCase):
     def test_local_object_store_is_blocked_in_production(self):
         with TemporaryDirectory() as tmpdir:
             with self.assertRaises(NonDurableObjectStoreError):
-                LocalObjectStore(Path(tmpdir), environ={"TRACEREADY_ENV": "production"})
+                LocalObjectStore(Path(tmpdir), environ={"BELLWETHER_ENV": "production"})
 
     def test_supabase_object_store_uses_bucket_api_and_records_metadata(self):
         client = FakeSupabaseClient()

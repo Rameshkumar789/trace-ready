@@ -13,7 +13,7 @@ export function generateAuditReport(audit: AuditReportInput) {
   );
 
   const markdown = [
-    "# TraceReady FSMA 204 Readiness Audit",
+    "# Bellwether FSMA 204 Readiness Audit",
     "",
     "**Report status:** Draft readiness review",
     "",
@@ -28,19 +28,19 @@ export function generateAuditReport(audit: AuditReportInput) {
     "",
     "## Scope And Limitations",
     "",
-    "TraceReady evaluated uploaded or sample event data against approved source-backed rule cards and approved KDE requirements. Areas without sufficient customer evidence are marked not determined instead of treated as pass/fail.",
+    "Bellwether evaluated uploaded or sample event data against approved source-backed rule cards and approved KDE requirements. Areas without sufficient customer evidence are marked not determined instead of treated as pass/fail.",
     "",
     "## Source-System Readiness",
     "",
-    "TraceReady reviews whether supplied Excel, EDI/ASN, ERP, WMS, traceability-platform exports, supplier documents, and manual records can carry the required KDE, CTE, TLC, source-reference, and sortable-export evidence. This section is not an integration promise; it shows which current sources can or cannot prove readiness.",
+    "Bellwether reviews whether supplied Excel, EDI/ASN, ERP, WMS, traceability-platform exports, supplier documents, and manual records can carry the required KDE, CTE, TLC, source-reference, and sortable-export evidence. This section is not an integration promise; it shows which current sources can or cannot prove readiness.",
     "",
     "## Supplier Data Quality",
     "",
-    "TraceReady separates supplier-provided gaps from internal mapping or system gaps. Supplier data quality should show missing KDEs, missing TLCs, inconsistent product/location/date/quantity fields, weak source-document references, and repeated issue patterns.",
+    "Bellwether separates supplier-provided gaps from internal mapping or system gaps. Supplier data quality should show missing KDEs, missing TLCs, inconsistent product/location/date/quantity fields, weak source-document references, and repeated issue patterns.",
     "",
     "## Imported And Multilingual Record Review",
     "",
-    "Imported or non-English records are flagged for human review. TraceReady does not claim certified translation; blocked or ambiguous evidence is marked needs review or not determined before customer-facing findings are finalized.",
+    "Imported or non-English records are flagged for human review. Bellwether does not claim certified translation; blocked or ambiguous evidence is marked needs review or not determined before customer-facing findings are finalized.",
     "",
     "## Source Registry And Rule Versions",
     "",
@@ -77,7 +77,7 @@ export function generateAuditReport(audit: AuditReportInput) {
     "",
     "## Disclaimer",
     "",
-    "TraceReady provides a readiness review based on supplied records, source-backed rule cards, deterministic checks, and human review. It does not provide legal certification."
+    "Bellwether provides a readiness review based on supplied records, source-backed rule cards, deterministic checks, and human review. It does not provide legal certification."
   ].join("\n");
 
   return { markdown };

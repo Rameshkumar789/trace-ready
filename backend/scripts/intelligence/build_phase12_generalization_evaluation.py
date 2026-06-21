@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_backend.intelligence.phase12_generalization_evaluation import (
+from bellwether_backend.intelligence.phase12_generalization_evaluation import (
     build_phase12_generalization_evaluation,
     write_phase12_generalization_artifacts,
 )

@@ -1,6 +1,6 @@
 import type { CTEType, FindingSeverity, FindingState } from "@/lib/ontology/types";
 
-export type SourceStatus =
+type SourceStatus =
   | "codified_rule"
   | "final_rule"
   | "technical_amendment"
@@ -51,7 +51,7 @@ export interface SourceChunk {
   anchors?: CitationAnchor[];
 }
 
-export interface CitationAnchor {
+interface CitationAnchor {
   sourceId: string;
   citation: string;
   section?: string;
@@ -61,32 +61,6 @@ export interface CitationAnchor {
   url?: string;
   retrievedAt?: string;
   sourceHash?: string;
-}
-
-export interface SourceLibraryRecord {
-  source: RegulatorySource;
-  versions: SourceVersionRecord[];
-  artifacts: SourceArtifactRecord[];
-  chunks: SourceChunk[];
-}
-
-export interface SourceVersionRecord {
-  sourceVersionId: string;
-  sourceId: string;
-  version: number;
-  rawTextHash: string;
-  normalizedTextHash: string;
-  createdAt: string;
-  supersedesVersion?: number;
-}
-
-export interface SourceArtifactRecord {
-  artifactId: string;
-  sourceId: string;
-  sourceVersionId: string;
-  artifactType: "raw_snapshot" | "normalized_text" | "table_json";
-  storageKey: string;
-  hash: string;
 }
 
 export interface RuleCard {
@@ -138,17 +112,6 @@ export interface ScenarioCase {
   status: "draft" | "approved" | "deprecated";
 }
 
-export interface RegulatoryDraft<TDraft> {
-  draftId: string;
-  draftType: "rule_card" | "kde_requirement";
-  sourceChunkIds: string[];
-  draft: TDraft;
-  validationErrors: string[];
-  status: "draft" | "rejected" | "ready_for_review" | "approved";
-  createdBy: "ai" | "human";
-  createdAt: string;
-}
-
 export interface RegulatoryObligation {
   obligationId: string;
   obligationText: string;
@@ -164,55 +127,3 @@ export interface RegulatoryObligation {
   version: number;
 }
 
-export type IntelligenceReviewStatus = "draft" | "needs_review" | "approved" | "rejected" | "superseded" | "conflict_detected";
-
-export interface IntelligenceDraftReviewRecord {
-  draft_id: string;
-  collection: string;
-  record_id: string;
-  source_phase: string;
-  extraction_method: string;
-  confidence: string;
-  review_status: IntelligenceReviewStatus;
-  source_chunk_ids: string[];
-  citation_count: number;
-  citation_coverage_status: string;
-  schema_valid: boolean;
-  citation_valid: boolean;
-  validation_errors: string[];
-  reviewer_blockers: string[];
-  payload: Record<string, unknown>;
-}
-
-export interface IntelligenceReviewActionLogEntry {
-  action_id: string;
-  target_id: string;
-  action: string;
-  actor: string;
-  actor_role: string;
-  reason: string;
-  before: Record<string, unknown> | null;
-  after: Record<string, unknown> | null;
-  created_at: string;
-}
-
-export interface Phase6ReviewPackage {
-  summary: {
-    generatedAt: string;
-    draftRecords: number;
-    readyForReview: number;
-    rejectedRecords: number;
-    approvedRecords: number;
-    reviewActions: number;
-    statusCounts: Record<string, number>;
-    collectionCounts: Record<string, number>;
-    sourcePhaseCounts: Record<string, number>;
-    citationCoverage: Record<string, number>;
-    approvedRecordsPolicy: string;
-  };
-  draft_records: IntelligenceDraftReviewRecord[];
-  rejected_records: IntelligenceDraftReviewRecord[];
-  approved_records: Record<string, unknown>[];
-  review_action_log: IntelligenceReviewActionLogEntry[];
-  citation_coverage_report: Record<string, unknown>;
-}

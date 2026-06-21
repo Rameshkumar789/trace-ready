@@ -1,7 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 import { LocalMemoryStorageProvider, type StorageProvider, type StoredObject } from "./storage-provider";
 
-export class SupabaseStorageProvider implements StorageProvider {
+class SupabaseStorageProvider implements StorageProvider {
   private client = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL ?? "", process.env.SUPABASE_SERVICE_ROLE_KEY ?? "");
   private bucket = getPrivateStorageBucket();
 
@@ -25,7 +25,7 @@ export function getStorageProvider(): StorageProvider {
   if (process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY) {
     return new SupabaseStorageProvider();
   }
-  if (isProductionRuntime() && process.env.TRACEREADY_ALLOW_MEMORY_STORAGE !== "true") {
+  if (isProductionRuntime() && process.env.BELLWETHER_ALLOW_MEMORY_STORAGE !== "true") {
     throw new Error("Non-durable memory storage is disabled in production. Configure Supabase Storage.");
   }
   return new LocalMemoryStorageProvider();
@@ -38,10 +38,10 @@ export function getRequiredStorageProvider(): StorageProvider {
   throw new Error("Supabase Storage is required for DB-backed uploads.");
 }
 
-export function getPrivateStorageBucket() {
-  return process.env.SUPABASE_PRIVATE_BUCKET ?? process.env.TRACEREADY_STORAGE_BUCKET ?? "traceready-pilot-private";
+function getPrivateStorageBucket() {
+  return process.env.SUPABASE_PRIVATE_BUCKET ?? process.env.BELLWETHER_STORAGE_BUCKET ?? "bellwether-pilot-private";
 }
 
 function isProductionRuntime() {
-  return process.env.NODE_ENV === "production" || process.env.VERCEL_ENV === "production" || process.env.TRACEREADY_ENV === "production";
+  return process.env.NODE_ENV === "production" || process.env.VERCEL_ENV === "production" || process.env.BELLWETHER_ENV === "production";
 }

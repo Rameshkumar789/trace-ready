@@ -4,8 +4,8 @@ import unittest
 from contextlib import contextmanager
 from unittest.mock import patch
 
-from traceready_backend.api.config import RuntimeEnvironment, ServiceSettings, load_settings
-from traceready_backend.api.main import create_app
+from bellwether_backend.api.config import RuntimeEnvironment, ServiceSettings, load_settings
+from bellwether_backend.api.main import create_app
 
 
 def call_asgi(app, path, headers=None, method="GET", json_body=None):
@@ -65,7 +65,7 @@ class ApiSkeletonTest(unittest.TestCase):
         self.assertEqual(status, 200)
         self.assertEqual(headers[b"x-request-id"], b"req-test")
         self.assertIn(b'"status":"ok"', body)
-        self.assertIn(b'"service":"traceready-python-backend"', body)
+        self.assertIn(b'"service":"bellwether-python-backend"', body)
         self.assertIn(b'"environment":"test"', body)
 
     def test_ready_endpoint_reports_missing_required_config(self):
@@ -90,7 +90,7 @@ class ApiSkeletonTest(unittest.TestCase):
 
         denied_status, _denied_headers, _denied_body = call_asgi(app, "/internal/ping")
         allowed_status, _allowed_headers, allowed_body = call_asgi(
-            app, "/internal/ping", {"x-traceready-internal-token": "secret"}
+            app, "/internal/ping", {"x-bellwether-internal-token": "secret"}
         )
 
         self.assertEqual(denied_status, 401)
@@ -105,8 +105,8 @@ class ApiSkeletonTest(unittest.TestCase):
                 "SUPABASE_DATABASE_URL": "postgresql://example",
                 "NEXT_PUBLIC_SUPABASE_URL": "https://example.supabase.co",
                 "SUPABASE_SERVICE_ROLE_KEY": "service-role",
-                "TRACEREADY_INTERNAL_API_TOKEN": "internal",
-                "TRACEREADY_ALLOWED_ORIGINS": "https://app.example.com, https://ops.example.com",
+                "BELLWETHER_INTERNAL_API_TOKEN": "internal",
+                "BELLWETHER_ALLOWED_ORIGINS": "https://app.example.com, https://ops.example.com",
             }
         )
 
@@ -121,13 +121,13 @@ class ApiSkeletonTest(unittest.TestCase):
         )
         fake_jobs = FakeAuditJobs()
 
-        with patch("traceready_backend.api.main.supabase_connection", fake_supabase_connection), patch(
-            "traceready_backend.api.main.AuditJobRepository", return_value=fake_jobs
+        with patch("bellwether_backend.api.main.supabase_connection", fake_supabase_connection), patch(
+            "bellwether_backend.api.main.AuditJobRepository", return_value=fake_jobs
         ):
             status, _headers, body = call_asgi(
                 app,
                 "/internal/jobs/audit/job_1/retry",
-                {"x-traceready-internal-token": "secret"},
+                {"x-bellwether-internal-token": "secret"},
                 method="POST",
                 json_body={"requested_by": "ops@example.com", "reason": "operator retry"},
             )
@@ -143,13 +143,13 @@ class ApiSkeletonTest(unittest.TestCase):
         )
         fake_regulatory = FakeRegulatory()
 
-        with patch("traceready_backend.api.main.supabase_connection", fake_supabase_connection), patch(
-            "traceready_backend.api.main.RegulatoryRepository", return_value=fake_regulatory
+        with patch("bellwether_backend.api.main.supabase_connection", fake_supabase_connection), patch(
+            "bellwether_backend.api.main.RegulatoryRepository", return_value=fake_regulatory
         ):
             status, _headers, body = call_asgi(
                 app,
                 "/internal/regulatory/source-ingestion-jobs",
-                {"x-traceready-internal-token": "secret"},
+                {"x-bellwether-internal-token": "secret"},
                 method="POST",
                 json_body={
                     "source_type": "ecfr",
@@ -167,16 +167,16 @@ class ApiSkeletonTest(unittest.TestCase):
             ServiceSettings(environment=RuntimeEnvironment.TEST, internal_api_token="secret")
         )
 
-        with patch("traceready_backend.api.main.supabase_connection", fake_supabase_connection), patch(
-            "traceready_backend.api.main.build_object_store", return_value=object()
+        with patch("bellwether_backend.api.main.supabase_connection", fake_supabase_connection), patch(
+            "bellwether_backend.api.main.build_object_store", return_value=object()
         ), patch(
-            "traceready_backend.api.main.run_audit_job_slice",
+            "bellwether_backend.api.main.run_audit_job_slice",
             return_value={"status": "ok", "processedCount": 1, "processed": [{"jobId": "job_1"}], "continue": False},
         ) as processor:
             status, _headers, body = call_asgi(
                 app,
                 "/internal/jobs/audit/process-slice",
-                {"x-traceready-internal-token": "secret"},
+                {"x-bellwether-internal-token": "secret"},
                 method="POST",
                 json_body={"worker_id": "worker-test", "job_types": ["parse_customer_workbook"], "max_jobs": 1},
             )
@@ -191,18 +191,18 @@ class ApiSkeletonTest(unittest.TestCase):
             ServiceSettings(environment=RuntimeEnvironment.TEST, internal_api_token="secret")
         )
 
-        with patch("traceready_backend.api.main.supabase_connection", fake_supabase_connection), patch(
-            "traceready_backend.api.main.build_object_store", return_value=object()
+        with patch("bellwether_backend.api.main.supabase_connection", fake_supabase_connection), patch(
+            "bellwether_backend.api.main.build_object_store", return_value=object()
         ), patch(
-            "traceready_backend.api.main.RegulatoryRepository", return_value=object()
+            "bellwether_backend.api.main.RegulatoryRepository", return_value=object()
         ), patch(
-            "traceready_backend.api.main.check_source_artifact_integrity",
+            "bellwether_backend.api.main.check_source_artifact_integrity",
             return_value=FakeIntegrityReport(),
         ) as checker:
             status, _headers, body = call_asgi(
                 app,
                 "/internal/regulatory/source-integrity-check",
-                {"x-traceready-internal-token": "secret"},
+                {"x-bellwether-internal-token": "secret"},
                 method="POST",
             )
 

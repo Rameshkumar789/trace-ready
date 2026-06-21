@@ -1,28 +1,28 @@
 import type { Prisma } from "@prisma/client";
 import type { QueuedUploadRecords } from "@/lib/audit/upload-job";
-import { getPrismaClient, type TraceReadyPrismaClient } from "@/lib/db/prisma";
+import { getPrismaClient, type BellwetherPrismaClient } from "@/lib/db/prisma";
 import type {
   AuditArtifactDbRepository,
   AuditDbRepository,
   AuditJobDbRepository,
   RegulatoryDbRepository,
-  TraceReadyDbRepositories
+  BellwetherDbRepositories
 } from "@/lib/db/repository-contracts";
 
-type PrismaRepositoryClient = Pick<TraceReadyPrismaClient, "$transaction"> & {
-  customer: Pick<TraceReadyPrismaClient["customer"], "upsert">;
-  customerMembership: Pick<TraceReadyPrismaClient["customerMembership"], "upsert">;
-  auditProject: Pick<TraceReadyPrismaClient["auditProject"], "create" | "findUnique" | "findMany">;
-  auditRun: Pick<TraceReadyPrismaClient["auditRun"], "create">;
-  auditFile: Pick<TraceReadyPrismaClient["auditFile"], "create">;
-  auditJob: Pick<TraceReadyPrismaClient["auditJob"], "create">;
-  auditJobEvent: Pick<TraceReadyPrismaClient["auditJobEvent"], "create">;
-  auditArtifact: Pick<TraceReadyPrismaClient["auditArtifact"], "findMany">;
-  regulatorySource: Pick<TraceReadyPrismaClient["regulatorySource"], "findMany">;
-  approvedRulePackage: Pick<TraceReadyPrismaClient["approvedRulePackage"], "findMany">;
+type PrismaRepositoryClient = Pick<BellwetherPrismaClient, "$transaction"> & {
+  customer: Pick<BellwetherPrismaClient["customer"], "upsert">;
+  customerMembership: Pick<BellwetherPrismaClient["customerMembership"], "upsert">;
+  auditProject: Pick<BellwetherPrismaClient["auditProject"], "create" | "findUnique" | "findMany">;
+  auditRun: Pick<BellwetherPrismaClient["auditRun"], "create">;
+  auditFile: Pick<BellwetherPrismaClient["auditFile"], "create">;
+  auditJob: Pick<BellwetherPrismaClient["auditJob"], "create">;
+  auditJobEvent: Pick<BellwetherPrismaClient["auditJobEvent"], "create">;
+  auditArtifact: Pick<BellwetherPrismaClient["auditArtifact"], "findMany">;
+  regulatorySource: Pick<BellwetherPrismaClient["regulatorySource"], "findMany">;
+  approvedRulePackage: Pick<BellwetherPrismaClient["approvedRulePackage"], "findMany">;
 };
 
-export function createPrismaRepositories(client: PrismaRepositoryClient = getPrismaClient()): TraceReadyDbRepositories {
+export function createPrismaRepositories(client: PrismaRepositoryClient = getPrismaClient()): BellwetherDbRepositories {
   return {
     audits: new PrismaAuditRepository(client),
     auditJobs: new PrismaAuditJobRepository(client),
@@ -153,7 +153,7 @@ export class PrismaAuditRepository implements AuditDbRepository {
   }
 }
 
-export class PrismaAuditJobRepository implements AuditJobDbRepository {
+class PrismaAuditJobRepository implements AuditJobDbRepository {
   constructor(private readonly client: PrismaRepositoryClient = getPrismaClient()) {}
 
   async appendJobEvent(input: {
@@ -181,7 +181,7 @@ function json(value: Record<string, unknown> | undefined): Prisma.InputJsonValue
   return value as Prisma.InputJsonValue | undefined;
 }
 
-export class PrismaAuditArtifactRepository implements AuditArtifactDbRepository {
+class PrismaAuditArtifactRepository implements AuditArtifactDbRepository {
   constructor(private readonly client: PrismaRepositoryClient = getPrismaClient()) {}
 
   async listAuditArtifacts(input: {
@@ -200,7 +200,7 @@ export class PrismaAuditArtifactRepository implements AuditArtifactDbRepository 
   }
 }
 
-export class PrismaRegulatoryRepository implements RegulatoryDbRepository {
+class PrismaRegulatoryRepository implements RegulatoryDbRepository {
   constructor(private readonly client: PrismaRepositoryClient = getPrismaClient()) {}
 
   async listRegulatorySources(limit = 100): Promise<unknown[]> {

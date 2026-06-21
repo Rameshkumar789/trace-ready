@@ -10,9 +10,9 @@ from hashlib import sha256
 from pathlib import Path
 from typing import Any
 
-from traceready_backend.api.config import load_settings
-from traceready_backend.backend.db import supabase_connection
-from traceready_backend.backend.repositories.supabase_tables import stable_row_id
+from bellwether_backend.api.config import load_settings
+from bellwether_backend.backend.db import supabase_connection
+from bellwether_backend.backend.repositories.supabase_tables import stable_row_id
 
 
 def main() -> None:

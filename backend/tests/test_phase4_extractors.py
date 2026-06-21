@@ -2,7 +2,7 @@ import json
 import unittest
 from pathlib import Path
 
-from traceready_backend.intelligence.phase04_deterministic_extractors import (
+from bellwether_backend.intelligence.phase04_deterministic_extractors import (
     extract_cte_kde_candidates,
     extract_defined_terms,
     extract_ftl_food_items,
@@ -10,7 +10,7 @@ from traceready_backend.intelligence.phase04_deterministic_extractors import (
     extract_sortable_export_fields,
     extract_traceability_plan_requirements,
 )
-from traceready_backend.intelligence.schemas import CteType
+from bellwether_backend.intelligence.schemas import CteType
 
 
 ROOT = Path(__file__).resolve().parents[2]

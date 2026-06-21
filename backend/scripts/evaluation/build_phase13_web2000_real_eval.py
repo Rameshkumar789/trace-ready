@@ -18,7 +18,7 @@ from build_phase12_web500_eval_data import predict_ctes
 
 GENERATED_AT = "2026-06-16T00:00:00Z"
 DEFAULT_OUTPUT_DIR = Path("../data/regulatory/intelligence/generalization")
-DEFAULT_EPCIS_DIR = Path("/private/tmp/traceready-web2000/EPCIS")
+DEFAULT_EPCIS_DIR = Path("/private/tmp/bellwether-web2000/EPCIS")
 OPEN_FOOD_FACTS_TSV = "https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz"
 GS1_EPCIS_REPO = "https://github.com/gs1/EPCIS"
 GS1_EPCIS_STANDARD = "https://ref.gs1.org/standards/epcis/"
@@ -98,7 +98,7 @@ def stream_open_food_facts_records(target: int) -> list[dict[str, Any]]:
         return []
     request = urllib.request.Request(
         OPEN_FOOD_FACTS_TSV,
-        headers={"User-Agent": "TraceReady-public-eval/1.0 (+https://traceready.local)"},
+        headers={"User-Agent": "Bellwether-public-eval/1.0 (+https://bellwether.local)"},
     )
     records: list[dict[str, Any]] = []
     with urllib.request.urlopen(request, timeout=90) as response:

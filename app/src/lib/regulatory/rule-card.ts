@@ -19,4 +19,3 @@ export const ruleCardSchema = z.object({
   version: z.number().int().positive()
 });
 
-export type RuleCardInput = z.infer<typeof ruleCardSchema>;

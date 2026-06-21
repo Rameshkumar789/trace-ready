@@ -8,8 +8,8 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from typing import Any
 
-from traceready_backend.intelligence.phase05_ai_assisted_extraction import validate_ai_records
-from traceready_backend.intelligence.citations import load_chunk_index
+from bellwether_backend.intelligence.phase05_ai_assisted_extraction import validate_ai_records
+from bellwether_backend.intelligence.citations import load_chunk_index
 
 
 def main() -> None:

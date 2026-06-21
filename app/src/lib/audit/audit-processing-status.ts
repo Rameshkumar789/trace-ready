@@ -1,5 +1,5 @@
 import { createSupabaseAdminClient } from "@/lib/supabase/admin";
-import type { TraceReadySession } from "@/lib/auth/session-cookie";
+import type { BellwetherSession } from "@/lib/auth/session";
 
 export interface AuditProcessingStatus {
   auditProjectId: string;
@@ -102,7 +102,7 @@ interface JobEventRow {
   created_at: string;
 }
 
-export async function loadAuditProcessingStatus(auditProjectId: string, session: TraceReadySession): Promise<AuditProcessingStatus | undefined> {
+export async function loadAuditProcessingStatus(auditProjectId: string, session: BellwetherSession): Promise<AuditProcessingStatus | undefined> {
   const client = createSupabaseAdminClient();
   const project = await selectMaybe<ProjectRow>(
     client
@@ -210,7 +210,7 @@ export async function loadAuditProcessingStatus(auditProjectId: string, session:
     }))
   };
 
-  async function canReadProject(projectRow: ProjectRow, activeSession: TraceReadySession) {
+  async function canReadProject(projectRow: ProjectRow, activeSession: BellwetherSession) {
     if (activeSession.role === "founder_admin" || projectRow.created_by_user_id === activeSession.userId) {
       return true;
     }

@@ -1,6 +1,6 @@
 import { createHash, randomUUID } from "node:crypto";
 import { createSupabaseAdminClient } from "@/lib/supabase/admin";
-import type { TraceReadySession } from "@/lib/auth/session-cookie";
+import type { BellwetherSession } from "@/lib/auth/session";
 import type { StorageProvider, StoredObject } from "@/lib/storage/storage-provider";
 import { getRequiredStorageProvider } from "@/lib/storage/supabase-storage";
 
@@ -11,7 +11,7 @@ export interface UploadAuditJobInput {
   fileName: string;
   bytes: Uint8Array;
   contentType: string;
-  session: TraceReadySession;
+  session: BellwetherSession;
 }
 
 export interface QueuedAuditJob {
@@ -102,7 +102,7 @@ export interface QueuedUploadRecords {
   };
 }
 
-export class SupabaseUploadAuditJobRepository implements UploadAuditJobRepository {
+class SupabaseUploadAuditJobRepository implements UploadAuditJobRepository {
   private client = createSupabaseAdminClient();
 
   async createQueuedUpload(input: QueuedUploadRecords): Promise<void> {
@@ -189,7 +189,7 @@ export function auditUploadKey({
   return ["customers", customerId, "audits", auditProjectId, "runs", auditRunId, "uploads", safeObjectSegment(fileName)].join("/");
 }
 
-export function customerFromSession(session: TraceReadySession) {
+function customerFromSession(session: BellwetherSession) {
   const companyName = session.companyName?.trim() || `${session.email} workspace`;
   return {
     id: `customer_${sha256Text(companyName.toLowerCase()).slice(0, 24)}`,
@@ -327,9 +327,9 @@ function buildQueuedUploadRecords({
 
 function approvedRulePackagePin() {
   return {
-    packageId: process.env.TRACEREADY_APPROVED_RULE_PACKAGE_ID ?? "approved-rule-package-v1",
-    version: Number.parseInt(process.env.TRACEREADY_APPROVED_RULE_PACKAGE_VERSION ?? "1", 10),
-    hash: process.env.TRACEREADY_APPROVED_RULE_PACKAGE_HASH || undefined
+    packageId: process.env.BELLWETHER_APPROVED_RULE_PACKAGE_ID ?? "approved-rule-package-v1",
+    version: Number.parseInt(process.env.BELLWETHER_APPROVED_RULE_PACKAGE_VERSION ?? "1", 10),
+    hash: process.env.BELLWETHER_APPROVED_RULE_PACKAGE_HASH || undefined
   };
 }
 

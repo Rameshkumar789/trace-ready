@@ -7,19 +7,19 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_backend.audit_engine.rule_execution import (
+from bellwether_backend.audit_engine.rule_execution import (
     build_phase11_rule_execution,
     write_phase11_rule_execution_artifacts,
 )
-from traceready_backend.audit_engine.customer_evidence import (
+from bellwether_backend.audit_engine.customer_evidence import (
     build_phase10_customer_evidence,
     write_phase10_customer_evidence_artifacts,
 )
-from traceready_backend.audit_engine.cte_classification import (
+from bellwether_backend.audit_engine.cte_classification import (
     build_phase10c_cte_hardening,
     write_phase10c_cte_hardening_artifacts,
 )
-from traceready_backend.audit_engine.field_mapping_governance import (
+from bellwether_backend.audit_engine.field_mapping_governance import (
     build_phase10b_mapping_governance,
     write_phase10b_mapping_governance_artifacts,
 )

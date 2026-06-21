@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from traceready_backend.intelligence.anthropic_client import AnthropicLLMConfig, extract_json_array
+from bellwether_backend.intelligence.anthropic_client import AnthropicLLMConfig, extract_json_array
 
 
 class AnthropicClientTest(unittest.TestCase):
@@ -20,18 +20,18 @@ class AnthropicClientTest(unittest.TestCase):
             key: os.environ.get(key)
             for key in [
                 "ANTHROPIC_API_KEY",
-                "TRACEREADY_ANTHROPIC_MODEL",
-                "TRACEREADY_ANTHROPIC_CONFLICT_MODEL",
-                "TRACEREADY_ANTHROPIC_PROMPT_CACHE",
-                "TRACEREADY_ANTHROPIC_PROMPT_CACHE_TTL",
+                "BELLWETHER_ANTHROPIC_MODEL",
+                "BELLWETHER_ANTHROPIC_CONFLICT_MODEL",
+                "BELLWETHER_ANTHROPIC_PROMPT_CACHE",
+                "BELLWETHER_ANTHROPIC_PROMPT_CACHE_TTL",
             ]
         }
         try:
             os.environ["ANTHROPIC_API_KEY"] = "test-key"
-            os.environ["TRACEREADY_ANTHROPIC_MODEL"] = "claude-sonnet-4-6"
-            os.environ["TRACEREADY_ANTHROPIC_CONFLICT_MODEL"] = "claude-opus-4-8"
-            os.environ["TRACEREADY_ANTHROPIC_PROMPT_CACHE"] = "1"
-            os.environ["TRACEREADY_ANTHROPIC_PROMPT_CACHE_TTL"] = "1h"
+            os.environ["BELLWETHER_ANTHROPIC_MODEL"] = "claude-sonnet-4-6"
+            os.environ["BELLWETHER_ANTHROPIC_CONFLICT_MODEL"] = "claude-opus-4-8"
+            os.environ["BELLWETHER_ANTHROPIC_PROMPT_CACHE"] = "1"
+            os.environ["BELLWETHER_ANTHROPIC_PROMPT_CACHE_TTL"] = "1h"
 
             config = AnthropicLLMConfig.from_env()
 

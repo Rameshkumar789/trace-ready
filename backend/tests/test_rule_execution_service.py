@@ -3,11 +3,11 @@ from tempfile import TemporaryDirectory
 import json
 import unittest
 
-from traceready_backend.backend.jobs.rule_execution import execute_rule_execution_job
-from traceready_backend.backend.repositories.supabase_tables import stable_row_id
-from traceready_backend.backend.schemas.rule_execution import RuleExecutionJobPayload
-from traceready_backend.backend.services.rule_execution_service import run_rule_execution_job
-from traceready_backend.storage.artifacts import LocalObjectStore, audit_upload_key
+from bellwether_backend.backend.jobs.rule_execution import execute_rule_execution_job
+from bellwether_backend.backend.repositories.supabase_tables import stable_row_id
+from bellwether_backend.backend.schemas.rule_execution import RuleExecutionJobPayload
+from bellwether_backend.backend.services.rule_execution_service import run_rule_execution_job
+from bellwether_backend.storage.artifacts import LocalObjectStore, audit_upload_key
 
 
 SAMPLE_CSV = (
@@ -136,7 +136,7 @@ class RuleExecutionServiceTest(unittest.TestCase):
     def test_rule_execution_loads_package_runs_checks_persists_outputs_and_artifacts(self):
         approved_package = json.loads(RULE_PACKAGE.read_text(encoding="utf-8"))
         with TemporaryDirectory() as tmpdir:
-            store = LocalObjectStore(Path(tmpdir), environ={"TRACEREADY_ENV": "test"})
+            store = LocalObjectStore(Path(tmpdir), environ={"BELLWETHER_ENV": "test"})
             workbook_key = audit_upload_key(
                 customer_id="customer_1",
                 audit_project_id="audit_1",
@@ -194,7 +194,7 @@ class RuleExecutionServiceTest(unittest.TestCase):
     def test_rule_execution_is_fk_safe_and_links_scoped_evidence(self):
         approved_package = json.loads(RULE_PACKAGE.read_text(encoding="utf-8"))
         with TemporaryDirectory() as tmpdir:
-            store = LocalObjectStore(Path(tmpdir), environ={"TRACEREADY_ENV": "test"})
+            store = LocalObjectStore(Path(tmpdir), environ={"BELLWETHER_ENV": "test"})
             workbook_key = audit_upload_key(
                 customer_id="customer_1",
                 audit_project_id="audit_1",
@@ -240,7 +240,7 @@ class RuleExecutionServiceTest(unittest.TestCase):
 
     def test_rule_execution_failure_persists_failed_job(self):
         with TemporaryDirectory() as tmpdir:
-            store = LocalObjectStore(Path(tmpdir), environ={"TRACEREADY_ENV": "test"})
+            store = LocalObjectStore(Path(tmpdir), environ={"BELLWETHER_ENV": "test"})
             repositories = FakeRepositories({"package_id": "different", "version": 1})
 
             result = execute_rule_execution_job(

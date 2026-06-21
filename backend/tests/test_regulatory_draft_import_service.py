@@ -5,8 +5,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from traceready_backend.backend.repositories.supabase_tables import RegulatoryDraftRecordUpsert
-from traceready_backend.backend.services.regulatory_draft_import_service import (
+from bellwether_backend.backend.repositories.supabase_tables import RegulatoryDraftRecordUpsert
+from bellwether_backend.backend.services.regulatory_draft_import_service import (
     import_phase6_draft_review_records,
 )
 

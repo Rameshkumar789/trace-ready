@@ -1,7 +1,7 @@
 import type { StoredAudit } from "@/lib/audit/stored-audit";
 import { findingsToRows } from "./export-audit-xlsx";
 
-export function buildReadinessSummaryRows(audit: StoredAudit) {
+function buildReadinessSummaryRows(audit: StoredAudit) {
   const counts = audit.findings.reduce<Record<string, number>>((acc, finding) => {
     acc[finding.status] = (acc[finding.status] ?? 0) + 1;
     return acc;
@@ -16,7 +16,7 @@ export function buildReadinessSummaryRows(audit: StoredAudit) {
   ];
 }
 
-export function buildSortableExportCheckRows(audit: StoredAudit) {
+function buildSortableExportCheckRows(audit: StoredAudit) {
   return audit.dataset.events.map((event) => ({
     event_id: event.eventId,
     cte_type: event.eventType,
@@ -34,7 +34,7 @@ export function buildSortableExportCheckRows(audit: StoredAudit) {
 
 export function buildAuditExportPackage(audit: StoredAudit) {
   return {
-    "11_TraceReady_Findings": findingsToRows(audit.findings),
+    "11_Bellwether_Findings": findingsToRows(audit.findings),
     "12_Readiness_Summary": buildReadinessSummaryRows(audit),
     "13_FDA_Sortable_Export_Check": buildSortableExportCheckRows(audit)
   };
