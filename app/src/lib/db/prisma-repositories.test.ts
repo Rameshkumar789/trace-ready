@@ -13,7 +13,7 @@ describe("Prisma repositories", () => {
     expect(client.customer.upsert).toHaveBeenCalledWith(
       expect.objectContaining({
         where: { id: "customer_1" },
-        create: expect.objectContaining({ id: "customer_1", name: "TraceReady Pilot Co" })
+        create: expect.objectContaining({ id: "customer_1", name: "Bellwether Pilot Co" })
       })
     );
     expect(client.customerMembership.upsert).toHaveBeenCalledWith(
@@ -76,7 +76,7 @@ function testQueuedUpload(): QueuedUploadRecords {
   return {
     customer: {
       id: "customer_1",
-      name: "TraceReady Pilot Co",
+      name: "Bellwether Pilot Co",
       status: "active"
     },
     membership: {
@@ -89,7 +89,7 @@ function testQueuedUpload(): QueuedUploadRecords {
     auditProject: {
       id: "audit_1",
       customer_id: "customer_1",
-      customer_name: "TraceReady Pilot Co",
+      customer_name: "Bellwether Pilot Co",
       file_name: "records.xlsx",
       mode: "draft",
       status: "queued",

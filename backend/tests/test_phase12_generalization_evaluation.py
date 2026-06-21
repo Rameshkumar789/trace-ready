@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from traceready_backend.intelligence.phase12_generalization_evaluation import (
+from bellwether_backend.intelligence.phase12_generalization_evaluation import (
     build_generalization_metrics,
     build_inference_error_report,
     build_phase12_generalization_evaluation,

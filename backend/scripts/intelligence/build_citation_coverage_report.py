@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_backend.intelligence.citations import (
+from bellwether_backend.intelligence.citations import (
     build_citation_coverage_report,
     load_chunk_index,
     load_records_from_intelligence_output,
@@ -15,7 +15,7 @@ from traceready_backend.intelligence.citations import (
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Build a citation coverage report for TraceReady structured intelligence records.")
+    parser = argparse.ArgumentParser(description="Build a citation coverage report for Bellwether structured intelligence records.")
     parser.add_argument("--chunks-file", default="../data/regulatory/registry/source-chunks.json")
     parser.add_argument("--records-file", default="../data/regulatory/intelligence/schema-smoke-output.json")
     parser.add_argument("--output-file", default="../data/regulatory/intelligence/citation-coverage-report.json")

@@ -66,6 +66,6 @@ export function validateParsedWorkbook(sheets: Record<string, WorkbookRow[]>): W
   return errors;
 }
 
-export function normalizeHeader(header: string) {
+function normalizeHeader(header: string) {
   return header.trim().toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
 }

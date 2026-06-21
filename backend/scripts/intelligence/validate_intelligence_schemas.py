@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_backend.intelligence.schemas import (
+from bellwether_backend.intelligence.schemas import (
     CitationRef,
     ConfidenceLevel,
     CteDefinition,
@@ -37,7 +37,7 @@ from traceready_backend.intelligence.schemas import (
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Validate TraceReady regulatory intelligence schemas with real registry citations.")
+    parser = argparse.ArgumentParser(description="Validate Bellwether regulatory intelligence schemas with real registry citations.")
     parser.add_argument("--registry-dir", default="../data/regulatory/registry")
     parser.add_argument("--output-file", default="../data/regulatory/intelligence/schema-smoke-output.json")
     args = parser.parse_args()

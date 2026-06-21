@@ -10,15 +10,6 @@ export const toneSoft: Record<Tone, string> = {
   neutral: "bg-surface-strong text-muted",
 };
 
-/** Solid foreground colour only (for icons, left borders, ring strokes). */
-export const toneText: Record<Tone, string> = {
-  ok: "text-ok",
-  review: "text-review",
-  risk: "text-risk",
-  accent: "text-accent",
-  neutral: "text-muted",
-};
-
 /** Left-border accent colour for cards. */
 export const toneBorder: Record<Tone, string> = {
   ok: "border-l-ok",

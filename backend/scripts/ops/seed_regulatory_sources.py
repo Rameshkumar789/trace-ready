@@ -7,11 +7,11 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from traceready_backend.api.config import load_settings
-from traceready_backend.backend.db import supabase_connection
-from traceready_backend.backend.repositories.supabase_tables import RegulatoryRepository
-from traceready_backend.backend.services.regulatory_seed_import_service import import_regulatory_registry_seed
-from traceready_backend.storage.artifacts import build_object_store
+from bellwether_backend.api.config import load_settings
+from bellwether_backend.backend.db import supabase_connection
+from bellwether_backend.backend.repositories.supabase_tables import RegulatoryRepository
+from bellwether_backend.backend.services.regulatory_seed_import_service import import_regulatory_registry_seed
+from bellwether_backend.storage.artifacts import build_object_store
 
 
 def main() -> None:

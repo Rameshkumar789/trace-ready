@@ -1,1 +1,0 @@
-"""TraceReady regulatory ingestion worker."""

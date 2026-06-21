@@ -1,7 +1,7 @@
 [project]
-name = "traceready-backend"
+name = "bellwether-backend"
 version = "0.1.0"
-description = "TraceReady regulatory source ingestion and AI draft generation worker"
+description = "Bellwether regulatory source ingestion and AI draft generation worker"
 requires-python = ">=3.11"
 dependencies = [
   "fastapi>=0.115",
@@ -22,14 +22,14 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["traceready_backend*"]
+include = ["bellwether_backend*"]
 exclude = ["api*", "scripts*", "tests*"]
 
 # Ship the bundled reviewable rule data (KDE contracts, exemption rules, plan components) so the
 # deterministic engine is self-contained on Vercel — it no longer depends on the repo-root data/
 # folder, which is not part of the deploy.
 [tool.setuptools.package-data]
-"traceready_backend.audit_engine" = ["bundled_rules/*.json"]
+"bellwether_backend.audit_engine" = ["bundled_rules/*.json"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]

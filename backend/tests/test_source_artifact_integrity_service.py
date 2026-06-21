@@ -4,9 +4,9 @@ from tempfile import TemporaryDirectory
 import json
 import unittest
 
-from traceready_backend.backend.services.source_artifact_integrity_service import check_source_artifact_integrity
-from traceready_backend.storage.artifacts import LocalObjectStore, source_chunk_package_key, source_normalized_key, source_raw_key
-from traceready_backend.versioning.hashing import sha256_bytes, sha256_text
+from bellwether_backend.backend.services.source_artifact_integrity_service import check_source_artifact_integrity
+from bellwether_backend.storage.artifacts import LocalObjectStore, source_chunk_package_key, source_normalized_key, source_raw_key
+from bellwether_backend.versioning.hashing import sha256_bytes, sha256_text
 
 
 class FakeIntegrityRepository:
@@ -27,7 +27,7 @@ class FakeIntegrityRepository:
 class SourceArtifactIntegrityServiceTest(unittest.TestCase):
     def test_passes_when_source_artifacts_hashes_and_citations_are_complete(self):
         with TemporaryDirectory() as tmpdir:
-            store = LocalObjectStore(Path(tmpdir), environ={"TRACEREADY_ENV": "test"})
+            store = LocalObjectStore(Path(tmpdir), environ={"BELLWETHER_ENV": "test"})
             raw = b"<xml>source</xml>"
             normalized = b'{"text":"source"}'
             chunk_text = "Shipping KDEs are required."
@@ -82,7 +82,7 @@ class SourceArtifactIntegrityServiceTest(unittest.TestCase):
 
     def test_fails_for_missing_artifacts_count_mismatch_and_bad_chunk_hash(self):
         with TemporaryDirectory() as tmpdir:
-            store = LocalObjectStore(Path(tmpdir), environ={"TRACEREADY_ENV": "test"})
+            store = LocalObjectStore(Path(tmpdir), environ={"BELLWETHER_ENV": "test"})
             source_id = "source_1"
             raw_key = source_raw_key(source_id=source_id, version=1, filename="source.xml")
             normalized_key = source_normalized_key(source_id=source_id, version=1, filename="normalized.json")

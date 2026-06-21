@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "TraceReady Audit",
+  title: "Bellwether Audit",
   description: "FSMA 204 readiness audit for existing traceability records"
 };
 

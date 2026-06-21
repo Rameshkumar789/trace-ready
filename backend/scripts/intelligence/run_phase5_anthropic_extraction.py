@@ -9,18 +9,18 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from typing import Any
 
-from traceready_backend.intelligence.phase05_ai_assisted_extraction import (
+from bellwether_backend.intelligence.phase05_ai_assisted_extraction import (
     build_phase5_prompt_specs,
     render_prompt,
     select_phase5_source_chunks,
     validate_ai_records,
 )
-from traceready_backend.intelligence.anthropic_client import AnthropicJSONClient, AnthropicJSONParseError, AnthropicLLMConfig
-from traceready_backend.intelligence.citations import load_chunk_index
+from bellwether_backend.intelligence.anthropic_client import AnthropicJSONClient, AnthropicJSONParseError, AnthropicLLMConfig
+from bellwether_backend.intelligence.citations import load_chunk_index
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Run real Anthropic-backed Phase 5 extraction for TraceReady regulatory intelligence.")
+    parser = argparse.ArgumentParser(description="Run real Anthropic-backed Phase 5 extraction for Bellwether regulatory intelligence.")
     parser.add_argument("--chunks-file", default="../data/regulatory/registry/source-chunks.json")
     parser.add_argument("--output-dir", default="../data/regulatory/intelligence/phase5/anthropic-runs")
     parser.add_argument(
@@ -29,9 +29,9 @@ def main() -> None:
         choices=["obligations", "exemption_rules", "tlc_rules"],
         help="Collection to run. Repeat for multiple. Defaults to all Phase 5 collections.",
     )
-    parser.add_argument("--model", default=None, help="Override TRACEREADY_ANTHROPIC_MODEL for this run.")
-    parser.add_argument("--conflict-model", default=None, help="Override TRACEREADY_ANTHROPIC_CONFLICT_MODEL for this run report.")
-    parser.add_argument("--max-tokens", type=int, default=None, help="Override TRACEREADY_ANTHROPIC_MAX_TOKENS for this run.")
+    parser.add_argument("--model", default=None, help="Override BELLWETHER_ANTHROPIC_MODEL for this run.")
+    parser.add_argument("--conflict-model", default=None, help="Override BELLWETHER_ANTHROPIC_CONFLICT_MODEL for this run report.")
+    parser.add_argument("--max-tokens", type=int, default=None, help="Override BELLWETHER_ANTHROPIC_MAX_TOKENS for this run.")
     parser.add_argument("--prompt-cache-ttl", choices=["1h"], default=None, help="Use Anthropic prompt cache TTL for this run. Omit for default ephemeral TTL.")
     parser.add_argument("--no-prompt-cache", action="store_true", help="Disable Anthropic prompt caching for this run.")
     args = parser.parse_args()

@@ -1,6 +1,6 @@
 # Ingestion Scripts
 
-The production Python package lives under `traceready_backend/`.
+The production Python package lives under `bellwether_backend/`.
 
 These folders contain reproducibility and evaluation entrypoints:
 

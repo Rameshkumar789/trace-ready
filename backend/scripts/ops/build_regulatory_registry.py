@@ -8,11 +8,11 @@ import argparse
 import json
 from pathlib import Path
 
-from traceready_backend.registry.builder import write_registry
+from bellwether_backend.registry.builder import write_registry
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Build canonical TraceReady regulatory source/chunk registry artifacts.")
+    parser = argparse.ArgumentParser(description="Build canonical Bellwether regulatory source/chunk registry artifacts.")
     parser.add_argument("--regulatory-dir", default="../data/regulatory")
     parser.add_argument("--output-dir", default=None)
     args = parser.parse_args()

@@ -3,14 +3,14 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 
-from traceready_backend.backend.repositories.supabase_tables import RegulatorySourceUpsert, SourceChunkUpsert
-from traceready_backend.backend.services.regulatory_source_artifact_service import (
+from bellwether_backend.backend.repositories.supabase_tables import RegulatorySourceUpsert, SourceChunkUpsert
+from bellwether_backend.backend.services.regulatory_source_artifact_service import (
     DraftPayloadArtifact,
     NamedArtifactPayload,
     RegulatorySourceArtifactRepositories,
     persist_regulatory_source_artifacts,
 )
-from traceready_backend.storage.artifacts import LocalObjectStore
+from bellwether_backend.storage.artifacts import LocalObjectStore
 
 
 class FakeRegulatoryRepository:
@@ -30,7 +30,7 @@ class FakeRegulatoryRepository:
 class RegulatorySourceArtifactServiceTest(unittest.TestCase):
     def test_persists_source_artifacts_and_db_metadata(self):
         with TemporaryDirectory() as tmpdir:
-            store = LocalObjectStore(Path(tmpdir), environ={"TRACEREADY_ENV": "test"})
+            store = LocalObjectStore(Path(tmpdir), environ={"BELLWETHER_ENV": "test"})
             regulatory = FakeRegulatoryRepository()
 
             result = persist_regulatory_source_artifacts(

@@ -2,10 +2,10 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 
-from traceready_backend.backend.jobs.audit_parse import execute_audit_parse_job
-from traceready_backend.backend.schemas.audit_parse import AuditParseJobPayload
-from traceready_backend.backend.services.audit_parse_service import run_audit_parse_job
-from traceready_backend.storage.artifacts import LocalObjectStore, audit_upload_key
+from bellwether_backend.backend.jobs.audit_parse import execute_audit_parse_job
+from bellwether_backend.backend.schemas.audit_parse import AuditParseJobPayload
+from bellwether_backend.backend.services.audit_parse_service import run_audit_parse_job
+from bellwether_backend.storage.artifacts import LocalObjectStore, audit_upload_key
 
 
 class FakeAuditJobRepository:
@@ -85,7 +85,7 @@ class FakeRepositories:
 class AuditParseJobTest(unittest.TestCase):
     def test_audit_parse_job_downloads_parses_persists_and_completes(self):
         with TemporaryDirectory() as tmpdir:
-            store = LocalObjectStore(Path(tmpdir), environ={"TRACEREADY_ENV": "test"})
+            store = LocalObjectStore(Path(tmpdir), environ={"BELLWETHER_ENV": "test"})
             key = audit_upload_key(
                 customer_id="customer_1",
                 audit_project_id="audit_1",
@@ -145,7 +145,7 @@ class AuditParseJobTest(unittest.TestCase):
 
     def test_audit_parse_job_persists_parse_error_and_fails_job(self):
         with TemporaryDirectory() as tmpdir:
-            store = LocalObjectStore(Path(tmpdir), environ={"TRACEREADY_ENV": "test"})
+            store = LocalObjectStore(Path(tmpdir), environ={"BELLWETHER_ENV": "test"})
             store.upload_bytes(
                 bucket="private",
                 key="customers/customer_1/audits/audit_1/runs/run_1/uploads/readme.txt",

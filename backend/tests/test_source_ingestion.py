@@ -1,8 +1,8 @@
 import unittest
 
-from traceready_backend.extractors.html_extractor import extract_html_sections
-from traceready_backend.versioning.hashing import sha256_text
-from traceready_backend.versioning.source_versioning import next_source_version
+from bellwether_backend.extractors.html_extractor import extract_html_sections
+from bellwether_backend.versioning.hashing import sha256_text
+from bellwether_backend.versioning.source_versioning import next_source_version
 
 
 class SourceIngestionTest(unittest.TestCase):

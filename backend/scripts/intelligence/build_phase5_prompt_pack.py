@@ -7,11 +7,11 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from traceready_backend.intelligence.phase05_ai_assisted_extraction import build_phase5_prompt_specs, render_prompt, select_phase5_source_chunks
+from bellwether_backend.intelligence.phase05_ai_assisted_extraction import build_phase5_prompt_specs, render_prompt, select_phase5_source_chunks
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Build TraceReady Phase 5 structured-output prompt pack.")
+    parser = argparse.ArgumentParser(description="Build Bellwether Phase 5 structured-output prompt pack.")
     parser.add_argument("--chunks-file", default="../data/regulatory/registry/source-chunks.json")
     parser.add_argument("--output-dir", default="../data/regulatory/intelligence/phase5/prompts")
     args = parser.parse_args()

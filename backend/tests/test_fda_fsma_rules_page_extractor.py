@@ -1,6 +1,6 @@
 import unittest
 
-from traceready_backend.extractors.fda_fsma_rules_page_extractor import (
+from bellwether_backend.extractors.fda_fsma_rules_page_extractor import (
     extract_fsma_rules_guidance_entries,
     extract_fsma_rules_guidance_sections,
 )

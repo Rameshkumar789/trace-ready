@@ -3,15 +3,15 @@ from tempfile import TemporaryDirectory
 import json
 import unittest
 
-from traceready_backend.backend.schemas.audit_parse import AuditParseJobPayload
-from traceready_backend.backend.schemas.rule_execution import RuleExecutionJobPayload
-from traceready_backend.backend.services.audit_parse_service import run_audit_parse_job
-from traceready_backend.backend.services.normalized_evidence_service import (
+from bellwether_backend.backend.schemas.audit_parse import AuditParseJobPayload
+from bellwether_backend.backend.schemas.rule_execution import RuleExecutionJobPayload
+from bellwether_backend.backend.services.audit_parse_service import run_audit_parse_job
+from bellwether_backend.backend.services.normalized_evidence_service import (
     persist_normalized_customer_evidence,
 )
-from traceready_backend.backend.services.rule_execution_service import run_rule_execution_job
-from traceready_backend.audit_engine.customer_evidence import build_phase10_customer_evidence
-from traceready_backend.storage.artifacts import LocalObjectStore, audit_upload_key
+from bellwether_backend.backend.services.rule_execution_service import run_rule_execution_job
+from bellwether_backend.audit_engine.customer_evidence import build_phase10_customer_evidence
+from bellwether_backend.storage.artifacts import LocalObjectStore, audit_upload_key
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -197,7 +197,7 @@ class EnterpriseAuditIntegrationTest(unittest.TestCase):
     def test_upload_job_parse_normalize_rule_execution_review_and_artifact_flow(self):
         approved_package = json.loads(RULE_PACKAGE.read_text(encoding="utf-8"))
         with TemporaryDirectory() as tmpdir:
-            store = LocalObjectStore(Path(tmpdir), environ={"TRACEREADY_ENV": "test"})
+            store = LocalObjectStore(Path(tmpdir), environ={"BELLWETHER_ENV": "test"})
             input_file = Path(tmpdir) / "records.csv"
             workbook_bytes = (
                 b"Event ID,Event Type,Lot #,Product,Quantity,Ship Date,From Partner,To Partner\n"

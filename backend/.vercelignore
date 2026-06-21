@@ -6,7 +6,7 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.traceready-object-store/
+.bellwether-object-store/
 data/
 outputs/
 *.xlsx

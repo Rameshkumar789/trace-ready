@@ -1,11 +1,11 @@
-export type CoveredEntityStatus =
+type CoveredEntityStatus =
   | "covered"
   | "not_covered"
   | "exempt"
   | "partially_exempt"
   | "not_determined";
 
-export type ProductScopeStatus = "covered" | "not_covered" | "exempt" | "partially_exempt" | "not_determined";
+type ProductScopeStatus = "covered" | "not_covered" | "exempt" | "partially_exempt" | "not_determined";
 
 export type CTEType =
   | "harvest"
@@ -74,30 +74,6 @@ export interface KDE {
   evidenceRefs: EvidenceRef[];
 }
 
-export interface KDERequirement {
-  kdeRequirementId: string;
-  cteType: CTEType;
-  kdeName: string;
-  fieldKey: string;
-  requiredStatus: "required" | "conditional" | "not_applicable";
-  appliesWhen: string;
-  sourceChunkId: string;
-  ruleCardId: string;
-  exampleValue?: string;
-  severityIfMissing: FindingSeverity;
-  status: "draft" | "in_review" | "approved" | "deprecated";
-  reviewedBy?: string;
-  reviewedAt?: string;
-  version: number;
-}
-
-export interface TraceabilityLotCode {
-  value: string;
-  sourceLocationId?: string;
-  sourceReference?: string;
-  generatorContact?: string;
-}
-
 export interface TraceabilityPlan {
   exists: boolean;
   recordMaintenanceProcedure?: string;
@@ -121,7 +97,7 @@ export interface TraceabilityEvent {
   eventStatus?: string;
 }
 
-export interface EventLineItem {
+interface EventLineItem {
   eventLineId: string;
   eventId: string;
   productId: string;

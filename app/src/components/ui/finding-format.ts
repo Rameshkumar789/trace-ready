@@ -2,7 +2,7 @@ import type { Finding } from "@/lib/findings/finding";
 import type { FindingSeverity } from "@/lib/ontology/types";
 import type { Tone } from "./tone";
 
-export const SHEET_LABELS: Record<string, string> = {
+const SHEET_LABELS: Record<string, string> = {
   "00_business_profile": "00_Business_Profile",
   "01_product_master": "01_Product_Master",
   "02_location_master": "02_Location_Master",

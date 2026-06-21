@@ -2,10 +2,10 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 
-from traceready_backend.backend.services.normalized_evidence_service import (
+from bellwether_backend.backend.services.normalized_evidence_service import (
     persist_normalized_customer_evidence,
 )
-from traceready_backend.audit_engine.customer_evidence import build_phase10_customer_evidence
+from bellwether_backend.audit_engine.customer_evidence import build_phase10_customer_evidence
 
 
 class FakeNormalizedEvidenceRepository:

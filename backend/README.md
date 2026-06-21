@@ -1,4 +1,4 @@
-# TraceReady Backend
+# Bellwether Backend
 
 Python worker for regulatory-source ingestion, legal-meaning chunking, citation anchoring, and draft rule-card generation.
 
@@ -6,7 +6,7 @@ This project is separate from the Next.js product app. The product app serves cu
 
 ## Why This Exists
 
-TraceReady should not ask an AI model to decide compliance directly.
+Bellwether should not ask an AI model to decide compliance directly.
 
 The ingestion workflow is:
 
@@ -55,7 +55,7 @@ Future hardening / not MVP blockers:
 ## Project Layout
 
 ```text
-traceready/backend/
+bellwether/backend/
   pyproject.toml
   README.md
   scripts/                           # offline operational tooling (run with `python -m scripts.<...>`)
@@ -81,7 +81,7 @@ traceready/backend/
     test_legal_chunker.py
     test_rule_card_drafter.py
     test_source_ingestion.py
-  traceready_backend/
+  bellwether_backend/
     fetchers/
       ecfr_fetcher.py
     extractors/
@@ -134,7 +134,7 @@ traceready/backend/
 The deployable backend entrypoint is:
 
 ```text
-traceready_backend.api.main:app
+bellwether_backend.api.main:app
 ```
 
 The Vercel-compatible shim is:
@@ -162,23 +162,23 @@ Current routes:
 Configuration is loaded from environment variables:
 
 ```text
-TRACEREADY_ENV
+BELLWETHER_ENV
 VERCEL_ENV
 SUPABASE_DATABASE_URL
 NEXT_PUBLIC_SUPABASE_URL
 SUPABASE_SERVICE_ROLE_KEY
-TRACEREADY_STORAGE_BUCKET
-TRACEREADY_OBJECT_STORE_MODE
-TRACEREADY_INTERNAL_API_TOKEN
-TRACEREADY_ALLOWED_ORIGINS
-TRACEREADY_REQUIRE_CONFIGURED_DEPENDENCIES
+BELLWETHER_STORAGE_BUCKET
+BELLWETHER_OBJECT_STORE_MODE
+BELLWETHER_INTERNAL_API_TOKEN
+BELLWETHER_ALLOWED_ORIGINS
+BELLWETHER_REQUIRE_CONFIGURED_DEPENDENCIES
 ```
 
 Internal endpoints accept either:
 
 ```text
 Authorization: Bearer <token>
-x-traceready-internal-token: <token>
+x-bellwether-internal-token: <token>
 ```
 
 ## Object Storage
@@ -186,16 +186,16 @@ x-traceready-internal-token: <token>
 Production object storage is Supabase Storage. The Python code uses the `ObjectStore` boundary in:
 
 ```text
-traceready_backend.storage.artifacts
+bellwether_backend.storage.artifacts
 ```
 
 Runtime should use:
 
 ```text
-TRACEREADY_OBJECT_STORE_MODE=supabase
+BELLWETHER_OBJECT_STORE_MODE=supabase
 NEXT_PUBLIC_SUPABASE_URL=<project-url>
 SUPABASE_SERVICE_ROLE_KEY=<service-role-key>
-TRACEREADY_STORAGE_BUCKET=traceready-pilot-private
+BELLWETHER_STORAGE_BUCKET=bellwether-pilot-private
 ```
 
 The local object store is test-only. Local development, preview, and production all use the configured Supabase project and private Supabase Storage bucket.
@@ -222,7 +222,7 @@ Use this section when you want to run the Python application and its main featur
 From the ingestion folder:
 
 ```bash
-cd /Users/ramesh/Documents/Codex/2026-06-07/https-www-ycombinator-com-companies-here/traceready/ingestion
+cd /Users/ramesh/Documents/Codex/2026-06-07/https-www-ycombinator-com-companies-here/bellwether/ingestion
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
@@ -241,26 +241,26 @@ For Codex-local runs, the bundled runtime also works for Supabase operations:
 For local API development against the Supabase project:
 
 ```bash
-export TRACEREADY_ENV=local
+export BELLWETHER_ENV=local
 export NEXT_PUBLIC_SUPABASE_URL=https://<project-ref>.supabase.co
 export SUPABASE_SERVICE_ROLE_KEY=<service-role-key>
 export SUPABASE_DATABASE_URL=postgresql://...
-export TRACEREADY_STORAGE_BUCKET=traceready-pilot-private
-export TRACEREADY_OBJECT_STORE_MODE=supabase
-export TRACEREADY_INTERNAL_API_TOKEN=dev-internal-token
+export BELLWETHER_STORAGE_BUCKET=bellwether-pilot-private
+export BELLWETHER_OBJECT_STORE_MODE=supabase
+export BELLWETHER_INTERNAL_API_TOKEN=dev-internal-token
 ```
 
 For Supabase-backed development or production-like runs:
 
 ```bash
-export TRACEREADY_ENV=production
+export BELLWETHER_ENV=production
 export NEXT_PUBLIC_SUPABASE_URL=https://<project-ref>.supabase.co
 export SUPABASE_SERVICE_ROLE_KEY=<service-role-key>
 export SUPABASE_DATABASE_URL=postgresql://...
-export TRACEREADY_STORAGE_BUCKET=traceready-pilot-private
-export TRACEREADY_OBJECT_STORE_MODE=supabase
-export TRACEREADY_INTERNAL_API_TOKEN=<internal-token>
-export TRACEREADY_REQUIRE_CONFIGURED_DEPENDENCIES=true
+export BELLWETHER_STORAGE_BUCKET=bellwether-pilot-private
+export BELLWETHER_OBJECT_STORE_MODE=supabase
+export BELLWETHER_INTERNAL_API_TOKEN=<internal-token>
+export BELLWETHER_REQUIRE_CONFIGURED_DEPENDENCIES=true
 ```
 
 In the Python app, paste the Supabase connection URL into `backend/.env` as:
@@ -274,7 +274,7 @@ SUPABASE_DATABASE_URL=postgresql://postgres.<project-ref>:<password>@<host>:<por
 ### 3. Run The FastAPI App Locally
 
 ```bash
-.venv/bin/python -m uvicorn traceready_backend.api.main:app --reload --host 127.0.0.1 --port 8000
+.venv/bin/python -m uvicorn bellwether_backend.api.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 Use the venv Python explicitly. On some machines, plain `uvicorn` resolves to a global Python install and cannot see the ingestion dependencies installed in `.venv`, including the Supabase storage client.
@@ -284,7 +284,7 @@ Smoke checks:
 ```bash
 curl http://127.0.0.1:8000/health
 curl http://127.0.0.1:8000/ready
-curl -H "x-traceready-internal-token: $TRACEREADY_INTERNAL_API_TOKEN" \
+curl -H "x-bellwether-internal-token: $BELLWETHER_INTERNAL_API_TOKEN" \
   http://127.0.0.1:8000/internal/ping
 ```
 
@@ -307,7 +307,7 @@ Run one bounded processing slice:
 ```bash
 curl -X POST http://127.0.0.1:8000/internal/jobs/audit/process-slice \
   -H "content-type: application/json" \
-  -H "x-traceready-internal-token: $TRACEREADY_INTERNAL_API_TOKEN" \
+  -H "x-bellwether-internal-token: $BELLWETHER_INTERNAL_API_TOKEN" \
   -d '{
     "worker_id": "local-worker",
     "job_types": ["parse_customer_workbook", "execute_approved_rules"],
@@ -319,7 +319,7 @@ curl -X POST http://127.0.0.1:8000/internal/jobs/audit/process-slice \
 Check job status:
 
 ```bash
-curl -H "x-traceready-internal-token: $TRACEREADY_INTERNAL_API_TOKEN" \
+curl -H "x-bellwether-internal-token: $BELLWETHER_INTERNAL_API_TOKEN" \
   http://127.0.0.1:8000/internal/jobs/audit/<job_id>
 ```
 
@@ -328,7 +328,7 @@ Retry a failed/retryable job:
 ```bash
 curl -X POST http://127.0.0.1:8000/internal/jobs/audit/<job_id>/retry \
   -H "content-type: application/json" \
-  -H "x-traceready-internal-token: $TRACEREADY_INTERNAL_API_TOKEN" \
+  -H "x-bellwether-internal-token: $BELLWETHER_INTERNAL_API_TOKEN" \
   -d '{"requested_by":"local-ops","reason":"Retry after fixing config"}'
 ```
 
@@ -339,7 +339,7 @@ This loads the current local source registry into Supabase tables and private ob
 ```bash
 python -m scripts.ops.seed_regulatory_sources \
   --regulatory-dir ../data/regulatory \
-  --bucket traceready-pilot-private \
+  --bucket bellwether-pilot-private \
   --source-version 1
 ```
 
@@ -393,7 +393,7 @@ After seeding, run:
 
 ```bash
 python -m scripts.ops.check_source_artifact_integrity \
-  --bucket traceready-pilot-private \
+  --bucket bellwether-pilot-private \
   --source-version 1
 ```
 
@@ -427,7 +427,7 @@ Queue a source-ingestion job:
 ```bash
 curl -X POST http://127.0.0.1:8000/internal/regulatory/source-ingestion-jobs \
   -H "content-type: application/json" \
-  -H "x-traceready-internal-token: $TRACEREADY_INTERNAL_API_TOKEN" \
+  -H "x-bellwether-internal-token: $BELLWETHER_INTERNAL_API_TOKEN" \
   -d '{
     "source_type": "ecfr",
     "source_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-S",
@@ -439,14 +439,14 @@ curl -X POST http://127.0.0.1:8000/internal/regulatory/source-ingestion-jobs \
 List jobs:
 
 ```bash
-curl -H "x-traceready-internal-token: $TRACEREADY_INTERNAL_API_TOKEN" \
+curl -H "x-bellwether-internal-token: $BELLWETHER_INTERNAL_API_TOKEN" \
   http://127.0.0.1:8000/internal/regulatory/source-ingestion-jobs
 ```
 
 Check one job:
 
 ```bash
-curl -H "x-traceready-internal-token: $TRACEREADY_INTERNAL_API_TOKEN" \
+curl -H "x-bellwether-internal-token: $BELLWETHER_INTERNAL_API_TOKEN" \
   http://127.0.0.1:8000/internal/regulatory/source-ingestion-jobs/<job_id>
 ```
 
@@ -581,14 +581,14 @@ POST /internal/jobs/audit/process-slice
 Required production env:
 
 ```text
-TRACEREADY_ENV=production
+BELLWETHER_ENV=production
 NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY
 SUPABASE_DATABASE_URL
-TRACEREADY_STORAGE_BUCKET
-TRACEREADY_OBJECT_STORE_MODE=supabase
-TRACEREADY_INTERNAL_API_TOKEN
-TRACEREADY_ALLOWED_ORIGINS
-TRACEREADY_REQUIRE_CONFIGURED_DEPENDENCIES=true
+BELLWETHER_STORAGE_BUCKET
+BELLWETHER_OBJECT_STORE_MODE=supabase
+BELLWETHER_INTERNAL_API_TOKEN
+BELLWETHER_ALLOWED_ORIGINS
+BELLWETHER_REQUIRE_CONFIGURED_DEPENDENCIES=true
 ```
 
 Use the smoke checklist in:
@@ -602,7 +602,7 @@ Use the smoke checklist in:
 From this folder:
 
 ```bash
-cd /Users/ramesh/Documents/Codex/2026-06-07/https-www-ycombinator-com-companies-here/traceready/ingestion
+cd /Users/ramesh/Documents/Codex/2026-06-07/https-www-ycombinator-com-companies-here/bellwether/ingestion
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
@@ -679,7 +679,7 @@ python -m scripts.ops.ingest \
   --url "https://www.fda.gov/media/163132/download?attachment" \
   --source-id "fda-cte-kde" \
   --output-dir "../data/regulatory/fda-cte-kde" \
-  --include-traceready-context
+  --include-bellwether-context
 ```
 
 For local PDFs:
@@ -690,7 +690,7 @@ python -m scripts.ops.ingest \
   --url "https://www.fda.gov/media/163132/download?attachment" \
   --source-id "fda-cte-kde" \
   --output-dir "../data/regulatory/fda-cte-kde" \
-  --include-traceready-context
+  --include-bellwether-context
 ```
 
 The extractor uses `pdfplumber`, then `pypdf`, then PyMuPDF/fallback when available.
@@ -704,10 +704,10 @@ python -m scripts.ops.ingest \
   --url "https://www.fda.gov/media/179617/download?attachment" \
   --source-id "fda-sortable-spreadsheet-xlsx" \
   --output-dir "../data/regulatory/fda-sortable-spreadsheet-xlsx" \
-  --include-traceready-context
+  --include-bellwether-context
 ```
 
-This is especially important for the FDA electronic sortable spreadsheet because the workbook tabs and columns define the practical export shape TraceReady must support.
+This is especially important for the FDA electronic sortable spreadsheet because the workbook tabs and columns define the practical export shape Bellwether must support.
 
 ## Run Local FDA Document Drop Ingestion
 
@@ -718,12 +718,12 @@ Use this for manually downloaded FDA/CFR/Federal Register PDFs and XLSX files.
   --input-dir /Users/ramesh/Downloads/fda-documents \
   --output-dir ../data/regulatory \
   --manifest ../data/regulatory/local-fda-documents-ingestion-manifest.json \
-  --include-traceready-context
+  --include-bellwether-context
 ```
 
 The local batch importer:
 
-- maps known downloaded filenames to stable TraceReady source IDs
+- maps known downloaded filenames to stable Bellwether source IDs
 - skips exact duplicate files by SHA-256
 - uses semantic PDF sectioning for CFR/FDA PDFs
 - uses layout-aware column ordering for Federal Register PDFs
@@ -752,14 +752,14 @@ python -m scripts.ops.ingest \
   --output-dir "../data/regulatory" \
   --min-section 1.1300 \
   --max-section 1.1465 \
-  --include-traceready-context
+  --include-bellwether-context
 ```
 
 This extracts the FSMA 204 Subpart S sections from 21 CFR 1.1300 through 21 CFR 1.1465.
 
-The optional `--include-traceready-context` flag adds the FDA FSMA Rules & Guidance mapping:
+The optional `--include-bellwether-context` flag adds the FDA FSMA Rules & Guidance mapping:
 
-- direct TraceReady core sources
+- direct Bellwether core sources
 - guidance sources
 - adjacent customer rules
 - rules outside the MVP
@@ -811,7 +811,7 @@ The model should produce structured drafts only. It should not decide whether a 
 Production writes now use Supabase table repositories under:
 
 ```text
-traceready_backend.backend.repositories
+bellwether_backend.backend.repositories
 ```
 
 The old `storage/db.py` in-memory store remains local/test-only compatibility and should not be used as production state.
@@ -858,17 +858,17 @@ For Supabase runtime support:
 NEXT_PUBLIC_SUPABASE_URL=...
 SUPABASE_SERVICE_ROLE_KEY=...
 SUPABASE_DATABASE_URL=...
-TRACEREADY_STORAGE_BUCKET=traceready-pilot-private
-TRACEREADY_OBJECT_STORE_MODE=supabase
+BELLWETHER_STORAGE_BUCKET=bellwether-pilot-private
+BELLWETHER_OBJECT_STORE_MODE=supabase
 ```
 
 For Anthropic-backed Phase 5 extraction:
 
 ```bash
 ANTHROPIC_API_KEY=...
-TRACEREADY_ANTHROPIC_MODEL=claude-sonnet-4-6
-TRACEREADY_ANTHROPIC_CONFLICT_MODEL=claude-opus-4-8
-TRACEREADY_ANTHROPIC_MAX_TOKENS=12000
+BELLWETHER_ANTHROPIC_MODEL=claude-sonnet-4-6
+BELLWETHER_ANTHROPIC_CONFLICT_MODEL=claude-opus-4-8
+BELLWETHER_ANTHROPIC_MAX_TOKENS=12000
 ```
 
 Keep service-role keys server-side only. Do not expose them to the Next.js browser client.
@@ -885,7 +885,7 @@ Reviewer summaries: lower-cost model later; not part of executable rule approval
 Run setup:
 
 ```bash
-cd traceready/ingestion
+cd bellwether/ingestion
 python -m pip install -e .
 cp .env.example .env
 # Add ANTHROPIC_API_KEY to .env or export it in your shell.
@@ -894,7 +894,7 @@ cp .env.example .env
 Run Phase 5 extraction:
 
 ```bash
-cd traceready/ingestion
+cd bellwether/ingestion
 export ANTHROPIC_API_KEY=...
 python scripts/intelligence/run_phase5_anthropic_extraction.py --prompt-cache-ttl 1h
 ```
@@ -902,7 +902,7 @@ python scripts/intelligence/run_phase5_anthropic_extraction.py --prompt-cache-tt
 The runner stores immutable raw responses and validated draft/rejected/conflict outputs under:
 
 ```text
-traceready/data/regulatory/intelligence/phase5/anthropic-runs/
+bellwether/data/regulatory/intelligence/phase5/anthropic-runs/
 ```
 
 Each run stores human-readable artifacts:
@@ -958,4 +958,4 @@ Before using this for pilots:
 - Add source-change detection before updating approved rules.
 - Add golden scenario tests before changing executable rules.
 
-This is the foundation for TraceReady's regulatory intelligence system, not a one-off scraper.
+This is the foundation for Bellwether's regulatory intelligence system, not a one-off scraper.

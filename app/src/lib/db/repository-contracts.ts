@@ -1,4 +1,4 @@
-import type { QueuedUploadRecords, UploadAuditJobRepository } from "@/lib/audit/upload-job";
+import type { UploadAuditJobRepository } from "@/lib/audit/upload-job";
 
 export interface AuditDbRepository extends UploadAuditJobRepository {
   loadAuditProject(id: string): Promise<unknown | undefined>;
@@ -29,11 +29,11 @@ export interface RegulatoryDbRepository {
   listApprovedRulePackages(limit?: number): Promise<unknown[]>;
 }
 
-export interface TraceReadyDbRepositories {
+export interface BellwetherDbRepositories {
   audits: AuditDbRepository;
   auditJobs: AuditJobDbRepository;
   auditArtifacts: AuditArtifactDbRepository;
   regulatory: RegulatoryDbRepository;
 }
 
-export type { QueuedUploadRecords, UploadAuditJobRepository };
+;

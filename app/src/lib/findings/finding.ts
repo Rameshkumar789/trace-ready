@@ -30,6 +30,6 @@ export function createFinding(input: Omit<Finding, "findingId" | "reviewState"> 
   };
 }
 
-export function stableFindingId(...parts: Array<string | undefined>) {
+function stableFindingId(...parts: Array<string | undefined>) {
   return `finding-${parts.filter(Boolean).join("-").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
 }

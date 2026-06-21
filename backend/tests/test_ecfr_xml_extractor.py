@@ -1,6 +1,6 @@
 import unittest
 
-from traceready_backend.extractors.ecfr_xml_extractor import extract_ecfr_sections
+from bellwether_backend.extractors.ecfr_xml_extractor import extract_ecfr_sections
 
 
 class EcfrXmlExtractorTest(unittest.TestCase):

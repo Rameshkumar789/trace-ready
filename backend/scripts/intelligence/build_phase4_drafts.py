@@ -10,7 +10,7 @@ from typing import Any
 
 from pydantic import BaseModel
 
-from traceready_backend.intelligence.phase04_deterministic_extractors import (
+from bellwether_backend.intelligence.phase04_deterministic_extractors import (
     extract_cte_kde_candidates,
     extract_defined_terms,
     extract_ftl_food_items,

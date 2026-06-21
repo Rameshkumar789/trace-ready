@@ -62,8 +62,3 @@ export const requiredWorkbookSheets: RequiredSheet[] = [
   }
 ];
 
-export const generatedWorkbookSheets = [
-  "11_TraceReady_Findings",
-  "12_Readiness_Summary",
-  "13_FDA_Sortable_Export_Check"
-];

@@ -7,10 +7,10 @@ import argparse
 import json
 from pathlib import Path
 
-from traceready_backend.api.config import load_settings
-from traceready_backend.backend.db import supabase_connection
-from traceready_backend.backend.repositories.supabase_tables import RegulatoryRepository
-from traceready_backend.backend.services.regulatory_draft_import_service import (
+from bellwether_backend.api.config import load_settings
+from bellwether_backend.backend.db import supabase_connection
+from bellwether_backend.backend.repositories.supabase_tables import RegulatoryRepository
+from bellwether_backend.backend.services.regulatory_draft_import_service import (
     import_phase6_draft_review_records,
 )
 

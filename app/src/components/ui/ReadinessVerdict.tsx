@@ -27,7 +27,7 @@ export function ReadinessVerdict({
   const summary = mustFixCount
     ? "Your traceability records are mostly complete. Fix the missing lot codes first — those are what a recall depends on. The rest just need a quick human confirmation."
     : reviewCount
-      ? "No hard gaps. A few records need a human to confirm scope before TraceReady will score them."
+      ? "No hard gaps. A few records need a human to confirm scope before Bellwether will score them."
       : "Every checked record carries the key data FSMA 204 expects.";
 
   const metrics: Array<{ label: string; value: number; tone: "risk" | "review" | "neutral" }> = [

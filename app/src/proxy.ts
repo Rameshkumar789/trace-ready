@@ -1,41 +1,44 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { canAccessPath, decodeSessionCookieUnverified, loginPathForTarget, TRACEREADY_SESSION_COOKIE } from "@/lib/auth/session-cookie";
+import { createServerClient } from "@supabase/ssr";
 
+// Middleware: keep the Supabase auth session fresh on every request (so server
+// components see a valid token) and gate the operator workspace to signed-in
+// users. Role-level checks happen in the page via getBellwetherSession.
 export async function proxy(request: NextRequest) {
-  const protectedPath =
-    request.nextUrl.pathname.startsWith("/operator") ||
-    request.nextUrl.pathname.startsWith("/reviewer") ||
-    request.nextUrl.pathname.startsWith("/admin") ||
-    request.nextUrl.pathname.startsWith("/upload") ||
-    request.nextUrl.pathname.startsWith("/audits");
+  let response = NextResponse.next({ request });
 
-  if (!protectedPath) {
-    return NextResponse.next();
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ?? process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!url || !key) return response;
+
+  const supabase = createServerClient(url, key, {
+    cookies: {
+      getAll() {
+        return request.cookies.getAll();
+      },
+      setAll(cookiesToSet) {
+        cookiesToSet.forEach(({ name, value }) => request.cookies.set(name, value));
+        response = NextResponse.next({ request });
+        cookiesToSet.forEach(({ name, value, options }) => response.cookies.set(name, value, options));
+      }
+    }
+  });
+
+  const {
+    data: { user }
+  } = await supabase.auth.getUser();
+
+  if (request.nextUrl.pathname.startsWith("/operator") && !user) {
+    const loginUrl = request.nextUrl.clone();
+    loginUrl.pathname = "/login/operator";
+    loginUrl.searchParams.set("auth", "required");
+    loginUrl.searchParams.set("next", request.nextUrl.pathname);
+    return NextResponse.redirect(loginUrl);
   }
 
-  // Optimistic, secret-free routing check (Edge runtime). The HMAC signature is verified
-  // server-side in getPilotSession when a protected page actually renders.
-  const rawCookie = request.cookies.get(TRACEREADY_SESSION_COOKIE)?.value;
-  const session = decodeSessionCookieUnverified(rawCookie);
-
-  if (canAccessPath(session, request.nextUrl.pathname)) {
-    return NextResponse.next();
-  }
-
-  if (session) {
-    const url = request.nextUrl.clone();
-    url.pathname = "/";
-    url.searchParams.set("auth", "forbidden");
-    return NextResponse.redirect(url);
-  }
-
-  const url = request.nextUrl.clone();
-  url.pathname = loginPathForTarget(request.nextUrl.pathname);
-  url.searchParams.set("auth", "required");
-  url.searchParams.set("next", request.nextUrl.pathname);
-  return NextResponse.redirect(url);
+  return response;
 }
 
 export const config = {
-  matcher: ["/operator/:path*", "/operator", "/reviewer/:path*", "/reviewer", "/admin/:path*", "/upload", "/audits/:path*"]
+  matcher: ["/operator/:path*", "/operator"]
 };

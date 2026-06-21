@@ -2,7 +2,7 @@ import unittest
 from types import SimpleNamespace
 from unittest.mock import patch
 
-from traceready_backend.backend.services.audit_job_slice_service import run_audit_job_slice
+from bellwether_backend.backend.services.audit_job_slice_service import run_audit_job_slice
 
 
 class FakeAuditJobs:
@@ -61,7 +61,7 @@ class AuditJobSliceServiceTest(unittest.TestCase):
         repositories = FakeRepositories(job)
 
         with patch(
-            "traceready_backend.backend.services.audit_job_slice_service.run_audit_parse_job",
+            "bellwether_backend.backend.services.audit_job_slice_service.run_audit_parse_job",
             return_value=SimpleNamespace(status="succeeded", checkpoint={"stage": "completed"}),
         ) as parse_job:
             result = run_audit_job_slice(

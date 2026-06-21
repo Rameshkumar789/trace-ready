@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from traceready_backend.intelligence.phase09_approved_rule_package import (
+from bellwether_backend.intelligence.phase09_approved_rule_package import (
     build_phase9_rule_package,
     diff_rule_packages,
 )

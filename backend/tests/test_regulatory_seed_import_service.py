@@ -3,8 +3,8 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 
-from traceready_backend.backend.services.regulatory_seed_import_service import import_regulatory_registry_seed
-from traceready_backend.storage.artifacts import LocalObjectStore
+from bellwether_backend.backend.services.regulatory_seed_import_service import import_regulatory_registry_seed
+from bellwether_backend.storage.artifacts import LocalObjectStore
 
 
 class FakeRegulatoryRepository:
@@ -77,7 +77,7 @@ class RegulatorySeedImportServiceTest(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
-            store = LocalObjectStore(root / "objects", environ={"TRACEREADY_ENV": "test"})
+            store = LocalObjectStore(root / "objects", environ={"BELLWETHER_ENV": "test"})
             repository = FakeRegulatoryRepository()
 
             result = import_regulatory_registry_seed(

@@ -2,7 +2,7 @@ import unittest
 
 from pydantic import ValidationError
 
-from traceready_backend.intelligence.schemas import (
+from bellwether_backend.intelligence.schemas import (
     CitationRef,
     ConfidenceLevel,
     CteType,

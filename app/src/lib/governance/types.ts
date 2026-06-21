@@ -1,6 +1,6 @@
 import type { Finding } from "@/lib/findings/finding";
 
-export interface AuditPackagePin {
+interface AuditPackagePin {
   rulePackageId: string;
   rulePackageVersion: number;
   rulePackageHash?: string;
@@ -11,7 +11,7 @@ export interface AuditPackagePin {
   generatedAt: string;
 }
 
-export interface ReviewActionLogEntry {
+interface ReviewActionLogEntry {
   actionId: string;
   auditId: string;
   findingId?: string;
@@ -27,7 +27,7 @@ export interface ReviewActionLogEntry {
   immutable: true;
 }
 
-export interface ReviewerOverride {
+interface ReviewerOverride {
   overrideId: string;
   findingId: string;
   ruleCardId: string;
@@ -36,18 +36,6 @@ export interface ReviewerOverride {
   createdAt: string;
   status: "excluded_from_automation" | "promoted_by_approval";
   promotedByActionId?: string;
-}
-
-export interface ExplainabilityTraceStep {
-  step: "customer_evidence" | "normalized_event" | "deterministic_check" | "approved_rule" | "source_citation";
-  label: string;
-  detail: string;
-  refs: string[];
-}
-
-export interface ExplainabilityTrace {
-  findingId: string;
-  steps: ExplainabilityTraceStep[];
 }
 
 export interface Phase14GovernanceState {

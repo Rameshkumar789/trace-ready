@@ -6,15 +6,3 @@ export function normalizeBooleanLike(value: string | boolean | undefined): boole
   return "unknown";
 }
 
-export function normalizeText(value: unknown) {
-  return String(value ?? "").trim();
-}
-
-export function normalizeUnit(value: string | undefined) {
-  return normalizeText(value).toLowerCase();
-}
-
-export function normalizeQuantity(value: string | number | undefined) {
-  const parsed = typeof value === "number" ? value : Number(String(value ?? "").replace(/,/g, ""));
-  return Number.isFinite(parsed) ? parsed : undefined;
-}
