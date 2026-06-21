@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter, OrderedDict, defaultdict
 from functools import lru_cache
 from pathlib import Path
@@ -119,6 +120,22 @@ class SupplierProductCoverage(StrictRuleExecutionModel):
     status: str  # covered | gap | out_of_scope
 
 
+class TlcIntegrityCheck(StrictRuleExecutionModel):
+    """P2 — deeper-than-presence lot-code checks: does the chain actually hold together?
+    check_kind ∈ {retention, reassignment, uom_reconciliation}. These catch the failures FDA's
+    tabletop flagged as hardest: TLCs that are present but wrong (reused at transformation,
+    silently changed in transit) or quantities that can't reconcile across a transformation."""
+
+    check_id: str
+    event_id: str
+    cte: str
+    check_kind: str
+    status: str  # ok | gap
+    reason: str
+    details: dict[str, Any] = Field(default_factory=dict)
+    evidence_ids: list[str] = Field(default_factory=list)
+
+
 class AuditFinding(StrictRuleExecutionModel):
     finding_id: str
     event_id: str | None = None
@@ -179,6 +196,8 @@ class Phase11RuleExecutionPackage(StrictRuleExecutionModel):
     # P1 "scope the problem" matrix (supplier x product). Optional/additive so existing
     # constructors and persisted artifacts stay backward-compatible.
     supplier_product_coverage: list[SupplierProductCoverage] = Field(default_factory=list)
+    # P2 lot-code integrity checks (retention / reassignment / UoM). Additive/optional.
+    tlc_integrity_checks: list[TlcIntegrityCheck] = Field(default_factory=list)
 
 
 BUNDLED_RULES_DIR = Path(__file__).resolve().parent / "bundled_rules"
@@ -379,6 +398,113 @@ def build_supplier_product_coverage(
     return rows
 
 
+def build_lot_lineage_graph(events: dict[str, CustomerEventNode]) -> dict[str, dict[str, list[str]]]:
+    """Map each output lot to the distinct input lots that fed it (across transformation
+    events). An output fed by >1 distinct input is a commingling node — the high-fan-out point
+    where one missing upstream link invalidates everything downstream."""
+    graph: dict[str, dict[str, list[str]]] = {}
+    for event in events.values():
+        output = _real_value(event.output_lot_or_tlc)
+        source = _real_value(event.source_lot_or_tlc)
+        if not output:
+            continue
+        node = graph.setdefault(output.strip().lower(), {"sources": [], "events": []})
+        if source and source.strip().lower() not in node["sources"]:
+            node["sources"].append(source.strip().lower())
+        if event.event_id not in node["events"]:
+            node["events"].append(event.event_id)
+    return graph
+
+
+def check_tlc_integrity(
+    *,
+    mappings: list[EventObligationMapping],
+    events: dict[str, CustomerEventNode],
+) -> list[TlcIntegrityCheck]:
+    """Retention + reassignment correctness (the retain-vs-reassign error FDA/Jim call out)."""
+    checks: list[TlcIntegrityCheck] = []
+    for mapping in mappings:
+        event = events[mapping.event_id]
+        lot = _real_value(event.lot_or_tlc)
+        source = _real_value(event.source_lot_or_tlc)
+        output = _real_value(event.output_lot_or_tlc)
+
+        if mapping.cte == "transformation":
+            # A transformation must MINT a new TLC; reusing the incoming lot breaks traceability.
+            if output and source and output.strip().lower() == source.strip().lower():
+                checks.append(
+                    TlcIntegrityCheck(
+                        check_id=f"phase11-tlcint-{len(checks) + 1:04d}",
+                        event_id=mapping.event_id, cte=mapping.cte, check_kind="reassignment",
+                        status="gap",
+                        reason="Transformation reused the incoming lot code as its output — a new Traceability Lot Code must be assigned.",
+                        details={"source": source, "output": output},
+                        evidence_ids=event.evidence_ids,
+                    )
+                )
+        elif mapping.cte in {"shipping", "receiving"}:
+            # Shipping/receiving must carry the TLC forward unchanged — never reassign it.
+            if output and lot and output.strip().lower() != lot.strip().lower():
+                checks.append(
+                    TlcIntegrityCheck(
+                        check_id=f"phase11-tlcint-{len(checks) + 1:04d}",
+                        event_id=mapping.event_id, cte=mapping.cte, check_kind="retention",
+                        status="gap",
+                        reason="A shipping/receiving record changed the Traceability Lot Code — it must carry the existing TLC forward, not assign a new one.",
+                        details={"lot": lot, "output": output},
+                        evidence_ids=event.evidence_ids,
+                    )
+                )
+    return checks
+
+
+def _parse_quantity(value: str | None) -> float | None:
+    if not value:
+        return None
+    match = re.search(r"-?\d+(?:[.,]\d+)?", str(value).replace(",", ""))
+    return float(match.group()) if match else None
+
+
+def check_uom_reconciliation(
+    *,
+    mappings: list[EventObligationMapping],
+    events: dict[str, CustomerEventNode],
+) -> list[TlcIntegrityCheck]:
+    """Mass-balance: a transformation's output quantity cannot exceed its input quantity
+    (yield > 100% signals dilution/fraud/error). Runs only where quantities are present."""
+    qty_by_lot: dict[str, float] = {}
+    for event in events.values():
+        qty = _parse_quantity(event.quantity)
+        lot = _real_value(event.lot_or_tlc) or _real_value(event.output_lot_or_tlc)
+        if qty is not None and lot:
+            qty_by_lot[lot.strip().lower()] = qty
+
+    checks: list[TlcIntegrityCheck] = []
+    for mapping in mappings:
+        if mapping.cte != "transformation":
+            continue
+        event = events[mapping.event_id]
+        output_qty = _parse_quantity(event.quantity)
+        source = _real_value(event.source_lot_or_tlc)
+        if output_qty is None or not source:
+            continue
+        input_qty = qty_by_lot.get(source.strip().lower())
+        if input_qty is None:
+            continue
+        if output_qty > input_qty * 1.02:  # 2% tolerance for rounding/unit noise
+            checks.append(
+                TlcIntegrityCheck(
+                    check_id=f"phase11-uom-{len(checks) + 1:04d}",
+                    event_id=mapping.event_id, cte="transformation", check_kind="uom_reconciliation",
+                    status="gap",
+                    reason="Transformation output quantity exceeds the input quantity — the lot cannot mass-balance.",
+                    details={"input_qty": input_qty, "output_qty": output_qty, "source_lot": source},
+                    evidence_ids=event.evidence_ids,
+                )
+            )
+    return checks
+
+
 def build_phase11_rule_execution(
     *,
     input_file: Path,
@@ -456,6 +582,8 @@ def build_phase11_rule_execution(
         tlc_checks=tlc_checks,
         counterparties=getattr(phase10.entity_graph, "counterparties", []),
     )
+    tlc_integrity_checks = check_tlc_integrity(mappings=obligation_mappings, events=event_by_id)
+    tlc_integrity_checks += check_uom_reconciliation(mappings=obligation_mappings, events=event_by_id)
     export_package = build_fda_style_export_package(
         rule_package=rule_package,
         events=event_by_id,
@@ -491,6 +619,7 @@ def build_phase11_rule_execution(
         exception_queue=exception_queue,
         export_package=export_package,
         supplier_product_coverage=supplier_product_coverage,
+        tlc_integrity_checks=tlc_integrity_checks,
     )
 
 

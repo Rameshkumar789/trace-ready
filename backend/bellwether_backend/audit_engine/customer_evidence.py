@@ -142,6 +142,8 @@ class CustomerEventNode(StrictCustomerEvidenceModel):
     lot_or_tlc: str | None = None
     source_lot_or_tlc: str | None = None
     output_lot_or_tlc: str | None = None
+    quantity: str | None = None
+    unit: str | None = None
     from_partner_id: str | None = None
     to_partner_id: str | None = None
     destination_type: str | None = None
