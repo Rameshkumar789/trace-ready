@@ -451,7 +451,48 @@ def read_spreadsheet_evidence(input_file: Path) -> list[CustomerEvidenceRecord]:
         return _read_csv_evidence(input_file)
     if suffix in {".xlsx", ".xlsm"}:
         return _read_xlsx_evidence(input_file)
+    if suffix in {".edi", ".x12", ".asn"}:
+        return _read_inbound_format_evidence(input_file, fmt="edi856")
+    if suffix == ".xml":
+        return _read_inbound_format_evidence(input_file, fmt="xml")
     raise ValueError(f"unsupported customer evidence file type: {input_file.suffix}")
+
+
+def _records_from_rows(input_file: Path, sheet_name: str, rows: list[dict[str, str]]) -> list[CustomerEvidenceRecord]:
+    """Turn canonical column->value rows (from an inbound-format parser) into evidence records,
+    reusing the same _evidence_record path the workbook ingest uses so everything downstream
+    is format-agnostic."""
+    records: list[CustomerEvidenceRecord] = []
+    for offset, row in enumerate(rows, start=2):  # row 1 is the conceptual header
+        for column_index, (column_name, raw) in enumerate(row.items(), start=1):
+            if str(raw).strip() == "":
+                continue
+            records.append(
+                _evidence_record(
+                    input_file=input_file,
+                    sheet_name=sheet_name,
+                    row_number=offset,
+                    column_name=column_name,
+                    column_index=column_index,
+                    raw_value=raw,
+                )
+            )
+    return records
+
+
+def _read_inbound_format_evidence(input_file: Path, *, fmt: str) -> list[CustomerEvidenceRecord]:
+    from bellwether_backend.audit_engine import inbound_parsers
+
+    text = input_file.read_text(encoding="utf-8-sig")
+    if fmt == "edi856":
+        return _records_from_rows(input_file, "edi856", inbound_parsers.parse_edi_856(text))
+    # XML: sniff EPCIS (events) vs GDSN (trade-item master) by content.
+    lowered = text.lower()
+    if "epcis" in lowered or "objectevent" in lowered or "transformationevent" in lowered:
+        return _records_from_rows(input_file, "epcis", inbound_parsers.parse_epcis_xml(text))
+    if "tradeitem" in lowered or "gdsn" in lowered:
+        return _records_from_rows(input_file, "gdsn", inbound_parsers.parse_gdsn_xml(text))
+    raise ValueError("unrecognized XML inbound format (expected EPCIS or GDSN)")
 
 
 def infer_filename_and_sheet_facts(*, input_file: Path, evidence_records: list[CustomerEvidenceRecord]) -> list[InferredEvidenceFact]:
