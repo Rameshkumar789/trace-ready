@@ -172,6 +172,21 @@ class SupplierScorecard(StrictRuleExecutionModel):
     recommended_actions: list[SupplierScorecardAction] = Field(default_factory=list)
 
 
+class TracebackFireDrillResult(StrictRuleExecutionModel):
+    """P5 (part 2) — a practice version of FDA's tabletop: pick a lot and ask whether a
+    complete, linked one-up/one-down record could be produced (the 24-hour test). The
+    completeness score is the readiness proxy."""
+
+    target_lot: str
+    event_count: int
+    event_ids: list[str] = Field(default_factory=list)
+    one_up_linked: bool = False   # do we know where the lot came from?
+    one_down_linked: bool = False  # do we know where it went?
+    completeness_score: float = Field(ge=0, le=1)
+    passed: bool = False
+    missing_links: list[str] = Field(default_factory=list)
+
+
 class AuditFinding(StrictRuleExecutionModel):
     finding_id: str
     event_id: str | None = None
@@ -638,6 +653,44 @@ def detect_data_quality_anomalies(events: dict[str, CustomerEventNode]) -> list[
     return anomalies
 
 
+# P5 (part 2) — flexibility-aware citations. The carve-outs FDA is weighing under docket
+# FDA-2014-N-0053 (June/Nov 2026 lot-level-traceability engagements), plus the finalized
+# cottage-cheese exemption. Encoded as reviewable data so a finding can cite the correct
+# pathway instead of always defaulting to the base CTE section.
+FLEXIBILITY_RULES = {
+    "returns_reclamation": {
+        "citation": "21 CFR 1.1345 (receiving) — returns/reclamation flexibility under review (FDA-2014-N-0053)",
+        "effect": "may_reduce_kdes",
+        "note": "Items returned to a supplier may not require the full receiving KDE set; confirm against final guidance.",
+    },
+    "food_waste_recovery": {
+        "citation": "21 CFR 1.1305 — 'shipping' excludes donation of surplus food",
+        "effect": "out_of_scope_shipping",
+        "note": "Donating surplus food is not a 'shipping' CTE; donor need not keep shipping KDEs.",
+    },
+    "intracompany_no_transformation": {
+        "citation": "FDA-2014-N-0053 — intracompany-shipment flexibility under review",
+        "effect": "may_reduce_kdes",
+        "note": "Moves between locations of the same firm with no transformation may not need full ship/receive KDEs.",
+    },
+    "cottage_cheese_ims": {
+        "citation": "21 CFR 1.1305 — Grade 'A' cottage cheese exemption (final, Feb 2026)",
+        "effect": "exempt",
+        "note": "Grade 'A' cottage cheese on the IMS list is exempt; immediate-source/recipient records still apply.",
+    },
+}
+
+
+def resolve_flexible_citation(cte: str | None, *, scenario: str | None = None) -> dict[str, Any]:
+    """Pick the citation pathway for a finding: a recognized flexibility scenario when one
+    applies, otherwise the base CTE section. Conservative — flexibilities are 'under review'
+    unless final, so the note tells the operator to confirm rather than auto-granting relief."""
+    if scenario and scenario in FLEXIBILITY_RULES:
+        rule = FLEXIBILITY_RULES[scenario]
+        return {"scenario": scenario, "section": rule["citation"], "effect": rule["effect"], "note": rule["note"]}
+    return {"scenario": None, "section": CTE_SECTION_REFS.get(cte or "", "21 CFR 1.1315"), "effect": "required", "note": ""}
+
+
 # Field -> representative CFR citation for the supplier-facing recommended actions.
 FIELD_CITATIONS = {
     "traceability_lot_code": "21 CFR 1.1340 / 1.1345",
@@ -723,6 +776,54 @@ def build_supplier_scorecards(coverage: list[SupplierProductCoverage]) -> list[S
     grade_rank = {"F": 0, "D": 1, "C": 2, "B": 3, "A": 4}
     scorecards.sort(key=lambda s: (grade_rank.get(s.grade, 5), -s.products_with_gaps, s.supplier_id))
     return scorecards
+
+
+def run_traceback_fire_drill(events: dict[str, CustomerEventNode], target_lot: str) -> TracebackFireDrillResult:
+    """Simulate an FDA records request for one lot: can we assemble a complete one-up/one-down
+    linked record? Scored over {found, one-up, one-down}; passes only if all three hold."""
+    needle = (target_lot or "").strip().lower()
+    matching: list[CustomerEventNode] = []
+    one_up = False
+    one_down = False
+    for event in events.values():
+        lots = {
+            _real_value(value).strip().lower()
+            for value in (event.lot_or_tlc, event.source_lot_or_tlc, event.output_lot_or_tlc)
+            if _real_value(value)
+        }
+        if needle not in lots:
+            continue
+        matching.append(event)
+        ctes = set(event.classified_ctes)
+        # We know where it came from if it was received/packed/transformed (with a source lot).
+        if ctes & {"receiving", "first_land_based_receiving", "initial_packing", "harvesting"}:
+            one_up = True
+        if "transformation" in ctes and _real_value(event.source_lot_or_tlc):
+            one_up = True
+        # We know where it went if it was shipped.
+        if "shipping" in ctes:
+            one_down = True
+
+    found = bool(matching)
+    components = [found, one_up, one_down]
+    score = round(sum(1 for c in components if c) / len(components), 3)
+    missing: list[str] = []
+    if not found:
+        missing.append("no record references this lot")
+    if not one_up:
+        missing.append("no one-up source (where the lot came from)")
+    if not one_down:
+        missing.append("no one-down destination (where the lot went)")
+    return TracebackFireDrillResult(
+        target_lot=target_lot,
+        event_count=len(matching),
+        event_ids=sorted(event.event_id for event in matching),
+        one_up_linked=one_up,
+        one_down_linked=one_down,
+        completeness_score=score,
+        passed=found and one_up and one_down,
+        missing_links=missing,
+    )
 
 
 def build_phase11_rule_execution(
