@@ -85,3 +85,13 @@ Relationships: `project → run → {files, evidence, findings}`; `run` pins a `
 4. Point frontend reads at the new shapes.
 5. Quarantine the regulatory pipeline into `scripts/build_rule_package.py` (emits the artifact).
 6. Shadow-run vs legacy → confirm parity → retire legacy + drop unused tables.
+
+## Cutover checklist (step 6 — gated, NOT yet executed)
+Retire legacy only when ALL hold:
+- [ ] Apply `bellwether_core/schema/001_core.sql` to Supabase.
+- [ ] `build_rule_package.py` artifact published and pinned.
+- [ ] `/v2` route deployed; `POST /v2/audits` + `GET /v2/audits/{id}` work against Supabase.
+- [ ] Frontend reads via `lib/audit/v2-client.ts` only.
+- [ ] `bellwether_core/tests/test_parity.py` passes on representative real data (Jim's Sea Eagle file).
+- [ ] Database backup taken.
+- [ ] THEN apply `bellwether_core/schema/legacy_teardown.sql` and delete `bellwether_backend/backend/` + `intelligence/` (keep `audit_engine/`).
