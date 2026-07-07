@@ -27,6 +27,10 @@ These files are not polished strategy docs. They are source evidence and working
 - `2026-06-12-updated-market-research.txt`  
   Market-research read on the updated TraceReady Audit idea.
 
+- `2026-07-03-jim-john-demo-feedback-call-transcript.txt`  
+  Raw transcript from the TraceReady demo + feedback call with Jim White and John
+  (distilled in `../partners/enseso4food/2026-07-03-jim-john-demo-call-insights-and-action-items.md`).
+
 ## Polished Docs
 
 For clean, project-ready versions, use:
