@@ -1,0 +1,15 @@
+{
+  "workbook": "data/samples/fsma204-full-audit-sample.xlsx",
+  "description": "Synthetic demo workbook with intentionally seeded gaps (the original golden fixture, extended with the deep-validation checks).",
+  "labeled_by": "engineering (seeded gaps are known by construction)",
+  "expected_findings": [
+    {"finding_type": "tlc_lineage", "min_count": 2, "must_find": true, "note": "receiving + transformation records missing TLCs (seeded)"},
+    {"finding_type": "kde_completeness", "min_count": 1, "must_find": true, "note": "shipping record missing required fields (seeded)"},
+    {"finding_type": "traceability_plan", "min_count": 1, "must_find": true, "note": "4 plan components missing (seeded)"},
+    {"finding_type": "exemption_claim", "min_count": 1, "must_find": true, "note": "Supplier A small-producer claim without evidence (seeded)"}
+  ],
+  "forbidden_findings": [
+    {"finding_type": "lot_backward_lineage", "status": "gap", "note": "the single demo lot is fully linked; a hard lineage gap here is a false positive"}
+  ],
+  "expected_event_counts": {"total": 3}
+}

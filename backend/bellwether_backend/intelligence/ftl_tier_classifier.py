@@ -80,11 +80,29 @@ def classify_products(
     ftl_hash = cache_key("ftl-items", json.dumps(_ftl_digest(ftl_items), sort_keys=True))
     valid_commodities = {str(item.get("commodity")) for item in ftl_items if item.get("commodity")}
 
+    # Reviewer labels are the strongest evidence tier: a human-confirmed product tier
+    # auto-resolves without cache or model (the WS4 flywheel).
+    from bellwether_backend.intelligence.reviewer_labels import ftl_label_key, load_labels
+
+    reviewer_labels = load_labels("ftl_tier")
+
     results: dict[str, dict[str, Any]] = {}
     missing: list[dict[str, Any]] = []
     keys: dict[str, str] = {}
     for product in products:
         product_id = str(product.get("product_id"))
+        label_entry = reviewer_labels.get(ftl_label_key(product.get("name"), product.get("declared_category")))
+        if label_entry and label_entry.get("label", {}).get("tier") in TIERS:
+            label = label_entry["label"]
+            results[product_id] = {
+                "product_id": product_id,
+                "tier": label["tier"],
+                "matched_commodity": label.get("matched_commodity") if label.get("matched_commodity") in valid_commodities else None,
+                "confidence": 0.99,
+                "reasoning": f"Reviewer-confirmed classification ({label_entry.get('reviewer', 'reviewer')}).",
+                "method": "reviewer_confirmed",
+            }
+            continue
         key = cache_key(FTL_PROMPT_VERSION, product_id, _norm(product.get("name")), _norm(product.get("declared_category")), ftl_hash)
         keys[product_id] = key
         cached = cache.get("ftl_tier", key)
@@ -114,6 +132,12 @@ def classify_products(
 
     for product in products:
         product_id = str(product.get("product_id"))
+        if results[product_id].get("method") == "reviewer_confirmed":
+            # A human decision outranks the deterministic guards; only annotate.
+            results[product_id].setdefault("declared_category", product.get("declared_category"))
+            results[product_id].setdefault("mismatch", False)
+            results[product_id].setdefault("composite_food", False)
+            continue
         results[product_id] = _postprocess(results[product_id], product, valid_commodities)
     return results
 
