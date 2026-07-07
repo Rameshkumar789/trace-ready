@@ -177,6 +177,8 @@ for the customer's own field-mapping gap. This also measures true remediation co
    died). Run it through the audit engine, produce a supplier/product gap report, and
    send the results back to Jim and John. This is the single best next proof point and
    directly exercises the Section 2/3 repositioning.
+   **Update 2026-07-07: received and analyzed — see
+   [`2026-07-07-sea-eagle-sample-data-findings.md`](2026-07-07-sea-eagle-sample-data-findings.md).**
 2. **Retailer instruction corpus:** collect the Walmart supplier instructions Jim linked,
    plus Kroger and Safeway/Albertsons equivalents (hunt for Costco, Trader Joe's,
    Publix). Add to `data/regulatory/` sourcing and the regulatory ingestion tracker.
