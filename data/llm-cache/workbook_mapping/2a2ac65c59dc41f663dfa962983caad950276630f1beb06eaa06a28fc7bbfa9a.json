@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-07-07T06:41:47.927843+00:00",
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "traceability_plan_item",
+          "confidence": 0.9,
+          "header": "Required records",
+          "index": 1,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Identify foods",
+          "index": 2,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "tlc_assignment_method",
+          "confidence": 0.9,
+          "header": "Traceability LOT codes assignment",
+          "index": 3,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "contact_person",
+          "confidence": 0.9,
+          "header": "Point of contact",
+          "index": 4,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Growing areas",
+          "index": 5,
+          "why": "expected mapping (pending live model regeneration)"
+        }
+      ],
+      "confidence": 0.9,
+      "record_kind": "traceability_plan",
+      "sheet_name": "Traceability plan"
+    }
+  ],
+  "key": "2a2ac65c59dc41f663dfa962983caad950276630f1beb06eaa06a28fc7bbfa9a",
+  "method": "hand_authored_pending_llm",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

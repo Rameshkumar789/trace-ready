@@ -1,0 +1,171 @@
+{
+  "created_at": "2026-07-07T06:41:47.914373+00:00",
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Product ID",
+          "index": 1,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Product title",
+          "index": 2,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.9,
+          "header": "Comodity",
+          "index": 3,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.9,
+          "header": "Variety",
+          "index": 4,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "received_date",
+          "confidence": 0.9,
+          "header": "Receiving date",
+          "index": 5,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "quantity_received",
+          "confidence": 0.9,
+          "header": "Quantity Received Food",
+          "index": 6,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Measure Unit received Food",
+          "index": 7,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Harvesting KDEs",
+          "index": 8,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Cooling KDEs",
+          "index": 9,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "packing_date",
+          "confidence": 0.9,
+          "header": "Packing date",
+          "index": 10,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.9,
+          "header": "LOT Assigned",
+          "index": 11,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "tlc_source",
+          "confidence": 0.9,
+          "header": "LOT Source",
+          "index": 12,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.9,
+          "header": "Product ID Packed Food",
+          "index": 13,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.9,
+          "header": "Product Title Packed Food",
+          "index": 14,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "quantity_packed",
+          "confidence": 0.9,
+          "header": "Quantity Packed Food",
+          "index": 15,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.9,
+          "header": "Measure unit Packed Food",
+          "index": 16,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.9,
+          "header": "Ref. Document Type",
+          "index": 17,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.9,
+          "header": "Ref. Document Number",
+          "index": 18,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.9,
+          "header": "Business ID",
+          "index": 19,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.9,
+          "header": "Business description",
+          "index": 20,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 0.9,
+          "header": "Phone Number",
+          "index": 21,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 0.9,
+          "header": "email",
+          "index": 22,
+          "why": "expected mapping (pending live model regeneration)"
+        }
+      ],
+      "confidence": 0.9,
+      "record_kind": "cte_initial_packing",
+      "sheet_name": "Packing KDEs"
+    }
+  ],
+  "key": "499d935ab8778cf112cea5f4564f7c6a97ac82112af60e308ffad10686f8ea23",
+  "method": "hand_authored_pending_llm",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

@@ -1,0 +1,94 @@
+{
+  "created_at": "2026-07-07T06:41:47.911876+00:00",
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.9,
+          "header": "ID",
+          "index": 1,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.9,
+          "header": "Title",
+          "index": 2,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "address",
+          "confidence": 0.9,
+          "header": "Address",
+          "index": 3,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "zip_code",
+          "confidence": 0.9,
+          "header": "ZIP",
+          "index": 4,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 0.9,
+          "header": "City",
+          "index": 5,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "state",
+          "confidence": 0.9,
+          "header": "State",
+          "index": 6,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "country",
+          "confidence": 0.9,
+          "header": "Country",
+          "index": 7,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "contact_person",
+          "confidence": 0.9,
+          "header": "Contact Person",
+          "index": 8,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 0.9,
+          "header": "email",
+          "index": 9,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 0.9,
+          "header": "Phone Number",
+          "index": 10,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Description",
+          "index": 11,
+          "why": "expected mapping (pending live model regeneration)"
+        }
+      ],
+      "confidence": 0.9,
+      "record_kind": "master_business",
+      "sheet_name": "Business Master"
+    }
+  ],
+  "key": "d4fd3f33e03d18384b691054e3ccc692c37f7057ce91eeeddedb0830f985ebbb",
+  "method": "hand_authored_pending_llm",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

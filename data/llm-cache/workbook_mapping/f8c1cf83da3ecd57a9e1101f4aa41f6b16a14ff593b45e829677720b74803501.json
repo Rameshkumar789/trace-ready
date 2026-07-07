@@ -1,0 +1,150 @@
+{
+  "created_at": "2026-07-07T06:41:47.913761+00:00",
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.9,
+          "header": "Product ID",
+          "index": 1,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.9,
+          "header": "Product title",
+          "index": 2,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.9,
+          "header": "Comodity",
+          "index": 3,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.9,
+          "header": "Variety",
+          "index": 4,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "harvest_date",
+          "confidence": 0.9,
+          "header": "Harvesting date",
+          "index": 5,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.9,
+          "header": "Quantity",
+          "index": 6,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.9,
+          "header": "Measure Unit",
+          "index": 7,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "location_id",
+          "confidence": 0.9,
+          "header": "Harvesting Location ID",
+          "index": 8,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.9,
+          "header": "Harvesting Location Description",
+          "index": 9,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Field or Container ID",
+          "index": 10,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Field or Container Description",
+          "index": 11,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.9,
+          "header": "Ref. Document Type",
+          "index": 12,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.9,
+          "header": "Ref. Document Number",
+          "index": 13,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.9,
+          "header": "Business ID",
+          "index": 14,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.9,
+          "header": "Business description",
+          "index": 15,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 0.9,
+          "header": "Phone Number",
+          "index": 16,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 0.9,
+          "header": "email",
+          "index": 17,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "destination_location_id",
+          "confidence": 0.9,
+          "header": "Immediate Subsequent Recepient Location ID",
+          "index": 18,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.9,
+          "header": "Immediate Subsequent Recepient Location Description",
+          "index": 19,
+          "why": "expected mapping (pending live model regeneration)"
+        }
+      ],
+      "confidence": 0.9,
+      "record_kind": "cte_harvesting",
+      "sheet_name": "Harvesting KDEs"
+    }
+  ],
+  "key": "f8c1cf83da3ecd57a9e1101f4aa41f6b16a14ff593b45e829677720b74803501",
+  "method": "hand_authored_pending_llm",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

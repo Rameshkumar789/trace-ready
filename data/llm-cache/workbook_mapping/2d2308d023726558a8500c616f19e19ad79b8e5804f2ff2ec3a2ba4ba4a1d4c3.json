@@ -1,0 +1,157 @@
+{
+  "created_at": "2026-07-07T06:41:47.915835+00:00",
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "ProductID",
+          "index": 1,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "ProductTitle",
+          "index": 2,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.9,
+          "header": "Comodity",
+          "index": 3,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.9,
+          "header": "Variety",
+          "index": 4,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "landing_date",
+          "confidence": 0.9,
+          "header": "Landing date",
+          "index": 5,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "quantity_received",
+          "confidence": 0.9,
+          "header": "Quantity Unpacked Food",
+          "index": 6,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Measure Unit received Food",
+          "index": 7,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.5,
+          "header": "Harvesting KDEs",
+          "index": 8,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.9,
+          "header": "LOT Assigned",
+          "index": 9,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "tlc_source",
+          "confidence": 0.9,
+          "header": "LOT Source",
+          "index": 10,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.9,
+          "header": "Product ID Packed Food",
+          "index": 11,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.9,
+          "header": "Product Title Packed Food",
+          "index": 12,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "quantity_packed",
+          "confidence": 0.9,
+          "header": "Quantity Packed Food",
+          "index": 13,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.9,
+          "header": "Measure unit Packed Food",
+          "index": 14,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.9,
+          "header": "Ref. Document Type",
+          "index": 15,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.9,
+          "header": "Ref. Document Number",
+          "index": 16,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.9,
+          "header": "Business ID",
+          "index": 17,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.9,
+          "header": "Business description",
+          "index": 18,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 0.9,
+          "header": "Phone Number",
+          "index": 19,
+          "why": "expected mapping (pending live model regeneration)"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 0.9,
+          "header": "email",
+          "index": 20,
+          "why": "expected mapping (pending live model regeneration)"
+        }
+      ],
+      "confidence": 0.9,
+      "record_kind": "cte_first_land_based_receiving",
+      "sheet_name": "First Land based Rec. KDEs"
+    }
+  ],
+  "key": "2d2308d023726558a8500c616f19e19ad79b8e5804f2ff2ec3a2ba4ba4a1d4c3",
+  "method": "hand_authored_pending_llm",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}
