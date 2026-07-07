@@ -287,6 +287,7 @@ def build_phase11_rule_execution(
     kde_contracts_file: Path | None = None,
     exemption_rules_file: Path | None = None,
     plan_components_file: Path | None = None,
+    inbound_files: tuple[Path, ...] = (),
 ) -> Phase11RuleExecutionPackage:
     phase10 = build_phase10_customer_evidence(input_file=input_file, ftl_food_items_file=ftl_food_items_file)
     phase10c = build_phase10c_cte_hardening(input_file=input_file, ftl_food_items_file=ftl_food_items_file)
@@ -370,6 +371,24 @@ def build_phase11_rule_execution(
         lot_integrity_checks=lot_integrity_checks,
     )
 
+    # Door-vs-database: diff supplier-provided inbound documents (ASN/EDI/BOL) against what
+    # actually landed in the system of record.
+    inbound_findings: list[dict[str, Any]] = []
+    if inbound_files:
+        from bellwether_backend.audit_engine.inbound_diff import diff_inbound_vs_erp
+
+        for inbound_file in inbound_files:
+            lines, label = _read_inbound_lines(inbound_file)
+            if lines:
+                inbound_findings.extend(
+                    diff_inbound_vs_erp(
+                        inbound_lines=lines,
+                        events=event_by_id,
+                        row_facts=row_facts,
+                        source_label=label,
+                    )
+                )
+
     audit_findings = generate_audit_findings(
         kde_checks=kde_checks,
         tlc_checks=tlc_checks,
@@ -381,7 +400,7 @@ def build_phase11_rule_execution(
         lot_integrity_checks=lot_integrity_checks,
         gs1_checks=gs1_checks,
         ftl_tier_results=ftl_tier_results,
-        partner_summary_findings=scorecard_summary_findings(partner_scorecard),
+        partner_summary_findings=scorecard_summary_findings(partner_scorecard) + inbound_findings,
     )
     exception_queue = generate_exception_queue(audit_findings)
     export_package = build_fda_style_export_package(
@@ -543,42 +562,67 @@ def check_kde_completeness(
         event = events[mapping.event_id]
         facts = _event_facts(event, evidence_by_id)
         _merge_promoted_kde_facts(facts, promoted_kde_facts, event.event_id)
-        for kde in cte_contract["kdes"]:
-            kde_key = str(kde["kde"])
-            satisfied_by = kde.get("satisfied_by") or []
-            label = kde.get("label", kde_key)
-            # A placeholder ("UNKNOWN", "N/A", "TBD", ...) is NOT a real value — it must not
-            # count as a present KDE, or a non-compliant record would pass (a false pass).
-            # satisfied_by is "any of": the KDE is met if ANY of those fields carries a value.
-            real_by_field = {field: sorted({v for v in facts.get(field, []) if _is_answered(v)}) for field in satisfied_by}
-            values = sorted({v for vals in real_by_field.values() for v in vals})
-            evidence_ids = sorted({ev for field in satisfied_by for ev in facts.get(f"evidence:{field}", [])})
-            if not satisfied_by:
-                # Required by FSMA but the parser does not extract this field yet. Tracked
-                # honestly (not failed, not silently dropped) until parser support is added.
-                status = "not_captured"
-            elif len(satisfied_by) == 1 and len(real_by_field[satisfied_by[0]]) > 1:
-                status = "conflicting"
-            elif values:
-                status = "present"
-            elif kde.get("requirement") == "conditional":
-                status = "not_applicable"
-            else:
-                status = "missing"
+        for result in evaluate_kde_contract_facts(cte_contract=cte_contract, facts=facts):
             checks.append(
                 KdeCompletenessCheck(
                     check_id=f"phase11-kde-{len(checks) + 1:04d}",
                     event_id=mapping.event_id,
                     cte=mapping.cte,
-                    field_key=kde_key,
-                    status=status,
-                    expected_reason=f"{label} ({section})" if section else label,
-                    evidence_ids=evidence_ids,
-                    observed_values=values,
+                    field_key=result["kde"],
+                    status=result["status"],
+                    expected_reason=result["expected_reason"],
+                    evidence_ids=result["evidence_ids"],
+                    observed_values=result["observed_values"],
                     approved_obligation_id=mapping.approved_obligation_id,
                 )
             )
     return checks
+
+
+def evaluate_kde_contract_facts(*, cte_contract: dict[str, Any], facts: dict[str, list[str]]) -> list[dict[str, Any]]:
+    """Evaluate one CTE's KDE contract against a facts dict — the reusable core shared by the
+    workbook audit and the pre-receipt inbound validation endpoint.
+
+    ``facts``: {canonical_slug: [values], "evidence:<slug>": [evidence ids]}.
+    """
+    section = cte_contract.get("citation_section", "")
+    results: list[dict[str, Any]] = []
+    for kde in cte_contract["kdes"]:
+        kde_key = str(kde["kde"])
+        satisfied_by = kde.get("satisfied_by") or []
+        label = kde.get("label", kde_key)
+        # A placeholder ("UNKNOWN", "N/A", "TBD", ...) is NOT a real value — it must not
+        # count as a present KDE, or a non-compliant record would pass (a false pass).
+        # satisfied_by is "any of": the KDE is met if ANY of those fields carries a value.
+        real_by_field = {field: sorted({v for v in facts.get(field, []) if _is_answered(v)}) for field in satisfied_by}
+        values = sorted({v for vals in real_by_field.values() for v in vals})
+        evidence_ids = sorted({ev for field in satisfied_by for ev in facts.get(f"evidence:{field}", [])})
+        if not satisfied_by:
+            # Required by FSMA but the parser does not extract this field yet. Tracked
+            # honestly (not failed, not silently dropped) until parser support is added.
+            status = "not_captured"
+        elif len(satisfied_by) == 1 and len(real_by_field[satisfied_by[0]]) > 1:
+            status = "conflicting"
+        elif values:
+            status = "present"
+        elif kde.get("requirement") == "conditional":
+            status = "not_applicable"
+        else:
+            status = "missing"
+        results.append(
+            {
+                "kde": kde_key,
+                "label": label,
+                "status": status,
+                "requirement": kde.get("requirement", "required"),
+                "severity": kde.get("severity", "medium"),
+                "expected_reason": f"{label} ({section})" if section else label,
+                "citation_section": section,
+                "observed_values": values,
+                "evidence_ids": evidence_ids,
+            }
+        )
+    return results
 
 
 def check_tlc_lineage(
@@ -1284,6 +1328,32 @@ def _regulation_citation(section: str) -> dict[str, Any]:
         "section_ref": section,
         "sourceType": "regulation",
     }
+
+
+def _read_inbound_lines(inbound_file: Path) -> tuple[list[dict[str, Any]], str]:
+    """Parse one inbound document (EDI 856 / BOL PDF / spreadsheet) into shipment lines."""
+    data = inbound_file.read_bytes()
+    from bellwether_backend.audit_engine.edi_x12 import edi_856_to_lines, looks_like_x12, parse_x12
+
+    if looks_like_x12(data):
+        lines: list[dict[str, Any]] = []
+        for transaction in parse_x12(data).transactions:
+            if transaction.transaction_set == "856":
+                lines.extend(edi_856_to_lines(transaction))
+        return lines, f"ASN {inbound_file.name}"
+    if data[:5] == b"%PDF-":
+        from bellwether_backend.intelligence.bol_extractor import extract_bol_lines
+
+        return extract_bol_lines(data, file_name=inbound_file.name).get("lines", []), f"BOL {inbound_file.name}"
+    from bellwether_backend.audit_engine.customer_evidence import _row_facts, read_spreadsheet_evidence
+
+    records = read_spreadsheet_evidence(inbound_file)
+    rows = _row_facts(records)
+    lines = []
+    for position, row in enumerate(sorted(rows.values(), key=lambda r: (r["sheet"], r["row_number"])), start=1):
+        facts = {k: [v for v in values if str(v).strip()] for k, values in row["facts"].items() if not k.startswith("source_column:")}
+        lines.append({"line_number": position, "facts": {k: v for k, v in facts.items() if v}})
+    return lines, f"document {inbound_file.name}"
 
 
 def _record_gap_message(cte: str | None, missing_fields: list[str], is_tlc_root: bool) -> str:

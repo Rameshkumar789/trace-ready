@@ -52,6 +52,17 @@ class SourceIngestionJobRequest(BaseModel):
     created_by: str | None = None
 
 
+class InboundValidateRequest(BaseModel):
+    """Pre-receipt validation: an ASN/EDI file, BOL PDF, or spreadsheet of intended
+    shipments, base64-encoded (JSON body avoids a multipart dependency; keep payloads under
+    ~4 MB, the serverless request limit)."""
+
+    file_name: str = Field(min_length=1, max_length=255)
+    content_base64: str = Field(min_length=4)
+    document_type_hint: str | None = Field(default=None, description="edi_856 | bol_pdf | spreadsheet")
+    cte: str = Field(default="receiving", max_length=50)
+
+
 def create_app(settings: ServiceSettings | None = None) -> FastAPI:
     loaded_settings = settings or load_settings()
     api = FastAPI(
@@ -95,6 +106,43 @@ def create_app(settings: ServiceSettings | None = None) -> FastAPI:
     @api.get("/internal/ping", tags=["internal"], dependencies=[Depends(require_internal_token)])
     async def internal_ping() -> dict[str, str]:
         return {"status": "ok", "scope": "internal"}
+
+    @api.post("/internal/inbound/validate", tags=["internal"], dependencies=[Depends(require_internal_token)])
+    async def inbound_validate(payload: InboundValidateRequest) -> dict[str, object]:
+        """Pre-receipt validation: per-line accept/hold verdicts with citations, synchronous."""
+        import base64
+        import binascii
+        import json as _json
+        from pathlib import Path as _Path
+
+        from bellwether_backend.backend.services.inbound_validation_service import validate_inbound_document
+
+        try:
+            data = base64.b64decode(payload.content_base64, validate=True)
+        except (binascii.Error, ValueError) as exc:
+            raise HTTPException(status_code=400, detail=f"content_base64 is not valid base64: {exc}") from exc
+        if len(data) > 4_000_000:
+            raise HTTPException(status_code=413, detail="document exceeds the 4MB synchronous validation limit")
+
+        ftl_items: list[dict[str, object]] = []
+        try:
+            with supabase_connection(loaded_settings) as connection:
+                ftl_items = RegulatoryRepository(connection).load_approved_card_payloads("ftl_food_items")
+        except Exception:
+            ftl_items = []
+        if not ftl_items:
+            bundled = _Path(__file__).resolve().parents[3] / "data" / "regulatory" / "intelligence" / "drafts" / "ftl-food-items.json"
+            if bundled.exists():
+                loaded = _json.loads(bundled.read_text(encoding="utf-8"))
+                ftl_items = loaded if isinstance(loaded, list) else []
+
+        return validate_inbound_document(
+            data=data,
+            file_name=payload.file_name,
+            document_type_hint=payload.document_type_hint,
+            cte=payload.cte,
+            ftl_items=ftl_items,
+        )
 
     @api.post("/internal/jobs/audit/slice", tags=["internal"], dependencies=[Depends(require_internal_token)])
     async def audit_job_slice(payload: AuditJobSliceRequest) -> dict[str, object]:
