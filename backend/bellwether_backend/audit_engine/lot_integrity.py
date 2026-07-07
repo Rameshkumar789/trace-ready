@@ -23,14 +23,19 @@ class StrictLotModel(BaseModel):
 
 class LotIntegrityCheck(StrictLotModel):
     check_id: str
-    check_type: str  # backward_lineage | forward_linkage | lot_format | duplicate_tlc | mass_balance | date_ordering
+    check_type: str  # backward_lineage | forward_linkage | lot_format | duplicate_tlc | mass_balance | date_ordering | self_receive | transformation_linkage
     status: str  # linked | pass | gap | needs_review
     severity: str  # high | medium
+    # "regulation": the check enforces an actual Subpart S duty and carries a CFR citation.
+    # "best_practice": a recall-readiness / data-quality signal the rule does NOT mandate
+    # (duplicate lot reuse, mass balance, date plausibility, format consistency). These are
+    # the product's value-add checks and must never be presented as CFR violations.
+    basis: str = "regulation"
     lot: str | None = None
     event_id: str | None = None
     cte: str | None = None
     reason: str
-    citation_section: str
+    citation_section: str = ""
     related_event_ids: list[str] = Field(default_factory=list)
     evidence_ids: list[str] = Field(default_factory=list)
     details: dict[str, Any] = Field(default_factory=dict)
@@ -190,22 +195,68 @@ def check_lot_integrity(
         if "shipping" in ctes and lot:
             shipped_events_by_lot[lot].append(event)
 
+    # Ingredient (transformation-input) rows are facts, not events; harvest their lots and
+    # lot->product pairs directly from the row facts so consumption and duplicate detection
+    # still see them.
+    input_lot_rows = 0
+    for row in row_facts.values():
+        facts = row["facts"]
+        roles = [str(v).lower() for v in facts.get("transformation_role", [])]
+        if "input" not in roles:
+            continue
+        input_lot_rows += 1
+        products = [str(v) for v in (facts.get("product_id") or facts.get("product_name") or []) if str(v).strip()]
+        for lot in facts.get("source_lot_or_tlc", []) or facts.get("traceability_lot_code", []):
+            lot_value = str(lot).strip()
+            if not _is_real_lot(lot_value):
+                continue
+            consumed_lots.add(lot_value)
+            for product in products[:1]:
+                lot_products[lot_value].add(product)
+
     for event in self_receive_events:
         _add(
             check_type="self_receive",
             status="needs_review",
             severity="medium",
+            basis="best_practice",
             lot=event.lot_or_tlc,
             cte="receiving",
             event_id=event.event_id,
             reason=(
                 f"Receiving record for lot {event.lot_or_tlc} shows the same location as both "
-                "source and destination - a self-receive. This is a stock movement, not food "
-                "entering from a trading partner, and cannot serve as the lot's origin record."
+                "source and destination - a self-receive. Under the rule's definition of "
+                "receiving (21 CFR 1.1310) an intracompany same-address transfer is not a "
+                "receiving CTE, so this record cannot serve as the lot's origin."
             ),
-            citation_section="21 CFR 1.1345",
+            citation_section="",
             related_event_ids=[event.event_id],
             evidence_ids=_first_evidence([event]),
+        )
+
+    # Transformation linkage: when the export carries ingredient lots but no output event
+    # references any source lot, ingredient->output lineage (21 CFR 1.1350(a)(1)) cannot be
+    # demonstrated FROM THIS EXPORT - one systemic finding, not hundreds of per-row copies.
+    if consumed_lots and not any(
+        _is_real_lot(getattr(event, "source_lot_or_tlc", None))
+        for events_list in output_events_by_lot.values()
+        for event in events_list
+    ):
+        _add(
+            check_type="transformation_linkage",
+            status="needs_review",
+            severity="high",
+            reason=(
+                f"The export lists {input_lot_rows} transformation ingredient row(s) and "
+                f"{sum(len(v) for v in output_events_by_lot.values())} produced-food row(s), but "
+                "nothing links an ingredient lot to the specific output lot it fed (no shared "
+                "reference or join key). The transformation records required by 21 CFR "
+                "1.1350(a)(1) - the lot code, description, and quantity OF EACH INGREDIENT used "
+                "per new lot - cannot be demonstrated from this export, even if the source "
+                "system holds the linkage internally."
+            ),
+            citation_section="21 CFR 1.1350",
+            details={"ingredientRows": input_lot_rows, "consumedLots": len(consumed_lots)},
         )
 
     known_origin_lots = set(origin_events_by_lot) | set(output_events_by_lot)
@@ -224,7 +275,7 @@ def check_lot_integrity(
                 cte="shipping",
                 event_id=related[0],
                 reason="Shipped lot traces back to an origin record in this dataset.",
-                citation_section="21 CFR 1.1340",
+                citation_section="21 CFR 1.1340(b)",
                 related_event_ids=related,
                 evidence_ids=evidence,
             )
@@ -244,7 +295,7 @@ def check_lot_integrity(
                     f"({window_start}). The origin records likely exist in a prior period - "
                     "request them rather than treating the chain as broken."
                 ),
-                citation_section="21 CFR 1.1345",
+                citation_section="21 CFR 1.1330/1.1335/1.1345/1.1350",
                 related_event_ids=related,
                 evidence_ids=evidence,
                 details={"embeddedDate": embedded.isoformat(), "windowStart": window_start, "reasonCode": "records_predate_window"},
@@ -262,25 +313,50 @@ def check_lot_integrity(
                 "or transformation record establishing where it came from. Backward traceability "
                 "for these shipments cannot be demonstrated."
             ),
-            citation_section="21 CFR 1.1345",
+            citation_section="21 CFR 1.1330/1.1335/1.1345/1.1350",
             related_event_ids=related,
             evidence_ids=evidence,
         )
 
     # ------------------------------------------------------------------ forward linkage
-    unmoved = sorted(lot for lot in known_origin_lots if lot not in shipped_events_by_lot and lot not in consumed_lots)
+    # Symmetric window awareness: a lot originated near the END of the export window may
+    # simply ship in the next period - exclude those from the "never moved" signal.
+    window_end_date = _parse_iso_date(window_end)
+    unmoved: list[str] = []
+    recent_unmoved = 0
+    for lot in sorted(known_origin_lots):
+        if lot in shipped_events_by_lot or lot in consumed_lots:
+            continue
+        origin_dates = [
+            d
+            for d in (
+                _parse_iso_date(e.event_datetime)
+                for e in origin_events_by_lot.get(lot, []) + output_events_by_lot.get(lot, [])
+            )
+            if d
+        ]
+        if window_end_date and origin_dates and (window_end_date - max(origin_dates)) <= timedelta(days=30):
+            recent_unmoved += 1
+            continue
+        unmoved.append(lot)
     if unmoved:
         _add(
             check_type="forward_linkage",
             status="needs_review",
             severity="medium",
+            basis="best_practice",
             reason=(
                 f"{len(unmoved)} originated lot(s) never appear in a shipping or transformation "
                 "record. This may be inventory still on hand, or missing forward records - "
                 "confirm which."
+                + (
+                    f" ({recent_unmoved} more lot(s) originated within 30 days of the window end "
+                    "and were excluded as likely next-period shipments.)"
+                    if recent_unmoved
+                    else ""
+                )
             ),
-            citation_section="21 CFR 1.1340",
-            details={"lots": unmoved[:25], "totalCount": len(unmoved)},
+            details={"lots": unmoved[:25], "totalCount": len(unmoved), "recentExcluded": recent_unmoved},
         )
 
     # ------------------------------------------------------------------ duplicate TLC across products
@@ -291,21 +367,24 @@ def check_lot_integrity(
         output_events = output_events_by_lot.get(lot, [])
         output_products = {str(e.product_id or e.product_name) for e in output_events}
         related_events = [e.event_id for e in (output_events + shipped_events_by_lot.get(lot, []))][:20]
+        # The rule requires TLC uniqueness per LOT (21 CFR 1.1310), not one TLC per product,
+        # so multi-product lots are a recall-precision / data-quality signal, never a CFR
+        # violation. They stay needs_review with an honest best-practice label.
         if output_events and len(output_products) > 1:
             _add(
                 check_type="duplicate_tlc",
                 status="needs_review",
                 severity="medium",
+                basis="best_practice",
                 lot=lot,
                 cte="transformation",
                 event_id=related_events[0] if related_events else None,
                 reason=(
                     f"Lot {lot} is assigned to {len(products)} different products produced by the "
-                    "same transformation. A lot-level recall cannot distinguish these products. "
-                    "Confirm whether this multi-product lot assignment is intended, or assign a "
-                    "distinct TLC per product."
+                    "same transformation. This is permitted, but a lot-level recall cannot "
+                    "distinguish these products - confirm the one-lot-many-SKU practice is "
+                    "intended, or assign a distinct TLC per product for recall precision."
                 ),
-                citation_section="21 CFR 1.1350",
                 related_event_ids=related_events,
                 evidence_ids=_first_evidence(output_events),
                 details={"products": sorted(products)[:10]},
@@ -313,24 +392,32 @@ def check_lot_integrity(
         else:
             _add(
                 check_type="duplicate_tlc",
-                status="gap",
+                status="needs_review",
                 severity="high",
+                basis="best_practice",
                 lot=lot,
                 event_id=related_events[0] if related_events else None,
                 reason=(
                     f"Lot {lot} appears on {len(products)} different products with no transformation "
                     "explaining the reuse. Reused lot codes across products defeat recall precision "
-                    "and can indicate duplicated or unreliable lot data."
+                    "and can indicate duplicated or unreliable lot data - investigate before "
+                    "trusting these records."
                 ),
-                citation_section="21 CFR 1.1320",
                 related_event_ids=related_events,
                 details={"products": sorted(products)[:10]},
             )
 
     # ------------------------------------------------------------------ mass balance
+    # A recall-readiness reconciliation, NOT a Subpart S duty. Only computed for lots
+    # without transformation activity: once a lot is partially consumed into a new food,
+    # origin-vs-shipped is not reconcilable without an input->output join.
     for lot in sorted(shipped_events_by_lot):
         if lot not in known_origin_lots:
             continue  # no origin data in window; lineage checks already cover it
+        if lot in consumed_lots:
+            # Partially consumed as a transformation input: origin minus consumption is not
+            # reconstructable without an input->output join, so skip rather than false-alarm.
+            continue
         origin_total: dict[str, float] = defaultdict(float)
         shipped_total: dict[str, float] = defaultdict(float)
         for event in origin_events_by_lot.get(lot, []) + output_events_by_lot.get(lot, []):
@@ -348,13 +435,13 @@ def check_lot_integrity(
                 check_type="mass_balance",
                 status="needs_review",
                 severity="medium",
+                basis="best_practice",
                 lot=lot,
                 reason=(
                     f"Lot {lot} uses different units of measure across origin and shipping records "
                     f"({', '.join(sorted(origin_total))} vs {', '.join(sorted(shipped_total))}); "
                     "quantity reconciliation cannot be verified automatically."
                 ),
-                citation_section="21 CFR 1.1340",
                 details={"originByUnit": dict(origin_total), "shippedByUnit": dict(shipped_total)},
             )
             continue
@@ -363,17 +450,17 @@ def check_lot_integrity(
                 related = [e.event_id for e in shipped_events_by_lot[lot]][:20]
                 _add(
                     check_type="mass_balance",
-                    status="gap",
+                    status="needs_review",
                     severity="medium",
+                    basis="best_practice",
                     lot=lot,
                     event_id=related[0],
                     reason=(
                         f"Lot {lot} shipped {shipped_total[unit]:g} {unit} but only "
                         f"{origin_total[unit]:g} {unit} was received or produced on paper - "
                         f"{shipped_total[unit] - origin_total[unit]:g} {unit} shipped with no "
-                        "documented origin quantity."
+                        "documented origin quantity. One of these records is wrong or missing."
                     ),
-                    citation_section="21 CFR 1.1340",
                     related_event_ids=related,
                     evidence_ids=_first_evidence(shipped_events_by_lot[lot]),
                     details={"shipped": shipped_total[unit], "originated": origin_total[unit], "unit": unit},
@@ -395,13 +482,13 @@ def check_lot_integrity(
                 check_type="date_ordering",
                 status="needs_review",
                 severity="medium",
+                basis="best_practice",
                 lot=lot,
                 reason=(
                     f"Lot {lot} was shipped on {ship_dates[0].isoformat()}, before its earliest "
                     f"origin record ({origin_dates[0].isoformat()}). One of the dates is likely "
                     "wrong, or records are missing."
                 ),
-                citation_section="21 CFR 1.1340",
                 details={"firstShipped": ship_dates[0].isoformat(), "firstOriginated": origin_dates[0].isoformat()},
             )
         embedded = lot_embedded_date(lot)
@@ -410,13 +497,13 @@ def check_lot_integrity(
                 check_type="date_ordering",
                 status="needs_review",
                 severity="medium",
+                basis="best_practice",
                 lot=lot,
                 reason=(
                     f"Lot {lot} embeds the date {embedded.isoformat()} in its code but was shipped "
                     f"on {ship_dates[0].isoformat()}, before that date. The lot code or the ship "
                     "date is implausible."
                 ),
-                citation_section="21 CFR 1.1320",
                 details={"embeddedDate": embedded.isoformat(), "firstShipped": ship_dates[0].isoformat(), "reasonCode": "lot_date_implausible"},
             )
 
@@ -439,13 +526,14 @@ def check_lot_integrity(
                     check_type="lot_format",
                     status="needs_review",
                     severity="medium",
+                    basis="best_practice",
                     reason=(
                         f"{len(outliers)} operator-assigned lot code(s) do not follow the dominant "
                         f"lot code pattern learned from this dataset "
-                        f"({', '.join(sorted(dominant)[:3])}). Confirm they follow the documented "
-                        "TLC assignment procedure."
+                        f"({', '.join(sorted(dominant)[:3])}). The rule allows any lot code format; "
+                        "this is a consistency signal - confirm these follow the documented TLC "
+                        "assignment procedure."
                     ),
-                    citation_section="21 CFR 1.1315",
                     details={"outliers": outliers[:15], "totalOutliers": len(outliers), "dominantPatterns": sorted(dominant)[:5]},
                 )
 

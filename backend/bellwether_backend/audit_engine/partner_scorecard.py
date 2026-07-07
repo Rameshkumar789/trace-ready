@@ -15,7 +15,10 @@ from typing import Any
 
 UNKNOWN_PARTNER = "__unknown_destination__"
 
-# KDE slugs a partner-facing record is graded on (presence per event row).
+# KDE slugs a partner-facing record is graded on (presence per event row). Only genuine
+# per-event Subpart S KDEs: partner phone/email are NOT shipping/receiving KDEs under the
+# current eCFR, so grading them would manufacture bad bands (they are tracked separately
+# as informational contact coverage below).
 GRADED_FIELDS = (
     "traceability_lot_code",
     "product_name",
@@ -24,9 +27,10 @@ GRADED_FIELDS = (
     "event_datetime",
     "reference_record_type",
     "reference_record_no",
-    "phone_number",
-    "email",
 )
+
+# Informational only - never affects fill rate or bands.
+CONTACT_FIELDS = ("phone_number", "email", "contact_person")
 
 BAND_THRESHOLDS = (
     ("A", 0.95),
@@ -119,6 +123,8 @@ def build_partner_scorecard(
                 "event_count": 0,
                 "field_filled": defaultdict(int),
                 "field_expected": defaultdict(int),
+                "contact_filled": defaultdict(int),
+                "contact_expected": defaultdict(int),
                 "products": defaultdict(lambda: {"events": 0, "missing_fields": defaultdict(int)}),
                 "integrity_gap_lots": set(),
             }
@@ -134,6 +140,7 @@ def build_partner_scorecard(
                     merged[key].extend(values)
         return merged
 
+    landing_events = 0
     for event in events.values():
         ctes = set(getattr(event, "classified_ctes", None) or [])
         if not ctes:
@@ -141,7 +148,16 @@ def build_partner_scorecard(
             ctes = {claim} if claim else set()
         if "shipping" in ctes:
             raw_partner, direction = getattr(event, "to_partner_id", None), "ships_to"
-        elif ctes & {"receiving", "first_land_based_receiving"}:
+        elif "first_land_based_receiving" in ctes:
+            # A landing is the operator's own record of receiving from a fishing vessel;
+            # the vessel/harvest documentation is graded by the FLR KDE contract, not the
+            # partner scorecard. Counting these as "unknown counterparty" manufactured a
+            # false undocumented-source alarm on the whole first-receiver population.
+            landing_events += 1
+            if not getattr(event, "from_partner_id", None):
+                continue
+            raw_partner, direction = getattr(event, "from_partner_id", None), "receives_from"
+        elif "receiving" in ctes:
             raw_partner, direction = getattr(event, "from_partner_id", None), "receives_from"
         else:
             continue  # internal processing events don't grade a partner
@@ -162,6 +178,10 @@ def build_partner_scorecard(
                 entry["field_filled"][field] += 1
             else:
                 product_entry["missing_fields"][field] += 1
+        for field in CONTACT_FIELDS:
+            entry["contact_expected"][field] += 1
+            if any(str(value).strip() for value in facts.get(field, [])):
+                entry["contact_filled"][field] += 1
         lot = getattr(event, "lot_or_tlc", None)
         if lot and lot in lot_gap_lots:
             entry["integrity_gap_lots"].add(lot)
@@ -186,6 +206,8 @@ def build_partner_scorecard(
             for product, data in sorted(entry["products"].items(), key=lambda item: -item[1]["events"])
         ]
         band = _band(fill_rate, len(entry["integrity_gap_lots"]))
+        contact_expected = sum(entry["contact_expected"].values())
+        contact_rate = round(sum(entry["contact_filled"].values()) / contact_expected, 4) if contact_expected else None
         partner_rows.append(
             {
                 "partner_key": entry["partner_key"],
@@ -195,6 +217,7 @@ def build_partner_scorecard(
                 "events": entry["event_count"],
                 "directions": dict(entry["direction_counts"]),
                 "kde_fill_rate": fill_rate,
+                "contact_info_rate": contact_rate,  # informational; never affects the band
                 "missing_by_field": dict(sorted(missing_by_field.items(), key=lambda item: -item[1])),
                 "integrity_gap_lots": sorted(entry["integrity_gap_lots"])[:15],
                 "quality_band": band,
@@ -210,6 +233,7 @@ def build_partner_scorecard(
         "partner_count": len(external),
         "internal_transfer_events": sum(row["events"] for row in partner_rows if row["internal"]),
         "unknown_destination_events": unknown["events"] if unknown else 0,
+        "landing_events": landing_events,
         "band_counts": {
             band: sum(1 for row in external if row["quality_band"] == band) for band in ("A", "B", "C", "D")
         },

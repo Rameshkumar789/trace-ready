@@ -1,98 +1,732 @@
 {
-  "_comment": "Executable KDE check contracts: the FULL FSMA 204 KDE list per CTE, each mapped to the canonical customer field(s) the engine reads (satisfied_by = any-of). Fields come from the structured event/line-item sheets OR are promoted from the customer's 07_KDE_Values rows by field_key, so KDEs the workbook actually carries (source references, harvest origin) feed the check. This replaces the hardcoded KDE_CONTRACTS and is reviewable data, not code. 'required' = a real gap if absent; 'conditional' = credited when present, never failed when absent. Severity 'high' = TLC; 'medium' = other KDEs.",
-  "version": 1,
-  "cte_contracts": {
-    "shipping": {
-      "citation_section": "21 CFR 1.1340",
-      "kdes": [
-        {"kde": "traceability_lot_code", "label": "Traceability Lot Code (TLC)", "satisfied_by": ["traceability_lot_code"], "requirement": "required", "severity": "high"},
-        {"kde": "quantity", "label": "quantity and unit of measure", "satisfied_by": ["quantity"], "requirement": "required", "severity": "medium"},
-        {"kde": "product_description", "label": "product description", "satisfied_by": ["product_name"], "requirement": "required", "severity": "medium"},
-        {"kde": "ship_to_location", "label": "location of the immediate subsequent recipient (ship-to)", "satisfied_by": ["to_partner_id"], "requirement": "required", "severity": "medium"},
-        {"kde": "ship_from_location", "label": "location the food was shipped from", "satisfied_by": ["from_partner_id", "actor_location_id"], "requirement": "required", "severity": "medium"},
-        {"kde": "ship_date", "label": "date you shipped the food", "satisfied_by": ["event_datetime"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_type", "label": "reference document type", "satisfied_by": ["reference_record_type"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_number", "label": "reference document number", "satisfied_by": ["reference_record_no", "reference_document_number"], "requirement": "required", "severity": "medium"},
-        {"kde": "tlc_source", "label": "traceability lot code source / source reference", "satisfied_by": ["tlc_source", "source_lot_or_tlc", "reference_record_no", "reference_document_number"], "requirement": "conditional", "severity": "medium"}
-      ]
+ "_comment": "Executable KDE check contracts: the FULL FSMA 204 KDE list per CTE, each mapped to the canonical customer field(s) the engine reads (satisfied_by = any-of). Fields come from the structured event/line-item sheets OR are promoted from the customer's 07_KDE_Values rows by field_key, so KDEs the workbook actually carries (source references, harvest origin) feed the check. This replaces the hardcoded KDE_CONTRACTS and is reviewable data, not code. 'required' = a real gap if absent; 'conditional' = credited when present, never failed when absent. Severity 'high' = TLC; 'medium' = other KDEs. v-bump: 2026-07-07 accuracy audit - tlc_source required on shipping/receiving (1.1340(a)(7)/1.1345(a)(7)); initial-packing TLC-source location, harvest/received date+qty (1.1330(a)); FLR receiver location (1.1335(e)); cooling harvest-farm (1.1325(b)(1)(vi)); field/container required (1.1325(a)(1)(v)/(vi)); harvester contact (1.1325(a)(2)); sprouts seed KDEs conditional (1.1330(b)). Per-input transformation detail (1.1350(a)(1)(ii)/(iii)) is enforced by the transformation_linkage lot check, not per-event KDEs.",
+ "version": 2,
+ "cte_contracts": {
+  "shipping": {
+   "citation_section": "21 CFR 1.1340",
+   "kdes": [
+    {
+     "kde": "traceability_lot_code",
+     "label": "Traceability Lot Code (TLC)",
+     "satisfied_by": [
+      "traceability_lot_code"
+     ],
+     "requirement": "required",
+     "severity": "high"
     },
-    "receiving": {
-      "citation_section": "21 CFR 1.1345",
-      "kdes": [
-        {"kde": "traceability_lot_code", "label": "Traceability Lot Code (TLC)", "satisfied_by": ["traceability_lot_code"], "requirement": "required", "severity": "high"},
-        {"kde": "quantity", "label": "quantity and unit of measure", "satisfied_by": ["quantity"], "requirement": "required", "severity": "medium"},
-        {"kde": "product_description", "label": "product description", "satisfied_by": ["product_name"], "requirement": "required", "severity": "medium"},
-        {"kde": "previous_source_location", "label": "location of the immediate previous source", "satisfied_by": ["from_partner_id"], "requirement": "required", "severity": "medium"},
-        {"kde": "received_location", "label": "location where the food was received", "satisfied_by": ["actor_location_id", "to_partner_id"], "requirement": "required", "severity": "medium"},
-        {"kde": "received_date", "label": "date you received the food", "satisfied_by": ["event_datetime"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_type", "label": "reference document type", "satisfied_by": ["reference_record_type"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_number", "label": "reference document number", "satisfied_by": ["reference_record_no", "reference_document_number"], "requirement": "required", "severity": "medium"},
-        {"kde": "tlc_source", "label": "traceability lot code source / source reference", "satisfied_by": ["tlc_source", "source_lot_or_tlc", "reference_record_no", "reference_document_number"], "requirement": "conditional", "severity": "medium"}
-      ]
+    {
+     "kde": "quantity",
+     "label": "quantity and unit of measure",
+     "satisfied_by": [
+      "quantity"
+     ],
+     "requirement": "required",
+     "severity": "medium"
     },
-    "transformation": {
-      "citation_section": "21 CFR 1.1350",
-      "kdes": [
-        {"kde": "output_lot_or_tlc", "label": "new Traceability Lot Code for the transformed food", "satisfied_by": ["output_lot_or_tlc"], "requirement": "required", "severity": "high"},
-        {"kde": "source_lot_or_tlc", "label": "Traceability Lot Code of each input lot", "satisfied_by": ["source_lot_or_tlc"], "requirement": "required", "severity": "high"},
-        {"kde": "product_description", "label": "product description", "satisfied_by": ["product_name"], "requirement": "required", "severity": "medium"},
-        {"kde": "quantity", "label": "quantity and unit of measure", "satisfied_by": ["quantity"], "requirement": "required", "severity": "medium"},
-        {"kde": "transformation_location", "label": "location where you transformed the food (TLC source)", "satisfied_by": ["actor_location_id"], "requirement": "required", "severity": "medium"},
-        {"kde": "transformation_date", "label": "date transformation was completed", "satisfied_by": ["event_datetime"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_type", "label": "reference document type", "satisfied_by": ["reference_record_type"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_number", "label": "reference document number", "satisfied_by": ["reference_record_no"], "requirement": "required", "severity": "medium"}
-      ]
+    {
+     "kde": "product_description",
+     "label": "product description",
+     "satisfied_by": [
+      "product_name"
+     ],
+     "requirement": "required",
+     "severity": "medium"
     },
-    "initial_packing": {
-      "citation_section": "21 CFR 1.1330",
-      "kdes": [
-        {"kde": "traceability_lot_code", "label": "Traceability Lot Code assigned at packing", "satisfied_by": ["traceability_lot_code", "output_lot_or_tlc"], "requirement": "required", "severity": "high"},
-        {"kde": "product_description", "label": "product description of the packed food", "satisfied_by": ["product_name"], "requirement": "required", "severity": "medium"},
-        {"kde": "quantity", "label": "quantity and unit of measure", "satisfied_by": ["quantity"], "requirement": "required", "severity": "medium"},
-        {"kde": "packing_date", "label": "date of initial packing", "satisfied_by": ["event_datetime"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_type", "label": "reference document type", "satisfied_by": ["reference_record_type"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_number", "label": "reference document number", "satisfied_by": ["reference_record_no"], "requirement": "required", "severity": "medium"},
-        {"kde": "harvest_farm_location", "label": "farm where the food was harvested", "satisfied_by": ["harvest_farm_location", "farm_location"], "requirement": "required", "severity": "medium"},
-        {"kde": "harvest_field_or_container", "label": "field/growing-area or aquaculture container name", "satisfied_by": ["harvest_field_or_container", "growing_area", "container_name"], "requirement": "conditional", "severity": "medium"},
-        {"kde": "harvester_contact", "label": "harvester business name and phone", "satisfied_by": ["harvester_contact", "harvester_name", "harvester_phone"], "requirement": "required", "severity": "medium"}
-      ]
+    {
+     "kde": "ship_to_location",
+     "label": "location of the immediate subsequent recipient (ship-to)",
+     "satisfied_by": [
+      "to_partner_id"
+     ],
+     "requirement": "required",
+     "severity": "medium"
     },
-    "first_land_based_receiving": {
-      "citation_section": "21 CFR 1.1335",
-      "kdes": [
-        {"kde": "traceability_lot_code", "label": "Traceability Lot Code assigned at first land-based receiving", "satisfied_by": ["traceability_lot_code"], "requirement": "required", "severity": "high"},
-        {"kde": "product_description", "label": "species / acceptable market name / product description", "satisfied_by": ["product_name"], "requirement": "required", "severity": "medium"},
-        {"kde": "quantity", "label": "quantity and unit of measure", "satisfied_by": ["quantity"], "requirement": "required", "severity": "medium"},
-        {"kde": "landed_date", "label": "date the food was landed", "satisfied_by": ["event_datetime"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_type", "label": "reference document type", "satisfied_by": ["reference_record_type"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_number", "label": "reference document number", "satisfied_by": ["reference_record_no"], "requirement": "required", "severity": "medium"},
-        {"kde": "harvest_range_and_locations", "label": "harvest date range and geographic catch locations", "satisfied_by": ["harvest_range_and_locations", "catch_location", "harvest_date_range"], "requirement": "required", "severity": "medium"}
-      ]
+    {
+     "kde": "ship_from_location",
+     "label": "location the food was shipped from",
+     "satisfied_by": [
+      "from_partner_id",
+      "actor_location_id"
+     ],
+     "requirement": "required",
+     "severity": "medium"
     },
-    "harvesting": {
-      "citation_section": "21 CFR 1.1325",
-      "kdes": [
-        {"kde": "product_description", "label": "commodity / product description", "satisfied_by": ["product_name"], "requirement": "required", "severity": "medium"},
-        {"kde": "quantity", "label": "quantity and unit of measure", "satisfied_by": ["quantity"], "requirement": "required", "severity": "medium"},
-        {"kde": "subsequent_recipient_location", "label": "location of the immediate subsequent recipient", "satisfied_by": ["to_partner_id"], "requirement": "required", "severity": "medium"},
-        {"kde": "harvest_date", "label": "date of harvesting", "satisfied_by": ["event_datetime"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_type", "label": "reference document type", "satisfied_by": ["reference_record_type"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_number", "label": "reference document number", "satisfied_by": ["reference_record_no"], "requirement": "required", "severity": "medium"},
-        {"kde": "harvest_farm_location", "label": "farm where the food was harvested", "satisfied_by": ["harvest_farm_location", "farm_location"], "requirement": "required", "severity": "medium"},
-        {"kde": "harvest_field_or_container", "label": "field/growing-area or aquaculture container name", "satisfied_by": ["harvest_field_or_container", "growing_area", "container_name"], "requirement": "conditional", "severity": "medium"}
-      ]
+    {
+     "kde": "ship_date",
+     "label": "date you shipped the food",
+     "satisfied_by": [
+      "event_datetime"
+     ],
+     "requirement": "required",
+     "severity": "medium"
     },
-    "cooling": {
-      "citation_section": "21 CFR 1.1325",
-      "kdes": [
-        {"kde": "product_description", "label": "commodity / product description", "satisfied_by": ["product_name"], "requirement": "required", "severity": "medium"},
-        {"kde": "quantity", "label": "quantity and unit of measure", "satisfied_by": ["quantity"], "requirement": "required", "severity": "medium"},
-        {"kde": "subsequent_recipient_location", "label": "location of the immediate subsequent recipient", "satisfied_by": ["to_partner_id"], "requirement": "required", "severity": "medium"},
-        {"kde": "cooling_location", "label": "location where you cooled the food", "satisfied_by": ["actor_location_id"], "requirement": "required", "severity": "medium"},
-        {"kde": "cooling_date", "label": "date of cooling", "satisfied_by": ["event_datetime"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_type", "label": "reference document type", "satisfied_by": ["reference_record_type"], "requirement": "required", "severity": "medium"},
-        {"kde": "reference_document_number", "label": "reference document number", "satisfied_by": ["reference_record_no"], "requirement": "required", "severity": "medium"}
-      ]
+    {
+     "kde": "reference_document_type",
+     "label": "reference document type",
+     "satisfied_by": [
+      "reference_record_type"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_number",
+     "label": "reference document number",
+     "satisfied_by": [
+      "reference_record_no",
+      "reference_document_number"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "tlc_source",
+     "label": "traceability lot code source (location description or source reference)",
+     "satisfied_by": [
+      "tlc_source",
+      "source_lot_or_tlc",
+      "reference_record_no",
+      "reference_document_number"
+     ],
+     "requirement": "required",
+     "severity": "medium"
     }
+   ]
+  },
+  "receiving": {
+   "citation_section": "21 CFR 1.1345",
+   "kdes": [
+    {
+     "kde": "traceability_lot_code",
+     "label": "Traceability Lot Code (TLC)",
+     "satisfied_by": [
+      "traceability_lot_code"
+     ],
+     "requirement": "required",
+     "severity": "high"
+    },
+    {
+     "kde": "quantity",
+     "label": "quantity and unit of measure",
+     "satisfied_by": [
+      "quantity"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "product_description",
+     "label": "product description",
+     "satisfied_by": [
+      "product_name"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "previous_source_location",
+     "label": "location of the immediate previous source",
+     "satisfied_by": [
+      "from_partner_id"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "received_location",
+     "label": "location where the food was received",
+     "satisfied_by": [
+      "actor_location_id",
+      "to_partner_id"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "received_date",
+     "label": "date you received the food",
+     "satisfied_by": [
+      "event_datetime"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_type",
+     "label": "reference document type",
+     "satisfied_by": [
+      "reference_record_type"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_number",
+     "label": "reference document number",
+     "satisfied_by": [
+      "reference_record_no",
+      "reference_document_number"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "tlc_source",
+     "label": "traceability lot code source (location description or source reference)",
+     "satisfied_by": [
+      "tlc_source",
+      "source_lot_or_tlc",
+      "reference_record_no",
+      "reference_document_number"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    }
+   ]
+  },
+  "transformation": {
+   "citation_section": "21 CFR 1.1350",
+   "kdes": [
+    {
+     "kde": "output_lot_or_tlc",
+     "label": "new Traceability Lot Code for the transformed food",
+     "satisfied_by": [
+      "output_lot_or_tlc"
+     ],
+     "requirement": "required",
+     "severity": "high"
+    },
+    {
+     "kde": "source_lot_or_tlc",
+     "label": "Traceability Lot Code of each input lot",
+     "satisfied_by": [
+      "source_lot_or_tlc"
+     ],
+     "requirement": "required",
+     "severity": "high"
+    },
+    {
+     "kde": "product_description",
+     "label": "product description",
+     "satisfied_by": [
+      "product_name"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "quantity",
+     "label": "quantity and unit of measure",
+     "satisfied_by": [
+      "quantity"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "transformation_location",
+     "label": "location where you transformed the food (TLC source)",
+     "satisfied_by": [
+      "actor_location_id"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "transformation_date",
+     "label": "date transformation was completed",
+     "satisfied_by": [
+      "event_datetime"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_type",
+     "label": "reference document type",
+     "satisfied_by": [
+      "reference_record_type"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_number",
+     "label": "reference document number",
+     "satisfied_by": [
+      "reference_record_no"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "tlc_source",
+     "label": "traceability lot code source or source reference for the new lot (1.1350(a)(2)(ii))",
+     "satisfied_by": [
+      "tlc_source",
+      "reference_record_no",
+      "reference_document_number"
+     ],
+     "requirement": "conditional",
+     "severity": "medium"
+    }
+   ]
+  },
+  "initial_packing": {
+   "citation_section": "21 CFR 1.1330",
+   "kdes": [
+    {
+     "kde": "traceability_lot_code",
+     "label": "Traceability Lot Code assigned at packing",
+     "satisfied_by": [
+      "traceability_lot_code",
+      "output_lot_or_tlc"
+     ],
+     "requirement": "required",
+     "severity": "high"
+    },
+    {
+     "kde": "product_description",
+     "label": "product description of the packed food",
+     "satisfied_by": [
+      "product_name"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "quantity",
+     "label": "quantity and unit of measure",
+     "satisfied_by": [
+      "quantity"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "packing_date",
+     "label": "date of initial packing",
+     "satisfied_by": [
+      "event_datetime"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_type",
+     "label": "reference document type",
+     "satisfied_by": [
+      "reference_record_type"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_number",
+     "label": "reference document number",
+     "satisfied_by": [
+      "reference_record_no"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "harvest_farm_location",
+     "label": "farm where the food was harvested",
+     "satisfied_by": [
+      "harvest_farm_location",
+      "farm_location"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "harvest_field_or_container",
+     "label": "field/growing area name (produce) or container name (aquaculture), 1.1330(a)(5)/(6)",
+     "satisfied_by": [
+      "harvest_field_or_container",
+      "growing_area",
+      "container_name"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "harvester_contact",
+     "label": "harvester business name and phone",
+     "satisfied_by": [
+      "harvester_contact",
+      "harvester_name",
+      "harvester_phone"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "packing_location",
+     "label": "location where you initially packed the food (the TLC source, 1.1330(a)(14))",
+     "satisfied_by": [
+      "actor_location_id",
+      "location_id"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "harvest_date_of_rac",
+     "label": "date of harvesting of the food (1.1330(a)(8))",
+     "satisfied_by": [
+      "harvest_date"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "received_date_of_rac",
+     "label": "date you received the raw agricultural commodity (1.1330(a)(2))",
+     "satisfied_by": [
+      "received_date"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "received_quantity_of_rac",
+     "label": "quantity and unit of the food received (1.1330(a)(3))",
+     "satisfied_by": [
+      "quantity_received"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "cooling_location_pre_pack",
+     "label": "location where the food was cooled before initial packing, if applicable (1.1330(a)(9))",
+     "satisfied_by": [
+      "cooling_location"
+     ],
+     "requirement": "conditional",
+     "severity": "medium"
+    },
+    {
+     "kde": "cooling_date_pre_pack",
+     "label": "date of cooling before initial packing, if applicable (1.1330(a)(10))",
+     "satisfied_by": [
+      "cooling_date"
+     ],
+     "requirement": "conditional",
+     "severity": "medium"
+    },
+    {
+     "kde": "sprout_seed_grower",
+     "label": "sprouts: seed grower business + seed harvest date (1.1330(b)(1))",
+     "satisfied_by": [
+      "seed_grower",
+      "seed_harvest_date"
+     ],
+     "requirement": "conditional",
+     "severity": "medium"
+    },
+    {
+     "kde": "sprout_seed_conditioner",
+     "label": "sprouts: seed conditioner/processor + seed lot code (1.1330(b)(2))",
+     "satisfied_by": [
+      "seed_conditioner",
+      "seed_lot_code"
+     ],
+     "requirement": "conditional",
+     "severity": "medium"
+    },
+    {
+     "kde": "sprout_seed_packinghouse",
+     "label": "sprouts: seed packinghouse, dates and codes (1.1330(b)(3))",
+     "satisfied_by": [
+      "seed_packinghouse"
+     ],
+     "requirement": "conditional",
+     "severity": "medium"
+    },
+    {
+     "kde": "sprout_seed_supplier",
+     "label": "sprouts: seed supplier + master/sub lot codes (1.1330(b)(4))",
+     "satisfied_by": [
+      "seed_supplier",
+      "seed_master_lot"
+     ],
+     "requirement": "conditional",
+     "severity": "medium"
+    },
+    {
+     "kde": "sprout_seed_description",
+     "label": "sprouts: seed description (1.1330(b)(5))",
+     "satisfied_by": [
+      "seed_description"
+     ],
+     "requirement": "conditional",
+     "severity": "medium"
+    },
+    {
+     "kde": "sprout_seed_receipt_date",
+     "label": "sprouts: date of seed receipt (1.1330(b)(6))",
+     "satisfied_by": [
+      "seed_receipt_date"
+     ],
+     "requirement": "conditional",
+     "severity": "medium"
+    }
+   ]
+  },
+  "first_land_based_receiving": {
+   "citation_section": "21 CFR 1.1335",
+   "kdes": [
+    {
+     "kde": "traceability_lot_code",
+     "label": "Traceability Lot Code assigned at first land-based receiving",
+     "satisfied_by": [
+      "traceability_lot_code"
+     ],
+     "requirement": "required",
+     "severity": "high"
+    },
+    {
+     "kde": "product_description",
+     "label": "species / acceptable market name / product description",
+     "satisfied_by": [
+      "product_name"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "quantity",
+     "label": "quantity and unit of measure",
+     "satisfied_by": [
+      "quantity"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "landed_date",
+     "label": "date the food was landed",
+     "satisfied_by": [
+      "event_datetime"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_type",
+     "label": "reference document type",
+     "satisfied_by": [
+      "reference_record_type"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_number",
+     "label": "reference document number",
+     "satisfied_by": [
+      "reference_record_no"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "harvest_range_and_locations",
+     "label": "harvest date range and geographic catch locations",
+     "satisfied_by": [
+      "harvest_range_and_locations",
+      "catch_location",
+      "harvest_date_range"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "first_receiver_location",
+     "label": "location of the first land-based receiver (the TLC source, 1.1335(e))",
+     "satisfied_by": [
+      "actor_location_id",
+      "location_id",
+      "company_name",
+      "business_id"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    }
+   ]
+  },
+  "harvesting": {
+   "citation_section": "21 CFR 1.1325",
+   "kdes": [
+    {
+     "kde": "product_description",
+     "label": "commodity / product description",
+     "satisfied_by": [
+      "product_name"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "quantity",
+     "label": "quantity and unit of measure",
+     "satisfied_by": [
+      "quantity"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "subsequent_recipient_location",
+     "label": "location of the immediate subsequent recipient",
+     "satisfied_by": [
+      "to_partner_id"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "harvest_date",
+     "label": "date of harvesting",
+     "satisfied_by": [
+      "event_datetime"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_type",
+     "label": "reference document type",
+     "satisfied_by": [
+      "reference_record_type"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_number",
+     "label": "reference document number",
+     "satisfied_by": [
+      "reference_record_no"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "harvest_farm_location",
+     "label": "farm where the food was harvested",
+     "satisfied_by": [
+      "harvest_farm_location",
+      "farm_location"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "harvest_field_or_container",
+     "label": "field/growing area name (produce) or container name (aquaculture), 1.1325(a)(1)(v)/(vi)",
+     "satisfied_by": [
+      "harvest_field_or_container",
+      "growing_area",
+      "container_name"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "harvester_contact",
+     "label": "harvester business name and phone number provided to the initial packer (1.1325(a)(2))",
+     "satisfied_by": [
+      "harvester_contact",
+      "company_name",
+      "contact_person",
+      "phone_number"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    }
+   ]
+  },
+  "cooling": {
+   "citation_section": "21 CFR 1.1325",
+   "kdes": [
+    {
+     "kde": "product_description",
+     "label": "commodity / product description",
+     "satisfied_by": [
+      "product_name"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "quantity",
+     "label": "quantity and unit of measure",
+     "satisfied_by": [
+      "quantity"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "subsequent_recipient_location",
+     "label": "location of the immediate subsequent recipient",
+     "satisfied_by": [
+      "to_partner_id"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "cooling_location",
+     "label": "location where you cooled the food",
+     "satisfied_by": [
+      "actor_location_id"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "cooling_date",
+     "label": "date of cooling",
+     "satisfied_by": [
+      "event_datetime"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_type",
+     "label": "reference document type",
+     "satisfied_by": [
+      "reference_record_type"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "reference_document_number",
+     "label": "reference document number",
+     "satisfied_by": [
+      "reference_record_no"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    },
+    {
+     "kde": "harvest_farm_location",
+     "label": "location of the farm where the food was harvested (1.1325(b)(1)(vi))",
+     "satisfied_by": [
+      "harvest_farm_location",
+      "farm_location"
+     ],
+     "requirement": "required",
+     "severity": "medium"
+    }
+   ]
   }
+ }
 }

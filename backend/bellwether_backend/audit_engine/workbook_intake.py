@@ -477,5 +477,11 @@ def _derived_record(*, source, anchor, field_key: str, value: str, method: str, 
 
 
 def event_gated_kinds() -> frozenset[str]:
-    """Sheet kinds whose standalone rows must never mint events."""
-    return frozenset(kind for kind in NON_EVENT_KINDS if kind != "kde_reference")
+    """Sheet kinds whose standalone rows must never mint events.
+
+    Transformation *input* (ingredient) rows are gated too: they are facts about a
+    transformation, not events of their own. Minting them as events fabricates KDE gaps
+    (an ingredient row graded for output-lot/date KDEs it cannot carry) and double-counts
+    the transformation CTE. Their lots still flow into lineage checks via row facts.
+    """
+    return frozenset(kind for kind in NON_EVENT_KINDS if kind != "kde_reference") | {"cte_transformation_input"}

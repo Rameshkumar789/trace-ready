@@ -103,14 +103,18 @@ def main() -> None:
             expected = {
                 "traceability_plan": "empty traceability plan",
                 "lot_backward_lineage": "orphan lots / predates window",
-                "lot_duplicate_tlc": "multi-product TLC reuse",
-                "lot_mass_balance": "shipped > originated",
+                "lot_duplicate_tlc": "multi-product TLC reuse (best practice)",
+                "lot_mass_balance": "shipped > originated (best practice)",
+                "lot_transformation_linkage": "ingredient->output lineage not demonstrable",
                 "ftl_declared_mismatch": "frozen shrimp declared General products",
-                "partner_data_quality": "partner scorecard summary",
                 "inbound_erp_mismatch": "door-vs-database diff",
             }
             for finding_type, label in expected.items():
                 check(f"Sea Eagle: {label}", finding_types.get(finding_type, 0) > 0, f"{finding_type}={finding_types.get(finding_type, 0)}")
+            best_practice = sum(1 for f in package.audit_findings if f.requirement_source == "best_practice")
+            check("Sea Eagle: best-practice checks labeled (no false CFR claims)", best_practice >= 3, f"{best_practice} findings")
+            events_by_cte = package.summary.get("scoping", {}).get("events", {}).get("byCte", {})
+            check("Sea Eagle: no fabricated transformation events", events_by_cte.get("transformation", 0) <= 150, str(events_by_cte))
 
     print("\n-- Pre-receipt validation")
     ftl_items = json.loads(ftl_file.read_text(encoding="utf-8"))

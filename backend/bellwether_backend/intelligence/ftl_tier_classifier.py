@@ -214,6 +214,23 @@ def _postprocess(item: dict[str, Any], product: dict[str, Any], valid_commoditie
     if name and not any(ch.isalpha() for ch in name) and result.get("tier") == "definite_off":
         result["tier"] = "suspicious"
         result["reasoning"] = (result.get("reasoning") or "") + " [Code-only name: cannot be ruled off-list.]"
+    # Frozen guard (asymmetric, deterministic - never left to the model alone): freezing
+    # removes ONLY cheeses from the FTL; frozen seafood, nut butters, and deli salads
+    # frozen prior to retail remain on the list.
+    is_frozen = "frozen" in name
+    if is_frozen and "cheese" in name and result.get("tier") in {"definite_on", "suspicious"} and "cottage" not in name:
+        result["tier"] = "definite_off"
+        result["matched_commodity"] = None
+        result["reasoning"] = (result.get("reasoning") or "") + " [Frozen-cheese guard: the FTL cheese entries exclude frozen/previously frozen cheese.]"
+    # Cottage cheese guard (Feb 2026 exemption): IMS Grade "A" listing cannot be read off a
+    # product name, so cottage cheese is never definite_on - it needs the IMS check.
+    if "cottage cheese" in name and result.get("tier") == "definite_on":
+        result["tier"] = "suspicious"
+        result["reasoning"] = (result.get("reasoning") or "") + (
+            " [Cottage-cheese guard: IMS-listed Grade \"A\" cottage cheese is exempt from full "
+            "Subpart S (Feb 2026); confirm IMS listing before treating as in scope. Source/"
+            "recipient records are still required either way.]"
+        )
     if result.get("matched_commodity") not in valid_commodities:
         result["matched_commodity"] = None if result.get("tier") != "definite_on" else result.get("matched_commodity")
     declared = _norm(product.get("declared_category"))

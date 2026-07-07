@@ -1203,8 +1203,20 @@ def generate_audit_findings(
             continue
         lot_clusters.setdefault((check.check_type, check.status), []).append(check)
     for (check_type, status), checks in lot_clusters.items():
+        example = checks[0]
+        is_best_practice = getattr(example, "basis", "regulation") == "best_practice"
+        citation = (
+            _best_practice_citation()
+            if is_best_practice
+            else _regulation_citation(example.citation_section)
+        )
+        requirement_source = "best_practice" if is_best_practice else "fda_rule"
+        suffix = (
+            " [Recall-readiness data-quality check - not itself a Subpart S recordkeeping requirement.]"
+            if is_best_practice
+            else ""
+        )
         if len(checks) >= 4:
-            example = checks[0]
             lots = [check.lot for check in checks if check.lot]
             evidence_ids: list[str] = []
             for check in checks[:10]:
@@ -1219,12 +1231,13 @@ def generate_audit_findings(
                     finding_type=f"lot_{check_type}",
                     message=(
                         f"{len(checks)} lots share the same lot-integrity issue ({check_type.replace('_', ' ')}). "
-                        f"Example: {example.reason}"
+                        f"Example: {example.reason}{suffix}"
                     ),
                     obligation=fallback_obligation,
                     evidence_ids=evidence_ids,
                     confidence=0.9,
-                    source_citation_override=_regulation_citation(example.citation_section),
+                    source_citation_override=citation,
+                    requirement_source=requirement_source,
                     sub_issues=[f"Lot {lot}" for lot in lots[:15]] + ([f"...and {len(lots) - 15} more"] if len(lots) > 15 else []),
                     affected_fields=["traceability_lot_code"],
                 )
@@ -1239,11 +1252,12 @@ def generate_audit_findings(
                     severity=check.severity,
                     status=check.status,
                     finding_type=f"lot_{check.check_type}",
-                    message=check.reason,
+                    message=f"{check.reason}{suffix}",
                     obligation=fallback_obligation,
                     evidence_ids=list(check.evidence_ids),
                     confidence=0.9,
-                    source_citation_override=_regulation_citation(check.citation_section),
+                    source_citation_override=citation,
+                    requirement_source=requirement_source,
                     affected_fields=["traceability_lot_code"],
                 )
             )
@@ -1327,6 +1341,15 @@ def _regulation_citation(section: str) -> dict[str, Any]:
         "citation_anchor": section,
         "section_ref": section,
         "sourceType": "regulation",
+    }
+
+
+def _best_practice_citation() -> dict[str, Any]:
+    return {
+        "source_id": "traceready-recall-readiness",
+        "citation_anchor": "Recall-readiness data-quality check",
+        "section_ref": "TraceReady best practice (not a Subpart S requirement)",
+        "sourceType": "best_practice",
     }
 
 

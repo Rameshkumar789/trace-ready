@@ -1,806 +1,953 @@
 [
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Cheese (made from pasteurized milk), fresh soft or soft unripened"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_cheese_made_from_pasteurized_milk_fresh_soft_or_soft_unripened",
-    "category": "cheese",
-    "commodity": "Cheese (made from pasteurized milk), fresh soft or soft unripened",
-    "description": "Includes soft unripened/fresh soft cheeses.",
-    "included_examples": [
-      "cottage",
-      "chevre",
-      "cream cheese",
-      "mascarpone",
-      "ricotta",
-      "queso blanco",
-      "queso fresco",
-      "queso de crema",
-      "queso de puna"
-    ],
-    "excluded_examples": [
-      "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
-    ],
-    "form_notes": [
-      "Cheese (made from pasteurized milk), fresh soft or soft unripened Includes soft unripened/fresh soft cheeses.",
-      "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Cheese (made from pasteurized milk), fresh soft or soft unripened Includes soft unripened/fresh soft cheeses. Examples include, but are not limited to, cottage [1], chevre, cream cheese, mascarpone, ricotta, queso blanco, queso fresco, queso de crema, and queso de puna. Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Cheese (made from pasteurized milk), fresh soft or soft unripened"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Cheese (made from pasteurized milk), soft ripened or semi-soft"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_cheese_made_from_pasteurized_milk_soft_ripened_or_semi_soft",
-    "category": "cheese",
-    "commodity": "Cheese (made from pasteurized milk), soft ripened or semi-soft",
-    "description": "Includes soft ripened/semi-soft cheeses.",
-    "included_examples": [
-      "brie",
-      "camembert",
-      "feta",
-      "mozzarella",
-      "taleggio",
-      "blue",
-      "brick",
-      "fontina",
-      "monterey jack",
-      "muenster"
-    ],
-    "excluded_examples": [
-      "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
-    ],
-    "form_notes": [
-      "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Cheese (made from pasteurized milk), soft ripened or semi-soft Includes soft ripened/semi-soft cheeses. Examples include, but are not limited to, brie, camembert, feta, mozzarella, taleggio, blue, brick, fontina, monterey jack, and muenster. Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
+  "ftl_item_id": "ftl_cheese_made_from_pasteurized_milk_fresh_soft_or_soft_unripened",
+  "category": "cheese",
+  "commodity": "Cheese (made from pasteurized milk), fresh soft or soft unripened",
+  "description": "Includes soft unripened/fresh soft cheeses.",
+  "included_examples": [
+   "cottage",
+   "chevre",
+   "cream cheese",
+   "mascarpone",
+   "ricotta",
+   "queso blanco",
+   "queso fresco",
+   "queso de crema",
+   "queso de puna"
+  ],
+  "excluded_examples": [
+   "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged.",
+   "IMS-listed Grade \"A\" cottage cheese is exempt from full Subpart S per the Feb 2026 exemption (91 FR, eff. 2026-02-20); such facilities still must keep immediate-previous-source and immediate-subsequent-recipient records."
+  ],
+  "form_notes": [
+   "Cheese (made from pasteurized milk), fresh soft or soft unripened Includes soft unripened/fresh soft cheeses.",
+   "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged.",
+   "Non-IMS-listed cottage cheese remains on the list; classify IMS Grade \"A\" cottage cheese as exempt (partial)."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Cheese (made from pasteurized milk), fresh soft or soft unripened Includes soft unripened/fresh soft cheeses. Examples include, but are not limited to, cottage [1], chevre, cream cheese, mascarpone, ricotta, queso blanco, queso fresco, queso de crema, and queso de puna. Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Cheese (made from pasteurized milk), soft ripened or semi-soft"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Cheese (made from unpasteurized milk), other than hard cheese"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_cheese_made_from_unpasteurized_milk_other_than_hard_cheese",
-    "category": "cheese",
-    "commodity": "Cheese (made from unpasteurized milk), other than hard cheese",
-    "description": "[2] Includes all cheeses made with unpasteurized milk, other than hard cheeses.",
-    "included_examples": [],
-    "excluded_examples": [
-      "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
-    ],
-    "form_notes": [
-      "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Cheese (made from unpasteurized milk), other than hard cheese[2] Includes all cheeses made with unpasteurized milk, other than hard cheeses. Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
+  "ftl_item_id": "ftl_cheese_made_from_pasteurized_milk_soft_ripened_or_semi_soft",
+  "category": "cheese",
+  "commodity": "Cheese (made from pasteurized milk), soft ripened or semi-soft",
+  "description": "Includes soft ripened/semi-soft cheeses.",
+  "included_examples": [
+   "brie",
+   "camembert",
+   "feta",
+   "mozzarella",
+   "taleggio",
+   "blue",
+   "brick",
+   "fontina",
+   "monterey jack",
+   "muenster"
+  ],
+  "excluded_examples": [
+   "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
+  ],
+  "form_notes": [
+   "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Cheese (made from pasteurized milk), soft ripened or semi-soft Includes soft ripened/semi-soft cheeses. Examples include, but are not limited to, brie, camembert, feta, mozzarella, taleggio, blue, brick, fontina, monterey jack, and muenster. Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Cheese (made from unpasteurized milk), other than hard cheese"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Shell eggs"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_shell_eggs",
-    "category": "other",
-    "commodity": "Shell eggs",
-    "description": "Shell egg means the egg of the domesticated chicken.",
-    "included_examples": [],
-    "excluded_examples": [],
-    "form_notes": [],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Shell eggs Shell egg means the egg of the domesticated chicken."
+  "ftl_item_id": "ftl_cheese_made_from_unpasteurized_milk_other_than_hard_cheese",
+  "category": "cheese",
+  "commodity": "Cheese (made from unpasteurized milk), other than hard cheese",
+  "description": "[2] Includes all cheeses made with unpasteurized milk, other than hard cheeses.",
+  "included_examples": [],
+  "excluded_examples": [
+   "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
+  ],
+  "form_notes": [
+   "Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Cheese (made from unpasteurized milk), other than hard cheese[2] Includes all cheeses made with unpasteurized milk, other than hard cheeses. Does not include cheeses that are frozen or previously frozen, shelf stable at ambient temperature, or aseptically processed and packaged."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Nut butters"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Nut butters"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_nut_butters",
-    "category": "other",
-    "commodity": "Nut butters",
-    "description": "Includes all types of tree nut and peanut butters.",
-    "included_examples": [
-      "almond",
-      "cashew",
-      "chestnut",
-      "coconut",
-      "hazelnut",
-      "peanut",
-      "pistachio",
-      "walnut butters"
-    ],
-    "excluded_examples": [
-      "Does not include soy or seed butters."
-    ],
-    "form_notes": [
-      "Includes all forms of nut butters, including shelf stable, refrigerated, frozen, and previously frozen products."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Nut butters Includes all types of tree nut and peanut butters. Includes all forms of nut butters, including shelf stable, refrigerated, frozen, and previously frozen products. Examples include, but are not limited to, almond, cashew, chestnut, coconut, hazelnut, peanut, pistachio, and walnut butters. Does not include soy or seed butters."
+  "ftl_item_id": "ftl_nut_butters",
+  "category": "other",
+  "commodity": "Nut butters",
+  "description": "Includes all types of tree nut and peanut butters.",
+  "included_examples": [
+   "almond",
+   "cashew",
+   "chestnut",
+   "coconut",
+   "hazelnut",
+   "peanut",
+   "pistachio",
+   "walnut butters"
+  ],
+  "excluded_examples": [
+   "Does not include soy or seed butters."
+  ],
+  "form_notes": [
+   "Includes all forms of nut butters, including shelf stable, refrigerated, frozen, and previously frozen products."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Nut butters Includes all types of tree nut and peanut butters. Includes all forms of nut butters, including shelf stable, refrigerated, frozen, and previously frozen products. Examples include, but are not limited to, almond, cashew, chestnut, coconut, hazelnut, peanut, pistachio, and walnut butters. Does not include soy or seed butters."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Shell eggs"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Cucumbers (fresh)"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_cucumbers_fresh",
-    "category": "produce",
-    "commodity": "Cucumbers (fresh)",
-    "description": "[3] Includes all varieties of fresh cucumbers.",
-    "included_examples": [],
-    "excluded_examples": [],
-    "form_notes": [
-      "Cucumbers (fresh)[3] Includes all varieties of fresh cucumbers."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Cucumbers (fresh)[3] Includes all varieties of fresh cucumbers."
+  "ftl_item_id": "ftl_shell_eggs",
+  "category": "other",
+  "commodity": "Shell eggs",
+  "description": "Shell egg means the egg of the domesticated chicken.",
+  "included_examples": [],
+  "excluded_examples": [],
+  "form_notes": [],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Shell eggs Shell egg means the egg of the domesticated chicken."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Cucumbers (fresh)"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Herbs (fresh)"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_herbs_fresh",
-    "category": "produce",
-    "commodity": "Herbs (fresh)",
-    "description": "Includes all types of fresh herbs.",
-    "included_examples": [
-      "parsley",
-      "cilantro",
-      "basil"
-    ],
-    "excluded_examples": [],
-    "form_notes": [
-      "Herbs (fresh) Includes all types of fresh herbs.",
-      "Herbs listed in 21 CFR 112.2(a)(1), such as dill, are exempt from the requirements of the rule under 21 CFR 1.1305(e)."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Herbs (fresh) Includes all types of fresh herbs. Examples include, but are not limited to, parsley, cilantro, and basil. Herbs listed in 21 CFR 112.2(a)(1), such as dill, are exempt from the requirements of the rule under 21 CFR 1.1305(e)."
+  "ftl_item_id": "ftl_cucumbers_fresh",
+  "category": "produce",
+  "commodity": "Cucumbers (fresh)",
+  "description": "[3] Includes all varieties of fresh cucumbers.",
+  "included_examples": [],
+  "excluded_examples": [],
+  "form_notes": [
+   "Cucumbers (fresh)[3] Includes all varieties of fresh cucumbers."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Cucumbers (fresh)[3] Includes all varieties of fresh cucumbers."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Fruits (fresh-cut)"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Leafy greens (fresh)"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_leafy_greens_fresh",
-    "category": "produce",
-    "commodity": "Leafy greens (fresh)",
-    "description": "Includes all types of fresh leafy greens.",
-    "included_examples": [
-      "arugula",
-      "baby leaf",
-      "butter lettuce",
-      "chard",
-      "chicory",
-      "endive",
-      "escarole",
-      "green leaf",
-      "iceberg lettuce",
-      "kale",
-      "red leaf",
-      "pak choi/bok choi",
-      "Romaine",
-      "sorrel",
-      "spinach",
-      "watercress"
-    ],
-    "excluded_examples": [
-      "Does not include whole head cabbages such as green cabbage, red cabbage, or savoy cabbage.",
-      "Does not include banana leaf, grape leaf, and leaves that are grown on trees."
-    ],
-    "form_notes": [
-      "Leafy greens (fresh) Includes all types of fresh leafy greens.",
-      "Leafy greens listed in \u00a7 112.2(a)(1), such as collards, are exempt from the requirements of the rule under \u00a7 1.1305(e)."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Leafy greens (fresh) Includes all types of fresh leafy greens. Examples include, but are not limited to, arugula, baby leaf, butter lettuce, chard, chicory, endive, escarole, green leaf, iceberg lettuce, kale, red leaf, pak choi/bok choi, Romaine, sorrel, spinach, and watercress. Does not include whole head cabbages such as green cabbage, red cabbage, or savoy cabbage. Does not include banana leaf, grape leaf, and leaves that are grown on trees. Leafy greens listed in \u00a7 112.2(a)(1), such as collards, are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+  "ftl_item_id": "ftl_fruits_fresh_cut",
+  "category": "produce",
+  "commodity": "Fruits (fresh-cut)",
+  "description": "Includes all types of fresh-cut fruits.",
+  "included_examples": [],
+  "excluded_examples": [],
+  "form_notes": [
+   "Fruits (fresh-cut) Includes all types of fresh-cut fruits.",
+   "Fruits listed in \u00a7 112.2(a)(1) are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Fruits (fresh-cut) Includes all types of fresh-cut fruits. Fruits listed in \u00a7 112.2(a)(1) are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Herbs (fresh)"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Leafy greens (fresh-cut)"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_leafy_greens_fresh_cut",
-    "category": "produce",
-    "commodity": "Leafy greens (fresh-cut)",
-    "description": "[4] Includes all types of fresh-cut leafy greens, including single and mixed greens.",
-    "included_examples": [],
-    "excluded_examples": [],
-    "form_notes": [
-      "Leafy greens (fresh-cut)[4] Includes all types of fresh-cut leafy greens, including single and mixed greens."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Leafy greens (fresh-cut)[4] Includes all types of fresh-cut leafy greens, including single and mixed greens."
+  "ftl_item_id": "ftl_herbs_fresh",
+  "category": "produce",
+  "commodity": "Herbs (fresh)",
+  "description": "Includes all types of fresh herbs.",
+  "included_examples": [
+   "parsley",
+   "cilantro",
+   "basil"
+  ],
+  "excluded_examples": [],
+  "form_notes": [
+   "Herbs (fresh) Includes all types of fresh herbs.",
+   "Herbs listed in 21 CFR 112.2(a)(1), such as dill, are exempt from the requirements of the rule under 21 CFR 1.1305(e)."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Herbs (fresh) Includes all types of fresh herbs. Examples include, but are not limited to, parsley, cilantro, and basil. Herbs listed in 21 CFR 112.2(a)(1), such as dill, are exempt from the requirements of the rule under 21 CFR 1.1305(e)."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Leafy greens (fresh)"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Melons (fresh)"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_melons_fresh",
-    "category": "produce",
-    "commodity": "Melons (fresh)",
-    "description": "Includes all types of fresh melons.",
-    "included_examples": [
-      "cantaloupe",
-      "honeydew",
-      "muskmelon",
-      "watermelon"
-    ],
-    "excluded_examples": [],
-    "form_notes": [
-      "Melons (fresh) Includes all types of fresh melons."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Melons (fresh) Includes all types of fresh melons. Examples include, but are not limited to, cantaloupe, honeydew, muskmelon, and watermelon."
+  "ftl_item_id": "ftl_leafy_greens_fresh",
+  "category": "produce",
+  "commodity": "Leafy greens (fresh)",
+  "description": "Includes all types of fresh leafy greens.",
+  "included_examples": [
+   "arugula",
+   "baby leaf",
+   "butter lettuce",
+   "chard",
+   "chicory",
+   "endive",
+   "escarole",
+   "green leaf",
+   "iceberg lettuce",
+   "kale",
+   "red leaf",
+   "pak choi/bok choi",
+   "Romaine",
+   "sorrel",
+   "spinach",
+   "watercress"
+  ],
+  "excluded_examples": [
+   "Does not include whole head cabbages such as green cabbage, red cabbage, or savoy cabbage.",
+   "Does not include banana leaf, grape leaf, and leaves that are grown on trees."
+  ],
+  "form_notes": [
+   "Leafy greens (fresh) Includes all types of fresh leafy greens.",
+   "Leafy greens listed in \u00a7 112.2(a)(1), such as collards, are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Leafy greens (fresh) Includes all types of fresh leafy greens. Examples include, but are not limited to, arugula, baby leaf, butter lettuce, chard, chicory, endive, escarole, green leaf, iceberg lettuce, kale, red leaf, pak choi/bok choi, Romaine, sorrel, spinach, and watercress. Does not include whole head cabbages such as green cabbage, red cabbage, or savoy cabbage. Does not include banana leaf, grape leaf, and leaves that are grown on trees. Leafy greens listed in \u00a7 112.2(a)(1), such as collards, are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Leafy greens (fresh-cut)"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Peppers (fresh)"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_peppers_fresh",
-    "category": "produce",
-    "commodity": "Peppers (fresh)",
-    "description": "Includes all varieties of fresh peppers.",
-    "included_examples": [],
-    "excluded_examples": [],
-    "form_notes": [
-      "Peppers (fresh) Includes all varieties of fresh peppers."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Peppers (fresh) Includes all varieties of fresh peppers."
+  "ftl_item_id": "ftl_leafy_greens_fresh_cut",
+  "category": "produce",
+  "commodity": "Leafy greens (fresh-cut)",
+  "description": "[4] Includes all types of fresh-cut leafy greens, including single and mixed greens.",
+  "included_examples": [],
+  "excluded_examples": [],
+  "form_notes": [
+   "Leafy greens (fresh-cut)[4] Includes all types of fresh-cut leafy greens, including single and mixed greens."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Leafy greens (fresh-cut)[4] Includes all types of fresh-cut leafy greens, including single and mixed greens."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Melons (fresh)"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Sprouts (fresh)"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_sprouts_fresh",
-    "category": "produce",
-    "commodity": "Sprouts (fresh)",
-    "description": "Includes all varieties of fresh sprouts (irrespective of seed source), including single and mixed sprouts.",
-    "included_examples": [
-      "alfalfa sprouts",
-      "allium sprouts",
-      "bean sprouts",
-      "broccoli sprouts",
-      "clover sprouts",
-      "radish sprouts",
-      "alfalfa & radish sprouts",
-      "other fresh sprouted grains",
-      "nuts",
-      "seeds"
-    ],
-    "excluded_examples": [],
-    "form_notes": [
-      "Sprouts (fresh) Includes all varieties of fresh sprouts (irrespective of seed source), including single and mixed sprouts.",
-      "Examples include, but are not limited to, alfalfa sprouts, allium sprouts, bean sprouts, broccoli sprouts, clover sprouts, radish sprouts, alfalfa & radish sprouts, and other fresh sprouted grains, nuts, and seeds."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Sprouts (fresh) Includes all varieties of fresh sprouts (irrespective of seed source), including single and mixed sprouts. Examples include, but are not limited to, alfalfa sprouts, allium sprouts, bean sprouts, broccoli sprouts, clover sprouts, radish sprouts, alfalfa & radish sprouts, and other fresh sprouted grains, nuts, and seeds."
+  "ftl_item_id": "ftl_melons_fresh",
+  "category": "produce",
+  "commodity": "Melons (fresh)",
+  "description": "Includes all types of fresh melons.",
+  "included_examples": [
+   "cantaloupe",
+   "honeydew",
+   "muskmelon",
+   "watermelon"
+  ],
+  "excluded_examples": [],
+  "form_notes": [
+   "Melons (fresh) Includes all types of fresh melons."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Melons (fresh) Includes all types of fresh melons. Examples include, but are not limited to, cantaloupe, honeydew, muskmelon, and watermelon."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Peppers (fresh)"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Tomatoes (fresh)"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_tomatoes_fresh",
-    "category": "produce",
-    "commodity": "Tomatoes (fresh)",
-    "description": "Includes all varieties of fresh tomatoes.",
-    "included_examples": [],
-    "excluded_examples": [],
-    "form_notes": [
-      "Tomatoes (fresh) Includes all varieties of fresh tomatoes."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Tomatoes (fresh) Includes all varieties of fresh tomatoes."
+  "ftl_item_id": "ftl_peppers_fresh",
+  "category": "produce",
+  "commodity": "Peppers (fresh)",
+  "description": "Includes all varieties of fresh peppers.",
+  "included_examples": [],
+  "excluded_examples": [],
+  "form_notes": [
+   "Peppers (fresh) Includes all varieties of fresh peppers."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Peppers (fresh) Includes all varieties of fresh peppers."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Sprouts (fresh)"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Tropical tree fruits (fresh)"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_tropical_tree_fruits_fresh",
-    "category": "produce",
-    "commodity": "Tropical tree fruits (fresh)",
-    "description": "Includes all types of fresh tropical tree fruit.",
-    "included_examples": [
-      "mango",
-      "papaya",
-      "mamey",
-      "guava",
-      "lychee",
-      "jackfruit",
-      "starfruit"
-    ],
-    "excluded_examples": [
-      "Does not include non-tree fruits such as bananas, pineapple, dates, soursop, jujube, passionfruit, Loquat, pomegranate, and sapodilla.",
-      "Does not include tree nuts such as coconut.",
-      "Does not include pit fruits such as avocado.",
-      "Does not include citrus, such as orange, clementine, tangerine, mandarins, lemon, lime, citron, grapefruit, kumquat, and pomelo."
-    ],
-    "form_notes": [
-      "Tropical tree fruits (fresh) Includes all types of fresh tropical tree fruit.",
-      "Tropical tree fruits listed in \u00a7 112.2(a)(1), such as figs, are exempt from the requirements of the rule under \u00a7 1.1305(e)."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Tropical tree fruits (fresh) Includes all types of fresh tropical tree fruit. Examples include, but are not limited to, mango, papaya, mamey, guava, lychee, jackfruit, and starfruit. Does not include non-tree fruits such as bananas, pineapple, dates, soursop, jujube, passionfruit, Loquat, pomegranate, and sapodilla. Does not include tree nuts such as coconut. Does not include pit fruits such as avocado. Does not include citrus, such as orange, clementine, tangerine, mandarins, lemon, lime, citron, grapefruit, kumquat, and pomelo. Tropical tree fruits listed in \u00a7 112.2(a)(1), such as figs, are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+  "ftl_item_id": "ftl_sprouts_fresh",
+  "category": "produce",
+  "commodity": "Sprouts (fresh)",
+  "description": "Includes all varieties of fresh sprouts (irrespective of seed source), including single and mixed sprouts.",
+  "included_examples": [
+   "alfalfa sprouts",
+   "allium sprouts",
+   "bean sprouts",
+   "broccoli sprouts",
+   "clover sprouts",
+   "radish sprouts",
+   "alfalfa & radish sprouts",
+   "other fresh sprouted grains",
+   "nuts",
+   "seeds"
+  ],
+  "excluded_examples": [],
+  "form_notes": [
+   "Sprouts (fresh) Includes all varieties of fresh sprouts (irrespective of seed source), including single and mixed sprouts.",
+   "Examples include, but are not limited to, alfalfa sprouts, allium sprouts, bean sprouts, broccoli sprouts, clover sprouts, radish sprouts, alfalfa & radish sprouts, and other fresh sprouted grains, nuts, and seeds."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Sprouts (fresh) Includes all varieties of fresh sprouts (irrespective of seed source), including single and mixed sprouts. Examples include, but are not limited to, alfalfa sprouts, allium sprouts, bean sprouts, broccoli sprouts, clover sprouts, radish sprouts, alfalfa & radish sprouts, and other fresh sprouted grains, nuts, and seeds."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Tomatoes (fresh)"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Fruits (fresh-cut)"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_fruits_fresh_cut",
-    "category": "produce",
-    "commodity": "Fruits (fresh-cut)",
-    "description": "Includes all types of fresh-cut fruits.",
-    "included_examples": [],
-    "excluded_examples": [],
-    "form_notes": [
-      "Fruits (fresh-cut) Includes all types of fresh-cut fruits.",
-      "Fruits listed in \u00a7 112.2(a)(1) are exempt from the requirements of the rule under \u00a7 1.1305(e)."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Fruits (fresh-cut) Includes all types of fresh-cut fruits. Fruits listed in \u00a7 112.2(a)(1) are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+  "ftl_item_id": "ftl_tomatoes_fresh",
+  "category": "produce",
+  "commodity": "Tomatoes (fresh)",
+  "description": "Includes all varieties of fresh tomatoes.",
+  "included_examples": [],
+  "excluded_examples": [],
+  "form_notes": [
+   "Tomatoes (fresh) Includes all varieties of fresh tomatoes."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Tomatoes (fresh) Includes all varieties of fresh tomatoes."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Tropical tree fruits (fresh)"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Vegetables other than leafy greens (fresh-cut)"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_vegetables_other_than_leafy_greens_fresh_cut",
-    "category": "produce",
-    "commodity": "Vegetables other than leafy greens (fresh-cut)",
-    "description": "Includes all types of fresh-cut vegetables other than leafy greens.",
-    "included_examples": [],
-    "excluded_examples": [],
-    "form_notes": [
-      "Vegetables other than leafy greens (fresh-cut) Includes all types of fresh-cut vegetables other than leafy greens.",
-      "Vegetables listed in \u00a7 112.2(a)(1) are exempt from the requirements of the rule under \u00a7 1.1305(e)."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Vegetables other than leafy greens (fresh-cut) Includes all types of fresh-cut vegetables other than leafy greens. Vegetables listed in \u00a7 112.2(a)(1) are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+  "ftl_item_id": "ftl_tropical_tree_fruits_fresh",
+  "category": "produce",
+  "commodity": "Tropical tree fruits (fresh)",
+  "description": "Includes all types of fresh tropical tree fruit.",
+  "included_examples": [
+   "mango",
+   "papaya",
+   "mamey",
+   "guava",
+   "lychee",
+   "jackfruit",
+   "starfruit"
+  ],
+  "excluded_examples": [
+   "Does not include non-tree fruits such as bananas, pineapple, dates, soursop, jujube, passionfruit, Loquat, pomegranate, and sapodilla.",
+   "Does not include tree nuts such as coconut.",
+   "Does not include pit fruits such as avocado.",
+   "Does not include citrus, such as orange, clementine, tangerine, mandarins, lemon, lime, citron, grapefruit, kumquat, and pomelo."
+  ],
+  "form_notes": [
+   "Tropical tree fruits (fresh) Includes all types of fresh tropical tree fruit.",
+   "Tropical tree fruits listed in \u00a7 112.2(a)(1), such as figs, are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Tropical tree fruits (fresh) Includes all types of fresh tropical tree fruit. Examples include, but are not limited to, mango, papaya, mamey, guava, lychee, jackfruit, and starfruit. Does not include non-tree fruits such as bananas, pineapple, dates, soursop, jujube, passionfruit, Loquat, pomegranate, and sapodilla. Does not include tree nuts such as coconut. Does not include pit fruits such as avocado. Does not include citrus, such as orange, clementine, tangerine, mandarins, lemon, lime, citron, grapefruit, kumquat, and pomelo. Tropical tree fruits listed in \u00a7 112.2(a)(1), such as figs, are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Vegetables other than leafy greens (fresh-cut)"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Finfish (fresh, frozen, and previously frozen), specifically:"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_finfish_fresh_frozen_and_previously_frozen_specifically",
-    "category": "produce",
-    "commodity": "Finfish (fresh, frozen, and previously frozen), specifically:",
-    "description": "Finfish, histamine-producing species Includes all histamine-producing species of finfish.",
-    "included_examples": [
-      "tuna",
-      "mahi mahi",
-      "mackerel",
-      "amberjack",
-      "jack",
-      "swordfish",
-      "yellowtail"
-    ],
-    "excluded_examples": [],
-    "form_notes": [
-      "Finfish (fresh, frozen, and previously frozen), specifically: Finfish, histamine-producing species Includes all histamine-producing species of finfish.",
-      "Examples include, but are not limited to, cod, haddock, Alaska pollock, salmon, tilapia, and trout.[5] Siluriformes fish, such as catfish, are not included.[6] Smoked finfish (refrigerated, frozen, and previously frozen) Includes all types of smoked finfish, including cold smoked finfish and hot smoked finfish.[7]"
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Finfish (fresh, frozen, and previously frozen), specifically: Finfish, histamine-producing species Includes all histamine-producing species of finfish. Examples include, but are not limited to, tuna, mahi mahi, mackerel, amberjack, jack, swordfish, and yellowtail. Finfish, species potentially contaminated with ciguatoxin Includes all finfish species potentially contaminated with ciguatoxin. Examples include, but are not limited to, grouper, barracuda, and snapper. Finfish, species not associated with histamine or ciguatoxin Includes all species of finfish not associated with histamine or ciguatoxin. Examples include, but are not limited to, cod, haddock, Alaska pollock, salmon, tilapia, and trout.[5] Siluriformes fish, such as catfish, are not included.[6] Smoked finfish (refrigerated, frozen, and previously frozen) Includes all types of smoked finfish, including cold smoked finfish and hot smoked finfish.[7]"
+  "ftl_item_id": "ftl_vegetables_other_than_leafy_greens_fresh_cut",
+  "category": "produce",
+  "commodity": "Vegetables other than leafy greens (fresh-cut)",
+  "description": "Includes all types of fresh-cut vegetables other than leafy greens.",
+  "included_examples": [],
+  "excluded_examples": [],
+  "form_notes": [
+   "Vegetables other than leafy greens (fresh-cut) Includes all types of fresh-cut vegetables other than leafy greens.",
+   "Vegetables listed in \u00a7 112.2(a)(1) are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Vegetables other than leafy greens (fresh-cut) Includes all types of fresh-cut vegetables other than leafy greens. Vegetables listed in \u00a7 112.2(a)(1) are exempt from the requirements of the rule under \u00a7 1.1305(e)."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Ready-to-eat deli salads"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Crustaceans"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_crustaceans",
-    "category": "seafood",
-    "commodity": "Crustaceans",
-    "description": "(fresh, frozen, and previously frozen) Includes all crustacean species.",
-    "included_examples": [
-      "but are not limited to shrimp",
-      "crab",
-      "lobster",
-      "crayfish"
-    ],
-    "excluded_examples": [],
-    "form_notes": [
-      "Crustaceans (fresh, frozen, and previously frozen) Includes all crustacean species."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Crustaceans (fresh, frozen, and previously frozen) Includes all crustacean species. Examples include but are not limited to shrimp, crab, lobster, and crayfish."
+  "ftl_item_id": "ftl_ready_to_eat_deli_salads",
+  "category": "ready-to-eat deli salads",
+  "commodity": "Ready-to-eat deli salads",
+  "description": "(refrigerated) Includes all types of refrigerated ready-to-eat deli salads, including ready-to-eat deli salads that are frozen at some point in the supply chain prior to retail.",
+  "included_examples": [
+   "egg salad",
+   "potato salad",
+   "pasta salad",
+   "seafood salad"
+  ],
+  "excluded_examples": [
+   "Does not include meat salads."
+  ],
+  "form_notes": [
+   "Ready-to-eat deli salads (refrigerated) Includes all types of refrigerated ready-to-eat deli salads, including ready-to-eat deli salads that are frozen at some point in the supply chain prior to retail."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Ready-to-eat deli salads (refrigerated) Includes all types of refrigerated ready-to-eat deli salads, including ready-to-eat deli salads that are frozen at some point in the supply chain prior to retail. Examples include, but are not limited to, egg salad, potato salad, pasta salad, and seafood salad. Does not include meat salads. [1] IMS listed Grade \u201cA\u201d cottage cheese is from the requirements of the rule. Note: Foods for animals are not included in our current risk-ranking model and are not included on the FTL, and therefore not covered by the final rule."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Crustaceans"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Molluscan shellfish, bivalves"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_molluscan_shellfish_bivalves",
-    "category": "seafood",
-    "commodity": "Molluscan shellfish, bivalves",
-    "description": "(fresh, frozen, and previously frozen)[8] Includes all species of bivalve mollusks.",
-    "included_examples": [
-      "oysters",
-      "clams",
-      "mussels"
-    ],
-    "excluded_examples": [
-      "Does not include scallop adductor muscle."
-    ],
-    "form_notes": [
-      "Molluscan shellfish, bivalves (fresh, frozen, and previously frozen)[8] Includes all species of bivalve mollusks.",
-      "Raw bivalve molluscan shellfish that are (1) covered by the requirements of the National Shellfish Sanitation Program; (2) subject to the requirements of 21 CFR part 123, subpart C, and 21 CFR 1240.60; or (3) covered by a final equivalence determination by FDA for raw bivalve molluscan shellfish are exempt from the requirements of the rule under \u00a7 1.1305(f)."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Molluscan shellfish, bivalves (fresh, frozen, and previously frozen)[8] Includes all species of bivalve mollusks. Examples include, but are not limited to, oysters, clams, and mussels. Does not include scallop adductor muscle. Raw bivalve molluscan shellfish that are (1) covered by the requirements of the National Shellfish Sanitation Program; (2) subject to the requirements of 21 CFR part 123, subpart C, and 21 CFR 1240.60; or (3) covered by a final equivalence determination by FDA for raw bivalve molluscan shellfish are exempt from the requirements of the rule under \u00a7 1.1305(f)."
+  "ftl_item_id": "ftl_crustaceans",
+  "category": "seafood",
+  "commodity": "Crustaceans",
+  "description": "(fresh, frozen, and previously frozen) Includes all crustacean species.",
+  "included_examples": [
+   "but are not limited to shrimp",
+   "crab",
+   "lobster",
+   "crayfish"
+  ],
+  "excluded_examples": [],
+  "form_notes": [
+   "Crustaceans (fresh, frozen, and previously frozen) Includes all crustacean species."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Crustaceans (fresh, frozen, and previously frozen) Includes all crustacean species. Examples include but are not limited to shrimp, crab, lobster, and crayfish."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Finfish (fresh, frozen, and previously frozen), specifically:"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
   },
-  {
-    "citations": [
-      {
-        "source_id": "fda-food-traceability-list",
-        "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
-        "citation_anchor": "21 CFR 1.1305",
-        "authority_rank": "support",
-        "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
-        "section_ref": "21 CFR 1.1305",
-        "page_number": null,
-        "support_text": "Ready-to-eat deli salads"
-      }
-    ],
-    "metadata": {
-      "extraction_method": "deterministic",
-      "confidence": "high",
-      "review_status": "draft",
-      "reviewer_notes": [],
-      "source_chunk_ids": [
-        "fda-food-traceability-list-21-cfr-1-1305-3"
-      ]
-    },
-    "ftl_item_id": "ftl_ready_to_eat_deli_salads",
-    "category": "ready-to-eat deli salads",
-    "commodity": "Ready-to-eat deli salads",
-    "description": "(refrigerated) Includes all types of refrigerated ready-to-eat deli salads, including ready-to-eat deli salads that are frozen at some point in the supply chain prior to retail.",
-    "included_examples": [
-      "egg salad",
-      "potato salad",
-      "pasta salad",
-      "seafood salad"
-    ],
-    "excluded_examples": [
-      "Does not include meat salads."
-    ],
-    "form_notes": [
-      "Ready-to-eat deli salads (refrigerated) Includes all types of refrigerated ready-to-eat deli salads, including ready-to-eat deli salads that are frozen at some point in the supply chain prior to retail."
-    ],
-    "risk_ranking_refs": [],
-    "raw_list_text": "Ready-to-eat deli salads (refrigerated) Includes all types of refrigerated ready-to-eat deli salads, including ready-to-eat deli salads that are frozen at some point in the supply chain prior to retail. Examples include, but are not limited to, egg salad, potato salad, pasta salad, and seafood salad. Does not include meat salads. [1] IMS listed Grade \u201cA\u201d cottage cheese is from the requirements of the rule. Note: Foods for animals are not included in our current risk-ranking model and are not included on the FTL, and therefore not covered by the final rule."
-  }
+  "ftl_item_id": "ftl_finfish_histamine_producing",
+  "category": "seafood",
+  "commodity": "Finfish, histamine-producing species (fresh, frozen, and previously frozen)",
+  "description": "Fish species capable of producing histamine (scombrotoxin risk), fresh or frozen.",
+  "included_examples": [
+   "tuna",
+   "mahi mahi",
+   "mackerel",
+   "amberjack",
+   "jack",
+   "swordfish",
+   "yellowtail",
+   "sardine",
+   "anchovy",
+   "herring",
+   "bluefish",
+   "marlin"
+  ],
+  "excluded_examples": [
+   "Does not include smoked finfish (separate FTL entry) or shelf-stable/canned fish."
+  ],
+  "form_notes": [
+   "Fresh, frozen, and previously frozen forms are all on the list."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Finfish (fresh, frozen, and previously frozen), specifically: Finfish, histamine-producing species Includes all histamine-producing species of finfish. Examples include, but are not limited to, tuna, mahi mahi, mackerel, amberjack, jack, swordfish, and yellowtail. Finfish, species potentially contaminated with ciguatoxin Includes all finfish species potentially contaminated with ciguatoxin. Examples include, but are not limited to, grouper, barracuda, and snapper. Finfish, species not associated with histamine or ciguatoxin Includes all species of finfish not associated with histamine or ciguatoxin. Examples include, but are not limited to, cod, haddock, Alaska pollock, salmon, tilapia, and trout.[5] Siluriformes fish, such as catfish, are not included.[6] Smoked finfish (refrigerated, frozen, and previously frozen) Includes all types of smoked finfish, including cold smoked finfish and hot smoked finfish.[7]"
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Finfish (fresh, frozen, and previously frozen), specifically:"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
+  },
+  "ftl_item_id": "ftl_finfish_other_species",
+  "category": "seafood",
+  "commodity": "Finfish, species not associated with histamine or ciguatoxin (fresh, frozen, and previously frozen)",
+  "description": "All other finfish species, fresh or frozen (e.g. salmon, cod, tilapia, catfish, halibut, flounder, trout, bass, shrimp excluded - see crustaceans).",
+  "included_examples": [
+   "salmon",
+   "cod",
+   "tilapia",
+   "catfish",
+   "halibut",
+   "flounder",
+   "trout",
+   "bass",
+   "pollock",
+   "haddock",
+   "perch",
+   "whitefish"
+  ],
+  "excluded_examples": [
+   "Does not include smoked finfish (separate FTL entry), shelf-stable/canned fish, or aquaculture feed."
+  ],
+  "form_notes": [
+   "Fresh, frozen, and previously frozen forms are all on the list."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Finfish (fresh, frozen, and previously frozen), specifically: Finfish, histamine-producing species Includes all histamine-producing species of finfish. Examples include, but are not limited to, tuna, mahi mahi, mackerel, amberjack, jack, swordfish, and yellowtail. Finfish, species potentially contaminated with ciguatoxin Includes all finfish species potentially contaminated with ciguatoxin. Examples include, but are not limited to, grouper, barracuda, and snapper. Finfish, species not associated with histamine or ciguatoxin Includes all species of finfish not associated with histamine or ciguatoxin. Examples include, but are not limited to, cod, haddock, Alaska pollock, salmon, tilapia, and trout.[5] Siluriformes fish, such as catfish, are not included.[6] Smoked finfish (refrigerated, frozen, and previously frozen) Includes all types of smoked finfish, including cold smoked finfish and hot smoked finfish.[7]"
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Finfish (fresh, frozen, and previously frozen), specifically:"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
+  },
+  "ftl_item_id": "ftl_finfish_ciguatoxin",
+  "category": "seafood",
+  "commodity": "Finfish, species potentially contaminated with ciguatoxin (fresh, frozen, and previously frozen)",
+  "description": "Reef-associated fish species with ciguatera risk, fresh or frozen.",
+  "included_examples": [
+   "grouper",
+   "barracuda",
+   "snapper",
+   "amberjack",
+   "hogfish",
+   "king mackerel",
+   "moray eel",
+   "reef fish"
+  ],
+  "excluded_examples": [
+   "Does not include smoked finfish (separate FTL entry) or shelf-stable/canned fish."
+  ],
+  "form_notes": [
+   "Fresh, frozen, and previously frozen forms are all on the list."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Finfish (fresh, frozen, and previously frozen), specifically: Finfish, histamine-producing species Includes all histamine-producing species of finfish. Examples include, but are not limited to, tuna, mahi mahi, mackerel, amberjack, jack, swordfish, and yellowtail. Finfish, species potentially contaminated with ciguatoxin Includes all finfish species potentially contaminated with ciguatoxin. Examples include, but are not limited to, grouper, barracuda, and snapper. Finfish, species not associated with histamine or ciguatoxin Includes all species of finfish not associated with histamine or ciguatoxin. Examples include, but are not limited to, cod, haddock, Alaska pollock, salmon, tilapia, and trout.[5] Siluriformes fish, such as catfish, are not included.[6] Smoked finfish (refrigerated, frozen, and previously frozen) Includes all types of smoked finfish, including cold smoked finfish and hot smoked finfish.[7]"
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Molluscan shellfish, bivalves"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
+  },
+  "ftl_item_id": "ftl_molluscan_shellfish_bivalves",
+  "category": "seafood",
+  "commodity": "Molluscan shellfish, bivalves",
+  "description": "(fresh, frozen, and previously frozen)[8] Includes all species of bivalve mollusks.",
+  "included_examples": [
+   "oysters",
+   "clams",
+   "mussels"
+  ],
+  "excluded_examples": [
+   "Does not include scallop adductor muscle."
+  ],
+  "form_notes": [
+   "Molluscan shellfish, bivalves (fresh, frozen, and previously frozen)[8] Includes all species of bivalve mollusks.",
+   "Raw bivalve molluscan shellfish that are (1) covered by the requirements of the National Shellfish Sanitation Program; (2) subject to the requirements of 21 CFR part 123, subpart C, and 21 CFR 1240.60; or (3) covered by a final equivalence determination by FDA for raw bivalve molluscan shellfish are exempt from the requirements of the rule under \u00a7 1.1305(f)."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Molluscan shellfish, bivalves (fresh, frozen, and previously frozen)[8] Includes all species of bivalve mollusks. Examples include, but are not limited to, oysters, clams, and mussels. Does not include scallop adductor muscle. Raw bivalve molluscan shellfish that are (1) covered by the requirements of the National Shellfish Sanitation Program; (2) subject to the requirements of 21 CFR part 123, subpart C, and 21 CFR 1240.60; or (3) covered by a final equivalence determination by FDA for raw bivalve molluscan shellfish are exempt from the requirements of the rule under \u00a7 1.1305(f)."
+ },
+ {
+  "citations": [
+   {
+    "source_id": "fda-food-traceability-list",
+    "chunk_id": "fda-food-traceability-list-21-cfr-1-1305-3",
+    "citation_anchor": "21 CFR 1.1305",
+    "authority_rank": "support",
+    "source_url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/food-traceability-list",
+    "section_ref": "21 CFR 1.1305",
+    "page_number": null,
+    "support_text": "Finfish (fresh, frozen, and previously frozen), specifically:"
+   }
+  ],
+  "metadata": {
+   "extraction_method": "deterministic",
+   "confidence": "high",
+   "review_status": "draft",
+   "reviewer_notes": [],
+   "source_chunk_ids": [
+    "fda-food-traceability-list-21-cfr-1-1305-3"
+   ]
+  },
+  "ftl_item_id": "ftl_smoked_finfish",
+  "category": "seafood",
+  "commodity": "Smoked finfish (refrigerated, frozen, and previously frozen)",
+  "description": "Finfish that has been smoked (hot- or cold-smoked), refrigerated or frozen. A separate FTL commodity from fresh finfish.",
+  "included_examples": [
+   "smoked salmon",
+   "lox",
+   "nova",
+   "smoked whitefish",
+   "smoked trout",
+   "smoked mackerel",
+   "kippered fish",
+   "smoked sablefish"
+  ],
+  "excluded_examples": [
+   "Does not include shelf-stable smoked fish rendered shelf-stable by retort or similar kill step."
+  ],
+  "form_notes": [
+   "Refrigerated, frozen, and previously frozen smoked finfish are on the list."
+  ],
+  "risk_ranking_refs": [],
+  "raw_list_text": "Finfish (fresh, frozen, and previously frozen), specifically: Finfish, histamine-producing species Includes all histamine-producing species of finfish. Examples include, but are not limited to, tuna, mahi mahi, mackerel, amberjack, jack, swordfish, and yellowtail. Finfish, species potentially contaminated with ciguatoxin Includes all finfish species potentially contaminated with ciguatoxin. Examples include, but are not limited to, grouper, barracuda, and snapper. Finfish, species not associated with histamine or ciguatoxin Includes all species of finfish not associated with histamine or ciguatoxin. Examples include, but are not limited to, cod, haddock, Alaska pollock, salmon, tilapia, and trout.[5] Siluriformes fish, such as catfish, are not included.[6] Smoked finfish (refrigerated, frozen, and previously frozen) Includes all types of smoked finfish, including cold smoked finfish and hot smoked finfish.[7]"
+ }
 ]
