@@ -34,6 +34,7 @@ class EdiInterchange(StrictEdiModel):
     sender: str | None = None
     receiver: str | None = None
     interchange_date: str | None = None
+    component_separator: str | None = None  # ISA16; splits composite data elements
     transactions: list[EdiTransaction] = Field(default_factory=list)
     issues: list[str] = Field(default_factory=list)
 
@@ -62,6 +63,7 @@ def parse_x12(data: bytes) -> EdiInterchange:
         return EdiInterchange(issues=["truncated ISA envelope"])
     element_sep = text[3]
     # ISA is fixed-width: component separator at 104, segment terminator at 105.
+    component_sep = text[104]
     segment_term = text[105]
     body = text
     raw_segments = [seg.strip("\r\n ") for seg in body.split(segment_term)]
@@ -77,6 +79,7 @@ def parse_x12(data: bytes) -> EdiInterchange:
         sender=(isa.elements[5].strip() if isa and len(isa.elements) > 5 else None),
         receiver=(isa.elements[7].strip() if isa and len(isa.elements) > 7 else None),
         interchange_date=(isa.elements[8].strip() if isa and len(isa.elements) > 8 else None),
+        component_separator=component_sep,
         issues=issues,
     )
 
@@ -116,13 +119,23 @@ def _format_date(value: str | None) -> str | None:
     return None
 
 
-def edi_856_to_lines(transaction: EdiTransaction) -> list[dict[str, Any]]:
+def edi_856_to_lines(transaction: EdiTransaction, *, component_separator: str | None = None) -> list[dict[str, Any]]:
     """Flatten an 856's HL hierarchy into item lines with canonical facts.
 
     Shipment-level facts (dates, parties, BOL reference) inherit down to every item line.
     Handles shipment->order->item and shipment->order->tare/pack->item shapes: any non-item
-    HL level just accumulates context.
+    HL level just accumulates context. Composite data elements (qualifier<sep>value inside
+    one element, ISA16 separator) are split before qualifier scanning. Free-text fields
+    containing the element separator itself are truncated by positional X12 — inherent to
+    the format.
     """
+
+    def _decompose(value: str | None) -> list[str]:
+        if value is None:
+            return []
+        if component_separator and component_separator in value:
+            return [part for part in value.split(component_separator)]
+        return [value]
     shipment_context: dict[str, list[str]] = {}
     lines: list[dict[str, Any]] = []
     current_line: dict[str, list[str]] | None = None
@@ -183,9 +196,14 @@ def edi_856_to_lines(transaction: EdiTransaction) -> list[dict[str, Any]]:
                 _push(shipment_context, "partner_name", name)
                 _push(shipment_context, "partner_id", id_value)
         elif tag == "LIN" and current_line is not None:
-            for qualifier_index in range(1, len(elements) - 1, 2):
-                qualifier = (elements[qualifier_index] or "").upper()
-                value = elements[qualifier_index + 1] if len(elements) > qualifier_index + 1 else None
+            # Expand composite elements (qualifier<ISA16>value packed into one element) so
+            # the qualifier/value pair scan sees them.
+            expanded: list[str] = []
+            for element in elements:
+                expanded.extend(_decompose(element))
+            for qualifier_index in range(1, len(expanded) - 1, 2):
+                qualifier = (expanded[qualifier_index] or "").upper()
+                value = expanded[qualifier_index + 1] if len(expanded) > qualifier_index + 1 else None
                 if qualifier in _PRODUCT_ID_QUALIFIERS:
                     _push(current_line, "product_id", value)
                 elif qualifier in _LOT_QUALIFIERS:

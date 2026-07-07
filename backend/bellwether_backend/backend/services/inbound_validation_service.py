@@ -194,7 +194,7 @@ def _extract_lines(
         lines: list[dict[str, Any]] = []
         for transaction in interchange.transactions:
             if transaction.transaction_set == "856":
-                transaction_lines = edi_856_to_lines(transaction)
+                transaction_lines = edi_856_to_lines(transaction, component_separator=interchange.component_separator)
                 if transaction_lines and transaction_lines[0].get("transaction_issues"):
                     issues.extend(transaction_lines[0]["transaction_issues"])
                 lines.extend(transaction_lines)
@@ -223,8 +223,19 @@ def _extract_lines(
         except Exception as exc:
             return "unknown", [], [f"could not parse the document as a spreadsheet: {exc}"]
         rows = _row_facts(records)
+        # Row cap: this endpoint is synchronous; a dense spreadsheet must not run the
+        # request into a serverless timeout. Larger files belong in the async audit path.
+        MAX_SYNC_LINES = 2000
+        sorted_rows = sorted(rows.values(), key=lambda r: (r["sheet"], r["row_number"]))
+        if len(sorted_rows) > MAX_SYNC_LINES:
+            issues.append(
+                f"document has {len(sorted_rows)} rows; only the first {MAX_SYNC_LINES} were "
+                "validated synchronously - run the full file through the audit upload for "
+                "complete coverage"
+            )
+            sorted_rows = sorted_rows[:MAX_SYNC_LINES]
         lines = []
-        for position, row in enumerate(sorted(rows.values(), key=lambda r: (r["sheet"], r["row_number"])), start=1):
+        for position, row in enumerate(sorted_rows, start=1):
             facts = {
                 key: [v for v in values if str(v).strip()]
                 for key, values in row["facts"].items()

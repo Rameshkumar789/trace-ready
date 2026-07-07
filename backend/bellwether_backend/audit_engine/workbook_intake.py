@@ -123,10 +123,15 @@ def profile_sheet_grid(grid: "SheetGrid") -> dict[str, Any]:
 
 
 def sheet_fingerprint(sheet_name: str, headers: list[str]) -> str:
+    import os
+
     from bellwether_backend.intelligence.llm_cache import cache_key
     from bellwether_backend.intelligence.workbook_mapping_llm import MAPPING_PROMPT_VERSION
 
-    return cache_key(MAPPING_PROMPT_VERSION, sheet_name, *headers)
+    # Tenant salt: two customers whose sheets share a name+headers must not silently share
+    # a cached mapping. Default empty (single-tenant/local) keeps existing cache entries.
+    tenant = os.getenv("BELLWETHER_TENANT_ID", "").strip()
+    return cache_key(MAPPING_PROMPT_VERSION, tenant, sheet_name, *headers) if tenant else cache_key(MAPPING_PROMPT_VERSION, sheet_name, *headers)
 
 
 # ---------------------------------------------------------------------------
@@ -187,14 +192,20 @@ def heuristic_record_kind(sheet_name: str, headers: list[str]) -> tuple[str, flo
 
 
 def fallback_sheet_plan(profile: dict[str, Any]) -> SheetMappingPlan:
-    from bellwether_backend.audit_engine.customer_evidence import _suggest_field_key
+    from bellwether_backend.audit_engine.canonical_fields import registry_alias_map
+    from bellwether_backend.audit_engine.customer_evidence import _header_key, _suggest_field_key
 
     headers = [column["header"] for column in profile["columns"]]
     kind, kind_confidence = heuristic_record_kind(profile["sheet_name"], headers)
+    aliases = registry_alias_map()
     columns: list[ColumnMapping] = []
     for column in profile["columns"]:
         field_key, confidence, method = _suggest_field_key(column["header"])
         mapped = confidence >= 0.9 and field_key in canonical_field_registry()
+        if not mapped:
+            registry_slug = aliases.get(_header_key(column["header"]))
+            if registry_slug:
+                field_key, confidence, mapped = registry_slug, 0.85, True
         columns.append(
             ColumnMapping(
                 column_index=column["index"],
@@ -202,7 +213,7 @@ def fallback_sheet_plan(profile: dict[str, Any]) -> SheetMappingPlan:
                 canonical_slug=field_key if mapped else None,
                 confidence=confidence if mapped else 0.0,
                 method="alias" if mapped else "unmapped",
-                rationale="existing header alias" if mapped else "no alias match; needs perception or review",
+                rationale="header alias / registry example match" if mapped else "no alias match; needs perception or review",
             )
         )
     return SheetMappingPlan(
@@ -271,22 +282,26 @@ def resolve_workbook_mapping_plan(input_file, *, cache=None, client=None) -> Wor
 
     model_used: str | None = None
     overall_methods: set[str] = {plan.generated_by for plan in sheet_plans.values()}
-    if missing_profiles:
-        call_key = cache_key("wmap-call-v1", *(fingerprints[p["sheet_name"]] for p in missing_profiles))
+    # Batch wide workbooks: mapping answers for many sheets can overflow the output-token
+    # budget in one call; chunked calls degrade (at worst) per chunk, not wholesale.
+    SHEETS_PER_CALL = 6
+    for start in range(0, len(missing_profiles), SHEETS_PER_CALL):
+        chunk = missing_profiles[start : start + SHEETS_PER_CALL]
+        call_key = cache_key("wmap-call-v1", *(fingerprints[p["sheet_name"]] for p in chunk))
         result = run_cached_perception(
             namespace="workbook_mapping_call",
             cache_key=call_key,
             system=mapping_system_prompt(),
-            user_prompt=build_mapping_user_prompt(missing_profiles),
-            verify=lambda items: verify_mapping_items(items, missing_profiles),
+            user_prompt=build_mapping_user_prompt(chunk),
+            verify=lambda items, _chunk=chunk: verify_mapping_items(items, _chunk),
             fallback=lambda: [],
             cache=cache,
             client=client,
         )
-        model_used = result.model
+        model_used = result.model or model_used
         if result.items:
             by_sheet = {item.get("sheet_name"): item for item in result.items}
-            for profile in missing_profiles:
+            for profile in chunk:
                 item = by_sheet.get(profile["sheet_name"])
                 plan = _plan_from_item(item, profile, generated_by=result.method) if item else None
                 if plan is None:
@@ -302,7 +317,7 @@ def resolve_workbook_mapping_plan(input_file, *, cache=None, client=None) -> Wor
                 sheet_plans[profile["sheet_name"]] = plan
                 overall_methods.add(plan.generated_by)
         else:
-            for profile in missing_profiles:
+            for profile in chunk:
                 plan = fallback_sheet_plan(profile)
                 sheet_plans[profile["sheet_name"]] = plan
                 overall_methods.add(plan.generated_by)
@@ -400,9 +415,10 @@ def derived_records_for_row(
     if "event_type" not in facts and "event_id" not in facts:
         emit("event_type", RECORD_KIND_TO_CTE[sheet_plan.record_kind], anchor, "derived_sheet_kind")
 
-    # 2. best event date
+    # 2. best event date (plan priority first; any known date slug as the safety net so a
+    #    thin fallback mapping never strands a dated row without an event date)
     if "event_datetime" not in facts:
-        for slug in sheet_plan.date_slug_priority:
+        for slug in [*sheet_plan.date_slug_priority, *DEFAULT_DATE_SLUG_PRIORITY]:
             if slug in facts and slug != "event_datetime":
                 emit("event_datetime", facts[slug].normalized_value, facts[slug], "derived_best_date")
                 break

@@ -519,25 +519,30 @@ def map_events_to_approved_obligations(
     approved_obligations: dict[str, dict[str, Any]],
     rule_package: dict[str, Any],
 ) -> list[EventObligationMapping]:
+    # Pre-index obligations by CTE once: the previous events x obligations scan was the
+    # dominant cost (and artifact driver) on large workbooks.
+    obligations_by_cte: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    other_obligations: list[dict[str, Any]] = []
+    for obligation in approved_obligations.values():
+        applies = obligation.get("applies_to_ctes") or []
+        if "other" in applies:
+            other_obligations.append(obligation)
+            continue
+        for cte in applies:
+            if _is_specific_cte_obligation(obligation, cte):
+                obligations_by_cte[cte].append(obligation)
+
     mappings: list[EventObligationMapping] = []
     for result in hardened_results:
         for cte in result.final_ctes:
-            for obligation in approved_obligations.values():
-                applies = obligation.get("applies_to_ctes") or []
-                if cte not in applies and "other" not in applies:
-                    continue
-                if "other" in applies:
-                    continue
-                if not _is_specific_cte_obligation(obligation, cte):
-                    continue
+            for obligation in obligations_by_cte.get(cte, ()):
                 mappings.append(_mapping(result.event_id, cte, obligation, rule_package, len(mappings) + 1))
     other_ctes = {"records_readiness", "sortable_export"}
     for result in hardened_results:
         if result.final_ctes:
-            for obligation in approved_obligations.values():
-                if "other" in (obligation.get("applies_to_ctes") or []):
-                    for cte in other_ctes:
-                        mappings.append(_mapping(result.event_id, cte, obligation, rule_package, len(mappings) + 1))
+            for obligation in other_obligations:
+                for cte in other_ctes:
+                    mappings.append(_mapping(result.event_id, cte, obligation, rule_package, len(mappings) + 1))
     return mappings
 
 
@@ -1360,9 +1365,10 @@ def _read_inbound_lines(inbound_file: Path) -> tuple[list[dict[str, Any]], str]:
 
     if looks_like_x12(data):
         lines: list[dict[str, Any]] = []
-        for transaction in parse_x12(data).transactions:
+        interchange = parse_x12(data)
+        for transaction in interchange.transactions:
             if transaction.transaction_set == "856":
-                lines.extend(edi_856_to_lines(transaction))
+                lines.extend(edi_856_to_lines(transaction, component_separator=interchange.component_separator))
         return lines, f"ASN {inbound_file.name}"
     if data[:5] == b"%PDF-":
         from bellwether_backend.intelligence.bol_extractor import extract_bol_lines

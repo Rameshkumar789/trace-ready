@@ -155,6 +155,31 @@ def is_canonical_slug(slug: str) -> bool:
     return slug in canonical_field_registry()
 
 
+@lru_cache(maxsize=1)
+def registry_alias_map() -> dict[str, str]:
+    """Header-text -> slug lookup built from the registry's example headers, used by the
+    deterministic fallback so 'landing date' / 'receiving date' style columns still map
+    without the LLM. Conflicting examples (same text, two slugs) are dropped."""
+    import re as _re
+
+    def _key(value: str) -> str:
+        return _re.sub(r"\s+", " ", value.strip().lower().replace("_", " "))
+
+    mapping: dict[str, str] = {}
+    conflicts: set[str] = set()
+    for field in canonical_field_registry().values():
+        for example in (*field.examples, field.label):
+            key = _key(example)
+            if not key or key in conflicts:
+                continue
+            if key in mapping and mapping[key] != field.slug:
+                conflicts.add(key)
+                mapping.pop(key, None)
+                continue
+            mapping[key] = field.slug
+    return mapping
+
+
 # ---------------------------------------------------------------------------
 # Sheet/record kinds
 

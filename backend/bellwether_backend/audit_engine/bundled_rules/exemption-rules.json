@@ -1,17 +1,326 @@
 {
-  "_comment": "Deterministic FSMA 204 exemption rules (21 CFR 1.1305 / 1.1300). Reviewable data, not code. The engine evaluates a customer's claimed exemptions against these; it NEVER auto-suppresses CTE/KDE checks on a claim — a partial/full exemption is surfaced for human confirmation. Conservative: a claim without supporting evidence is 'not_determined', never 'not_exempt'.",
-  "version": 1,
-  "citation_section": "21 CFR 1.1305",
-  "exemptions": [
-    {"exemption_type": "small_producer", "aliases": ["small producer", "small_producer", "small farm", "produce safety small"], "effect": "full", "evidence_required": "average annual produce sales records establishing eligibility (e.g. below the regulatory threshold)", "decision_note": "A qualifying small producer is fully exempt for the food it grows; eligibility must be evidenced."},
-    {"exemption_type": "farm_direct_to_consumer", "aliases": ["direct to consumer", "direct_to_consumer", "dtc", "farm direct", "direct marketing"], "effect": "full", "evidence_required": "records showing direct sale to consumers", "decision_note": "Food sold by a farm directly to consumers is exempt."},
-    {"exemption_type": "food_changed_no_longer_ftl", "aliases": ["kill step", "kill_step", "food changed", "no longer on ftl", "commercially sterile", "retort"], "effect": "partial", "evidence_required": "kill-step / processing records showing the food was changed so it is no longer a listed food", "decision_note": "If a kill step or change removes the food from the FTL, downstream FTL obligations may not apply, but receipt and kill-step records must still be kept."},
-    {"exemption_type": "rarely_consumed_raw_produce", "aliases": ["rarely consumed raw", "rarely_consumed_raw"], "effect": "full", "evidence_required": "confirmation the commodity is on the FDA rarely-consumed-raw list", "decision_note": "Produce that is rarely consumed raw is exempt."},
-    {"exemption_type": "non_ftl_product", "aliases": ["non ftl", "non_ftl", "not on ftl", "non_ftl_product", "out of scope food"], "effect": "out_of_scope", "evidence_required": "product identification showing the food is not on the Food Traceability List", "decision_note": "A food that is not on the FTL is out of scope for these records (not an exemption, a scope determination)."},
-    {"exemption_type": "usda_regulated", "aliases": ["usda", "usda regulated", "meat poultry egg", "fsis"], "effect": "full", "evidence_required": "confirmation the product is USDA/FSIS-regulated", "decision_note": "Foods regulated by USDA (certain meat, poultry, egg products) are exempt."},
-    {"exemption_type": "transporter", "aliases": ["transporter", "carrier", "3pl", "freight"], "effect": "full", "evidence_required": "confirmation the entity acts only as a transporter of the food", "decision_note": "Transporters of food are exempt."},
-    {"exemption_type": "nonprofit_food_establishment", "aliases": ["nonprofit", "non-profit", "food bank", "charity"], "effect": "full", "evidence_required": "nonprofit food establishment status", "decision_note": "Nonprofit food establishments are exempt."},
-    {"exemption_type": "retail_food_establishment_restaurant", "aliases": ["retail food establishment", "restaurant", "rfe", "retail"], "effect": "partial", "evidence_required": "entity classification as an RFE or restaurant", "decision_note": "Retail food establishments and restaurants have modified requirements (partial)."},
-    {"exemption_type": "fishing_vessel", "aliases": ["fishing vessel", "fishing_vessel"], "effect": "partial", "evidence_required": "confirmation of fishing-vessel status before first land-based receiving", "decision_note": "Fishing vessels are partially exempt prior to first land-based receiving."}
-  ]
+ "_comment": "Deterministic FSMA 204 exemption rules (21 CFR 1.1305 / 1.1300). Reviewable data, not code. The engine evaluates a customer's claimed exemptions against these; it NEVER auto-suppresses CTE/KDE checks on a claim \u2014 a partial/full exemption is surfaced for human confirmation. Conservative: a claim without supporting evidence is 'not_determined', never 'not_exempt'. v-bump 2026-07-07: full 1.1305(a)-(r) coverage with numeric thresholds ($25k produce 3-yr avg; $250k RFE; <3,000 hens), NSSP shellfish, commingled RAC, written-agreement kill-step conditions, farm-to-school, IMS Grade A cottage cheese (Feb 2026).",
+ "version": 2,
+ "citation_section": "21 CFR 1.1305",
+ "exemptions": [
+  {
+   "exemption_type": "small_producer",
+   "aliases": [
+    "small producer",
+    "small_producer",
+    "small farm",
+    "produce safety small"
+   ],
+   "effect": "full",
+   "evidence_required": "sales records establishing average annual produce sales of no more than $25,000 (3-year rolling average, 2020 dollars; 21 CFR 1.1305(a)(1)(ii)/(a)(3))",
+   "decision_note": "A qualifying small producer is fully exempt for the food it grows; eligibility must be evidenced.",
+   "threshold": {
+    "metric": "avg_annual_produce_sales_usd",
+    "operator": "<=",
+    "value": 25000,
+    "window_years": 3,
+    "baseline_year_dollars": 2020
+   }
+  },
+  {
+   "exemption_type": "farm_direct_to_consumer",
+   "aliases": [
+    "direct to consumer",
+    "direct_to_consumer",
+    "dtc",
+    "farm direct",
+    "direct marketing"
+   ],
+   "effect": "full",
+   "evidence_required": "records showing direct sale to consumers",
+   "decision_note": "Food sold by a farm directly to consumers is exempt."
+  },
+  {
+   "exemption_type": "food_changed_no_longer_ftl",
+   "aliases": [
+    "kill step",
+    "kill_step",
+    "food changed",
+    "no longer on ftl",
+    "commercially sterile",
+    "retort"
+   ],
+   "effect": "partial",
+   "evidence_required": "kill-step / processing records showing the food was changed so it is no longer a listed food",
+   "decision_note": "If a kill step or change removes the food from the FTL, downstream FTL obligations may not apply, but receipt and kill-step records must still be kept. When the kill step/change is applied by a DOWNSTREAM entity, the 1.1305(d)(6) written agreement (signed, dated, renewed every 3 years) is required; the exemption never applies where the next handler is a retail food establishment, restaurant, or consumer."
+  },
+  {
+   "exemption_type": "rarely_consumed_raw_produce",
+   "aliases": [
+    "rarely consumed raw",
+    "rarely_consumed_raw"
+   ],
+   "effect": "full",
+   "evidence_required": "confirmation the commodity is on the FDA rarely-consumed-raw list",
+   "decision_note": "Produce that is rarely consumed raw is exempt."
+  },
+  {
+   "exemption_type": "non_ftl_product",
+   "aliases": [
+    "non ftl",
+    "non_ftl",
+    "not on ftl",
+    "non_ftl_product",
+    "out of scope food"
+   ],
+   "effect": "out_of_scope",
+   "evidence_required": "product identification showing the food is not on the Food Traceability List",
+   "decision_note": "A food that is not on the FTL is out of scope for these records (not an exemption, a scope determination)."
+  },
+  {
+   "exemption_type": "usda_regulated",
+   "aliases": [
+    "usda",
+    "usda regulated",
+    "meat poultry egg",
+    "fsis"
+   ],
+   "effect": "full",
+   "evidence_required": "confirmation the product is USDA/FSIS-regulated",
+   "decision_note": "Foods regulated by USDA (certain meat, poultry, egg products) are exempt."
+  },
+  {
+   "exemption_type": "transporter",
+   "aliases": [
+    "transporter",
+    "carrier",
+    "3pl",
+    "freight"
+   ],
+   "effect": "full",
+   "evidence_required": "confirmation the entity acts only as a transporter of the food",
+   "decision_note": "Transporters of food are exempt."
+  },
+  {
+   "exemption_type": "nonprofit_food_establishment",
+   "aliases": [
+    "nonprofit",
+    "non-profit",
+    "food bank",
+    "charity"
+   ],
+   "effect": "full",
+   "evidence_required": "nonprofit food establishment status",
+   "decision_note": "Nonprofit food establishments are exempt."
+  },
+  {
+   "exemption_type": "retail_food_establishment_restaurant",
+   "aliases": [
+    "retail food establishment",
+    "restaurant",
+    "rfe",
+    "retail"
+   ],
+   "effect": "partial",
+   "evidence_required": "entity classification as an RFE or restaurant",
+   "decision_note": "Retail food establishments and restaurants have modified requirements (partial)."
+  },
+  {
+   "exemption_type": "fishing_vessel",
+   "aliases": [
+    "fishing vessel",
+    "fishing_vessel"
+   ],
+   "effect": "partial",
+   "evidence_required": "confirmation of fishing-vessel status before first land-based receiving",
+   "decision_note": "Fishing vessels are partially exempt prior to first land-based receiving."
+  },
+  {
+   "exemption_type": "shell_egg_small_flock",
+   "aliases": [
+    "shell egg small",
+    "small flock",
+    "fewer than 3000 hens",
+    "3000 laying hens"
+   ],
+   "effect": "full",
+   "evidence_required": "records establishing fewer than 3,000 laying hens (21 CFR 1.1305(a)(2))",
+   "decision_note": "Shell egg producers with fewer than 3,000 laying hens are exempt.",
+   "threshold": {
+    "metric": "laying_hens",
+    "operator": "<",
+    "value": 3000
+   }
+  },
+  {
+   "exemption_type": "produce_farm_not_covered",
+   "aliases": [
+    "not covered farm",
+    "112.4 exempt",
+    "not a covered farm"
+   ],
+   "effect": "full",
+   "evidence_required": "documentation the farm is not a covered farm under 21 CFR 112.4(a) (1.1305(a)(1)(i))",
+   "decision_note": "Produce farms that are not 'covered farms' under the Produce Safety Rule are exempt - distinct from the sales-based test."
+  },
+  {
+   "exemption_type": "food_produced_packaged_on_farm",
+   "aliases": [
+    "produced and packaged on farm",
+    "farm packaged"
+   ],
+   "effect": "full",
+   "evidence_required": "records showing the food was produced AND packaged on the farm with packaging intact until the consumer (1.1305(c))",
+   "decision_note": "Food produced and packaged on a farm is exempt when the packaging remains intact to the consumer and label identifies the farm.",
+   "conditions": [
+    "packaging maintained until consumer receipt",
+    "label identifies farm name and address"
+   ]
+  },
+  {
+   "exemption_type": "produce_commercial_processing",
+   "aliases": [
+    "commercial processing",
+    "112.2(b)",
+    "processing that adequately reduces pathogens"
+   ],
+   "effect": "partial",
+   "evidence_required": "written assurances / records under 21 CFR 112.2(b) (1.1305(d)(1))",
+   "decision_note": "Produce receiving commercial processing that adequately reduces pathogens is exempt from Subpart S subject to the 112.2(b) conditions."
+  },
+  {
+   "exemption_type": "treated_shell_eggs",
+   "aliases": [
+    "treated shell eggs",
+    "egg treatment 118"
+   ],
+   "effect": "partial",
+   "evidence_required": "records of treatment per 21 CFR 118.1(a)(2) (1.1305(d)(2))",
+   "decision_note": "Shell eggs receiving the prescribed treatment are exempt from subsequent Subpart S requirements."
+  },
+  {
+   "exemption_type": "received_already_changed",
+   "aliases": [
+    "received kill stepped",
+    "received already changed",
+    "prior kill step"
+   ],
+   "effect": "partial",
+   "evidence_required": "records showing the food was already kill-stepped/changed when received (1.1305(d)(5))",
+   "decision_note": "Food that had already undergone a kill step or FTL-removing change before receipt is exempt in the recipient's hands."
+  },
+  {
+   "exemption_type": "downstream_kill_step_agreement",
+   "aliases": [
+    "written agreement kill step",
+    "downstream kill step"
+   ],
+   "effect": "partial",
+   "evidence_required": "a WRITTEN AGREEMENT per 1.1305(d)(6): effective date, printed names and signatures, the kill-step/change commitment, renewed at least every 3 years",
+   "decision_note": "Shipping to an entity that will apply the kill step is only exempt WITH the written agreement; records of the agreement must be maintained. Never applies where the next handler is an RFE, restaurant, or consumer.",
+   "conditions": [
+    "written agreement signed and dated",
+    "renewed at least every 3 years",
+    "agreement retained as a record"
+   ]
+  },
+  {
+   "exemption_type": "molluscan_shellfish_nssp",
+   "aliases": [
+    "nssp",
+    "molluscan shellfish",
+    "shellstock",
+    "bivalve"
+   ],
+   "effect": "partial",
+   "evidence_required": "NSSP tagging/records or compliance with 21 CFR part 123 subpart C and 1240.60 (1.1305(f))",
+   "decision_note": "Raw bivalve molluscan shellfish under the NSSP (or equivalent) are exempt from Subpart S; NSSP tagging records still apply."
+  },
+  {
+   "exemption_type": "commingled_rac",
+   "aliases": [
+    "commingled",
+    "commingled rac",
+    "commingled raw agricultural commodity"
+   ],
+   "effect": "partial",
+   "evidence_required": "records establishing the food is a commingled RAC per 1.1305(h) (not fruits/vegetables subject to part 112)",
+   "decision_note": "Commingled raw agricultural commodities (per the rule's definition, excluding produce covered by part 112) are exempt; retailer/RFE recipients still keep source records."
+  },
+  {
+   "exemption_type": "small_rfe_full",
+   "aliases": [
+    "small rfe",
+    "small retail",
+    "250000",
+    "$250,000"
+   ],
+   "effect": "full",
+   "evidence_required": "sales records establishing average annual food sales of no more than $250,000 (3-year rolling, 1.1305(i))",
+   "decision_note": "Retail food establishments and restaurants at or below the $250,000 average annual monetary value of food sold are fully exempt.",
+   "threshold": {
+    "metric": "avg_annual_food_sales_usd",
+    "operator": "<=",
+    "value": 250000,
+    "window_years": 3
+   }
+  },
+  {
+   "exemption_type": "rfe_adhoc_purchase",
+   "aliases": [
+    "ad hoc purchase",
+    "rfe to rfe",
+    "occasional purchase"
+   ],
+   "effect": "partial",
+   "evidence_required": "records of the ad-hoc purchase from another RFE/restaurant (1.1305(k))",
+   "decision_note": "Ad-hoc, occasional purchases by an RFE/restaurant from another RFE/restaurant are exempt for that food."
+  },
+  {
+   "exemption_type": "farm_to_school",
+   "aliases": [
+    "farm to school",
+    "farm to institution"
+   ],
+   "effect": "partial",
+   "evidence_required": "records of the farm-to-school/institution program sale (1.1305(l))",
+   "decision_note": "Certain food sold through farm-to-school / farm-to-institution programs is exempt; the operation still keeps basic source records."
+  },
+  {
+   "exemption_type": "personal_consumption",
+   "aliases": [
+    "personal consumption",
+    "own consumption"
+   ],
+   "effect": "full",
+   "evidence_required": "n/a - food for personal/on-farm consumption (1.1305(p))",
+   "decision_note": "Food for personal consumption is exempt."
+  },
+  {
+   "exemption_type": "held_for_consumers",
+   "aliases": [
+    "held on behalf of consumer",
+    "consumer holding"
+   ],
+   "effect": "full",
+   "evidence_required": "records showing the food is held by a business on behalf of a specific consumer (1.1305(q))",
+   "decision_note": "Food held on behalf of specific consumers (e.g. delivery holding) is exempt in that holder's hands."
+  },
+  {
+   "exemption_type": "research_evaluation",
+   "aliases": [
+    "research",
+    "evaluation food"
+   ],
+   "effect": "full",
+   "evidence_required": "records showing the food is for research or evaluation, not retail sale (1.1305(r))",
+   "decision_note": "Food for research or evaluation use is exempt, subject to labeling/conditions in 1.1305(r)."
+  },
+  {
+   "exemption_type": "ims_grade_a_cottage_cheese",
+   "aliases": [
+    "cottage cheese",
+    "ims grade a",
+    "pmo cottage cheese"
+   ],
+   "effect": "partial",
+   "evidence_required": "IMS listing (Grade 'A') documentation for the facility producing the cottage cheese (Feb 2026 exemption, eff. 2026-02-20)",
+   "decision_note": "IMS-listed Grade 'A' cottage cheese is exempt from full Subpart S, BUT immediate-previous-source and immediate-subsequent-recipient records must still be kept - a partial carve-out, never a full clearance."
+  }
+ ]
 }

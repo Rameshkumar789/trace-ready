@@ -6,6 +6,7 @@ import re
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field as dataclass_field
 from datetime import date, datetime
+from functools import lru_cache
 from pathlib import Path
 from typing import TYPE_CHECKING, Any
 
@@ -481,6 +482,12 @@ def _grids_to_records(
     for grid in grids:
         sheet_plan = mapping_plan.plan_for(grid.sheet_name) if mapping_plan else None
         overrides = sheet_plan.column_by_index() if sheet_plan else {}
+        # Per-column slash-date order vote (a DD/MM export must not silently mis-parse).
+        day_first_by_position: dict[int, bool] = {}
+        for position in range(len(grid.headers)):
+            column_values = [_cell_to_string(row[position]) for _, row in grid.data_rows[:200] if position < len(row)]
+            if any(_AMBIGUOUS_SLASH_DATE.match(v.strip()) for v in column_values if v):
+                day_first_by_position[position] = _column_day_first(column_values)
         for sheet_row, row in grid.data_rows:
             if _is_notes_or_repeated_header_row(row, grid.headers):
                 continue
@@ -501,6 +508,7 @@ def _grids_to_records(
                         column_index=column_index,
                         raw_value=raw,
                         column_override=overrides.get(column_index),
+                        day_first=day_first_by_position.get(position, False),
                     )
                 )
             if row_records and sheet_plan is not None:
@@ -1123,9 +1131,16 @@ def _read_xlsx_grids(input_file: Path) -> list[SheetGrid]:
 
     grids: list[SheetGrid] = []
     workbook = load_workbook(input_file, read_only=False, data_only=True)
-    formula_workbook = load_workbook(input_file, read_only=False, data_only=False)
+    # The formula workbook exists only to recover formula strings for cells whose cached
+    # value is missing - rare. Load it lazily so the common case parses the file ONCE.
+    formula_workbook_holder: list[Any] = []
+
+    def _formula_worksheet(title: str) -> Any:
+        if not formula_workbook_holder:
+            formula_workbook_holder.append(load_workbook(input_file, read_only=False, data_only=False))
+        return formula_workbook_holder[0][title]
+
     for worksheet in workbook.worksheets:
-        formula_worksheet = formula_workbook[worksheet.title]
         visible_columns = [
             column_index
             for column_index in range(1, worksheet.max_column + 1)
@@ -1138,7 +1153,27 @@ def _read_xlsx_grids(input_file: Path) -> list[SheetGrid]:
         ]
         if not visible_rows or not visible_columns:
             continue
-        row_values = [[_merged_or_cell_value(worksheet, row_index, column_index, formula_worksheet=formula_worksheet) for column_index in visible_columns] for row_index in visible_rows]
+        # Precompute merged-range anchors once per sheet: O(ranges), not O(cells x ranges).
+        merged_anchor: dict[tuple[int, int], Any] = {}
+        for merged_range in worksheet.merged_cells.ranges:
+            anchor_value = worksheet.cell(row=merged_range.min_row, column=merged_range.min_col).value
+            for row_index in range(merged_range.min_row, merged_range.max_row + 1):
+                for column_index in range(merged_range.min_col, merged_range.max_col + 1):
+                    merged_anchor[(row_index, column_index)] = anchor_value
+        formula_worksheet = _formula_worksheet(worksheet.title) if _workbook_has_formulas(input_file) else None
+        row_values = [
+            [
+                _merged_or_cell_value(
+                    worksheet,
+                    row_index,
+                    column_index,
+                    formula_worksheet=formula_worksheet,
+                    merged_anchor=merged_anchor,
+                )
+                for column_index in visible_columns
+            ]
+            for row_index in visible_rows
+        ]
         header_position = _detect_header_row(row_values)
         headers = _build_headers(row_values, header_position)
         data_rows = [
@@ -1166,6 +1201,7 @@ def _evidence_record(
     column_index: int,
     raw_value: Any,
     column_override: "ColumnMapping | None" = None,
+    day_first: bool = False,
 ) -> CustomerEvidenceRecord:
     raw = _cell_to_string(raw_value)
     field_key, confidence, method = _suggest_field_key(column_name)
@@ -1177,7 +1213,7 @@ def _evidence_record(
             field_key = column_override.canonical_slug
             confidence = column_override.confidence
             method = column_override.method
-    normalized = _normalize_value(raw_value, field_key=field_key)
+    normalized = _normalize_value(raw_value, field_key=field_key, day_first=day_first)
     field_type = _detect_field_type(field_key, normalized)
     cell = f"{_column_letter(column_index)}{row_number}"
     source_pointer = EvidenceSourcePointer(
@@ -1461,7 +1497,32 @@ def _is_notes_or_repeated_header_row(row: list[Any], headers: list[str]) -> bool
     return matches >= max(2, len(comparable_headers) // 2)
 
 
-def _merged_or_cell_value(worksheet: Any, row_index: int, column_index: int, *, formula_worksheet: Any | None = None) -> Any:
+@lru_cache(maxsize=8)
+def _workbook_has_formulas(input_file: Path) -> bool:
+    """ZIP-level sniff: an xlsx stores formulas as <f> elements in the sheet XML. Scanning
+    the raw bytes once avoids loading the whole workbook a second time when (as is typical
+    for system exports) there are no formulas at all."""
+    import zipfile
+
+    try:
+        with zipfile.ZipFile(input_file) as archive:
+            for name in archive.namelist():
+                if name.startswith("xl/worksheets/") and name.endswith(".xml"):
+                    if b"<f" in archive.read(name):
+                        return True
+    except Exception:
+        return True  # unsure -> preserve the formula-recovery behavior
+    return False
+
+
+def _merged_or_cell_value(
+    worksheet: Any,
+    row_index: int,
+    column_index: int,
+    *,
+    formula_worksheet: Any | None = None,
+    merged_anchor: dict[tuple[int, int], Any] | None = None,
+) -> Any:
     cell = worksheet.cell(row=row_index, column=column_index)
     if cell.value not in (None, ""):
         return cell.value
@@ -1469,6 +1530,8 @@ def _merged_or_cell_value(worksheet: Any, row_index: int, column_index: int, *, 
         formula_cell = formula_worksheet.cell(row=row_index, column=column_index)
         if getattr(formula_cell, "data_type", None) == "f" and formula_cell.value:
             return formula_cell.value
+    if merged_anchor is not None:
+        return merged_anchor.get((row_index, column_index), cell.value)
     for merged_range in worksheet.merged_cells.ranges:
         if cell.coordinate in merged_range:
             return worksheet.cell(row=merged_range.min_row, column=merged_range.min_col).value
@@ -1645,13 +1708,13 @@ def _normalize_cte(value: str | None) -> str | None:
     return CTE_ALIASES.get(slug)
 
 
-def _normalize_value(value: Any, *, field_key: str | None = None) -> str:
+def _normalize_value(value: Any, *, field_key: str | None = None, day_first: bool = False) -> str:
     if isinstance(value, datetime):
         return value.date().isoformat()
     if isinstance(value, date):
         return value.isoformat()
     text = _cell_to_string(value)
-    parsed_date = _parse_date_string(text)
+    parsed_date = _parse_date_string(text, day_first=day_first)
     if parsed_date and (not field_key or "date" in field_key or field_key == "event_datetime"):
         return parsed_date
     normalized = re.sub(r"\s+", " ", text).strip()
@@ -1670,7 +1733,7 @@ def _normalize_value(value: Any, *, field_key: str | None = None) -> str:
     return normalized
 
 
-def _parse_date_string(value: str) -> str | None:
+def _parse_date_string(value: str, *, day_first: bool = False) -> str | None:
     stripped = value.strip()
     if re.fullmatch(r"\d{4}\s+\d{1,2}\s+\d{1,2}", stripped) or re.fullmatch(r"\d{1,2}\s+\d{1,2}\s+\d{4}", stripped):
         stripped = re.sub(r"\s+", "-", stripped)
@@ -1681,12 +1744,31 @@ def _parse_date_string(value: str) -> str | None:
             except ValueError:
                 continue
     stripped = stripped.replace(".", "/")
-    for pattern in ("%Y-%m-%d", "%Y/%m/%d", "%m/%d/%Y", "%m/%d/%y", "%d/%m/%Y", "%d-%b-%Y", "%b %d %Y", "%B %d %Y"):
+    slash_order = ("%d/%m/%Y", "%d/%m/%y", "%m/%d/%Y", "%m/%d/%y") if day_first else ("%m/%d/%Y", "%m/%d/%y", "%d/%m/%Y", "%d/%m/%y")
+    for pattern in ("%Y-%m-%d", "%Y/%m/%d", *slash_order, "%d-%b-%Y", "%b %d %Y", "%B %d %Y"):
         try:
             return datetime.strptime(stripped, pattern).date().isoformat()
         except ValueError:
             continue
     return None
+
+
+_AMBIGUOUS_SLASH_DATE = re.compile(r"^(\d{1,2})/(\d{1,2})/\d{2,4}$")
+
+
+def _column_day_first(values: list[str]) -> bool:
+    """Vote a column's slash-date order: any first-component >12 proves day-first; any
+    second-component >12 proves month-first; all-ambiguous defaults to US month-first."""
+    for value in values:
+        match = _AMBIGUOUS_SLASH_DATE.match(str(value).strip())
+        if not match:
+            continue
+        first, second = int(match.group(1)), int(match.group(2))
+        if first > 12:
+            return True
+        if second > 12:
+            return False
+    return False
 
 
 def _cell_to_string(value: Any) -> str:

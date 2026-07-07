@@ -96,10 +96,15 @@ def classify_products(
             cache.delete("ftl_tier", key)
         missing.append(product)
 
-    if missing:
-        perception = _classify_batch(missing, ftl_items, valid_commodities, client=client, cache=cache)
+    # Batch by output-token budget: one giant call for thousands of SKUs would overflow
+    # max_tokens, fail parsing, and silently degrade EVERYTHING to fallback. Chunked calls
+    # degrade (at worst) per chunk.
+    BATCH_SIZE = 40
+    for start in range(0, len(missing), BATCH_SIZE):
+        batch = missing[start : start + BATCH_SIZE]
+        perception = _classify_batch(batch, ftl_items, valid_commodities, client=client, cache=cache)
         by_id = {str(item.get("product_id")): item for item in perception.items}
-        for product in missing:
+        for product in batch:
             product_id = str(product.get("product_id"))
             item = by_id.get(product_id) or _fallback_one(product, ftl_items)
             item = _postprocess(item, product, valid_commodities)

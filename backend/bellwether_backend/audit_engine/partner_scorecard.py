@@ -94,7 +94,9 @@ def _operator_name(events: dict[str, Any], resolver: _PartnerResolver) -> str:
         if owner:
             counts[_norm(owner)] += 1
     if counts:
-        return max(counts, key=counts.get)  # type: ignore[arg-type]
+        # Deterministic tie-break (sorted key order); co-packer/3PL sites with multiple
+        # brands can tie here, and dict-order ties are non-reproducible.
+        return max(sorted(counts), key=lambda key: counts[key])
     return ""
 
 

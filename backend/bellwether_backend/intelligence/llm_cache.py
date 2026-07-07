@@ -13,7 +13,6 @@ import hashlib
 import json
 import os
 import re
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -73,13 +72,14 @@ class LLMCache:
     ) -> None:
         path = self._entry_path(namespace, key)
         path.parent.mkdir(parents=True, exist_ok=True)
+        # No timestamp inside the entry: cache files are committed to git and must be
+        # byte-stable so a warm pass with identical results produces zero diff.
         entry = {
             "namespace": namespace,
             "key": key,
             "model": model,
             "method": method,
             "request_sha256": request_sha256,
-            "created_at": datetime.now(timezone.utc).isoformat(),
             "items": items,
         }
         path.write_text(json.dumps(entry, indent=2, sort_keys=True) + "\n", encoding="utf-8")

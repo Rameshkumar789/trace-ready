@@ -97,7 +97,12 @@ def run_cached_perception(
             attempt_prompt = _retry_prompt(user_prompt, last_errors)
             continue
         except Exception as exc:  # API/transport failure: degrade, never crash the audit
-            logger.warning("llm call failed namespace=%s attempt=%s error=%s", namespace, attempt, exc)
+            logger.error(
+                "llm call FAILED and will degrade to deterministic fallback namespace=%s attempt=%s error=%s",
+                namespace,
+                attempt,
+                exc,
+            )
             last_errors = [f"attempt {attempt}: llm call failed: {exc}"]
             break
         model_used = response.model
