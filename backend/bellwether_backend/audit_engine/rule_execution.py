@@ -118,6 +118,9 @@ class AuditFinding(StrictRuleExecutionModel):
     # so one root cause is reported once instead of as several near-duplicate findings.
     sub_issues: list[str] = Field(default_factory=list)
     affected_fields: list[str] = Field(default_factory=list)
+    # Whether the requirement comes from the FDA rule or from a specific customer's supplier
+    # instructions (retailer overlay), e.g. Walmart's GS1 mandate.
+    requirement_source: str = "fda_rule"
 
 
 class ExceptionQueueItem(StrictRuleExecutionModel):
@@ -158,6 +161,13 @@ class Phase11RuleExecutionPackage(StrictRuleExecutionModel):
     audit_findings: list[AuditFinding]
     exception_queue: list[ExceptionQueueItem]
     export_package: FdaStyleExportPackage
+    # Additive (defaulted) so existing consumers keep working unchanged.
+    lot_integrity_checks: list[Any] = Field(default_factory=list)
+    gs1_checks: list[Any] = Field(default_factory=list)
+    ftl_tier_results: dict[str, Any] = Field(default_factory=dict)
+    partner_scorecard: dict[str, Any] = Field(default_factory=dict)
+    scoping_report: dict[str, Any] = Field(default_factory=dict)
+    mapping_plan: dict[str, Any] | None = None
 
 
 BUNDLED_RULES_DIR = Path(__file__).resolve().parent / "bundled_rules"
@@ -330,6 +340,36 @@ def build_phase11_rule_execution(
         approved_obligations=approved_obligations,
     )
     sortable_export_checks = check_sortable_export_readiness(kde_checks)
+
+    # --- Deep validation checks (lot integrity, GS1/overlays, FTL tiers, partner scorecard)
+    from bellwether_backend.audit_engine.customer_evidence import _load_optional_json_list, _row_facts
+    from bellwether_backend.audit_engine.gs1 import check_gs1_identifiers
+    from bellwether_backend.audit_engine.lot_integrity import check_lot_integrity, compute_export_window
+    from bellwether_backend.audit_engine.partner_scorecard import build_partner_scorecard, scorecard_summary_findings
+    from bellwether_backend.audit_engine.scoping_report import build_scoping_report, build_scoping_stats
+    from bellwether_backend.intelligence.ftl_tier_classifier import classify_products
+
+    row_facts = _row_facts(phase10.evidence_records)
+    export_window = compute_export_window(event_by_id)
+    lot_integrity_checks = check_lot_integrity(events=event_by_id, row_facts=row_facts, export_window=export_window)
+    gs1_checks = check_gs1_identifiers(entity_graph=phase10.entity_graph)
+    ftl_items = _load_optional_json_list(ftl_food_items_file)
+    ftl_products = [
+        {
+            "product_id": product.entity_id,
+            "name": product.name,
+            "declared_category": (product.attributes or {}).get("ftl_category"),
+        }
+        for product in phase10.entity_graph.products
+    ]
+    ftl_tier_results = classify_products(ftl_products, ftl_items) if ftl_products else {}
+    partner_scorecard = build_partner_scorecard(
+        events=event_by_id,
+        entity_graph=phase10.entity_graph,
+        row_facts=row_facts,
+        lot_integrity_checks=lot_integrity_checks,
+    )
+
     audit_findings = generate_audit_findings(
         kde_checks=kde_checks,
         tlc_checks=tlc_checks,
@@ -338,6 +378,10 @@ def build_phase11_rule_execution(
         records_readiness_checks=records_readiness_checks,
         sortable_export_checks=sortable_export_checks,
         approved_obligations=approved_obligations,
+        lot_integrity_checks=lot_integrity_checks,
+        gs1_checks=gs1_checks,
+        ftl_tier_results=ftl_tier_results,
+        partner_summary_findings=scorecard_summary_findings(partner_scorecard),
     )
     exception_queue = generate_exception_queue(audit_findings)
     export_package = build_fda_style_export_package(
@@ -361,6 +405,29 @@ def build_phase11_rule_execution(
         exception_queue=exception_queue,
         export_package=export_package,
     )
+    mapping_plan_summary = None
+    if phase10.mapping_plan:
+        mapping_plan_summary = {
+            "generatedBy": phase10.mapping_plan.get("generated_by"),
+            "sheetKinds": {
+                name: sheet.get("record_kind")
+                for name, sheet in (phase10.mapping_plan.get("sheet_plans") or {}).items()
+            },
+        }
+    scoping_stats = build_scoping_stats(
+        events=event_by_id,
+        ftl_tier_results=ftl_tier_results,
+        partner_scorecard=partner_scorecard,
+        kde_checks=kde_checks,
+        lot_integrity_checks=lot_integrity_checks,
+        audit_findings=audit_findings,
+        export_window=export_window,
+        mapping_plan_summary=mapping_plan_summary,
+    )
+    scoping_report = build_scoping_report(stats=scoping_stats)
+    summary["scoping"] = scoping_stats
+    summary["lotIntegrityStatusCounts"] = dict(sorted(Counter(f"{c.check_type}:{c.status}" for c in lot_integrity_checks).items()))
+    summary["gs1InvalidCount"] = sum(1 for c in gs1_checks if not c.valid_check_digit)
     return Phase11RuleExecutionPackage(
         generated_at=GENERATED_AT,
         summary=summary,
@@ -374,6 +441,12 @@ def build_phase11_rule_execution(
         audit_findings=audit_findings,
         exception_queue=exception_queue,
         export_package=export_package,
+        lot_integrity_checks=lot_integrity_checks,
+        gs1_checks=gs1_checks,
+        ftl_tier_results=ftl_tier_results,
+        partner_scorecard=partner_scorecard,
+        scoping_report=scoping_report,
+        mapping_plan=phase10.mapping_plan,
     )
 
 
@@ -392,6 +465,12 @@ def write_phase11_rule_execution_artifacts(package: Phase11RuleExecutionPackage,
         "exceptionQueue": output_dir / "phase11-exception-queue.json",
         "exportPackage": output_dir / "phase11-export-package.json",
         "exportWorkbook": output_dir / "phase11-fda-style-export-package.xlsx",
+        "lotIntegrity": output_dir / "phase11-lot-integrity-results.json",
+        "gs1Results": output_dir / "phase11-gs1-results.json",
+        "ftlTierResults": output_dir / "phase11-ftl-tier-results.json",
+        "partnerScorecard": output_dir / "phase11-partner-scorecard.json",
+        "scopingReport": output_dir / "phase11-scoping-report.json",
+        "workbookMappingPlan": output_dir / "phase11-workbook-mapping-plan.json",
     }
     _write_json(outputs["summary"], package.summary)
     _write_json(outputs["obligationMapping"], [item.model_dump(mode="json") for item in package.obligation_mappings])
@@ -406,6 +485,12 @@ def write_phase11_rule_execution_artifacts(package: Phase11RuleExecutionPackage,
     export_payload = package.export_package.model_copy(update={"workbook_file": str(outputs["exportWorkbook"])}).model_dump(mode="json")
     _write_json(outputs["exportPackage"], export_payload)
     _write_export_workbook(outputs["exportWorkbook"], package.export_package, package.audit_findings)
+    _write_json(outputs["lotIntegrity"], [item.model_dump(mode="json") for item in package.lot_integrity_checks])
+    _write_json(outputs["gs1Results"], [item.model_dump(mode="json") for item in package.gs1_checks])
+    _write_json(outputs["ftlTierResults"], package.ftl_tier_results)
+    _write_json(outputs["partnerScorecard"], package.partner_scorecard)
+    _write_json(outputs["scopingReport"], package.scoping_report)
+    _write_json(outputs["workbookMappingPlan"], package.mapping_plan or {})
     return {key: str(path) for key, path in outputs.items()}
 
 
@@ -886,6 +971,10 @@ def generate_audit_findings(
     records_readiness_checks: list[RecordsReadinessCheck],
     sortable_export_checks: list[SortableExportReadinessCheck],
     approved_obligations: dict[str, dict[str, Any]],
+    lot_integrity_checks: list[Any] = (),
+    gs1_checks: list[Any] = (),
+    ftl_tier_results: dict[str, dict[str, Any]] | None = None,
+    partner_summary_findings: list[dict[str, Any]] = (),
 ) -> list[AuditFinding]:
     findings: list[AuditFinding] = []
     fallback_obligation = next(iter(approved_obligations.values()))
@@ -935,27 +1024,73 @@ def generate_audit_findings(
         _extend_unique(group["evidence_ids"], check.evidence_ids)
         group["tlc_root"] = True
 
+    # The same root cause repeated across many records is ONE systemic problem, not N
+    # separate findings (e.g. every transformation row in a two-sheet export missing its
+    # source linkage, or every landing record missing harvest info). Cluster identical gap
+    # signatures; clusters above the threshold collapse into a single systemic finding.
+    SYSTEMIC_THRESHOLD = 4
+    clusters: "OrderedDict[tuple[Any, ...], list[dict[str, Any]]]" = OrderedDict()
     for group in event_groups.values():
-        is_tlc_root = bool(group["tlc_root"])
-        finding_type = "tlc_lineage" if is_tlc_root else "kde_completeness"
-        high = is_tlc_root or any(field in HIGH_SEVERITY_FIELD_KEYS for field in group["missing_fields"])
-        obligation = approved_obligations.get(group["obligation_id"]) or fallback_obligation
-        findings.append(
-            _finding(
-                findings,
-                event_id=group["event_id"],
-                cte=group["cte"],
-                severity="high" if high else "medium",
-                status="gap",
-                finding_type=finding_type,
-                message=_record_gap_message(group["cte"], group["missing_fields"], is_tlc_root),
-                obligation=obligation,
-                evidence_ids=group["evidence_ids"],
-                confidence=0.9 if is_tlc_root else 0.88,
-                sub_issues=_record_sub_issues(group["missing_fields"], group["tlc_reasons"]),
-                affected_fields=list(group["missing_fields"]),
-            )
+        signature = (
+            group["cte"],
+            tuple(sorted(group["missing_fields"])),
+            tuple(sorted(group["tlc_reasons"])),
+            bool(group["tlc_root"]),
         )
+        clusters.setdefault(signature, []).append(group)
+
+    for signature, grouped in clusters.items():
+        cte, missing_fields_key, tlc_reasons_key, is_tlc_root = signature
+        missing_fields = list(missing_fields_key)
+        tlc_reasons = list(tlc_reasons_key)
+        high = is_tlc_root or any(field in HIGH_SEVERITY_FIELD_KEYS for field in missing_fields)
+        finding_type = "tlc_lineage" if is_tlc_root else "kde_completeness"
+        if len(grouped) >= SYSTEMIC_THRESHOLD:
+            evidence_ids: list[str] = []
+            for group in grouped[:10]:
+                _extend_unique(evidence_ids, group["evidence_ids"][:5])
+            obligation = approved_obligations.get(grouped[0]["obligation_id"]) or fallback_obligation
+            base_message = _record_gap_message(cte, missing_fields, is_tlc_root).rstrip(".")
+            findings.append(
+                _finding(
+                    findings,
+                    event_id=None,
+                    cte=cte,
+                    severity="high" if high else "medium",
+                    status="gap",
+                    finding_type=finding_type,
+                    message=(
+                        f"Systemic gap across {len(grouped)} {_cte_label(cte).lower()} records: "
+                        f"{base_message[0].lower()}{base_message[1:]}. This repeats on every affected "
+                        "record, which points at the source system/template rather than data entry."
+                    ),
+                    obligation=obligation,
+                    evidence_ids=evidence_ids,
+                    confidence=0.9 if is_tlc_root else 0.88,
+                    sub_issues=_record_sub_issues(missing_fields, tlc_reasons)
+                    + [f"Affected records: {len(grouped)} (e.g. {', '.join(str(g['event_id']) for g in grouped[:5])})"],
+                    affected_fields=missing_fields,
+                )
+            )
+            continue
+        for group in grouped:
+            obligation = approved_obligations.get(group["obligation_id"]) or fallback_obligation
+            findings.append(
+                _finding(
+                    findings,
+                    event_id=group["event_id"],
+                    cte=group["cte"],
+                    severity="high" if high else "medium",
+                    status="gap",
+                    finding_type=finding_type,
+                    message=_record_gap_message(group["cte"], group["missing_fields"], is_tlc_root),
+                    obligation=obligation,
+                    evidence_ids=group["evidence_ids"],
+                    confidence=0.9 if is_tlc_root else 0.88,
+                    sub_issues=_record_sub_issues(group["missing_fields"], group["tlc_reasons"]),
+                    affected_fields=list(group["missing_fields"]),
+                )
+            )
 
     # --- Traceability plan: one finding listing all missing components ---
     missing_plan = [check for check in traceability_plan_checks if check.status not in {"present", "not_applicable"}]
@@ -1016,7 +1151,139 @@ def generate_audit_findings(
                 sub_issues=list(reasons),
             )
         )
+
+    # --- Lot & lineage integrity findings (deterministic, cited; systemic patterns rolled up) ---
+    lot_clusters: "OrderedDict[tuple[str, str], list[Any]]" = OrderedDict()
+    for check in lot_integrity_checks:
+        if check.status in {"linked", "pass"}:
+            continue
+        lot_clusters.setdefault((check.check_type, check.status), []).append(check)
+    for (check_type, status), checks in lot_clusters.items():
+        if len(checks) >= 4:
+            example = checks[0]
+            lots = [check.lot for check in checks if check.lot]
+            evidence_ids: list[str] = []
+            for check in checks[:10]:
+                _extend_unique(evidence_ids, list(check.evidence_ids)[:3])
+            findings.append(
+                _finding(
+                    findings,
+                    event_id=None,
+                    cte=example.cte,
+                    severity=max((check.severity for check in checks), key=lambda s: s == "high"),
+                    status=status,
+                    finding_type=f"lot_{check_type}",
+                    message=(
+                        f"{len(checks)} lots share the same lot-integrity issue ({check_type.replace('_', ' ')}). "
+                        f"Example: {example.reason}"
+                    ),
+                    obligation=fallback_obligation,
+                    evidence_ids=evidence_ids,
+                    confidence=0.9,
+                    source_citation_override=_regulation_citation(example.citation_section),
+                    sub_issues=[f"Lot {lot}" for lot in lots[:15]] + ([f"...and {len(lots) - 15} more"] if len(lots) > 15 else []),
+                    affected_fields=["traceability_lot_code"],
+                )
+            )
+            continue
+        for check in checks:
+            findings.append(
+                _finding(
+                    findings,
+                    event_id=check.event_id,
+                    cte=check.cte,
+                    severity=check.severity,
+                    status=check.status,
+                    finding_type=f"lot_{check.check_type}",
+                    message=check.reason,
+                    obligation=fallback_obligation,
+                    evidence_ids=list(check.evidence_ids),
+                    confidence=0.9,
+                    source_citation_override=_regulation_citation(check.citation_section),
+                    affected_fields=["traceability_lot_code"],
+                )
+            )
+
+    # --- FTL declared-vs-inferred mismatches (the "escaping traceability" headline) ---
+    for product_id, result in sorted((ftl_tier_results or {}).items()):
+        if not result.get("mismatch"):
+            continue
+        tier_label = "on the Food Traceability List" if result.get("tier") == "definite_on" else "potentially on the Food Traceability List"
+        findings.append(
+            _finding(
+                findings,
+                event_id=None,
+                cte=None,
+                severity="high" if result.get("tier") == "definite_on" else "medium",
+                status="needs_review",
+                finding_type="ftl_declared_mismatch",
+                message=(
+                    f"Product {product_id} is declared \"{result.get('declared_category') or 'not on FTL'}\" "
+                    f"but its description reads as {tier_label} ({result.get('reasoning', '').strip()}) - "
+                    "if so, its events are silently escaping FSMA 204 KDE requirements."
+                ),
+                obligation=fallback_obligation,
+                evidence_ids=[],
+                confidence=0.75,
+                source_citation_override=_regulation_citation("21 CFR 1.1305"),
+                affected_fields=["ftl_category"],
+            )
+        )
+
+    # --- GS1 / retailer-overlay findings ---
+    for check in gs1_checks:
+        if check.valid_check_digit:
+            continue
+        overlay = check.requirement_source == "customer_requirement"
+        findings.append(
+            _finding(
+                findings,
+                event_id=None,
+                cte=None,
+                severity="medium",
+                status="needs_review",
+                finding_type="gs1_requirement" if overlay else "gs1_identifier",
+                message=check.reason,
+                obligation=fallback_obligation,
+                evidence_ids=list(check.evidence_ids),
+                confidence=0.85,
+                source_citation_override=(
+                    {"sourceType": "customer_requirement", "citation_anchor": f"{check.retailer} supplier requirements", "section_ref": f"{check.retailer} GS1 mandate"}
+                    if overlay
+                    else _regulation_citation("21 CFR 1.1340")
+                ),
+                requirement_source=check.requirement_source,
+                affected_fields=["product_id" if check.entity_type == "product" else "location_id"],
+            )
+        )
+
+    # --- Partner scorecard summary findings ---
+    for summary_finding in partner_summary_findings:
+        findings.append(
+            _finding(
+                findings,
+                event_id=None,
+                cte=None,
+                severity=summary_finding.get("severity", "medium"),
+                status=summary_finding.get("status", "needs_review"),
+                finding_type=summary_finding.get("finding_type", "partner_data_quality"),
+                message=summary_finding.get("message", ""),
+                obligation=fallback_obligation,
+                evidence_ids=[],
+                confidence=0.85,
+                source_citation_override=_regulation_citation("21 CFR 1.1340"),
+            )
+        )
     return findings
+
+
+def _regulation_citation(section: str) -> dict[str, Any]:
+    return {
+        "source_id": "fr-2022-24417-final-rule",
+        "citation_anchor": section,
+        "section_ref": section,
+        "sourceType": "regulation",
+    }
 
 
 def _record_gap_message(cte: str | None, missing_fields: list[str], is_tlc_root: bool) -> str:
@@ -1247,6 +1514,8 @@ def _finding(
     confidence: float,
     sub_issues: list[str] | None = None,
     affected_fields: list[str] | None = None,
+    source_citation_override: dict[str, Any] | None = None,
+    requirement_source: str = "fda_rule",
 ) -> AuditFinding:
     return AuditFinding(
         finding_id=f"phase11-finding-{len(findings) + 1:04d}",
@@ -1257,12 +1526,13 @@ def _finding(
         finding_type=finding_type,
         message=message,
         approved_obligation_id=obligation["obligation_id"],
-        source_citation=obligation.get("citations", [{}])[0],
+        source_citation=source_citation_override if source_citation_override is not None else obligation.get("citations", [{}])[0],
         customer_evidence_ids=evidence_ids,
         confidence=confidence,
         reviewer_status="needs_review" if status in {"gap", "needs_review"} else "system_pass",
         sub_issues=sub_issues or [],
         affected_fields=affected_fields or [],
+        requirement_source=requirement_source,
     )
 
 

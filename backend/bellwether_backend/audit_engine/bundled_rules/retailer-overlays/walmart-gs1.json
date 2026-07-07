@@ -1,0 +1,27 @@
+{
+  "_comment": "Retailer overlay card: requirements a specific customer imposes on its supply partners beyond the FDA rule. Overlays are reviewable data, not code - add kroger/albertsons cards here without any code change. Source: Walmart's public FSMA 204 supplier instructions (shared by ENSESO4Food, 2026-07-03 call).",
+  "overlay_id": "walmart-gs1",
+  "retailer": "Walmart",
+  "requirement_source": "customer_requirement",
+  "citation": {
+    "sourceType": "customer_requirement",
+    "source_id": "walmart-supplier-traceability-requirements",
+    "citation_anchor": "Walmart FSMA 204 supplier requirements",
+    "section_ref": "Walmart supplier data standards (GS1)",
+    "support_text": "Walmart instructs supply partners to use GS1 formats (GTIN product identifiers, GLN location identifiers) for FSMA 204 traceability data."
+  },
+  "rules": [
+    {
+      "rule_id": "wm-gtin-products",
+      "applies_to": "product_identifier",
+      "requirement": "valid_gtin_check_digit",
+      "severity": "medium"
+    },
+    {
+      "rule_id": "wm-gln-locations",
+      "applies_to": "location_identifier",
+      "requirement": "valid_gln_check_digit",
+      "severity": "medium"
+    }
+  ]
+}
