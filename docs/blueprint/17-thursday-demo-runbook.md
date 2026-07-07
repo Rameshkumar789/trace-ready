@@ -100,6 +100,24 @@ curl -s -H "x-bellwether-internal-token: $BELLWETHER_INTERNAL_API_TOKEN" \
    customer_requirement` — retailer rules are data cards (`bundled_rules/retailer-overlays/`),
    Kroger/Albertsons drop in with zero code.
 
+## 2b. New capabilities since the accuracy audit (worth a line each in the demo)
+
+- **Honest citations**: value-add checks (duplicate lots, mass balance, date plausibility,
+  lot format) are labeled "recall-readiness best practice — not a Subpart S requirement";
+  only genuine CFR duties carry CFR citations. Say this out loud — it's the credibility
+  differentiator vs consultants who over-claim.
+- **EPCIS 2.0 export**: every audit now emits `phase11-epcis-2.0-events.jsonld` (761 GS1
+  EPCIS events for Sea Eagle) — "when you're done fixing, we hand your clean data to any
+  platform in the standard format."
+- **Re-audit delta**: `--previous-findings <old phase11-audit-findings.json>` produces
+  "N fixed / N new / N persisting" — the corrective-action loop.
+- **Recall harness**: `python scripts/evaluation/run_recall_harness.py` — 100% must-find
+  recall on the labeled gold set; this is the accuracy claim you can defend.
+- **Regulatory watch**: `python scripts/regulatory/watch_fda_pages.py` — flags FDA page
+  drift; `scripts/regulatory/check_corpus_integrity.py` gates the corpus.
+- Scanned (no-text-layer) BOLs are now read by vision with an explicit weaker-provenance
+  flag instead of being rejected.
+
 ## 3. Safety nets
 
 - All AI results are **cache-hit** after the rehearsal — the demo works with the network
