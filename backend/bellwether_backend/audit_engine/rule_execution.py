@@ -168,6 +168,7 @@ class Phase11RuleExecutionPackage(StrictRuleExecutionModel):
     partner_scorecard: dict[str, Any] = Field(default_factory=dict)
     scoping_report: dict[str, Any] = Field(default_factory=dict)
     mapping_plan: dict[str, Any] | None = None
+    epcis_document: dict[str, Any] = Field(default_factory=dict)
 
 
 BUNDLED_RULES_DIR = Path(__file__).resolve().parent / "bundled_rules"
@@ -445,6 +446,13 @@ def build_phase11_rule_execution(
     )
     scoping_report = build_scoping_report(stats=scoping_stats)
     summary["scoping"] = scoping_stats
+    from bellwether_backend.audit_engine.epcis_export import build_epcis_document
+
+    epcis_document = build_epcis_document(
+        events=event_by_id,
+        row_facts=row_facts,
+        operator=partner_scorecard.get("operator"),
+    )
     summary["lotIntegrityStatusCounts"] = dict(sorted(Counter(f"{c.check_type}:{c.status}" for c in lot_integrity_checks).items()))
     summary["gs1InvalidCount"] = sum(1 for c in gs1_checks if not c.valid_check_digit)
     return Phase11RuleExecutionPackage(
@@ -466,6 +474,7 @@ def build_phase11_rule_execution(
         partner_scorecard=partner_scorecard,
         scoping_report=scoping_report,
         mapping_plan=phase10.mapping_plan,
+        epcis_document=epcis_document,
     )
 
 
@@ -490,6 +499,7 @@ def write_phase11_rule_execution_artifacts(package: Phase11RuleExecutionPackage,
         "partnerScorecard": output_dir / "phase11-partner-scorecard.json",
         "scopingReport": output_dir / "phase11-scoping-report.json",
         "workbookMappingPlan": output_dir / "phase11-workbook-mapping-plan.json",
+        "epcisDocument": output_dir / "phase11-epcis-2.0-events.jsonld",
     }
     _write_json(outputs["summary"], package.summary)
     _write_json(outputs["obligationMapping"], [item.model_dump(mode="json") for item in package.obligation_mappings])
@@ -510,6 +520,7 @@ def write_phase11_rule_execution_artifacts(package: Phase11RuleExecutionPackage,
     _write_json(outputs["partnerScorecard"], package.partner_scorecard)
     _write_json(outputs["scopingReport"], package.scoping_report)
     _write_json(outputs["workbookMappingPlan"], package.mapping_plan or {})
+    _write_json(outputs["epcisDocument"], package.epcis_document)
     return {key: str(path) for key, path in outputs.items()}
 
 

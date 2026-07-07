@@ -1,0 +1,28 @@
+{
+  "_comment": "Retailer overlay card: Albertsons supplier requirements. ASN with KDEs for all foods; GTIN, lot/batch, voice-pick code, and pack/sell-by date on every case. Data, not code.",
+  "overlay_id": "albertsons-case-data",
+  "retailer": "Albertsons",
+  "requirement_source": "customer_requirement",
+  "citation": {
+    "sourceType": "customer_requirement",
+    "source_id": "albertsons-supplier-traceability-requirements",
+    "citation_anchor": "Albertsons supplier traceability requirements",
+    "section_ref": "Albertsons: ASN + GTIN/lot/voice-pick/date on every case",
+    "support_text": "Albertsons requires ASNs with KDEs for all foods and case labels carrying GTIN, lot/batch, voice-pick code, and pack or sell-by date."
+  },
+  "rules": [
+    {
+      "rule_id": "ab-gtin-products",
+      "applies_to": "product_identifier",
+      "requirement": "valid_gtin_check_digit",
+      "severity": "medium"
+    },
+    {
+      "rule_id": "ab-case-lot-date",
+      "applies_to": "case_label",
+      "requirement": "label_has_gtin_lot_date",
+      "severity": "medium",
+      "note": "Case labels must carry GTIN + (10) lot + a (13)/(15) date (see gs1.validate_gs1_label_fields)."
+    }
+  ]
+}

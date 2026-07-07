@@ -39,6 +39,11 @@ def main() -> None:
         default=[],
         help="Supplier inbound document (X12 856 ASN, BOL PDF, or spreadsheet) to diff against the workbook (door-vs-database). Repeatable.",
     )
+    parser.add_argument(
+        "--previous-findings",
+        default=None,
+        help="Path to a previous run's phase11-audit-findings.json; emits a re-audit delta (what got fixed / what's new).",
+    )
     args = parser.parse_args()
 
     package = build_phase10_customer_evidence(
@@ -64,6 +69,16 @@ def main() -> None:
         inbound_files=tuple(Path(f) for f in args.inbound_file),
     )
     phase11_outputs = write_phase11_rule_execution_artifacts(phase11, Path(args.output_dir))
+    audit_delta = None
+    if args.previous_findings:
+        from bellwether_backend.audit_engine.audit_delta import diff_audit_findings
+
+        previous = json.loads(Path(args.previous_findings).read_text(encoding="utf-8"))
+        current = [finding.model_dump(mode="json") for finding in phase11.audit_findings]
+        audit_delta = diff_audit_findings(previous, current)
+        delta_path = Path(args.output_dir) / "phase11-audit-delta.json"
+        delta_path.write_text(json.dumps(audit_delta, indent=1) + "\n", encoding="utf-8")
+        phase11_outputs["auditDelta"] = str(delta_path)
     print(
         json.dumps(
             {

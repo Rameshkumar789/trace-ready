@@ -75,6 +75,85 @@ def looks_like_gs1(value: str | None) -> str | None:
     return {8: "gtin8", 12: "gtin12", 13: "gtin13", 14: "gtin14"}.get(len(text))
 
 
+# ---------------------------------------------------------------------------
+# GS1-128 / element-string parsing (PTI case labels, SSCC pallets)
+
+# Application Identifiers relevant to FSMA 204 case/pallet labels. Fixed-length AIs have a
+# length; variable AIs terminate at FNC1 (rendered as ASCII GS \x1d) or end of string.
+_AI_TABLE: dict[str, tuple[str, int | None]] = {
+    "00": ("sscc", 18),
+    "01": ("gtin", 14),
+    "02": ("content_gtin", 14),
+    "10": ("lot", None),
+    "11": ("production_date", 6),
+    "13": ("pack_date", 6),
+    "15": ("best_before_date", 6),
+    "17": ("expiry_date", 6),
+    "21": ("serial", None),
+    "37": ("count", None),
+    "410": ("ship_to_gln", 13),
+    "412": ("purchased_from_gln", 13),
+}
+
+
+def parse_gs1_element_string(value: str | None) -> dict[str, str] | None:
+    """Parse a GS1-128 element string like ``(01)00614141123452(10)LOT42(13)250919`` or the
+    raw form with FNC1 separators. Returns {field: value} or None if it doesn't parse.
+
+    This is the machinery behind PTI case-label validation and the retailer
+    "ASN must match the case/pallet label" checks.
+    """
+    if not value:
+        return None
+    text = str(value).strip()
+    fields: dict[str, str] = {}
+    if "(" in text:
+        for ai, data in re.findall(r"\((\d{2,4})\)([^()]*)", text):
+            spec = _AI_TABLE.get(ai)
+            if spec:
+                fields[spec[0]] = data.strip()
+        return fields or None
+    # raw form: leading FNC1 optional; walk AI by AI
+    stream = text.lstrip("\x1d")
+    while stream:
+        matched = False
+        for ai, (name, length) in _AI_TABLE.items():
+            if stream.startswith(ai):
+                rest = stream[len(ai):]
+                if length is not None:
+                    fields[name], stream = rest[:length], rest[length:]
+                else:
+                    end = rest.find("\x1d")
+                    fields[name], stream = (rest, "") if end < 0 else (rest[:end], rest[end + 1:])
+                matched = True
+                break
+        if not matched:
+            return fields or None
+    return fields or None
+
+
+def validate_gs1_label_fields(fields: dict[str, str]) -> list[str]:
+    """Deterministic validation of parsed label fields. Returns problem strings."""
+    problems: list[str] = []
+    gtin = fields.get("gtin") or fields.get("content_gtin")
+    if gtin and not gs1_check_digit_valid(gtin):
+        problems.append(f"GTIN {gtin} fails its check digit")
+    sscc = fields.get("sscc")
+    if sscc and (len(sscc) != 18 or not gs1_check_digit_valid(sscc)):
+        problems.append(f"SSCC {sscc} is not a valid 18-digit SSCC")
+    for gln_field in ("ship_to_gln", "purchased_from_gln"):
+        gln = fields.get(gln_field)
+        if gln and not gs1_check_digit_valid(gln):
+            problems.append(f"{gln_field} {gln} fails its check digit")
+    if "gtin" in fields and not fields.get("lot"):
+        problems.append("label carries a GTIN but no (10) lot - PTI/FSMA case labels require the lot")
+    for date_field in ("production_date", "pack_date", "expiry_date", "best_before_date"):
+        date_value = fields.get(date_field)
+        if date_value and not re.fullmatch(r"\d{6}", date_value):
+            problems.append(f"{date_field} {date_value!r} is not YYMMDD")
+    return problems
+
+
 def check_gs1_identifiers(*, entity_graph: Any, overlays: tuple[dict[str, Any], ...] | None = None) -> list[Gs1Check]:
     overlays = load_retailer_overlays() if overlays is None else overlays
     checks: list[Gs1Check] = []

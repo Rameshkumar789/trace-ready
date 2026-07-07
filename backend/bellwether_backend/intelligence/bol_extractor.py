@@ -68,12 +68,18 @@ def extract_bol_lines(
     pages = extract_pdf_pages(data, source_id=file_name)
     text = "\n".join(page.get("text", "") for page in pages).strip()
     if len(text) < 40:
+        # No text layer -> a scan. Read it multimodally (Claude vision over the PDF pages)
+        # instead of giving up; degrade to the explicit unreadable verdict only when no
+        # model is available or vision extraction fails verification.
+        vision = _extract_scanned(data, file_name=file_name, cache=cache, client=client)
+        if vision is not None:
+            return vision
         return {
             "lines": [],
             "method": "unreadable",
             "issues": [
-                "unreadable_document: the PDF has no usable text layer (likely a scan); "
-                "OCR or the original digital document is needed"
+                "unreadable_document: the PDF has no usable text layer (likely a scan) and no "
+                "vision model is available; OCR or the original digital document is needed"
             ],
         }
     text = text[:20000]
@@ -122,6 +128,80 @@ def extract_bol_lines(
         facts = {slug: [str(v) for v in values] for slug, values in (item.get("facts") or {}).items() if slug in allowed}
         lines.append({"line_number": item.get("line_number") or position, "facts": facts})
     return {"lines": lines, "method": result.method, "issues": result.errors if result.method == "deterministic_fallback" else []}
+
+
+def _extract_scanned(
+    data: bytes,
+    *,
+    file_name: str,
+    cache: LLMCache | None,
+    client: Any | None,
+) -> dict[str, Any] | None:
+    """Vision extraction for scans: send the PDF itself; verify slugs (values cannot be
+    text-anchored without a text layer, so provenance is weaker - flagged in the result)."""
+    import hashlib
+
+    from bellwether_backend.intelligence.llm_perception import build_default_client
+
+    cache = cache or LLMCache()
+    key = cache_key(BOL_PROMPT_VERSION + "-vision", hashlib.sha256(data).hexdigest())
+    registry = canonical_field_registry()
+    allowed = [slug for slug in _EXTRACT_SLUGS if slug in registry]
+
+    def _verify(items: list[dict[str, Any]]) -> list[str]:
+        errors: list[str] = []
+        if not items:
+            return ["no lines extracted"]
+        for item in items:
+            facts = item.get("facts")
+            if not isinstance(facts, dict):
+                errors.append("every line needs a 'facts' object")
+                continue
+            for slug, values in facts.items():
+                if slug not in allowed:
+                    errors.append(f"slug {slug!r} is not in the allowed list")
+                elif not isinstance(values, list):
+                    errors.append(f"facts[{slug!r}] must be a list of strings")
+        return errors[:15]
+
+    cached = cache.get("bol_extract_vision", key)
+    if cached is not None and not _verify(cached):
+        items, method = cached, "llm_cached"
+    else:
+        resolved_client = client if client is not None else build_default_client()
+        if resolved_client is None:
+            return None
+        prompt = (
+            "This is a scanned shipping document (no text layer). Read the pages and extract "
+            "shipment lines as a JSON array per the system instructions. Allowed canonical "
+            "slugs:\n" + json.dumps({slug: registry[slug].description for slug in allowed}, indent=1)
+        )
+        try:
+            response = resolved_client.complete_json_array_with_document(
+                system=_SYSTEM_PROMPT,
+                user_prompt=prompt,
+                document_bytes=data,
+            )
+        except Exception:
+            return None
+        errors = _verify(response.parsed_json)
+        if errors:
+            return None
+        items, method = response.parsed_json, "llm_vision"
+        cache.put("bol_extract_vision", key, items, model=response.model, method=method)
+
+    lines = []
+    for position, item in enumerate(items, start=1):
+        facts = {slug: [str(v) for v in values] for slug, values in (item.get("facts") or {}).items() if slug in allowed}
+        lines.append({"line_number": item.get("line_number") or position, "facts": facts})
+    return {
+        "lines": lines,
+        "method": method,
+        "issues": [
+            "scanned_document: values were read visually from a scan and cannot be text-anchored; "
+            "verify against the paper original before relying on them"
+        ],
+    }
 
 
 def _regex_fallback(text: str) -> list[dict[str, Any]]:
