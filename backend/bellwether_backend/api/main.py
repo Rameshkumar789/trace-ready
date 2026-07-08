@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from datetime import UTC, datetime
 
 from pydantic import BaseModel, Field
@@ -124,12 +125,17 @@ def create_app(settings: ServiceSettings | None = None) -> FastAPI:
         if len(data) > 4_000_000:
             raise HTTPException(status_code=413, detail="document exceeds the 4MB synchronous validation limit")
 
+        # FTL source of truth: reviewer-approved Supabase cards when available, else the
+        # bundled file. The DB lookup is opt-in (BELLWETHER_INBOUND_USE_DB_FTL=1) so this
+        # synchronous endpoint never stalls on an unreachable DB - the bundled FTL is
+        # complete and correct on its own. Set the flag once approved FTL overrides exist.
         ftl_items: list[dict[str, object]] = []
-        try:
-            with supabase_connection(loaded_settings) as connection:
-                ftl_items = RegulatoryRepository(connection).load_approved_card_payloads("ftl_food_items")
-        except Exception:
-            ftl_items = []
+        if os.getenv("BELLWETHER_INBOUND_USE_DB_FTL", "").strip() in {"1", "true", "yes"}:
+            try:
+                with supabase_connection(loaded_settings) as connection:
+                    ftl_items = RegulatoryRepository(connection).load_approved_card_payloads("ftl_food_items")
+            except Exception:
+                ftl_items = []
         if not ftl_items:
             bundled = _Path(__file__).resolve().parents[3] / "data" / "regulatory" / "intelligence" / "drafts" / "ftl-food-items.json"
             if bundled.exists():
