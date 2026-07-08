@@ -4,7 +4,7 @@ import os
 from datetime import UTC, datetime
 
 from pydantic import BaseModel, Field
-from fastapi import Depends, FastAPI, HTTPException, Query, Response
+from fastapi import Depends, FastAPI, File, HTTPException, Query, Response, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
 from bellwether_backend.api.config import ServiceSettings, load_settings
@@ -149,6 +149,85 @@ def create_app(settings: ServiceSettings | None = None) -> FastAPI:
             cte=payload.cte,
             ftl_items=ftl_items,
         )
+
+    @api.post("/internal/audit/run", tags=["internal"], dependencies=[Depends(require_internal_token)])
+    async def audit_run(
+        file: UploadFile = File(..., description="Customer workbook (.xlsx/.xlsm/.csv)"),
+        full: bool = Query(default=False, description="Return the complete phase11 package (large) instead of the curated result"),
+        inbound_file: UploadFile | None = File(default=None, description="Optional supplier ASN/EDI/BOL to diff against the workbook (door-vs-database)"),
+    ) -> dict[str, object]:
+        """Run a complete FSMA 204 audit on an uploaded workbook and return the result
+        synchronously. No Supabase required - built for Postman/curl testing and the local
+        demo. Uses the bundled approved rule package + FTL cards."""
+        from pathlib import Path as _Path
+        from tempfile import TemporaryDirectory as _TempDir
+
+        from bellwether_backend.audit_engine.rule_execution import build_phase11_rule_execution
+
+        suffix = _Path(file.filename or "upload.xlsx").suffix.lower()
+        if suffix not in {".xlsx", ".xlsm", ".csv"}:
+            raise HTTPException(status_code=400, detail=f"unsupported file type {suffix!r}; upload .xlsx, .xlsm, or .csv")
+        data = await file.read()
+        if len(data) > 25_000_000:
+            raise HTTPException(status_code=413, detail="workbook exceeds the 25MB synchronous limit; use the async job path for larger files")
+
+        repo_root = _Path(__file__).resolve().parents[3]
+        rule_package = _Path(os.getenv("BELLWETHER_RULE_PACKAGE_FILE", str(repo_root / "data/regulatory/intelligence/rules/approved-rule-package-v1.json")))
+        ftl_file = _Path(os.getenv("BELLWETHER_FTL_ITEMS_FILE", str(repo_root / "data/regulatory/intelligence/drafts/ftl-food-items.json")))
+        if not rule_package.exists():
+            raise HTTPException(status_code=500, detail=f"approved rule package not found at {rule_package}")
+
+        with _TempDir() as tmp:
+            workbook_path = _Path(tmp) / f"workbook{suffix}"
+            workbook_path.write_bytes(data)
+            inbound_paths: tuple[_Path, ...] = ()
+            if inbound_file is not None:
+                inbound_bytes = await inbound_file.read()
+                if inbound_bytes:
+                    inbound_path = _Path(tmp) / (inbound_file.filename or "inbound.dat")
+                    inbound_path.write_bytes(inbound_bytes)
+                    inbound_paths = (inbound_path,)
+            try:
+                package = build_phase11_rule_execution(
+                    input_file=workbook_path,
+                    approved_rule_package_file=rule_package,
+                    ftl_food_items_file=ftl_file if ftl_file.exists() else None,
+                    inbound_files=inbound_paths,
+                )
+            except Exception as exc:  # surface a clean 422 instead of a 500 stack for bad data
+                raise HTTPException(status_code=422, detail=f"audit failed to run on this workbook: {exc}") from exc
+
+        if full:
+            return {"fileName": file.filename, "package": package.model_dump(mode="json")}
+
+        findings = [f.model_dump(mode="json") for f in package.audit_findings]
+        # Simple readiness verdict from finding severities/status (the deterministic engine
+        # decides compliance; this is just a roll-up for the response header).
+        has_high_gap = any(f.severity == "high" and f.status == "gap" for f in package.audit_findings)
+        needs_review = any(f.status in {"gap", "needs_review"} for f in package.audit_findings)
+        readiness = "blocked" if has_high_gap else ("needs_review" if needs_review else "ready")
+        return {
+            "fileName": file.filename,
+            "readiness": readiness,
+            "summary": {
+                "events": package.summary.get("scoping", {}).get("events"),
+                "products": package.summary.get("scoping", {}).get("products"),
+                "partners": package.summary.get("scoping", {}).get("partners"),
+                "kdeCoverage": package.summary.get("scoping", {}).get("kdeCoverage"),
+                "findingsBySeverity": package.summary.get("scoping", {}).get("findings", {}).get("bySeverity"),
+                "findingsByType": package.summary.get("scoping", {}).get("findings", {}).get("byType"),
+                "intake": package.summary.get("scoping", {}).get("intake"),
+            },
+            "findingCount": len(findings),
+            "findings": findings,
+            "lotIntegrityChecks": [c.model_dump(mode="json") for c in package.lot_integrity_checks if c.status not in {"linked", "pass"}],
+            "ftlTierResults": package.ftl_tier_results,
+            "gs1Checks": [c.model_dump(mode="json") for c in package.gs1_checks if not c.valid_check_digit],
+            "partnerScorecard": package.partner_scorecard,
+            "scopingReport": package.scoping_report,
+            "epcisStats": package.epcis_document.get("traceready:stats"),
+            "note": "Add ?full=true for the complete package (KDE checks, obligation mappings, full EPCIS document).",
+        }
 
     @api.post("/internal/jobs/audit/slice", tags=["internal"], dependencies=[Depends(require_internal_token)])
     async def audit_job_slice(payload: AuditJobSliceRequest) -> dict[str, object]:
