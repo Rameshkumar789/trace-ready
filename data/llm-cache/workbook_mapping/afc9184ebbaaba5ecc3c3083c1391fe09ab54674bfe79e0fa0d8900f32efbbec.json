@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.88,
+          "header": "Cooling Ref",
+          "index": 1,
+          "why": "C-01\u2026C-03 are identifiers for each cooling event"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.9,
+          "header": "Item",
+          "index": 2,
+          "why": "GTIN-style item code identifying the product being cooled"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.9,
+          "header": "Description",
+          "index": 3,
+          "why": "Human-readable product description (Romaine Hearts 3ct Fresh)"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.95,
+          "header": "Qty",
+          "index": 4,
+          "why": "Numeric quantity of food cooled"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.95,
+          "header": "UOM",
+          "index": 5,
+          "why": "Unit of measure (case)"
+        },
+        {
+          "canonical_slug": "cooling_date",
+          "confidence": 0.98,
+          "header": "Cooling Date",
+          "index": 6,
+          "why": "Exact match to cooling_date KDE \u2014 date the food was cooled"
+        },
+        {
+          "canonical_slug": "cooling_location",
+          "confidence": 0.9,
+          "header": "Cooling Site",
+          "index": 7,
+          "why": "Location where cooling occurred \u2014 maps to cooling_location KDE"
+        },
+        {
+          "canonical_slug": "farm_location",
+          "confidence": 0.82,
+          "header": "Farm of Origin",
+          "index": 8,
+          "why": "Identifies the farm where the food originated \u2014 farm_location KDE"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.8,
+          "header": "Next Recipient",
+          "index": 9,
+          "why": "Name of the next recipient facility \u2014 destination location name"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.85,
+          "header": "Doc Type",
+          "index": 10,
+          "why": "Type of reference document (Cooling log)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.88,
+          "header": "Doc Ref",
+          "index": 11,
+          "why": "Reference document numbers (CL-901\u2026CL-903)"
+        }
+      ],
+      "confidence": 0.95,
+      "record_kind": "cte_cooling",
+      "sheet_name": "Cooling Register"
+    }
+  ],
+  "key": "afc9184ebbaaba5ecc3c3083c1391fe09ab54674bfe79e0fa0d8900f32efbbec",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

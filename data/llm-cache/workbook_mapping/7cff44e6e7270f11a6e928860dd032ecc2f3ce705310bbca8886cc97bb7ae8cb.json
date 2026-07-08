@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.9,
+          "header": "Harvest Ref",
+          "index": 1,
+          "why": "Unique per-row harvest reference codes serve as event identifiers"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Crop Item",
+          "index": 2,
+          "why": "14-digit GTIN-style codes identify the harvested product/SKU"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.97,
+          "header": "Crop Description",
+          "index": 3,
+          "why": "Human-readable product descriptions (e.g. 'Romaine Hearts 3ct Fresh')"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.95,
+          "header": "Qty Harvested",
+          "index": 4,
+          "why": "Numeric quantity of food harvested per event row"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 1.0,
+          "header": "UOM",
+          "index": 5,
+          "why": "Unit of measure (case) for the harvested quantity"
+        },
+        {
+          "canonical_slug": "harvest_date",
+          "confidence": 0.98,
+          "header": "Date of Harvest",
+          "index": 6,
+          "why": "Date the crop was harvested \u2014 the primary harvesting KDE"
+        },
+        {
+          "canonical_slug": "farm_location",
+          "confidence": 0.9,
+          "header": "Farm",
+          "index": 7,
+          "why": "Name of the farm where harvesting occurred; maps to farm_location KDE"
+        },
+        {
+          "canonical_slug": "harvest_field_or_container",
+          "confidence": 0.92,
+          "header": "Field or Block",
+          "index": 8,
+          "why": "Field/block identifier within the farm \u2014 matches harvest_field_or_container KDE"
+        },
+        {
+          "canonical_slug": "harvester_name",
+          "confidence": 0.82,
+          "header": "Crew Lead",
+          "index": 9,
+          "why": "Name of the crew lead performing the harvest; best fits harvester_name"
+        },
+        {
+          "canonical_slug": "harvester_phone",
+          "confidence": 0.85,
+          "header": "Crew Phone",
+          "index": 10,
+          "why": "Phone number of the harvest crew lead; maps to harvester_phone KDE"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.8,
+          "header": "Shipped To",
+          "index": 11,
+          "why": "Name of the facility the harvested food was sent to; closest fit is destination_location_name"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.9,
+          "header": "Doc Type",
+          "index": 12,
+          "why": "Type of source document (Harvest ticket) backing the event"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.92,
+          "header": "Doc Ref",
+          "index": 13,
+          "why": "Document reference numbers (HT-3301\u2026) for the harvest tickets"
+        }
+      ],
+      "confidence": 0.96,
+      "record_kind": "cte_harvesting",
+      "sheet_name": "Harvest Log"
+    }
+  ],
+  "key": "7cff44e6e7270f11a6e928860dd032ecc2f3ce705310bbca8886cc97bb7ae8cb",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

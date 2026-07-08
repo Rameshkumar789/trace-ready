@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.55,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": null,
+      "mismatch": false,
+      "product_id": "EXT-DRS-890",
+      "reasoning": "Same reasoning as EXT-DRS-889: Caesar dressing bulk may contain anchovies or other FTL-covered ingredients, and the customer's 'non-FTL' label cannot be taken as definitive without ingredient verification.",
+      "tier": "suspicious"
+    }
+  ],
+  "key": "43412f86381da0a75d7e0a779a8e0f80557dba97ad74d132ca7466fa0276b080",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

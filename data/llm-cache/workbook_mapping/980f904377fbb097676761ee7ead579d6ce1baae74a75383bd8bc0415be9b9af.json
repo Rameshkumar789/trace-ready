@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.9,
+          "header": "Ship Ref",
+          "index": 1,
+          "why": "Unique reference identifier for each shipping event"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Item",
+          "index": 2,
+          "why": "GTIN-style numeric product identifier for the shipped item"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "Description",
+          "index": 3,
+          "why": "Human-readable product description of the shipped food"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.98,
+          "header": "Lot Shipped",
+          "index": 4,
+          "why": "Lot code of the food being shipped \u2014 TLC for this shipping event"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.98,
+          "header": "Qty",
+          "index": 5,
+          "why": "Quantity of food shipped"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.98,
+          "header": "UOM",
+          "index": 6,
+          "why": "Unit of measure (case, lb)"
+        },
+        {
+          "canonical_slug": "date_you_shipped_the_food",
+          "confidence": 0.98,
+          "header": "Ship Date",
+          "index": 7,
+          "why": "Date the food was shipped \u2014 exact shipping KDE"
+        },
+        {
+          "canonical_slug": "source_location_name",
+          "confidence": 0.9,
+          "header": "Ship From",
+          "index": 8,
+          "why": "Name of the facility the food was shipped from"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.82,
+          "header": "Customer",
+          "index": 9,
+          "why": "Name of the customer/recipient the food was shipped to \u2014 destination"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 0.8,
+          "header": "Ship To City",
+          "index": 10,
+          "why": "City (and state) of the destination \u2014 city field for the ship-to location"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.92,
+          "header": "Doc Type",
+          "index": 11,
+          "why": "Type of reference document (BOL)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.92,
+          "header": "Doc No",
+          "index": 12,
+          "why": "Reference document number (BOL number)"
+        }
+      ],
+      "confidence": 0.98,
+      "record_kind": "cte_shipping",
+      "sheet_name": "Dispatch Log"
+    }
+  ],
+  "key": "980f904377fbb097676761ee7ead579d6ce1baae74a75383bd8bc0415be9b9af",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

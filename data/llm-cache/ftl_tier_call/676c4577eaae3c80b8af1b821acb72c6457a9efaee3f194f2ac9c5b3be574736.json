@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "confidence": 0.97,
+      "matched_commodity": "Leafy greens (fresh)",
+      "product_id": "10860004520013",
+      "reasoning": "Romaine hearts are a well-recognized variety of fresh leafy greens explicitly covered by the FTL. The product is described as fresh, not cut, matching the 'Leafy greens (fresh)' commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.75,
+      "matched_commodity": "Leafy greens (fresh-cut)",
+      "product_id": "10860004520020",
+      "reasoning": "A Caesar salad kit typically contains fresh-cut leafy greens (romaine), which are on the FTL, but also includes dressing and possibly croutons; the composite nature and lack of ingredient detail prevent a definitive ruling without knowing exact contents and whether the greens are fresh-cut.",
+      "tier": "suspicious"
+    },
+    {
+      "confidence": 0.98,
+      "matched_commodity": "Smoked finfish (refrigerated, frozen, and previously frozen)",
+      "product_id": "10860004520037",
+      "reasoning": "Cold-smoked Atlantic salmon slices are a textbook example of smoked finfish (refrigerated/cold-smoked), explicitly listed as an included example (smoked salmon/lox/nova) under the FTL smoked finfish commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.95,
+      "matched_commodity": null,
+      "product_id": "10860004520044",
+      "reasoning": "The FTL explicitly excludes cheeses that are frozen or previously frozen from the soft ripened/semi-soft cheese commodity; this product is described as frozen brie, so it does not qualify.",
+      "tier": "definite_off"
+    },
+    {
+      "confidence": 0.65,
+      "matched_commodity": "Cheese (made from pasteurized milk), fresh soft or soft unripened",
+      "product_id": "10860004520051",
+      "reasoning": "IMS-listed Grade A cottage cheese is partially exempt from full Subpart S requirements per the Feb 2026 exemption, but still requires immediate-source/recipient recordkeeping; it is not fully 'off' the list but occupies a special exempt status that warrants flagging rather than a clean definite_on or definite_off classification.",
+      "tier": "suspicious"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Nut butters",
+      "product_id": "10860004520068",
+      "reasoning": "Creamy peanut butter is explicitly listed as an included example under the FTL 'Nut butters' commodity, and all forms (including shelf-stable) are covered.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.95,
+      "matched_commodity": null,
+      "product_id": "10860004520075",
+      "reasoning": "Dried oregano is a dried/shelf-stable herb, not a fresh herb; the FTL 'Herbs (fresh)' commodity covers only fresh herbs, and dried herbs are not on the list.",
+      "tier": "definite_off"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Tomatoes (fresh)",
+      "product_id": "10860004520082",
+      "reasoning": "Vine tomatoes sold fresh are conclusively covered by the FTL 'Tomatoes (fresh)' commodity, which includes all varieties of fresh tomatoes.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.98,
+      "matched_commodity": "Finfish, histamine-producing species (fresh, frozen, and previously frozen)",
+      "product_id": "10860004520099",
+      "reasoning": "Mahi-mahi is explicitly listed as an included example of histamine-producing finfish species on the FTL, and IQF frozen forms are covered.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": null,
+      "product_id": "10860004520105",
+      "reasoning": "Canned shelf-stable tuna is explicitly excluded from the FTL finfish commodities, which do not include shelf-stable or canned fish.",
+      "tier": "definite_off"
+    },
+    {
+      "confidence": 0.65,
+      "matched_commodity": "Leafy greens (fresh-cut)",
+      "product_id": "10860004520113",
+      "reasoning": "A chicken Caesar wrap RTE is a composite food that likely contains fresh-cut leafy greens (romaine) and possibly other FTL ingredients, but the description alone does not confirm the presence or form of those ingredients with certainty.",
+      "tier": "suspicious"
+    },
+    {
+      "confidence": 0.5,
+      "matched_commodity": null,
+      "product_id": "CROPITEM",
+      "reasoning": "The name 'Crop Description' is too vague to conclusively match or exclude any FTL commodity; it could refer to any agricultural product.",
+      "tier": "suspicious"
+    },
+    {
+      "confidence": 0.55,
+      "matched_commodity": null,
+      "product_id": "EXT-DRS-889",
+      "reasoning": "Although labeled 'non-FTL' by the customer, Caesar dressing in bulk could contain anchovies (a histamine-producing finfish) or other FTL ingredients; the customer's self-declaration is not authoritative and the ingredient composition is unconfirmed.",
+      "tier": "suspicious"
+    },
+    {
+      "confidence": 0.55,
+      "matched_commodity": null,
+      "product_id": "EXT-DRS-890",
+      "reasoning": "Same reasoning as EXT-DRS-889: Caesar dressing bulk may contain anchovies or other FTL-covered ingredients, and the customer's 'non-FTL' label cannot be taken as definitive without ingredient verification.",
+      "tier": "suspicious"
+    },
+    {
+      "confidence": 0.5,
+      "matched_commodity": null,
+      "product_id": "INPUTITEM",
+      "reasoning": "'Input Description' is a placeholder name with no meaningful product information; it cannot be ruled in or out against any FTL commodity.",
+      "tier": "suspicious"
+    },
+    {
+      "confidence": 0.5,
+      "matched_commodity": null,
+      "product_id": "OUTPUTITEM",
+      "reasoning": "'Output Description' is a placeholder name with no meaningful product information; it cannot be ruled in or out against any FTL commodity.",
+      "tier": "suspicious"
+    },
+    {
+      "confidence": 0.6,
+      "matched_commodity": "Ready-to-eat deli salads",
+      "product_id": "product-asst_deli_cups_12ct",
+      "reasoning": "Assorted deli cups could contain refrigerated RTE deli salads (egg salad, pasta salad, seafood salad, etc.) that are on the FTL, but 'assorted' and 'cups' are too vague to confirm the contents or rule out non-FTL items like meat salads.",
+      "tier": "suspicious"
+    }
+  ],
+  "key": "676c4577eaae3c80b8af1b821acb72c6457a9efaee3f194f2ac9c5b3be574736",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier_call",
+  "request_sha256": "2218a2d6ddd66842b861150a01ef74ba18db5a3b5565b99ff79fd7a88e0dfbbf"
+}

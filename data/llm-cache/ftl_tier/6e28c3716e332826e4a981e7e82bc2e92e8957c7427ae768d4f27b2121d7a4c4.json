@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.5,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": null,
+      "mismatch": false,
+      "product_id": "CROPITEM",
+      "reasoning": "The name 'Crop Description' is too vague to conclusively match or exclude any FTL commodity; it could refer to any agricultural product.",
+      "tier": "suspicious"
+    }
+  ],
+  "key": "6e28c3716e332826e4a981e7e82bc2e92e8957c7427ae768d4f27b2121d7a4c4",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

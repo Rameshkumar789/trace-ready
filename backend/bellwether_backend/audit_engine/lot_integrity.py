@@ -179,9 +179,22 @@ def check_lot_integrity(
             # movement, not new material entering: it must not count as a lineage origin or
             # inflate origin quantities, and it deserves its own review item.
             facts = _merged_facts(row_facts, event.source_row_key)
-            source_location = _norm_id(facts.get("source_location_id"))
-            destination_location = _norm_id(facts.get("destination_location_id"))
-            if "receiving" in ctes and source_location and source_location == destination_location:
+            # Templates carry the locations as IDs or names (or both, e.g. a "From Partner"
+            # AND a "From Site" column) - a self-receive is any shared location value
+            # between the source and destination sides.
+            source_locations = {
+                str(v).strip().lower()
+                for key in ("source_location_id", "source_location_name")
+                for v in facts.get(key) or []
+                if str(v).strip()
+            }
+            destination_locations = {
+                str(v).strip().lower()
+                for key in ("destination_location_id", "destination_location_name")
+                for v in facts.get(key) or []
+                if str(v).strip()
+            }
+            if "receiving" in ctes and source_locations and (source_locations & destination_locations):
                 self_receive_events.append(event)
             else:
                 origin_events_by_lot[lot].append(event)

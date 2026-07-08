@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_line_id",
+          "confidence": 0.8,
+          "header": "Output Line Ref",
+          "index": 1,
+          "why": "Per-output-line reference code within a batch; best fits event line identifier"
+        },
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.78,
+          "header": "Batch No",
+          "index": 2,
+          "why": "Batch number groups output lines into a single production event; maps to event_id"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Output Item",
+          "index": 3,
+          "why": "14-digit numeric values are GTINs / item codes for the produced product"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.97,
+          "header": "Output Description",
+          "index": 4,
+          "why": "Human-readable name of the produced food item"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.98,
+          "header": "New Lot",
+          "index": 5,
+          "why": "Lot code assigned to the newly produced food; on a transformation output sheet this is the output TLC"
+        },
+        {
+          "canonical_slug": "source_lot_or_tlc",
+          "confidence": 0.82,
+          "header": "Primary Input Lot",
+          "index": 6,
+          "why": "References the input/ingredient lot consumed; low fill rate suggests it is a convenience cross-reference to the input side"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.95,
+          "header": "Qty Produced",
+          "index": 7,
+          "why": "Numeric quantity of food produced in this output line"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.99,
+          "header": "UOM",
+          "index": 8,
+          "why": "Unit of measure for the produced quantity (case)"
+        },
+        {
+          "canonical_slug": "transformation_date",
+          "confidence": 0.97,
+          "header": "Production Date",
+          "index": 9,
+          "why": "Date the new food was produced; exact match to transformation_date KDE"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.85,
+          "header": "Production Site",
+          "index": 10,
+          "why": "Name of the facility where transformation occurred; no separate location ID column present"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.9,
+          "header": "Doc Type",
+          "index": 11,
+          "why": "Type of the source/reference document backing this production record (Batch record)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.92,
+          "header": "Doc Ref",
+          "index": 12,
+          "why": "Document reference number (BR-MMDD) for the batch record"
+        }
+      ],
+      "confidence": 0.87,
+      "record_kind": "cte_transformation_output",
+      "sheet_name": "Production Batches"
+    }
+  ],
+  "key": "9b80b0a8f9dee599a98ee09e03c0560a41a519ddb58e88af83b661bcfaa29a7b",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

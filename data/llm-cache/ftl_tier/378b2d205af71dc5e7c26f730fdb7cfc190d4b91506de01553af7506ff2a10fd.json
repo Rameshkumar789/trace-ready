@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.97,
+      "declared_category": "Leafy greens (fresh)",
+      "declared_negative": false,
+      "matched_commodity": "Leafy greens (fresh)",
+      "mismatch": false,
+      "product_id": "10860004520013",
+      "reasoning": "Romaine hearts are a well-recognized variety of fresh leafy greens explicitly covered by the FTL. The product is described as fresh, not cut, matching the 'Leafy greens (fresh)' commodity.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "378b2d205af71dc5e7c26f730fdb7cfc190d4b91506de01553af7506ff2a10fd",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": true,
+      "confidence": 0.65,
+      "declared_category": "General grocery",
+      "declared_negative": false,
+      "matched_commodity": "Leafy greens (fresh-cut)",
+      "mismatch": false,
+      "product_id": "10860004520113",
+      "reasoning": "A chicken Caesar wrap RTE is a composite food that likely contains fresh-cut leafy greens (romaine) and possibly other FTL ingredients, but the description alone does not confirm the presence or form of those ingredients with certainty.",
+      "tier": "suspicious"
+    }
+  ],
+  "key": "a88dc516c76c2714c6fa1bb27ca097aeed97680019c4e9ee3dac5510857712af",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

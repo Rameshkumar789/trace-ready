@@ -263,7 +263,11 @@ def _postprocess(item: dict[str, Any], product: dict[str, Any], valid_commoditie
     if result.get("matched_commodity") not in valid_commodities:
         result["matched_commodity"] = None if result.get("tier") != "definite_on" else result.get("matched_commodity")
     declared = _norm(product.get("declared_category"))
-    declared_negative = declared in {"", "none", "non-ftl", "not on ftl", "general products", "general", "no", "n/a"}
+    # "General products" / "General grocery" / "General merchandise" all declare
+    # not-on-FTL; match the family, not one template's spelling.
+    declared_negative = (
+        declared in {"", "none", "non-ftl", "not on ftl", "no", "n/a"} or declared.startswith("general")
+    )
     result["declared_category"] = product.get("declared_category")
     result["declared_negative"] = declared_negative
     result["mismatch"] = bool(declared_negative and result.get("tier") in {"definite_on", "suspicious"} and declared not in {""})

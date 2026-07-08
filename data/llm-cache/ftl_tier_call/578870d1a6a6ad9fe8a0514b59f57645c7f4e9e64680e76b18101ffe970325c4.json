@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "confidence": 0.75,
+      "matched_commodity": "Cheese (made from pasteurized milk), fresh soft or soft unripened",
+      "product_id": "10860004520051",
+      "reasoning": "IMS-listed Grade A cottage cheese matches the FTL commodity but falls under the February 2026 partial exemption (91 FR), which removes full Subpart S obligations while retaining immediate-source/recipient recordkeeping. It is neither fully 'on' nor fully 'off' the list, warranting a suspicious/exempt-partial classification pending the facility's IMS listing status confirmation.",
+      "tier": "suspicious"
+    },
+    {
+      "confidence": 0.95,
+      "matched_commodity": null,
+      "product_id": "10860004520044",
+      "reasoning": "Brie is a soft-ripened cheese that would normally fall under the FTL, but the FTL explicitly excludes cheeses that are frozen or previously frozen; this product is described as 'Frozen,' so it is conclusively excluded from the FTL commodity.",
+      "tier": "definite_off"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Nut butters",
+      "product_id": "10860004520068",
+      "reasoning": "Creamy peanut butter is explicitly listed as an included example under the FTL 'Nut butters' commodity, and the FTL covers all forms including shelf-stable products, so the 40lb pail format does not affect classification.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "578870d1a6a6ad9fe8a0514b59f57645c7f4e9e64680e76b18101ffe970325c4",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier_call",
+  "request_sha256": "77972dc02efa52b2bafea19cd2b013bc91d67660117225d8d1ba69a82285d0b5"
+}

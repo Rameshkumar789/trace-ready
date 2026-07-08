@@ -1,0 +1,443 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.85,
+          "header": "Landing Ref",
+          "index": 1,
+          "why": "Reference identifier for each landing event"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.75,
+          "header": "Species",
+          "index": 2,
+          "why": "Sample value is a GTIN-style numeric code identifying the species/product"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.9,
+          "header": "Market Name",
+          "index": 3,
+          "why": "Common/market name of the seafood species \u2014 product description"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.98,
+          "header": "Lot",
+          "index": 4,
+          "why": "Lot code assigned to the landed seafood"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.98,
+          "header": "Qty",
+          "index": 5,
+          "why": "Quantity of seafood landed"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.98,
+          "header": "UOM",
+          "index": 6,
+          "why": "Unit of measure (lb)"
+        },
+        {
+          "canonical_slug": "landing_date",
+          "confidence": 0.99,
+          "header": "Landed Date",
+          "index": 7,
+          "why": "Date the seafood was landed/offloaded \u2014 exact KDE for first land-based receiver"
+        },
+        {
+          "canonical_slug": "catch_location",
+          "confidence": 0.92,
+          "header": "Catch Area (FAO)",
+          "index": 8,
+          "why": "FAO fishing area where the seafood was caught \u2014 maps to catch_location KDE"
+        },
+        {
+          "canonical_slug": "harvest_date_range",
+          "confidence": 0.75,
+          "header": "Vessel Trip Dates",
+          "index": 9,
+          "why": "Date range of the fishing vessel trip; closest slug is harvest_date_range"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.8,
+          "header": "Receiver",
+          "index": 10,
+          "why": "Name of the receiving dock/location where the food was landed"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.9,
+          "header": "Doc Type",
+          "index": 11,
+          "why": "Type of source document (landing ticket)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.9,
+          "header": "Doc Ref",
+          "index": 12,
+          "why": "Reference number of the landing ticket document"
+        }
+      ],
+      "confidence": 0.95,
+      "record_kind": "cte_first_land_based_receiving",
+      "sheet_name": "Dock Landings"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.9,
+          "header": "Receipt Ref",
+          "index": 1,
+          "why": "Unique identifier for each receiving event"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Item",
+          "index": 2,
+          "why": "GTIN-style numeric product identifier"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "Description",
+          "index": 3,
+          "why": "Human-readable product description"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.97,
+          "header": "Lot Received",
+          "index": 4,
+          "why": "Lot code of the food as received \u2014 TLC for this receiving event"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.98,
+          "header": "Qty",
+          "index": 5,
+          "why": "Quantity of food received"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.98,
+          "header": "UOM",
+          "index": 6,
+          "why": "Unit of measure (case)"
+        },
+        {
+          "canonical_slug": "received_date",
+          "confidence": 0.98,
+          "header": "Received On",
+          "index": 7,
+          "why": "Date the food was received \u2014 exact receiving KDE"
+        },
+        {
+          "canonical_slug": "source_location_name",
+          "confidence": 0.8,
+          "header": "From Partner",
+          "index": 8,
+          "why": "Name of the trading partner/supplier the food came from; closest slug is source_location_name (no separate partner-name slug for events)"
+        },
+        {
+          "canonical_slug": "source_location_name",
+          "confidence": 0.85,
+          "header": "From Site",
+          "index": 9,
+          "why": "Specific facility/site the food was shipped from \u2014 source location name"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.88,
+          "header": "To Site",
+          "index": 10,
+          "why": "Receiving facility \u2014 destination location name"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.9,
+          "header": "Doc Type",
+          "index": 11,
+          "why": "Type of reference document (Invoice, Transfer)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.9,
+          "header": "Doc No",
+          "index": 12,
+          "why": "Reference document number"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "cte_receiving",
+      "sheet_name": "Goods In"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.7,
+          "header": "BATCH INPUTS \u2014 INGREDIENTS CONSUMED",
+          "index": 1,
+          "why": "Sample values include 'Batch No' label and batch IDs (B-0315, B-0410) \u2014 acts as the transformation event identifier"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.75,
+          "header": "BATCH INPUTS \u2014 INGREDIENTS CONSUMED",
+          "index": 2,
+          "why": "Sample values include 'Input Item' label and GTIN-style codes for ingredient products"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.8,
+          "header": "BATCH INPUTS \u2014 INGREDIENTS CONSUMED",
+          "index": 3,
+          "why": "Sample values include 'Input Description' label and ingredient product names"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.85,
+          "header": "BATCH INPUTS \u2014 INGREDIENTS CONSUMED",
+          "index": 4,
+          "why": "Sample values include 'Lot Consumed' label and lot codes of input ingredients; engine derives input role from sheet kind"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.85,
+          "header": "BATCH INPUTS \u2014 INGREDIENTS CONSUMED",
+          "index": 5,
+          "why": "Sample values include 'Qty Used' label and numeric quantities consumed"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.85,
+          "header": "BATCH INPUTS \u2014 INGREDIENTS CONSUMED",
+          "index": 6,
+          "why": "Sample values include 'UOM' label and 'case'"
+        },
+        {
+          "canonical_slug": "transformation_date",
+          "confidence": 0.8,
+          "header": "BATCH INPUTS \u2014 INGREDIENTS CONSUMED",
+          "index": 7,
+          "why": "Sample values include 'Usage Date' label and dates ingredients were consumed in transformation"
+        }
+      ],
+      "confidence": 0.95,
+      "record_kind": "cte_transformation_input",
+      "sheet_name": "Batch Inputs"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.75,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 1,
+          "why": "Sample values include 'Batch No' label and batch IDs (B-0315, B-0410, etc.) \u2014 transformation event identifier"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.8,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 2,
+          "why": "Sample values include 'Output Item' label and GTIN-style codes for produced products"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 3,
+          "why": "Sample values include 'Output Description' label and produced product names"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.9,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 4,
+          "why": "Sample values include 'New Lot' label and newly assigned lot codes for produced foods"
+        },
+        {
+          "canonical_slug": "source_lot_or_tlc",
+          "confidence": 0.82,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 5,
+          "why": "Sample values include 'Primary Input Lot' label \u2014 references the input lot consumed to make this output"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 6,
+          "why": "Sample values include 'Qty Produced' label and numeric quantities produced"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 7,
+          "why": "Sample values include 'UOM' label and 'case'"
+        },
+        {
+          "canonical_slug": "transformation_date",
+          "confidence": 0.92,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 8,
+          "why": "Sample values include 'Production Date' label and production dates \u2014 transformation KDE"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 9,
+          "why": "Sample values include 'Production Site' label and facility name where transformation occurred"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 10,
+          "why": "Sample values include 'Doc Type' label and 'Batch record'"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 11,
+          "why": "Sample values include 'Doc Ref' label and batch record reference numbers"
+        }
+      ],
+      "confidence": 0.96,
+      "record_kind": "cte_transformation_output",
+      "sheet_name": "Production Batches"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.9,
+          "header": "Ship Ref",
+          "index": 1,
+          "why": "Unique reference identifier for each shipping event"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Item",
+          "index": 2,
+          "why": "GTIN-style numeric product identifier for the shipped item"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "Description",
+          "index": 3,
+          "why": "Human-readable product description of the shipped food"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.98,
+          "header": "Lot Shipped",
+          "index": 4,
+          "why": "Lot code of the food being shipped \u2014 TLC for this shipping event"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.98,
+          "header": "Qty",
+          "index": 5,
+          "why": "Quantity of food shipped"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.98,
+          "header": "UOM",
+          "index": 6,
+          "why": "Unit of measure (case, lb)"
+        },
+        {
+          "canonical_slug": "date_you_shipped_the_food",
+          "confidence": 0.98,
+          "header": "Ship Date",
+          "index": 7,
+          "why": "Date the food was shipped \u2014 exact shipping KDE"
+        },
+        {
+          "canonical_slug": "source_location_name",
+          "confidence": 0.9,
+          "header": "Ship From",
+          "index": 8,
+          "why": "Name of the facility the food was shipped from"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.82,
+          "header": "Customer",
+          "index": 9,
+          "why": "Name of the customer/recipient the food was shipped to \u2014 destination"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 0.8,
+          "header": "Ship To City",
+          "index": 10,
+          "why": "City (and state) of the destination \u2014 city field for the ship-to location"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.92,
+          "header": "Doc Type",
+          "index": 11,
+          "why": "Type of reference document (BOL)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.92,
+          "header": "Doc No",
+          "index": 12,
+          "why": "Reference document number (BOL number)"
+        }
+      ],
+      "confidence": 0.98,
+      "record_kind": "cte_shipping",
+      "sheet_name": "Dispatch Log"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "traceability_plan_item",
+          "confidence": 0.9,
+          "header": "TRACEABILITY PLAN \u2014 21 CFR 1.1315",
+          "index": 1,
+          "why": "Sample values include 'Plan Component' label and traceability plan component descriptions (how records are maintained, how TLCs are assigned, point of contact, etc.)"
+        },
+        {
+          "canonical_slug": "traceability_plan_answer",
+          "confidence": 0.9,
+          "header": "TRACEABILITY PLAN \u2014 21 CFR 1.1315",
+          "index": 2,
+          "why": "Sample values include 'Details' label and the operator's answers/descriptions for each plan component"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "traceability_plan",
+      "sheet_name": "Trace Plan"
+    }
+  ],
+  "key": "60d81d63e2a5ef83f6d04955e856231f477edea488993a7289b40ee70643987d",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping_call",
+  "request_sha256": "d123ab5b7b1fbe2fdf337c5c39f07305f6a6830384a26c098e70c86240a5cc1b"
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.5,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": null,
+      "mismatch": false,
+      "product_id": "INPUTITEM",
+      "reasoning": "'Input Description' is a placeholder name with no meaningful product information; it cannot be ruled in or out against any FTL commodity.",
+      "tier": "suspicious"
+    }
+  ],
+  "key": "1748e3ac30e4ac49bc1cd84b96d271c6b210b4796968cff67f9c088e5402355a",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

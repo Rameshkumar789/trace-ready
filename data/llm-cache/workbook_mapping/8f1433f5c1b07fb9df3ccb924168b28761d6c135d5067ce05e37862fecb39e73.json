@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.88,
+          "header": "Batch No",
+          "index": 1,
+          "why": "Batch number groups input rows to a transformation event; best available event identifier"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Input Item",
+          "index": 2,
+          "why": "GTIN/item codes identifying the input ingredient products"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "Input Description",
+          "index": 3,
+          "why": "Human-readable descriptions of the input ingredients"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.95,
+          "header": "Lot Consumed",
+          "index": 4,
+          "why": "Lot code of the input food being consumed; on a transformation_input sheet this is the TLC of the ingredient lot"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.97,
+          "header": "Qty Used",
+          "index": 5,
+          "why": "Quantity of each ingredient consumed in the batch"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 1.0,
+          "header": "UOM",
+          "index": 6,
+          "why": "Unit of measure for the consumed quantity"
+        },
+        {
+          "canonical_slug": "transformation_date",
+          "confidence": 0.88,
+          "header": "Usage Date",
+          "index": 7,
+          "why": "Date the inputs were used/consumed in the transformation process"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "cte_transformation_input",
+      "sheet_name": "Batch Inputs"
+    }
+  ],
+  "key": "8f1433f5c1b07fb9df3ccb924168b28761d6c135d5067ce05e37862fecb39e73",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

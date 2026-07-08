@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "location_id",
+          "confidence": 0.85,
+          "header": "FACILITIES",
+          "index": 1,
+          "why": "Sample values include 'Location Ref' label and LOC-01\u2026LOC-04 codes \u2014 location identifiers"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.88,
+          "header": "FACILITIES",
+          "index": 2,
+          "why": "Sample values include 'Facility Name' label and named facilities (Louisville Distribution Center\u2026)"
+        },
+        {
+          "canonical_slug": "address",
+          "confidence": 0.87,
+          "header": "FACILITIES",
+          "index": 3,
+          "why": "Sample values include 'Street' label and street addresses (400 River Rd, 88 Mill St\u2026)"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 0.87,
+          "header": "FACILITIES",
+          "index": 4,
+          "why": "Sample values include 'City' label and city names (Louisville, Shelbyville\u2026)"
+        },
+        {
+          "canonical_slug": "state",
+          "confidence": 0.87,
+          "header": "FACILITIES",
+          "index": 5,
+          "why": "Sample values include 'State' label and state abbreviations (KY, MS)"
+        },
+        {
+          "canonical_slug": "location_owner",
+          "confidence": 0.85,
+          "header": "FACILITIES",
+          "index": 6,
+          "why": "Sample values include 'Operated By' label and company names \u2014 maps to location_owner"
+        }
+      ],
+      "confidence": 0.92,
+      "record_kind": "master_locations",
+      "sheet_name": "Facility Register"
+    }
+  ],
+  "key": "2efd722534c107f4604aa2d8d881b68f3471e46512390d1f27fb38fe24486d34",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

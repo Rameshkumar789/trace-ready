@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.85,
+          "header": "Landing Ref",
+          "index": 1,
+          "why": "Reference identifier for each landing event"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.75,
+          "header": "Species",
+          "index": 2,
+          "why": "Sample value is a GTIN-style numeric code identifying the species/product"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.9,
+          "header": "Market Name",
+          "index": 3,
+          "why": "Common/market name of the seafood species \u2014 product description"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.98,
+          "header": "Lot",
+          "index": 4,
+          "why": "Lot code assigned to the landed seafood"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.98,
+          "header": "Qty",
+          "index": 5,
+          "why": "Quantity of seafood landed"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.98,
+          "header": "UOM",
+          "index": 6,
+          "why": "Unit of measure (lb)"
+        },
+        {
+          "canonical_slug": "landing_date",
+          "confidence": 0.99,
+          "header": "Landed Date",
+          "index": 7,
+          "why": "Date the seafood was landed/offloaded \u2014 exact KDE for first land-based receiver"
+        },
+        {
+          "canonical_slug": "catch_location",
+          "confidence": 0.92,
+          "header": "Catch Area (FAO)",
+          "index": 8,
+          "why": "FAO fishing area where the seafood was caught \u2014 maps to catch_location KDE"
+        },
+        {
+          "canonical_slug": "harvest_date_range",
+          "confidence": 0.75,
+          "header": "Vessel Trip Dates",
+          "index": 9,
+          "why": "Date range of the fishing vessel trip; closest slug is harvest_date_range"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.8,
+          "header": "Receiver",
+          "index": 10,
+          "why": "Name of the receiving dock/location where the food was landed"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.9,
+          "header": "Doc Type",
+          "index": 11,
+          "why": "Type of source document (landing ticket)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.9,
+          "header": "Doc Ref",
+          "index": 12,
+          "why": "Reference number of the landing ticket document"
+        }
+      ],
+      "confidence": 0.95,
+      "record_kind": "cte_first_land_based_receiving",
+      "sheet_name": "Dock Landings"
+    }
+  ],
+  "key": "80b324977874b8b1164e57050765e9c028f36440cb15002d39d5da048d0fb962",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

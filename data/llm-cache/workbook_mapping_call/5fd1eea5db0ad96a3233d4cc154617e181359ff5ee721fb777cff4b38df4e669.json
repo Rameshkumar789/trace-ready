@@ -1,0 +1,436 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.9,
+          "header": "Company Ref",
+          "index": 1,
+          "why": "Short reference codes (BPL-001, GAF-002\u2026) uniquely identify each business entity"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.97,
+          "header": "Legal Name",
+          "index": 2,
+          "why": "Full legal names of business entities map directly to company_name"
+        },
+        {
+          "canonical_slug": "business_type",
+          "confidence": 0.85,
+          "header": "Role",
+          "index": 3,
+          "why": "Describes each entity's role (Operator, Supplier, Customer) \u2014 business type"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 0.8,
+          "header": "City",
+          "index": 4,
+          "why": "Contains city+state combined values; best fit is city (state is embedded but no separate column)"
+        }
+      ],
+      "confidence": 0.88,
+      "record_kind": "master_business",
+      "sheet_name": "Company Register"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "location_id",
+          "confidence": 0.85,
+          "header": "FACILITIES",
+          "index": 1,
+          "why": "Sample values include 'Location Ref' label and LOC-01\u2026LOC-04 codes \u2014 location identifiers"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.88,
+          "header": "FACILITIES",
+          "index": 2,
+          "why": "Sample values include 'Facility Name' label and named facilities (Louisville Distribution Center\u2026)"
+        },
+        {
+          "canonical_slug": "address",
+          "confidence": 0.87,
+          "header": "FACILITIES",
+          "index": 3,
+          "why": "Sample values include 'Street' label and street addresses (400 River Rd, 88 Mill St\u2026)"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 0.87,
+          "header": "FACILITIES",
+          "index": 4,
+          "why": "Sample values include 'City' label and city names (Louisville, Shelbyville\u2026)"
+        },
+        {
+          "canonical_slug": "state",
+          "confidence": 0.87,
+          "header": "FACILITIES",
+          "index": 5,
+          "why": "Sample values include 'State' label and state abbreviations (KY, MS)"
+        },
+        {
+          "canonical_slug": "location_owner",
+          "confidence": 0.85,
+          "header": "FACILITIES",
+          "index": 6,
+          "why": "Sample values include 'Operated By' label and company names \u2014 maps to location_owner"
+        }
+      ],
+      "confidence": 0.92,
+      "record_kind": "master_locations",
+      "sheet_name": "Facility Register"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.97,
+          "header": "Item Code",
+          "index": 1,
+          "why": "14-digit GTIN-style codes uniquely identifying each product/SKU"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.97,
+          "header": "Item Description",
+          "index": 2,
+          "why": "Human-readable product descriptions (Romaine Hearts 3ct Fresh\u2026)"
+        },
+        {
+          "canonical_slug": "ftl_category",
+          "confidence": 0.97,
+          "header": "Declared FTL Category",
+          "index": 3,
+          "why": "Explicitly declares the Food Traceability List category for each product"
+        },
+        {
+          "canonical_slug": "food_form",
+          "confidence": 0.7,
+          "header": "Storage",
+          "index": 4,
+          "why": "Storage condition (Refrigerated, Frozen, Ambient) is the closest match to food_form; no better slug exists"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.95,
+          "header": "Unit",
+          "index": 5,
+          "why": "Unit of measure for the product (case, lb)"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "master_products",
+      "sheet_name": "Item Catalog"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.85,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 1,
+          "why": "Sample values include 'Harvest Ref' label and H-01\u2026H-06 codes \u2014 harvest event identifiers"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.82,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 2,
+          "why": "Sample values include 'Crop Item' label and GTIN-style item codes"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.85,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 3,
+          "why": "Sample values include 'Crop Description' label and product names"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 4,
+          "why": "Sample values include 'Qty Harvested' label and numeric quantities"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 5,
+          "why": "Sample values include 'UOM' label and 'case' \u2014 unit of measure"
+        },
+        {
+          "canonical_slug": "harvest_date",
+          "confidence": 0.95,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 6,
+          "why": "Sample values include 'Date of Harvest' label and date values \u2014 harvest date KDE"
+        },
+        {
+          "canonical_slug": "farm_location",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 7,
+          "why": "Sample values include 'Farm' label and 'GreenAcre Home Farm' \u2014 farm location KDE"
+        },
+        {
+          "canonical_slug": "harvest_field_or_container",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 8,
+          "why": "Sample values include 'Field or Block' label and block/greenhouse identifiers \u2014 harvest field/container KDE"
+        },
+        {
+          "canonical_slug": "harvester_name",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 9,
+          "why": "Sample values include 'Crew Lead' label and person names \u2014 harvester name KDE"
+        },
+        {
+          "canonical_slug": "harvester_phone",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 10,
+          "why": "Sample values include 'Crew Phone' label and phone numbers \u2014 harvester phone KDE"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.78,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 11,
+          "why": "Sample values include 'Shipped To' label and 'Riverside Processing Plant' \u2014 destination of harvested food"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.82,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 12,
+          "why": "Sample values include 'Doc Type' label and 'Harvest ticket' \u2014 reference document type"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.85,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 13,
+          "why": "Sample values include 'Doc Ref' label and HT-3301\u2026HT-3306 \u2014 reference document numbers"
+        }
+      ],
+      "confidence": 0.93,
+      "record_kind": "cte_harvesting",
+      "sheet_name": "Harvest Log"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.88,
+          "header": "Cooling Ref",
+          "index": 1,
+          "why": "C-01\u2026C-03 are identifiers for each cooling event"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.9,
+          "header": "Item",
+          "index": 2,
+          "why": "GTIN-style item code identifying the product being cooled"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.9,
+          "header": "Description",
+          "index": 3,
+          "why": "Human-readable product description (Romaine Hearts 3ct Fresh)"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.95,
+          "header": "Qty",
+          "index": 4,
+          "why": "Numeric quantity of food cooled"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.95,
+          "header": "UOM",
+          "index": 5,
+          "why": "Unit of measure (case)"
+        },
+        {
+          "canonical_slug": "cooling_date",
+          "confidence": 0.98,
+          "header": "Cooling Date",
+          "index": 6,
+          "why": "Exact match to cooling_date KDE \u2014 date the food was cooled"
+        },
+        {
+          "canonical_slug": "cooling_location",
+          "confidence": 0.9,
+          "header": "Cooling Site",
+          "index": 7,
+          "why": "Location where cooling occurred \u2014 maps to cooling_location KDE"
+        },
+        {
+          "canonical_slug": "farm_location",
+          "confidence": 0.82,
+          "header": "Farm of Origin",
+          "index": 8,
+          "why": "Identifies the farm where the food originated \u2014 farm_location KDE"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.8,
+          "header": "Next Recipient",
+          "index": 9,
+          "why": "Name of the next recipient facility \u2014 destination location name"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.85,
+          "header": "Doc Type",
+          "index": 10,
+          "why": "Type of reference document (Cooling log)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.88,
+          "header": "Doc Ref",
+          "index": 11,
+          "why": "Reference document numbers (CL-901\u2026CL-903)"
+        }
+      ],
+      "confidence": 0.95,
+      "record_kind": "cte_cooling",
+      "sheet_name": "Cooling Register"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.88,
+          "header": "Pack Ref",
+          "index": 1,
+          "why": "P-01\u2026P-06 are identifiers for each packing event"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.92,
+          "header": "Item",
+          "index": 2,
+          "why": "GTIN-style item code identifying the product being packed"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.92,
+          "header": "Description",
+          "index": 3,
+          "why": "Human-readable product description"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.95,
+          "header": "Lot Assigned",
+          "index": 4,
+          "why": "Lot codes assigned at packing (2502140011\u2026) \u2014 the TLC for this initial packing event"
+        },
+        {
+          "canonical_slug": "quantity_packed",
+          "confidence": 0.9,
+          "header": "Qty Packed",
+          "index": 5,
+          "why": "Quantity of food packed \u2014 maps to quantity_packed for initial packing"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.95,
+          "header": "UOM",
+          "index": 6,
+          "why": "Unit of measure (case)"
+        },
+        {
+          "canonical_slug": "packing_date",
+          "confidence": 0.98,
+          "header": "Pack Date",
+          "index": 7,
+          "why": "Date the food was packed \u2014 exact match to packing_date KDE"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.82,
+          "header": "Packing Site",
+          "index": 8,
+          "why": "Location where packing occurred \u2014 actor/event location name"
+        },
+        {
+          "canonical_slug": "farm_location",
+          "confidence": 0.85,
+          "header": "Farm",
+          "index": 9,
+          "why": "Farm of origin for the packed food \u2014 farm_location KDE"
+        },
+        {
+          "canonical_slug": "harvest_field_or_container",
+          "confidence": 0.88,
+          "header": "Field or Block",
+          "index": 10,
+          "why": "Field/block identifier where the crop was grown \u2014 harvest field or container KDE"
+        },
+        {
+          "canonical_slug": "harvest_date",
+          "confidence": 0.92,
+          "header": "Harvest Date",
+          "index": 11,
+          "why": "Date the food was harvested \u2014 harvest_date KDE carried into packing record"
+        },
+        {
+          "canonical_slug": "received_date",
+          "confidence": 0.82,
+          "header": "Received Date",
+          "index": 12,
+          "why": "Date the harvested food was received at the packing site"
+        },
+        {
+          "canonical_slug": "harvester_name",
+          "confidence": 0.92,
+          "header": "Harvester Name",
+          "index": 13,
+          "why": "Name of the harvester \u2014 harvester_name KDE"
+        },
+        {
+          "canonical_slug": "harvester_phone",
+          "confidence": 0.92,
+          "header": "Harvester Phone",
+          "index": 14,
+          "why": "Phone number of the harvester \u2014 harvester_phone KDE"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.88,
+          "header": "Doc Type",
+          "index": 15,
+          "why": "Type of reference document (Pack ticket)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.9,
+          "header": "Doc Ref",
+          "index": 16,
+          "why": "Reference document numbers (PK-501\u2026PK-506)"
+        }
+      ],
+      "confidence": 0.95,
+      "record_kind": "cte_initial_packing",
+      "sheet_name": "Pack Out"
+    }
+  ],
+  "key": "5fd1eea5db0ad96a3233d4cc154617e181359ff5ee721fb777cff4b38df4e669",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping_call",
+  "request_sha256": "9cf88b32576294b75146da2b0279667a83ada9473c33742a4b337650cacbfca7"
+}

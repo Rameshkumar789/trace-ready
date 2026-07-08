@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.95,
+      "declared_category": "General grocery",
+      "declared_negative": false,
+      "matched_commodity": null,
+      "mismatch": false,
+      "product_id": "10860004520075",
+      "reasoning": "Dried oregano is a dried/shelf-stable herb, not a fresh herb; the FTL 'Herbs (fresh)' commodity covers only fresh herbs, and dried herbs are not on the list.",
+      "tier": "definite_off"
+    }
+  ],
+  "key": "2e7c3fc8c7fee5442d83a4382cb3756e6be9b5e842e6549c5617387ad5dfd061",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

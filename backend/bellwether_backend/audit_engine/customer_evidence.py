@@ -891,6 +891,7 @@ def build_customer_event_graph(
     line_rows: list[dict[str, Any]] = []
     standalone_rows: list[dict[str, Any]] = []
 
+    demoted_event_ids: set[str] = set()
     for row in row_facts.values():
         facts = row["facts"]
         sheet = row["sheet"]
@@ -898,7 +899,18 @@ def build_customer_event_graph(
             # Master-data / plan / reference sheets never mint events regardless of shape.
             continue
         if _first(facts, "event_id") and ("cte_events" in _slug(sheet) or _first(facts, "event_type")):
-            base_events[_first(facts, "event_id")] = row
+            event_id = _first(facts, "event_id")
+            # Distinct rows that SHARE an event id (a batch number producing several
+            # output SKUs, a shipment ref spanning several lines) are per-line records,
+            # not one event - keeping only the last would silently drop the others.
+            if event_id in demoted_event_ids:
+                line_rows.append(row)
+            elif event_id in base_events:
+                demoted_event_ids.add(event_id)
+                line_rows.append(base_events.pop(event_id))
+                line_rows.append(row)
+            else:
+                base_events[event_id] = row
         elif _first(facts, "event_id") and (_first(facts, "product_name") or _first(facts, "product_id") or "line_items" in _slug(sheet)):
             line_rows.append(row)
         elif _looks_like_event_row(facts):
@@ -1457,6 +1469,10 @@ def _detect_header_row(rows: list[list[Any]]) -> int:
         if not non_empty:
             continue
         if len(non_empty) <= 1 and index + 1 < len(rows):
+            continue
+        # A merged banner/title propagated across the row reads as N copies of one value -
+        # never a header row (real headers are distinct per column).
+        if len(non_empty) > 1 and len(set(non_empty)) == 1:
             continue
         alias_hits = sum(1 for value in non_empty if _header_key(value) in FIELD_ALIASES or _slug(value) in FIELD_ALIASES)
         short_header_like = sum(1 for value in non_empty if len(value) <= 45 and not _parse_date_string(value))

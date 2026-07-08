@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter, OrderedDict, defaultdict
 from functools import lru_cache
 from pathlib import Path
@@ -706,7 +707,15 @@ def check_traceability_plan(
     plan_components_file: Path | None = None,
 ) -> list[TraceabilityPlanCheck]:
     obligation = _find_obligation_by_cte(approved_obligations, "traceability_plan")
-    plan_records = [record for record in phase10.evidence_records if record.sheet_name == "04_Traceability_Plan"]
+    # Select plan rows by their mapped canonical field, not by a hardcoded sheet name:
+    # customer workbooks name the plan sheet anything ("Traceability plan", "Trace Plan"),
+    # and matching on the demo template's "04_Traceability_Plan" made every component read
+    # as missing even when the customer had answered it.
+    plan_records = [
+        record
+        for record in phase10.evidence_records
+        if record.field_key in ("traceability_plan_item", "traceability_plan_answer")
+    ]
 
     # Reconstruct plan rows (item -> answer). A component is only "present" if its row
     # exists AND its answer cell is actually filled in. The previous logic matched on the
@@ -715,9 +724,9 @@ def check_traceability_plan(
     # duplicate, so blank/placeholder answers must surface as gaps.
     rows: "OrderedDict[Any, dict[str, Any]]" = OrderedDict()
     for record in plan_records:
-        row = rows.setdefault(record.row_number, {"item": None, "answer": "", "evidence_ids": []})
+        row = rows.setdefault((record.sheet_name, record.row_number), {"item": None, "answer": "", "evidence_ids": []})
         if record.field_key == "traceability_plan_item":
-            row["item"] = record.normalized_value.strip().lower()
+            row["item"] = _normalize_plan_text(record.normalized_value)
         elif record.field_key == "traceability_plan_answer":
             row["answer"] = record.normalized_value.strip()
         _extend_unique(row["evidence_ids"], [record.evidence_id])
@@ -728,7 +737,8 @@ def check_traceability_plan(
         component = spec["component"]
         terms = spec.get("match_terms", [])
         farm_only = bool(spec.get("farm_only"))
-        matching_rows = [row for row in rows.values() if row["item"] and any(term in row["item"] for term in terms)]
+        normalized_terms = [_normalize_plan_text(term) for term in terms]
+        matching_rows = [row for row in rows.values() if row["item"] and any(term in row["item"] for term in normalized_terms)]
         answered_rows = [row for row in matching_rows if _is_answered(row["answer"])]
         evidence_ids: list[str] = []
         for row in matching_rows:
@@ -780,6 +790,13 @@ _PLACEHOLDER_VALUES = {
 
 def _is_answered(value: str) -> bool:
     return value.strip().lower() not in _PLACEHOLDER_VALUES
+
+
+def _normalize_plan_text(value: str) -> str:
+    """Lowercase and treat underscores/extra whitespace as single spaces so template tokens
+    ("tlc_assignment_procedure") and plain-English plan rows ("TLC assignment procedure")
+    match the same component terms."""
+    return re.sub(r"[\s_]+", " ", value.strip().lower())
 
 
 def _real_value(value: str | None) -> str | None:

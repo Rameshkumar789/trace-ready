@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.9,
+          "header": "Company Ref",
+          "index": 1,
+          "why": "Short reference codes (BPL-001, GAF-002\u2026) uniquely identify each business entity"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.97,
+          "header": "Legal Name",
+          "index": 2,
+          "why": "Full legal names of business entities map directly to company_name"
+        },
+        {
+          "canonical_slug": "business_type",
+          "confidence": 0.85,
+          "header": "Role",
+          "index": 3,
+          "why": "Describes each entity's role (Operator, Supplier, Customer) \u2014 business type"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 0.8,
+          "header": "City",
+          "index": 4,
+          "why": "Contains city+state combined values; best fit is city (state is embedded but no separate column)"
+        }
+      ],
+      "confidence": 0.88,
+      "record_kind": "master_business",
+      "sheet_name": "Company Register"
+    }
+  ],
+  "key": "6edff6f32837710ea0b6221c4caa6279aa903a427d2d88def3303466b7fb97cd",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

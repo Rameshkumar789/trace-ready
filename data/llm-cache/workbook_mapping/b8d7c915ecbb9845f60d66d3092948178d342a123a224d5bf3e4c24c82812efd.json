@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.97,
+          "header": "Item Code",
+          "index": 1,
+          "why": "14-digit GTIN-style codes uniquely identifying each product/SKU"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.97,
+          "header": "Item Description",
+          "index": 2,
+          "why": "Human-readable product descriptions (Romaine Hearts 3ct Fresh\u2026)"
+        },
+        {
+          "canonical_slug": "ftl_category",
+          "confidence": 0.97,
+          "header": "Declared FTL Category",
+          "index": 3,
+          "why": "Explicitly declares the Food Traceability List category for each product"
+        },
+        {
+          "canonical_slug": "food_form",
+          "confidence": 0.7,
+          "header": "Storage",
+          "index": 4,
+          "why": "Storage condition (Refrigerated, Frozen, Ambient) is the closest match to food_form; no better slug exists"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.95,
+          "header": "Unit",
+          "index": 5,
+          "why": "Unit of measure for the product (case, lb)"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "master_products",
+      "sheet_name": "Item Catalog"
+    }
+  ],
+  "key": "b8d7c915ecbb9845f60d66d3092948178d342a123a224d5bf3e4c24c82812efd",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

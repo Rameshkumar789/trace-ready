@@ -408,11 +408,14 @@ def derived_records_for_row(
     derived: list["CustomerEvidenceRecord"] = []
 
     def emit(field_key: str, value: str, source: "CustomerEvidenceRecord", method: str) -> None:
-        derived.append(_derived_record(source=source, anchor=anchor, field_key=field_key, value=value, method=method, confidence=max(sheet_plan.confidence, 0.7)))
+        record = _derived_record(source=source, anchor=anchor, field_key=field_key, value=value, method=method, confidence=max(sheet_plan.confidence, 0.7))
+        derived.append(record)
+        facts.setdefault(field_key, record)
 
-    # 1. event_type from the sheet kind, only when the row carries no structured signal of
-    #    its own (protects workbooks that already have event_type/event_id columns).
-    if "event_type" not in facts and "event_id" not in facts:
+    # 1. event_type from the sheet kind when the row doesn't declare one. An event_id/ref
+    #    column says nothing about the CTE type, so it must not suppress this - a "Harvest
+    #    Ref" column would otherwise strand every harvest row unclassified.
+    if "event_type" not in facts:
         emit("event_type", RECORD_KIND_TO_CTE[sheet_plan.record_kind], anchor, "derived_sheet_kind")
 
     # 2. best event date (plan priority first; any known date slug as the safety net so a
@@ -440,17 +443,38 @@ def derived_records_for_row(
         if "traceability_lot_code" in facts and "output_lot_or_tlc" not in facts:
             emit("output_lot_or_tlc", facts["traceability_lot_code"].normalized_value, facts["traceability_lot_code"], "derived_lot_role")
 
-    # 5. partner links from source/destination locations (direction depends on the CTE)
-    if sheet_plan.record_kind == "cte_shipping":
-        if "destination_location_id" in facts and "to_partner_id" not in facts:
-            emit("to_partner_id", facts["destination_location_id"].normalized_value, facts["destination_location_id"], "derived_location_partner")
-        if "source_location_id" in facts and "actor_location_id" not in facts and "location_id" not in facts:
-            emit("actor_location_id", facts["source_location_id"].normalized_value, facts["source_location_id"], "derived_location_partner")
+    # 5. partner links from source/destination locations (direction depends on the CTE).
+    #    The mapper may land these on the *_location_id OR *_location_name slug depending
+    #    on the template ("Customer", "Ship From", "Next Recipient" columns) - either one
+    #    identifies the party for lineage and the partner scorecard.
+    def _location_fact(prefix: str) -> "CustomerEvidenceRecord | None":
+        for slug in (f"{prefix}_location_id", f"{prefix}_location_name"):
+            if slug in facts:
+                return facts[slug]
+        return None
+
+    source_loc = _location_fact("source")
+    destination_loc = _location_fact("destination")
+    if sheet_plan.record_kind in ("cte_shipping", "cte_harvesting", "cte_cooling", "cte_initial_packing"):
+        if destination_loc is not None and "to_partner_id" not in facts:
+            emit("to_partner_id", destination_loc.normalized_value, destination_loc, "derived_location_partner")
+        if source_loc is not None and "actor_location_id" not in facts and "location_id" not in facts:
+            emit("actor_location_id", source_loc.normalized_value, source_loc, "derived_location_partner")
     elif sheet_plan.record_kind == "cte_receiving":
-        if "source_location_id" in facts and "from_partner_id" not in facts:
-            emit("from_partner_id", facts["source_location_id"].normalized_value, facts["source_location_id"], "derived_location_partner")
-        if "destination_location_id" in facts and "actor_location_id" not in facts and "location_id" not in facts:
-            emit("actor_location_id", facts["destination_location_id"].normalized_value, facts["destination_location_id"], "derived_location_partner")
+        if source_loc is not None and "from_partner_id" not in facts:
+            emit("from_partner_id", source_loc.normalized_value, source_loc, "derived_location_partner")
+        if destination_loc is not None and "actor_location_id" not in facts and "location_id" not in facts:
+            emit("actor_location_id", destination_loc.normalized_value, destination_loc, "derived_location_partner")
+
+    # 6. the event's own site: KDE contracts read actor_location_id/location_id, but many
+    #    templates carry the site as a name column ("Packing Site", "Production Site",
+    #    "Receiver") that maps to location_name / cooling_location. Promote it so a named
+    #    site satisfies the location KDEs exactly like an ID would.
+    if "actor_location_id" not in facts and "location_id" not in facts:
+        for slug in ("location_name", "cooling_location"):
+            if slug in facts:
+                emit("actor_location_id", facts[slug].normalized_value, facts[slug], "derived_location_partner")
+                break
 
     return derived
 
@@ -464,7 +488,11 @@ def _derived_record(*, source, anchor, field_key: str, value: str, method: str, 
         _slug,
     )
 
-    normalized = _normalize_value(value, field_key=field_key)
+    # Partner links derived from a *name* column must keep their display form -
+    # normalizing "Metro Grocers Inc" under an _id key would squash it to
+    # METROGROCERSINC on the scorecard. Normalize under the SOURCE field's rules.
+    normalize_key = source.field_key if method == "derived_location_partner" else field_key
+    normalized = _normalize_value(value, field_key=normalize_key)
     evidence_id = f"{anchor.evidence_id}-d-{_slug(field_key)}"
     pointer = EvidenceSourcePointer(
         file_name=source.source_pointer.file_name,

@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.99,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": "Nut butters",
+      "mismatch": false,
+      "product_id": "10860004520068",
+      "reasoning": "Creamy peanut butter is explicitly listed as an included example under the FTL 'Nut butters' commodity, and the FTL covers all forms including shelf-stable products, so the 40lb pail format does not affect classification.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "59a99240277142323816148ce08c13f67483f3c16aea29d4e5852e00fe55ba6c",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

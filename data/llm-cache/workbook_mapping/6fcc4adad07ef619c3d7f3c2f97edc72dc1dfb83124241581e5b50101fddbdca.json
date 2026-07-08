@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.75,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 1,
+          "why": "Sample values include 'Batch No' label and batch IDs (B-0315, B-0410, etc.) \u2014 transformation event identifier"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.8,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 2,
+          "why": "Sample values include 'Output Item' label and GTIN-style codes for produced products"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 3,
+          "why": "Sample values include 'Output Description' label and produced product names"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.9,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 4,
+          "why": "Sample values include 'New Lot' label and newly assigned lot codes for produced foods"
+        },
+        {
+          "canonical_slug": "source_lot_or_tlc",
+          "confidence": 0.82,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 5,
+          "why": "Sample values include 'Primary Input Lot' label \u2014 references the input lot consumed to make this output"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 6,
+          "why": "Sample values include 'Qty Produced' label and numeric quantities produced"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 7,
+          "why": "Sample values include 'UOM' label and 'case'"
+        },
+        {
+          "canonical_slug": "transformation_date",
+          "confidence": 0.92,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 8,
+          "why": "Sample values include 'Production Date' label and production dates \u2014 transformation KDE"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 9,
+          "why": "Sample values include 'Production Site' label and facility name where transformation occurred"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 10,
+          "why": "Sample values include 'Doc Type' label and 'Batch record'"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.85,
+          "header": "PRODUCTION BATCHES \u2014 OUTPUTS",
+          "index": 11,
+          "why": "Sample values include 'Doc Ref' label and batch record reference numbers"
+        }
+      ],
+      "confidence": 0.96,
+      "record_kind": "cte_transformation_output",
+      "sheet_name": "Production Batches"
+    }
+  ],
+  "key": "6fcc4adad07ef619c3d7f3c2f97edc72dc1dfb83124241581e5b50101fddbdca",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

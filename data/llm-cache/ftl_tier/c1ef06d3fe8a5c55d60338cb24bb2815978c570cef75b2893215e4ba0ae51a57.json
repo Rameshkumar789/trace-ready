@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.95,
+      "declared_category": "Cheese (made from pasteurized milk), soft ripened or semi-soft",
+      "declared_negative": false,
+      "matched_commodity": null,
+      "mismatch": false,
+      "product_id": "10860004520044",
+      "reasoning": "The FTL explicitly excludes cheeses that are frozen or previously frozen from the soft ripened/semi-soft cheese commodity; this product is described as frozen brie, so it does not qualify.",
+      "tier": "definite_off"
+    }
+  ],
+  "key": "c1ef06d3fe8a5c55d60338cb24bb2815978c570cef75b2893215e4ba0ae51a57",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}
