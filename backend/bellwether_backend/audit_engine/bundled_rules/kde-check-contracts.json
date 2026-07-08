@@ -1,6 +1,6 @@
 {
- "_comment": "Executable KDE check contracts: the FULL FSMA 204 KDE list per CTE, each mapped to the canonical customer field(s) the engine reads (satisfied_by = any-of). Fields come from the structured event/line-item sheets OR are promoted from the customer's 07_KDE_Values rows by field_key, so KDEs the workbook actually carries (source references, harvest origin) feed the check. This replaces the hardcoded KDE_CONTRACTS and is reviewable data, not code. 'required' = a real gap if absent; 'conditional' = credited when present, never failed when absent. Severity 'high' = TLC; 'medium' = other KDEs. v-bump: 2026-07-07 accuracy audit - tlc_source required on shipping/receiving (1.1340(a)(7)/1.1345(a)(7)); initial-packing TLC-source location, harvest/received date+qty (1.1330(a)); FLR receiver location (1.1335(e)); cooling harvest-farm (1.1325(b)(1)(vi)); field/container required (1.1325(a)(1)(v)/(vi)); harvester contact (1.1325(a)(2)); sprouts seed KDEs conditional (1.1330(b)). Per-input transformation detail (1.1350(a)(1)(ii)/(iii)) is enforced by the transformation_linkage lot check, not per-event KDEs.",
- "version": 2,
+ "_comment": "Executable KDE check contracts: the FULL FSMA 204 KDE list per CTE, each mapped to the canonical customer field(s) the engine reads (satisfied_by = any-of). Fields come from the structured event/line-item sheets OR are promoted from the customer's 07_KDE_Values rows by field_key, so KDEs the workbook actually carries (source references, harvest origin) feed the check. This replaces the hardcoded KDE_CONTRACTS and is reviewable data, not code. 'required' = a real gap if absent; 'conditional' = credited when present, never failed when absent. Severity 'high' = TLC; 'medium' = other KDEs. v-bump: 2026-07-07 accuracy audit - tlc_source required on shipping/receiving (1.1340(a)(7)/1.1345(a)(7)); initial-packing TLC-source location, harvest/received date+qty (1.1330(a)); FLR receiver location (1.1335(e)); cooling harvest-farm (1.1325(b)(1)(vi)); field/container required (1.1325(a)(1)(v)/(vi)); harvester contact (1.1325(a)(2)); sprouts seed KDEs conditional (1.1330(b)). Per-input transformation detail (1.1350(a)(1)(ii)/(iii)) is enforced by the transformation_linkage lot check, not per-event KDEs. v3: transformation/cooling location KDEs also satisfied by location_id (the mapper's natural target for 'Transformation Location ID' columns) - fixes a false 'missing transformation location' on exports that carry the column.",
+ "version": 3,
  "cte_contracts": {
   "shipping": {
    "citation_section": "21 CFR 1.1340",
@@ -227,7 +227,8 @@
      "kde": "transformation_location",
      "label": "location where you transformed the food (TLC source)",
      "satisfied_by": [
-      "actor_location_id"
+      "actor_location_id",
+      "location_id"
      ],
      "requirement": "required",
      "severity": "medium"
@@ -684,7 +685,8 @@
      "kde": "cooling_location",
      "label": "location where you cooled the food",
      "satisfied_by": [
-      "actor_location_id"
+      "actor_location_id",
+      "location_id"
      ],
      "requirement": "required",
      "severity": "medium"

@@ -1111,6 +1111,9 @@ def generate_audit_findings(
                 _extend_unique(evidence_ids, group["evidence_ids"][:5])
             obligation = approved_obligations.get(grouped[0]["obligation_id"]) or fallback_obligation
             base_message = _record_gap_message(cte, missing_fields, is_tlc_root).rstrip(".")
+            # The friendly CTE label already ends in "record" - don't say "record records".
+            plural_label = _cte_label(cte).lower()
+            plural_label = plural_label[: -len(" record")] if plural_label.endswith(" record") else plural_label
             findings.append(
                 _finding(
                     findings,
@@ -1120,7 +1123,7 @@ def generate_audit_findings(
                     status="gap",
                     finding_type=finding_type,
                     message=(
-                        f"Systemic gap across {len(grouped)} {_cte_label(cte).lower()} records: "
+                        f"Systemic gap across {len(grouped)} {plural_label} records: "
                         f"{base_message[0].lower()}{base_message[1:]}. This repeats on every affected "
                         "record, which points at the source system/template rather than data entry."
                     ),
