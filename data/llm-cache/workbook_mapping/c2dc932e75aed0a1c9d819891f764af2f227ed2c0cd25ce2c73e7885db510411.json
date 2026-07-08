@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "lineage_id",
+          "confidence": 1.0,
+          "header": "lineage_id",
+          "index": 1,
+          "why": "Exact match to canonical slug lineage_id"
+        },
+        {
+          "canonical_slug": "relationship_type",
+          "confidence": 1.0,
+          "header": "relationship_type",
+          "index": 2,
+          "why": "Exact match to canonical slug relationship_type; sample 'received_to_transformed' confirms TLC lineage relationship"
+        },
+        {
+          "canonical_slug": "source_lot_or_tlc",
+          "confidence": 0.9,
+          "header": "source_lot_or_tlc",
+          "index": 3,
+          "why": "Exact match to canonical slug source_lot_or_tlc; represents the originating lot in the lineage chain"
+        },
+        {
+          "canonical_slug": "target_lot_or_tlc",
+          "confidence": 1.0,
+          "header": "target_lot_or_tlc",
+          "index": 4,
+          "why": "Exact match to canonical slug target_lot_or_tlc; sample TLC-PESTO-1 confirms output lot reference"
+        },
+        {
+          "canonical_slug": "lineage_status",
+          "confidence": 1.0,
+          "header": "lineage_status",
+          "index": 5,
+          "why": "Exact match to canonical slug lineage_status; sample 'gap' confirms lineage tracking status"
+        }
+      ],
+      "confidence": 0.75,
+      "record_kind": "lot_assignment",
+      "sheet_name": "08_TLC_Lineage"
+    }
+  ],
+  "key": "c2dc932e75aed0a1c9d819891f764af2f227ed2c0cd25ce2c73e7885db510411",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

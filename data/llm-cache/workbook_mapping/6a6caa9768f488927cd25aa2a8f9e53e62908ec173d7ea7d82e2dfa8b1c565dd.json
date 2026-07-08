@@ -1,142 +1,141 @@
 {
-  "created_at": "2026-07-07T06:41:47.924666+00:00",
   "items": [
     {
       "columns": [
         {
           "canonical_slug": "product_id",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "ProductID",
           "index": 1,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Product identifier"
         },
         {
           "canonical_slug": "product_name",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "ProductTitle",
           "index": 2,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Product name/description"
         },
         {
           "canonical_slug": "commodity",
-          "confidence": 0.9,
+          "confidence": 0.85,
           "header": "Comodity",
           "index": 3,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Misspelled 'Commodity' \u2014 maps to commodity slug"
         },
         {
           "canonical_slug": "variety",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Variety",
           "index": 4,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Exact match to variety slug"
         },
         {
           "canonical_slug": "quantity",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Quantity",
           "index": 5,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Quantity received"
         },
         {
           "canonical_slug": "unit",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Measure Unit",
           "index": 6,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Unit of measure for the quantity"
         },
         {
           "canonical_slug": "traceability_lot_code",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "LOT Number",
           "index": 7,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Lot number of the food received \u2014 the TLC for this receiving event"
         },
         {
           "canonical_slug": "received_date",
-          "confidence": 0.9,
+          "confidence": 0.98,
           "header": "Receiving Date",
           "index": 8,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Matches 'received date' example header for received_date"
         },
         {
           "canonical_slug": "source_location_id",
-          "confidence": 0.9,
+          "confidence": 0.98,
           "header": "Source Location ID",
           "index": 9,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Location the food was shipped from (ship-from)"
         },
         {
           "canonical_slug": "source_location_name",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Source Location Description",
           "index": 10,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Name of the source/ship-from location"
         },
         {
           "canonical_slug": "destination_location_id",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Destination Location ID",
           "index": 11,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Location where the food was received (receiving facility)"
         },
         {
           "canonical_slug": "destination_location_name",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Destination Location Description",
           "index": 12,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Name of the receiving/destination location"
         },
         {
           "canonical_slug": "reference_record_type",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Ref. Document Type",
           "index": 13,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Matches 'ref. document type' example header"
         },
         {
           "canonical_slug": "reference_record_no",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Ref. Document Number",
           "index": 14,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Matches 'ref. document number' example header"
         },
         {
           "canonical_slug": "business_id",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Business ID",
           "index": 15,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Exact match to business_id slug"
         },
         {
           "canonical_slug": "company_name",
           "confidence": 0.9,
           "header": "Business description",
           "index": 16,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Matches 'business description' example header for company_name"
         },
         {
           "canonical_slug": "phone_number",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Phone Number",
           "index": 17,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Exact match to phone_number slug"
         },
         {
           "canonical_slug": "email",
-          "confidence": 0.9,
+          "confidence": 0.98,
           "header": "email",
           "index": 18,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Exact match to email slug"
         }
       ],
-      "confidence": 0.9,
+      "confidence": 0.97,
       "record_kind": "cte_receiving",
       "sheet_name": "Receiving KDEs"
     }
   ],
   "key": "6a6caa9768f488927cd25aa2a8f9e53e62908ec173d7ea7d82e2dfa8b1c565dd",
-  "method": "hand_authored_pending_llm",
+  "method": "llm_cached",
   "model": null,
   "namespace": "workbook_mapping",
   "request_sha256": ""

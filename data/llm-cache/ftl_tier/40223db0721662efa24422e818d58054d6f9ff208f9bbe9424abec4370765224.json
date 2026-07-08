@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.99,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": "Crustaceans",
+      "mismatch": false,
+      "product_id": "04598767001126",
+      "reasoning": "White shrimp (head-off, tails-on) is still a crustacean species covered by the FTL in all fresh, frozen, and previously frozen forms; minimal processing such as heading does not remove it from scope.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "40223db0721662efa24422e818d58054d6f9ff208f9bbe9424abec4370765224",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.99,
+      "declared_category": "Crustaceans",
+      "declared_negative": false,
+      "matched_commodity": "Crustaceans",
+      "mismatch": false,
+      "product_id": "04598767001287",
+      "reasoning": "White Shrimp PAD Fan Tail 31/35 is a peeled-and-deveined shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "544d041dc1595b215911aa3d7baa936c4a84adcc2a6259997926b98c61a12508",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

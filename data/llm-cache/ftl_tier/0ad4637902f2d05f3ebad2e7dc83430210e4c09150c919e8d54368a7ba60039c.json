@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.99,
+      "declared_category": "Crustaceans",
+      "declared_negative": false,
+      "matched_commodity": "Crustaceans",
+      "mismatch": false,
+      "product_id": "04598767001201",
+      "reasoning": "White Shrimp Head Off Tails 61/70 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "0ad4637902f2d05f3ebad2e7dc83430210e4c09150c919e8d54368a7ba60039c",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

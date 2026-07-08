@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.99,
+      "declared_category": "Crustaceans",
+      "declared_negative": false,
+      "matched_commodity": "Crustaceans",
+      "mismatch": false,
+      "product_id": "04598767001072",
+      "reasoning": "White Shrimp Head on 31/35 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "a49397f7e455fe08df8d2b4cf4185571fbb1d627ba6ab38cbf2e1480951b6894",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

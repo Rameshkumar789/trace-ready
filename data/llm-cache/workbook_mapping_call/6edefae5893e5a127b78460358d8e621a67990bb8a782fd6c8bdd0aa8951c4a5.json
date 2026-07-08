@@ -1,0 +1,226 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "business_id",
+          "confidence": 1.0,
+          "header": "business_id",
+          "index": 1,
+          "why": "Exact match to canonical slug business_id"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 1.0,
+          "header": "company_name",
+          "index": 2,
+          "why": "Exact match to canonical slug company_name"
+        },
+        {
+          "canonical_slug": "business_type",
+          "confidence": 1.0,
+          "header": "business_type",
+          "index": 3,
+          "why": "Exact match to canonical slug business_type"
+        },
+        {
+          "canonical_slug": "handles_ftl_foods",
+          "confidence": 1.0,
+          "header": "handles_ftl_foods",
+          "index": 4,
+          "why": "Exact match to canonical slug handles_ftl_foods"
+        },
+        {
+          "canonical_slug": "covered_entity_status",
+          "confidence": 1.0,
+          "header": "covered_entity_status",
+          "index": 5,
+          "why": "Exact match to canonical slug covered_entity_status"
+        }
+      ],
+      "confidence": 0.98,
+      "record_kind": "master_business",
+      "sheet_name": "00_Business_Profile"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 1.0,
+          "header": "product_id",
+          "index": 1,
+          "why": "Exact match to canonical slug product_id"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 1.0,
+          "header": "product_name",
+          "index": 2,
+          "why": "Exact match to canonical slug product_name"
+        },
+        {
+          "canonical_slug": "ftl_category",
+          "confidence": 0.85,
+          "header": "ftl_food_category",
+          "index": 3,
+          "why": "Header describes FTL food category; maps to ftl_category slug"
+        },
+        {
+          "canonical_slug": "is_ftl_maybe",
+          "confidence": 1.0,
+          "header": "is_ftl_maybe",
+          "index": 4,
+          "why": "Exact match to canonical slug is_ftl_maybe"
+        }
+      ],
+      "confidence": 0.98,
+      "record_kind": "master_products",
+      "sheet_name": "01_Product_Master"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "location_id",
+          "confidence": 1.0,
+          "header": "location_id",
+          "index": 1,
+          "why": "Exact match to canonical slug location_id"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 1.0,
+          "header": "location_name",
+          "index": 2,
+          "why": "Exact match to canonical slug location_name"
+        },
+        {
+          "canonical_slug": "location_type",
+          "confidence": 1.0,
+          "header": "location_type",
+          "index": 3,
+          "why": "Exact match to canonical slug location_type"
+        }
+      ],
+      "confidence": 0.98,
+      "record_kind": "master_locations",
+      "sheet_name": "02_Location_Master"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "partner_id",
+          "confidence": 1.0,
+          "header": "partner_id",
+          "index": 1,
+          "why": "Exact match to canonical slug partner_id"
+        },
+        {
+          "canonical_slug": "partner_name",
+          "confidence": 1.0,
+          "header": "partner_name",
+          "index": 2,
+          "why": "Exact match to canonical slug partner_name"
+        },
+        {
+          "canonical_slug": "partner_type",
+          "confidence": 1.0,
+          "header": "partner_type",
+          "index": 3,
+          "why": "Exact match to canonical slug partner_type"
+        },
+        {
+          "canonical_slug": "partner_relationship",
+          "confidence": 0.9,
+          "header": "relationship",
+          "index": 4,
+          "why": "Header 'relationship' matches example_header 'relationship' for partner_relationship slug"
+        }
+      ],
+      "confidence": 0.98,
+      "record_kind": "master_partners",
+      "sheet_name": "03_Partner_Master"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "traceability_plan_item",
+          "confidence": 1.0,
+          "header": "plan_item",
+          "index": 1,
+          "why": "Header 'plan_item' matches example_header for traceability_plan_item slug"
+        },
+        {
+          "canonical_slug": "traceability_plan_answer",
+          "confidence": 1.0,
+          "header": "answer",
+          "index": 2,
+          "why": "Header 'answer' matches example_header for traceability_plan_answer slug"
+        },
+        {
+          "canonical_slug": "source_document_id",
+          "confidence": 0.85,
+          "header": "evidence_id",
+          "index": 3,
+          "why": "Header 'evidence_id' matches example_header 'evidence_id' for source_document_id slug"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "traceability_plan",
+      "sheet_name": "04_Traceability_Plan"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 1.0,
+          "header": "event_id",
+          "index": 1,
+          "why": "Exact match to canonical slug event_id"
+        },
+        {
+          "canonical_slug": "event_type",
+          "confidence": 1.0,
+          "header": "event_type",
+          "index": 2,
+          "why": "Exact match to canonical slug event_type; samples confirm mixed CTE types (receiving, transformation, shipping)"
+        },
+        {
+          "canonical_slug": "event_datetime",
+          "confidence": 1.0,
+          "header": "event_datetime",
+          "index": 3,
+          "why": "Exact match to canonical slug event_datetime"
+        },
+        {
+          "canonical_slug": "actor_location_id",
+          "confidence": 1.0,
+          "header": "actor_location_id",
+          "index": 4,
+          "why": "Exact match to canonical slug actor_location_id"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 1.0,
+          "header": "reference_record_type",
+          "index": 5,
+          "why": "Exact match to canonical slug reference_record_type"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 1.0,
+          "header": "reference_record_no",
+          "index": 6,
+          "why": "Exact match to canonical slug reference_record_no"
+        }
+      ],
+      "confidence": 0.82,
+      "record_kind": "kde_reference",
+      "sheet_name": "05_CTE_Events"
+    }
+  ],
+  "key": "6edefae5893e5a127b78460358d8e621a67990bb8a782fd6c8bdd0aa8951c4a5",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping_call",
+  "request_sha256": "ec52526ebf9d0836c0c417fcde0c45e816ab7e38fde3fc9ac00ec43214f4a90c"
+}

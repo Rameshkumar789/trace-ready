@@ -43,9 +43,9 @@
       "sheet_name": "Traceability plan"
     }
   ],
-  "key": "2a2ac65c59dc41f663dfa962983caad950276630f1beb06eaa06a28fc7bbfa9a",
-  "method": "llm_cached",
-  "model": null,
-  "namespace": "workbook_mapping",
-  "request_sha256": ""
+  "key": "86cb45cae6fb17ab934ec1c6fff9274f8e0e6c52f975dee510839f3fe9bc6138",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping_call",
+  "request_sha256": "a59f5426ce5c7177508444b19d399ee1a24f1c9a762ef348f62ca71b11b37299"
 }

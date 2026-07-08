@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.99,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": "Crustaceans",
+      "mismatch": false,
+      "product_id": "04598767001027",
+      "reasoning": "White shrimp is explicitly listed as an included example of crustaceans on the FTL, and the FTL covers fresh, frozen, and previously frozen forms. Head-on presentation does not affect classification.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "d75aec7edbb33f7a0c9ad7e06fc6511f82b7d4d981fcb16f3f1761001d6eb738",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

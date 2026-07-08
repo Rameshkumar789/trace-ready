@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "business_id",
+          "confidence": 1.0,
+          "header": "business_id",
+          "index": 1,
+          "why": "Exact match to canonical slug business_id"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 1.0,
+          "header": "company_name",
+          "index": 2,
+          "why": "Exact match to canonical slug company_name"
+        },
+        {
+          "canonical_slug": "business_type",
+          "confidence": 1.0,
+          "header": "business_type",
+          "index": 3,
+          "why": "Exact match to canonical slug business_type"
+        },
+        {
+          "canonical_slug": "handles_ftl_foods",
+          "confidence": 1.0,
+          "header": "handles_ftl_foods",
+          "index": 4,
+          "why": "Exact match to canonical slug handles_ftl_foods"
+        },
+        {
+          "canonical_slug": "covered_entity_status",
+          "confidence": 1.0,
+          "header": "covered_entity_status",
+          "index": 5,
+          "why": "Exact match to canonical slug covered_entity_status"
+        }
+      ],
+      "confidence": 0.98,
+      "record_kind": "master_business",
+      "sheet_name": "00_Business_Profile"
+    }
+  ],
+  "key": "11a2a188dae52f58448dcb1349aafa318c9bd8d08496f3b0da24a0240f0af337",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

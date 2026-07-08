@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "partner_id",
+          "confidence": 1.0,
+          "header": "partner_id",
+          "index": 1,
+          "why": "Exact match to canonical slug partner_id"
+        },
+        {
+          "canonical_slug": "partner_name",
+          "confidence": 1.0,
+          "header": "partner_name",
+          "index": 2,
+          "why": "Exact match to canonical slug partner_name"
+        },
+        {
+          "canonical_slug": "partner_type",
+          "confidence": 1.0,
+          "header": "partner_type",
+          "index": 3,
+          "why": "Exact match to canonical slug partner_type"
+        },
+        {
+          "canonical_slug": "partner_relationship",
+          "confidence": 0.9,
+          "header": "relationship",
+          "index": 4,
+          "why": "Header 'relationship' matches example_header 'relationship' for partner_relationship slug"
+        }
+      ],
+      "confidence": 0.98,
+      "record_kind": "master_partners",
+      "sheet_name": "03_Partner_Master"
+    }
+  ],
+  "key": "a4ee1480cc25ef80e8cd4125c650d776f60d8738f46663006d80487aef0a76cb",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

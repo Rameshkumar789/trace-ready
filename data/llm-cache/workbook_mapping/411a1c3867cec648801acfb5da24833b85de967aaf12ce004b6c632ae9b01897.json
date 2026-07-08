@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "traceability_plan_item",
+          "confidence": 1.0,
+          "header": "plan_item",
+          "index": 1,
+          "why": "Header 'plan_item' matches example_header for traceability_plan_item slug"
+        },
+        {
+          "canonical_slug": "traceability_plan_answer",
+          "confidence": 1.0,
+          "header": "answer",
+          "index": 2,
+          "why": "Header 'answer' matches example_header for traceability_plan_answer slug"
+        },
+        {
+          "canonical_slug": "source_document_id",
+          "confidence": 0.85,
+          "header": "evidence_id",
+          "index": 3,
+          "why": "Header 'evidence_id' matches example_header 'evidence_id' for source_document_id slug"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "traceability_plan",
+      "sheet_name": "04_Traceability_Plan"
+    }
+  ],
+  "key": "411a1c3867cec648801acfb5da24833b85de967aaf12ce004b6c632ae9b01897",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

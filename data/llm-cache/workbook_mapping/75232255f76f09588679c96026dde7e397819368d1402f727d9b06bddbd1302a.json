@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "kde_id",
+          "confidence": 1.0,
+          "header": "kde_id",
+          "index": 1,
+          "why": "Exact match to canonical slug kde_id"
+        },
+        {
+          "canonical_slug": "event_id",
+          "confidence": 1.0,
+          "header": "event_id",
+          "index": 2,
+          "why": "Exact match to canonical slug event_id"
+        },
+        {
+          "canonical_slug": "event_line_id",
+          "confidence": 1.0,
+          "header": "event_line_id",
+          "index": 3,
+          "why": "Exact match to canonical slug event_line_id"
+        },
+        {
+          "canonical_slug": "cte_type",
+          "confidence": 1.0,
+          "header": "cte_type",
+          "index": 4,
+          "why": "Exact match to canonical slug cte_type; samples confirm CTE type values (receiving, shipping)"
+        },
+        {
+          "canonical_slug": "kde_name",
+          "confidence": 1.0,
+          "header": "kde_name",
+          "index": 5,
+          "why": "Exact match to canonical slug kde_name; samples show human-readable KDE names"
+        },
+        {
+          "canonical_slug": "kde_field_key",
+          "confidence": 1.0,
+          "header": "field_key",
+          "index": 6,
+          "why": "Header 'field_key' matches example_header for kde_field_key; samples show machine-readable field keys"
+        },
+        {
+          "canonical_slug": "kde_value",
+          "confidence": 1.0,
+          "header": "kde_value",
+          "index": 7,
+          "why": "Exact match to canonical slug kde_value; samples show actual KDE values"
+        }
+      ],
+      "confidence": 1.0,
+      "record_kind": "kde_reference",
+      "sheet_name": "07_KDE_Values"
+    }
+  ],
+  "key": "75232255f76f09588679c96026dde7e397819368d1402f727d9b06bddbd1302a",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

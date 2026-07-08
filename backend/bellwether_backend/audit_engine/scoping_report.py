@@ -78,7 +78,13 @@ def build_scoping_stats(
             "unknownDestinationEvents": partner_scorecard.get("unknown_destination_events", 0),
             "worst": worst_partners,
         },
-        "kdeCoverage": {"rate": kde_coverage, "statusCounts": dict(sorted(kde_status.items()))},
+        "kdeCoverage": {
+            "rate": kde_coverage,
+            "presentCount": kde_status.get("present", 0),
+            "missingCount": kde_status.get("missing", 0),
+            "gradedTotal": graded_kde,
+            "statusCounts": dict(sorted(kde_status.items())),
+        },
         "lotIntegrity": dict(sorted(lot_status.items())),
         "findings": {
             "total": len(audit_findings),
@@ -93,8 +99,22 @@ def build_scoping_report(*, stats: dict[str, Any], cache: Any | None = None, cli
     from bellwether_backend.intelligence.llm_cache import LLMCache, cache_key
     from bellwether_backend.intelligence.llm_perception import run_cached_perception
 
+    # Numbers are compared with thousands-separators removed on both sides ("6,785" must
+    # match the stat 6785). The allowed set also holds pairwise sums of the integer stats
+    # (the model legitimately writes "354 of 6,785" where 6785 = present + missing), and
+    # percentage<->fraction conversions of every stat.
     stats_json = json.dumps(stats, sort_keys=True, ensure_ascii=False, default=str)
-    allowed_numbers = set(re.findall(r"\d+(?:\.\d+)?", stats_json))
+    stat_numbers = re.findall(r"\d+(?:\.\d+)?", stats_json.replace(",", ""))
+    allowed_numbers: set[str] = set(stat_numbers)
+    integer_stats = sorted({int(n) for n in stat_numbers if n.isdigit()})
+    for i, a in enumerate(integer_stats):
+        for b in integer_stats[i:]:
+            allowed_numbers.add(str(a + b))
+    for n in list(allowed_numbers):
+        try:
+            allowed_numbers.add(str(round(float(n) * 100, 4)).rstrip("0").rstrip("."))
+        except ValueError:
+            continue
 
     def _verify(items: list[Any]) -> list[str]:
         if len(items) != 1 or not isinstance(items[0].get("narrative"), str):
@@ -103,17 +123,22 @@ def build_scoping_report(*, stats: dict[str, Any], cache: Any | None = None, cli
         if len(narrative) < 200:
             return ["narrative is too short to be useful (min ~200 chars)"]
         errors = []
-        for number in re.findall(r"\d+(?:\.\d+)?", narrative):
-            # percentages the model derives (e.g. 93%) are allowed if the fraction is present
+        for number in re.findall(r"\d+(?:\.\d+)?", narrative.replace(",", "")):
             if number in allowed_numbers:
                 continue
+            # Small integers are plain-English reasoning (dates, "1 in 20", "the 5 findings"),
+            # never fabricated authoritative statistics - allow them.
+            if number.isdigit() and int(number) <= 31:
+                continue
+            # A percentage the model derived from a stats fraction (0.9478 -> 94.78 / 95 / 94).
             try:
                 fraction = str(round(float(number) / 100, 4))
+                rounded_pcts = {str(round(float(n) * 100)) for n in allowed_numbers if _is_fraction(n)}
             except ValueError:
-                fraction = ""
-            if fraction in allowed_numbers or fraction.rstrip("0").rstrip(".") in allowed_numbers:
+                fraction, rounded_pcts = "", set()
+            if fraction in allowed_numbers or fraction.rstrip("0").rstrip(".") in allowed_numbers or number in rounded_pcts:
                 continue
-            errors.append(f"number {number!r} in the narrative does not appear in the statistics")
+            errors.append(f"number {number!r} in the narrative does not appear in or derive from the statistics")
         return errors[:10]
 
     result = run_cached_perception(
@@ -131,6 +156,13 @@ def build_scoping_report(*, stats: dict[str, Any], cache: Any | None = None, cli
         "narrative": result.items[0]["narrative"],
         "narrative_method": result.method,
     }
+
+
+def _is_fraction(value: str) -> bool:
+    try:
+        return 0 < float(value) < 1
+    except ValueError:
+        return False
 
 
 def _template_narrative(stats: dict[str, Any]) -> str:

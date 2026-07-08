@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.99,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": "Crustaceans",
+      "mismatch": false,
+      "product_id": "White Shrimp Head on 13/15",
+      "reasoning": "White shrimp is explicitly listed as an included example under the Crustaceans FTL commodity, which covers all crustacean species in fresh, frozen, and previously frozen forms. The size designation (13/15 count) does not affect classification.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "1a558c07e597c175d0f56e815f1b690bc07d9d49244a133f2328bf1495f61894",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

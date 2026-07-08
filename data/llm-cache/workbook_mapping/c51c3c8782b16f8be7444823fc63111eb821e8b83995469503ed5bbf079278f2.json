@@ -1,135 +1,134 @@
 {
-  "created_at": "2026-07-07T06:41:47.927602+00:00",
   "items": [
     {
       "columns": [
         {
           "canonical_slug": "product_id",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Product ID",
           "index": 1,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Product identifier of the newly produced food"
         },
         {
           "canonical_slug": "product_name",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Product title",
           "index": 2,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Product name of the newly produced food"
         },
         {
           "canonical_slug": "commodity",
-          "confidence": 0.9,
+          "confidence": 0.85,
           "header": "Comodity",
           "index": 3,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Misspelled 'Commodity' \u2014 maps to commodity slug"
         },
         {
           "canonical_slug": "variety",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Variety",
           "index": 4,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Exact match to variety slug"
         },
         {
           "canonical_slug": "quantity",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Quantity",
           "index": 5,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Quantity of food produced"
         },
         {
           "canonical_slug": "unit",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Measure Unit",
           "index": 6,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Unit of measure for the quantity"
         },
         {
           "canonical_slug": "traceability_lot_code",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "LOT Number",
           "index": 7,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Lot code of the newly produced food on this transformation output sheet"
         },
         {
-          "canonical_slug": null,
-          "confidence": 0.5,
+          "canonical_slug": "transformation_date",
+          "confidence": 0.72,
           "header": "Receiving Date",
           "index": 8,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Mislabeled as 'Receiving Date' but samples align with transformation dates; transformation_date is the best fit given the output sheet context"
         },
         {
           "canonical_slug": "location_id",
           "confidence": 0.9,
           "header": "Transformation Location ID",
           "index": 9,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Location where transformation occurred; location_id is the best available slug for the event location"
         },
         {
           "canonical_slug": "location_name",
           "confidence": 0.9,
           "header": "Transformation Location Description",
           "index": 10,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Name of the transformation location"
         },
         {
           "canonical_slug": "transformation_date",
-          "confidence": 0.9,
+          "confidence": 0.98,
           "header": "Transformation Date",
           "index": 11,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Exact match to transformation_date slug"
         },
         {
           "canonical_slug": "reference_record_type",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Ref. Document Type",
           "index": 12,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Matches 'ref. document type' example header; sample 'TR' is a transformation record"
         },
         {
           "canonical_slug": "reference_record_no",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Ref. Document Number",
           "index": 13,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Matches 'ref. document number' example header"
         },
         {
           "canonical_slug": "business_id",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Business ID",
           "index": 14,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Exact match to business_id slug"
         },
         {
           "canonical_slug": "company_name",
           "confidence": 0.9,
           "header": "Business description",
           "index": 15,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Matches 'business description' example header for company_name"
         },
         {
           "canonical_slug": "phone_number",
-          "confidence": 0.9,
+          "confidence": 0.95,
           "header": "Phone Number",
           "index": 16,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Exact match to phone_number slug"
         },
         {
           "canonical_slug": "email",
-          "confidence": 0.9,
+          "confidence": 0.98,
           "header": "email",
           "index": 17,
-          "why": "expected mapping (pending live model regeneration)"
+          "why": "Exact match to email slug"
         }
       ],
-      "confidence": 0.9,
+      "confidence": 0.97,
       "record_kind": "cte_transformation_output",
       "sheet_name": "Transformation KDEs Produced Fo"
     }
   ],
   "key": "c51c3c8782b16f8be7444823fc63111eb821e8b83995469503ed5bbf079278f2",
-  "method": "hand_authored_pending_llm",
+  "method": "llm_cached",
   "model": null,
   "namespace": "workbook_mapping",
   "request_sha256": ""
