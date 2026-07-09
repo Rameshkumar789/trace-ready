@@ -4,11 +4,16 @@ import csv
 import json
 import re
 from collections import Counter, defaultdict
+from dataclasses import dataclass, field as dataclass_field
 from datetime import date, datetime
+from functools import lru_cache
 from pathlib import Path
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
+
+if TYPE_CHECKING:
+    from bellwether_backend.audit_engine.workbook_intake import ColumnMapping, WorkbookMappingPlan
 
 
 GENERATED_AT = "2026-06-16T00:00:00Z"
@@ -201,6 +206,7 @@ class Phase10CustomerEvidencePackage(StrictCustomerEvidenceModel):
     document_profiles: list[CustomerDocumentProfile] = Field(default_factory=list)
     evidence_conflicts: list[EvidenceConflict] = Field(default_factory=list)
     quality_report: CustomerEvidenceQualityReport | None = None
+    mapping_plan: dict[str, Any] | None = None
     summary: dict[str, Any]
 
 
@@ -299,6 +305,8 @@ CTE_ALIASES = {
     "first land based receiving": "first_land_based_receiving",
     "first_land_based_receiving": "first_land_based_receiving",
     "first land": "first_land_based_receiving",
+    "first land based rec": "first_land_based_receiving",
+    "landing": "first_land_based_receiving",
     "ship": "shipping",
     "shipping": "shipping",
     "receive": "receiving",
@@ -328,15 +336,20 @@ def build_phase10_customer_evidence(
     *,
     input_file: Path,
     ftl_food_items_file: Path | None = None,
+    mapping_plan: "WorkbookMappingPlan | None" = None,
 ) -> Phase10CustomerEvidencePackage:
-    evidence_records = read_spreadsheet_evidence(input_file)
+    from bellwether_backend.audit_engine.workbook_intake import resolve_workbook_mapping_plan
+
+    plan = mapping_plan or resolve_workbook_mapping_plan(input_file)
+    sheet_kinds = plan.sheet_kinds() if plan else None
+    evidence_records = read_spreadsheet_evidence(input_file, mapping_plan=plan)
     inferred_facts = infer_filename_and_sheet_facts(input_file=input_file, evidence_records=evidence_records)
     mapping_suggestions = build_field_mapping_suggestions(evidence_records)
     document_profiles = build_document_profiles(input_file=input_file, evidence_records=evidence_records, inferred_facts=inferred_facts)
     evidence_conflicts = detect_evidence_conflicts(evidence_records)
     ftl_food_items = _load_optional_json_list(ftl_food_items_file)
-    entity_graph = build_traceability_entity_graph(evidence_records, ftl_food_items=ftl_food_items)
-    event_graph = build_customer_event_graph(evidence_records, entity_graph=entity_graph, ftl_food_items=ftl_food_items)
+    entity_graph = build_traceability_entity_graph(evidence_records, ftl_food_items=ftl_food_items, sheet_kinds=sheet_kinds)
+    event_graph = build_customer_event_graph(evidence_records, entity_graph=entity_graph, ftl_food_items=ftl_food_items, sheet_kinds=sheet_kinds)
     classifications = [classify_event_ctes(event) for event in event_graph]
     event_graph = [
         event.model_copy(
@@ -383,6 +396,7 @@ def build_phase10_customer_evidence(
         document_profiles=document_profiles,
         evidence_conflicts=evidence_conflicts,
         quality_report=quality_report,
+        mapping_plan=plan.model_dump(mode="json") if plan else None,
         summary=summary,
     )
 
@@ -391,6 +405,7 @@ def write_phase10_customer_evidence_artifacts(package: Phase10CustomerEvidencePa
     output_dir.mkdir(parents=True, exist_ok=True)
     outputs = {
         "summary": output_dir / "phase10-summary.json",
+        "workbookMappingPlan": output_dir / "phase10-workbook-mapping-plan.json",
         "evidenceRecords": output_dir / "phase10-evidence-records.json",
         "fieldMappingSuggestions": output_dir / "phase10-field-mapping-suggestions.json",
         "entityGraph": output_dir / "phase10-entity-graph.json",
@@ -403,6 +418,7 @@ def write_phase10_customer_evidence_artifacts(package: Phase10CustomerEvidencePa
         "qualityReport": output_dir / "phase10a-quality-report.json",
     }
     _write_json(outputs["summary"], package.summary)
+    _write_json(outputs["workbookMappingPlan"], package.mapping_plan or {})
     _write_json(outputs["evidenceRecords"], [record.model_dump(mode="json") for record in package.evidence_records])
     _write_json(outputs["fieldMappingSuggestions"], [item.model_dump(mode="json") for item in package.field_mapping_suggestions])
     _write_json(outputs["entityGraph"], package.entity_graph.model_dump(mode="json"))
@@ -416,13 +432,89 @@ def write_phase10_customer_evidence_artifacts(package: Phase10CustomerEvidencePa
     return {key: str(path) for key, path in outputs.items()}
 
 
-def read_spreadsheet_evidence(input_file: Path) -> list[CustomerEvidenceRecord]:
+@dataclass
+class SheetGrid:
+    """One sheet reduced to headers + data rows, shared by profiling and evidence creation."""
+
+    sheet_name: str
+    headers: list[str]
+    header_position: int
+    column_indexes: list[int]
+    data_rows: list[tuple[int, list[Any]]] = dataclass_field(default_factory=list)
+
+
+def read_sheet_grids(input_file: Path) -> list[SheetGrid]:
     suffix = input_file.suffix.lower()
     if suffix == ".csv":
-        return _read_csv_evidence(input_file)
+        return _read_csv_grids(input_file)
     if suffix in {".xlsx", ".xlsm"}:
-        return _read_xlsx_evidence(input_file)
+        return _read_xlsx_grids(input_file)
     raise ValueError(f"unsupported customer evidence file type: {input_file.suffix}")
+
+
+def read_spreadsheet_evidence(
+    input_file: Path,
+    *,
+    mapping_plan: "WorkbookMappingPlan | None" = None,
+) -> list[CustomerEvidenceRecord]:
+    suffix = input_file.suffix.lower()
+    if suffix not in {".csv", ".xlsx", ".xlsm"}:
+        raise ValueError(f"unsupported customer evidence file type: {input_file.suffix}")
+    if mapping_plan is None:
+        from bellwether_backend.audit_engine.workbook_intake import resolve_workbook_mapping_plan
+
+        mapping_plan = resolve_workbook_mapping_plan(input_file)
+    grids = read_sheet_grids(input_file)
+    return _grids_to_records(input_file, grids, mapping_plan)
+
+
+def _grids_to_records(
+    input_file: Path,
+    grids: list[SheetGrid],
+    mapping_plan: "WorkbookMappingPlan | None",
+) -> list[CustomerEvidenceRecord]:
+    from bellwether_backend.audit_engine.workbook_intake import (
+        derived_records_for_row,
+        is_junk_placeholder_row,
+    )
+
+    records: list[CustomerEvidenceRecord] = []
+    for grid in grids:
+        sheet_plan = mapping_plan.plan_for(grid.sheet_name) if mapping_plan else None
+        overrides = sheet_plan.column_by_index() if sheet_plan else {}
+        # Per-column slash-date order vote (a DD/MM export must not silently mis-parse).
+        day_first_by_position: dict[int, bool] = {}
+        for position in range(len(grid.headers)):
+            column_values = [_cell_to_string(row[position]) for _, row in grid.data_rows[:200] if position < len(row)]
+            if any(_AMBIGUOUS_SLASH_DATE.match(v.strip()) for v in column_values if v):
+                day_first_by_position[position] = _column_day_first(column_values)
+        for sheet_row, row in grid.data_rows:
+            if _is_notes_or_repeated_header_row(row, grid.headers):
+                continue
+            if is_junk_placeholder_row(row):
+                continue
+            row_records: list[CustomerEvidenceRecord] = []
+            for position, header in enumerate(grid.headers):
+                raw = row[position] if position < len(row) else ""
+                if _cell_to_string(raw).strip() == "":
+                    continue
+                column_index = grid.column_indexes[position]
+                row_records.append(
+                    _evidence_record(
+                        input_file=input_file,
+                        sheet_name=grid.sheet_name,
+                        row_number=sheet_row,
+                        column_name=header,
+                        column_index=column_index,
+                        raw_value=raw,
+                        column_override=overrides.get(column_index),
+                        day_first=day_first_by_position.get(position, False),
+                    )
+                )
+            if row_records and sheet_plan is not None:
+                row_records.extend(derived_records_for_row(sheet_plan, row_records))
+            records.extend(row_records)
+    return records
 
 
 def infer_filename_and_sheet_facts(*, input_file: Path, evidence_records: list[CustomerEvidenceRecord]) -> list[InferredEvidenceFact]:
@@ -631,6 +723,7 @@ def build_traceability_entity_graph(
     evidence_records: list[CustomerEvidenceRecord],
     *,
     ftl_food_items: list[dict[str, Any]] | None = None,
+    sheet_kinds: dict[str, str] | None = None,
 ) -> TraceabilityEntityGraph:
     row_facts = _row_facts(evidence_records)
     products: dict[str, TraceabilityEntity] = {}
@@ -644,6 +737,7 @@ def build_traceability_entity_graph(
     for row in row_facts.values():
         facts = row["facts"]
         evidence_ids = row["evidence_ids"]
+        sheet_kind = (sheet_kinds or {}).get(row["sheet"])
         product_name = _first(facts, "product_name")
         product_id = _first(facts, "product_id") or _stable_id("product", product_name)
         if product_name:
@@ -692,6 +786,7 @@ def build_traceability_entity_graph(
         if location_id or location_name:
             entity_id = location_id or _stable_id("location", location_name)
             location_type = _first(facts, "location_type")
+            location_owner = _first(facts, "location_owner")
             role = resolve_actor_role(actor_name=location_name, actor_type=location_type)
             locations.setdefault(
                 entity_id,
@@ -699,7 +794,11 @@ def build_traceability_entity_graph(
                     entity_id=entity_id,
                     entity_type="location",
                     name=location_name or entity_id,
-                    attributes={"location_type": location_type, "role_resolution": role.model_dump(mode="json")},
+                    attributes={
+                        "location_type": location_type,
+                        "owner": location_owner,
+                        "role_resolution": role.model_dump(mode="json"),
+                    },
                     evidence_ids=evidence_ids,
                 ),
             )
@@ -728,6 +827,27 @@ def build_traceability_entity_graph(
                     evidence_ids=evidence_ids,
                 ),
             )
+
+        if sheet_kind in {"master_business", "master_partners"}:
+            business_id = _first(facts, "business_id")
+            business_name = _first(facts, "company_name") or _first(facts, "partner_name")
+            if business_id or business_name:
+                entity_id = business_id or _stable_id("counterparty", business_name)
+                counterparties.setdefault(
+                    entity_id,
+                    TraceabilityEntity(
+                        entity_id=entity_id,
+                        entity_type="counterparty",
+                        name=business_name or entity_id,
+                        attributes={
+                            "partner_type": _first(facts, "partner_type") or _first(facts, "business_type"),
+                            "relationship": _first(facts, "partner_relationship"),
+                            "from_master_data": True,
+                            "master_kind": sheet_kind,
+                        },
+                        evidence_ids=evidence_ids,
+                    ),
+                )
 
         doc_id = _first(facts, "source_document_id") or _first(facts, "reference_record_no")
         if doc_id:
@@ -761,17 +881,36 @@ def build_customer_event_graph(
     *,
     entity_graph: TraceabilityEntityGraph | None = None,
     ftl_food_items: list[dict[str, Any]] | None = None,
+    sheet_kinds: dict[str, str] | None = None,
 ) -> list[CustomerEventNode]:
+    from bellwether_backend.audit_engine.workbook_intake import event_gated_kinds
+
+    gated_kinds = event_gated_kinds()
     row_facts = _row_facts(evidence_records)
     base_events: dict[str, dict[str, Any]] = {}
     line_rows: list[dict[str, Any]] = []
     standalone_rows: list[dict[str, Any]] = []
 
+    demoted_event_ids: set[str] = set()
     for row in row_facts.values():
         facts = row["facts"]
         sheet = row["sheet"]
+        if sheet_kinds and sheet_kinds.get(sheet) in gated_kinds:
+            # Master-data / plan / reference sheets never mint events regardless of shape.
+            continue
         if _first(facts, "event_id") and ("cte_events" in _slug(sheet) or _first(facts, "event_type")):
-            base_events[_first(facts, "event_id")] = row
+            event_id = _first(facts, "event_id")
+            # Distinct rows that SHARE an event id (a batch number producing several
+            # output SKUs, a shipment ref spanning several lines) are per-line records,
+            # not one event - keeping only the last would silently drop the others.
+            if event_id in demoted_event_ids:
+                line_rows.append(row)
+            elif event_id in base_events:
+                demoted_event_ids.add(event_id)
+                line_rows.append(base_events.pop(event_id))
+                line_rows.append(row)
+            else:
+                base_events[event_id] = row
         elif _first(facts, "event_id") and (_first(facts, "product_name") or _first(facts, "product_id") or "line_items" in _slug(sheet)):
             line_rows.append(row)
         elif _looks_like_event_row(facts):
@@ -972,8 +1111,7 @@ def classify_event_ctes(event: CustomerEventNode) -> CteClassificationResult:
     )
 
 
-def _read_csv_evidence(input_file: Path) -> list[CustomerEvidenceRecord]:
-    records: list[CustomerEvidenceRecord] = []
+def _read_csv_grids(input_file: Path) -> list[SheetGrid]:
     with input_file.open("r", encoding="utf-8-sig", newline="") as handle:
         reader = csv.reader(handle)
         rows = list(reader)
@@ -981,29 +1119,40 @@ def _read_csv_evidence(input_file: Path) -> list[CustomerEvidenceRecord]:
         return []
     header_index = _detect_header_row(rows)
     headers = _build_headers(rows, header_index)
-    for offset, row in enumerate(rows[header_index + 1 :], start=header_index + 2):
-        if _is_notes_or_repeated_header_row(row, headers):
-            continue
-        for column_index, header in enumerate(headers, start=1):
-            raw = row[column_index - 1] if column_index <= len(row) else ""
-            if str(raw).strip() == "":
-                continue
-            records.append(_evidence_record(input_file=input_file, sheet_name="csv", row_number=offset, column_name=header, column_index=column_index, raw_value=raw))
-    return records
+    data_rows = [
+        (offset, list(row))
+        for offset, row in enumerate(rows[header_index + 1 :], start=header_index + 2)
+    ]
+    return [
+        SheetGrid(
+            sheet_name="csv",
+            headers=headers,
+            header_position=header_index,
+            column_indexes=list(range(1, len(headers) + 1)),
+            data_rows=data_rows,
+        )
+    ]
 
 
-def _read_xlsx_evidence(input_file: Path) -> list[CustomerEvidenceRecord]:
+def _read_xlsx_grids(input_file: Path) -> list[SheetGrid]:
     try:
         from openpyxl import load_workbook  # type: ignore
         from openpyxl.utils import get_column_letter  # type: ignore
     except Exception as exc:
         raise RuntimeError("openpyxl is required to ingest XLSX customer evidence") from exc
 
-    records: list[CustomerEvidenceRecord] = []
+    grids: list[SheetGrid] = []
     workbook = load_workbook(input_file, read_only=False, data_only=True)
-    formula_workbook = load_workbook(input_file, read_only=False, data_only=False)
+    # The formula workbook exists only to recover formula strings for cells whose cached
+    # value is missing - rare. Load it lazily so the common case parses the file ONCE.
+    formula_workbook_holder: list[Any] = []
+
+    def _formula_worksheet(title: str) -> Any:
+        if not formula_workbook_holder:
+            formula_workbook_holder.append(load_workbook(input_file, read_only=False, data_only=False))
+        return formula_workbook_holder[0][title]
+
     for worksheet in workbook.worksheets:
-        formula_worksheet = formula_workbook[worksheet.title]
         visible_columns = [
             column_index
             for column_index in range(1, worksheet.max_column + 1)
@@ -1016,30 +1165,43 @@ def _read_xlsx_evidence(input_file: Path) -> list[CustomerEvidenceRecord]:
         ]
         if not visible_rows or not visible_columns:
             continue
-        row_values = [[_merged_or_cell_value(worksheet, row_index, column_index, formula_worksheet=formula_worksheet) for column_index in visible_columns] for row_index in visible_rows]
+        # Precompute merged-range anchors once per sheet: O(ranges), not O(cells x ranges).
+        merged_anchor: dict[tuple[int, int], Any] = {}
+        for merged_range in worksheet.merged_cells.ranges:
+            anchor_value = worksheet.cell(row=merged_range.min_row, column=merged_range.min_col).value
+            for row_index in range(merged_range.min_row, merged_range.max_row + 1):
+                for column_index in range(merged_range.min_col, merged_range.max_col + 1):
+                    merged_anchor[(row_index, column_index)] = anchor_value
+        formula_worksheet = _formula_worksheet(worksheet.title) if _workbook_has_formulas(input_file) else None
+        row_values = [
+            [
+                _merged_or_cell_value(
+                    worksheet,
+                    row_index,
+                    column_index,
+                    formula_worksheet=formula_worksheet,
+                    merged_anchor=merged_anchor,
+                )
+                for column_index in visible_columns
+            ]
+            for row_index in visible_rows
+        ]
         header_position = _detect_header_row(row_values)
         headers = _build_headers(row_values, header_position)
-        for row_position, row in enumerate(row_values[header_position + 1 :], start=header_position + 1):
-            sheet_row = visible_rows[row_position]
-            if _is_notes_or_repeated_header_row(row, headers):
-                continue
-            for output_column_index, header in enumerate(headers, start=1):
-                raw = row[output_column_index - 1] if output_column_index <= len(row) else ""
-                if _cell_to_string(raw).strip() == "":
-                    continue
-                sheet_column = visible_columns[output_column_index - 1]
-                record = _evidence_record(
-                    input_file=input_file,
-                    sheet_name=worksheet.title,
-                    row_number=sheet_row,
-                    column_name=header,
-                    column_index=sheet_column,
-                    raw_value=raw,
-                )
-                cell = f"{get_column_letter(sheet_column)}{sheet_row}"
-                record = record.model_copy(update={"cell": cell, "source_pointer": record.source_pointer.model_copy(update={"cell": cell})})
-                records.append(record)
-    return records
+        data_rows = [
+            (visible_rows[row_position], row)
+            for row_position, row in enumerate(row_values[header_position + 1 :], start=header_position + 1)
+        ]
+        grids.append(
+            SheetGrid(
+                sheet_name=worksheet.title,
+                headers=headers,
+                header_position=header_position,
+                column_indexes=visible_columns[: len(headers)],
+                data_rows=data_rows,
+            )
+        )
+    return grids
 
 
 def _evidence_record(
@@ -1050,10 +1212,20 @@ def _evidence_record(
     column_name: str,
     column_index: int,
     raw_value: Any,
+    column_override: "ColumnMapping | None" = None,
+    day_first: bool = False,
 ) -> CustomerEvidenceRecord:
     raw = _cell_to_string(raw_value)
     field_key, confidence, method = _suggest_field_key(column_name)
-    normalized = _normalize_value(raw_value, field_key=field_key)
+    if column_override is not None and column_override.canonical_slug:
+        if column_override.canonical_slug != field_key:
+            # A verified perception mapping wins over the slug fallback; when it agrees with
+            # the legacy alias we keep the legacy confidence/method so existing workbooks
+            # produce byte-identical records.
+            field_key = column_override.canonical_slug
+            confidence = column_override.confidence
+            method = column_override.method
+    normalized = _normalize_value(raw_value, field_key=field_key, day_first=day_first)
     field_type = _detect_field_type(field_key, normalized)
     cell = f"{_column_letter(column_index)}{row_number}"
     source_pointer = EvidenceSourcePointer(
@@ -1298,6 +1470,10 @@ def _detect_header_row(rows: list[list[Any]]) -> int:
             continue
         if len(non_empty) <= 1 and index + 1 < len(rows):
             continue
+        # A merged banner/title propagated across the row reads as N copies of one value -
+        # never a header row (real headers are distinct per column).
+        if len(non_empty) > 1 and len(set(non_empty)) == 1:
+            continue
         alias_hits = sum(1 for value in non_empty if _header_key(value) in FIELD_ALIASES or _slug(value) in FIELD_ALIASES)
         short_header_like = sum(1 for value in non_empty if len(value) <= 45 and not _parse_date_string(value))
         data_like = sum(1 for value in non_empty if _parse_date_string(value) or re.fullmatch(r"-?\d+(?:\.\d+)?", value))
@@ -1337,7 +1513,32 @@ def _is_notes_or_repeated_header_row(row: list[Any], headers: list[str]) -> bool
     return matches >= max(2, len(comparable_headers) // 2)
 
 
-def _merged_or_cell_value(worksheet: Any, row_index: int, column_index: int, *, formula_worksheet: Any | None = None) -> Any:
+@lru_cache(maxsize=8)
+def _workbook_has_formulas(input_file: Path) -> bool:
+    """ZIP-level sniff: an xlsx stores formulas as <f> elements in the sheet XML. Scanning
+    the raw bytes once avoids loading the whole workbook a second time when (as is typical
+    for system exports) there are no formulas at all."""
+    import zipfile
+
+    try:
+        with zipfile.ZipFile(input_file) as archive:
+            for name in archive.namelist():
+                if name.startswith("xl/worksheets/") and name.endswith(".xml"):
+                    if b"<f" in archive.read(name):
+                        return True
+    except Exception:
+        return True  # unsure -> preserve the formula-recovery behavior
+    return False
+
+
+def _merged_or_cell_value(
+    worksheet: Any,
+    row_index: int,
+    column_index: int,
+    *,
+    formula_worksheet: Any | None = None,
+    merged_anchor: dict[tuple[int, int], Any] | None = None,
+) -> Any:
     cell = worksheet.cell(row=row_index, column=column_index)
     if cell.value not in (None, ""):
         return cell.value
@@ -1345,6 +1546,8 @@ def _merged_or_cell_value(worksheet: Any, row_index: int, column_index: int, *, 
         formula_cell = formula_worksheet.cell(row=row_index, column=column_index)
         if getattr(formula_cell, "data_type", None) == "f" and formula_cell.value:
             return formula_cell.value
+    if merged_anchor is not None:
+        return merged_anchor.get((row_index, column_index), cell.value)
     for merged_range in worksheet.merged_cells.ranges:
         if cell.coordinate in merged_range:
             return worksheet.cell(row=merged_range.min_row, column=merged_range.min_col).value
@@ -1521,13 +1724,13 @@ def _normalize_cte(value: str | None) -> str | None:
     return CTE_ALIASES.get(slug)
 
 
-def _normalize_value(value: Any, *, field_key: str | None = None) -> str:
+def _normalize_value(value: Any, *, field_key: str | None = None, day_first: bool = False) -> str:
     if isinstance(value, datetime):
         return value.date().isoformat()
     if isinstance(value, date):
         return value.isoformat()
     text = _cell_to_string(value)
-    parsed_date = _parse_date_string(text)
+    parsed_date = _parse_date_string(text, day_first=day_first)
     if parsed_date and (not field_key or "date" in field_key or field_key == "event_datetime"):
         return parsed_date
     normalized = re.sub(r"\s+", " ", text).strip()
@@ -1546,7 +1749,7 @@ def _normalize_value(value: Any, *, field_key: str | None = None) -> str:
     return normalized
 
 
-def _parse_date_string(value: str) -> str | None:
+def _parse_date_string(value: str, *, day_first: bool = False) -> str | None:
     stripped = value.strip()
     if re.fullmatch(r"\d{4}\s+\d{1,2}\s+\d{1,2}", stripped) or re.fullmatch(r"\d{1,2}\s+\d{1,2}\s+\d{4}", stripped):
         stripped = re.sub(r"\s+", "-", stripped)
@@ -1557,12 +1760,31 @@ def _parse_date_string(value: str) -> str | None:
             except ValueError:
                 continue
     stripped = stripped.replace(".", "/")
-    for pattern in ("%Y-%m-%d", "%Y/%m/%d", "%m/%d/%Y", "%m/%d/%y", "%d/%m/%Y", "%d-%b-%Y", "%b %d %Y", "%B %d %Y"):
+    slash_order = ("%d/%m/%Y", "%d/%m/%y", "%m/%d/%Y", "%m/%d/%y") if day_first else ("%m/%d/%Y", "%m/%d/%y", "%d/%m/%Y", "%d/%m/%y")
+    for pattern in ("%Y-%m-%d", "%Y/%m/%d", *slash_order, "%d-%b-%Y", "%b %d %Y", "%B %d %Y"):
         try:
             return datetime.strptime(stripped, pattern).date().isoformat()
         except ValueError:
             continue
     return None
+
+
+_AMBIGUOUS_SLASH_DATE = re.compile(r"^(\d{1,2})/(\d{1,2})/\d{2,4}$")
+
+
+def _column_day_first(values: list[str]) -> bool:
+    """Vote a column's slash-date order: any first-component >12 proves day-first; any
+    second-component >12 proves month-first; all-ambiguous defaults to US month-first."""
+    for value in values:
+        match = _AMBIGUOUS_SLASH_DATE.match(str(value).strip())
+        if not match:
+            continue
+        first, second = int(match.group(1)), int(match.group(2))
+        if first > 12:
+            return True
+        if second > 12:
+            return False
+    return False
 
 
 def _cell_to_string(value: Any) -> str:
@@ -1572,7 +1794,13 @@ def _cell_to_string(value: Any) -> str:
         return value.date().isoformat()
     if isinstance(value, date):
         return value.isoformat()
-    return str(value).strip()
+    if isinstance(value, float) and value.is_integer():
+        # Spreadsheets store identifiers as floats ("4598767.0"); keep them as identifiers.
+        return str(int(value))
+    text = str(value).strip()
+    if re.fullmatch(r"\d+\.0", text):
+        return text[:-2]
+    return text
 
 
 def _normalize_unit(value: str) -> str:

@@ -131,6 +131,61 @@ class AnthropicJSONClient:
             cache_control=cache_control,
         )
 
+    def complete_json_array_with_document(
+        self,
+        *,
+        system: str,
+        user_prompt: str,
+        document_bytes: bytes,
+        media_type: str = "application/pdf",
+    ) -> AnthropicLLMResponse:
+        """Multimodal variant: attach a PDF/image document (base64) ahead of the text prompt.
+        Used for scanned BOLs with no text layer - the model reads the page images."""
+        import base64
+
+        user_content = [
+            {
+                "type": "document",
+                "source": {
+                    "type": "base64",
+                    "media_type": media_type,
+                    "data": base64.b64encode(document_bytes).decode("ascii"),
+                },
+            },
+            {"type": "text", "text": user_prompt},
+        ]
+        request: dict[str, Any] = {
+            "model": self.config.model,
+            "max_tokens": self.config.max_tokens,
+            "temperature": self.config.temperature,
+            "system": system,
+            "messages": [{"role": "user", "content": user_content}],
+        }
+        message = self._client.messages.create(**request)
+        response_text = _message_text(message)
+        model = getattr(message, "model", self.config.model)
+        usage = _usage_dict(getattr(message, "usage", None))
+        stop_reason = getattr(message, "stop_reason", None)
+        try:
+            parsed_json = extract_json_array(response_text)
+        except ValueError as exc:
+            raise AnthropicJSONParseError(
+                str(exc),
+                response_text=response_text,
+                model=model,
+                usage=usage,
+                stop_reason=stop_reason,
+                cache_control=None,
+            ) from exc
+        return AnthropicLLMResponse(
+            model=model,
+            response_text=response_text,
+            parsed_json=parsed_json,
+            usage=usage,
+            stop_reason=stop_reason,
+            cache_control=None,
+        )
+
     def cache_control(self) -> dict[str, str] | None:
         return self.config.cache_control()
 

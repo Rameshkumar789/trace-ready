@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "location_id",
+          "confidence": 0.95,
+          "header": "ID",
+          "index": 1,
+          "why": "Long numeric identifier on a location master sheet; maps to location_id"
+        },
+        {
+          "canonical_slug": "location_owner",
+          "confidence": 0.97,
+          "header": "Owner",
+          "index": 2,
+          "why": "Business that owns/operates the location, matches location_owner example header 'owner'"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.95,
+          "header": "Title",
+          "index": 3,
+          "why": "Name/description of the location, maps to location_name"
+        },
+        {
+          "canonical_slug": "address",
+          "confidence": 1.0,
+          "header": "Address",
+          "index": 4,
+          "why": "Street address, exact match"
+        },
+        {
+          "canonical_slug": "zip_code",
+          "confidence": 1.0,
+          "header": "ZIP",
+          "index": 5,
+          "why": "Postal/ZIP code, exact match"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 1.0,
+          "header": "City",
+          "index": 6,
+          "why": "City field, exact match"
+        },
+        {
+          "canonical_slug": "state",
+          "confidence": 1.0,
+          "header": "State",
+          "index": 7,
+          "why": "State/province field, exact match"
+        },
+        {
+          "canonical_slug": "country",
+          "confidence": 1.0,
+          "header": "Country",
+          "index": 8,
+          "why": "Country field, exact match"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.0,
+          "header": "Description",
+          "index": 9,
+          "why": "Duplicate of Title/location_name; no distinct canonical slug fits a second name column"
+        },
+        {
+          "canonical_slug": "coordinates",
+          "confidence": 1.0,
+          "header": "Coordinates",
+          "index": 10,
+          "why": "Geo coordinates, exact match to coordinates slug; samples show lat/long pairs"
+        },
+        {
+          "canonical_slug": "location_type",
+          "confidence": 1.0,
+          "header": "Location type",
+          "index": 11,
+          "why": "Type of location (receiving dock, packaging, etc.), exact match to location_type slug"
+        }
+      ],
+      "confidence": 0.99,
+      "record_kind": "master_locations",
+      "sheet_name": "Location Master"
+    }
+  ],
+  "key": "3dddbc00e9d2ef37303cec237c5696789b488c3a3192b7bb7ed8616d061af083",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

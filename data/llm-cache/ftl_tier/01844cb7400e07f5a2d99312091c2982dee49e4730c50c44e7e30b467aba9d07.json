@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.99,
+      "declared_category": "Nut butters",
+      "declared_negative": false,
+      "matched_commodity": "Nut butters",
+      "mismatch": false,
+      "product_id": "10860004520068",
+      "reasoning": "Creamy peanut butter is explicitly listed as an included example under the FTL 'Nut butters' commodity, and all forms (including shelf-stable) are covered.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "01844cb7400e07f5a2d99312091c2982dee49e4730c50c44e7e30b467aba9d07",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

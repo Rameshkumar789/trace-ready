@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 1.0,
+          "header": "product_id",
+          "index": 1,
+          "why": "Exact match to canonical slug product_id"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 1.0,
+          "header": "product_name",
+          "index": 2,
+          "why": "Exact match to canonical slug product_name"
+        },
+        {
+          "canonical_slug": "ftl_category",
+          "confidence": 0.85,
+          "header": "ftl_food_category",
+          "index": 3,
+          "why": "Header describes FTL food category; maps to ftl_category slug"
+        },
+        {
+          "canonical_slug": "is_ftl_maybe",
+          "confidence": 1.0,
+          "header": "is_ftl_maybe",
+          "index": 4,
+          "why": "Exact match to canonical slug is_ftl_maybe"
+        }
+      ],
+      "confidence": 0.98,
+      "record_kind": "master_products",
+      "sheet_name": "01_Product_Master"
+    }
+  ],
+  "key": "5ad0ddf0589116f5b896672175403c926e4e877c196b52cc74f53d817e3897a1",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

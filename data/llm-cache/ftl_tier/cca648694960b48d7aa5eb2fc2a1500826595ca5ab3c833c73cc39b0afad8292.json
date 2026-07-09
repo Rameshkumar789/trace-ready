@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": true,
+      "confidence": 0.5,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": null,
+      "mismatch": false,
+      "product_id": "PROD-2",
+      "reasoning": "The name 'Mixed Fresh Item' is too vague to conclusively match or exclude any FTL commodity; it could be a fresh-cut produce mix, a mixed leafy green blend, or a non-FTL product, and no declared category is provided to narrow the scope.",
+      "tier": "suspicious"
+    }
+  ],
+  "key": "cca648694960b48d7aa5eb2fc2a1500826595ca5ab3c833c73cc39b0afad8292",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

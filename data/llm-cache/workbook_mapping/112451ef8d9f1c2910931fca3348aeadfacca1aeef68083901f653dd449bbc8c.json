@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "traceability_plan_item",
+          "confidence": 0.97,
+          "header": "Plan Component",
+          "index": 1,
+          "why": "Each row names a traceability plan component/question (how records are maintained, how TLCs are assigned, point of contact, etc.)"
+        },
+        {
+          "canonical_slug": "traceability_plan_answer",
+          "confidence": 0.95,
+          "header": "Details",
+          "index": 2,
+          "why": "Free-text answers describing how each plan component is implemented"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "traceability_plan",
+      "sheet_name": "Trace Plan"
+    }
+  ],
+  "key": "112451ef8d9f1c2910931fca3348aeadfacca1aeef68083901f653dd449bbc8c",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

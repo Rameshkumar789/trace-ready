@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.85,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 1,
+          "why": "Sample values include 'Harvest Ref' label and H-01\u2026H-06 codes \u2014 harvest event identifiers"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.82,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 2,
+          "why": "Sample values include 'Crop Item' label and GTIN-style item codes"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.85,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 3,
+          "why": "Sample values include 'Crop Description' label and product names"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 4,
+          "why": "Sample values include 'Qty Harvested' label and numeric quantities"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 5,
+          "why": "Sample values include 'UOM' label and 'case' \u2014 unit of measure"
+        },
+        {
+          "canonical_slug": "harvest_date",
+          "confidence": 0.95,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 6,
+          "why": "Sample values include 'Date of Harvest' label and date values \u2014 harvest date KDE"
+        },
+        {
+          "canonical_slug": "farm_location",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 7,
+          "why": "Sample values include 'Farm' label and 'GreenAcre Home Farm' \u2014 farm location KDE"
+        },
+        {
+          "canonical_slug": "harvest_field_or_container",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 8,
+          "why": "Sample values include 'Field or Block' label and block/greenhouse identifiers \u2014 harvest field/container KDE"
+        },
+        {
+          "canonical_slug": "harvester_name",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 9,
+          "why": "Sample values include 'Crew Lead' label and person names \u2014 harvester name KDE"
+        },
+        {
+          "canonical_slug": "harvester_phone",
+          "confidence": 0.88,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 10,
+          "why": "Sample values include 'Crew Phone' label and phone numbers \u2014 harvester phone KDE"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.78,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 11,
+          "why": "Sample values include 'Shipped To' label and 'Riverside Processing Plant' \u2014 destination of harvested food"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.82,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 12,
+          "why": "Sample values include 'Doc Type' label and 'Harvest ticket' \u2014 reference document type"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.85,
+          "header": "HARVEST LOG \u2014 GREENACRE FARMS",
+          "index": 13,
+          "why": "Sample values include 'Doc Ref' label and HT-3301\u2026HT-3306 \u2014 reference document numbers"
+        }
+      ],
+      "confidence": 0.93,
+      "record_kind": "cte_harvesting",
+      "sheet_name": "Harvest Log"
+    }
+  ],
+  "key": "6c2f917b3d80bf22bc9b5b691901420bc8ccd1643df26528f4999b9ddcdfdd38",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

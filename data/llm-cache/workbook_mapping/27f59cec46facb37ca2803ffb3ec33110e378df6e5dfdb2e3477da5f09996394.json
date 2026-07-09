@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "location_id",
+          "confidence": 1.0,
+          "header": "location_id",
+          "index": 1,
+          "why": "Exact match to canonical slug location_id"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 1.0,
+          "header": "location_name",
+          "index": 2,
+          "why": "Exact match to canonical slug location_name"
+        },
+        {
+          "canonical_slug": "location_type",
+          "confidence": 1.0,
+          "header": "location_type",
+          "index": 3,
+          "why": "Exact match to canonical slug location_type"
+        }
+      ],
+      "confidence": 0.98,
+      "record_kind": "master_locations",
+      "sheet_name": "02_Location_Master"
+    }
+  ],
+  "key": "27f59cec46facb37ca2803ffb3ec33110e378df6e5dfdb2e3477da5f09996394",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

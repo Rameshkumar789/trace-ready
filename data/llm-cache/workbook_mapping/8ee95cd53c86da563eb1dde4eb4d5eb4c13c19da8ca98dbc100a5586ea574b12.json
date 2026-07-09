@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.88,
+          "header": "Pack Ref",
+          "index": 1,
+          "why": "P-01\u2026P-06 are identifiers for each packing event"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.92,
+          "header": "Item",
+          "index": 2,
+          "why": "GTIN-style item code identifying the product being packed"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.92,
+          "header": "Description",
+          "index": 3,
+          "why": "Human-readable product description"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.95,
+          "header": "Lot Assigned",
+          "index": 4,
+          "why": "Lot codes assigned at packing (2502140011\u2026) \u2014 the TLC for this initial packing event"
+        },
+        {
+          "canonical_slug": "quantity_packed",
+          "confidence": 0.9,
+          "header": "Qty Packed",
+          "index": 5,
+          "why": "Quantity of food packed \u2014 maps to quantity_packed for initial packing"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.95,
+          "header": "UOM",
+          "index": 6,
+          "why": "Unit of measure (case)"
+        },
+        {
+          "canonical_slug": "packing_date",
+          "confidence": 0.98,
+          "header": "Pack Date",
+          "index": 7,
+          "why": "Date the food was packed \u2014 exact match to packing_date KDE"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.82,
+          "header": "Packing Site",
+          "index": 8,
+          "why": "Location where packing occurred \u2014 actor/event location name"
+        },
+        {
+          "canonical_slug": "farm_location",
+          "confidence": 0.85,
+          "header": "Farm",
+          "index": 9,
+          "why": "Farm of origin for the packed food \u2014 farm_location KDE"
+        },
+        {
+          "canonical_slug": "harvest_field_or_container",
+          "confidence": 0.88,
+          "header": "Field or Block",
+          "index": 10,
+          "why": "Field/block identifier where the crop was grown \u2014 harvest field or container KDE"
+        },
+        {
+          "canonical_slug": "harvest_date",
+          "confidence": 0.92,
+          "header": "Harvest Date",
+          "index": 11,
+          "why": "Date the food was harvested \u2014 harvest_date KDE carried into packing record"
+        },
+        {
+          "canonical_slug": "received_date",
+          "confidence": 0.82,
+          "header": "Received Date",
+          "index": 12,
+          "why": "Date the harvested food was received at the packing site"
+        },
+        {
+          "canonical_slug": "harvester_name",
+          "confidence": 0.92,
+          "header": "Harvester Name",
+          "index": 13,
+          "why": "Name of the harvester \u2014 harvester_name KDE"
+        },
+        {
+          "canonical_slug": "harvester_phone",
+          "confidence": 0.92,
+          "header": "Harvester Phone",
+          "index": 14,
+          "why": "Phone number of the harvester \u2014 harvester_phone KDE"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.88,
+          "header": "Doc Type",
+          "index": 15,
+          "why": "Type of reference document (Pack ticket)"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.9,
+          "header": "Doc Ref",
+          "index": 16,
+          "why": "Reference document numbers (PK-501\u2026PK-506)"
+        }
+      ],
+      "confidence": 0.95,
+      "record_kind": "cte_initial_packing",
+      "sheet_name": "Pack Out"
+    }
+  ],
+  "key": "8ee95cd53c86da563eb1dde4eb4d5eb4c13c19da8ca98dbc100a5586ea574b12",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

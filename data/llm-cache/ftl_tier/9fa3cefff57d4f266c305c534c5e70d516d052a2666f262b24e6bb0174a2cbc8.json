@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.99,
+      "declared_category": "Tomatoes (fresh)",
+      "declared_negative": false,
+      "matched_commodity": "Tomatoes (fresh)",
+      "mismatch": false,
+      "product_id": "10860004520082",
+      "reasoning": "Vine tomatoes sold fresh are conclusively covered by the FTL 'Tomatoes (fresh)' commodity, which includes all varieties of fresh tomatoes.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "9fa3cefff57d4f266c305c534c5e70d516d052a2666f262b24e6bb0174a2cbc8",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

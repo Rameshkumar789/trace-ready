@@ -1,0 +1,233 @@
+{
+  "items": [
+    {
+      "confidence": 0.95,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767000211",
+      "reasoning": "\"White Tails on 31/35 Frozen\" refers to frozen white shrimp (tail-on), and shrimp are explicitly listed as crustaceans on the FTL. Frozen crustaceans are included in the FTL commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.95,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767000495",
+      "reasoning": "\"White 21/25 tails 25lb box\" refers to white shrimp tails, a crustacean product; frozen/fresh shrimp are explicitly covered by the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001010",
+      "reasoning": "White Shrimp Head on 9/12 is clearly a shrimp product; shrimp are explicitly listed as crustaceans on the FTL, covering all fresh and frozen forms.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001027",
+      "reasoning": "White Shrimp Head on 13/15 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001034",
+      "reasoning": "White Shrimp Head on 16/18 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001041",
+      "reasoning": "White Shrimp Head on 19/21 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001058",
+      "reasoning": "White Shrimp Head on 22/25 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001065",
+      "reasoning": "White Shrimp Head on 26/30 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001072",
+      "reasoning": "White Shrimp Head on 31/35 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001089",
+      "reasoning": "White Shrimp Head on 36/40 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001119",
+      "reasoning": "White Shrimp Head Off Tails 16/20 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001126",
+      "reasoning": "White Shrimp Head Off Tails 21/25 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001133",
+      "reasoning": "White Shrimp Head Off Tails 21/30 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001140",
+      "reasoning": "White Shrimp Head Off Tails 26/30 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001157",
+      "reasoning": "White Shrimp Head Off Tails 31/35 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001164",
+      "reasoning": "White Shrimp Head Off Tails 31/40 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001188",
+      "reasoning": "White Shrimp Head Off Tails 41/50 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001195",
+      "reasoning": "White Shrimp Head Off Tails 51/60 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001201",
+      "reasoning": "White Shrimp Head Off Tails 61/70 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001256",
+      "reasoning": "White Shrimp PAD Fan Tail 19/21 is a peeled-and-deveined shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001270",
+      "reasoning": "White Shrimp PAD Fan Tail 21/25 is a peeled-and-deveined shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001287",
+      "reasoning": "White Shrimp PAD Fan Tail 31/35 is a peeled-and-deveined shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001300",
+      "reasoning": "White Shrimp PAD Fan Tail 41/50 is a peeled-and-deveined shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001324",
+      "reasoning": "White Shrimp PAD Tail-Off 21/25 is a peeled-and-deveined shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001331",
+      "reasoning": "White Shrimp PAD Tail-Off 21/30 is a peeled-and-deveined shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001348",
+      "reasoning": "White Shrimp PAD Tail-Off 26/30 is a peeled-and-deveined shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001386",
+      "reasoning": "Brown Shrimp Heads on 16/18 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001461",
+      "reasoning": "Brown Shrimp Head Off Tails 16/20 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001478",
+      "reasoning": "Brown Shrimp Head Off Tails 21/25 is a shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001621",
+      "reasoning": "Brown Shrimp P&D Fan Tail 21/25 is a peeled-and-deveined shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001676",
+      "reasoning": "Brown Shrimp P&D Tail-Off 21/25 is a peeled-and-deveined shrimp product explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767002963",
+      "reasoning": "White Shrimp Head Off Tails 21/30 no chems is a shrimp product (chemical-free designation does not change its classification) explicitly covered under the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "8a5579e3271d38e7f629646988f71bffe21f028a6671bbdfdaf26191b5971ed7",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier_call",
+  "request_sha256": "0ac3271459330a8438ca8f3eb219df27484092f54664373daf44ac31d8bfcc99"
+}

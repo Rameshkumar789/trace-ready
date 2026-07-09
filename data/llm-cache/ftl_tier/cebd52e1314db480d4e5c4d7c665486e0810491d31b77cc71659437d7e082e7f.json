@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.75,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": "Cheese (made from pasteurized milk), fresh soft or soft unripened",
+      "mismatch": false,
+      "product_id": "10860004520051",
+      "reasoning": "IMS-listed Grade A cottage cheese matches the FTL commodity but falls under the February 2026 partial exemption (91 FR), which removes full Subpart S obligations while retaining immediate-source/recipient recordkeeping. It is neither fully 'on' nor fully 'off' the list, warranting a suspicious/exempt-partial classification pending the facility's IMS listing status confirmation.",
+      "tier": "suspicious"
+    }
+  ],
+  "key": "cebd52e1314db480d4e5c4d7c665486e0810491d31b77cc71659437d7e082e7f",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

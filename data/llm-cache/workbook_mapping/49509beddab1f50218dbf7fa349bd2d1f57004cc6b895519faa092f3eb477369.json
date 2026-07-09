@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 0.88,
+          "header": "Batch No",
+          "index": 1,
+          "why": "Batch number identifies the transformation event that produced the output"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Output Item",
+          "index": 2,
+          "why": "GTIN codes identifying the newly produced output products"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "Output Description",
+          "index": 3,
+          "why": "Human-readable descriptions of the output products"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.97,
+          "header": "New Lot",
+          "index": 4,
+          "why": "Newly assigned lot code for the produced food; on a transformation_output sheet this is the output TLC"
+        },
+        {
+          "canonical_slug": "source_lot_or_tlc",
+          "confidence": 0.85,
+          "header": "Primary Input Lot",
+          "index": 5,
+          "why": "References the key input lot consumed to make this output; maps to source_lot_or_tlc"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.97,
+          "header": "Qty Produced",
+          "index": 6,
+          "why": "Quantity of output food produced in the batch"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 1.0,
+          "header": "UOM",
+          "index": 7,
+          "why": "Unit of measure for the produced quantity"
+        },
+        {
+          "canonical_slug": "transformation_date",
+          "confidence": 0.97,
+          "header": "Production Date",
+          "index": 8,
+          "why": "Date the new food was produced \u2014 the transformation KDE"
+        },
+        {
+          "canonical_slug": "actor_location_id",
+          "confidence": 0.72,
+          "header": "Production Site",
+          "index": 9,
+          "why": "Name of the facility where production occurred; no location ID is present so actor_location_id is the closest fit, though it holds a name rather than an ID"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.9,
+          "header": "Doc Type",
+          "index": 10,
+          "why": "Type of source document (Batch record) backing the transformation event"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.92,
+          "header": "Doc Ref",
+          "index": 11,
+          "why": "Document reference numbers (BR-0315\u2026) for the batch records"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "cte_transformation_output",
+      "sheet_name": "Production Batches"
+    }
+  ],
+  "key": "49509beddab1f50218dbf7fa349bd2d1f57004cc6b895519faa092f3eb477369",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

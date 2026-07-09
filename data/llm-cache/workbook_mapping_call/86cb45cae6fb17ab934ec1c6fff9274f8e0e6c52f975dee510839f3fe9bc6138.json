@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "traceability_plan_item",
+          "confidence": 0.85,
+          "header": "Required records",
+          "index": 1,
+          "why": "Matches example header 'required records' for traceability_plan_item slug"
+        },
+        {
+          "canonical_slug": "traceability_plan_item",
+          "confidence": 0.6,
+          "header": "Identify foods",
+          "index": 2,
+          "why": "Describes a traceability plan component about food identification; no better slug available"
+        },
+        {
+          "canonical_slug": "tlc_assignment_method",
+          "confidence": 0.7,
+          "header": "Traceability LOT codes assignment",
+          "index": 3,
+          "why": "Describes how TLCs are assigned, aligning with tlc_assignment_method; could also be tlc_assignment_format but method is broader"
+        },
+        {
+          "canonical_slug": "contact_person",
+          "confidence": 0.8,
+          "header": "Point of contact",
+          "index": 4,
+          "why": "Directly matches 'point of contact' concept in traceability plan; contact_person is the closest slug"
+        },
+        {
+          "canonical_slug": "growing_area",
+          "confidence": 0.75,
+          "header": "Growing areas",
+          "index": 5,
+          "why": "Matches growing_area slug describing growing area information within the traceability plan"
+        }
+      ],
+      "confidence": 0.85,
+      "record_kind": "traceability_plan",
+      "sheet_name": "Traceability plan"
+    }
+  ],
+  "key": "86cb45cae6fb17ab934ec1c6fff9274f8e0e6c52f975dee510839f3fe9bc6138",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping_call",
+  "request_sha256": "a59f5426ce5c7177508444b19d399ee1a24f1c9a762ef348f62ca71b11b37299"
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.95,
+      "declared_category": "General products",
+      "declared_negative": true,
+      "matched_commodity": "Crustaceans",
+      "mismatch": true,
+      "product_id": "04598767000211",
+      "reasoning": "\"White Tails on 31/35 Frozen\" refers to frozen white shrimp (tail-on), and shrimp are explicitly listed as crustaceans on the FTL. Frozen crustaceans are included in the FTL commodity.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "c4f0e3262b0bac198152da836ecef6e350b1db4132d568c239267592f91a1aed",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

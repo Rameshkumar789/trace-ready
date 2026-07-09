@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001027",
+      "reasoning": "White shrimp is explicitly listed as an included example of crustaceans on the FTL, and the FTL covers fresh, frozen, and previously frozen forms. Head-on presentation does not affect classification.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001034",
+      "reasoning": "White shrimp is explicitly listed as an included example of crustaceans on the FTL, covering all fresh, frozen, and previously frozen forms regardless of size grade or head-on presentation.",
+      "tier": "definite_on"
+    },
+    {
+      "confidence": 0.99,
+      "matched_commodity": "Crustaceans",
+      "product_id": "04598767001126",
+      "reasoning": "White shrimp (head-off, tails-on) is still a crustacean species covered by the FTL in all fresh, frozen, and previously frozen forms; minimal processing such as heading does not remove it from scope.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "fd67afbe770bcfa943a9cf21d2af99a980657489704b87e3f542df9e61b55a72",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier_call",
+  "request_sha256": "3b784648da2acf413c09690fc7fe2ee8f5050c2f1fba1f9a43d21cce131efbcb"
+}

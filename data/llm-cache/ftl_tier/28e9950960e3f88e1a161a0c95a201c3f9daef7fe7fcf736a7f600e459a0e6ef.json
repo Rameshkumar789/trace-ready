@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.55,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": null,
+      "mismatch": false,
+      "product_id": "EXT-DRS-889",
+      "reasoning": "Although labeled 'non-FTL' by the customer, Caesar dressing in bulk could contain anchovies (a histamine-producing finfish) or other FTL ingredients; the customer's self-declaration is not authoritative and the ingredient composition is unconfirmed.",
+      "tier": "suspicious"
+    }
+  ],
+  "key": "28e9950960e3f88e1a161a0c95a201c3f9daef7fe7fcf736a7f600e459a0e6ef",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

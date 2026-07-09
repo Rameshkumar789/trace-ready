@@ -333,6 +333,7 @@ def _finding_row(
             "cte": finding.cte,
             "sourceFindingId": finding.finding_id,
             "approvedRuleOnly": True,
+            "requirementSource": getattr(finding, "requirement_source", "fda_rule"),
         },
         review_state=finding.reviewer_status,
     )
@@ -501,14 +502,30 @@ def _readiness_status(package: Phase11RuleExecutionPackage) -> str:
     return "ready"
 
 
+_RECOMMENDATIONS: dict[str, str] = {
+    "kde_completeness": "Capture and retain the missing KDE in the customer traceability record.",
+    "tlc_lineage": "Link source and output TLC values across the relevant traceability event.",
+    "sortable_export_readiness": "Populate missing fields before generating the FDA sortable spreadsheet export.",
+    "lot_backward_lineage": "Locate or capture the receiving/origination record that assigned this traceability lot code; if it predates the export window, produce the prior-period records.",
+    "lot_forward_linkage": "Confirm whether these lots are inventory on hand or whether forward (shipping/transformation) records are missing.",
+    "lot_duplicate_tlc": "Assign distinct traceability lot codes per product, or document the multi-product transformation so a lot-level recall stays precise.",
+    "lot_mass_balance": "Reconcile shipped quantity against received/produced quantity for this lot and correct the record that is wrong.",
+    "lot_date_ordering": "Verify the event dates and the lot code for this lot; one of them is implausible as recorded.",
+    "lot_lot_format": "Confirm these lot codes follow the documented TLC assignment procedure in the traceability plan.",
+    "lot_self_receive": "Record the true origin (trading partner shipment or own production) for this lot instead of a same-location receive.",
+    "ftl_declared_mismatch": "Reconcile the declared FTL designation with the product description; if the product is on the FTL, its events need full KDE capture.",
+    "gs1_identifier": "Correct the identifier's check digit or confirm the identifier scheme in the product/location master.",
+    "gs1_requirement": "Correct the GS1 identifier to meet this customer's supplier requirements (GTIN for products, GLN for locations).",
+    "partner_data_quality": "Engage this trading partner on the recurring missing data elements listed in the partner scorecard.",
+    "inbound_erp_mismatch": "Reconcile the supplier-provided document against the ERP receiving record; your system may be dropping KDEs the supplier already sends.",
+}
+
+
 def _recommendation_for(finding: AuditFinding) -> str:
-    if finding.finding_type == "kde_completeness":
-        return "Capture and retain the missing KDE in the customer traceability record."
-    if finding.finding_type == "tlc_lineage":
-        return "Link source and output TLC values across the relevant traceability event."
-    if finding.finding_type == "sortable_export_readiness":
-        return "Populate missing fields before generating the FDA sortable spreadsheet export."
-    return "Review the cited approved obligation and resolve the customer evidence gap."
+    return _RECOMMENDATIONS.get(
+        finding.finding_type,
+        "Review the cited approved obligation and resolve the customer evidence gap.",
+    )
 
 
 def _safe_filename(filename: str) -> str:

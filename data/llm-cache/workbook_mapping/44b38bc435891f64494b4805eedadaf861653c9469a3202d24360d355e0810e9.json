@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "traceability_plan_item",
+          "confidence": 0.9,
+          "header": "TRACEABILITY PLAN \u2014 21 CFR 1.1315",
+          "index": 1,
+          "why": "Sample values include 'Plan Component' label and traceability plan component descriptions (how records are maintained, how TLCs are assigned, point of contact, etc.)"
+        },
+        {
+          "canonical_slug": "traceability_plan_answer",
+          "confidence": 0.9,
+          "header": "TRACEABILITY PLAN \u2014 21 CFR 1.1315",
+          "index": 2,
+          "why": "Sample values include 'Details' label and the operator's answers/descriptions for each plan component"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "traceability_plan",
+      "sheet_name": "Trace Plan"
+    }
+  ],
+  "key": "44b38bc435891f64494b4805eedadaf861653c9469a3202d24360d355e0810e9",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

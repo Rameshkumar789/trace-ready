@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.98,
+      "declared_category": "General grocery",
+      "declared_negative": false,
+      "matched_commodity": "Smoked finfish (refrigerated, frozen, and previously frozen)",
+      "mismatch": false,
+      "product_id": "10860004520037",
+      "reasoning": "Cold-smoked Atlantic salmon slices are a textbook example of smoked finfish (refrigerated/cold-smoked), explicitly listed as an included example (smoked salmon/lox/nova) under the FTL smoked finfish commodity.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "725360ac808f73bc0f62235ccb62e7f540e79d779a69bfb4615315b5102faacb",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

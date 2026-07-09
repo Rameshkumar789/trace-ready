@@ -1,0 +1,569 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.92,
+          "header": "ID",
+          "index": 1,
+          "why": "Numeric identifier on a business master sheet; maps to business_id"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.95,
+          "header": "Title",
+          "index": 2,
+          "why": "Business name/title matches company_name example headers"
+        },
+        {
+          "canonical_slug": "address",
+          "confidence": 1.0,
+          "header": "Address",
+          "index": 3,
+          "why": "Street address field, exact match to address slug"
+        },
+        {
+          "canonical_slug": "zip_code",
+          "confidence": 1.0,
+          "header": "ZIP",
+          "index": 4,
+          "why": "Postal/ZIP code, exact match to zip_code slug"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 1.0,
+          "header": "City",
+          "index": 5,
+          "why": "City field, exact match"
+        },
+        {
+          "canonical_slug": "state",
+          "confidence": 1.0,
+          "header": "State",
+          "index": 6,
+          "why": "State/province field, exact match"
+        },
+        {
+          "canonical_slug": "country",
+          "confidence": 1.0,
+          "header": "Country",
+          "index": 7,
+          "why": "Country field, exact match"
+        },
+        {
+          "canonical_slug": "contact_person",
+          "confidence": 1.0,
+          "header": "Contact Person",
+          "index": 8,
+          "why": "Point-of-contact person name, exact match to contact_person example header"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 1.0,
+          "header": "email",
+          "index": 9,
+          "why": "Email address field, exact match"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 1.0,
+          "header": "Phone Number",
+          "index": 10,
+          "why": "Phone number field, exact match"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.0,
+          "header": "Description",
+          "index": 11,
+          "why": "Appears to be a duplicate of Title/company_name; no distinct canonical slug fits a second name column"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "master_business",
+      "sheet_name": "Business Master"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "location_id",
+          "confidence": 0.95,
+          "header": "ID",
+          "index": 1,
+          "why": "Long numeric identifier on a location master sheet; maps to location_id"
+        },
+        {
+          "canonical_slug": "location_owner",
+          "confidence": 0.97,
+          "header": "Owner",
+          "index": 2,
+          "why": "Business that owns/operates the location, matches location_owner example header 'owner'"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.95,
+          "header": "Title",
+          "index": 3,
+          "why": "Name/description of the location, maps to location_name"
+        },
+        {
+          "canonical_slug": "address",
+          "confidence": 1.0,
+          "header": "Address",
+          "index": 4,
+          "why": "Street address, exact match"
+        },
+        {
+          "canonical_slug": "zip_code",
+          "confidence": 1.0,
+          "header": "ZIP",
+          "index": 5,
+          "why": "Postal/ZIP code, exact match"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 1.0,
+          "header": "City",
+          "index": 6,
+          "why": "City field, exact match"
+        },
+        {
+          "canonical_slug": "state",
+          "confidence": 1.0,
+          "header": "State",
+          "index": 7,
+          "why": "State/province field, exact match"
+        },
+        {
+          "canonical_slug": "country",
+          "confidence": 1.0,
+          "header": "Country",
+          "index": 8,
+          "why": "Country field, exact match"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.0,
+          "header": "Description",
+          "index": 9,
+          "why": "Duplicate of Title/location_name; no distinct canonical slug fits a second name column"
+        },
+        {
+          "canonical_slug": "coordinates",
+          "confidence": 1.0,
+          "header": "Coordinates",
+          "index": 10,
+          "why": "Geo coordinates, exact match to coordinates slug; samples show lat/long pairs"
+        },
+        {
+          "canonical_slug": "location_type",
+          "confidence": 1.0,
+          "header": "Location type",
+          "index": 11,
+          "why": "Type of location (receiving dock, packaging, etc.), exact match to location_type slug"
+        }
+      ],
+      "confidence": 0.99,
+      "record_kind": "master_locations",
+      "sheet_name": "Location Master"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "ID",
+          "index": 1,
+          "why": "14-digit GTIN-style identifier on a product master sheet; maps to product_id"
+        },
+        {
+          "canonical_slug": "location_owner",
+          "confidence": 0.6,
+          "header": "Owner",
+          "index": 2,
+          "why": "Business owning the product; closest slug is location_owner but context is product master \u2014 partial fit; no product_owner slug exists"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.97,
+          "header": "Title",
+          "index": 3,
+          "why": "Product name/description (shrimp SKUs), maps to product_name"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.95,
+          "header": "Comodity",
+          "index": 4,
+          "why": "Commodity of the food (misspelled 'Comodity'), maps to commodity"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.9,
+          "header": "Variety",
+          "index": 5,
+          "why": "Variety of the commodity, exact match to variety slug (empty but header is clear)"
+        },
+        {
+          "canonical_slug": "ftl_category",
+          "confidence": 0.97,
+          "header": "FTL Group",
+          "index": 6,
+          "why": "FTL category/group for the product, matches ftl_category example header 'ftl group'"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 1.0,
+          "header": "Measure unit",
+          "index": 7,
+          "why": "Unit of measure, matches unit example header 'measure unit'"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.0,
+          "header": "Description",
+          "index": 8,
+          "why": "Duplicate of Title/product_name; no distinct canonical slug fits a second name column"
+        }
+      ],
+      "confidence": 0.99,
+      "record_kind": "master_products",
+      "sheet_name": "Product Master"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Product ID",
+          "index": 1,
+          "why": "Product identifier linking lot assignment to a product"
+        },
+        {
+          "canonical_slug": "tlc_assignment_format",
+          "confidence": 0.85,
+          "header": "Template title",
+          "index": 2,
+          "why": "Template title matches tlc_assignment_format example header 'template title'"
+        },
+        {
+          "canonical_slug": "tlc_assignment_method",
+          "confidence": 0.95,
+          "header": "Method",
+          "index": 3,
+          "why": "Method for assigning TLCs, matches tlc_assignment_method example header 'method'"
+        },
+        {
+          "canonical_slug": "tlc_assignment_format",
+          "confidence": 0.9,
+          "header": "Format",
+          "index": 4,
+          "why": "Format/template for TLCs, matches tlc_assignment_format example header 'format'"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.0,
+          "header": "Example",
+          "index": 5,
+          "why": "Example lot code value; no canonical slug for 'example' exists"
+        },
+        {
+          "canonical_slug": "contact_person",
+          "confidence": 0.9,
+          "header": "Contact Person",
+          "index": 6,
+          "why": "Point-of-contact person for lot assignment, maps to contact_person"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 1.0,
+          "header": "Phone Number",
+          "index": 7,
+          "why": "Phone number for contact, exact match"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 1.0,
+          "header": "email",
+          "index": 8,
+          "why": "Email address for contact, exact match"
+        }
+      ],
+      "confidence": 0.95,
+      "record_kind": "lot_assignment",
+      "sheet_name": "LOT Assignment"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Product ID",
+          "index": 1,
+          "why": "Product identifier for the harvested food"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "Product title",
+          "index": 2,
+          "why": "Product name/description of the harvested food"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.95,
+          "header": "Comodity",
+          "index": 3,
+          "why": "Commodity of the harvested food (misspelled 'Comodity')"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.9,
+          "header": "Variety",
+          "index": 4,
+          "why": "Variety of the commodity, exact match"
+        },
+        {
+          "canonical_slug": "harvest_date",
+          "confidence": 1.0,
+          "header": "Harvesting date",
+          "index": 5,
+          "why": "Harvesting KDE date, matches harvest_date example header 'harvesting date'"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 1.0,
+          "header": "Quantity",
+          "index": 6,
+          "why": "Quantity of food harvested, exact match"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 1.0,
+          "header": "Measure Unit",
+          "index": 7,
+          "why": "Unit of measure, matches unit example header 'measure unit'"
+        },
+        {
+          "canonical_slug": "location_id",
+          "confidence": 0.88,
+          "header": "Harvesting Location ID",
+          "index": 8,
+          "why": "Location where harvesting occurred; actor_location_id or location_id both fit; location_id is more general and appropriate for the harvest site"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.88,
+          "header": "Harvesting Location Description",
+          "index": 9,
+          "why": "Name/description of the harvesting location"
+        },
+        {
+          "canonical_slug": "harvest_field_or_container",
+          "confidence": 0.9,
+          "header": "Field or Container ID",
+          "index": 10,
+          "why": "Field or container identifier for harvesting KDE, maps to harvest_field_or_container"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.0,
+          "header": "Field or Container Description",
+          "index": 11,
+          "why": "Description of field/container; no distinct canonical slug for this description field beyond the ID slug already mapped"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.95,
+          "header": "Ref. Document Type",
+          "index": 12,
+          "why": "Reference document type, matches reference_record_type example header 'ref. document type'"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.95,
+          "header": "Ref. Document Number",
+          "index": 13,
+          "why": "Reference document number, matches reference_record_no example header 'ref. document number'"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.9,
+          "header": "Business ID",
+          "index": 14,
+          "why": "Identifier of the business entity performing the harvest"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.85,
+          "header": "Business description",
+          "index": 15,
+          "why": "Name/description of the business, matches company_name example header 'business description'"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 1.0,
+          "header": "Phone Number",
+          "index": 16,
+          "why": "Phone number for the business contact"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 1.0,
+          "header": "email",
+          "index": 17,
+          "why": "Email address for the business contact"
+        },
+        {
+          "canonical_slug": "destination_location_id",
+          "confidence": 0.92,
+          "header": "Immediate Subsequent Recepient Location ID",
+          "index": 18,
+          "why": "The immediate subsequent recipient location is the destination the food is shipped to after harvest"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.92,
+          "header": "Immediate Subsequent Recepient Location Description",
+          "index": 19,
+          "why": "Name/description of the immediate subsequent recipient (destination) location"
+        }
+      ],
+      "confidence": 0.92,
+      "record_kind": "cte_harvesting",
+      "sheet_name": "Harvesting KDEs"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Product ID",
+          "index": 1,
+          "why": "Product identifier for the cooled food"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "Product title",
+          "index": 2,
+          "why": "Product name/description of the cooled food"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.95,
+          "header": "Comodity",
+          "index": 3,
+          "why": "Commodity of the cooled food (misspelled 'Comodity')"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.9,
+          "header": "Variety",
+          "index": 4,
+          "why": "Variety of the commodity, exact match"
+        },
+        {
+          "canonical_slug": "cooling_date",
+          "confidence": 1.0,
+          "header": "Cooling date",
+          "index": 5,
+          "why": "Cooling KDE date, exact match to cooling_date example header"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 1.0,
+          "header": "Quantity",
+          "index": 6,
+          "why": "Quantity of food cooled, exact match"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 1.0,
+          "header": "Measure Unit",
+          "index": 7,
+          "why": "Unit of measure, matches unit example header 'measure unit'"
+        },
+        {
+          "canonical_slug": "location_id",
+          "confidence": 0.88,
+          "header": "Cooling Location ID",
+          "index": 8,
+          "why": "Location where cooling occurred; location_id is the appropriate slug for the cooling site"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.88,
+          "header": "Cooling Location Description",
+          "index": 9,
+          "why": "Name/description of the cooling location"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.95,
+          "header": "Ref. Document Type",
+          "index": 10,
+          "why": "Reference document type, matches reference_record_type example header 'ref. document type'"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.95,
+          "header": "Ref. Document Number",
+          "index": 11,
+          "why": "Reference document number, matches reference_record_no example header 'ref. document number'"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.9,
+          "header": "Business ID",
+          "index": 12,
+          "why": "Identifier of the business entity performing the cooling"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.85,
+          "header": "Business description",
+          "index": 13,
+          "why": "Name/description of the business, matches company_name example header 'business description'"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 1.0,
+          "header": "Phone Number",
+          "index": 14,
+          "why": "Phone number for the business contact"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 1.0,
+          "header": "email",
+          "index": 15,
+          "why": "Email address for the business contact"
+        },
+        {
+          "canonical_slug": "destination_location_id",
+          "confidence": 0.92,
+          "header": "Immediate Subsequent Recepient Location ID",
+          "index": 16,
+          "why": "The immediate subsequent recipient location is the destination after cooling"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.92,
+          "header": "Immediate Subsequent Recepient Location Description",
+          "index": 17,
+          "why": "Name/description of the immediate subsequent recipient (destination) location"
+        }
+      ],
+      "confidence": 0.95,
+      "record_kind": "cte_cooling",
+      "sheet_name": "Cooling KDEs"
+    }
+  ],
+  "key": "c947a333f080375af4936566bbf9ea5ce23477108dee75b32b4c240a187d63f3",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping_call",
+  "request_sha256": "b42d22e295ebe898699a9c67f13a732229dc1122bf0d44db4ee8fd062d1f1ff3"
+}

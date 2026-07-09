@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "narrative": "This audit covers 761 traceability events recorded between 2025-01-03 and 2025-09-23, spanning 32 products all of which fall squarely on the Food Traceability List as definite_on. Those events break down into 64 first-land-based-receiving, 1 receiving, 551 shipping, and 145 transformation records, touching 29 external trading partners and also capturing 216 internal transfer events. The period and volume confirm that this operator is fully within scope and that the records examined represent a substantial, active supply chain.\n\nThe most pressing gaps are the 5 high-severity findings. KDE completeness is the single largest data-quality issue: 354 of 6,785 graded KDE fields are missing, yielding a coverage rate of 0.9478 rather than full coverage. Lot integrity is the next critical area, with 41 duplicate TLC flags, 6 backward-lineage records needing review, and individual flags each for date ordering, mass balance, self-receive, and transformation linkage. Two products \u2014 04598767000211 and 04598767000495 \u2014 are declared as General products in the system yet are classified definite_on for the Food Traceability List, a mismatch that creates both compliance and audit-trail risk. Rounding out the high-severity picture are 2 scope-or-exemption-uncertainty findings and 1 traceability-plan finding, alongside 8 medium-severity findings covering the remaining lot-integrity and lineage issues.\n\nThe immediate priorities are: correct the product declarations for 04598767000211 and 04598767000495 so their records reflect their true FTL status; resolve the 354 missing KDE fields by tracing them back to the 64 first-land-based-receiving and 145 transformation events where gaps are most likely concentrated; and work through the 41 duplicate TLC lots systematically, as that volume suggests a systemic lot-assignment process problem rather than isolated data entry errors. The traceability plan finding must also be addressed before any regulatory review, as an incomplete or absent plan undermines every other corrective action taken."
+    }
+  ],
+  "key": "79beeb5d9fb2ec2290f14f95ad50f654166ca8916e92567396f0ed51ec1d80bd",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "scoping_narrative",
+  "request_sha256": "0fb156b414fe5bf0b07165ab2dbc72e5fcbcedbc4ab77749e8b8d418a91800cb"
+}

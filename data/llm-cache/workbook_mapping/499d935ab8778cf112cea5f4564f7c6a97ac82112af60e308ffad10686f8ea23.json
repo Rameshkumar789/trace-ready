@@ -1,0 +1,170 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.9,
+          "header": "Product ID",
+          "index": 1,
+          "why": "Product identifier for the received/unpacked food"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.9,
+          "header": "Product title",
+          "index": 2,
+          "why": "Product name/description for the received food"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.85,
+          "header": "Comodity",
+          "index": 3,
+          "why": "Misspelled 'Commodity' \u2014 maps to commodity slug"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.95,
+          "header": "Variety",
+          "index": 4,
+          "why": "Exact match to variety slug"
+        },
+        {
+          "canonical_slug": "received_date",
+          "confidence": 0.85,
+          "header": "Receiving date",
+          "index": 5,
+          "why": "Date the raw agricultural commodity was received before packing"
+        },
+        {
+          "canonical_slug": "quantity_received",
+          "confidence": 0.95,
+          "header": "Quantity Received Food",
+          "index": 6,
+          "why": "Exact match to quantity_received slug (unpacked/received quantity)"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.9,
+          "header": "Measure Unit received Food",
+          "index": 7,
+          "why": "Unit of measure for the received quantity"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.95,
+          "header": "Harvesting KDEs",
+          "index": 8,
+          "why": "Reference pointer to another sheet ('See Harvesting KDEs sheet') \u2014 maps to null"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.95,
+          "header": "Cooling KDEs",
+          "index": 9,
+          "why": "Reference pointer to another sheet \u2014 maps to null"
+        },
+        {
+          "canonical_slug": "packing_date",
+          "confidence": 0.98,
+          "header": "Packing date",
+          "index": 10,
+          "why": "Exact match to packing_date slug"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.95,
+          "header": "LOT Assigned",
+          "index": 11,
+          "why": "The TLC assigned at initial packing \u2014 matches 'lot assigned' example header"
+        },
+        {
+          "canonical_slug": "tlc_source",
+          "confidence": 0.9,
+          "header": "LOT Source",
+          "index": 12,
+          "why": "Matches tlc_source slug (where the lot code was assigned)"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.8,
+          "header": "Product ID Packed Food",
+          "index": 13,
+          "why": "Product ID of the packed/output food; best fit is product_id (no separate output product id slug)"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.8,
+          "header": "Product Title Packed Food",
+          "index": 14,
+          "why": "Product name of the packed food"
+        },
+        {
+          "canonical_slug": "quantity_packed",
+          "confidence": 0.95,
+          "header": "Quantity Packed Food",
+          "index": 15,
+          "why": "Exact match to quantity_packed slug"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.85,
+          "header": "Measure unit Packed Food",
+          "index": 16,
+          "why": "Unit of measure for the packed quantity"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.95,
+          "header": "Ref. Document Type",
+          "index": 17,
+          "why": "Matches 'ref. document type' example header for reference_record_type"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.95,
+          "header": "Ref. Document Number",
+          "index": 18,
+          "why": "Matches 'ref. document number' example header for reference_record_no"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.95,
+          "header": "Business ID",
+          "index": 19,
+          "why": "Exact match to business_id slug"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.9,
+          "header": "Business description",
+          "index": 20,
+          "why": "Matches 'business description' example header for company_name"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 0.95,
+          "header": "Phone Number",
+          "index": 21,
+          "why": "Exact match to phone_number slug"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 0.98,
+          "header": "email",
+          "index": 22,
+          "why": "Exact match to email slug"
+        }
+      ],
+      "confidence": 0.72,
+      "record_kind": "cte_initial_packing",
+      "sheet_name": "Packing KDEs"
+    }
+  ],
+  "key": "499d935ab8778cf112cea5f4564f7c6a97ac82112af60e308ffad10686f8ea23",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.65,
+      "declared_category": "Cheese (made from pasteurized milk), fresh soft or soft unripened",
+      "declared_negative": false,
+      "matched_commodity": "Cheese (made from pasteurized milk), fresh soft or soft unripened",
+      "mismatch": false,
+      "product_id": "10860004520051",
+      "reasoning": "IMS-listed Grade A cottage cheese is partially exempt from full Subpart S requirements per the Feb 2026 exemption, but still requires immediate-source/recipient recordkeeping; it is not fully 'off' the list but occupies a special exempt status that warrants flagging rather than a clean definite_on or definite_off classification.",
+      "tier": "suspicious"
+    }
+  ],
+  "key": "1c08cfa3c922a250fe8b14e7433bf98d6cd86c2adde907b07606b26d5a300e81",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

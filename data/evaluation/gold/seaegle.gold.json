@@ -1,0 +1,20 @@
+{
+  "workbook": "<provide via --workbook-override: the Sea Eagle ENSESO4Food export (not committed - real customer data)>",
+  "description": "Real pilot-customer export (Sea Eagle Market). Expected findings confirmed by manual analysis (docs/partners/enseso4food/2026-07-07-sea-eagle-sample-data-findings.md); pending confirmation by ENSESO4Food.",
+  "labeled_by": "manual analysis 2026-07-07; treat as provisional gold until Jim/John confirm",
+  "expected_findings": [
+    {"finding_type": "traceability_plan", "min_count": 1, "must_find": true, "note": "traceability plan sheet is empty"},
+    {"finding_type": "kde_completeness", "min_count": 1, "must_find": true, "note": "systemic FLR gaps: harvest info/contact fields missing on all 64 landing records"},
+    {"finding_type": "lot_transformation_linkage", "min_count": 1, "must_find": true, "note": "ingredient->output join key absent from the export (1.1350(a)(1))"},
+    {"finding_type": "lot_backward_lineage", "min_count": 1, "must_find": true, "note": "6 shipped lots predate the export window (needs_review, not gap)"},
+    {"finding_type": "lot_duplicate_tlc", "min_count": 1, "must_find": true, "note": "40 multi-SKU transformation lots + 1 unexplained cross-product reuse (best practice)"},
+    {"finding_type": "lot_mass_balance", "min_count": 1, "must_find": true, "note": "lot 2505130159 shipped 372 lb vs 322 lb originated (best practice)"},
+    {"finding_type": "lot_date_ordering", "min_count": 1, "must_find": true, "note": "lot 2502170105 shipped before its embedded lot date (best practice)"},
+    {"finding_type": "lot_self_receive", "min_count": 1, "must_find": true, "note": "same-location receive cannot be an origin record"},
+    {"finding_type": "ftl_declared_mismatch", "min_count": 2, "must_find": true, "note": "two shrimp SKUs declared 'General products' but on/possibly-on the FTL"}
+  ],
+  "forbidden_findings": [
+    {"finding_type": "lot_backward_lineage", "status": "gap", "note": "the 6 orphan lots must be needs_review (records predate window), never a hard gap"}
+  ],
+  "expected_event_counts": {"total": 761, "byCte": {"shipping": 551, "first_land_based_receiving": 64, "transformation": 145, "receiving": 1}}
+}

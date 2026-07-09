@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.95,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": null,
+      "mismatch": false,
+      "product_id": "10860004520044",
+      "reasoning": "Brie is a soft-ripened cheese that would normally fall under the FTL, but the FTL explicitly excludes cheeses that are frozen or previously frozen; this product is described as 'Frozen,' so it is conclusively excluded from the FTL commodity.",
+      "tier": "definite_off"
+    }
+  ],
+  "key": "9d2b93892d2f350a4c5254d8a67c64b1ad45c738a593c9333bc77c478e3bbbf6",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

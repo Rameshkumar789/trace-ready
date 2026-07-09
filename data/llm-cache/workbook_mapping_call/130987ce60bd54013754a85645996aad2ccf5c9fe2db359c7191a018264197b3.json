@@ -1,0 +1,765 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.9,
+          "header": "Product ID",
+          "index": 1,
+          "why": "Product identifier for the received/unpacked food"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.9,
+          "header": "Product title",
+          "index": 2,
+          "why": "Product name/description for the received food"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.85,
+          "header": "Comodity",
+          "index": 3,
+          "why": "Misspelled 'Commodity' \u2014 maps to commodity slug"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.95,
+          "header": "Variety",
+          "index": 4,
+          "why": "Exact match to variety slug"
+        },
+        {
+          "canonical_slug": "received_date",
+          "confidence": 0.85,
+          "header": "Receiving date",
+          "index": 5,
+          "why": "Date the raw agricultural commodity was received before packing"
+        },
+        {
+          "canonical_slug": "quantity_received",
+          "confidence": 0.95,
+          "header": "Quantity Received Food",
+          "index": 6,
+          "why": "Exact match to quantity_received slug (unpacked/received quantity)"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.9,
+          "header": "Measure Unit received Food",
+          "index": 7,
+          "why": "Unit of measure for the received quantity"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.95,
+          "header": "Harvesting KDEs",
+          "index": 8,
+          "why": "Reference pointer to another sheet ('See Harvesting KDEs sheet') \u2014 maps to null"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.95,
+          "header": "Cooling KDEs",
+          "index": 9,
+          "why": "Reference pointer to another sheet \u2014 maps to null"
+        },
+        {
+          "canonical_slug": "packing_date",
+          "confidence": 0.98,
+          "header": "Packing date",
+          "index": 10,
+          "why": "Exact match to packing_date slug"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.95,
+          "header": "LOT Assigned",
+          "index": 11,
+          "why": "The TLC assigned at initial packing \u2014 matches 'lot assigned' example header"
+        },
+        {
+          "canonical_slug": "tlc_source",
+          "confidence": 0.9,
+          "header": "LOT Source",
+          "index": 12,
+          "why": "Matches tlc_source slug (where the lot code was assigned)"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.8,
+          "header": "Product ID Packed Food",
+          "index": 13,
+          "why": "Product ID of the packed/output food; best fit is product_id (no separate output product id slug)"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.8,
+          "header": "Product Title Packed Food",
+          "index": 14,
+          "why": "Product name of the packed food"
+        },
+        {
+          "canonical_slug": "quantity_packed",
+          "confidence": 0.95,
+          "header": "Quantity Packed Food",
+          "index": 15,
+          "why": "Exact match to quantity_packed slug"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.85,
+          "header": "Measure unit Packed Food",
+          "index": 16,
+          "why": "Unit of measure for the packed quantity"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.95,
+          "header": "Ref. Document Type",
+          "index": 17,
+          "why": "Matches 'ref. document type' example header for reference_record_type"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.95,
+          "header": "Ref. Document Number",
+          "index": 18,
+          "why": "Matches 'ref. document number' example header for reference_record_no"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.95,
+          "header": "Business ID",
+          "index": 19,
+          "why": "Exact match to business_id slug"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.9,
+          "header": "Business description",
+          "index": 20,
+          "why": "Matches 'business description' example header for company_name"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 0.95,
+          "header": "Phone Number",
+          "index": 21,
+          "why": "Exact match to phone_number slug"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 0.98,
+          "header": "email",
+          "index": 22,
+          "why": "Exact match to email slug"
+        }
+      ],
+      "confidence": 0.72,
+      "record_kind": "cte_initial_packing",
+      "sheet_name": "Packing KDEs"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "ProductID",
+          "index": 1,
+          "why": "Product identifier (GTIN-style values in samples)"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "ProductTitle",
+          "index": 2,
+          "why": "Product name/description (shrimp product names in samples)"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.85,
+          "header": "Comodity",
+          "index": 3,
+          "why": "Misspelled 'Commodity' \u2014 maps to commodity slug"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.95,
+          "header": "Variety",
+          "index": 4,
+          "why": "Exact match to variety slug"
+        },
+        {
+          "canonical_slug": "landing_date",
+          "confidence": 0.99,
+          "header": "Landing date",
+          "index": 5,
+          "why": "Exact match to landing_date slug \u2014 specific to first land-based receiver CTE"
+        },
+        {
+          "canonical_slug": "quantity_received",
+          "confidence": 0.9,
+          "header": "Quantity Unpacked Food",
+          "index": 6,
+          "why": "Matches 'quantity unpacked food' example header for quantity_received"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.9,
+          "header": "Measure Unit received Food",
+          "index": 7,
+          "why": "Unit of measure for the received/unpacked quantity"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.95,
+          "header": "Harvesting KDEs",
+          "index": 8,
+          "why": "Sample value 'See Harvesting KDEs sheet' \u2014 pointer to another sheet, maps to null"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.95,
+          "header": "LOT Assigned",
+          "index": 9,
+          "why": "The TLC assigned at first land-based receiving \u2014 matches 'lot assigned' example header"
+        },
+        {
+          "canonical_slug": "tlc_source",
+          "confidence": 0.9,
+          "header": "LOT Source",
+          "index": 10,
+          "why": "Matches tlc_source slug; sample 'Trakkey CS' is the system assigning the lot"
+        },
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.75,
+          "header": "Product ID Packed Food",
+          "index": 11,
+          "why": "Product ID of the packed output food; no separate output-product-id slug available"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.75,
+          "header": "Product Title Packed Food",
+          "index": 12,
+          "why": "Product name of the packed food"
+        },
+        {
+          "canonical_slug": "quantity_packed",
+          "confidence": 0.95,
+          "header": "Quantity Packed Food",
+          "index": 13,
+          "why": "Exact match to quantity_packed slug"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.85,
+          "header": "Measure unit Packed Food",
+          "index": 14,
+          "why": "Unit of measure for the packed quantity"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.95,
+          "header": "Ref. Document Type",
+          "index": 15,
+          "why": "Matches 'ref. document type' example header; sample 'FLR' is a fishing landing receipt"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.95,
+          "header": "Ref. Document Number",
+          "index": 16,
+          "why": "Matches 'ref. document number' example header for reference_record_no"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.95,
+          "header": "Business ID",
+          "index": 17,
+          "why": "Exact match to business_id slug"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.9,
+          "header": "Business description",
+          "index": 18,
+          "why": "Matches 'business description' example header for company_name"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 0.95,
+          "header": "Phone Number",
+          "index": 19,
+          "why": "Exact match to phone_number slug"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 0.98,
+          "header": "email",
+          "index": 20,
+          "why": "Exact match to email slug"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "cte_first_land_based_receiving",
+      "sheet_name": "First Land based Rec. KDEs"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "ProductID",
+          "index": 1,
+          "why": "Product identifier (GTIN-style values in samples)"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "ProductTitle",
+          "index": 2,
+          "why": "Product name/description"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.85,
+          "header": "Comodity",
+          "index": 3,
+          "why": "Misspelled 'Commodity' \u2014 maps to commodity slug"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.95,
+          "header": "Variety",
+          "index": 4,
+          "why": "Exact match to variety slug"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.95,
+          "header": "Quantity",
+          "index": 5,
+          "why": "Quantity shipped"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.95,
+          "header": "Measure Unit",
+          "index": 6,
+          "why": "Unit of measure for the quantity"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.95,
+          "header": "LOT Number",
+          "index": 7,
+          "why": "Lot number of the food being shipped \u2014 the TLC for this shipping event"
+        },
+        {
+          "canonical_slug": "date_you_shipped_the_food",
+          "confidence": 0.98,
+          "header": "Shipping Date",
+          "index": 8,
+          "why": "Matches 'shipping date' example header for date_you_shipped_the_food"
+        },
+        {
+          "canonical_slug": "source_location_id",
+          "confidence": 0.98,
+          "header": "Source Location ID",
+          "index": 9,
+          "why": "Exact match to source_location_id slug (ship-from location)"
+        },
+        {
+          "canonical_slug": "source_location_name",
+          "confidence": 0.95,
+          "header": "Source Location Description",
+          "index": 10,
+          "why": "Matches 'source location description' example header for source_location_name"
+        },
+        {
+          "canonical_slug": "destination_location_id",
+          "confidence": 0.98,
+          "header": "Destination Location ID",
+          "index": 11,
+          "why": "Exact match to destination_location_id slug (ship-to location)"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.95,
+          "header": "Destination Location Description",
+          "index": 12,
+          "why": "Matches 'destination location description' example header for destination_location_name"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.95,
+          "header": "Ref. Document Type",
+          "index": 13,
+          "why": "Matches 'ref. document type' example header; sample 'SO' is a sales order"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.95,
+          "header": "Ref. Document Number",
+          "index": 14,
+          "why": "Matches 'ref. document number' example header for reference_record_no"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.95,
+          "header": "Business ID",
+          "index": 15,
+          "why": "Exact match to business_id slug"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.9,
+          "header": "Business description",
+          "index": 16,
+          "why": "Matches 'business description' example header for company_name"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 0.95,
+          "header": "Phone Number",
+          "index": 17,
+          "why": "Exact match to phone_number slug"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 0.98,
+          "header": "email",
+          "index": 18,
+          "why": "Exact match to email slug"
+        }
+      ],
+      "confidence": 0.99,
+      "record_kind": "cte_shipping",
+      "sheet_name": "Shipping KDEs"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "ProductID",
+          "index": 1,
+          "why": "Product identifier"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "ProductTitle",
+          "index": 2,
+          "why": "Product name/description"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.85,
+          "header": "Comodity",
+          "index": 3,
+          "why": "Misspelled 'Commodity' \u2014 maps to commodity slug"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.95,
+          "header": "Variety",
+          "index": 4,
+          "why": "Exact match to variety slug"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.95,
+          "header": "Quantity",
+          "index": 5,
+          "why": "Quantity received"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.95,
+          "header": "Measure Unit",
+          "index": 6,
+          "why": "Unit of measure for the quantity"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.95,
+          "header": "LOT Number",
+          "index": 7,
+          "why": "Lot number of the food received \u2014 the TLC for this receiving event"
+        },
+        {
+          "canonical_slug": "received_date",
+          "confidence": 0.98,
+          "header": "Receiving Date",
+          "index": 8,
+          "why": "Matches 'received date' example header for received_date"
+        },
+        {
+          "canonical_slug": "source_location_id",
+          "confidence": 0.98,
+          "header": "Source Location ID",
+          "index": 9,
+          "why": "Location the food was shipped from (ship-from)"
+        },
+        {
+          "canonical_slug": "source_location_name",
+          "confidence": 0.95,
+          "header": "Source Location Description",
+          "index": 10,
+          "why": "Name of the source/ship-from location"
+        },
+        {
+          "canonical_slug": "destination_location_id",
+          "confidence": 0.95,
+          "header": "Destination Location ID",
+          "index": 11,
+          "why": "Location where the food was received (receiving facility)"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.95,
+          "header": "Destination Location Description",
+          "index": 12,
+          "why": "Name of the receiving/destination location"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.95,
+          "header": "Ref. Document Type",
+          "index": 13,
+          "why": "Matches 'ref. document type' example header"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.95,
+          "header": "Ref. Document Number",
+          "index": 14,
+          "why": "Matches 'ref. document number' example header"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.95,
+          "header": "Business ID",
+          "index": 15,
+          "why": "Exact match to business_id slug"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.9,
+          "header": "Business description",
+          "index": 16,
+          "why": "Matches 'business description' example header for company_name"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 0.95,
+          "header": "Phone Number",
+          "index": 17,
+          "why": "Exact match to phone_number slug"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 0.98,
+          "header": "email",
+          "index": 18,
+          "why": "Exact match to email slug"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "cte_receiving",
+      "sheet_name": "Receiving KDEs"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Product ID",
+          "index": 1,
+          "why": "Product identifier of the input/ingredient food"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "Product title",
+          "index": 2,
+          "why": "Product name of the input/ingredient food"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.85,
+          "header": "Comodity",
+          "index": 3,
+          "why": "Misspelled 'Commodity' \u2014 maps to commodity slug"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.95,
+          "header": "Variety",
+          "index": 4,
+          "why": "Exact match to variety slug"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.95,
+          "header": "Quantity",
+          "index": 5,
+          "why": "Quantity of ingredient consumed"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.95,
+          "header": "Measure Unit",
+          "index": 6,
+          "why": "Unit of measure for the quantity"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.95,
+          "header": "LOT Number",
+          "index": 7,
+          "why": "Lot code of the input/ingredient food on this transformation input sheet"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "cte_transformation_input",
+      "sheet_name": "Transformation KDEs Ingredients"
+    },
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Product ID",
+          "index": 1,
+          "why": "Product identifier of the newly produced food"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "Product title",
+          "index": 2,
+          "why": "Product name of the newly produced food"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.85,
+          "header": "Comodity",
+          "index": 3,
+          "why": "Misspelled 'Commodity' \u2014 maps to commodity slug"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.95,
+          "header": "Variety",
+          "index": 4,
+          "why": "Exact match to variety slug"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 0.95,
+          "header": "Quantity",
+          "index": 5,
+          "why": "Quantity of food produced"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 0.95,
+          "header": "Measure Unit",
+          "index": 6,
+          "why": "Unit of measure for the quantity"
+        },
+        {
+          "canonical_slug": "traceability_lot_code",
+          "confidence": 0.95,
+          "header": "LOT Number",
+          "index": 7,
+          "why": "Lot code of the newly produced food on this transformation output sheet"
+        },
+        {
+          "canonical_slug": "transformation_date",
+          "confidence": 0.72,
+          "header": "Receiving Date",
+          "index": 8,
+          "why": "Mislabeled as 'Receiving Date' but samples align with transformation dates; transformation_date is the best fit given the output sheet context"
+        },
+        {
+          "canonical_slug": "location_id",
+          "confidence": 0.9,
+          "header": "Transformation Location ID",
+          "index": 9,
+          "why": "Location where transformation occurred; location_id is the best available slug for the event location"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.9,
+          "header": "Transformation Location Description",
+          "index": 10,
+          "why": "Name of the transformation location"
+        },
+        {
+          "canonical_slug": "transformation_date",
+          "confidence": 0.98,
+          "header": "Transformation Date",
+          "index": 11,
+          "why": "Exact match to transformation_date slug"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.95,
+          "header": "Ref. Document Type",
+          "index": 12,
+          "why": "Matches 'ref. document type' example header; sample 'TR' is a transformation record"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.95,
+          "header": "Ref. Document Number",
+          "index": 13,
+          "why": "Matches 'ref. document number' example header"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.95,
+          "header": "Business ID",
+          "index": 14,
+          "why": "Exact match to business_id slug"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.9,
+          "header": "Business description",
+          "index": 15,
+          "why": "Matches 'business description' example header for company_name"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 0.95,
+          "header": "Phone Number",
+          "index": 16,
+          "why": "Exact match to phone_number slug"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 0.98,
+          "header": "email",
+          "index": 17,
+          "why": "Exact match to email slug"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "cte_transformation_output",
+      "sheet_name": "Transformation KDEs Produced Fo"
+    }
+  ],
+  "key": "130987ce60bd54013754a85645996aad2ccf5c9fe2db359c7191a018264197b3",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping_call",
+  "request_sha256": "01bba2be68109737a811ee9eadf04fb3120832bd9222f1d7ca206854464bd503"
+}

@@ -1,0 +1,135 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "product_id",
+          "confidence": 0.95,
+          "header": "Product ID",
+          "index": 1,
+          "why": "Product identifier for the cooled food"
+        },
+        {
+          "canonical_slug": "product_name",
+          "confidence": 0.95,
+          "header": "Product title",
+          "index": 2,
+          "why": "Product name/description of the cooled food"
+        },
+        {
+          "canonical_slug": "commodity",
+          "confidence": 0.95,
+          "header": "Comodity",
+          "index": 3,
+          "why": "Commodity of the cooled food (misspelled 'Comodity')"
+        },
+        {
+          "canonical_slug": "variety",
+          "confidence": 0.9,
+          "header": "Variety",
+          "index": 4,
+          "why": "Variety of the commodity, exact match"
+        },
+        {
+          "canonical_slug": "cooling_date",
+          "confidence": 1.0,
+          "header": "Cooling date",
+          "index": 5,
+          "why": "Cooling KDE date, exact match to cooling_date example header"
+        },
+        {
+          "canonical_slug": "quantity",
+          "confidence": 1.0,
+          "header": "Quantity",
+          "index": 6,
+          "why": "Quantity of food cooled, exact match"
+        },
+        {
+          "canonical_slug": "unit",
+          "confidence": 1.0,
+          "header": "Measure Unit",
+          "index": 7,
+          "why": "Unit of measure, matches unit example header 'measure unit'"
+        },
+        {
+          "canonical_slug": "location_id",
+          "confidence": 0.88,
+          "header": "Cooling Location ID",
+          "index": 8,
+          "why": "Location where cooling occurred; location_id is the appropriate slug for the cooling site"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.88,
+          "header": "Cooling Location Description",
+          "index": 9,
+          "why": "Name/description of the cooling location"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 0.95,
+          "header": "Ref. Document Type",
+          "index": 10,
+          "why": "Reference document type, matches reference_record_type example header 'ref. document type'"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 0.95,
+          "header": "Ref. Document Number",
+          "index": 11,
+          "why": "Reference document number, matches reference_record_no example header 'ref. document number'"
+        },
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.9,
+          "header": "Business ID",
+          "index": 12,
+          "why": "Identifier of the business entity performing the cooling"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.85,
+          "header": "Business description",
+          "index": 13,
+          "why": "Name/description of the business, matches company_name example header 'business description'"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 1.0,
+          "header": "Phone Number",
+          "index": 14,
+          "why": "Phone number for the business contact"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 1.0,
+          "header": "email",
+          "index": 15,
+          "why": "Email address for the business contact"
+        },
+        {
+          "canonical_slug": "destination_location_id",
+          "confidence": 0.92,
+          "header": "Immediate Subsequent Recepient Location ID",
+          "index": 16,
+          "why": "The immediate subsequent recipient location is the destination after cooling"
+        },
+        {
+          "canonical_slug": "destination_location_name",
+          "confidence": 0.92,
+          "header": "Immediate Subsequent Recepient Location Description",
+          "index": 17,
+          "why": "Name/description of the immediate subsequent recipient (destination) location"
+        }
+      ],
+      "confidence": 0.95,
+      "record_kind": "cte_cooling",
+      "sheet_name": "Cooling KDEs"
+    }
+  ],
+  "key": "7eb9fc8f06c2e6649bd11368a1c3e05060dbb14cfe4daf5a6946b5f07a15518b",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

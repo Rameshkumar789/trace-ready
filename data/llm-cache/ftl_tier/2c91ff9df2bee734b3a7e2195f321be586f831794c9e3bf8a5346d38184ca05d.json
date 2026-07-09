@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.95,
+      "declared_category": "General products",
+      "declared_negative": true,
+      "matched_commodity": "Crustaceans",
+      "mismatch": true,
+      "product_id": "04598767000495",
+      "reasoning": "\"White 21/25 tails 25lb box\" refers to white shrimp tails, a crustacean product; frozen/fresh shrimp are explicitly covered by the FTL Crustaceans commodity.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "2c91ff9df2bee734b3a7e2195f321be586f831794c9e3bf8a5346d38184ca05d",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "source_document_id",
+          "confidence": 1.0,
+          "header": "evidence_id",
+          "index": 1,
+          "why": "Matches example_header 'evidence_id' for source_document_id"
+        },
+        {
+          "canonical_slug": "event_id",
+          "confidence": 1.0,
+          "header": "event_id",
+          "index": 2,
+          "why": "Exact match to canonical slug event_id; links source document to its event"
+        },
+        {
+          "canonical_slug": "source_document_type",
+          "confidence": 1.0,
+          "header": "evidence_type",
+          "index": 3,
+          "why": "Matches example_header 'evidence_type' for source_document_type; sample 'invoice' confirms document type"
+        },
+        {
+          "canonical_slug": "source_document_status",
+          "confidence": 1.0,
+          "header": "evidence_status",
+          "index": 4,
+          "why": "Matches example_header 'evidence_status' for source_document_status; sample 'available' confirms status value"
+        }
+      ],
+      "confidence": 1.0,
+      "record_kind": "source_documents",
+      "sheet_name": "09_Source_Documents"
+    }
+  ],
+  "key": "448d01ac949902a619a2a4e716fd864b10d55deb19e3e483019317343b1eddb5",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

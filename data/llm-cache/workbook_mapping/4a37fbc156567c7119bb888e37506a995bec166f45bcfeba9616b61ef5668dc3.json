@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "location_id",
+          "confidence": 0.95,
+          "header": "Location Ref",
+          "index": 1,
+          "why": "Short reference codes (LOC-01\u2026LOC-04) serving as location identifiers in a facility master list"
+        },
+        {
+          "canonical_slug": "location_name",
+          "confidence": 0.97,
+          "header": "Facility Name",
+          "index": 2,
+          "why": "Descriptive names of facilities map directly to location_name"
+        },
+        {
+          "canonical_slug": "address",
+          "confidence": 0.97,
+          "header": "Street",
+          "index": 3,
+          "why": "Street address of each facility"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 1.0,
+          "header": "City",
+          "index": 4,
+          "why": "City field in location master"
+        },
+        {
+          "canonical_slug": "state",
+          "confidence": 1.0,
+          "header": "State",
+          "index": 5,
+          "why": "State/province abbreviations (KY, MS)"
+        },
+        {
+          "canonical_slug": "location_owner",
+          "confidence": 0.93,
+          "header": "Operated By",
+          "index": 6,
+          "why": "Names of businesses that operate each facility \u2014 maps to location_owner"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "master_locations",
+      "sheet_name": "Facility Register"
+    }
+  ],
+  "key": "4a37fbc156567c7119bb888e37506a995bec166f45bcfeba9616b61ef5668dc3",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

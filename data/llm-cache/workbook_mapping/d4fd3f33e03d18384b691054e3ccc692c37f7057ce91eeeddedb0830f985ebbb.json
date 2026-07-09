@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "business_id",
+          "confidence": 0.92,
+          "header": "ID",
+          "index": 1,
+          "why": "Numeric identifier on a business master sheet; maps to business_id"
+        },
+        {
+          "canonical_slug": "company_name",
+          "confidence": 0.95,
+          "header": "Title",
+          "index": 2,
+          "why": "Business name/title matches company_name example headers"
+        },
+        {
+          "canonical_slug": "address",
+          "confidence": 1.0,
+          "header": "Address",
+          "index": 3,
+          "why": "Street address field, exact match to address slug"
+        },
+        {
+          "canonical_slug": "zip_code",
+          "confidence": 1.0,
+          "header": "ZIP",
+          "index": 4,
+          "why": "Postal/ZIP code, exact match to zip_code slug"
+        },
+        {
+          "canonical_slug": "city",
+          "confidence": 1.0,
+          "header": "City",
+          "index": 5,
+          "why": "City field, exact match"
+        },
+        {
+          "canonical_slug": "state",
+          "confidence": 1.0,
+          "header": "State",
+          "index": 6,
+          "why": "State/province field, exact match"
+        },
+        {
+          "canonical_slug": "country",
+          "confidence": 1.0,
+          "header": "Country",
+          "index": 7,
+          "why": "Country field, exact match"
+        },
+        {
+          "canonical_slug": "contact_person",
+          "confidence": 1.0,
+          "header": "Contact Person",
+          "index": 8,
+          "why": "Point-of-contact person name, exact match to contact_person example header"
+        },
+        {
+          "canonical_slug": "email",
+          "confidence": 1.0,
+          "header": "email",
+          "index": 9,
+          "why": "Email address field, exact match"
+        },
+        {
+          "canonical_slug": "phone_number",
+          "confidence": 1.0,
+          "header": "Phone Number",
+          "index": 10,
+          "why": "Phone number field, exact match"
+        },
+        {
+          "canonical_slug": null,
+          "confidence": 0.0,
+          "header": "Description",
+          "index": 11,
+          "why": "Appears to be a duplicate of Title/company_name; no distinct canonical slug fits a second name column"
+        }
+      ],
+      "confidence": 0.97,
+      "record_kind": "master_business",
+      "sheet_name": "Business Master"
+    }
+  ],
+  "key": "d4fd3f33e03d18384b691054e3ccc692c37f7057ce91eeeddedb0830f985ebbb",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

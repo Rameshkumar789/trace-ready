@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.98,
+      "declared_category": "General grocery",
+      "declared_negative": false,
+      "matched_commodity": "Finfish, histamine-producing species (fresh, frozen, and previously frozen)",
+      "mismatch": false,
+      "product_id": "10860004520099",
+      "reasoning": "Mahi-mahi is explicitly listed as an included example of histamine-producing finfish species on the FTL, and IQF frozen forms are covered.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "39e37259903c20f557b9299e6f8b5050378594b12457b0038268e900fd3f0124",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

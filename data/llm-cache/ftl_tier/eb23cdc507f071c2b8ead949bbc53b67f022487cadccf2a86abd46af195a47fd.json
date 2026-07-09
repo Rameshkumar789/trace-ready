@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.6,
+      "declared_category": null,
+      "declared_negative": true,
+      "matched_commodity": "Ready-to-eat deli salads",
+      "mismatch": false,
+      "product_id": "product-asst_deli_cups_12ct",
+      "reasoning": "Assorted deli cups could contain refrigerated RTE deli salads (egg salad, pasta salad, seafood salad, etc.) that are on the FTL, but 'assorted' and 'cups' are too vague to confirm the contents or rule out non-FTL items like meat salads.",
+      "tier": "suspicious"
+    }
+  ],
+  "key": "eb23cdc507f071c2b8ead949bbc53b67f022487cadccf2a86abd46af195a47fd",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

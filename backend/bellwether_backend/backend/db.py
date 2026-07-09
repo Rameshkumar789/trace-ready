@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from collections.abc import Iterator
 from contextlib import contextmanager
 from typing import Any
@@ -29,8 +30,12 @@ def open_supabase_connection(settings: ServiceSettings) -> Any:
             "psycopg is required for Python worker access to Supabase tables. Install the ingestion package dependencies."
         ) from exc
 
+    # Bound the TCP connect so a firewalled/unreachable DB fails fast instead of blocking a
+    # synchronous request (e.g. the pre-receipt endpoint, which falls back to bundled data)
+    # for the OS default of minutes. Overridable via BELLWETHER_DB_CONNECT_TIMEOUT.
+    connect_timeout = int(os.getenv("BELLWETHER_DB_CONNECT_TIMEOUT", "10"))
     try:
-        return psycopg.connect(settings.database_url, row_factory=dict_row)
+        return psycopg.connect(settings.database_url, row_factory=dict_row, connect_timeout=connect_timeout)
     except psycopg.Error as exc:
         message = str(exc)
         if "failed to resolve host" in message:

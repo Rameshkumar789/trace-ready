@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.98,
+      "declared_category": "Herbs fresh",
+      "declared_negative": false,
+      "matched_commodity": "Herbs (fresh)",
+      "mismatch": false,
+      "product_id": "PROD-1",
+      "reasoning": "Fresh basil is explicitly listed as an included example under the FTL commodity 'Herbs (fresh)', and the product is described as fresh with no exclusionary characteristics. The declared category aligns with the FTL classification.",
+      "tier": "definite_on"
+    }
+  ],
+  "key": "364e449afb85ca8203ef978e2753b9184ad4fd719410645bc1a61c2c140cf0c3",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

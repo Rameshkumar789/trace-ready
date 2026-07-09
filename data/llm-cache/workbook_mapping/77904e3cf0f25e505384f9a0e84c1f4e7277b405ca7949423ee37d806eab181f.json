@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "exemption_claim_id",
+          "confidence": 1.0,
+          "header": "claim_id",
+          "index": 1,
+          "why": "Matches example_header 'claim_id' for exemption_claim_id"
+        },
+        {
+          "canonical_slug": "exemption_claim_type",
+          "confidence": 1.0,
+          "header": "claim_type",
+          "index": 2,
+          "why": "Matches example_header 'claim_type' for exemption_claim_type; sample 'small_producer' confirms exemption type"
+        },
+        {
+          "canonical_slug": "exemption_claimed_by",
+          "confidence": 1.0,
+          "header": "claimed_by",
+          "index": 3,
+          "why": "Matches example_header 'claimed_by' for exemption_claimed_by; sample 'Supplier A' confirms claiming party"
+        },
+        {
+          "canonical_slug": "exemption_evidence_provided",
+          "confidence": 1.0,
+          "header": "evidence_provided",
+          "index": 4,
+          "why": "Matches example_header 'evidence_provided' for exemption_evidence_provided; sample 'no' confirms boolean evidence flag"
+        }
+      ],
+      "confidence": 1.0,
+      "record_kind": "exemption_claims",
+      "sheet_name": "10_Exemptions_Claims"
+    }
+  ],
+  "key": "77904e3cf0f25e505384f9a0e84c1f4e7277b405ca7949423ee37d806eab181f",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "narrative": "This audit covers a 3-day window from 2026-06-10 to 2026-06-12, during which 3 supply-chain events were recorded across receiving, shipping, and transformation critical tracking events. Of the 2 products in scope, 1 is definitively on the Food Traceability List and 1 is classified as suspicious, meaning its FTL status has not been resolved. No external trading partners were identified, yet 2 events logged an unknown destination, leaving the full trading-partner picture incomplete.\n\nThe operation carries 6 findings in total \u2014 2 rated high severity and 4 rated medium. The two high-severity findings fall across tlc_lineage (2 findings combined) and the remaining medium findings span traceability_plan, kde_completeness, partner_data_quality, and exemption_claim categories. Key data element coverage sits at 0.7407, meaning 7 of 27 graded KDE slots are missing outright, and the traceability plan itself has a recorded deficiency, which is a foundational compliance gap. The suspicious product's unresolved FTL classification compounds risk because any obligation to maintain full lot-level records cannot be confirmed or dismissed until that determination is made.\n\nImmediately resolve the FTL classification for the 1 suspicious product \u2014 document the determination in writing before any further shipments occur. Address the 2 tlc_lineage findings next, as these are the highest-severity gaps and directly undermine lot-level backward traceability; only 1 backward lineage link is currently confirmed. Fill the 7 missing KDE values identified in the kde_completeness finding, correct the traceability plan deficiency, and investigate the 2 events with unknown destinations to assign proper receiving-party records. The exemption_claim and partner_data_quality findings should be resolved concurrently but can follow the lot-lineage and KDE remediation work."
+    }
+  ],
+  "key": "ba50b3806a4ae0664b1233b350553c31b702cb896121d90f823bb0da009b07fb",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "scoping_narrative",
+  "request_sha256": "8bcf5cf66e8ba8af4e552fb53f0b757e09be9428516a2b92ca695e208a1ef576"
+}

@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "facts": {
+        "date_you_shipped_the_food": [
+          "03/05/2025"
+        ],
+        "destination_location_name": [
+          "Bluegrass Provisions LLC, Louisville Distribution Center, 400 River Rd, Louisville, KY 40202"
+        ],
+        "email": [
+          "ship@dairylandcreamery.example"
+        ],
+        "phone_number": [
+          "608-555-0177"
+        ],
+        "product_id": [
+          "10860004520051"
+        ],
+        "product_name": [
+          "Cottage Cheese Grade A 16oz (IMS listed)"
+        ],
+        "quantity": [
+          "40"
+        ],
+        "reference_record_no": [
+          "BOL-55107"
+        ],
+        "reference_record_type": [
+          "STRAIGHT BILL OF LADING"
+        ],
+        "source_location_name": [
+          "Dairyland Creamery, Plant 2, 500 Creamery Way, Madison, WI 53703"
+        ],
+        "traceability_lot_code": [
+          "DL2503050071"
+        ],
+        "unit": [
+          "CASE"
+        ]
+      },
+      "line_number": 1
+    },
+    {
+      "facts": {
+        "date_you_shipped_the_food": [
+          "03/05/2025"
+        ],
+        "destination_location_name": [
+          "Bluegrass Provisions LLC, Louisville Distribution Center, 400 River Rd, Louisville, KY 40202"
+        ],
+        "email": [
+          "ship@dairylandcreamery.example"
+        ],
+        "phone_number": [
+          "608-555-0177"
+        ],
+        "product_id": [
+          "10860004520044"
+        ],
+        "product_name": [
+          "Frozen Brie Wheel 1kg"
+        ],
+        "quantity": [
+          "70"
+        ],
+        "reference_record_no": [
+          "BOL-55107"
+        ],
+        "reference_record_type": [
+          "STRAIGHT BILL OF LADING"
+        ],
+        "source_location_name": [
+          "Dairyland Creamery, Plant 2, 500 Creamery Way, Madison, WI 53703"
+        ],
+        "traceability_lot_code": [
+          "DL2503050072"
+        ],
+        "unit": [
+          "CASE"
+        ]
+      },
+      "line_number": 2
+    },
+    {
+      "facts": {
+        "date_you_shipped_the_food": [
+          "03/05/2025"
+        ],
+        "destination_location_name": [
+          "Bluegrass Provisions LLC, Louisville Distribution Center, 400 River Rd, Louisville, KY 40202"
+        ],
+        "email": [
+          "ship@dairylandcreamery.example"
+        ],
+        "phone_number": [
+          "608-555-0177"
+        ],
+        "product_id": [
+          "10860004520051"
+        ],
+        "product_name": [
+          "Cottage Cheese Grade A 16oz (IMS listed)"
+        ],
+        "quantity": [
+          "20"
+        ],
+        "reference_record_no": [
+          "BOL-55107"
+        ],
+        "reference_record_type": [
+          "STRAIGHT BILL OF LADING"
+        ],
+        "source_location_name": [
+          "Dairyland Creamery, Plant 2, 500 Creamery Way, Madison, WI 53703"
+        ],
+        "traceability_lot_code": [
+          "DL2503990099"
+        ],
+        "unit": [
+          "CASE"
+        ]
+      },
+      "line_number": 3
+    }
+  ],
+  "key": "51429bf40f2010e231a26458086842fa7e6d88ddb3bc9336a29ee5f959ea2b9a",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "bol_extract",
+  "request_sha256": "eaaf7a1df598526fb73d3d23f1441e794df6ebbee0b7ed274390937cf4a037cd"
+}

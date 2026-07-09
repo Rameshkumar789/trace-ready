@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": true,
+      "confidence": 0.75,
+      "declared_category": "General grocery",
+      "declared_negative": false,
+      "matched_commodity": "Leafy greens (fresh-cut)",
+      "mismatch": false,
+      "product_id": "10860004520020",
+      "reasoning": "A Caesar salad kit typically contains fresh-cut leafy greens (romaine), which are on the FTL, but also includes dressing and possibly croutons; the composite nature and lack of ingredient detail prevent a definitive ruling without knowing exact contents and whether the greens are fresh-cut.",
+      "tier": "suspicious"
+    }
+  ],
+  "key": "e404d8f02c0442f69cf6b4e0451be24a2543aa6cb5a1bf8e51e840f0d977e238",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

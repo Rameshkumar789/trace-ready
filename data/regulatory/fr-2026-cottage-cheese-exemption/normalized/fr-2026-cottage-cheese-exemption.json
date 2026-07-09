@@ -1,269 +1,46 @@
 {
-  "sourceId": "fr-2026-cottage-cheese-exemption",
-  "url": "https://www.federalregister.gov/documents/2026/02/20/2026-03362/requirements-for-additional-traceability-records-for-certain-foods-exemption-for-cottage-cheese",
-  "rawArtifact": "../data/regulatory/fr-2026-cottage-cheese-exemption/raw/fr-2026-cottage-cheese-exemption.html",
-  "rawTextHash": "5c68c9bcd8af368ecf4ce8af664dc749d5fe2eb5e508c4aaee8f054e51af9635",
-  "contentType": "text/html; charset=utf-8",
-  "sectionsExtracted": 2,
-  "chunks": [
-    {
-      "chunk_id": "fr-2026-cottage-cheese-exemption-request-access-1",
-      "source_id": "fr-2026-cottage-cheese-exemption",
-      "section_label": "Request Access",
-      "section": "Request Access",
-      "text": "Due to aggressive automated scraping of FederalRegister.gov and eCFR.gov, programmatic access to these sites is limited to access to our extensive developer APIs. Please visit documentation or documentation to learn more about how to access the API. Your request has been flagged as potentially automated. If you are human user receiving this message, please complete the CAPTCHA (bot test) below and click \"Request Access\". You may occassionally be asked to complete the CAPTCHA again, this is normal and part of our security measures. If you experiencing issues with the CAPTCHA or want to request a wider IP range, you can use the \"Site Help\" button found in the lower, right of this page to make a request. \u00d7",
-      "summary": "Due to aggressive automated scraping of FederalRegister.gov and eCFR.gov, programmatic access to these sites is limited to access to our extensive developer APIs. Please visit d...",
-      "citation": "Request Access",
-      "text_hash": "sha256:f42fe90b8a0316cf7d0af9c7856c432cf7eb9d4b9b5afd34fb0a1d0aced2a35e",
-      "anchors": [
-        {
-          "source_id": "fr-2026-cottage-cheese-exemption",
-          "citation": "Request Access",
-          "section": "Request Access",
-          "paragraph": null,
-          "table_label": null,
-          "page_number": null,
-          "url": "https://www.federalregister.gov/documents/2026/02/20/2026-03362/requirements-for-additional-traceability-records-for-certain-foods-exemption-for-cottage-cheese",
-          "retrieved_at": "2026-06-16T05:49:17.508768+00:00",
-          "source_hash": "5c68c9bcd8af368ecf4ce8af664dc749d5fe2eb5e508c4aaee8f054e51af9635"
-        }
-      ]
-    },
-    {
-      "chunk_id": "fr-2026-cottage-cheese-exemption-ip-access-help-2",
-      "source_id": "fr-2026-cottage-cheese-exemption",
-      "section_label": "IP Access Help",
-      "section": "IP Access Help",
-      "text": "This contact form is only for IP Access help. Please do not provide confidential information or personal data. Site Help",
-      "summary": "This contact form is only for IP Access help. Please do not provide confidential information or personal data. Site Help",
-      "citation": "IP Access Help",
-      "text_hash": "sha256:f0d3d9599c35bab45bb057ad28ddc2e0d91e2b4b3832f406978c0be4310d5ce4",
-      "anchors": [
-        {
-          "source_id": "fr-2026-cottage-cheese-exemption",
-          "citation": "IP Access Help",
-          "section": "IP Access Help",
-          "paragraph": null,
-          "table_label": null,
-          "page_number": null,
-          "url": "https://www.federalregister.gov/documents/2026/02/20/2026-03362/requirements-for-additional-traceability-records-for-certain-foods-exemption-for-cottage-cheese",
-          "retrieved_at": "2026-06-16T05:49:17.508768+00:00",
-          "source_hash": "5c68c9bcd8af368ecf4ce8af664dc749d5fe2eb5e508c4aaee8f054e51af9635"
-        }
-      ]
-    }
-  ],
-  "rejectedChunks": [],
-  "traceReadyContext": {
-    "sourcePage": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-rules-guidance-industry",
-    "sourcePageCurrentAsOf": "2026-02-19",
-    "traceReadyScope": "FSMA 204 traceability readiness: covered foods, covered entities, CTEs, KDEs, TLCs, traceability plan, evidence links, and sortable export readiness.",
-    "matchedSource": {
-      "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
-      "docket": "FDA-2014-N-0053",
-      "issued_date": "2022/11",
-      "applicability": "direct_core",
-      "trace_ready_priority": "must_ingest",
-      "source_role": "binding_rule_family",
-      "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
-    },
-    "coreRuleDockets": [
-      "FDA-2014-N-0053",
-      "FDA-2025-D-2837",
-      "FDA-2023-D-1336"
-    ],
-    "coreSourcesToIngest": [
-      {
-        "title": "Final Rule: Requirements for Additional Traceability Records for Certain Foods",
-        "docket": "FDA-2014-N-0053",
-        "issued_date": "2022/11",
-        "applicability": "direct_core",
-        "trace_ready_priority": "must_ingest",
-        "source_role": "binding_rule_family",
-        "reason": "This is FSMA 204. It defines the traceability-record requirements TraceReady audits: CTEs, KDEs, TLCs, traceability plan, record maintenance, and sortable export readiness."
-      },
-      {
-        "title": "21 CFR Part 1 Subpart S: Additional Traceability Records for Certain Foods",
-        "docket": "FDA-2014-N-0053",
-        "issued_date": "current_eCFR",
-        "applicability": "direct_core",
-        "trace_ready_priority": "must_ingest",
-        "source_role": "codified_legal_text",
-        "reason": "This is the executable legal source for the rule engine. Use sections 1.1300 through 1.1465 as source-backed chunks."
-      },
-      {
-        "title": "Food Traceability List",
-        "docket": "FDA-2014-N-0053",
-        "issued_date": "current_FDA",
-        "applicability": "direct_core",
-        "trace_ready_priority": "must_ingest",
-        "source_role": "product_scope_source",
-        "reason": "Determines whether a product is on the Food Traceability List and therefore whether FSMA 204 records may be required."
-      },
-      {
-        "title": "Proposed Rule: Requirements for Additional Traceability Records for Certain Foods: Compliance Date Extension",
-        "docket": "FDA-2014-N-0053",
-        "issued_date": "2025/08",
-        "applicability": "direct_change_monitoring",
-        "trace_ready_priority": "track_not_executable",
-        "source_role": "proposed_rule_or_change_signal",
-        "reason": "Same traceability docket. Track for compliance-date and regulatory-change monitoring, but do not treat proposed text as final executable rule logic unless finalized or otherwise legally directed."
-      },
-      {
-        "title": "Draft Guidance: Questions and Answers About Requirements for Additional Traceability Records for Certain Foods",
-        "docket": "FDA-2025-D-2837",
-        "issued_date": "2026/02",
-        "applicability": "direct_guidance",
-        "trace_ready_priority": "ingest_as_guidance",
-        "source_role": "interpretation_support",
-        "reason": "Useful for practical interpretation and customer-facing explanations. It should support reviewer decisions, not override codified eCFR rule logic."
-      },
-      {
-        "title": "Small Entity Compliance Guide: Requirements for Additional Traceability Records for Certain Foods",
-        "docket": "FDA-2023-D-1336",
-        "issued_date": "2023/05",
-        "applicability": "direct_guidance",
-        "trace_ready_priority": "ingest_as_guidance",
-        "source_role": "operator_translation_support",
-        "reason": "Useful for small and mid-sized operator workflows, onboarding, explanations, and examples."
-      }
-    ],
-    "adjacentCustomerRules": [
-      {
-        "title": "Standards for the Growing, Harvesting, Packing, and Holding of Produce for Human Consumption",
-        "docket": "FDA-2011-N-0921",
-        "issued_date": "2015/11",
-        "applicability": "adjacent_customer_context",
-        "trace_ready_priority": "defer_full_implementation",
-        "source_role": "produce_activity_context",
-        "reason": "Applies to many grower/packer customers and helps interpret farm, harvest, cooling, and packing context. It is not the TraceReady MVP rule engine."
-      },
-      {
-        "title": "Final Rule: Pre-Harvest Agricultural Water",
-        "docket": "FDA-2021-N-0471",
-        "issued_date": "2024/05",
-        "applicability": "adjacent_customer_context",
-        "trace_ready_priority": "defer_full_implementation",
-        "source_role": "produce_safety_context",
-        "reason": "Important for produce farms, but it concerns water safety standards rather than FSMA 204 traceability-record readiness."
-      },
-      {
-        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Human Food",
-        "docket": "FDA-2011-N-0920",
-        "issued_date": "2015/09",
-        "applicability": "adjacent_customer_context",
-        "trace_ready_priority": "future_expansion_candidate",
-        "source_role": "food_safety_program_context",
-        "reason": "Relevant for processors and manufacturers. Later useful for recall plans and supply-chain controls, but not first-scope CTE/KDE/TLC checks."
-      },
-      {
-        "title": "Foreign Supplier Verification Programs for Importers of Food for Humans and Animals",
-        "docket": "FDA-2011-N-0143",
-        "issued_date": "2015/11",
-        "applicability": "adjacent_customer_context",
-        "trace_ready_priority": "future_expansion_candidate",
-        "source_role": "importer_supplier_context",
-        "reason": "Relevant for importers and foreign supplier evidence. Later useful if TraceReady handles imported supplier records."
-      },
-      {
-        "title": "Sanitary Transportation of Human and Animal Food",
-        "docket": "FDA-2013-N-0013",
-        "issued_date": "2016/04",
-        "applicability": "adjacent_customer_context",
-        "trace_ready_priority": "future_expansion_candidate",
-        "source_role": "transportation_context",
-        "reason": "Shipment and transportation records may support evidence, but this rule is not the FSMA 204 traceability audit itself."
-      },
-      {
-        "title": "Amendments to Registration of Food Facilities",
-        "docket": "FDA-2002-N-0323",
-        "issued_date": "2016/07",
-        "applicability": "adjacent_metadata_context",
-        "trace_ready_priority": "metadata_only",
-        "source_role": "entity_location_metadata",
-        "reason": "Facility registration identifiers may help entity/location resolution but should not drive MVP traceability findings."
-      },
-      {
-        "title": "Record Availability Requirements: Establishment, Maintenance, and Availability of Records",
-        "docket": "FDA-2002-N-0153",
-        "issued_date": "2014/04",
-        "applicability": "adjacent_records_context",
-        "trace_ready_priority": "supporting_context",
-        "source_role": "general_records_access_context",
-        "reason": "Relevant to FDA record-access authority, but FSMA 204 has its own specific record and 24-hour sortable-export requirements."
-      }
-    ],
-    "notMvpRules": [
-      {
-        "title": "Laboratory Accreditation for Analyses of Foods",
-        "docket": "FDA-2019-N-3325",
-        "issued_date": "2021/12",
-        "applicability": "not_mvp",
-        "trace_ready_priority": "do_not_implement_now",
-        "source_role": "lab_accreditation",
-        "reason": "Lab accreditation is not traceability record readiness."
-      },
-      {
-        "title": "Mitigation Strategies to Protect Food Against Intentional Adulteration",
-        "docket": "FDA-2013-N-1425",
-        "issued_date": "2016/05",
-        "applicability": "not_mvp",
-        "trace_ready_priority": "do_not_implement_now",
-        "source_role": "food_defense",
-        "reason": "Food defense and intentional adulteration are outside the FSMA 204 traceability wedge."
-      },
-      {
-        "title": "Accredited Third-Party Certification",
-        "docket": "FDA-2011-N-0146",
-        "issued_date": "2015/11",
-        "applicability": "not_mvp",
-        "trace_ready_priority": "do_not_implement_now",
-        "source_role": "certification_body_accreditation",
-        "reason": "This governs certification-body accreditation, not TraceReady audit-readiness checks."
-      },
-      {
-        "title": "Current Good Manufacturing Practice and Hazard Analysis and Risk-Based Preventive Controls for Food for Animals",
-        "docket": "FDA-2011-N-0922",
-        "issued_date": "2015/09",
-        "applicability": "not_current_scope",
-        "trace_ready_priority": "do_not_implement_now",
-        "source_role": "animal_food_safety",
-        "reason": "TraceReady's current wedge is FDA-regulated human food on the Food Traceability List. Animal food is not on the current FTL."
-      },
-      {
-        "title": "Information Required in Prior Notice of Imported Food",
-        "docket": "FDA-2011-N-0179",
-        "issued_date": "2013/05",
-        "applicability": "future_import_adjacency",
-        "trace_ready_priority": "do_not_implement_now",
-        "source_role": "import_notice",
-        "reason": "Import notice workflow is adjacent only if TraceReady later expands into import compliance operations."
-      },
-      {
-        "title": "Criteria Used to Order Administrative Detention of Food for Human or Animal Consumption",
-        "docket": "FDA-2011-N-0197",
-        "issued_date": "2013/02",
-        "applicability": "not_mvp",
-        "trace_ready_priority": "do_not_implement_now",
-        "source_role": "enforcement_authority",
-        "reason": "Administrative detention is FDA enforcement authority, not customer traceability-readiness workflow."
-      },
-      {
-        "title": "Implementation of FSMA Amendments to the Reportable Food Registry Provisions",
-        "docket": "FDA-2013-N-0590",
-        "issued_date": "2014/03",
-        "applicability": "not_mvp",
-        "trace_ready_priority": "do_not_implement_now",
-        "source_role": "reporting_registry",
-        "reason": "Reportable Food Registry workflow is not part of the FSMA 204 MVP."
-      }
-    ],
-    "ingestionPolicy": [
-      "Use eCFR 21 CFR Part 1 Subpart S as codified legal truth for executable rule logic.",
-      "Use FDA Food Traceability List as product-scope truth.",
-      "Use FDA guidance and small-entity guides as interpretation support, not as override authority.",
-      "Track proposed rules and compliance-date changes as regulatory-change signals, not final executable rules unless finalized or legally directed.",
-      "Keep adjacent FSMA rules as customer context until TraceReady intentionally expands beyond FSMA 204 traceability readiness."
-    ]
+ "sourceId": "fr-2026-cottage-cheese-exemption",
+ "url": "https://www.federalregister.gov/documents/2026/02/20/2026-03362/requirements-for-additional-traceability-records-for-certain-foods-exemption-for-cottage-cheese",
+ "rawArtifact": "data/regulatory/fr-2026-cottage-cheese-exemption/raw/fr-2026-cottage-cheese-exemption.pdf",
+ "rawTextHash": "f4ea9f502936b83637dd9f0a3de4e6d961aa9c88a9b78f2d4d6e32ec1e5dfdbe",
+ "contentType": "application/pdf",
+ "sectionsExtracted": 5,
+ "reingestedFrom": "local raw PDF (federalregister.gov blocks programmatic fetch); 2026-07-07 corpus-integrity remediation",
+ "chunks": [
+  {
+   "chunk_id": "fr-2026-cottage-cheese-exemption-1",
+   "source_id": "fr-2026-cottage-cheese-exemption",
+   "section_label": "Document",
+   "section": "document",
+   "text": "DEPARTMENT OF HEALTH AND\nHUMAN SERVICES\nFood and Drug Administration\n[Docket No. FDA–2024–N–1939]\nRequirements for Additional\nTraceability Records for Certain\nFoods; Exemption for Cottage Cheese\nRegulated by the National Conference\non Interstate Milk Shipments Grade\nPasteurized Milk Ordinance\nAGENCY: Food and Drug Administration,\nHHS.\nACTION: Notification of exemption.\nSUMMARY: The Food and Drug\nAdministration (FDA, the Agency, or\nwe) is announcing that we are granting\nan exemption for certain cottage cheese\nproducts from the requirements of the\nrule titled ‘‘Requirements for Additional\nTraceability Records for Certain Foods’’\n(the Food Traceability Rule). The\nAgency is taking this action in\naccordance with the FDA Food Safety\nModernization Act and FDA’s\nimplementing regulations.\nDATES: This exemption is effective on\nFebruary 20, 2026.\nADDRESSES: For access to the docket to\nread background documents or\ncomments received, go to https://\nwww.regulations.gov and insert the\ndocket number found in brackets in the\nheading of this document into the\n‘‘Search’’ box and follow the prompts,\nand/or go to the Dockets Management\nStaff, 5630 Fishers Lane, Rm. 1061,\nRockville, MD 20852.\nFOR FURTHER INFORMATION CONTACT:\nKatie Vierk, Office of Surveillance\nStrategy and Risk Prioritization, Human\nFoods Program, Food and Drug\nAdministration, 5001 Campus Dr.,\nCollege Park, MD 20740, 240–402–2122,\nKatherine.Vierk@fda.hhs.gov; or Alissa\nVan Wie, Office of Policy and\nInternational Engagement, Human\nFoods Program, Food and Drug\nAdministration, 5001 Campus Dr.,\nCollege Park, MD 20740, 240–654–7524,\nAlissa.VanWie@fda.hhs.gov.\nSUPPLEMENTARY INFORMATION:"
+  },
+  {
+   "chunk_id": "fr-2026-cottage-cheese-exemption-2",
+   "source_id": "fr-2026-cottage-cheese-exemption",
+   "section_label": "I. Background",
+   "section": "I",
+   "text": "I. Background\nOn November 21, 2022, FDA\npublished in the Federal Register (87\nFR 70910) a final rule titled\n‘‘Requirements for Additional\n1SECITON Traceability Records for Certain Foods’’\n(the Food Traceability Rule), which\nestablished additional recordkeeping\nhtiw\nrequirements for persons who\nDORP32NQX11KSD\nmanufacture, process, pack, or hold\nfoods the Agency has designated for\ninclusion on the Food Traceability List\nno\n(FTL). In the preamble to the final rule,\nwe announced our intention to consider\ninitiating a process under the new\nregulation (codified in subpart S of part\n1 of title 21 of the Code of Federal\nRegulations (CFR)) to determine\nwhether to exempt cottage cheese\nregulated under the Grade ‘‘A’’\nPasteurized Milk Ordinance (PMO) from\nthe requirements of the Food to\n‘‘A’’ Traceability Rule (87 FR 70910 at of\n70932).\nOn June 17, 2024, FDA published a\nnotice in the Federal Register (89 FR\n51281) (‘‘2024 Notice’’) announcing that\nthe Agency was initiating a process in\naccordance with §1.1360 (21 CFR\n1.1360) et seq. to determine whether it to\nwould be appropriate to exempt Grade\n‘‘A’’ cottage cheese that appears on the\nInterstate Milk Shippers (IMS) List\n(‘‘IMS listed Grade ‘‘A’’ cottage cheese’’)\nfrom the Food Traceability Rule. FDA\nreceived several comments in response\nto the notice of the proposed exemption, and\nas discussed below. In this notice we are\nannouncing our determination that\ngranting this exemption is appropriate,\nand we are therefore granting the\nexemption.\nThis action exempts entities that the\nhandle IMS listed Grade ‘‘A’’ cottage and\ncheese from the regulatory requirements\nof the Food Traceability Rule that would\notherwise apply to their handling of that\nproduct. that\nof"
+  },
+  {
+   "chunk_id": "fr-2026-cottage-cheese-exemption-3",
+   "source_id": "fr-2026-cottage-cheese-exemption",
+   "section_label": "II. IMS Listed Grade ‘‘A’’ Cottage",
+   "section": "II",
+   "text": "II. IMS Listed Grade ‘‘A’’ Cottage\nCheese\nAs noted in the 2024 Notice, cottage\ncheese is currently covered by the Food\nTraceability Rule because it is included\non the FTL in the commodity ‘‘Cheese\n(made from pasteurized milk), fresh soft\nor soft unripened.’’ However, FDA\nrecognizes that much of the cottage and\ncheese produced in the United States is we\nregulated through the National\nConference on Interstate Milk that\nShipments (NCIMS). NCIMS is a IMS\ncooperative program among the United\nStates Public Health Service (USPHS), of\nFDA, the States, and the dairy industry,\nwith the objective of promoting the\navailability of a high-quality milk\nsupply (Ref. 1 and Ref. 2). FDA and\nNCIMS have together developed a\ncooperative, Federal-State program (the\nInterstate Milk Shippers Program, or\nIMS Program) to ensure the sanitary\nquality of milk and milk products\nshipped interstate. All 50 States and the\nDistrict of Columbia participate in the the\nIMS Program.\nThe IMS Program is implemented and\nenforced by the States, with FDA\nproviding oversight, including\nscientific, technical, and inspection\nexpertise as set forth in an active 1977 or\nMemorandum of Understanding (MOU)\nbetween FDA and NCIMS (Ref. 2). As\ndescribed in the MOU, the IMS Program\nrelies on the Pasteurized Milk\nOrdinance (PMO). The PMO\nincorporates relevant Federal\nrequirements and related technical\ndocuments for the sanitary standards,\nrequirements, and procedures it follows\nensure the safety and wholesomeness\nGrade ‘‘A’’ milk and milk products,\nincluding cottage cheese. FDA considers\nthese standards, requirements, and\nprocedures to be adequate for the\nprotection of the health and safety of the\nconsumer (Ref. 2). The NCIMS\nrecommends changes and modifications\nthe PMO and other related technical\ndocuments at its biennial conferences\n(Ref. 3). This ensures that the PMO\nrepresents the most current science-\nbased knowledge and experience\nconcerning the safe production and\nprocessing of Grade ‘‘A’’ milk products\nincorporates the latest Federal\nrequirements for food safety (Ref. 3).\nThe discussion of the PMO in the\n2024 Notice was based on the 2019\nRevision of the PMO. On August 9,\n2024, FDA announced the availability of\n2023 Revision of the PMO (Ref. 4\nRef. 5). This revision does not\ninclude any significant changes to the\nprocessing requirements for cottage\ncheese. We noted in the 2024 Notice\nwe did not expect future revisions\nthe PMO to deviate from the 2019\nRevision in material ways that would\naffect our conclusion that IMS listed\nGrade ‘‘A’’ cottage cheese should be\nexempt from the requirements of\nsubpart S, nor did we think past\nrevisions were materially different in\nways that would affect this conclusion.\nThis continues to be our expectation,\nafter reviewing the 2023 Revision\nhave concluded that it does not\ndeviate from the 2019 Revision in ways\nare material to our conclusion that\nlisted Grade ‘‘A’’ cottage cheese\nshould be exempt from the requirements\nsubpart S.\nInterstate milk and milk product\nshippers who have been certified by\nMilk Sanitation Rating Officers as\nhaving attained certain identified\nsanitation compliance, and enforcement\nratings are listed on the IMS List. Such\ncertification is based on compliance\nwith the requirements of the PMO. The\n2024 Notice proposed to exempt IMS\nlisted Grade ‘‘A’’ cottage cheese from\nrequirements of the Food\nTraceability Rule because of the specific\nprocessing requirements specified in the\nPMO that address the risk factors that\nresulted in the commodity ‘‘Cheese\n(made from pasteurized milk), fresh soft\nsoft unripened’’ being on the FTL\n(and that therefore resulted in cottage\ncheese being on the FTL), and because\nof the enhanced regulatory oversight of\nthe manufacturing of IMS listed Grade\n‘‘A’’ cottage cheese. As discussed below,\nthis document affirms that conclusion."
+  },
+  {
+   "chunk_id": "fr-2026-cottage-cheese-exemption-4",
+   "source_id": "fr-2026-cottage-cheese-exemption",
+   "section_label": "III. Comments on Notice of Proposed",
+   "section": "III",
+   "text": "III. Comments on Notice of Proposed\nExemption\nFDA received several comments in\nresponse to the 2024 Notice. We\nsummarize and respond to relevant\nportions of comments in this notice. To\nmake it easier to identify comments and\nFDA’s responses to the comments, the\nword ‘‘Comment’’ will appear in\nparentheses before the description of\ncomment, and the word ‘‘Response’’\nwill appear in parentheses before FDA’s\nresponse. We have also numbered each\ncomment to help distinguish between\ndifferent comments. The number\nassigned to each comment is for\norganizational purposes only and does\nnot signify the comment’s value,\nimportance, or the order in which it was\nsubmitted.\n(Comment 1) Several comments assert\nthat an exemption for IMS listed Grade\n‘‘A’’ cottage cheese would reduce the\nregulatory burden without\ncompromising food safety. These\ncomments also maintain that that the\nprimary risks associated with cottage\ncheese, specifically contamination with\nListeria monocytogenes, are adequately\nmitigated through the PMO’s\nrequirements for pasteurization,\nenvironmental controls, and regular\ninspections. Comments also assert that\nenhanced regulatory oversight through\nthe IMS Program provides ample\nsafeguards that render additional\ntraceability records unnecessary for IMS\nlisted Grade ‘‘A’’ cottage cheese.\n(Response 1) FDA agrees. As\ndiscussed in the 2024 Notice, with\nregard to IMS listed Grade ‘‘A’’ cottage\ncheese, we believe an exemption is\nappropriate because of the processing\nrequirements specified in the PMO that\naddress the risk factors that ultimately\nresulted in cottage cheese being\nincluded on the FTL as part of the\ncommodity ‘‘Cheese (made from\npasteurized milk), fresh soft or soft\nunripened,’’ and because of the\nenhanced regulatory oversight of the\nmanufacturing of IMS listed Grade ‘‘A’’\ncottage cheese through the IMS\nProgram.\n1SECITON (Comment 2): One comment\nmaintains it will be important to ensure\nthat future revisions of the PMO\nhtiw\ncontinue to uphold these stringent\nDORP32NQX11KSD\nstandards and that if any changes in the\nPMO weaken safety controls, the\nexemption should be reconsidered to\nno\nensure ongoing protection of public\nhealth.\n(Response 2) FDA agrees with this\ncomment. As noted in the 2024 Notice,\nthis exemption applies to any IMS listed\nGrade ‘‘A’’ cottage cheese, including\nGrade ‘‘A’’ cottage cheese regulated\nunder the 2019 Revision of the PMO or\nearlier revisions of the PMO (in\njurisdictions that might not have\nadopted the 2019 Revision) and any IMS\nlisted Grade ‘‘A’’ cottage cheese\nregulated under future revisions of the\nPMO, once such revisions are released\nand adopted. As discussed above, we the\nhave reviewed the 2023 Revision of the FTL\nthe PMO and concluded that it does not\ndeviate from the 2019 Revision in ways\nthat are material to our conclusion that\nIMS listed Grade ‘‘A’’ cottage cheese\nshould be exempt from the requirements\nof subpart S. Given that the PMO’s on\nrequirements are based on well-\nestablished scientific principles and\nprocesses, and given FDA’s own\ninvolvement in the PMO and the Grade\n‘‘A’’ program (along with the still\ninvolvement of other public health\ngovernmental entities), we do not expect\nfuture revisions of the PMO to deviate\nfrom the 2019 and 2023 Revisions in\nmaterial ways that would affect this IMS\nconclusion. If we subsequently\ndetermine that it is necessary to revise\nor revoke the exemption in order to\nprotect the public health—either\nbecause of changes to the PMO or for\nany other reason—we will follow the\nprocedures set forth in §§1.1395 and the\n1.1400 (21 CFR 1.1395 and 1.1400). in\n(Comment 3) Some comments IMS\nmaintain that given the rise in\npopularity of cottage cheese as a protein\nsource, the exemption could lower\nmanufacturing costs and increase\nproduction and sales. They assert that\nthese cost reductions should be passed\non to consumers, and the exemption the\nshould not come at the risk of public\nhealth.\n(Response 3) FDA agrees that any\nexemption from the requirements of the\nFood Traceability Rule should be based\non the risk to public health. As noted\nabove, FDA is finalizing this exemption\nin accordance with §1.1360 et seq.\nSection 1.1360(a) states, in part, that the\nFDA will exempt a food or type of entity\nfrom the Food Traceability Rule when that\nwe determine that application of the that\nrequirements that would otherwise\napply to the food or type of entity is not\nnecessary to protect the public health.\nWe are exempting IMS listed Grade ‘‘A’’\ncottage cheese from the requirements of are\nthe Food Traceability Rule because the\nprocessing requirements specified in the\nPMO address the risk factors that\nresulted in cottage cheese being\nincluded on the FTL, and because of the\nenhanced regulatory oversight of the\nmanufacturing of IMS listed Grade ‘‘A’’\ncottage cheese through the IMS\nProgram. The popularity of cottage\ncheese as a protein source and the\npotential impact of the exemption on\nmanufacturers’ production costs are not\nrelevant to the standard set forth in\n§1.1360(a) and therefore were not\nconsidered in our evaluation to\ndetermine whether an exemption is\nappropriate.\n(Comment 4) One comment notes that\ninclusion of cottage cheese on the\nwas based on a comprehensive risk-\nranking model, which identified\n‘‘Cheese (made from pasteurized milk),\nfresh soft or soft ripened’’ as having a\nsignificant risk of contamination by\nListeria monocytogenes, primarily based\nthe potential for post-pasteurization\ncontamination. The comment expresses\nconcern that the proposed exemption\noverlooks that environmental risks\nassociated with such contamination are\nsubstantial, and maintains that\nensuring traceability is essential for\npromptly identifying and mitigating\npublic health risks. The comment also\ncontends that the effectiveness of the\nProgram heavily depends on\nconsistent implementation and\nenforcement across all states.\n(Response 4) FDA disagrees with this\ncomment insofar as it argues that\nexempting IMS listed Grade ‘‘A’’ cottage\ncheese would have an adverse effect on\npublic health. As described in detail\nthe 2024 Notice, manufacturers of\nlisted Grade ‘‘A’’ cottage cheese\nmust comply with PMO requirements\nintended to control pathogens during\npasteurization and to prevent\ncontamination during post-\npasteurization processing (Ref. 5).\nAdditionally, there are requirements in\nPMO pertaining to information that\nmust be documented in records, and\nprovisions that dictate inspectional and\nsampling frequencies (Ref. 5). We have\nconcluded that these measures provide\nprotections adequate to address the risk\nfactors that resulted in the commodity\n‘‘Cheese (made from pasteurized milk),\nfresh soft or soft unripened’’ being on\nFTL.\nMore specifically, FDA recognizes\nthe cottage cheese processing steps\noccur after milk pasteurization but\nprior to packaging can present a risk for\ncontamination of in-process food with\nenvironmental pathogens, such as L.\nmonocytogenes, if sanitary conditions\nnot maintained. However, we\nbelieve the post-pasteurization\nprocessing requirements included in the\nPMO adequately address these risk\nfactors. The PMO contains specific\nrequirements for the control of critical\nfactors including, but not limited to,\nfilling temperature, and the use of\nmicrobial inhibitors and preservatives\naddress post-pasteurization\ncontamination (Ref. 3).\nFinally, we note that this exemption\nfrom the Food Traceability Rule’s\nenhanced recordkeeping requirements\ndoes not alter the applicability of other\nlaws and regulations related to the\nmanufacturing, processing, packing, or\nholding of food. Furthermore, in\naccordance with §1.1360(b), if a person\nto whom this exemption applies\n(including a person who manufactures,\nprocesses, packs, or holds IMS listed\nGrade ‘‘A’’ cottage cheese) is required\nregister with FDA under section 415 of\nthe Federal Food, Drug, and Cosmetic\nAct (FD&C Act) (per the requirements\n21 CFR part 1, subpart H) with respect\nto the manufacturing, processing,\npacking, or holding of the applicable\nfood, such person must maintain\nrecords identifying the immediate\nprevious source of such food and the\nimmediate subsequent recipient of such\nfood in accordance with §§1.337 and\n1.345 (21 CFR 1.337 and 1.345). Such\nrecords must be maintained for 2 years.\n(Comment 5) One comment questions\nthe need to exempt cottage cheese from\nthe Food Traceability Rule while other\ndairy products are not exempted. The\ncomment maintains that despite the\ncontrols put in place by the PMO,\ncottage cheese still falls into the\ncategory of higher-risk dairy products.\nThis comment also asserts that despite\nthe enhanced regulatory oversight\nprovided by the IMS Program and the\nPMO, cottage cheese manufactured in\nthe U.S. is already below international\nquality standards, and it is unclear how\nlowering the safety standards could be\nbeneficial for end consumers.\n(Response 5) There are many dairy\nproducts that are not included on the\nFTL and therefore are not subject to the\nFood Traceability Rule. Of the dairy\nproducts that are on the FTL, cottage\ncheese is the only one that is addressed\nby the PMO. As noted above, FDA has\nconcluded that the requirements and\nother provisions associated with IMS\nlisted Grade ‘‘A’’ cottage cheese are\nadequate to address the risk factors that\nresulted in the commodity ‘‘Cheese\n(made from pasteurized milk), fresh soft\nor soft unripened’’ being on the FTL.\nThe comment does not indicate which\n1SECITON international quality standards they are\nreferring to; regardless, food quality\nmeasures do not necessarily ensure food\nhtiw\nsafety. In addition, we note that\nDORP32NQX11KSD\nexempting IMS listed Grade ‘‘A’’ cottage\ncheese from the Food Traceability Rule\ndoes not lower safety standards; rather,\nno\nit reflects the determination that\npH, existing regulatory requirements that\napplicable to these products make it\nto unnecessary to apply the recordkeeping\nrequirements of the Food Traceability not\nRule.\n(Comment 6) One comment maintains\nthat in modern society, consumers value\ntransparency and accountability in the\nfood supply chain. The comment asserts\nthat the proposal to exempt certain\nproducts from a rule previously in place\ncould erode consumer confidence, 6,\nparticularly if there are subsequent food\nsafety incidents involving cottage this\ncheese or similar products. The our\ncomment argues that ensuring full\nto traceability aligns with FDA’s mission\nto protect public health and reinforces IMS\nthe Agency’s credibility.\nof (Response 6) In the preamble to the\nFood Traceability Rule, FDA announced\nthat we were considering initiating a\nprocess to determine whether to exempt that\ncottage cheese regulated under the PMO\nfrom the rule’s requirements (87 FR\n70910 at 70932). We have taken steps to\nfinalize this exemption prior to the\nIV.\nrule’s compliance date. We therefore do\nnot agree with the comment’s\nimplication that this exemption will be the\ninconsistent with consumers’\nexpectations.\nMore generally, while we\nacknowledge the goals expressed in the\ncomment, FDA’s authority to of\npromulgate the Food Traceability Rule\nstems from section 204(d) of the FDA\nFood Safety Modernization Act (FSMA),\nunder which the rule’s requirements\nmust be limited to foods §§the Agency\ndesignates for inclusion on the Food\nTraceability List. The rule’s procedures\nin 21 CFR 1.1360 et seq. for granting\nmodified requirements and exemptions the\nstem from section 204(d)(6)(E) of FSMA. the\nIn keeping with both of those that\nprovisions, FDA may exempt a food or\ntype of entity from the rule’s\nrequirements when we determine that\napplication of the requirements that\nwould otherwise apply to the food or\ntype of entity is not necessary to protect\nthe public health. As stated above, we\nbelieve an exemption for IMS listed\nGrade ‘‘A’’ cottage cheese is appropriate\nbecause of the processing requirements we\nspecified in the PMO that address the\nrisk factors that resulted in cottage\ncheese being included on the FTL, and\nbecause of the enhanced regulatory\noversight of the manufacturing of IMS\nlisted Grade ‘‘A’’ cottage cheese through\nthe IMS Program. If we subsequently\ndetermine that it is necessary to revise\nor revoke the exemption for these\nproducts in order to protect the public\nhealth, we will follow the procedures the\nset forth in §§1.1395 and 1.1400.\n(Comment 7) One comment asserts\nwhile cottage cheese is currently\nstrictly monitored under the NCIMS\nbased on the PMO standards, there have\nbeen any significant changes to the\ncurrent PMO regulations that would\nprompt the potential exclusion of\ncottage cheese from the Food\nTraceability Rule.\n(Response 7) This exemption is not\nbased on changes to the PMO\nrequirements. As discussed in Response\nFDA’s announcement that we were\nconsidering initiating the process for\nexemption was simultaneous with\npublication of the Food Traceability\nRule. Moreover, as discussed in\nResponse 2, this exemption applies to\nlisted Grade ‘‘A’’ cottage cheese\nregulated under earlier revisions of the\nPMO (in jurisdictions that might not\nhave adopted the 2019 Revision or the\n2023 Revision), because we do not think\npast revisions were materially\ndifferent in ways that would affect our\nconclusion that this exemption is\nappropriate.\nConclusion\nAs discussed above and as set forth in\n2024 Notice, we proposed\nexempting IMS listed Grade ‘‘A’’ cottage\ncheese from the requirements of the\nFood Traceability Rule because we\ntentatively concluded that application\nthe Food Traceability Rule to IMS\nlisted Grade ‘‘A’’ cottage cheese is not\nnecessary to protect the public health in\nlight of how such cottage cheese is\nregulated. Based on the comments\nreceived on the 2024 Notice, and as\ndiscussed above, we conclude an\nexemption for IMS listed Grade ‘‘A’’\ncottage cheese is appropriate because of\nprocessing requirements specified in\nPMO that address the risk factors\nresulted in cottage cheese being\nincluded on the FTL, and because of the\nenhanced regulatory oversight of the\nmanufacturing of IMS listed Grade ‘‘A’’\ncottage cheese through the IMS\nProgram.\nHaving considered all timely\nsubmitted comments, and in accordance\nwith 21 CFR 1.1385(b), we are\npublishing this document to state that\nare granting an exemption from the\nFood Traceability Rule for IMS listed\nGrade ‘‘A’’ cottage cheese, for the\nreasons stated above.\nWe note that, in accordance with\n§1.1360(b), if a person to whom this\nexemption applies (including a person\nwho manufactures, processes, packs, or\nholds IMS listed Grade ‘‘A’’ cottage\ncheese) is required to register with FDA\nunder section 415 of the FD&C Act (per\nrequirements of 21 CFR part 1,\nsubpart H) with respect to the\nmanufacturing, processing, packing, or\nholding of the applicable food, such\nperson must maintain records\nidentifying the immediate previous\nsource of such food and the immediate\nsubsequent recipient of such food in\naccordance with §§1.337 and 1.345.\nSuch records must be maintained for 2\nyears.\nIn accordance with 21 CFR 1.1390,\nthis exemption is effective as of the date\nthis document publishes in the Federal\nRegister."
+  },
+  {
+   "chunk_id": "fr-2026-cottage-cheese-exemption-5",
+   "source_id": "fr-2026-cottage-cheese-exemption",
+   "section_label": "V. References",
+   "section": "V",
+   "text": "V. References\nThe following references are on\ndisplay at the Dockets Management Staff\n(HFA–305), Food and Drug\nAdministration, 5630 Fishers Lane, Rm.\n1061, Rockville, MD 20852, 240–402–\n7500, and are available for viewing by\ninterested persons between 9 a.m. and\np.m., Monday through Friday; they are\nalso available electronically at http://\nwww.regulations.gov. Although FDA\nverified the website addresses in this\ndocument, please note that websites are\nsubject to change over time.\n1. FDA and NCIMS, ‘‘Procedures Governing\nthe Cooperative State-Public Health\nService/Food and Drug Administration\nProgram of the National Conference on\nInterstate Milk Shipment (2019\nRevision)’’, 2019. Available at https://\nwww.fda.gov/media/138115/\ndownload?attachment. Accessed April\n17, 2025.\n2. FDA and NCIMS, ‘‘Memorandum of\nUnderstanding Between the National\nConference on Interstate Milk Shipments\nand the Food and Drug Administration’’,\n1977. Available at: https://www.fda.gov/\nabout-fda/mou-225-78-1000. Accessed\nMarch 26, 2025.\n3. FDA, ‘‘Grade ‘‘A’’ Pasteurized Milk\nOrdinance (2019 Revision),’’ 2019.\nAvailable at: https://www.fda.gov/media/\n140394/download?attachment. Accessed\nApril 17, 2025.\n4. FDA Memorandum, ‘‘2023 Revision of the\nGrade ‘‘A’’ Pasteurized Milk Ordinance\n(PMO),’’ M–I–24–02, August 9, 2024.\nAvailable at: https://gams.fda.gov/active/\nM-I-24-02-PMO-2023-Revision.pdf.\nAccessed May 1, 2025.\n5. FDA, ‘‘Grade ‘‘A’’ Pasteurized Milk\nOrdinance (2023 Revision),’’ 2023.\nAvailable at: https://www.fda.gov/media/\n180975/download?attachment. Accessed\n1SECITON Type of information collection\nRegistration ................................................. Health\nhtiw Course/unit Evaluation ................................ Health\nDORP32NQX11KSD Follow-Up Survey ........................................ Health\nFocus Groups .............................................. Health\nKey Informant Interviews ............................. Health\nno\nApril 17, 2025.\nGrace R. Graham,\nDeputy Commissioner for Policy, Legislation,\nand International Affairs.\n[FR Doc. 2026–03362 Filed 2–19–26; 8:45 am]\nBILLING CODE 4164–01–P\nDEPARTMENT OF HEALTH AND\nHUMAN SERVICES\nand\n[Document Identifier: OS–0990–0407–60D]\nAgency Information Collection\nRequest. 60-Day Public Comment\nRequest\nAGENCY: Office of Minority Health, an\nOffice of the Secretary, Department of\nHealth and Human Services. and\nACTION: Notice.\nSUMMARY: In compliance with the\n4 requirement of the Paperwork\nReduction Act of 1995, the U.S.\nDepartment of Health and Human\nServices (HHS), Office of Minority\nHealth (OMH) is publishing the\nfollowing summary of a proposed\ncollection for public comment.\nDATES: Comments on the information\ncollection request (ICR) must be\nreceived on or before April 21, 2026.\nADDRESSES: Submit your comments to\nminorityhealthinfo@hhs.gov or by\ncalling (240) 453–0492.\nFOR FURTHER INFORMATION CONTACT:\nWhen submitting comments or\nrequesting information, please include\nthe document identifier OS–0990–0407–\n60D and project title ‘‘OMH Think\nCultural Health’’ for reference. Submit\nrequests to the HHS Office of Minority\nHealth, at minorityhealthinfo@hhs.gov for\nor by calling (240) 453–0492.\nSUPPLEMENTARY INFORMATION: Interested\npersons are invited to send comments\nregarding this burden estimate or any\nother aspect of this collection of and\ninformation, including any of the\nfollowing subjects: (1) The necessity and\nutility of the proposed information\ncollection for the proper performance of\nthe agency’s functions; (2) the accuracy\nof the estimated burden; (3) ways to\nenhance the quality, utility, and clarity\nof the information to be collected; and\n(4) the use of automated collection\nTOTAL ESTIMATED ANNUALIZED BURDEN—HOURS\nRespondents Number\nand Health Care Professionals ...................................\nand Health Care Professionals ...................................\nand Health Care Professionals ...................................\nand Health Care Professionals ...................................\nand Health Care Professionals ...................................\ntechniques or other forms of information\ntechnology to minimize the information\ncollection burden.\nTitle of the Collection: OMH Think\nCultural Health.\nType of Collection: Reinstatement\nwithout Change of a Previously\nApproved Collection.\nOMB No.: 0990–0407.\nAbstract: The Department of Health\nHuman Services (HHS), Office of\nMinority Health (OMH) is requesting\napproval by OMB on a reinstatement\nwithout change of a previously\napproved collection of information. The\nThink Cultural Health (TCH) website is\ninitiative of HHS OMH that provides\nresources and tools to promote cultural\nlinguistic competency in health and\nhealth care. The TCH website offers a\nsuite of e-learning programs that afford\nhealth and health care professionals the\nability to earn continuing education\ncredits through training in cultural and\nlinguistic competency.\nNeed and Proposed Use of the\nInformation: The data will be used to\nenable health and health care\nprofessionals to register for courses,\nobtain accredited continuing education\ncredits, and help ensure that TCH\nofferings remain relevant, useful, and\nresponsive to the needs of their target\naudiences. The findings from the data\ncollection will be of interest to HHS’s\nOMH in supporting maintenance and\nrevisions of the offerings on the TCH\nwebsite.\nLikely Respondents: Likely\nrespondents are users of the TCH e-\nlearning program(s) and/or e-\nresource(s). There are no requirements\nannual, quarterly or monthly\nresponses. A single respondent\ncompletes the registration process to\naccess an e-learning program or e-\nresource on the website only one time\ncompletes a course-specific\nevaluation form for each e-learning\nprogram course/unit or e-resource per\ncompletion. A respondent may be\ninvited to participate in the follow-up\nsurvey, a focus group, or a key\ninformant interview and will not be\nasked to participate in more than one\nfollow-up activity (i.e., survey, focus\ngroup, or key informant interview).\nNumber of Average Total\nof responses per burden per burden\nrespondents respondents response hours\n(minutes)\n118,352 1 3/60 5,918\n118,352 1 3/60 5,918\n4,208 1 10/60 701\n15 1 120/60 30\n13 1 60/60 13"
   }
+ ]
 }

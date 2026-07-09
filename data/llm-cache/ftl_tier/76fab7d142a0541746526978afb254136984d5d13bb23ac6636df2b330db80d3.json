@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "composite_food": false,
+      "confidence": 0.99,
+      "declared_category": "General grocery",
+      "declared_negative": false,
+      "matched_commodity": null,
+      "mismatch": false,
+      "product_id": "10860004520105",
+      "reasoning": "Canned shelf-stable tuna is explicitly excluded from the FTL finfish commodities, which do not include shelf-stable or canned fish.",
+      "tier": "definite_off"
+    }
+  ],
+  "key": "76fab7d142a0541746526978afb254136984d5d13bb23ac6636df2b330db80d3",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "ftl_tier",
+  "request_sha256": ""
+}

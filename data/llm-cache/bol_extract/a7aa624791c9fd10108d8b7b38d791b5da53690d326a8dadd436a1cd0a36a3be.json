@@ -1,0 +1,97 @@
+{
+  "items": [
+    {
+      "facts": {
+        "date_you_shipped_the_food": [
+          "09/19/2025"
+        ],
+        "destination_location_id": [
+          "2149 Boundary St, Beaufort SC 29901"
+        ],
+        "destination_location_name": [
+          "Sea Eagle Market"
+        ],
+        "email": [
+          "dispatch@sunriseseafood.example"
+        ],
+        "phone_number": [
+          "843-555-0134"
+        ],
+        "product_name": [
+          "White Shrimp Head on 13/15"
+        ],
+        "quantity": [
+          "2251.1"
+        ],
+        "reference_record_no": [
+          "BOL-88213"
+        ],
+        "reference_record_type": [
+          "BILL OF LADING"
+        ],
+        "source_location_id": [
+          "34 Hallmark Rd, St Helena Island SC 29920"
+        ],
+        "source_location_name": [
+          "Sunrise Seafood Packing"
+        ],
+        "traceability_lot_code": [
+          "2509190205"
+        ],
+        "unit": [
+          "LB"
+        ]
+      },
+      "line_number": 1
+    },
+    {
+      "facts": {
+        "date_you_shipped_the_food": [
+          "09/19/2025"
+        ],
+        "destination_location_id": [
+          "2149 Boundary St, Beaufort SC 29901"
+        ],
+        "destination_location_name": [
+          "Sea Eagle Market"
+        ],
+        "email": [
+          "dispatch@sunriseseafood.example"
+        ],
+        "phone_number": [
+          "843-555-0134"
+        ],
+        "product_name": [
+          "White Shrimp Head on 16/18"
+        ],
+        "quantity": [
+          "800"
+        ],
+        "reference_record_no": [
+          "BOL-88213"
+        ],
+        "reference_record_type": [
+          "BILL OF LADING"
+        ],
+        "source_location_id": [
+          "34 Hallmark Rd, St Helena Island SC 29920"
+        ],
+        "source_location_name": [
+          "Sunrise Seafood Packing"
+        ],
+        "traceability_lot_code": [
+          "2509190301"
+        ],
+        "unit": [
+          "LB"
+        ]
+      },
+      "line_number": 2
+    }
+  ],
+  "key": "a7aa624791c9fd10108d8b7b38d791b5da53690d326a8dadd436a1cd0a36a3be",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "bol_extract",
+  "request_sha256": "f8bb3586086bd7943b2771686ec02ed58d813352e3abadcaddcaf54c72e3909c"
+}

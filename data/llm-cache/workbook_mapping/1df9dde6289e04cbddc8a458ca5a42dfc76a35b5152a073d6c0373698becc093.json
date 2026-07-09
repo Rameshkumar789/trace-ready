@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "columns": [
+        {
+          "canonical_slug": "event_id",
+          "confidence": 1.0,
+          "header": "event_id",
+          "index": 1,
+          "why": "Exact match to canonical slug event_id"
+        },
+        {
+          "canonical_slug": "event_type",
+          "confidence": 1.0,
+          "header": "event_type",
+          "index": 2,
+          "why": "Exact match to canonical slug event_type; samples confirm mixed CTE types (receiving, transformation, shipping)"
+        },
+        {
+          "canonical_slug": "event_datetime",
+          "confidence": 1.0,
+          "header": "event_datetime",
+          "index": 3,
+          "why": "Exact match to canonical slug event_datetime"
+        },
+        {
+          "canonical_slug": "actor_location_id",
+          "confidence": 1.0,
+          "header": "actor_location_id",
+          "index": 4,
+          "why": "Exact match to canonical slug actor_location_id"
+        },
+        {
+          "canonical_slug": "reference_record_type",
+          "confidence": 1.0,
+          "header": "reference_record_type",
+          "index": 5,
+          "why": "Exact match to canonical slug reference_record_type"
+        },
+        {
+          "canonical_slug": "reference_record_no",
+          "confidence": 1.0,
+          "header": "reference_record_no",
+          "index": 6,
+          "why": "Exact match to canonical slug reference_record_no"
+        }
+      ],
+      "confidence": 0.82,
+      "record_kind": "kde_reference",
+      "sheet_name": "05_CTE_Events"
+    }
+  ],
+  "key": "1df9dde6289e04cbddc8a458ca5a42dfc76a35b5152a073d6c0373698becc093",
+  "method": "llm_cached",
+  "model": null,
+  "namespace": "workbook_mapping",
+  "request_sha256": ""
+}

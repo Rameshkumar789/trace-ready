@@ -1,0 +1,35 @@
+{
+  "_comment": "Retailer overlay card: Kroger's supplier traceability requirements (public EDI portal doc). Kroger requires an EDI 856 ASN for EVERY shipment of ALL foods (beyond the FTL) and the palletized barcode labels must match the ASN. Data, not code.",
+  "overlay_id": "kroger-asn",
+  "retailer": "Kroger",
+  "requirement_source": "customer_requirement",
+  "citation": {
+    "sourceType": "customer_requirement",
+    "source_id": "kroger-food-traceability-requirements",
+    "citation_anchor": "Kroger Food Traceability Requirements (EDI portal)",
+    "section_ref": "Kroger supplier requirements: 856 ASN for all foods; label/ASN consistency",
+    "support_text": "Kroger requires an EDI 856 ASN for every food shipment (all foods, not only the FTL) and requires pallet/case barcode labels (GS1-128) to match the ASN contents."
+  },
+  "rules": [
+    {
+      "rule_id": "kr-856-every-shipment",
+      "applies_to": "shipment",
+      "requirement": "asn_present_for_shipment",
+      "severity": "medium",
+      "note": "Evaluated by the pre-receipt/inbound path: a shipment without an ASN fails this customer requirement even when FDA KDEs are otherwise complete."
+    },
+    {
+      "rule_id": "kr-label-matches-asn",
+      "applies_to": "case_label",
+      "requirement": "label_fields_match_asn",
+      "severity": "medium",
+      "note": "GTIN/lot/date parsed from the GS1-128 case or pallet label must equal the ASN line values (see gs1.parse_gs1_element_string)."
+    },
+    {
+      "rule_id": "kr-gtin-products",
+      "applies_to": "product_identifier",
+      "requirement": "valid_gtin_check_digit",
+      "severity": "medium"
+    }
+  ]
+}

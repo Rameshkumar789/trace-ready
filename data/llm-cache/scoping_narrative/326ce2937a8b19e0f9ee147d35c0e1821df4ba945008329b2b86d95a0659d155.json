@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "narrative": "This audit covers 761 traceability events recorded between 2025-01-03 and 2025-09-23, spanning 32 products all of which fall into the definite_on tier of the Food Traceability List. Across those events, 551 are shipping, 145 are transformation, 64 are first land-based receiving, and 1 is receiving. The business transacts with 29 external trading partners, all rated Band A, and logged 216 internal transfer events with 0 unknown-destination events during the period.\n\nThe audit surfaced 15 findings in total \u2014 5 rated high severity and 10 rated medium. The most pressing issues are the 5 high-severity findings, which include a traceability plan gap, scope or exemption uncertainty on 2 products, and lot-integrity problems that together flag 41 duplicate TLC records, 6 backward-lineage lots needing review, 1 mass-balance anomaly, 1 self-receive anomaly, and 1 transformation-linkage anomaly. KDE completeness is strong at a 96.92% coverage rate, but 209 of 6,785 graded KDE fields are still missing. Two products \u2014 IDs 04598767000211 and 04598767000495 \u2014 are declared as General products in the system yet score as definite_on for the Food Traceability List, creating a direct compliance misclassification risk.\n\nThe immediate priorities are: first, resolve the traceability plan finding and the 2 scope-or-exemption-uncertainty findings before any regulatory review, as these are high-severity and foundational; second, reclassify products 04598767000211 and 04598767000495 from General products to the correct Food Traceability List category in the Product Master; third, work through the 41 duplicate TLC records and the 6 backward-lineage lots flagged as needs_review in the lot-integrity module, then address the single date-ordering, mass-balance, self-receive, and transformation-linkage anomalies in sequence; finally, locate and populate the 209 missing KDE fields to close the gap between the current 96.92% rate and full coverage."
+    }
+  ],
+  "key": "326ce2937a8b19e0f9ee147d35c0e1821df4ba945008329b2b86d95a0659d155",
+  "method": "llm_live",
+  "model": "claude-sonnet-4-6",
+  "namespace": "scoping_narrative",
+  "request_sha256": "3665283ccf058b39d6b3822077c9fd0236699501ba44540eb4634379aeb9a6d8"
+}
